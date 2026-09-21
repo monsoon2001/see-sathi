@@ -1,0 +1,92 @@
+{
+  "title": "Specification Grid",
+  "subject": "Computer Science",
+  "grade": 10,
+  "full_marks": 50,
+  "time": "2 Hours",
+  "guidelines": [
+    "The types and number of questions, marks, and time allocation should follow the specific grid.",
+    "The item format in composite questions should comply with the specification grid.",
+    "The designated weightage of the units/content areas should be maintained.",
+    "For Short Question (SQ) and Long Question (LQ), one mark should be assigned for each key element expected as the correct response.",
+    "The distribution of cognitive domains should be approximately 20% Knowledge, 30% Understanding, 30% Application, and 20% Higher Ability.",
+    "SQ and LQ may be structured into two or more sub-items and, where appropriate, may address more than one cognitive behaviour."
+  ],
+  "item_plan_and_marks_distribution": [
+    {
+      "s_n": 1,
+      "area_unit": "Computer Network and Communication",
+      "working_hour": 14,
+      "full_marks": 11,
+      "knowledge": { "MCQ": 1, "S": 0, "L": 0 },
+      "understanding": { "MCQ": 1, "S": 1, "L": 1 },
+      "application": { "MCQ": 1, "S": 1, "L": 0 },
+      "higher_ability": { "MCQ": 0, "S": 0, "L": 0 },
+      "total_questions": { "MCQ": 3, "S": 2, "L": 1 }
+    },
+    {
+      "s_n": 2,
+      "area_unit": "Database Management System",
+      "working_hour": 10,
+      "full_marks": 8,
+      "knowledge": { "MCQ": 1, "S": 1, "L": 1 },
+      "understanding": { "MCQ": 0, "S": 0, "L": 0 },
+      "application": { "MCQ": 1, "S": 0, "L": 0 },
+      "higher_ability": { "MCQ": 0, "S": 0, "L": 0 },
+      "total_questions": { "MCQ": 2, "S": 1, "L": 1 }
+    },
+    {
+      "s_n": 3,
+      "area_unit": "Multimedia",
+      "working_hour": 10,
+      "full_marks": 8,
+      "knowledge": { "MCQ": 1, "S": 0, "L": 0 },
+      "understanding": { "MCQ": 0, "S": 1, "L": 1 },
+      "application": { "MCQ": 1, "S": 0, "L": 0 },
+      "higher_ability": { "MCQ": 0, "S": 0, "L": 0 },
+      "total_questions": { "MCQ": 2, "S": 1, "L": 1 }
+    },
+    {
+      "s_n": 4,
+      "area_unit": "Programming in Python",
+      "working_hour": 16,
+      "full_marks": 12,
+      "knowledge": { "MCQ": 1, "S": 0, "L": 0 },
+      "understanding": { "MCQ": 0, "S": 0, "L": 0 },
+      "application": { "MCQ": 0, "S": 2, "L": 1 },
+      "higher_ability": { "MCQ": 1, "S": 1, "L": 0 },
+      "total_questions": { "MCQ": 2, "S": 3, "L": 1 }
+    },
+    {
+      "s_n": 5,
+      "area_unit": "AI and Contemporary Technologies",
+      "working_hour": 14,
+      "full_marks": 11,
+      "knowledge": { "MCQ": 0, "S": 0, "L": 0 },
+      "understanding": { "MCQ": 0, "S": 1, "L": 0 },
+      "application": { "MCQ": 0, "S": 1, "L": 0 },
+      "higher_ability": { "MCQ": 1, "S": 1, "L": 1 },
+      "total_questions": { "MCQ": 1, "S": 3, "L": 1 }
+    }
+  ],
+  "totals": {
+    "working_hour": 64,
+    "full_marks": 50,
+    "knowledge": { "MCQ": 4, "S": 1, "L": 1 },
+    "understanding": { "MCQ": 1, "S": 3, "L": 2 },
+    "application": { "MCQ": 3, "S": 4, "L": 1 },
+    "higher_ability": { "MCQ": 2, "S": 2, "L": 1 },
+    "total_questions": { "MCQ": 10, "S": 10, "L": 5 }
+  },
+  "cognitive_domain_percentage": {
+    "knowledge": "20%",
+    "understanding": "30%",
+    "application": "30%",
+    "higher_ability": "20%"
+  },
+  "legend": {
+    "MCQ": "Multiple Choice Question",
+    "S": "Short Question (SQ)",
+    "L": "Long Question (LQ)"
+  }
+}

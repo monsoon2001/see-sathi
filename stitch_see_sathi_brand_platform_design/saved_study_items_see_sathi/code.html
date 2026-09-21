@@ -1,0 +1,523 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+          "on-surface": "#181a2b",
+          "on-secondary-container": "#590800",
+          "on-primary-container": "#e5e4ff",
+          "surface-container-lowest": "#ffffff",
+          "on-error-container": "#93000a",
+          "error": "#ba1a1a",
+          "surface-container-low": "#f4f2ff",
+          "outline": "#767587",
+          "secondary": "#b5250c",
+          "on-secondary": "#ffffff",
+          "secondary-fixed-dim": "#ffb4a5",
+          "on-tertiary": "#ffffff",
+          "on-background": "#181a2b",
+          "primary": "#2f30da",
+          "on-secondary-fixed-variant": "#8e1300",
+          "surface": "#fbf8ff",
+          "surface-variant": "#e1e1f8",
+          "secondary-fixed": "#ffdad3",
+          "on-error": "#ffffff",
+          "surface-dim": "#d8d8ef",
+          "tertiary-fixed": "#7cfbb1",
+          "on-tertiary-fixed": "#002110",
+          "on-primary-fixed": "#04006d",
+          "on-tertiary-container": "#7ffeb3",
+          "inverse-primary": "#c0c1ff",
+          "tertiary": "#005b34",
+          "tertiary-container": "#007645",
+          "outline-variant": "#c6c4d8",
+          "surface-container-high": "#e6e6fe",
+          "error-container": "#ffdad6",
+          "background": "#fbf8ff",
+          "on-tertiary-fixed-variant": "#00522f",
+          "on-primary": "#ffffff",
+          "inverse-on-surface": "#f1efff",
+          "secondary-container": "#fd583a",
+          "surface-bright": "#fbf8ff",
+          "primary-container": "#4b4ff2",
+          "on-surface-variant": "#454556",
+          "surface-container-highest": "#e1e1f8",
+          "primary-fixed": "#e1e0ff",
+          "on-primary-fixed-variant": "#2423d2",
+          "primary-fixed-dim": "#c0c1ff",
+          "on-secondary-fixed": "#3f0400",
+          "surface-tint": "#4145e9",
+          "inverse-surface": "#2d2f41",
+          "tertiary-fixed-dim": "#5ede96",
+          "surface-container": "#edecff"
+        },
+        "borderRadius": {
+          "DEFAULT": "1rem",
+          "lg": "2rem",
+          "xl": "3rem",
+          "full": "9999px"
+        },
+        "spacing": {
+          "gutter-sm": "1rem",
+          "margin-sm": "1rem",
+          "space-xl": "2.5rem",
+          "space-lg": "1.5rem",
+          "space-sm": "0.5rem",
+          "gutter": "1.5rem",
+          "margin": "2rem",
+          "space-xs": "0.25rem",
+          "space-md": "1rem"
+        },
+        "fontFamily": {
+          "headline-lg": ["Plus Jakarta Sans"],
+          "display-hero-mobile": ["Plus Jakarta Sans"],
+          "body-sm": ["Inter"],
+          "label-md": ["Inter"],
+          "headline-md": ["Plus Jakarta Sans"],
+          "body-md": ["Inter"],
+          "headline-sm": ["Plus Jakarta Sans"],
+          "body-lg": ["Inter"],
+          "title": ["Plus Jakarta Sans"],
+          "label-caps": ["Inter"],
+          "display-hero": ["Plus Jakarta Sans"],
+          "headline-lg-mobile": ["Plus Jakarta Sans"]
+        },
+        "fontSize": {
+          "headline-lg": ["32px", {"lineHeight": "38px", "letterSpacing": "-0.025em", "fontWeight": "700"}],
+          "display-hero-mobile": ["34px", {"lineHeight": "38px", "letterSpacing": "-0.025em", "fontWeight": "800"}],
+          "body-sm": ["13px", {"lineHeight": "18px", "fontWeight": "400"}],
+          "label-md": ["12px", {"lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600"}],
+          "headline-md": ["24px", {"lineHeight": "30px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+          "body-md": ["14px", {"lineHeight": "22px", "fontWeight": "400"}],
+          "headline-sm": ["20px", {"lineHeight": "26px", "letterSpacing": "-0.015em", "fontWeight": "600"}],
+          "body-lg": ["16px", {"lineHeight": "26px", "letterSpacing": "-0.005em", "fontWeight": "400"}],
+          "title": ["16px", {"lineHeight": "22px", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+          "label-caps": ["11px", {"lineHeight": "14px", "letterSpacing": "0.06em", "fontWeight": "700"}],
+          "display-hero": ["48px", {"lineHeight": "52px", "letterSpacing": "-0.03em", "fontWeight": "800"}],
+          "headline-lg-mobile": ["26px", {"lineHeight": "32px", "letterSpacing": "-0.02em", "fontWeight": "700"}]
+        }
+      }
+    }
+  }</script></head><body class="bg-background font-body-md text-on-surface selection:bg-primary-fixed selection:text-on-primary-fixed"><header class="fixed top-0 inset-x-0 z-50 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-7xl mx-auto px-margin-sm lg:px-margin flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-sm shrink-0"><a class="flex items-center gap-space-sm" data-path="subjects" href="#"><img alt="SEE Sathi Official Brand Logo" class="h-9 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VfqreKytT0I8MTcJBY7ZrTCVUrfGR4vxZdYnHnW0VJAkUshMi4PpqpKMgd8ppQITsRrIBE0_je8OitONXgy52wM-Pj2GnNucFyDmAu5XRr6K0XxBj4yDMo0UHZHKp0esEQGkMLSN2Jbv2L7vICEt4fBtfDtFq5N5AujqlCKBAwnroEFRA_QQmxsBXZPauiefggAxHbj2NOSvaVROmmH8bNIUR5e8eNCWWs3MdSS6LuUxbylz3uvgOpd7k"></a></div><nav class="hidden lg:flex items-center gap-space-xs p-space-xs rounded-full bg-surface-container-low/60" data-active-classes="bg-primary-fixed text-on-primary-fixed font-title"><a class="px-space-md py-space-xs rounded-full font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="subjects" href="#">Subjects</a><a class="px-space-md py-space-xs rounded-full font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="study-notes" href="#">Study Notes</a><a class="px-space-md py-space-xs rounded-full font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="solved-questions" href="#">Solved Questions</a><a class="px-space-md py-space-xs rounded-full font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="search-results" href="#">Search</a><a aria-current="page" class="px-space-md py-space-xs rounded-full transition-colors bg-primary-fixed text-on-primary-fixed font-title" data-path="saved-items" href="#">Saved</a></nav><div class="flex items-center gap-space-md shrink-0"><a class="hidden sm:inline-block font-title text-title text-on-surface-variant hover:text-on-surface transition-colors px-space-sm py-space-xs" data-path="auth" href="#">Log in</a><a class="relative group inline-flex items-center justify-center rounded-full bg-primary-container text-on-primary px-space-lg py-space-sm font-title text-title shadow-[0_4px_14px_rgba(75,79,242,0.28),0_1px_2px_rgba(75,79,242,0.16)] hover:-translate-y-0.5 hover:shadow-[0_6px_20px_rgba(75,79,242,0.38)] transition-all duration-200" data-path="study-notes" href="#"><span class="">Start Studying →</span></a><a class="flex items-center rounded-full ring-2 ring-transparent hover:ring-primary-container/30 transition-all" data-path="profile-settings" href="#"><img alt="Student Profile Avatar" class="w-8 h-8 rounded-full object-cover shadow-[0_1px_4px_rgba(0,0,0,0.1)]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCrDyxPWS6JozOwz-oSK0TQdsaQVNWqvX9vy4Gm5wZBZy3TV08Q_CUNga7wdA05bLkWRqtiOsdxC3yUzFyT9NjI-Yfbauq7Z129CinOYvntG1ar1VKMEZ9i0rwvHjPDm-_oEmRRfOIXiXmkWITbnyTzgi200Vml5bk0i0FHpNyAtP9pn1Tgeul7Ao_iTwoBHvJp4RpNI_99YUjUPw9fsjoNvPw0-GGqxLvo6BudnTbKDWzfhaLN5gYt"></a></div></div></header><main class="w-full pt-20 bg-background min-h-[calc(100vh-20rem)]"><div class="flex flex-col w-full">
+<!-- Subtle Ambient Glow Background -->
+<div class="relative w-full overflow-hidden">
+<div class="absolute top-10 left-1/4 -z-10 w-96 h-96 rounded-full bg-primary/5 blur-3xl pointer-events-none"></div>
+<div class="absolute top-48 right-10 -z-10 w-80 h-80 rounded-full bg-secondary-container/5 blur-3xl pointer-events-none"></div>
+<div class="max-w-7xl mx-auto px-margin-sm lg:px-margin py-space-xl">
+<!-- Breadcrumb / Overline -->
+<div class="flex items-center gap-space-xs text-on-surface-variant mb-space-sm">
+<span class="font-label-caps text-label-caps uppercase tracking-wider text-primary">Workspace</span>
+<span class="text-outline-variant text-xs">/</span>
+<span class="font-label-caps text-label-caps uppercase tracking-wider text-on-surface-variant">Class 10 SEE Revision Tray</span>
+</div>
+<!-- Main Header Area -->
+<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-space-lg mb-space-xl">
+<div class="space-y-space-xs max-w-3xl">
+<div class="flex items-center gap-space-md flex-wrap">
+<h1 class="font-display-hero text-display-hero-mobile sm:text-display-hero text-on-surface tracking-tight">
+              Saved Study Items
+            </h1>
+<!-- Electric Indigo Bookmark Icon Badge -->
+<div class="w-12 h-12 rounded-2xl bg-primary-container text-on-primary flex items-center justify-center shadow-[0_4px_16px_rgba(75,79,242,0.32)] shrink-0">
+<span class="material-symbols-outlined text-[26px]" style="font-variation-settings: 'FILL' 1;">bookmark</span>
+</div>
+</div>
+<p class="font-body-lg text-body-lg text-on-surface-variant pt-space-xs leading-relaxed">
+            Your personal revision tray for Class 10 exam preparation. Accessible anytime, even with poor internet.
+          </p>
+</div>
+<!-- Action Pill Bar -->
+<div class="flex items-center gap-space-sm shrink-0 flex-wrap">
+<button class="inline-flex items-center gap-space-xs rounded-full bg-surface-container-high hover:bg-surface-container-highest text-on-surface px-space-md py-space-sm font-title text-title transition-all shadow-sm" id="exportPdfBtn">
+<span class="material-symbols-outlined text-[18px] text-primary">picture_as_pdf</span>
+<span class="">Export Saved as PDF</span>
+</button>
+<button class="inline-flex items-center gap-space-xs rounded-full bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-error px-space-md py-space-sm font-title text-title transition-colors" id="clearCompletedBtn">
+<span class="material-symbols-outlined text-[18px]">delete_sweep</span>
+<span class="">Clear Completed</span>
+</button>
+</div>
+</div>
+<!-- Stats Strip Card Mosaic -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-md mb-space-xl">
+<div class="bg-surface-container-lowest rounded-DEFAULT p-space-md shadow-sm flex items-center gap-space-md">
+<div class="w-11 h-11 rounded-full bg-primary-fixed text-on-primary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[22px]" style="font-variation-settings: 'FILL' 1;">bookmarks</span>
+</div>
+<div>
+<div class="font-headline-sm text-headline-sm text-on-surface leading-tight" id="statBookmarks">8</div>
+<div class="font-label-caps text-label-caps uppercase text-on-surface-variant">Total Bookmarks</div>
+</div>
+</div>
+<div class="bg-surface-container-lowest rounded-DEFAULT p-space-md shadow-sm flex items-center gap-space-md">
+<div class="w-11 h-11 rounded-full bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[22px]">category</span>
+</div>
+<div>
+<div class="font-headline-sm text-headline-sm text-on-surface leading-tight">3 Subjects</div>
+<div class="font-label-caps text-label-caps uppercase text-on-surface-variant">Represented</div>
+</div>
+</div>
+<div class="bg-surface-container-lowest rounded-DEFAULT p-space-md shadow-sm flex items-center gap-space-md">
+<div class="w-11 h-11 rounded-full bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[22px]" style="font-variation-settings: 'FILL' 1;">timer</span>
+</div>
+<div>
+<div class="font-headline-sm text-headline-sm text-on-surface leading-tight">45 mins</div>
+<div class="font-label-caps text-label-caps uppercase text-on-surface-variant">Est. Revision Time</div>
+</div>
+</div>
+</div>
+<!-- Navigation Filter Pills -->
+<div class="flex items-center justify-between gap-space-md flex-wrap pb-space-lg">
+<div class="inline-flex p-space-xs rounded-full bg-surface-container-low shadow-inner">
+<button class="tab-pill filter-btn inline-flex items-center px-space-md py-space-xs rounded-full font-title text-title bg-primary-container text-on-primary shadow-[0_4px_14px_rgba(75,79,242,0.3)] transition-all duration-150" data-filter="all">
+            All Saved (8)
+          </button>
+<button class="tab-pill filter-btn inline-flex items-center px-space-md py-space-xs rounded-full font-title text-title text-on-surface-variant hover:text-on-surface transition-all duration-150" data-filter="note">
+            Notes (3)
+          </button>
+<button class="tab-pill filter-btn inline-flex items-center px-space-md py-space-xs rounded-full font-title text-title text-on-surface-variant hover:text-on-surface transition-all duration-150" data-filter="question">
+            Questions (4)
+          </button>
+<button class="tab-pill filter-btn inline-flex items-center px-space-md py-space-xs rounded-full font-title text-title text-on-surface-variant hover:text-on-surface transition-all duration-150" data-filter="formula">
+            Formula Sheets (1)
+          </button>
+</div>
+<!-- Offline Sync Indicator -->
+<div class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-tertiary/10 text-tertiary font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[16px]">cloud_done</span>
+<span class="">Indexed for offline speed</span>
+</div>
+</div>
+<!-- Saved Items Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg" id="savedCardsContainer">
+<!-- Item 1: Note - Ohm's Law (Span 7) -->
+<article class="saved-card lg:col-span-7 bg-surface-container-lowest rounded-lg p-space-lg shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between group" data-category="note">
+<div>
+<div class="flex items-center justify-between gap-space-md mb-space-md">
+<div class="flex items-center gap-space-xs flex-wrap">
+<span class="inline-flex items-center px-space-sm py-0.5 rounded-full bg-tertiary-fixed/40 text-tertiary font-label-caps text-label-caps">
+                  Science &amp; Tech
+                </span>
+<span class="inline-flex items-center gap-1 px-space-sm py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-caps text-label-caps">
+<span class="material-symbols-outlined text-[13px]">menu_book</span> Study Note
+                </span>
+</div>
+<button aria-label="Toggle Bookmark" class="bookmark-toggle p-space-xs text-primary-container hover:scale-110 active:scale-95 transition-transform" title="Remove bookmark">
+<span class="material-symbols-outlined text-[24px]" style="font-variation-settings: 'FILL' 1;">bookmark</span>
+</button>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-space-xs group-hover:text-primary transition-colors">
+              Ohm's Law &amp; Circuit Calculations
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md leading-relaxed">
+              Complete deduction of potential difference versus electric current with experimental verification setup, circuit precautions, and internal resistance deductions.
+            </p>
+<!-- Formula Callout Preview -->
+<div class="bg-surface-container-low rounded-DEFAULT p-space-md mb-space-md flex items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-sm font-title text-title text-on-surface">
+<span class="material-symbols-outlined text-primary text-[20px]">functions</span>
+<code>V = I × R &nbsp;|&nbsp; P = V × I = I²R = V²/R</code>
+</div>
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase hidden sm:inline">Key Formula</span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-space-sm text-on-surface-variant">
+<span class="font-body-sm text-body-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px]">schedule</span> Saved 2 days ago
+            </span>
+<a class="inline-flex items-center gap-space-xs rounded-full bg-primary-container text-on-primary px-space-md py-space-xs font-title text-title shadow-[0_2px_8px_rgba(75,79,242,0.2)] hover:shadow-[0_4px_14px_rgba(75,79,242,0.36)] hover:-translate-y-0.5 transition-all" data-path="study-notes" href="#">
+<span class="">Study Now</span>
+<span class="material-symbols-outlined text-[16px]">file_download</span>
+</a>
+</div>
+</article>
+<!-- Item 2: Question - Q11 3-Set Survey Venn (Span 5) -->
+<article class="saved-card lg:col-span-5 bg-surface-container-lowest rounded-lg p-space-lg shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between group" data-category="question">
+<div>
+<div class="flex items-center justify-between gap-space-md mb-space-md">
+<div class="flex items-center gap-space-xs flex-wrap">
+<span class="inline-flex items-center px-space-sm py-0.5 rounded-full bg-primary-fixed text-primary font-label-caps text-label-caps">
+                  Compulsory Math
+                </span>
+<span class="inline-flex items-center gap-1 px-space-sm py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-caps text-label-caps">
+<span class="material-symbols-outlined text-[13px]">help_center</span> Solved Q
+                </span>
+<span class="inline-flex items-center px-space-sm py-0.5 rounded-full bg-secondary-fixed text-secondary font-label-caps text-label-caps">
+                  4 Marks
+                </span>
+</div>
+<button aria-label="Toggle Bookmark" class="bookmark-toggle p-space-xs text-primary-container hover:scale-110 active:scale-95 transition-transform" title="Remove bookmark">
+<span class="material-symbols-outlined text-[24px]" style="font-variation-settings: 'FILL' 1;">bookmark</span>
+</button>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs group-hover:text-primary transition-colors">
+              Q11 (Group C): 3-Set Survey Problem with Venn Diagram
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md leading-relaxed">
+              In a class survey of 100 students: football, volleyball, and basketball preferences with step-by-step universal complement calculation and cardinality proofs.
+            </p>
+<div class="bg-surface-container-low rounded-DEFAULT px-space-md py-space-sm mb-space-md text-body-sm text-on-surface-variant flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-[18px] text-tertiary">check_circle</span>
+<span class="">CDC Model Paper 2080 Pattern • Highly Repeated</span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-space-sm text-on-surface-variant">
+<span class="font-body-sm text-body-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px]">schedule</span> Saved 4 days ago
+            </span>
+<a class="inline-flex items-center gap-space-xs rounded-full bg-primary-container text-on-primary px-space-md py-space-xs font-title text-title shadow-[0_2px_8px_rgba(75,79,242,0.2)] hover:shadow-[0_4px_14px_rgba(75,79,242,0.36)] hover:-translate-y-0.5 transition-all" data-path="solved-questions" href="#">
+<span class="">Study Now</span>
+<span class="material-symbols-outlined text-[16px]">file_download</span>
+</a>
+</div>
+</article>
+<!-- Item 3: Question - State Ohm's Law & Derive (Span 5) -->
+<article class="saved-card lg:col-span-5 bg-surface-container-lowest rounded-lg p-space-lg shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between group" data-category="question">
+<div>
+<div class="flex items-center justify-between gap-space-md mb-space-md">
+<div class="flex items-center gap-space-xs flex-wrap">
+<span class="inline-flex items-center px-space-sm py-0.5 rounded-full bg-tertiary-fixed/40 text-tertiary font-label-caps text-label-caps">
+                  Science
+                </span>
+<span class="inline-flex items-center gap-1 px-space-sm py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-caps text-label-caps">
+<span class="material-symbols-outlined text-[13px]">help_center</span> Solved Q
+                </span>
+<span class="inline-flex items-center px-space-sm py-0.5 rounded-full bg-secondary-fixed text-secondary font-label-caps text-label-caps">
+                  4 Marks
+                </span>
+</div>
+<button aria-label="Toggle Bookmark" class="bookmark-toggle p-space-xs text-primary-container hover:scale-110 active:scale-95 transition-transform" title="Remove bookmark">
+<span class="material-symbols-outlined text-[24px]" style="font-variation-settings: 'FILL' 1;">bookmark</span>
+</button>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs group-hover:text-primary transition-colors">
+              Q18: State Ohm's Law and Derive V = IR
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md leading-relaxed">
+              Long answer solution including standard statement, mathematical form, constant of proportionality explanation, and V-I characteristic graph.
+            </p>
+<div class="bg-surface-container-low rounded-DEFAULT px-space-md py-space-sm mb-space-md text-body-sm text-on-surface-variant flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-[18px] text-primary">draw</span>
+<span class="">Includes neatly annotated circuit schematics</span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-space-sm text-on-surface-variant">
+<span class="font-body-sm text-body-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px]">schedule</span> Saved 1 week ago
+            </span>
+<a class="inline-flex items-center gap-space-xs rounded-full bg-primary-container text-on-primary px-space-md py-space-xs font-title text-title shadow-[0_2px_8px_rgba(75,79,242,0.2)] hover:shadow-[0_4px_14px_rgba(75,79,242,0.36)] hover:-translate-y-0.5 transition-all" data-path="solved-questions" href="#">
+<span class="">Study Now</span>
+<span class="material-symbols-outlined text-[16px]">file_download</span>
+</a>
+</div>
+</article>
+<!-- Item 4: Note - Quadratic Equations (Span 7) -->
+<article class="saved-card lg:col-span-7 bg-surface-container-lowest rounded-lg p-space-lg shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between group" data-category="note">
+<div>
+<div class="flex items-center justify-between gap-space-md mb-space-md">
+<div class="flex items-center gap-space-xs flex-wrap">
+<span class="inline-flex items-center px-space-sm py-0.5 rounded-full bg-primary-fixed text-primary font-label-caps text-label-caps">
+                  Compulsory Math
+                </span>
+<span class="inline-flex items-center gap-1 px-space-sm py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-caps text-label-caps">
+<span class="material-symbols-outlined text-[13px]">menu_book</span> Study Note
+                </span>
+</div>
+<button aria-label="Toggle Bookmark" class="bookmark-toggle p-space-xs text-primary-container hover:scale-110 active:scale-95 transition-transform" title="Remove bookmark">
+<span class="material-symbols-outlined text-[24px]" style="font-variation-settings: 'FILL' 1;">bookmark</span>
+</button>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-space-xs group-hover:text-primary transition-colors">
+              Quadratic Equations: Factorization &amp; Discriminant
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md leading-relaxed">
+              Standard form ax² + bx + c = 0 breakdown. Covers finding roots by factoring, completing the square, and using D = b² − 4ac to determine real vs imaginary roots.
+            </p>
+<div class="bg-surface-container-low rounded-DEFAULT p-space-md mb-space-md flex items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-sm font-title text-title text-on-surface">
+<span class="material-symbols-outlined text-primary text-[20px]">calculate</span>
+<code>x = (-b ± √(b² - 4ac)) / (2a)</code>
+</div>
+<span class="font-label-caps text-label-caps text-tertiary uppercase hidden sm:inline">Mastered 80%</span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-space-sm text-on-surface-variant">
+<span class="font-body-sm text-body-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px]">schedule</span> Saved yesterday
+            </span>
+<a class="inline-flex items-center gap-space-xs rounded-full bg-primary-container text-on-primary px-space-md py-space-xs font-title text-title shadow-[0_2px_8px_rgba(75,79,242,0.2)] hover:shadow-[0_4px_14px_rgba(75,79,242,0.36)] hover:-translate-y-0.5 transition-all" data-path="study-notes" href="#">
+<span class="">Study Now</span>
+<span class="material-symbols-outlined text-[16px]">file_download</span>
+</a>
+</div>
+</article>
+<!-- Item 5: Formula Sheet - Complete 12-Chapter Compulsory Math (Span 12 Full Width) -->
+<article class="saved-card lg:col-span-12 bg-surface-container-lowest rounded-lg p-space-lg shadow-sm hover:shadow-md transition-shadow flex flex-col lg:flex-row justify-between gap-space-lg group" data-category="formula">
+<div class="flex-1">
+<div class="flex items-center gap-space-xs flex-wrap mb-space-sm">
+<span class="inline-flex items-center px-space-sm py-0.5 rounded-full bg-primary-fixed text-primary font-label-caps text-label-caps">
+                Compulsory Math
+              </span>
+<span class="inline-flex items-center gap-1 px-space-sm py-0.5 rounded-full bg-secondary-fixed text-secondary font-label-caps text-label-caps">
+<span class="material-symbols-outlined text-[13px]">auto_stories</span> Formula Sheet
+              </span>
+<span class="inline-flex items-center px-space-sm py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-caps text-label-caps">
+                All 12 Units
+              </span>
+</div>
+<div class="flex items-start justify-between gap-space-md">
+<h3 class="font-headline-md text-headline-md text-on-surface mb-space-xs group-hover:text-primary transition-colors">
+                Complete 12-Chapter Compulsory Math Formula Cheat Sheet
+              </h3>
+<button aria-label="Toggle Bookmark" class="bookmark-toggle p-space-xs text-primary-container hover:scale-110 active:scale-95 transition-transform lg:hidden shrink-0" title="Remove bookmark">
+<span class="material-symbols-outlined text-[24px]" style="font-variation-settings: 'FILL' 1;">bookmark</span>
+</button>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md max-w-3xl leading-relaxed">
+              Curated quick-reference ledger covering Sets, Compound Interest, Population Growth &amp; Depreciation, Mensuration (Cylinder, Sphere, Prism, Pyramid), Indices, HCF/LCM, Trigonometry, and Statistics mean/median equations.
+            </p>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-space-sm font-label-caps text-label-caps text-on-surface-variant">
+<div class="bg-surface-container-low px-space-sm py-space-xs rounded-DEFAULT flex items-center gap-1">
+<span class="material-symbols-outlined text-primary text-[14px]">check</span> Mensuration
+              </div>
+<div class="bg-surface-container-low px-space-sm py-space-xs rounded-DEFAULT flex items-center gap-1">
+<span class="material-symbols-outlined text-primary text-[14px]">check</span> Arithmetic
+              </div>
+<div class="bg-surface-container-low px-space-sm py-space-xs rounded-DEFAULT flex items-center gap-1">
+<span class="material-symbols-outlined text-primary text-[14px]">check</span> Statistics
+              </div>
+<div class="bg-surface-container-low px-space-sm py-space-xs rounded-DEFAULT flex items-center gap-1">
+<span class="material-symbols-outlined text-primary text-[14px]">check</span> Trigonometry
+              </div>
+</div>
+</div>
+<div class="flex lg:flex-col items-center lg:items-end justify-between shrink-0 lg:pl-space-lg lg:justify-center gap-space-md">
+<button aria-label="Toggle Bookmark" class="bookmark-toggle hidden lg:flex items-center gap-1 text-primary-container hover:scale-105 active:scale-95 transition-transform" title="Remove bookmark">
+<span class="material-symbols-outlined text-[26px]" style="font-variation-settings: 'FILL' 1;">bookmark</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant">Saved</span>
+</button>
+<div class="text-right">
+<span class="font-body-sm text-body-sm text-on-surface-variant block mb-2">Saved 3 days ago</span>
+<a class="inline-flex items-center gap-space-xs rounded-full bg-primary-container text-on-primary px-space-lg py-space-sm font-title text-title shadow-[0_4px_14px_rgba(75,79,242,0.28)] hover:shadow-[0_6px_20px_rgba(75,79,242,0.38)] hover:-translate-y-0.5 transition-all" data-path="study-notes" href="#">
+<span class="">Open Formula Sheet</span>
+<span class="material-symbols-outlined text-[16px]">file_download</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<!-- Secondary Helper / Discover Drawer -->
+<div class="mt-space-xl bg-surface-container rounded-lg p-space-lg flex flex-col md:flex-row items-center justify-between gap-space-lg">
+<div class="flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-full bg-surface-container-lowest text-primary flex items-center justify-center shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[24px]">bookmark_add</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Looking for something else?</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Save any study note, concept summary, or solved board question simply by clicking the bookmark icon.
+            </p>
+</div>
+</div>
+<div class="flex items-center gap-space-sm shrink-0 w-full sm:w-auto">
+<a class="w-full sm:w-auto text-center rounded-full bg-surface-container-lowest hover:bg-surface-container-highest text-on-surface px-space-lg py-space-sm font-title text-title transition-colors" data-path="search-results" href="#">
+            Search Formulae
+          </a>
+<a class="w-full sm:w-auto text-center rounded-full bg-primary-container text-on-primary px-space-lg py-space-sm font-title text-title shadow-[0_4px_14px_rgba(75,79,242,0.28)] hover:-translate-y-0.5 transition-all" data-path="study-notes" href="#">
+            Explore Study Notes
+          </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+  (function() {
+    // Filter pill tabs functionality
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const cards = document.querySelectorAll('.saved-card');
+
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        // Reset styles on all pills
+        filterButtons.forEach(b => {
+          b.className = 'tab-pill filter-btn inline-flex items-center px-space-md py-space-xs rounded-full font-title text-title text-on-surface-variant hover:text-on-surface transition-all duration-150';
+        });
+        // Set active style on clicked pill
+        btn.className = 'tab-pill filter-btn inline-flex items-center px-space-md py-space-xs rounded-full font-title text-title bg-primary-container text-on-primary shadow-[0_4px_14px_rgba(75,79,242,0.3)] transition-all duration-150';
+
+        const filter = btn.getAttribute('data-filter');
+
+        cards.forEach(card => {
+          const category = card.getAttribute('data-category');
+          if (filter === 'all' || category === filter) {
+            card.style.display = '';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // Bookmark Toggle (Unsave) micro-interaction
+    const bookmarkToggles = document.querySelectorAll('.bookmark-toggle');
+    const bookmarkCountElem = document.getElementById('statBookmarks');
+    let currentCount = 8;
+
+    bookmarkToggles.forEach(toggleBtn => {
+      toggleBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        const icon = toggleBtn.querySelector('.material-symbols-outlined');
+        const card = toggleBtn.closest('.saved-card');
+
+        if (icon.getAttribute('style') && icon.getAttribute('style').includes("'FILL' 1")) {
+          // Unsaved state
+          icon.style.fontVariationSettings = "'FILL' 0";
+          toggleBtn.classList.remove('text-primary-container');
+          toggleBtn.classList.add('text-outline');
+          if (card) {
+            card.classList.add('opacity-60');
+          }
+          currentCount = Math.max(0, currentCount - 1);
+        } else {
+          // Saved state
+          icon.style.fontVariationSettings = "'FILL' 1";
+          toggleBtn.classList.remove('text-outline');
+          toggleBtn.classList.add('text-primary-container');
+          if (card) {
+            card.classList.remove('opacity-60');
+          }
+          currentCount++;
+        }
+        if (bookmarkCountElem) {
+          bookmarkCountElem.textContent = currentCount;
+        }
+      });
+    });
+
+    // Action pill handlers
+    const exportBtn = document.getElementById('exportPdfBtn');
+    if (exportBtn) {
+      exportBtn.addEventListener('click', () => {
+        window.print();
+      });
+    }
+
+    const clearCompletedBtn = document.getElementById('clearCompletedBtn');
+    if (clearCompletedBtn) {
+      clearCompletedBtn.addEventListener('click', () => {
+        const inactiveCards = document.querySelectorAll('.saved-card.opacity-60');
+        inactiveCards.forEach(c => c.remove());
+      });
+    }
+  })();
+</script></main><footer class="w-full bg-surface-container-low text-on-surface"><div class="max-w-7xl mx-auto px-margin-sm lg:px-margin py-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-gutter lg:gap-space-xl mb-space-xl"><div class="lg:col-span-2 space-y-space-md"><div class="flex items-center gap-space-sm"><img alt="SEE Sathi Official Brand Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VfqreKytT0I8MTcJBY7ZrTCVUrfGR4vxZdYnHnW0VJAkUshMi4PpqpKMgd8ppQITsRrIBE0_je8OitONXgy52wM-Pj2GnNucFyDmAu5XRr6K0XxBj4yDMo0UHZHKp0esEQGkMLSN2Jbv2L7vICEt4fBtfDtFq5N5AujqlCKBAwnroEFRA_QQmxsBXZPauiefggAxHbj2NOSvaVROmmH8bNIUR5e8eNCWWs3MdSS6LuUxbylz3uvgOpd7k"></div><p class="font-body-md text-body-md text-on-surface-variant max-w-sm">Empowering every Class 10 student across Nepal with world-class, beautifully structured study notes and solved questions.</p><div class="flex items-center gap-space-sm text-on-surface-variant pt-space-xs"></div></div><div class="space-y-space-sm"><h4 class="font-label-caps text-label-caps text-on-surface uppercase tracking-wider">Study</h4><ul class="space-y-space-xs"><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="study-notes" href="#" class="">Master Notes</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="solved-questions" href="#" class="">Question Bank</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="saved-items" href="#" class="">Saved Vault</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="search-results" href="#" class="">Formula &amp; Topic Search</a></li></ul></div><div class="space-y-space-sm"><h4 class="font-label-caps text-label-caps text-on-surface uppercase tracking-wider">Curriculum</h4><ul class="space-y-space-xs"><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="subjects" href="#" class="">Compulsory Math</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="subjects" href="#" class="">Science &amp; Tech</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="subjects" href="#" class="">Optional Math</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="subjects" href="#" class="">English &amp; Nepali</a></li></ul></div><div class="space-y-space-sm"><h4 class="font-label-caps text-label-caps text-on-surface uppercase tracking-wider">Account</h4><ul class="space-y-space-xs"><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="profile-settings" href="#" class="">Profile &amp; Goal Settings</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="auth" href="#" class="">Student Login</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="saved-items" href="#" class="">Bookmarks &amp; Formulae</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="not-found" href="#" class="">Troubleshooting</a></li></ul></div><div class="space-y-space-sm"><h4 class="font-label-caps text-label-caps text-on-surface uppercase tracking-wider">Legal</h4><ul class="space-y-space-xs"><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="subjects" href="#" class="">About Mission</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="subjects" href="#" class="">Editorial Board</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="subjects" href="#" class="">Privacy Policy</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="subjects" href="#" class="">Terms of Use</a></li></ul></div></div><div class="pt-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-md text-on-surface-variant"><p class="font-body-sm text-body-sm">© 2026 SEE Sathi Technologies Pvt. Ltd. Kathmandu, Nepal.</p><div class="flex items-center gap-space-md font-body-sm text-body-sm"><span class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-tertiary">verified</span> CDC Curriculum Verified</span></div></div></div></footer>
+
+
+
+
+
+</body></html>

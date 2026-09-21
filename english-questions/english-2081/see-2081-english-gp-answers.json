@@ -1,0 +1,307 @@
+{
+  "chapterId": "see-2081-english-gp-re1011",
+  "subjectId": "english",
+  "classLevel": "10",
+  "province": "Gandaki",
+  "examBoard": "National Examinations Board (NEB), Nepal",
+  "examYear": "2081 (2025 AD)",
+  "paperCode": "RE-1011'GP'",
+  "linkedQuestionPaperId": "see-2081-english-gp-re1011",
+  "title": "SEE 2081 (2025) Compulsory English - Answer Key and Model Answers",
+  "sourceNote": "Answer key and model answers prepared for the SEE 2081 (2025) Compulsory English paper (RE-1011'GP'). Two items involve a judgement call rather than a single 'textbook' fact, flagged below: (1) Poem statement (iii) and (i) in Question 1 depend on how literally the metaphor of 'stair' and the sea-foam comparison are read - the reasoning is given in the solution so a teacher can adjust if the official NEB key differs. (2) Question 9(iv) assumes the intended tense is future perfect ('by the end of this month' is the standard cue for this), which is the most natural reading but is flagged as an assumption. All model answers for the writing tasks (Q5-Q8) are original compositions written to fit the given clues, not reproductions of any published sample.",
+  "blocks": [
+    {
+      "heading": "How to use this key",
+      "paragraph": "Each item below mirrors the questionNumber and id of the matching item in the questions file. MCQ/cloze items carry a correctOption; comprehension and grammar items carry a short solution explaining the reasoning; the four writing tasks (notice, story, conversation, letter) carry a complete model answer written at a Class 10 / SEE level."
+    }
+  ],
+  "answerSections": [
+    {
+      "title": "Question 1 - Poem Comprehension (True/False)",
+      "items": [
+        {
+          "id": "q1",
+          "questionNumber": "1",
+          "answer": "(i) TRUE  (ii) TRUE  (iii) TRUE  (iv) FALSE  (v) TRUE",
+          "solution": "(i) TRUE - The poem describes the branches themselves as 'the step of a wonderful stair', so the speaker does use this branch-stair to climb.\n(ii) TRUE - The poem says the branches lead 'to the town I see shining up there', so the shining town/city is visible from the tree.\n(iii) TRUE - The lines 'The gleam of a turret, the glint of a dome, / All sparkling and bright, like white sea foam' compare the sparkle of the turret and dome together to white sea foam, so the turret's gleam is part of that comparison.\n(iv) FALSE - The poem says 'to-day I am sure I shall reach the top', showing confidence, not doubt.\n(v) TRUE - The poem's persistence in climbing higher despite difficulty carries the theme/moral of determination in achieving one's goal.",
+          "solutionTable": [
+            {
+              "statement": "(i) Uses a stair to climb",
+              "verdict": "TRUE",
+              "evidence": "'Each branch is the step of a wonderful stair'"
+            },
+            {
+              "statement": "(ii) Shining city seen from tree",
+              "verdict": "TRUE",
+              "evidence": "'leads to the town I see shining up there'"
+            },
+            {
+              "statement": "(iii) Turret's gleam compared to sea foam",
+              "verdict": "TRUE",
+              "evidence": "'gleam of a turret ... like white sea foam'"
+            },
+            {
+              "statement": "(iv) Unsure of reaching the top",
+              "verdict": "FALSE",
+              "evidence": "'to-day I am sure I shall reach the top'"
+            },
+            {
+              "statement": "(v) Teaches determination",
+              "verdict": "TRUE",
+              "evidence": "overall theme of persistent climbing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Question 2 - Reading: Pratap Malla",
+      "items": [
+        {
+          "id": "q2a",
+          "questionNumber": "2(A)",
+          "answer": "(i) temples (architectural structures)  (ii) imprisoned  (iii) Kantipur  (iv) pinnacle  (v) palace gate",
+          "solution": "(i) The text says he 'constructed some magnificent and beautiful architectural structure around Kathmandu', i.e. temples and monuments.\n(ii) The text states 'he imprisoned his father and he himself ruled as a regent'.\n(iii) 'Kantipur was highly developed during his reign.'\n(iv) 'He renovated the temple of Pashupatinath and raised a pinnacle over it.'\n(v) 'he erected an image of Hanuman ... by the side of his palace gate ... to ward off evils.'"
+        },
+        {
+          "id": "q2b",
+          "questionNumber": "2(B)",
+          "answer": "(i) Because his father Laxmi Nara Singh's madness grew worse, so Pratap Malla took control and imprisoned him.\n(ii) He was clever because he used tact to make the kings of Lalitpur and Bhaktapur fight against each other while keeping Kantipur strong and developed.\n(iii) Because he was a religious-minded person, so he devoted his resources mainly to building and renovating temples and religious monuments.\n(iv) He dug a pond at Bhandarkhal, filled it with water from Budhanilkantha, and installed a replica image of Narayan lying in the pond.\n(v) Students may answer either way with a reason, e.g.: Yes, people were likely happy because he was an able administrator who developed Kantipur, promoted trade, and built many temples for religious life; or, some may argue not all were happy given the political conflict and family imprisonment involved in his rise to power.",
+          "solution": "These are open-response comprehension questions; answers must be based on details directly stated in or reasonably inferred from the passage. Model answers above draw on the exact facts given: his father's madness (i), his political tact with Lalitpur/Bhaktapur (ii), his religious-minded character (iii), and the Bhandarkhal pond/Narayan image (iv). Question (v) is an opinion-based inference question - any answer is acceptable as long as it is supported with a reason drawn from the text (e.g. his good administration and temple-building versus the imprisonment of his father)."
+        }
+      ]
+    },
+    {
+      "title": "Question 3 - Reading: Notice/Advertisement (Child Fund Japan)",
+      "items": [
+        {
+          "id": "q3a",
+          "questionNumber": "3(A)",
+          "answer": "(i) 03 January, 2025  (ii) the rights of children (through international development cooperation)  (iii) Expression of Interest  (iv) info@childfund.org.np  (v) modifications and presentations",
+          "solution": "(i) Given directly as 'Notice Publication date: 03 January, 2025'.\n(ii) 'CFJNO is a child-focused international development organization committed to promoting the rights of children.'\n(iii) EOI is explicitly expanded in the text as 'Expression of Interest (EOI)'.\n(iv) The text says to 'submit your EOI ... electronically to info@childfund.org.np'.\n(v) 'the applicants will be asked for modifications and presentations of the application/proposal before approval.'"
+        },
+        {
+          "id": "q3b",
+          "questionNumber": "3(B)",
+          "answer": "(i) In Lalitpur, Nepal.\n(ii) Child Fund Japan Nepal Office.\n(iii) It will document the impact of migration on children, schools and community in Baglung district.\n(iv) 12 January, 2025, before 17:00 hours Nepal Time.\n(v) CFJNO (Child Fund Japan Nepal Office) has the right to approve or disapprove any proposal.",
+          "solution": "All five answers are stated directly in the notice: the office location in the title line, the CFJNO expansion in the first line, the Baglung migration-documentation task in point 2, the deadline line near the end, and the final paragraph on CFJNO's right of approval."
+        }
+      ]
+    },
+    {
+      "title": "Question 4 - Reading: Nobel Prize",
+      "items": [
+        {
+          "id": "q4a",
+          "questionNumber": "4(A)",
+          "answer": "(i) conferred  (ii) bequeathed  (iii) deliberations  (iv) administrator  (v) preceding\n(Not used: set up, stipulated)",
+          "solution": "(i) 'conferred' fits 'An honorary degree was conferred to her' (to award/bestow).\n(ii) 'bequeathed' fits leaving something (a fortune/legacy) to someone, as in the text 'a fund bequeathed for that purpose'.\n(iii) 'deliberations' (discussions/considerations) fits 'The council's deliberations focused on...'.\n(iv) 'administrator' fits a person who manages/runs something, as in 'school administrator'.\n(v) 'preceding' means 'coming before', fitting 'the preceding chapters'.\n'set up' and 'stipulated' are the two words from the text that are not needed for these five sentences."
+        },
+        {
+          "id": "q4b",
+          "questionNumber": "4(B)",
+          "answer": "Correct order: (iii) → (ii) → (v) → (iv) → (i)",
+          "solution": "Matching each statement to where it appears in the passage:\n(iii) 'Nobel Prizes are awarded every year to those who have contributed for mankind' matches paragraphs 1-2, which come first.\n(ii) 'The Nobel Prizes firstly distributed at the beginning of the 20th century' matches paragraph 3's mention of the first distribution on December 10, 1901.\n(v) 'Bank of Sweden established the prize for Economic Sciences' matches the later part of paragraph 3 (established 1968 by the Bank of Sweden).\n(iv) 'The Nobel foundation manages the provisions related to the prizes' matches paragraph 4, about the Nobel Foundation being set up to carry out the will's provisions.\n(i) 'Nobel Prize for Peace is granted in Norway' matches the final paragraph, about the Norwegian Nobel Committee in Oslo.",
+          "solutionTable": [
+            {
+              "order": 1,
+              "statement": "(iii) Awarded every year to those who contributed for mankind",
+              "paragraph": "Paragraphs 1-2"
+            },
+            {
+              "order": 2,
+              "statement": "(ii) First distributed at the start of the 20th century",
+              "paragraph": "Paragraph 3 (1901)"
+            },
+            {
+              "order": 3,
+              "statement": "(v) Bank of Sweden established the Economic Sciences prize",
+              "paragraph": "Paragraph 3 (1968/1969)"
+            },
+            {
+              "order": 4,
+              "statement": "(iv) Nobel Foundation manages the provisions",
+              "paragraph": "Paragraph 4"
+            },
+            {
+              "order": 5,
+              "statement": "(i) Peace Prize granted in Norway",
+              "paragraph": "Paragraph 5"
+            }
+          ]
+        },
+        {
+          "id": "q4c",
+          "questionNumber": "4(C)",
+          "answer": "(i) Alfred Nobel was a Swedish inventor and industrialist who, in his will, set up the fund from which the Nobel Prizes are awarded.\n(ii) The Nobel Prize for Physics, Chemistry, Physiology or Medicine, Literature and Peace.\n(iii) The Nobel Prize in Economic Sciences (established 1968, first awarded 1969) is the youngest.\n(iv) Four institutions (three Swedish and one Norwegian).\n(v) The Swedish Academy distributes the Nobel Prize for Literature.",
+          "solution": "(i) directly identified in paragraph 1 as 'the Swedish inventor and industrialist Alfred Nobel'.\n(ii) listed in paragraph 2: 'Physics, Chemistry, Physiology or Medicine, Literature and Peace'.\n(iii) paragraph 3 states the Economic Sciences prize was 'established in 1968 ... and was first awarded in 1969', later than the original five prizes (first awarded 1901), making it the youngest.\n(iv) paragraph 4: 'four different institutions - three Swedish and one Norwegian - should award the prizes'.\n(v) paragraph 4: 'the Swedish Academy confers the prize for Literature'."
+        }
+      ]
+    },
+    {
+      "title": "Question 5 - Notice Writing",
+      "items": [
+        {
+          "id": "q5",
+          "questionNumber": "5",
+          "answer": "Model notice provided in solution.",
+          "solution": "A notice must include: a header word 'NOTICE', the issuing school's name, the date, a bold/underlined subject line, the body written in reported/formal style using the given clues in order, and the name/designation of the signing authority (Head teacher) at the end. All the given clues - the event, the venue, who is invited, the awards, and the chief guest - must be worked into about 100 words.",
+          "solutionTable": null,
+          "modelAnswer": "Adarsha Secondary School\nKathmandu, Nepal\n\nNOTICE\n\nDate: 2082/03/26\n\nSubject: Parents Day\n\nThis is to notify all the staff, students and parents that our school is going to organize Parents Day on July 10 at the school premises. All the staff members and students are cordially requested to be present on the occasion in their best attire and to actively participate in the programme. The event will also honour the winners of sports and other co-curricular activities of this academic year with awards and prizes. The ward chairperson has kindly agreed to grace the occasion as the chief guest. Everyone's presence and cooperation will make this event a memorable success.\n\nThank you.\n\nHead Teacher\nAdarsha Secondary School"
+        }
+      ]
+    },
+    {
+      "title": "Question 6 - Story Writing",
+      "items": [
+        {
+          "id": "q6",
+          "questionNumber": "6",
+          "answer": "Model story provided in solution.",
+          "solution": "A story built from clues needs: a title, a clear beginning-middle-end built strictly from the given clue sequence (unity, failed direct attack, the trick of spreading rumours to create rivalry, the cows separating, then being attacked one by one), and a one-line moral stated clearly at the end. The clues must all appear in the correct order, turned into natural connected prose of about 100 words.",
+          "modelAnswer": "Title: United We Stand, Divided We Fall\n\nOnce upon a time, four cows lived in a jungle. They were always close to each other and did everything together. Because of their unity, no predator could ever attack them. A hungry lion had long wished to eat one of the cows, so he made a plan to attack them, but as long as they stayed together, it was not possible to kill even one. Then the clever lion thought of a new idea. With the help of other animals, he spread rumours among the cows, turning them against one another. Soon a rivalry grew between them, and one by one they went off in different directions. Seeing them separated, the lion attacked and killed them one after another.\n\nMoral: Unity is strength; division leads to destruction."
+        }
+      ]
+    },
+    {
+      "title": "Question 7 - Conversation Writing",
+      "items": [
+        {
+          "id": "q7",
+          "questionNumber": "7",
+          "answer": "Model conversation provided in solution.",
+          "solution": "A conversation task needs at least six clear back-and-forth exchanges (a full turn each, not single words), natural spoken-style English, and content that stays on the given topic (planning a school picnic) - place, date, food, transport, permission, and enthusiasm are common, natural sub-topics to cover in about 150 words.",
+          "modelAnswer": "Salina: Hi Rabi, have you heard? Our school is planning a picnic this Friday.\nRabi: Really? That's great news! Where are we going this time?\nSalina: I heard we are going to Godawari Botanical Garden. It should be a wonderful place for a picnic.\nRabi: Sounds lovely! Do you know what time we need to be at school?\nSalina: Yes, we have to reach school by seven in the morning. The bus will leave right after attendance.\nRabi: I should ask my parents for permission tonight then. Should we also bring some snacks to share?\nSalina: That's a good idea. I will bring some fruits and biscuits, and maybe you could bring some sandwiches.\nRabi: Sure, I'll manage that. Should we also carry a speaker for music and games?\nSalina: Yes, our class monitor is already arranging one. It will be really fun with music and games.\nRabi: I can't wait for Friday. It's going to be an amazing day!"
+        }
+      ]
+    },
+    {
+      "title": "Question 8 - Letter Writing",
+      "items": [
+        {
+          "id": "q8",
+          "questionNumber": "8",
+          "answer": "Model letter provided in solution.",
+          "solution": "An informal letter to a sibling needs: sender's address and date, an affectionate salutation, a warm opening line, a clearly organized body giving several concrete, practical suggestions for improving English (e.g. reading, listening, speaking practice, vocabulary building, grammar practice, watching English media), a closing line, and a subscription/signature suitable for family. About 200 words, in a friendly but informative tone.",
+          "modelAnswer": "London, UK\n15 July, 2082\n\nDear Sunita,\n\nI hope you and the whole family are doing well. I was really glad to receive your letter asking how you can improve your English. Since I have been studying English here abroad, let me share a few effective ways that have genuinely helped me.\n\nFirst, read English storybooks, newspapers, or articles every day, even if only for twenty minutes. Reading regularly builds vocabulary and a natural sense of sentence structure. Second, listen to English songs, podcasts, or watch movies and TV shows with subtitles; this trains your ear to understand different accents and everyday expressions. Third, try to speak English as often as possible, even with friends who are also learning - do not be afraid of making mistakes, because that is how we learn. Fourth, keep a small notebook to note new words you come across and revise them regularly. Fifth, practise grammar through simple exercises, and write a short diary entry in English daily to build confidence in writing.\n\nMost importantly, be patient and consistent; improvement takes time. I am sure that with regular practice, your English will improve a great deal. Please give my love to Mum and Dad.\n\nWith love,\nYour sister,\nAnjali"
+        }
+      ]
+    },
+    {
+      "title": "Question 9 - Sentence Transformation",
+      "items": [
+        {
+          "id": "q9-i",
+          "questionNumber": "9(i)",
+          "answer": "Everything is all right, isn't it?",
+          "solution": "The main clause 'Everything is all right' is affirmative and uses 'is' (present simple, singular). A question tag for an affirmative statement is negative, so it becomes 'isn't it?' ('everything' is treated as singular/'it' for tag purposes)."
+        },
+        {
+          "id": "q9-ii",
+          "questionNumber": "9(ii)",
+          "answer": "Chadani does not like ice cream.",
+          "solution": "Present simple affirmative sentences with a third-person singular subject are made negative using 'does not (doesn't)' + base form of the verb: 'likes' → 'does not like'."
+        },
+        {
+          "id": "q9-iii",
+          "questionNumber": "9(iii)",
+          "answer": "How did the competitors paint the picture?",
+          "solution": "To form a 'How' question about the manner ('beautifully'), remove the adverb, invert with the auxiliary 'did' (since the original is past simple), and use the base form of the verb: painted → did ... paint."
+        },
+        {
+          "id": "q9-iv",
+          "questionNumber": "9(iv)",
+          "answer": "The municipality will have repaired the road by the end of this month.",
+          "solution": "The phrase 'by the end of this month' is a classic marker for the future perfect tense, indicating an action that will be completed before a specific future point. So 'repair' becomes 'will have repaired'. (Assumption flagged: the paper only shows 'road' without an article in the printed clue; the natural completed sentence adds 'the' before 'road', as reflected above.)"
+        },
+        {
+          "id": "q9-v",
+          "questionNumber": "9(v)",
+          "answer": "Sunaina said that she was knitting a sweater then/at that time.",
+          "solution": "In indirect speech, the reporting verb 'said' (no indirect object) keeps 'said that'. The pronoun 'I' becomes 'she' (referring to Sunaina). The tense shifts back one step: present continuous 'am knitting' → past continuous 'was knitting'. The time word 'now' changes to 'then' or 'at that time'."
+        },
+        {
+          "id": "q9-vi",
+          "questionNumber": "9(vi)",
+          "answer": "The garbage was thrown into the container by Kumari.",
+          "solution": "To change an active sentence to passive: the object ('the garbage') becomes the subject, the verb changes to 'be' (in the matching past tense) + past participle ('was thrown'), and the original subject ('Kumari') is introduced with 'by' at the end."
+        }
+      ]
+    },
+    {
+      "title": "Question 10 - Cloze Test (Chitwan National Park)",
+      "items": [
+        {
+          "id": "q10-a",
+          "questionNumber": "10(a)",
+          "correctOption": "a",
+          "answer": "a",
+          "solution": "'UNESCO' is pronounced starting with a consonant sound (/juː/, like 'you'), not a vowel sound, so the indefinite article 'a' is used, not 'an'."
+        },
+        {
+          "id": "q10-b",
+          "questionNumber": "10(b)",
+          "correctOption": "was established",
+          "answer": "was established",
+          "solution": "'in 1973' is a specific completed past time, so the simple past passive 'was established' is correct (not the present perfect 'has been established', which is used for unspecified past time)."
+        },
+        {
+          "id": "q10-c",
+          "questionNumber": "10(c)",
+          "correctOption": "isn't it",
+          "answer": "isn't it",
+          "solution": "The sentence's subject is 'It' (referring to the Park) with the verb 'is', so the question tag for this affirmative statement must be negative and match the subject/verb: 'isn't it?'."
+        },
+        {
+          "id": "q10-d",
+          "questionNumber": "10(d)",
+          "correctOption": "in",
+          "answer": "in",
+          "solution": "We say an animal is bathing 'in' a river (inside the water), so 'in the Narayani River' is correct."
+        },
+        {
+          "id": "q10-e",
+          "questionNumber": "10(e)",
+          "correctOption": "who",
+          "answer": "who",
+          "solution": "'The guides' refers to people, and the relative pronoun is the subject of the clause ('who are highly trained'), so 'who' is correct (not 'which', used for things, or 'whose', used for possession)."
+        },
+        {
+          "id": "q10-f",
+          "questionNumber": "10(f)",
+          "correctOption": "should",
+          "answer": "should",
+          "solution": "'Should' expresses advice/recommendation, which fits the context of advising visitors to book a jungle safari in advance."
+        },
+        {
+          "id": "q10-g",
+          "questionNumber": "10(g)",
+          "correctOption": "was not protected",
+          "answer": "was not protected",
+          "solution": "The main clause uses 'might face extinction' (a second conditional structure for a hypothetical present/future situation), so the if-clause needs the simple past: 'If the park was not protected, these species might face extinction.'"
+        },
+        {
+          "id": "q10-h",
+          "questionNumber": "10(h)",
+          "correctOption": "follow",
+          "answer": "follow",
+          "solution": "'Make' is a causative verb that takes the bare infinitive (verb without 'to') in the active voice: 'make the visitors follow strict rules'."
+        },
+        {
+          "id": "q10-i",
+          "questionNumber": "10(i)",
+          "correctOption": "Why is the Park famous",
+          "answer": "Why is the Park famous",
+          "solution": "Since this is a direct question shown inside quotation marks ('Tourists often ask, \"...?\"'), normal question word order (auxiliary before subject) is used: 'Why is the Park famous?', not the reported-question word order."
+        },
+        {
+          "id": "q10-j",
+          "questionNumber": "10(j)",
+          "correctOption": "Therefore",
+          "answer": "Therefore",
+          "solution": "The second clause ('they return with unforgettable memories') is a result/consequence of enjoying the activities mentioned before it, so the connector showing result, 'Therefore', is correct (not 'However'/'Although', which show contrast, or 'Because', which shows reason and would need clause reordering)."
+        }
+      ]
+    }
+  ]
+}

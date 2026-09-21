@@ -1,0 +1,302 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+          "on-surface": "#181a2b",
+          "on-secondary-container": "#590800",
+          "on-primary-container": "#e5e4ff",
+          "surface-container-lowest": "#ffffff",
+          "on-error-container": "#93000a",
+          "error": "#ba1a1a",
+          "surface-container-low": "#f4f2ff",
+          "outline": "#767587",
+          "secondary": "#b5250c",
+          "on-secondary": "#ffffff",
+          "secondary-fixed-dim": "#ffb4a5",
+          "on-tertiary": "#ffffff",
+          "on-background": "#181a2b",
+          "primary": "#2f30da",
+          "on-secondary-fixed-variant": "#8e1300",
+          "surface": "#fbf8ff",
+          "surface-variant": "#e1e1f8",
+          "secondary-fixed": "#ffdad3",
+          "on-error": "#ffffff",
+          "surface-dim": "#d8d8ef",
+          "tertiary-fixed": "#7cfbb1",
+          "on-tertiary-fixed": "#002110",
+          "on-primary-fixed": "#04006d",
+          "on-tertiary-container": "#7ffeb3",
+          "inverse-primary": "#c0c1ff",
+          "tertiary": "#005b34",
+          "tertiary-container": "#007645",
+          "outline-variant": "#c6c4d8",
+          "surface-container-high": "#e6e6fe",
+          "error-container": "#ffdad6",
+          "background": "#fbf8ff",
+          "on-tertiary-fixed-variant": "#00522f",
+          "on-primary": "#ffffff",
+          "inverse-on-surface": "#f1efff",
+          "secondary-container": "#fd583a",
+          "surface-bright": "#fbf8ff",
+          "primary-container": "#4b4ff2",
+          "on-surface-variant": "#454556",
+          "surface-container-highest": "#e1e1f8",
+          "primary-fixed": "#e1e0ff",
+          "on-primary-fixed-variant": "#2423d2",
+          "primary-fixed-dim": "#c0c1ff",
+          "on-secondary-fixed": "#3f0400",
+          "surface-tint": "#4145e9",
+          "inverse-surface": "#2d2f41",
+          "tertiary-fixed-dim": "#5ede96",
+          "surface-container": "#edecff"
+        },
+        "borderRadius": {
+          "DEFAULT": "1rem",
+          "lg": "2rem",
+          "xl": "3rem",
+          "full": "9999px"
+        },
+        "spacing": {
+          "gutter-sm": "1rem",
+          "margin-sm": "1rem",
+          "space-xl": "2.5rem",
+          "space-lg": "1.5rem",
+          "space-sm": "0.5rem",
+          "gutter": "1.5rem",
+          "margin": "2rem",
+          "space-xs": "0.25rem",
+          "space-md": "1rem"
+        },
+        "fontFamily": {
+          "headline-lg": ["Plus Jakarta Sans"],
+          "display-hero-mobile": ["Plus Jakarta Sans"],
+          "body-sm": ["Inter"],
+          "label-md": ["Inter"],
+          "headline-md": ["Plus Jakarta Sans"],
+          "body-md": ["Inter"],
+          "headline-sm": ["Plus Jakarta Sans"],
+          "body-lg": ["Inter"],
+          "title": ["Plus Jakarta Sans"],
+          "label-caps": ["Inter"],
+          "display-hero": ["Plus Jakarta Sans"],
+          "headline-lg-mobile": ["Plus Jakarta Sans"]
+        },
+        "fontSize": {
+          "headline-lg": ["32px", {"lineHeight": "38px", "letterSpacing": "-0.025em", "fontWeight": "700"}],
+          "display-hero-mobile": ["34px", {"lineHeight": "38px", "letterSpacing": "-0.025em", "fontWeight": "800"}],
+          "body-sm": ["13px", {"lineHeight": "18px", "fontWeight": "400"}],
+          "label-md": ["12px", {"lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600"}],
+          "headline-md": ["24px", {"lineHeight": "30px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+          "body-md": ["14px", {"lineHeight": "22px", "fontWeight": "400"}],
+          "headline-sm": ["20px", {"lineHeight": "26px", "letterSpacing": "-0.015em", "fontWeight": "600"}],
+          "body-lg": ["16px", {"lineHeight": "26px", "letterSpacing": "-0.005em", "fontWeight": "400"}],
+          "title": ["16px", {"lineHeight": "22px", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+          "label-caps": ["11px", {"lineHeight": "14px", "letterSpacing": "0.06em", "fontWeight": "700"}],
+          "display-hero": ["48px", {"lineHeight": "52px", "letterSpacing": "-0.03em", "fontWeight": "800"}],
+          "headline-lg-mobile": ["26px", {"lineHeight": "32px", "letterSpacing": "-0.02em", "fontWeight": "700"}]
+        }
+      }
+    }
+  }</script></head><body class="bg-background font-body-md text-on-surface selection:bg-primary-fixed selection:text-on-primary-fixed"><header class="fixed top-0 inset-x-0 z-50 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-7xl mx-auto px-margin-sm lg:px-margin flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-sm shrink-0"><a class="flex items-center gap-space-sm" data-path="subjects" href="#"><img alt="SEE Sathi Official Brand Logo" class="h-9 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VfqreKytT0I8MTcJBY7ZrTCVUrfGR4vxZdYnHnW0VJAkUshMi4PpqpKMgd8ppQITsRrIBE0_je8OitONXgy52wM-Pj2GnNucFyDmAu5XRr6K0XxBj4yDMo0UHZHKp0esEQGkMLSN2Jbv2L7vICEt4fBtfDtFq5N5AujqlCKBAwnroEFRA_QQmxsBXZPauiefggAxHbj2NOSvaVROmmH8bNIUR5e8eNCWWs3MdSS6LuUxbylz3uvgOpd7k"></a></div><nav class="hidden lg:flex items-center gap-space-xs p-space-xs rounded-full bg-surface-container-low/60" data-active-classes="bg-primary-fixed text-on-primary-fixed font-title"><a class="px-space-md py-space-xs rounded-full font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="subjects" href="#">Subjects</a><a class="px-space-md py-space-xs rounded-full font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="study-notes" href="#">Study Notes</a><a class="px-space-md py-space-xs rounded-full font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="solved-questions" href="#">Solved Questions</a><a class="px-space-md py-space-xs rounded-full font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="search-results" href="#">Search</a><a class="px-space-md py-space-xs rounded-full font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="saved-items" href="#">Saved</a></nav><div class="flex items-center gap-space-md shrink-0"><a class="hidden sm:inline-block font-title text-title text-on-surface-variant hover:text-on-surface transition-colors px-space-sm py-space-xs" data-path="auth" href="#">Log in</a><a class="relative group inline-flex items-center justify-center rounded-full bg-primary-container text-on-primary px-space-lg py-space-sm font-title text-title shadow-[0_4px_14px_rgba(75,79,242,0.28),0_1px_2px_rgba(75,79,242,0.16)] hover:-translate-y-0.5 hover:shadow-[0_6px_20px_rgba(75,79,242,0.38)] transition-all duration-200" data-path="study-notes" href="#"><span class="">Start Studying →</span></a><a class="flex items-center rounded-full ring-2 ring-transparent hover:ring-primary-container/30 transition-all" data-path="profile-settings" href="#"><img alt="Student Profile Avatar" class="w-8 h-8 rounded-full object-cover shadow-[0_1px_4px_rgba(0,0,0,0.1)]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCrDyxPWS6JozOwz-oSK0TQdsaQVNWqvX9vy4Gm5wZBZy3TV08Q_CUNga7wdA05bLkWRqtiOsdxC3yUzFyT9NjI-Yfbauq7Z129CinOYvntG1ar1VKMEZ9i0rwvHjPDm-_oEmRRfOIXiXmkWITbnyTzgi200Vml5bk0i0FHpNyAtP9pn1Tgeul7Ao_iTwoBHvJp4RpNI_99YUjUPw9fsjoNvPw0-GGqxLvo6BudnTbKDWzfhaLN5gYt"></a></div></div></header><main class="w-full pt-20 bg-background min-h-[calc(100vh-20rem)]"><div class="flex flex-col w-full relative overflow-hidden py-space-xl lg:py-28 items-center justify-center">
+<!-- Subtle Ambient Glow Rings in Background -->
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] bg-primary-container/10 rounded-full blur-3xl pointer-events-none -z-10"></div>
+<div class="absolute top-1/3 left-1/4 w-[380px] h-[380px] bg-secondary-container/10 rounded-full blur-2xl pointer-events-none -z-10"></div>
+<!-- Massive Oversized 404 Watermark Typography (6-8% Opacity) -->
+<div aria-hidden="true" class="absolute inset-0 flex items-center justify-center select-none pointer-events-none -z-10">
+<span class="font-display-hero text-[180px] sm:text-[280px] md:text-[380px] lg:text-[460px] leading-none tracking-tighter text-primary opacity-[0.06] font-extrabold translate-y-4">
+      404
+    </span>
+</div>
+<!-- Primary Floating Academic Workspace Card -->
+<div class="w-full max-w-3xl mx-auto px-margin-sm lg:px-margin z-10 flex flex-col items-center text-center">
+<!-- Floating Glass Surface Container -->
+<div class="w-full bg-surface-container-lowest/90 backdrop-blur-xl rounded-xl shadow-[0_4px_24px_rgba(24,26,43,0.06),0_20px_48px_rgba(75,79,242,0.07)] p-space-md sm:p-space-xl flex flex-col items-center relative">
+<!-- Syllabic Badge / Eyebrow Header -->
+<div class="inline-flex items-center gap-space-xs px-space-md py-1.5 rounded-full bg-secondary-fixed text-on-secondary-fixed mb-space-lg shadow-sm">
+<span class="material-symbols-outlined text-[16px] text-secondary" style="font-variation-settings: 'FILL' 1;">error</span>
+<span class="font-label-caps text-label-caps uppercase tracking-wider text-secondary">ERROR 404 · SYLLABUS DISCONNECTED</span>
+</div>
+<!-- Whimsical Academic Vector Illustration (Open textbook with compass & floating question) -->
+<div class="relative w-36 h-36 sm:w-44 sm:h-44 mb-space-md flex items-center justify-center">
+<!-- Floating animated aura -->
+<div class="absolute inset-0 rounded-full bg-primary-fixed/40 scale-90 animate-pulse"></div>
+<svg class="w-full h-full relative z-10 drop-shadow-sm" fill="none" viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg">
+<!-- Floating mini marks & sparkles -->
+<circle class="animate-bounce" cx="28" cy="40" fill="#4B4FF2" r="4" style="animation-duration: 2.6s;"></circle>
+<path d="M148 36L152 46L162 50L152 54L148 64L144 54L134 50L144 46L148 36Z" fill="#FD583A" opacity="0.85"></path>
+<circle cx="156" cy="116" fill="#4B4FF2" opacity="0.4" r="3.5"></circle>
+<path d="M34 122L36 128L42 130L36 132L34 138L32 132L26 130L32 128L34 122Z" fill="#FD583A" opacity="0.5"></path>
+<!-- Open Textbook Base -->
+<path d="M90 134C72 124 46 122 24 128V66C46 60 72 62 90 72C108 62 134 60 156 66V128C134 122 108 124 90 134Z" fill="#EDECFF"></path>
+<!-- Spine shadow -->
+<path d="M87 73C87 73 89 130 90 134C91 130 93 73 93 73" stroke="#4B4FF2" stroke-linecap="round" stroke-width="2.5"></path>
+<!-- Book Left Page Layers -->
+<path d="M26 125C46 119 70 121 88 131V70C70 60 46 58 26 64V125Z" fill="#FFFFFF"></path>
+<path d="M36 80H78M36 93H72M36 106H64" stroke="#C6C4D8" stroke-linecap="round" stroke-width="3"></path>
+<!-- Book Right Page Layers -->
+<path d="M154 125C134 119 110 121 92 131V70C110 60 134 58 154 64V125Z" fill="#FFFFFF"></path>
+<path d="M102 80H144M102 93H138M102 106H122" stroke="#C6C4D8" stroke-linecap="round" stroke-width="3"></path>
+<!-- Hardcover Edge Accent -->
+<path d="M22 128C46 121 72 123 90 134C108 123 134 121 158 128" stroke="#4B4FF2" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"></path>
+<!-- Geometric Compass Tool (Overlaid angled in Electric Indigo) -->
+<g transform="translate(68, 24)">
+<!-- Top pivot joint -->
+<circle cx="22" cy="18" fill="#4B4FF2" r="8"></circle>
+<circle cx="22" cy="18" fill="#FFFFFF" r="3.5"></circle>
+<!-- Left leg -->
+<path d="M18 24L5 66" stroke="#4B4FF2" stroke-linecap="round" stroke-width="4.5"></path>
+<path d="M5 66L2 74L8 71Z" fill="#181A2B"></path>
+<!-- Right leg (with coral pencil holder) -->
+<path d="M26 24L39 66" stroke="#4B4FF2" stroke-linecap="round" stroke-width="4.5"></path>
+<!-- Vivid Coral Miniature Stylus/Pencil -->
+<rect fill="#FD583A" height="20" rx="2" transform="rotate(-15 34 58)" width="8" x="34" y="58"></rect>
+<polygon fill="#181A2B" points="34,78 40,86 44,79"></polygon>
+<!-- Compass Arc gauge -->
+<path d="M12 46C18 43 26 43 32 46" stroke="#FD583A" stroke-dasharray="2 3" stroke-width="2.5"></path>
+</g>
+<!-- Whimsical Floating Question Mark in vivid duotone bubble -->
+<g class="hover:-translate-y-1 transition-transform" transform="translate(104, 18)">
+<circle class="shadow-lg" cx="24" cy="24" fill="#FD583A" r="22"></circle>
+<circle cx="24" cy="24" fill="#B5250C" opacity="0.15" r="18"></circle>
+<path d="M20 18C20 15.79 21.79 14 24 14C26.21 14 28 15.79 28 18C28 19.8 26.8 20.8 25.4 21.8C24 22.9 23.2 24.1 23.2 26H24.8M24 30.5V31" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path>
+</g>
+</svg>
+</div>
+<!-- Headline & Main Exposition -->
+<h1 class="font-display-hero text-headline-lg-mobile sm:text-headline-lg lg:text-display-hero text-on-surface tracking-tight font-extrabold max-w-xl mb-space-sm">
+        Looks like this chapter wandered off.
+      </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl mx-auto mb-space-lg leading-relaxed">
+        The page or question you’re searching for isn’t in the official CDC curriculum, or the link may have expired during syllabus updates.
+      </p>
+<!-- Contextual Quick-Jump Suggestions Section -->
+<div class="w-full max-w-2xl bg-surface-container-low/80 rounded-xl p-space-md sm:p-space-lg mb-space-lg text-left shadow-sm">
+<div class="flex items-center gap-space-xs mb-space-sm">
+<span class="material-symbols-outlined text-[18px] text-primary" style="font-variation-settings: 'FILL' 1;">auto_stories</span>
+<p class="font-title text-title text-on-surface">Did you mean one of these popular chapters?</p>
+</div>
+<div class="flex flex-wrap gap-space-xs sm:gap-space-sm pt-space-xs">
+<!-- Subject Quick Pill 1 -->
+<a class="group inline-flex items-center gap-1.5 px-space-md py-space-xs rounded-full bg-surface-container-lowest text-on-surface hover:bg-primary-fixed hover:text-on-primary-fixed shadow-sm transition-all duration-150" data-path="study-notes" href="#">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+<span class="font-body-sm text-body-sm font-semibold">Compulsory Math: Sets</span>
+<span class="material-symbols-outlined text-[15px] text-on-surface-variant group-hover:text-on-primary-fixed group-hover:translate-x-0.5 transition-all">north_east</span>
+</a>
+<!-- Subject Quick Pill 2 -->
+<a class="group inline-flex items-center gap-1.5 px-space-md py-space-xs rounded-full bg-surface-container-lowest text-on-surface hover:bg-primary-fixed hover:text-on-primary-fixed shadow-sm transition-all duration-150" data-path="study-notes" href="#">
+<span class="w-2 h-2 rounded-full bg-secondary-container"></span>
+<span class="font-body-sm text-body-sm font-semibold">Science: Ohm’s Law</span>
+<span class="material-symbols-outlined text-[15px] text-on-surface-variant group-hover:text-on-primary-fixed group-hover:translate-x-0.5 transition-all">north_east</span>
+</a>
+<!-- Subject Quick Pill 3 -->
+<a class="group inline-flex items-center gap-1.5 px-space-md py-space-xs rounded-full bg-surface-container-lowest text-on-surface hover:bg-primary-fixed hover:text-on-primary-fixed shadow-sm transition-all duration-150" data-path="study-notes" href="#">
+<span class="w-2 h-2 rounded-full bg-tertiary"></span>
+<span class="font-body-sm text-body-sm font-semibold">Social Studies: Constitution</span>
+<span class="material-symbols-outlined text-[15px] text-on-surface-variant group-hover:text-on-primary-fixed group-hover:translate-x-0.5 transition-all">north_east</span>
+</a>
+<!-- Subject Quick Pill 4 -->
+<a class="group inline-flex items-center gap-1.5 px-space-md py-space-xs rounded-full bg-surface-container-lowest text-on-surface hover:bg-primary-fixed hover:text-on-primary-fixed shadow-sm transition-all duration-150" data-path="solved-questions" href="#">
+<span class="material-symbols-outlined text-[14px] text-secondary">local_fire_department</span>
+<span class="font-body-sm text-body-sm font-semibold">2080 Model Papers</span>
+<span class="material-symbols-outlined text-[15px] text-on-surface-variant group-hover:text-on-primary-fixed group-hover:translate-x-0.5 transition-all">north_east</span>
+</a>
+</div>
+</div>
+<!-- Action Button Group -->
+<div class="flex flex-col sm:flex-row items-center justify-center gap-space-sm sm:gap-space-md w-full sm:w-auto">
+<!-- Primary Action Pill with Glowing Indigo Elevation -->
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-space-xs rounded-full bg-primary-container text-on-primary px-space-xl py-3.5 font-title text-title shadow-[0_4px_14px_rgba(75,79,242,0.32),0_1px_2px_rgba(75,79,242,0.16)] hover:-translate-y-0.5 hover:shadow-[0_6px_22px_rgba(75,79,242,0.42)] active:translate-y-0 transition-all duration-200" data-path="subjects" href="#">
+<span class="">Go to Homepage</span>
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</a>
+<!-- Secondary Ghost Pill -->
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-space-xs rounded-full bg-surface-container text-on-surface hover:bg-surface-container-high px-space-lg py-3.5 font-title text-title transition-all duration-150" data-path="subjects" href="#">
+<span class="material-symbols-outlined text-[20px] text-on-surface-variant">grid_view</span>
+<span class="">Browse All Subjects</span>
+</a>
+</div>
+<!-- Quick Interactive In-Page Search Bar -->
+<div class="w-full max-w-md mt-space-lg pt-space-md">
+<form action="#" class="relative flex items-center" onsubmit="event.preventDefault(); const q = document.getElementById('see-404-search').value; if(q.trim()){ window.location.hash='#search-results'; }">
+<span class="material-symbols-outlined absolute left-space-md text-on-surface-variant text-[20px] pointer-events-none">search</span>
+<input class="w-full h-12 pl-11 pr-24 rounded-full bg-surface-container-lowest text-on-surface placeholder:text-on-surface-variant/70 font-body-md text-body-md shadow-sm focus:outline-none focus:bg-surface-container-lowest focus:shadow-[0_0_0_3px_rgba(75,79,242,0.18)] transition-all" id="see-404-search" placeholder="Or search topics (e.g. Pythagoras theorem)..." type="text">
+<button class="absolute right-1.5 px-space-md py-1.5 rounded-full bg-primary text-on-primary font-label-md text-label-md hover:bg-primary-container transition-colors" type="submit">
+            Search
+          </button>
+</form>
+</div>
+<!-- Subtle Academic Notice / Report Drawer Footer Trigger -->
+<div class="mt-space-lg pt-space-sm flex items-center justify-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[16px] text-outline">flag</span>
+<span class="">If you think this is a broken link in our curriculum, let us know via</span>
+<button class="text-primary font-title underline decoration-primary/40 hover:decoration-primary transition-all" onclick="const modal = document.getElementById('report-modal'); modal.classList.remove('hidden'); modal.classList.add('flex');" type="button">
+          Report Error
+        </button>
+</div>
+</div>
+<!-- Micro Academic Tip Ribbon -->
+<div class="mt-space-lg inline-flex items-center gap-space-sm px-space-md py-space-xs rounded-full bg-surface-container-low/70 text-on-surface-variant text-body-sm">
+<span class="material-symbols-outlined text-[16px] text-tertiary">lightbulb</span>
+<span class="">Pro-tip: Press <kbd class="px-1.5 py-0.5 rounded bg-surface-container-highest font-mono text-[11px] text-on-surface font-semibold shadow-xs">Esc</kbd> anytime to return to your dashboard</span>
+</div>
+</div>
+<!-- Interactive Report Error Modal Component -->
+<div class="fixed inset-0 z-50 bg-inverse-surface/40 backdrop-blur-sm hidden items-center justify-center p-space-md" id="report-modal">
+<div class="w-full max-w-lg bg-surface-container-lowest rounded-xl p-space-lg sm:p-space-xl shadow-2xl relative">
+<div class="flex items-center justify-between mb-space-md">
+<div class="flex items-center gap-space-xs">
+<div class="w-8 h-8 rounded-full bg-secondary-fixed flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[18px]">bug_report</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Report Curriculum Issue</h3>
+</div>
+<button class="w-8 h-8 rounded-full bg-surface-container hover:bg-surface-container-high flex items-center justify-center text-on-surface-variant transition-colors" onclick="const modal = document.getElementById('report-modal'); modal.classList.add('hidden'); modal.classList.remove('flex');" type="button">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+        Help SEE Sathi's editorial team ensure every Class 10 student has 100% accurate syllabus access.
+      </p>
+<div class="space-y-space-sm text-left mb-space-lg">
+<div>
+<label class="block font-label-caps text-label-caps uppercase text-on-surface-variant mb-1">Current Missing Path</label>
+<input class="w-full h-10 px-space-md rounded-DEFAULT bg-surface-container text-on-surface font-mono text-body-sm" readonly="" type="text" value="https://seesathi.edu.np/syllabus/chapter-404-missing">
+</div>
+<div>
+<label class="block font-label-caps text-label-caps uppercase text-on-surface-variant mb-1">What was expected?</label>
+<textarea class="w-full p-space-md rounded-DEFAULT bg-surface-container-lowest border-0 bg-surface-container-low text-on-surface font-body-md text-body-md placeholder:text-on-surface-variant/60 focus:outline-none focus:ring-2 focus:ring-primary-container" placeholder="e.g., I was searching for 2080 Compulsory Math Question Set 3 solutions..." rows="3"></textarea>
+</div>
+</div>
+<div class="flex items-center justify-end gap-space-sm">
+<button class="px-space-md py-2 rounded-full font-title text-body-md text-on-surface-variant hover:bg-surface-container transition-colors" onclick="const modal = document.getElementById('report-modal'); modal.classList.add('hidden'); modal.classList.remove('flex');" type="button">
+          Cancel
+        </button>
+<button class="px-space-lg py-2 rounded-full bg-primary text-on-primary font-title text-body-md shadow-sm hover:bg-primary-container transition-all" onclick="const modal = document.getElementById('report-modal'); modal.classList.add('hidden'); modal.classList.remove('flex'); alert('Thank you! Our academic editorial board has received your note.');" type="button">
+          Submit Report
+        </button>
+</div>
+</div>
+</div>
+<script>
+    // Escape key shortcut to return to subjects/dashboard
+    window.addEventListener('keydown', function(event) {
+      if (event.key === 'Escape') {
+        const modal = document.getElementById('report-modal');
+        if (modal && !modal.classList.contains('hidden')) {
+          modal.classList.add('hidden');
+          modal.classList.remove('flex');
+        } else {
+          window.location.hash = '#subjects';
+        }
+      }
+    });
+  </script>
+</div></main><footer class="w-full bg-surface-container-low text-on-surface"><div class="max-w-7xl mx-auto px-margin-sm lg:px-margin py-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-gutter lg:gap-space-xl mb-space-xl"><div class="lg:col-span-2 space-y-space-md"><div class="flex items-center gap-space-sm"><img alt="SEE Sathi Official Brand Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VfqreKytT0I8MTcJBY7ZrTCVUrfGR4vxZdYnHnW0VJAkUshMi4PpqpKMgd8ppQITsRrIBE0_je8OitONXgy52wM-Pj2GnNucFyDmAu5XRr6K0XxBj4yDMo0UHZHKp0esEQGkMLSN2Jbv2L7vICEt4fBtfDtFq5N5AujqlCKBAwnroEFRA_QQmxsBXZPauiefggAxHbj2NOSvaVROmmH8bNIUR5e8eNCWWs3MdSS6LuUxbylz3uvgOpd7k"></div><p class="font-body-md text-body-md text-on-surface-variant max-w-sm">Empowering every Class 10 student across Nepal with world-class, beautifully structured study notes and solved questions.</p><div class="flex items-center gap-space-sm text-on-surface-variant pt-space-xs"></div></div><div class="space-y-space-sm"><h4 class="font-label-caps text-label-caps text-on-surface uppercase tracking-wider">Study</h4><ul class="space-y-space-xs"><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="study-notes" href="#" class="">Master Notes</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="solved-questions" href="#" class="">Question Bank</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="saved-items" href="#" class="">Saved Vault</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="search-results" href="#" class="">Formula &amp; Topic Search</a></li></ul></div><div class="space-y-space-sm"><h4 class="font-label-caps text-label-caps text-on-surface uppercase tracking-wider">Curriculum</h4><ul class="space-y-space-xs"><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="subjects" href="#" class="">Compulsory Math</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="subjects" href="#" class="">Science &amp; Tech</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="subjects" href="#" class="">Optional Math</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="subjects" href="#" class="">English &amp; Nepali</a></li></ul></div><div class="space-y-space-sm"><h4 class="font-label-caps text-label-caps text-on-surface uppercase tracking-wider">Account</h4><ul class="space-y-space-xs"><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="profile-settings" href="#" class="">Profile &amp; Goal Settings</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="auth" href="#" class="">Student Login</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="saved-items" href="#" class="">Bookmarks &amp; Formulae</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="not-found" href="#" class="">Troubleshooting</a></li></ul></div><div class="space-y-space-sm"><h4 class="font-label-caps text-label-caps text-on-surface uppercase tracking-wider">Legal</h4><ul class="space-y-space-xs"><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="subjects" href="#" class="">About Mission</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="subjects" href="#" class="">Editorial Board</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="subjects" href="#" class="">Privacy Policy</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="subjects" href="#" class="">Terms of Use</a></li></ul></div></div><div class="pt-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-md text-on-surface-variant"><p class="font-body-sm text-body-sm">© 2026 SEE Sathi Technologies Pvt. Ltd. Kathmandu, Nepal.</p><div class="flex items-center gap-space-md font-body-sm text-body-sm"><span class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-tertiary">verified</span> CDC Curriculum Verified</span></div></div></div></footer>
+
+
+
+
+
+</body></html>

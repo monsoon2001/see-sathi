@@ -1,0 +1,253 @@
+{
+  "schemaVersion": "2.0",
+  "chapterId": "quadratic-equations",
+  "chapterNumber": 5,
+  "answers": [
+    {
+      "questionId": "q1",
+      "type": "single",
+      "solutionSteps": [
+        {
+          "step": 1,
+          "text": {
+            "en": "We need two numbers whose product is $12$ and sum is $-7$: these are $-3$ and $-4$.",
+            "ne": "गुणनफल $12$ र योगफल $-7$ हुने दुई संख्या चाहिन्छ: ती हुन् $-3$ र $-4$।"
+          }
+        },
+        {
+          "step": 2,
+          "text": {
+            "en": "$x^2 - 3x - 4x + 12 = 0 \\Rightarrow x(x-3) - 4(x-3) = 0 \\Rightarrow (x-3)(x-4) = 0$",
+            "ne": "$x^2 - 3x - 4x + 12 = 0 \\Rightarrow x(x-3) - 4(x-3) = 0 \\Rightarrow (x-3)(x-4) = 0$"
+          }
+        },
+        {
+          "step": 3,
+          "text": {
+            "en": "So $x - 3 = 0$ or $x - 4 = 0$, giving $x = 3$ or $x = 4$.",
+            "ne": "त्यसैले $x - 3 = 0$ वा $x - 4 = 0$, अर्थात् $x = 3$ वा $x = 4$।"
+          }
+        }
+      ],
+      "finalAnswer": {
+        "en": "$x = 3, 4$",
+        "ne": "$x = 3, 4$"
+      },
+      "marks": 3
+    },
+    {
+      "questionId": "q2",
+      "type": "single",
+      "solutionSteps": [
+        {
+          "step": 1,
+          "text": {
+            "en": "Here $a = 3$, $b = 5$, $c = -2$.",
+            "ne": "यहाँ $a = 3$, $b = 5$, $c = -2$।"
+          }
+        },
+        {
+          "step": 2,
+          "text": {
+            "en": "$x = \\dfrac{-5 \\pm \\sqrt{5^2 - 4(3)(-2)}}{2(3)} = \\dfrac{-5 \\pm \\sqrt{25 + 24}}{6} = \\dfrac{-5 \\pm \\sqrt{49}}{6} = \\dfrac{-5 \\pm 7}{6}$",
+            "ne": "$x = \\dfrac{-5 \\pm \\sqrt{5^2 - 4(3)(-2)}}{2(3)} = \\dfrac{-5 \\pm \\sqrt{25 + 24}}{6} = \\dfrac{-5 \\pm \\sqrt{49}}{6} = \\dfrac{-5 \\pm 7}{6}$"
+          }
+        },
+        {
+          "step": 3,
+          "text": {
+            "en": "$x = \\dfrac{2}{6} = \\dfrac{1}{3}$ or $x = \\dfrac{-12}{6} = -2$",
+            "ne": "$x = \\dfrac{2}{6} = \\dfrac{1}{3}$ वा $x = \\dfrac{-12}{6} = -2$"
+          }
+        }
+      ],
+      "finalAnswer": {
+        "en": "$x = \\dfrac{1}{3}, -2$",
+        "ne": "$x = \\dfrac{1}{3}, -2$"
+      },
+      "marks": 4
+    },
+    {
+      "questionId": "q3",
+      "type": "multi-part",
+      "parts": [
+        {
+          "partId": "a",
+          "solutionSteps": [
+            {
+              "step": 1,
+              "text": {
+                "en": "Here $a = 2$, $b = -4$, $c = 5$. Discriminant $D = b^2 - 4ac = (-4)^2 - 4(2)(5) = 16 - 40 = -24$.",
+                "ne": "यहाँ $a = 2$, $b = -4$, $c = 5$। विभेदक $D = b^2 - 4ac = (-4)^2 - 4(2)(5) = 16 - 40 = -24$।"
+              }
+            }
+          ],
+          "finalAnswer": {
+            "en": "$D = -24$",
+            "ne": "$D = -24$"
+          },
+          "marks": 2
+        },
+        {
+          "partId": "b",
+          "solutionSteps": [
+            {
+              "step": 1,
+              "text": {
+                "en": "Since $D = -24 < 0$, the equation has no real roots; the roots are imaginary.",
+                "ne": "$D = -24 < 0$ भएकोले, यस समीकरणको कुनै वास्तविक मूल हुँदैन; मूलहरू काल्पनिक हुन्छन्।"
+              }
+            }
+          ],
+          "finalAnswer": {
+            "en": "No real roots (imaginary roots)",
+            "ne": "वास्तविक मूल छैन (काल्पनिक मूल)"
+          },
+          "marks": 2
+        }
+      ],
+      "marksTotal": 4
+    },
+    {
+      "questionId": "q4",
+      "type": "multi-part",
+      "parts": [
+        {
+          "partId": "a",
+          "solutionSteps": [
+            {
+              "step": 1,
+              "text": {
+                "en": "Let the smaller integer be $x$, so the next consecutive integer is $x + 1$.",
+                "ne": "सानो पूर्णाङ्कलाई $x$ मानौं, त्यसपछिको क्रमागत पूर्णाङ्क $x + 1$ हुन्छ।"
+              }
+            },
+            {
+              "step": 2,
+              "text": {
+                "en": "Their product is 132, so $x(x+1) = 132 \\Rightarrow x^2 + x - 132 = 0$.",
+                "ne": "तिनको गुणनफल 132 भएकोले, $x(x+1) = 132 \\Rightarrow x^2 + x - 132 = 0$।"
+              }
+            }
+          ],
+          "finalAnswer": {
+            "en": "$x^2 + x - 132 = 0$",
+            "ne": "$x^2 + x - 132 = 0$"
+          },
+          "marks": 2
+        },
+        {
+          "partId": "b",
+          "solutionSteps": [
+            {
+              "step": 1,
+              "text": {
+                "en": "We need two numbers whose product is $-132$ and sum is $1$: these are $12$ and $-11$.",
+                "ne": "गुणनफल $-132$ र योगफल $1$ हुने दुई संख्या चाहिन्छ: ती हुन् $12$ र $-11$।"
+              }
+            },
+            {
+              "step": 2,
+              "text": {
+                "en": "$x^2 + 12x - 11x - 132 = 0 \\Rightarrow x(x+12) - 11(x+12) = 0 \\Rightarrow (x+12)(x-11) = 0$",
+                "ne": "$x^2 + 12x - 11x - 132 = 0 \\Rightarrow x(x+12) - 11(x+12) = 0 \\Rightarrow (x+12)(x-11) = 0$"
+              }
+            },
+            {
+              "step": 3,
+              "text": {
+                "en": "So $x = -12$ or $x = 11$. Since the integers must be positive, $x = 11$.",
+                "ne": "त्यसैले $x = -12$ वा $x = 11$। पूर्णाङ्कहरू धनात्मक हुनुपर्ने भएकोले, $x = 11$।"
+              }
+            },
+            {
+              "step": 4,
+              "text": {
+                "en": "The two consecutive integers are $11$ and $12$. Check: $11 \\times 12 = 132$.",
+                "ne": "दुई क्रमागत पूर्णाङ्कहरू $11$ र $12$ हुन्। जाँच: $11 \\times 12 = 132$।"
+              }
+            }
+          ],
+          "finalAnswer": {
+            "en": "The integers are $11$ and $12$",
+            "ne": "पूर्णाङ्कहरू $11$ र $12$ हुन्"
+          },
+          "marks": 3
+        }
+      ],
+      "marksTotal": 5
+    },
+    {
+      "questionId": "q5",
+      "type": "single",
+      "solutionSteps": [
+        {
+          "step": 1,
+          "text": {
+            "en": "Write $2\\dfrac{1}{2}$ as $\\dfrac{5}{2}$. Combine the left side over a common denominator: $\\dfrac{x^2 + (x-1)^2}{x(x-1)} = \\dfrac{5}{2}$.",
+            "ne": "$2\\dfrac{1}{2}$ लाई $\\dfrac{5}{2}$ मा लेख्नुहोस्। बायाँपट्टिलाई उही हरमा ल्याउँदा: $\\dfrac{x^2 + (x-1)^2}{x(x-1)} = \\dfrac{5}{2}$।"
+          }
+        },
+        {
+          "step": 2,
+          "text": {
+            "en": "Expand the numerator: $x^2 + (x-1)^2 = x^2 + x^2 - 2x + 1 = 2x^2 - 2x + 1$.",
+            "ne": "अंशलाई विस्तार गर्दा: $x^2 + (x-1)^2 = x^2 + x^2 - 2x + 1 = 2x^2 - 2x + 1$।"
+          }
+        },
+        {
+          "step": 3,
+          "text": {
+            "en": "Cross-multiply: $2(2x^2 - 2x + 1) = 5x(x-1) \\Rightarrow 4x^2 - 4x + 2 = 5x^2 - 5x$.",
+            "ne": "आडा गुणन गर्दा: $2(2x^2 - 2x + 1) = 5x(x-1) \\Rightarrow 4x^2 - 4x + 2 = 5x^2 - 5x$।"
+          }
+        },
+        {
+          "step": 4,
+          "text": {
+            "en": "Simplify: $x^2 - x - 2 = 0 \\Rightarrow (x-2)(x+1) = 0 \\Rightarrow x = 2$ or $x = -1$.",
+            "ne": "सरल गर्दा: $x^2 - x - 2 = 0 \\Rightarrow (x-2)(x+1) = 0 \\Rightarrow x = 2$ वा $x = -1$।"
+          }
+        },
+        {
+          "step": 5,
+          "text": {
+            "en": "Since $x \\neq 0$ and $x \\neq 1$ (denominators cannot be zero), both values are valid.",
+            "ne": "$x \\neq 0$ र $x \\neq 1$ हुनुपर्ने भएकोले (हर शून्य हुन नहुने), दुवै मान मान्य छन्।"
+          }
+        }
+      ],
+      "finalAnswer": {
+        "en": "$x = 2, -1$",
+        "ne": "$x = 2, -1$"
+      },
+      "marks": 4
+    },
+    {
+      "questionId": "q6",
+      "type": "single",
+      "referenceImageId": "img-quad-graph-roots-01",
+      "solutionSteps": [
+        {
+          "step": 1,
+          "text": {
+            "en": "From the graph, the parabola crosses the x-axis at $x = 2$ and $x = 3$; these are the roots.",
+            "ne": "ग्राफबाट, प्याराबोलाले x-अक्षलाई $x = 2$ र $x = 3$ मा काटेको देखिन्छ; यी नै मूलहरू हुन्।"
+          }
+        },
+        {
+          "step": 2,
+          "text": {
+            "en": "Verify $x=2$: $(2)^2 - 5(2) + 6 = 4 - 10 + 6 = 0$. Verify $x=3$: $(3)^2 - 5(3) + 6 = 9 - 15 + 6 = 0$. Both satisfy the equation.",
+            "ne": "$x=2$ जाँच्दा: $(2)^2 - 5(2) + 6 = 4 - 10 + 6 = 0$। $x=3$ जाँच्दा: $(3)^2 - 5(3) + 6 = 9 - 15 + 6 = 0$। दुवैले समीकरण सन्तुष्ट गर्छन्।"
+          }
+        }
+      ],
+      "finalAnswer": {
+        "en": "$x = 2, 3$",
+        "ne": "$x = 2, 3$"
+      },
+      "marks": 3
+    }
+  ]
+}

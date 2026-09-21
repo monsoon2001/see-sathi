@@ -1,0 +1,52 @@
+// Phase 1: in-memory mock search index.
+// Phase 2: swap internals to fetch /searchIndex once and filter in memory.
+import type { SearchResult } from "@/lib/types";
+
+export const mockSearchIndex: SearchResult[] = [
+  // ── Compulsory Mathematics ───────────────────────────────
+  { id: "chapter-math-sets", type: "chapter", title: "Set Theory (Sets)", snippet: "Cardinality of two and three intersecting sets, Venn diagram derivations, and survey word problems.", subjectSlug: "mathematics", chapterSlug: "sets", keywords: ["sets", "venn", "cardinality", "survey", "group c"] },
+  { id: "chapter-math-compound", type: "chapter", title: "Compound Interest", snippet: "Annual, semi-annual, and quarterly compound interest, population growth, and compound depreciation.", subjectSlug: "mathematics", chapterSlug: "compound-interest", keywords: ["interest", "compound", "population growth", "depreciation"] },
+  { id: "chapter-math-mensuration", type: "chapter", title: "Plane Surfaces & Mensuration", snippet: "Area of triangles (Heron's formula), quadrilaterals, pathways, and cost estimation.", subjectSlug: "mathematics", chapterSlug: "mensuration", keywords: ["mensuration", "area", "heron", "quadrilateral", "triangle"] },
+  { id: "chapter-math-cylinder-sphere", type: "chapter", title: "Cylinder & Sphere", snippet: "Surface area, total area, and volume of combined solids such as hemisphere plus cone.", subjectSlug: "mathematics", chapterSlug: "cylinder-and-sphere", keywords: ["cylinder", "sphere", "hemisphere", "surface area", "volume"] },
+  { id: "chapter-math-quadratic", type: "chapter", title: "Quadratic Equations & Simultaneous Equations", snippet: "Solving by factorization, the quadratic formula, and word problems on numbers, age, and speed.", subjectSlug: "mathematics", chapterSlug: "quadratic-equations", keywords: ["quadratic", "factorization", "simultaneous", "equations"] },
+  { id: "chapter-math-circle", type: "chapter", title: "Circle & Area of Triangles & Quadrilaterals", snippet: "Geometric proofs: angles at center vs circumference, cyclic quadrilaterals, and tangents.", subjectSlug: "mathematics", chapterSlug: "circle-geometry", keywords: ["circle", "geometry", "cyclic quadrilateral", "tangent", "proof"] },
+  { id: "chapter-math-statistics", type: "chapter", title: "Statistics & Probability", snippet: "Median and quartiles in continuous series, mean deviation, and tree-diagram probability.", subjectSlug: "mathematics", chapterSlug: "statistics-and-probability", keywords: ["statistics", "probability", "median", "quartile", "mean deviation"] },
+  { id: "note-math-2set-law", type: "note", title: "Two-Set Cardinality Law", snippet: "n(A ∪ B) = n(A) + n(B) − n(A ∩ B)", subjectSlug: "mathematics", chapterSlug: "sets", keywords: ["sets", "cardinality", "union", "intersection", "formula"] },
+  { id: "note-math-3set-law", type: "note", title: "Three-Set Cardinality Law", snippet: "n(A ∪ B ∪ C) = n(A) + n(B) + n(C) − n(A∩B) − n(B∩C) − n(C∩A) + n(A∩B∩C)", subjectSlug: "mathematics", chapterSlug: "sets", keywords: ["sets", "three set", "venn", "cardinality"] },
+  { id: "formula-math-compound", type: "formula", title: "Compound Interest Formula", snippet: "CI = P(1 + R/100)^T − P", subjectSlug: "mathematics", chapterSlug: "compound-interest", keywords: ["compound", "interest", "formula", "principal"] },
+  { id: "formula-math-heron", type: "formula", title: "Heron's Formula", snippet: "A = √(s(s−a)(s−b)(s−c))", subjectSlug: "mathematics", chapterSlug: "mensuration", keywords: ["heron", "area", "triangle", "semi perimeter"] },
+  { id: "question-math-sets-q1", type: "question", title: "Sets Survey Word Problem", snippet: "In a survey of 100 students, 65 like tea, 45 like coffee, and 15 like neither. Find n(T ∩ C).", subjectSlug: "mathematics", chapterSlug: "sets", questionId: "sets-q1", keywords: ["sets", "survey", "venn", "tea", "coffee", "group c"] },
+
+  // ── Compulsory Science & Technology ──────────────────────
+  { id: "chapter-sci-scientific-study", type: "chapter", title: "Scientific Study (Research & Experiment)", snippet: "SI units, fundamental and derived quantities, research design, and experimental variables.", subjectSlug: "science", chapterSlug: "scientific-study", keywords: ["si units", "research", "experiment", "quantities", "science"] },
+  { id: "chapter-sci-classification", type: "chapter", title: "Classification of Living Beings", snippet: "Taxonomy, five-kingdom classification, organisms, binomial nomenclature, and classification systems.", subjectSlug: "science", chapterSlug: "classification-of-living-beings", keywords: ["classification", "kingdom", "taxonomy", "biology"] },
+  { id: "chapter-sci-heredity", type: "chapter", title: "Heredity", snippet: "Mendelian genetics, chromosome and DNA, inherited and acquired traits, and heredity principles.", subjectSlug: "science", chapterSlug: "heredity", keywords: ["heredity", "genetics", "mendel", "dna", "chromosome"] },
+  { id: "chapter-sci-blood", type: "chapter", title: "Blood Circulation", snippet: "Blood components, blood groups, the heart, circulatory system, and transport of oxygen.", subjectSlug: "science", chapterSlug: "blood-circulation", keywords: ["blood", "heart", "circulation", "oxygen"] },
+  { id: "chapter-sci-motion", type: "chapter", title: "Motion and Force", snippet: "Newton's laws, momentum, gravitational force, and numericals on speed, velocity, and acceleration.", subjectSlug: "science", chapterSlug: "motion-and-force", keywords: ["motion", "force", "newton", "momentum", "gravity", "velocity"] },
+  { id: "chapter-sci-nature", type: "chapter", title: "Nature & Environment", snippet: "Ecosystems, environmental pollution, weather and climate, and sustainable resource management.", subjectSlug: "science", chapterSlug: "nature-and-environment", keywords: ["environment", "ecosystem", "pollution", "climate"] },
+  { id: "formula-sci-ohm", type: "formula", title: "Ohm's Law", snippet: "V = IR", subjectSlug: "science", chapterSlug: "electricity-and-magnetism", keywords: ["ohm", "voltage", "current", "resistance", "electricity"] },
+  { id: "formula-sci-pressure", type: "formula", title: "Pressure", snippet: "P = F/A", subjectSlug: "science", chapterSlug: "pressure", keywords: ["pressure", "force", "area"] },
+  { id: "question-sci-motion", type: "question", title: "Newton's Second Law Numerical", snippet: "Calculate the acceleration produced when a force acts on a body of given mass.", subjectSlug: "science", chapterSlug: "motion-and-force", keywords: ["newton", "acceleration", "force", "mass"] },
+
+  // ── Compulsory English ───────────────────────────────────
+  { id: "chapter-eng-articles", type: "chapter", title: "Articles", snippet: "A, an, the — definite, indefinite, and zero articles with rules and board practice.", subjectSlug: "english", chapterSlug: "articles", keywords: ["articles", "a", "an", "the", "grammar", "english"] },
+  { id: "chapter-eng-reported-speech", type: "chapter", title: "Reported Speech", snippet: "Direct into indirect speech, tense shifts, and reporting verbs with examples.", subjectSlug: "english", chapterSlug: "reported-speech", keywords: ["reported speech", "indirect", "narration", "grammar"] },
+  { id: "chapter-eng-dialogue", type: "chapter", title: "Dialogue", snippet: "Dialogues: opening, body, and closing — situations, expressions, and full-mark format.", subjectSlug: "english", chapterSlug: "dialogue", keywords: ["dialogue", "conversation", "writing", "english"] },
+
+  // ── Compulsory Nepali ────────────────────────────────────
+  { id: "chapter-nep-ujyalo", type: "chapter", title: "उज्यालो यात्रा", snippet: "कविता 'उज्यालो यात्रा' का आधारमा शब्दभण्डार, बोध र अभिव्यक्ति।", subjectSlug: "nepali", chapterSlug: "ujyalo-yatra", keywords: ["उज्यालो यात्रा", "कविता", "निबन्ध", "नेपाली"] },
+  { id: "chapter-nep-gharbhagda", type: "chapter", title: "घरझगडा", snippet: "कथा 'घरझगडा' का आधारमा शब्दभण्डार, बोध र व्याकरण।", subjectSlug: "nepali", chapterSlug: "gharbhagda", keywords: ["घरझगडा", "कथा", "व्याकरण", "नेपाली"] },
+
+  // ── Social Studies ───────────────────────────────────────
+  { id: "chapter-soc-governance", type: "chapter", title: "Our Governance System", snippet: "Federal, provincial, and local governance structures of Nepal with current context.", subjectSlug: "social-studies", chapterSlug: "governance-system", keywords: ["governance", "federal", "province", "nepal", "local"] },
+  { id: "chapter-soc-constitution", type: "chapter", title: "Constitution of Nepal", snippet: "Fundamental rights, duties, and constitutional organs of the state.", subjectSlug: "social-studies", chapterSlug: "constitution-of-nepal", keywords: ["constitution", "rights", "laws", "nepal"] },
+
+  // ── Optional Mathematics ─────────────────────────────────
+  { id: "chapter-opt-matrices", type: "chapter", title: "Matrices & Determinants", snippet: "Matrix operations, determinants, and inverse matrices with applications.", subjectSlug: "optional-mathematics", chapterSlug: "matrices-determinants", keywords: ["matrix", "determinant", "inverse", "optional math"] },
+  { id: "chapter-opt-trig", type: "chapter", title: "Trigonometric Identities", snippet: "Standard identities, multiple angles, and proof techniques.", subjectSlug: "optional-mathematics", chapterSlug: "trigonometric-identities", keywords: ["trigonometry", "identities", "multiple angles", "proof"] },
+
+  // ── Computer Science ─────────────────────────────────────
+  { id: "chapter-cs-network", type: "chapter", title: "Computer Network And Telecommunication", snippet: "Network types, topologies, transmission media, and telecommunication in Class 10 Computer Science.", subjectSlug: "computer-science", chapterSlug: "computer-network", keywords: ["network", "topology", "telecommunication", "computer"] },
+  { id: "chapter-cs-dbms", type: "chapter", title: "Database Management System", snippet: "DBMS concepts, tables, queries, forms, reports, relationships, and RDBMS.", subjectSlug: "computer-science", chapterSlug: "database-management-system", keywords: ["database", "dbms", "tables", "queries"] },
+  { id: "chapter-cs-python", type: "chapter", title: "Python — Basics of Python", snippet: "Python variables, data types, operators, input/output, and control statements for SEE Class 10.", subjectSlug: "computer-science", chapterSlug: "python-basics", keywords: ["python", "programming", "variables", "operators", "computer"] },
+];

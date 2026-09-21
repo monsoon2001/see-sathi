@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+          "outline-variant": "#c6c4d8",
+          "on-tertiary-fixed": "#002110",
+          "on-tertiary": "#ffffff",
+          "on-error": "#ffffff",
+          "inverse-surface": "#2d2f41",
+          "surface-container": "#edecff",
+          "on-background": "#181a2b",
+          "on-secondary-fixed-variant": "#8e1300",
+          "secondary-container": "#fd583a",
+          "primary": "#2f30da",
+          "error-container": "#ffdad6",
+          "on-secondary": "#ffffff",
+          "on-surface-variant": "#454556",
+          "secondary": "#b5250c",
+          "error": "#ba1a1a",
+          "on-primary-fixed-variant": "#2423d2",
+          "tertiary-fixed": "#7cfbb1",
+          "on-secondary-fixed": "#3f0400",
+          "inverse-primary": "#c0c1ff",
+          "surface": "#fbf8ff",
+          "surface-bright": "#fbf8ff",
+          "surface-variant": "#e1e1f8",
+          "primary-container": "#4b4ff2",
+          "surface-dim": "#d8d8ef",
+          "outline": "#767587",
+          "surface-container-high": "#e6e6fe",
+          "background": "#fbf8ff",
+          "surface-tint": "#4145e9",
+          "tertiary-fixed-dim": "#5ede96",
+          "primary-fixed": "#e1e0ff",
+          "on-tertiary-fixed-variant": "#00522f",
+          "on-tertiary-container": "#7ffeb3",
+          "primary-fixed-dim": "#c0c1ff",
+          "tertiary": "#005b34",
+          "on-secondary-container": "#590800",
+          "secondary-fixed": "#ffdad3",
+          "on-primary-fixed": "#04006d",
+          "secondary-fixed-dim": "#ffb4a5",
+          "inverse-on-surface": "#f1efff",
+          "on-surface": "#181a2b",
+          "surface-container-highest": "#e1e1f8",
+          "on-error-container": "#93000a",
+          "on-primary": "#ffffff",
+          "surface-container-lowest": "#ffffff",
+          "surface-container-low": "#f4f2ff",
+          "on-primary-container": "#e5e4ff",
+          "tertiary-container": "#007645"
+        },
+        "borderRadius": {
+          "DEFAULT": "1rem",
+          "lg": "2rem",
+          "xl": "3rem",
+          "full": "9999px"
+        },
+        "spacing": {
+          "gutter-sm": "1rem",
+          "gutter": "1.5rem",
+          "space-xs": "0.25rem",
+          "space-sm": "0.5rem",
+          "space-lg": "1.5rem",
+          "margin": "2rem",
+          "space-xl": "2.5rem",
+          "space-md": "1rem",
+          "margin-sm": "1rem"
+        },
+        "fontFamily": {
+          "label-md": ["Inter"],
+          "label-caps": ["Inter"],
+          "headline-sm": ["Plus Jakarta Sans"],
+          "body-sm": ["Inter"],
+          "headline-lg": ["Plus Jakarta Sans"],
+          "headline-md": ["Plus Jakarta Sans"],
+          "headline-lg-mobile": ["Plus Jakarta Sans"],
+          "title": ["Plus Jakarta Sans"],
+          "body-lg": ["Inter"],
+          "display-hero": ["Plus Jakarta Sans"],
+          "display-hero-mobile": ["Plus Jakarta Sans"],
+          "body-md": ["Inter"]
+        },
+        "fontSize": {
+          "label-md": ["12px", {"lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600"}],
+          "label-caps": ["11px", {"lineHeight": "14px", "letterSpacing": "0.06em", "fontWeight": "700"}],
+          "headline-sm": ["20px", {"lineHeight": "26px", "letterSpacing": "-0.015em", "fontWeight": "600"}],
+          "body-sm": ["13px", {"lineHeight": "18px", "fontWeight": "400"}],
+          "headline-lg": ["32px", {"lineHeight": "38px", "letterSpacing": "-0.025em", "fontWeight": "700"}],
+          "headline-md": ["24px", {"lineHeight": "30px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+          "headline-lg-mobile": ["26px", {"lineHeight": "32px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+          "title": ["16px", {"lineHeight": "22px", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+          "body-lg": ["16px", {"lineHeight": "26px", "letterSpacing": "-0.005em", "fontWeight": "400"}],
+          "display-hero": ["48px", {"lineHeight": "52px", "letterSpacing": "-0.03em", "fontWeight": "800"}],
+          "display-hero-mobile": ["34px", {"lineHeight": "38px", "letterSpacing": "-0.025em", "fontWeight": "800"}],
+          "body-md": ["14px", {"lineHeight": "22px", "fontWeight": "400"}]
+        }
+      }
+    }
+  }</script></head><body class="bg-background font-body-md text-on-surface selection:bg-primary-fixed selection:text-on-primary-fixed"><header class="fixed top-0 inset-x-0 z-50 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-7xl mx-auto px-margin-sm lg:px-margin flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-sm shrink-0"><a class="flex items-center gap-space-sm" data-path="home" href="#"><img alt="SEE Sathi Official Brand Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WwGan9Vx2qz0bu9L0hK79M-OtrWiHY-62yxPoPcAyunnkiTjaKNctYGFStOBpLHXBkh2MvKunMBqqvmAkcRQ3nfxflKpe0D5wYWuPDcZx8Md5wgRSIQhaRJIgh_DxcTB4K6oRPxecKT8rWnKh6fMlGdYGk8Aqyhx0sw9vfJZU2_rgcp4sQFYUVqdvoBed4BlBDMBtgv9apsW8KekvA8cJFlSIJcqf5mxbxPKcZzL4kgf2DDWllKN9fw70"/><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight hidden sm:inline-block">SEE Sathi</span></a></div><nav class="hidden xl:flex items-center gap-space-xs p-space-xs rounded-full bg-surface-container-low/60" data-active-classes="bg-primary-fixed text-on-primary-fixed font-title"><a class="px-space-md py-space-xs rounded-full font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="home" href="#">Home</a><a aria-current="page" class="px-space-md py-space-xs rounded-full transition-colors bg-primary-fixed text-on-primary-fixed font-title" data-path="brand-identity" href="#">Brand Identity</a><a class="px-space-md py-space-xs rounded-full font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="subjects" href="#">Subjects</a><a class="px-space-md py-space-xs rounded-full font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="study-notes" href="#">Study Notes</a><a class="px-space-md py-space-xs rounded-full font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="solved-questions" href="#">Solved Questions</a><a class="px-space-md py-space-xs rounded-full font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="practice" href="#">Practice</a></nav><div class="flex items-center gap-space-md shrink-0"><a class="hidden sm:inline-block font-title text-title text-on-surface-variant hover:text-on-surface transition-colors px-space-sm py-space-xs" data-path="login" href="#">Log in</a><a class="relative group inline-flex items-center justify-center rounded-full bg-primary-container text-on-primary px-space-lg py-space-sm font-title text-title shadow-[0_4px_14px_rgba(75,79,242,0.28),0_1px_2px_rgba(75,79,242,0.16)] hover:-translate-y-0.5 hover:shadow-[0_6px_20px_rgba(75,79,242,0.38)] transition-all duration-200" data-path="practice" href="#"><span>Start Studying →</span></a><div class="flex items-center"><img alt="Profile" class="w-8 h-8 rounded-full object-cover shadow-[0_1px_4px_rgba(0,0,0,0.1)]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCrDyxPWS6JozOwz-oSK0TQdsaQVNWqvX9vy4Gm5wZBZy3TV08Q_CUNga7wdA05bLkWRqtiOsdxC3yUzFyT9NjI-Yfbauq7Z129CinOYvntG1ar1VKMEZ9i0rwvHjPDm-_oEmRRfOIXiXmkWITbnyTzgi200Vml5bk0i0FHpNyAtP9pn1Tgeul7Ao_iTwoBHvJp4RpNI_99YUjUPw9fsjoNvPw0-GGqxLvo6BudnTbKDWzfhaLN5gYt"/></div></div></div></header><main class="w-full pt-20 bg-background min-h-[calc(100vh-20rem)]"><div class="flex flex-col w-full">
+<!-- Brand Identity Spec Banner -->
+<section class="w-full py-space-xl px-margin-sm lg:px-margin max-w-7xl mx-auto">
+<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-gutter pb-space-lg">
+<div class="space-y-space-sm max-w-3xl">
+<div class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-surface-container text-primary">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-pulse"></span>
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-primary">Brand Identity &amp; System Specification · v1.0</span>
+</div>
+<h1 class="font-display-hero text-display-hero text-on-surface tracking-tight">
+          SEE Sathi Design System
+        </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+<span class="font-title text-on-surface font-semibold">“Sathi” (साथी) = Companion.</span>
+          A warm, trustworthy, and high-performance academic workspace engineered specifically for Class 10 SEE candidates across Nepal. Merging mechanical precision with reassuring calm.
+        </p>
+</div>
+<!-- Quick Telemetry Chipset -->
+<div class="flex flex-wrap items-center gap-space-sm self-start lg:self-end">
+<div class="px-space-md py-space-sm rounded-lg bg-surface-container-lowest shadow-sm flex items-center gap-space-sm">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Platform</span>
+<span class="font-title text-title text-primary">Class 10 SEE</span>
+</div>
+<div class="px-space-md py-space-sm rounded-lg bg-surface-container-lowest shadow-sm flex items-center gap-space-sm">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Grid</span>
+<span class="font-title text-title text-on-surface">12-Col Dynamic</span>
+</div>
+<div class="px-space-md py-space-sm rounded-lg bg-surface-container-lowest shadow-sm flex items-center gap-space-sm">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Status</span>
+<span class="inline-flex items-center gap-1 font-title text-title text-tertiary">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span> Production Spec
+          </span>
+</div>
+</div>
+</div>
+<!-- Section 1: Logo & Mark Anatomy Showcase -->
+<div class="mt-space-lg grid grid-cols-1 lg:grid-cols-12 gap-gutter">
+<!-- Main Horizontal Lockup Card -->
+<div class="lg:col-span-6 p-space-lg rounded-lg bg-surface-container-lowest shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between pb-space-md">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">01 / Primary Master Lockup</span>
+<span class="px-space-sm py-0.5 rounded-full bg-surface-container-high text-on-surface-variant font-label-md text-label-md">Light Foundation</span>
+</div>
+<!-- Centered Master Logo Reproduction from Brand Mark -->
+<div class="py-space-xl px-space-md flex items-center justify-center bg-surface-container-low rounded">
+<div class="flex items-center gap-space-md">
+<!-- Companion Mark (Overlapping capsules) -->
+<div class="relative w-16 h-12 flex items-center justify-center select-none">
+<svg class="w-full h-full drop-shadow-sm" fill="none" viewbox="0 0 110 90" xmlns="http://www.w3.org/2000/svg">
+<!-- Left Capsule (Electric Indigo) -->
+<rect fill="#4B4FF2" fill-opacity="0.95" height="66" rx="23" width="46" x="5" y="16"></rect>
+<!-- Right Capsule (Vivid Coral) with blend -->
+<rect fill="#FD583A" fill-opacity="0.9" height="74" rx="23" style="mix-blend-mode: multiply;" width="46" x="36" y="8"></rect>
+<!-- Left eye / sparkle -->
+<circle cx="28" cy="38" fill="#FFFFFF" r="7.5"></circle>
+<circle cx="68" cy="30" fill="#FFFFFF" r="7.5"></circle>
+<!-- Reassuring companion smile curve spanning both -->
+<path d="M22 55 Q 50 44, 76 56" stroke="#FFFFFF" stroke-linecap="round" stroke-width="4.5"></path>
+</svg>
+</div>
+<!-- Typography Lockup -->
+<div class="flex items-center gap-space-xs">
+<div class="px-3 py-1.5 rounded-lg bg-[#0E1020] text-white font-headline-md text-headline-md tracking-wider flex items-center justify-center">
+                  SEE
+                </div>
+<div class="flex items-baseline pl-1">
+<span class="font-headline-lg text-headline-lg text-on-surface tracking-tight font-extrabold">Sathi</span>
+<span class="w-2.5 h-2.5 rounded-full bg-primary-container ml-1"></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="pt-space-md flex items-center justify-between text-on-surface-variant font-body-sm text-body-sm">
+<span>Usage: Primary site headers, certified syllabi sheets, official mark</span>
+<code class="font-label-caps text-label-caps px-2 py-0.5 rounded bg-surface-container">ratio: 3.4:1</code>
+</div>
+</div>
+<!-- Standalone Mark Card -->
+<div class="lg:col-span-3 p-space-lg rounded-lg bg-surface-container-lowest shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between pb-space-md">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">02 / App Icon</span>
+<span class="px-space-sm py-0.5 rounded-full bg-surface-container-high text-on-surface-variant font-label-md text-label-md">Icon Mark</span>
+</div>
+<div class="py-space-lg flex items-center justify-center bg-surface-container-low rounded">
+<div class="w-24 h-24 rounded-2xl bg-surface-container-lowest shadow-[0_8px_24px_rgba(75,79,242,0.18)] flex items-center justify-center p-3 relative group">
+<svg class="w-full h-full transition-transform duration-300 group-hover:scale-105" fill="none" viewbox="0 0 110 90">
+<rect fill="#4B4FF2" height="66" rx="23" width="46" x="5" y="16"></rect>
+<rect fill="#FD583A" fill-opacity="0.9" height="74" rx="23" style="mix-blend-mode: multiply;" width="46" x="36" y="8"></rect>
+<circle cx="28" cy="38" fill="#FFFFFF" r="7.5"></circle>
+<circle cx="68" cy="30" fill="#FFFFFF" r="7.5"></circle>
+<path d="M22 55 Q 50 44, 76 56" stroke="#FFFFFF" stroke-linecap="round" stroke-width="4.5"></path>
+</svg>
+</div>
+</div>
+</div>
+<div class="pt-space-md">
+<p class="font-title text-title text-on-surface font-semibold">Dual Companion Capsules</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Student + Mentor synergy in continuous overlapping harmony.</p>
+</div>
+</div>
+<!-- Dark Contrast Variant Card -->
+<div class="lg:col-span-3 p-space-lg rounded-lg bg-[#0E1020] text-white shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between pb-space-md">
+<span class="font-label-caps text-label-caps text-slate-400 uppercase tracking-wider">03 / Inverted Lockup</span>
+<span class="px-space-sm py-0.5 rounded-full bg-white/10 text-white font-label-md text-label-md">Ink #0E1020</span>
+</div>
+<div class="py-space-lg flex items-center justify-center bg-white/5 rounded">
+<div class="flex items-center gap-space-sm">
+<div class="w-12 h-9 relative">
+<svg class="w-full h-full" fill="none" viewbox="0 0 110 90">
+<rect fill="#4B4FF2" height="66" rx="23" width="46" x="5" y="16"></rect>
+<rect fill="#FD583A" fill-opacity="0.9" height="74" rx="23" width="46" x="36" y="8"></rect>
+<circle cx="28" cy="38" fill="#FFFFFF" r="7.5"></circle>
+<circle cx="68" cy="30" fill="#FFFFFF" r="7.5"></circle>
+<path d="M22 55 Q 50 44, 76 56" stroke="#FFFFFF" stroke-linecap="round" stroke-width="4.5"></path>
+</svg>
+</div>
+<div class="px-2 py-1 rounded bg-white text-[#0E1020] font-headline-sm text-headline-sm font-black">
+                SEE
+              </div>
+<span class="font-headline-sm text-headline-sm text-white font-bold">Sathi</span>
+<span class="w-2 h-2 rounded-full bg-[#4B4FF2]"></span>
+</div>
+</div>
+</div>
+<div class="pt-space-md">
+<p class="font-title text-title text-white font-semibold">OLED Dark &amp; Exam Hall</p>
+<p class="font-body-sm text-body-sm text-slate-400 mt-0.5">High-contrast night revision view for reduced eye fatigue.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 2: Core Color Foundations -->
+<section class="w-full py-space-xl px-margin-sm lg:px-margin max-w-7xl mx-auto">
+<div class="flex items-center justify-between pb-space-md">
+<div>
+<span class="font-label-caps text-label-caps text-primary uppercase tracking-wider">Semantic Architecture</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Core Color Palette</h2>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant hidden md:inline-block">WCAG AAA / AA compliant contrast pairings</span>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter mt-space-md">
+<!-- Electric Indigo -->
+<div class="rounded-lg bg-surface-container-lowest p-space-md shadow-sm flex flex-col justify-between space-y-space-md">
+<div class="h-28 w-full rounded bg-primary-container shadow-[0_4px_14px_rgba(75,79,242,0.3)] flex items-end p-space-sm text-on-primary">
+<span class="font-label-caps text-label-caps uppercase tracking-wider">Brand Primary</span>
+</div>
+<div class="space-y-1">
+<div class="flex items-center justify-between">
+<span class="font-title text-title text-on-surface">Electric Indigo</span>
+<span class="font-label-caps text-label-caps text-primary px-2 py-0.5 rounded bg-surface-container">#4B4FF2</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">RGB(75, 79, 242) · Primary action triggers, formula highlights, active navigation tabs.</p>
+</div>
+</div>
+<!-- Vivid Coral -->
+<div class="rounded-lg bg-surface-container-lowest p-space-md shadow-sm flex flex-col justify-between space-y-space-md">
+<div class="h-28 w-full rounded bg-secondary-container shadow-[0_4px_14px_rgba(253,88,58,0.3)] flex items-end p-space-sm text-on-primary">
+<span class="font-label-caps text-label-caps uppercase tracking-wider">Brand Secondary</span>
+</div>
+<div class="space-y-1">
+<div class="flex items-center justify-between">
+<span class="font-title text-title text-on-surface">Vivid Coral</span>
+<span class="font-label-caps text-label-caps text-secondary px-2 py-0.5 rounded bg-secondary-fixed">#FD583A</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">RGB(253, 88, 58) · Streak counters, countdown to exam date, urgent attention flags.</p>
+</div>
+</div>
+<!-- Fresh Green (Mastery) -->
+<div class="rounded-lg bg-surface-container-lowest p-space-md shadow-sm flex flex-col justify-between space-y-space-md">
+<div class="h-28 w-full rounded bg-tertiary-container shadow-[0_4px_14px_rgba(0,118,69,0.2)] flex items-end p-space-sm text-on-primary">
+<span class="font-label-caps text-label-caps uppercase tracking-wider">Success / Mastery</span>
+</div>
+<div class="space-y-1">
+<div class="flex items-center justify-between">
+<span class="font-title text-title text-on-surface">Fresh Green</span>
+<span class="font-label-caps text-label-caps text-tertiary px-2 py-0.5 rounded bg-tertiary-fixed">#007645</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">RGB(0, 118, 69) · 100% Correct marks, verified CDC answers, completed question badges.</p>
+</div>
+</div>
+<!-- Deep Ink -->
+<div class="rounded-lg bg-surface-container-lowest p-space-md shadow-sm flex flex-col justify-between space-y-space-md">
+<div class="h-28 w-full rounded bg-[#0E1020] flex items-end p-space-sm text-white">
+<span class="font-label-caps text-label-caps uppercase tracking-wider">Foundation Dark</span>
+</div>
+<div class="space-y-1">
+<div class="flex items-center justify-between">
+<span class="font-title text-title text-on-surface">Deep Ink</span>
+<span class="font-label-caps text-label-caps text-on-surface px-2 py-0.5 rounded bg-surface-container-high">#0E1020</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">RGB(14, 16, 32) · Primary body typography, inverted cards, high-velocity dark mode.</p>
+</div>
+</div>
+</div>
+<!-- Secondary Tint Tiles Row -->
+<div class="grid grid-cols-2 md:grid-cols-4 gap-gutter mt-space-md">
+<div class="p-space-md rounded-lg bg-surface-container-low shadow-sm">
+<div class="flex items-center gap-space-sm">
+<span class="w-5 h-5 rounded-full bg-surface-container-lowest shadow-sm inline-block"></span>
+<span class="font-title text-title text-on-surface">Paper Primary</span>
+</div>
+<p class="font-label-md text-label-md text-on-surface-variant mt-2">#FFFFFF · Module Canvas</p>
+</div>
+<div class="p-space-md rounded-lg bg-surface-container-low shadow-sm">
+<div class="flex items-center gap-space-sm">
+<span class="w-5 h-5 rounded-full bg-[#F7F6F2] shadow-sm inline-block"></span>
+<span class="font-title text-title text-on-surface">Paper Warm</span>
+</div>
+<p class="font-label-md text-label-md text-on-surface-variant mt-2">#F7F6F2 · Reading Background</p>
+</div>
+<div class="p-space-md rounded-lg bg-surface-container-low shadow-sm">
+<div class="flex items-center gap-space-sm">
+<span class="w-5 h-5 rounded-full bg-on-surface-variant inline-block"></span>
+<span class="font-title text-title text-on-surface">Muted Slate</span>
+</div>
+<p class="font-label-md text-label-md text-on-surface-variant mt-2">#5B5E6E · Secondary Body</p>
+</div>
+<div class="p-space-md rounded-lg bg-surface-container-low shadow-sm">
+<div class="flex items-center gap-space-sm">
+<span class="w-5 h-5 rounded-full bg-outline-variant inline-block"></span>
+<span class="font-title text-title text-on-surface">Border Soft</span>
+</div>
+<p class="font-label-md text-label-md text-on-surface-variant mt-2">#C6C4D8 · Micro Separation</p>
+</div>
+</div>
+</section>
+<!-- Section 3: Subject Color Coding System (7 Disciplines) -->
+<section class="w-full py-space-xl px-margin-sm lg:px-margin max-w-7xl mx-auto">
+<div class="pb-space-md">
+<span class="font-label-caps text-label-caps text-primary uppercase tracking-wider">Curriculum Mapping (CDC Nepal)</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">7 Subject Color Taxonomy</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">Every discipline maintains its distinct chromatic identity across question banks, notes, and progress analytics.</p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter mt-space-md">
+<!-- 1. Mathematics -->
+<div class="p-space-lg rounded-lg bg-surface-container-lowest shadow-sm relative overflow-hidden flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between">
+<span class="px-space-sm py-0.5 rounded-full bg-primary-fixed text-primary font-label-caps text-label-caps uppercase">Compulsory</span>
+<div class="w-10 h-10 rounded-2xl bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">square_foot</span>
+</div>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Mathematics</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Arithmetic, Mensuration, Algebra &amp; Geometry matrices with step derivations.</p>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between font-label-caps text-label-caps text-primary">
+<span>Electric Indigo</span>
+<span class="px-2 py-0.5 rounded bg-surface-container">#4B4FF2</span>
+</div>
+</div>
+<!-- 2. Science & Tech -->
+<div class="p-space-lg rounded-lg bg-surface-container-lowest shadow-sm relative overflow-hidden flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between">
+<span class="px-space-sm py-0.5 rounded-full bg-tertiary-fixed text-tertiary font-label-caps text-label-caps uppercase">Compulsory</span>
+<div class="w-10 h-10 rounded-2xl bg-tertiary-fixed flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-[22px]">science</span>
+</div>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Science &amp; Tech</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Physics, Chemistry, Biology &amp; Astronomy with verified experimental diagrams.</p>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between font-label-caps text-label-caps text-tertiary">
+<span>Fresh Green</span>
+<span class="px-2 py-0.5 rounded bg-surface-container">#007645</span>
+</div>
+</div>
+<!-- 3. English -->
+<div class="p-space-lg rounded-lg bg-surface-container-lowest shadow-sm relative overflow-hidden flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between">
+<span class="px-space-sm py-0.5 rounded-full bg-secondary-fixed text-secondary font-label-caps text-label-caps uppercase">Compulsory</span>
+<div class="w-10 h-10 rounded-2xl bg-secondary-fixed flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[22px]">auto_stories</span>
+</div>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">English</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Reading Comprehension, Essay Drafting, Grammar Rules &amp; Free Writing formats.</p>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between font-label-caps text-label-caps text-secondary">
+<span>Vivid Coral</span>
+<span class="px-2 py-0.5 rounded bg-surface-container">#FD583A</span>
+</div>
+</div>
+<!-- 4. Nepali -->
+<div class="p-space-lg rounded-lg bg-surface-container-lowest shadow-sm relative overflow-hidden flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between">
+<span class="px-space-sm py-0.5 rounded-full bg-amber-100 text-amber-800 font-label-caps text-label-caps uppercase">अनिवार्य</span>
+<div class="w-10 h-10 rounded-2xl bg-amber-100 flex items-center justify-center text-amber-700">
+<span class="material-symbols-outlined text-[22px]">history_edu</span>
+</div>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Nepali (नेपाली)</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Devanagari Vyakaran, Sahitya, Nibandha &amp; Character sketches breakdown.</p>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between font-label-caps text-label-caps text-amber-700">
+<span>Warm Amber</span>
+<span class="px-2 py-0.5 rounded bg-surface-container">#EAA412</span>
+</div>
+</div>
+<!-- 5. Social Studies -->
+<div class="p-space-lg rounded-lg bg-surface-container-lowest shadow-sm relative overflow-hidden flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between">
+<span class="px-space-sm py-0.5 rounded-full bg-pink-100 text-pink-800 font-label-caps text-label-caps uppercase">Compulsory</span>
+<div class="w-10 h-10 rounded-2xl bg-pink-100 flex items-center justify-center text-pink-700">
+<span class="material-symbols-outlined text-[22px]">public</span>
+</div>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Social Studies</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Our Heritage, Constitution of Nepal, Contemporary World &amp; Map drafting.</p>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between font-label-caps text-label-caps text-pink-700">
+<span>Rose Pink</span>
+<span class="px-2 py-0.5 rounded bg-surface-container">#E0457B</span>
+</div>
+</div>
+<!-- 6. Optional Math -->
+<div class="p-space-lg rounded-lg bg-surface-container-lowest shadow-sm relative overflow-hidden flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between">
+<span class="px-space-sm py-0.5 rounded-full bg-cyan-100 text-cyan-800 font-label-caps text-label-caps uppercase">Optional I</span>
+<div class="w-10 h-10 rounded-2xl bg-cyan-100 flex items-center justify-center text-cyan-700">
+<span class="material-symbols-outlined text-[22px]">ssid_chart</span>
+</div>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Optional Math</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Trigonometric series, Vectors, Matrices, Coordinate geometry &amp; Calculus seeds.</p>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between font-label-caps text-label-caps text-cyan-700">
+<span>Vibrant Teal</span>
+<span class="px-2 py-0.5 rounded bg-surface-container">#0EA5E9</span>
+</div>
+</div>
+<!-- 7. Computer Science -->
+<div class="p-space-lg rounded-lg bg-surface-container-lowest shadow-sm relative overflow-hidden flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between">
+<span class="px-space-sm py-0.5 rounded-full bg-indigo-100 text-indigo-800 font-label-caps text-label-caps uppercase">Optional II</span>
+<div class="w-10 h-10 rounded-2xl bg-indigo-100 flex items-center justify-center text-indigo-700">
+<span class="material-symbols-outlined text-[22px]">code</span>
+</div>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Computer Science</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">QBASIC Modular programming, C Basics, Database Management &amp; Cyber Laws.</p>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between font-label-caps text-label-caps text-indigo-700">
+<span>Slate Blue</span>
+<span class="px-2 py-0.5 rounded bg-surface-container">#6366F1</span>
+</div>
+</div>
+<!-- Subject Index Summary Card -->
+<div class="p-space-lg rounded-lg bg-surface-container-high shadow-sm flex flex-col justify-between">
+<div>
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Syllabus Density</span>
+<div class="font-display-hero text-display-hero text-primary mt-2">1,400+</div>
+<p class="font-title text-title text-on-surface mt-1">SEE Past Questions Categorized</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Indexed by 2080/2081 model question standards.</p>
+</div>
+<div class="pt-space-md">
+<a class="inline-flex items-center gap-1 font-title text-title text-primary hover:underline" data-path="subjects" href="#">
+<span>Explore Subjects Matrix</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 4: Typography Hierarchy & Scale Showcase -->
+<section class="w-full py-space-xl px-margin-sm lg:px-margin max-w-7xl mx-auto">
+<div class="pb-space-md">
+<span class="font-label-caps text-label-caps text-primary uppercase tracking-wider">Type Specimen</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Typographic Velocity</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">Dual typeface structure: Plus Jakarta Sans for confident structural headings; Inter for maximum reading stamina.</p>
+</div>
+<div class="p-space-lg rounded-lg bg-surface-container-lowest shadow-sm space-y-space-lg">
+<!-- Display Hero Row -->
+<div class="flex flex-col md:flex-row md:items-baseline justify-between pb-space-md gap-gutter">
+<div class="md:w-1/4">
+<div class="font-label-caps text-label-caps text-primary uppercase tracking-widest">Display Hero</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Plus Jakarta Sans · 48px / 52px · 800 Wt</span>
+</div>
+<div class="md:w-3/4">
+<div class="font-display-hero text-display-hero text-on-surface">
+            Ace the SEE with absolute clarity.
+          </div>
+</div>
+</div>
+<!-- Headline Large Row -->
+<div class="flex flex-col md:flex-row md:items-baseline justify-between pb-space-md gap-gutter">
+<div class="md:w-1/4">
+<div class="font-label-caps text-label-caps text-primary uppercase tracking-widest">Headline Large</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Plus Jakarta Sans · 32px / 38px · 700 Wt</span>
+</div>
+<div class="md:w-3/4">
+<div class="font-headline-lg text-headline-lg text-on-surface">
+            Step-by-step CDC Model Questions &amp; Proven Formula Sheets
+          </div>
+</div>
+</div>
+<!-- Headline Medium Row -->
+<div class="flex flex-col md:flex-row md:items-baseline justify-between pb-space-md gap-gutter">
+<div class="md:w-1/4">
+<div class="font-label-caps text-label-caps text-primary uppercase tracking-widest">Headline Medium</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Plus Jakarta Sans · 24px / 30px · 700 Wt</span>
+</div>
+<div class="md:w-3/4">
+<div class="font-headline-md text-headline-md text-on-surface">
+            Unit 4: Heredity and Evolution — 4 Marks Certainty
+          </div>
+</div>
+</div>
+<!-- Headline Small / Title Row -->
+<div class="flex flex-col md:flex-row md:items-baseline justify-between pb-space-md gap-gutter">
+<div class="md:w-1/4">
+<div class="font-label-caps text-label-caps text-primary uppercase tracking-widest">Headline Small &amp; Title</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Plus Jakarta Sans · 20px / 26px &amp; 16px</span>
+</div>
+<div class="md:w-3/4 flex flex-col sm:flex-row gap-space-md">
+<div class="font-headline-sm text-headline-sm text-on-surface">
+            Mendel's Dihybrid Cross
+          </div>
+<div class="font-title text-title text-on-surface-variant font-semibold">
+            · Verified by Kathmandu Board Examiners
+          </div>
+</div>
+</div>
+<!-- Body Typography Row -->
+<div class="flex flex-col md:flex-row md:items-baseline justify-between gap-gutter">
+<div class="md:w-1/4">
+<div class="font-label-caps text-label-caps text-primary uppercase tracking-widest">Body Large &amp; Medium</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Inter · 16px &amp; 14px · 400 Wt</span>
+</div>
+<div class="md:w-3/4 space-y-space-xs">
+<p class="font-body-lg text-body-lg text-on-surface leading-relaxed">
+            When pure tall pea plants with round seeds are crossed with dwarf plants having wrinkled seeds, the phenotypic ratio in the F2 generation follows a strictly predictable 9:3:3:1 distribution.
+          </p>
+<div class="flex items-center gap-space-md text-on-surface-variant pt-2">
+<span class="font-body-md text-body-md">Inter Body Medium (14px/22px)</span>
+<span>•</span>
+<span class="font-body-sm text-body-sm">Inter Body Small (13px/18px)</span>
+<span>•</span>
+<span class="font-label-caps text-label-caps text-primary uppercase">LABEL-CAPS (11px / 0.06em tracking)</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 5: Duotone Iconography System -->
+<section class="w-full py-space-xl px-margin-sm lg:px-margin max-w-7xl mx-auto">
+<div class="pb-space-md flex flex-col sm:flex-row sm:items-end justify-between gap-gutter">
+<div>
+<span class="font-label-caps text-label-caps text-primary uppercase tracking-wider">Iconography Framework</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Custom Duotone Utility System</h2>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">40px / 48px Continuous rounded-2xl geometry with 20% alpha fills</span>
+</div>
+<!-- Core Platform Tool Icons -->
+<div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-gutter mt-space-md">
+<!-- Icon 1: Study Notes -->
+<div class="p-space-md rounded-lg bg-surface-container-lowest shadow-sm flex flex-col items-center text-center space-y-space-xs">
+<div class="w-12 h-12 rounded-2xl bg-surface-container flex items-center justify-center text-primary transition-transform hover:scale-110">
+<span class="material-symbols-outlined text-[26px]">menu_book</span>
+</div>
+<span class="font-title text-title text-on-surface">Master Notes</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant">menu_book</span>
+</div>
+<!-- Icon 2: Solved Questions -->
+<div class="p-space-md rounded-lg bg-surface-container-lowest shadow-sm flex flex-col items-center text-center space-y-space-xs">
+<div class="w-12 h-12 rounded-2xl bg-tertiary-fixed flex items-center justify-center text-tertiary transition-transform hover:scale-110">
+<span class="material-symbols-outlined text-[26px]" style="font-variation-settings: 'FILL' 1;">task_alt</span>
+</div>
+<span class="font-title text-title text-on-surface">Solved Banks</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant">task_alt</span>
+</div>
+<!-- Icon 3: Instant Search -->
+<div class="p-space-md rounded-lg bg-surface-container-lowest shadow-sm flex flex-col items-center text-center space-y-space-xs">
+<div class="w-12 h-12 rounded-2xl bg-surface-container flex items-center justify-center text-primary transition-transform hover:scale-110">
+<span class="material-symbols-outlined text-[26px]">manage_search</span>
+</div>
+<span class="font-title text-title text-on-surface">Global Query</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant">manage_search</span>
+</div>
+<!-- Icon 4: Bookmark & Tray -->
+<div class="p-space-md rounded-lg bg-surface-container-lowest shadow-sm flex flex-col items-center text-center space-y-space-xs">
+<div class="w-12 h-12 rounded-2xl bg-secondary-fixed flex items-center justify-center text-secondary transition-transform hover:scale-110">
+<span class="material-symbols-outlined text-[26px]">bookmark_heart</span>
+</div>
+<span class="font-title text-title text-on-surface">Saved Trays</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant">bookmark_heart</span>
+</div>
+<!-- Icon 5: Student Companion -->
+<div class="p-space-md rounded-lg bg-surface-container-lowest shadow-sm flex flex-col items-center text-center space-y-space-xs">
+<div class="w-12 h-12 rounded-2xl bg-surface-container-high flex items-center justify-center text-on-surface transition-transform hover:scale-110">
+<span class="material-symbols-outlined text-[26px]">school</span>
+</div>
+<span class="font-title text-title text-on-surface">Sathi Profile</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant">school</span>
+</div>
+<!-- Icon 6: Daily Streak Flame -->
+<div class="p-space-md rounded-lg bg-surface-container-lowest shadow-sm flex flex-col items-center text-center space-y-space-xs">
+<div class="w-12 h-12 rounded-2xl bg-secondary-fixed flex items-center justify-center text-secondary transition-transform hover:scale-110">
+<span class="material-symbols-outlined text-[26px]" style="font-variation-settings: 'FILL' 1;">local_fire_department</span>
+</div>
+<span class="font-title text-title text-on-surface">Streak Engine</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant">local_fire_dept</span>
+</div>
+</div>
+<!-- Subject Specific Glyphs Showcase -->
+<div class="mt-space-md p-space-lg rounded-lg bg-surface-container-low shadow-sm">
+<div class="flex items-center justify-between pb-space-sm">
+<span class="font-title text-title text-on-surface">Subject-Domain Glyphs</span>
+<span class="font-label-caps text-label-caps text-primary uppercase">Vector Set · 24dp</span>
+</div>
+<div class="grid grid-cols-3 sm:grid-cols-7 gap-gutter pt-space-xs">
+<div class="flex flex-col items-center gap-1">
+<span class="w-10 h-10 rounded-xl bg-surface-container-lowest shadow-sm flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">calculate</span>
+</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Math</span>
+</div>
+<div class="flex flex-col items-center gap-1">
+<span class="w-10 h-10 rounded-xl bg-surface-container-lowest shadow-sm flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined">biotech</span>
+</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Science</span>
+</div>
+<div class="flex flex-col items-center gap-1">
+<span class="w-10 h-10 rounded-xl bg-surface-container-lowest shadow-sm flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined">translate</span>
+</span>
+<span class="font-label-md text-label-md text-on-surface-variant">English</span>
+</div>
+<div class="flex flex-col items-center gap-1">
+<span class="w-10 h-10 rounded-xl bg-surface-container-lowest shadow-sm flex items-center justify-center text-amber-600">
+<span class="material-symbols-outlined">edit_note</span>
+</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Nepali</span>
+</div>
+<div class="flex flex-col items-center gap-1">
+<span class="w-10 h-10 rounded-xl bg-surface-container-lowest shadow-sm flex items-center justify-center text-pink-600">
+<span class="material-symbols-outlined">travel_explore</span>
+</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Social</span>
+</div>
+<div class="flex flex-col items-center gap-1">
+<span class="w-10 h-10 rounded-xl bg-surface-container-lowest shadow-sm flex items-center justify-center text-cyan-600">
+<span class="material-symbols-outlined">function</span>
+</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Opt Math</span>
+</div>
+<div class="flex flex-col items-center gap-1">
+<span class="w-10 h-10 rounded-xl bg-surface-container-lowest shadow-sm flex items-center justify-center text-indigo-600">
+<span class="material-symbols-outlined">terminal</span>
+</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Computer</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 6: UI Component Library & Live Interactive States -->
+<section class="w-full py-space-xl px-margin-sm lg:px-margin max-w-7xl mx-auto">
+<div class="pb-space-md">
+<span class="font-label-caps text-label-caps text-primary uppercase tracking-wider">Design System In Practice</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Button States &amp; High-Fidelity Study Surfaces</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">Direct preview of interactive widgets constructed with the official design tokens.</p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter mt-space-md">
+<!-- Buttons & Action Matrix (5 Cols) -->
+<div class="lg:col-span-5 p-space-lg rounded-lg bg-surface-container-lowest shadow-sm space-y-space-lg">
+<div>
+<span class="font-label-caps text-label-caps text-primary uppercase">Button Taxonomy</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1">Pill Actions &amp; Micro-chips</h3>
+</div>
+<div class="space-y-space-md">
+<!-- Primary Pill Button -->
+<div class="flex items-center justify-between">
+<button class="px-space-lg py-space-sm rounded-full bg-primary-container text-on-primary font-title text-title shadow-[0_10px_25px_-5px_rgba(75,79,242,0.4)] hover:-translate-y-0.5 hover:shadow-[0_12px_28px_-4px_rgba(75,79,242,0.5)] transition-all">
+              Solve Next Problem →
+            </button>
+<span class="font-label-caps text-label-caps text-on-surface-variant">Primary Glow</span>
+</div>
+<!-- Secondary Pill Button -->
+<div class="flex items-center justify-between">
+<button class="px-space-lg py-space-sm rounded-full bg-surface-container-low text-on-surface font-title text-title shadow-sm hover:bg-surface-container transition-colors">
+              Inspect CDC Marking Scheme
+            </button>
+<span class="font-label-caps text-label-caps text-on-surface-variant">Paper Warm</span>
+</div>
+<!-- Ghost Action Button -->
+<div class="flex items-center justify-between">
+<button class="px-space-lg py-space-sm rounded-full bg-transparent text-primary hover:bg-surface-container transition-colors font-title text-title flex items-center gap-1">
+<span class="material-symbols-outlined text-[18px]">download</span>
+<span>Download PDF Note</span>
+</button>
+<span class="font-label-caps text-label-caps text-on-surface-variant">Ghost Action</span>
+</div>
+<!-- Coral Urgency Button -->
+<div class="flex items-center justify-between">
+<button class="px-space-lg py-space-sm rounded-full bg-secondary-container text-on-primary font-title text-title shadow-[0_4px_14px_rgba(253,88,58,0.35)] hover:-translate-y-0.5 transition-all">
+              Join Live SEE Mock Test
+            </button>
+<span class="font-label-caps text-label-caps text-on-surface-variant">Coral Urgency</span>
+</div>
+</div>
+<!-- Streak Badges & Micro Chips Strip -->
+<div class="pt-space-md space-y-space-sm">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Telemetry Chips</span>
+<div class="flex flex-wrap items-center gap-space-sm">
+<!-- Coral Streak Pill -->
+<div class="inline-flex items-center gap-1.5 px-space-md py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed shadow-sm">
+<span class="material-symbols-outlined text-[18px] text-secondary" style="font-variation-settings: 'FILL' 1;">local_fire_department</span>
+<span class="font-title text-title font-bold">14-Day Streak</span>
+</div>
+<!-- Solved Mastery Chip -->
+<div class="inline-flex items-center gap-1.5 px-space-md py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed shadow-sm">
+<span class="material-symbols-outlined text-[18px] text-tertiary" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="font-title text-title font-semibold">SEE 2080 Solved</span>
+</div>
+<!-- Focus Mode Chip -->
+<div class="inline-flex items-center gap-1 px-space-sm py-1 rounded-full bg-surface-container text-primary font-label-md text-label-md">
+<span class="w-2 h-2 rounded-full bg-primary-container"></span>
+<span>Pomodoro Active</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Live Interactive Card Preview: Solved Question Surface (7 Cols) -->
+<div class="lg:col-span-7 p-space-lg rounded-lg bg-surface-container-lowest shadow-sm flex flex-col justify-between space-y-space-md">
+<div>
+<!-- Question Header bar -->
+<div class="flex items-center justify-between pb-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="px-3 py-1 rounded-full bg-primary-fixed text-primary font-label-caps text-label-caps uppercase tracking-wider">
+                Compulsory Science · Group C
+              </span>
+<span class="font-label-caps text-label-caps text-on-surface-variant px-2 py-1 rounded bg-surface-container">
+                4 Marks
+              </span>
+</div>
+<div class="flex items-center gap-1 text-tertiary font-title text-title">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">verified</span>
+<span class="font-semibold">CDC Verified Solution</span>
+</div>
+</div>
+<!-- Question Prompt -->
+<div class="pt-space-xs space-y-space-xs">
+<h4 class="font-headline-sm text-headline-sm text-on-surface">
+              Q18: State Ohm's Law. Derive the mathematical formula connecting potential difference (V), current (I), and resistance (R).
+            </h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Asked in SEE 2079 (Bagmati Province), SEE 2076 (Gandaki). Essential for Group C Physics section.
+            </p>
+</div>
+<!-- Verified Answer Specimen Box -->
+<div class="mt-space-md p-space-md rounded bg-surface-container-low space-y-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-tertiary uppercase">Model Answer Framework</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant">Mark Distribution: 1 + 3 = 4</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface leading-relaxed">
+<strong class="font-title text-title text-on-surface font-semibold">Statement:</strong> “Under constant physical conditions (such as temperature), the electric current passing through a conductor is directly proportional to the potential difference across its terminals.”
+            </p>
+<div class="p-space-sm rounded bg-surface-container-lowest flex items-center justify-between">
+<div class="font-title text-title text-primary font-bold">
+                I ∝ V  ⇒  V = I · R  ⇒  R = V / I
+              </div>
+<button class="px-space-sm py-0.5 rounded-full bg-surface-container text-primary font-label-md text-label-md hover:bg-primary-fixed transition-colors">
+                Copy Formula
+              </button>
+</div>
+</div>
+</div>
+<!-- Solution Control Bar -->
+<div class="pt-space-sm flex flex-col sm:flex-row items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-xs">
+<img alt="Sujata Karki" class="w-7 h-7 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCrDyxPWS6JozOwz-oSK0TQdsaQVNWqvX9vy4Gm5wZBZy3TV08Q_CUNga7wdA05bLkWRqtiOsdxC3yUzFyT9NjI-Yfbauq7Z129CinOYvntG1ar1VKMEZ9i0rwvHjPDm-_oEmRRfOIXiXmkWITbnyTzgi200Vml5bk0i0FHpNyAtP9pn1Tgeul7Ao_iTwoBHvJp4RpNI_99YUjUPw9fsjoNvPw0-GGqxLvo6BudnTbKDWzfhaLN5gYt"/>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Answered by Topper Sujata K. (GPA 4.0)</span>
+</div>
+<div class="flex items-center gap-space-xs self-stretch sm:self-auto">
+<button class="flex-1 sm:flex-initial px-space-md py-space-xs rounded-full bg-surface-container text-on-surface font-title text-title hover:bg-surface-container-high transition-colors">
+              Explain Step-by-Step
+            </button>
+<button class="flex-1 sm:flex-initial px-space-md py-space-xs rounded-full bg-primary-container text-on-primary font-title text-title shadow-sm hover:opacity-95 transition-opacity">
+              Practice Next →
+            </button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 7: Design System Mission & Download Bar -->
+<section class="w-full py-space-xl px-margin-sm lg:px-margin max-w-7xl mx-auto mb-space-xl">
+<div class="p-space-xl rounded-xl bg-gradient-to-r from-[#0E1020] to-[#181A2B] text-white shadow-xl flex flex-col lg:flex-row items-center justify-between gap-gutter">
+<div class="space-y-space-xs max-w-2xl text-center lg:text-left">
+<div class="inline-flex items-center gap-1.5 px-space-md py-1 rounded-full bg-white/10 text-white font-label-caps text-label-caps uppercase">
+<span>Open Academic Standard for Nepal</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg text-white font-bold">
+          Built for every student from Mechi to Mahakali.
+        </h3>
+<p class="font-body-md text-body-md text-slate-300">
+          The SEE Sathi design system is purposefully lightweight, highly accessible on entry-level Android devices, and optimized for smooth offline caching during long revision nights.
+        </p>
+</div>
+<div class="flex flex-wrap items-center justify-center gap-space-md shrink-0">
+<a class="px-space-xl py-space-md rounded-full bg-primary-container text-on-primary font-title text-title shadow-[0_4px_20px_rgba(75,79,242,0.45)] hover:-translate-y-0.5 transition-all inline-flex items-center gap-2" data-path="practice" href="#">
+<span>Start Free SEE Prep</span>
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</a>
+<a class="px-space-xl py-space-md rounded-full bg-white/10 text-white hover:bg-white/20 font-title text-title transition-colors" data-path="study-notes" href="#">
+          Browse Subject Notes
+        </a>
+</div>
+</div>
+</section>
+</div>
+<script>
+  // Simple micro-interaction for button state feedback
+  document.querySelectorAll('button').forEach(btn => {
+    btn.addEventListener('click', () => {
+      btn.classList.add('scale-95');
+      setTimeout(() => {
+        btn.classList.remove('scale-95');
+      }, 150);
+    });
+  });
+</script></main><footer class="w-full bg-surface-container-low text-on-surface"><div class="max-w-7xl mx-auto px-margin-sm lg:px-margin py-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-gutter lg:gap-space-xl mb-space-xl"><div class="lg:col-span-2 space-y-space-md"><div class="flex items-center gap-space-sm"><img alt="SEE Sathi Official Brand Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WwGan9Vx2qz0bu9L0hK79M-OtrWiHY-62yxPoPcAyunnkiTjaKNctYGFStOBpLHXBkh2MvKunMBqqvmAkcRQ3nfxflKpe0D5wYWuPDcZx8Md5wgRSIQhaRJIgh_DxcTB4K6oRPxecKT8rWnKh6fMlGdYGk8Aqyhx0sw9vfJZU2_rgcp4sQFYUVqdvoBed4BlBDMBtgv9apsW8KekvA8cJFlSIJcqf5mxbxPKcZzL4kgf2DDWllKN9fw70"/><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight">SEE Sathi</span></div><p class="font-body-md text-body-md text-on-surface-variant max-w-sm">Empowering every Class 10 student across Nepal with world-class, beautifully structured study notes and solved questions.</p><div class="flex items-center gap-space-sm text-on-surface-variant pt-space-xs"><span class="inline-flex items-center px-space-sm py-space-xs rounded-full bg-surface-container text-primary font-label-caps text-label-caps">Nepal Curriculum (CDC) Verified</span></div></div><div class="space-y-space-sm"><h4 class="font-label-caps text-label-caps text-on-surface uppercase tracking-wider">Study</h4><ul class="space-y-space-xs"><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="study-notes" href="#">Master Notes</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="solved-questions" href="#">Question Bank</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="practice" href="#">Formula Sheets</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="practice" href="#">Mock SEE Papers</a></li></ul></div><div class="space-y-space-sm"><h4 class="font-label-caps text-label-caps text-on-surface uppercase tracking-wider">Subjects</h4><ul class="space-y-space-xs"><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="subjects" href="#">Compulsory Math</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="subjects" href="#">Science &amp; Tech</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="subjects" href="#">Optional Math</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="subjects" href="#">English &amp; Nepali</a></li></ul></div><div class="space-y-space-sm"><h4 class="font-label-caps text-label-caps text-on-surface uppercase tracking-wider">Resources</h4><ul class="space-y-space-xs"><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="brand-identity" href="#">Brand Identity</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="home" href="#">SEE Grading Guide</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="study-notes" href="#">Syllabus Breakdown</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="practice" href="#">Topper Answer Sets</a></li></ul></div><div class="space-y-space-sm"><h4 class="font-label-caps text-label-caps text-on-surface uppercase tracking-wider">Company &amp; Legal</h4><ul class="space-y-space-xs"><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="home" href="#">About Mission</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="home" href="#">Editorial Board</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="home" href="#">Privacy Policy</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="home" href="#">Terms of Use</a></li></ul></div></div><div class="pt-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-md text-on-surface-variant"><p class="font-body-sm text-body-sm">© 2026 SEE Sathi Technologies Pvt. Ltd. All rights reserved. Kathmandu, Nepal.</p><div class="flex items-center gap-space-md font-body-sm text-body-sm"><span class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-tertiary">verified</span> SEE Curriculum Compliant</span></div></div></div></footer></body></html>

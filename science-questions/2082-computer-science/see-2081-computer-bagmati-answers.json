@@ -1,0 +1,447 @@
+{
+  "chapterId": "see-2081-computer-bagmati-ans",
+  "subjectId": "computer-science",
+  "classLevel": "10",
+  "province": "Bagmati",
+  "examBoard": "SEE (National Examinations Board, Nepal)",
+  "examYear": "2081 (2025 AD)",
+  "paperCode": "RE-403'BP'",
+  "fullMarks": 50,
+  "docType": "answerKey",
+  "linkedQuestionPaperId": "see-2081-computer-bagmati-qp",
+  "titleEn": "SEE 2081 (2025) Computer Science — Model Answers (Bagmati Province)",
+  "titleNe": "SEE २०८१ (२०२५) कम्प्युटर विज्ञान — नमूना उत्तर (बागमती प्रदेश)",
+  "sourceNote": {
+    "en": "Digitised from the uploaded scan of the SEE 2081 (2025) Optional Computer Science question paper, Bagmati Province, set 'BP'.",
+    "ne": "यो फाइल SEE 2081 (2025) वैकल्पिक कम्प्युटर विज्ञान प्रश्नपत्र, बागमती प्रदेश, सेट 'BP' को स्क्यान गरिएको प्रतिबाट तयार पारिएको हो।"
+  },
+  "answerLanguageLevelNote": {
+    "en": "Answers and step-by-step solutions are written at a Class 10 (SEE) level of understanding, in simple bilingual language matching the question paper. QBASIC program code is given in both modelled and fully executable forms.",
+    "ne": "उत्तर तथा चरणबद्ध हलहरू कक्षा १० (SEE) स्तरको सजिलो र प्रश्नपत्रसँग मिल्दो द्विभाषिक भाषामा लेखिएका छन्। QBASIC प्रोग्राम कोड सजिलो र सञ्चालन योग्य दुवै रूपमा दिइएको छ।"
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "text": { "en": "Model Answers — Optional Computer Science, SEE 2081", "ne": "नमूना उत्तर — वैकल्पिक कम्प्युटर विज्ञान, SEE २०८१" }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "These are model/reference answers written for Class 10 students, following the official marking distribution of the SEE Computer Science (optional) examination.",
+        "ne": "यी कक्षा १० का विद्यार्थीका लागि SEE कम्प्युटर विज्ञान (वैकल्पिक) परीक्षाको आधिकारिक अङ्क वितरणअनुसार तयार पारिएका नमूना/सन्दर्भ उत्तरहरू हुन्।"
+      }
+    }
+  ],
+  "questionSections": [
+    {
+      "title": {
+        "en": "Section A — Computer System & Fundamentals",
+        "ne": "खण्ड 'क' — कम्प्युटर प्रणाली तथा आधारभूत"
+      },
+      "instructions": {
+        "en": "Answer all the questions. (Approx. 22 Marks)",
+        "ne": "सबै प्रश्नहरूको उत्तर दिनुहोस्। (लगभग २२ अङ्क)"
+      },
+      "items": [
+        {
+          "id": "cs-q1",
+          "questionNumber": "1",
+          "section": "A",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "What is a computer network? Write any one advantage of it.",
+            "ne": "कम्प्युटर नेटवर्क भनेको के हो ? यसको कुनै एक फाइदा लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "A computer network is an interconnection of two or more computing devices that communicate and share resources using a transmission medium. Advantage: it allows sharing of hardware (printer, scanner) and software resources among many users without duplication.",
+            "ne": "कम्प्युटर नेटवर्क भन्नाले सञ्चार माध्यम प्रयोग गरी दुई वा दुईभन्दा बढी कम्प्युटर उपकरणहरू आपसमा जोडिएर सूचना तथा स्रोत आदानप्रदान गर्ने व्यवस्था हो। फाइदा: हार्डवेयर (प्रिन्टर, स्क्यानर) तथा सफ्टवेयर स्रोतहरूलाई धेरै प्रयोगकर्ताहरूले दोहोर्‍याइ बिना साझेदारी गर्न सकिन्छ।"
+          }
+        },
+        {
+          "id": "cs-q2",
+          "questionNumber": "2",
+          "section": "A",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Write any four precautions to protect a computer system from computer virus.",
+            "ne": "कम्प्युटरलाई भाइरसबाट बचाउन कुनै चार उपाय लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "1. Install and regularly update a good antivirus program. 2. Do not open suspicious email attachments or unknown links. 3. Do not use unauthorised pirated software and pen drives. 4. Always scan external storage devices before copying files.",
+            "ne": "१. राम्रो एन्टिभाइरस सफ्टवेयर स्थापना गरी नियमित अपडेट गर्ने। २. शंकास्पद इमेल एट्याचमेन्ट वा अज्ञात लिङ्क खोल्ने। ३. अनधिकृत र अवैध सफ्टवेयर तथा पेन ड्राइभ प्रयोग नगर्ने। ४. बाह्य भण्डारण उपकरण प्रयोग गर्दा पहिले स्क्यान गर्ने।"
+          }
+        },
+        {
+          "id": "cs-q3",
+          "questionNumber": "3",
+          "section": "A",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Convert as instructed: (a) (101)₁₀ into binary  (b) (75)₈ into decimal.",
+            "ne": "निर्देशनअनुसार रूपान्तरण गर्नुहोस्: (क) (101)₁₀ लाई बाइनरीमा  (ख) (75)₈ लाई दशमलवमा।"
+          },
+          "answer": {
+            "en": "(a) (101)₁₀ = (1100101)₂   (b) (75)₈ = (61)₁₀",
+            "ne": "(क) (101)₁₀ = (1100101)₂   (ख) (75)₈ = (61)₁₀"
+          },
+          "solution": {
+            "en": "(a) 101 ÷ 2 → 50 rem 1, 50 ÷ 2 → 25 rem 0, 25 ÷ 2 → 12 rem 1, 12 ÷ 2 → 6 rem 0, 6 ÷ 2 → 3 rem 0, 3 ÷ 2 → 1 rem 1, 1 ÷ 2 → 0 rem 1. Reading remainders from bottom: 1100101.\n(b) 7 × 8¹ + 5 × 8⁰ = 56 + 5 = 61.",
+            "ne": "(क) 101 ÷ 2 → 50 शेष 1, 50 ÷ 2 → 25 शेष 0, 25 ÷ 2 → 12 शेष 1, 12 ÷ 2 → 6 शेष 0, 6 ÷ 2 → 3 शेष 0, 3 ÷ 2 → 1 शेष 1, 1 ÷ 2 → 0 शेष 1। तलबाट माथि पढ्दा: 1100101।\n(ख) 7 × 8¹ + 5 × 8⁰ = 56 + 5 = 61।"
+          }
+        },
+        {
+          "id": "cs-q4",
+          "questionNumber": "4",
+          "section": "A",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Perform the given binary calculations: (a) (10101)₂ − (1011)₂  (b) (111)₂ × (11)₂.",
+            "ne": "दिइएका बाइनरी गणनाहरू गर्नुहोस्: (क) (10101)₂ − (1011)₂  (ख) (111)₂ × (11)₂।"
+          },
+          "answer": {
+            "en": "(a) (10101)₂ − (1011)₂ = (1010)₂   (b) (111)₂ × (11)₂ = (10101)₂",
+            "ne": "(क) (10101)₂ − (1011)₂ = (1010)₂   (ख) (111)₂ × (11)₂ = (10101)₂"
+          },
+          "solution": {
+            "en": "(a)  10101\n   − 01011\n   = 01010 → (1010)₂\n(b) 111 × 11 = (111 × 1) + (111 × 1 shifted once) = 111 + 1110 = 10101.",
+            "ne": "(क)  10101\n   − 01011\n   = 01010 → (1010)₂\n(ख) 111 × 11 = (111 × 1) + (111 × 1 एक स्थान सरेर) = 111 + 1110 = 10101।"
+          }
+        },
+        {
+          "id": "cs-q5",
+          "questionNumber": "5",
+          "section": "A",
+          "marks": 0.5,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Which of the following is NOT a networking topology?",
+            "ne": "निम्नमध्ये कुन नेटवर्क टोपोलोजी होइन ?"
+          },
+          "options": [
+            { "en": "Star", "ne": "स्टार" },
+            { "en": "Ring", "ne": "रिङ" },
+            { "en": "Client-server", "ne": "क्लाइन्ट-सर्भर" },
+            { "en": "Bus", "ne": "वस्" }
+          ],
+          "answer": { "en": "Client-server", "ne": "क्लाइन्ट-सर्भर" },
+          "solution": {
+            "en": "Client-server is a networking architecture (a relationship between provider and consumer of services), not a physical/layout topology like star, ring or bus.",
+            "ne": "क्लाइन्ट-सर्भर एक नेटवर्किङ आर्किटेक्चर (सेवा प्रदायक र प्राप्तकर्ताबीचको सम्बन्ध) हो, भौतिक/संरचना टोपोलोजी (स्टार, रिङ, वस्) होइन।"
+          },
+          "correctOption": "iii"
+        },
+        {
+          "id": "cs-q6",
+          "questionNumber": "6",
+          "section": "A",
+          "marks": 0.5,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "When was the Cyber Law introduced in Nepal?",
+            "ne": "नेपालमा साइबर कानून कहिलेदेखि लागू गरिएको थियो ?"
+          },
+          "options": [
+            { "en": "2061 BS", "ne": "२०६१ वि.सं." },
+            { "en": "2062 BS", "ne": "२०६२ वि.सं." },
+            { "en": "2071 BS", "ne": "२०७१ वि.सं." },
+            { "en": "2072 BS", "ne": "२०७२ वि.सं." }
+          ],
+          "answer": { "en": "2061 BS", "ne": "२०६१ वि.सं." },
+          "solution": {
+            "en": "The Electronic Transaction Act (Cyber Law) of Nepal was introduced in 2061 BS (2004 AD).",
+            "ne": "नेपालको इलेक्ट्रोनिक कारोबार ऐन (साइबर कानून) २०६१ वि.सं. (सन् २००४) मा जारी गरिएको थियो।"
+          },
+          "correctOption": "i"
+        },
+        {
+          "id": "cs-q7",
+          "questionNumber": "7",
+          "section": "A",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Give appropriate technical terms for the following: (a) The rules and format to accept and transfer data in a computer network. (b) A device that connects two different networks together.",
+            "ne": "निम्नका लागि उपयुक्त प्राविधिक शब्दहरू लेख्नुहोस्: (क) कम्प्युटर नेटवर्कमा डाटा आदानप्रदानका नियम तथा ढाँचा। (ख) दुई फरक नेटवर्कलाई जोड्ने उपकरण।"
+          },
+          "answer": {
+            "en": "(a) Protocol   (b) Gateway (also acceptable: Bridge/Router that joins two similar networks is a Bridge; the term joining two different network architectures is Gateway).",
+            "ne": "(क) प्रोटोकल (Protocol)   (ख) गेटवे (Gateway) (एउटै प्रकारका नेटवर्क जोड्नेलाई ब्रिज पनि भनिन्छ)।"
+          }
+        },
+        {
+          "id": "cs-q8",
+          "questionNumber": "8",
+          "section": "A",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Write the full forms of the following: (a) WWW  (b) MAN  (c) OS  (d) NIC.",
+            "ne": "निम्नको पूर्ण रूप लेख्नुहोस्: (क) WWW  (ख) MAN  (ग) OS  (घ) NIC।"
+          },
+          "answer": {
+            "en": "(a) World Wide Web  (b) Metropolitan Area Network  (c) Operating System  (d) Network Interface Card",
+            "ne": "(क) World Wide Web  (ख) Metropolitan Area Network  (ग) Operating System  (घ) Network Interface Card"
+          }
+        },
+        {
+          "id": "cs-q9",
+          "questionNumber": "9",
+          "section": "A",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "What is hardware security? Write any two measures of hardware security.",
+            "ne": "हार्डवेयर सुरक्षा भनेको के हो ? हार्डवेयर सुरक्षाका कुनै दुई उपाय लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "Hardware security refers to the measures taken to protect the physical components of a computer from theft, damage, fire and unauthorised access. Measures: (a) keep the computer room clean, dust-free and well ventilated; (b) use UPS/power protection and keep the machine locked in a secure place after use.",
+            "ne": "हार्डवेयर सुरक्षा भन्नाले कम्प्युटरका भौतिक उपकरणहरूलाई चोरी, क्षति, आगो तथा अनधिकृत प्रयोगबाट बचाउन गरिने उपायहरू हुन्। उपायहरू: (क) कम्प्युटर कोठा सफा, धुलोमुक्त र राम्रो हावा खेल्ने बनाउने; (ख) UPS/बिजुली सुरक्षा प्रयोग गर्ने र प्रयोगपछि कम्प्युटर सुरक्षित स्थानमा लक गरी राख्ने।"
+          }
+        },
+        {
+          "id": "cs-q10",
+          "questionNumber": "10",
+          "section": "A",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Define multimedia. Write any two areas where multimedia technology is used.",
+            "ne": "मल्टिमिडिया भनेको के हो ? मल्टिमिडिया प्रविधि प्रयोग हुने कुनै दुई क्षेत्र लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "Multimedia is the integration of multiple media — text, audio, graphics, animation and video — on a computer to present information in a rich, interactive form. Areas of use: education (e-learning, virtual classes) and entertainment (games, film, music), besides business presentation, advertisement and medical imaging.",
+            "ne": "मल्टिमिडिया भन्नाले कम्प्युटरमा धेरै माध्यमहरू — पाठ, ध्वनि, चित्र, एनिमेसन र भिडियो — लाई समाहित गरी सूचना आकर्षक र अन्तरक्रियात्मक रूपमा प्रस्तुत गर्ने प्रविधि हो। प्रयोग क्षेत्रहरू: शिक्षा (ई-लर्निङ, भर्चुअल कक्षा) र मनोरञ्जन (खेल, चलचित्र, सङ्गीत), साथै व्यापार प्रस्तुति, विज्ञापन तथा चिकित्सा इमेजिङ्ग।"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Section B — Database Management System (DBMS)",
+        "ne": "खण्ड 'ख' — डाटाबेस व्यवस्थापन प्रणाली (DBMS)"
+      },
+      "instructions": {
+        "en": "Answer all the questions. (Approx. 10 Marks)",
+        "ne": "सबै प्रश्नहरूको उत्तर दिनुहोस्। (लगभग १० अङ्क)"
+      },
+      "items": [
+        {
+          "id": "cs-q11",
+          "questionNumber": "11",
+          "section": "B",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "What is DBMS? Write any two examples of DBMS software.",
+            "ne": "डाटाबेस व्यवस्थापन प्रणाली (DBMS) भनेको के हो ? कुनै दुई DBMS सफ्टवेयरका नाम लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "A Database Management System (DBMS) is software that creates, stores, organises, manages and retrieves data from a database efficiently. Examples: MS-Access, MySQL, Oracle, SQL Server, PostgreSQL.",
+            "ne": "डाटाबेस व्यवस्थापन प्रणाली (DBMS) भन्नाले डाटाबेस सिर्जना गर्ने, भण्डारण गर्ने, व्यवस्थित गर्ने र सजिलै प्राप्त गर्ने प्रबन्ध गर्ने सफ्टवेयर हो। उदाहरण: MS-Access, MySQL, Oracle, SQL Server, PostgreSQL।"
+          }
+        },
+        {
+          "id": "cs-q12",
+          "questionNumber": "12",
+          "section": "B",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "List any four data types used in MS-Access.",
+            "ne": "MS-Access मा प्रयोग हुने कुनै चार डाटा प्रकार लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "Text, Number, Date/Time, Yes/No, AutoNumber, Currency, Memo (Long Text), OLE Object.",
+            "ne": "Text, Number, Date/Time, Yes/No, AutoNumber, Currency, Memo (Long Text), OLE Object।"
+          }
+        },
+        {
+          "id": "cs-q13",
+          "questionNumber": "13",
+          "section": "B",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "What is a primary key? Why is it important in a database table?",
+            "ne": "प्राथमिक कुञ्जी (Primary Key) भनेको के हो ? डाटाबेस तालिकामा यो किन महत्त्वपूर्ण हुन्छ ?"
+          },
+          "answer": {
+            "en": "A primary key is a field (or combination of fields) whose value uniquely identifies each record in a table. It is important because it prevents duplicate records, enables fast searching/sorting, and links tables together through relationships (foreign keys).",
+            "ne": "प्राथमिक कुञ्जी भन्नाले तालिकाका प्रत्येक रेकर्डलाई अद्वितीय रूपमा चिन्न सक्ने क्षेत्र (वा क्षेत्रहरूको समूह) हो। यो महत्त्वपूर्ण हुन्छ किनभने यसले दोहोर्‍याइएका रेकर्ड रोक्छ, छिटो खोज/क्रम मिलाउन मद्दत गर्छ र सम्बन्ध (फरेन कुञ्जी) मार्फत तालिकाहरू जोड्छ।"
+          }
+        },
+        {
+          "id": "cs-q14",
+          "questionNumber": "14",
+          "section": "B",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "What is a form in MS-Access? Write any two advantages of using a form.",
+            "ne": "MS-Access मा फर्म भनेको के हो ? फर्म प्रयोग गर्नाका कुनै दुई फाइदा लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "A form is a user-friendly interface in MS-Access for viewing, entering and editing data in a database table. Advantages: (a) data entry is easier and avoids errors as only required fields are shown; (b) it can show one record clearly at a time and can include calculations, images and attractive layouts.",
+            "ne": "फर्म भन्नाले MS-Access मा डाटाबेस तालिकाको डाटा हेर्न, प्रविष्ट गर्न र सम्पादन गर्न बनाइएको प्रयोगकर्तामैत्री सतह हो। फाइदाहरू: (क) आवश्यक पर्ने क्षेत्र मात्र देखाइने हुँदा डाटा प्रविष्टि सजिलो र त्रुटिरहित हुन्छ; (ख) एकै पटक एउटा रेकर्ड स्पष्ट रूपमा देखिन्छ र गणना, चित्र तथा आकर्षक रूपमा प्रस्तुत गर्न सकिन्छ।"
+          }
+        },
+        {
+          "id": "cs-q15",
+          "questionNumber": "15",
+          "section": "B",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Differentiate between a field and a record.",
+            "ne": "क्षेत्र (Field) र रेकर्ड (Record) बीचको भिन्नता लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "Field: a single column of a table that stores one type of data (e.g. Name). Record: a complete row of a table that holds all the fields related to a single entity (e.g. all details of one student). A table is a collection of records, and each record is a collection of fields.",
+            "ne": "क्षेत्र (Field): तालिकाको एउटा स्तम्भ जसले एउटा प्रकारको डाटा (जस्तै: नाम) भण्डारण गर्छ। रेकर्ड (Record): तालिकाको एउटा पूर्ण पङ्क्ति जसमा एकै वस्तुसँग सम्बन्धित सबै क्षेत्रका मानहरू रहन्छन् (जस्तै: एक जना विद्यार्थीको सम्पूर्ण विवरण)। तालिका रेकर्डहरूको समूह हो, र प्रत्येक रेकर्ड क्षेत्रहरूको समूह हो।"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Section C — QBASIC Programming",
+        "ne": "खण्ड 'ग' — QBASIC प्रोग्रामिङ"
+      },
+      "instructions": {
+        "en": "Answer all the questions. (Approx. 18 Marks)",
+        "ne": "सबै प्रश्नहरूको उत्तर दिनुहोस्। (लगभग १८ अङ्क)"
+      },
+      "items": [
+        {
+          "id": "cs-q16",
+          "questionNumber": "16",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "What is modular programming?",
+            "ne": "मोड्युलर प्रोग्रामिङ भनेको के हो ?"
+          },
+          "answer": {
+            "en": "Modular programming is the technique of breaking a large program into small, independent and manageable modules called sub-programmes (SUB…END SUB or FUNCTION…END FUNCTION in QBASIC). Each module performs a single specific task and can be developed, tested and reused separately.",
+            "ne": "मोड्युलर प्रोग्रामिङ भन्नाले ठूलो प्रोग्रामलाई साना, स्वतन्त्र र व्यवस्थापनयोग्य भागहरूमा (QBASIC मा SUB…END SUB वा FUNCTION…END FUNCTION) विभाजन गर्ने प्रविधि हो। प्रत्येक मोड्युलले एउटै विशेष कार्य गर्छ र अलग्गै विकास, परीक्षण तथा पुनःप्रयोग गर्न सकिन्छ।"
+          }
+        },
+        {
+          "id": "cs-q17",
+          "questionNumber": "17",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Write the function of the following QBASIC statements: (a) FILES  (b) KILL.",
+            "ne": "निम्न QBASIC स्टेटमेन्टहरूको कार्य लेख्नुहोस्: (क) FILES  (ख) KILL।"
+          },
+          "answer": {
+            "en": "(a) FILES — displays the list of files (and folders) present in the current directory of the disk.\n(b) KILL — permanently deletes a specified file from the disk, e.g. KILL \"DATA.TXT\".",
+            "ne": "(क) FILES — हालको डिस्क निर्देशिकामा भएका फाइलहरूको सूची देखाउँछ।\n(ख) KILL — तोकिएको फाइललाई डिस्कबाट सधैँका लागि मेटाउँछ, जस्तै: KILL \"DATA.TXT\"।"
+          }
+        },
+        {
+          "id": "cs-q18",
+          "questionNumber": "18",
+          "section": "C",
+          "marks": 3,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Debug the given program and write the correct form with proper output:\n\nREM fibonacci series\nDECLARE SUB fibo()\nCALL fibo\nEND\nSUB fibo\nA = 1\nFOR X = 1 TO 10\nB = A\nPRINT B\nA = B\nNEXT X\nEND SUB",
+            "ne": "दिइएको प्रोग्राम शुद्ध गरी सही रूप तथा आउटपुट लेख्नुहोस्:\n\nREM fibonacci series\nDECLARE SUB fibo()\nCALL fibo\nEND\nSUB fibo\nA = 1\nFOR X = 1 TO 10\nB = A\nPRINT B\nA = B\nNEXT X\nEND SUB"
+          },
+          "answer": {
+            "en": "Output of the corrected program: 1 1 2 3 5 8 13 21 34 55",
+            "ne": "शुद्ध गरिएको प्रोग्रामको आउटपुट: 1 1 2 3 5 8 13 21 34 55"
+          },
+          "solution": {
+            "en": "Error: in the loop, the program stores A into B and prints B, but never advances the pair correctly (A is overwritten before B can hold the old value), so it prints 1 ten times. Also 'REM fibonacci series' should be 'REM Fibonacci series' is not an error; the real error is the missing update of the next term.\nCorrect program:\nREm Fibonacci series\nDECLARE SUB fibo()\nCALL fibo\nEND\nSUB fibo\nA = 1\nB = 1\nFOR X = 1 TO 10\nPRINT A\nC = A + B\nA = B\nB = C\nNEXT X\nEND SUB\nOutput: 1 1 2 3 5 8 13 21 34 55",
+            "ne": "त्रुटि: लुपमा A लाई B मा राखी B छापिए पनि पछिल्ला पदहरू अगाडि बढाइएको छैन, त्यसैले 1 दस पटक छापिन्छ। सही प्रोग्राम:\nREm Fibonacci series\nDECLARE SUB fibo()\nCALL fibo\nEND\nSUB fibo\nA = 1\nB = 1\nFOR X = 1 TO 10\nPRINT A\nC = A + B\nA = B\nB = C\nNEXT X\nEND SUB\nआउटपुट: 1 1 2 3 5 8 13 21 34 55"
+          }
+        },
+        {
+          "id": "cs-q19",
+          "questionNumber": "19",
+          "section": "C",
+          "marks": 3,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Write a QBASIC program that asks a number and checks whether it is even or odd.",
+            "ne": "एउटा सङ्ख्या लिएर त्यो सम (Even) वा विषम (Odd) छ कि छैन जाँच्ने QBASIC प्रोग्राम लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "INPUT \"Enter any number\"; N\nIF N MOD 2 = 0 THEN\nPRINT N; \" is Even number\"\nELSE\nPRINT N; \" is Odd number\"\nEND IF\nEND",
+            "ne": "INPUT \"Enter any number\"; N\nIF N MOD 2 = 0 THEN\nPRINT N; \" is Even number\"\nELSE\nPRINT N; \" is Odd number\"\nEND IF\nEND"
+          },
+          "solution": {
+            "en": "The MOD operator returns the remainder when N is divided by 2. If the remainder is 0 the number is divisible by 2 (even), otherwise it is odd.",
+            "ne": "MOD अपरेटरले N लाई २ ले भाग गर्दा बाँकी रहेको रेमेन्डर दिन्छ। रेमेन्डर ० भए सङ्ख्या २ ले पूर्ण भाग लाग्छ (सम), नत्र विषम हुन्छ।"
+          }
+        },
+        {
+          "id": "cs-q20",
+          "questionNumber": "20",
+          "section": "C",
+          "marks": 3,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Write a QBASIC program to find the sum of digits of a three-digit number.",
+            "ne": "तीन अङ्कको सङ्ख्याको अङ्कहरूको योगफल निकाल्ने QBASIC प्रोग्राम लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "CLS\nINPUT \"Enter a three digit number\"; N\nA = N \\ 100\nB = (N MOD 100) \\ 10\nC = N MOD 10\nS = A + B + C\nPRINT \"Sum of digits = \"; S\nEND",
+            "ne": "CLS\nINPUT \"Enter a three digit number\"; N\nA = N \\ 100\nB = (N MOD 100) \\ 10\nC = N MOD 10\nS = A + B + C\nPRINT \"Sum of digits = \"; S\nEND"
+          },
+          "solution": {
+            "en": "For N = 356: hundreds A = 356 \\ 100 = 3; tens B = (356 MOD 100) \\ 10 = 5; units C = 356 MOD 10 = 6; sum = 3 + 5 + 6 = 14.",
+            "ne": "N = 356 का लागि: सय अङ्क A = 356 \\ 100 = 3; दस अङ्क B = (356 MOD 100) \\ 10 = 5; एक अङ्क C = 356 MOD 10 = 6; योग = 3 + 5 + 6 = 14।"
+          }
+        },
+        {
+          "id": "cs-q21",
+          "questionNumber": "21",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Write the output of the given program:\n\nCLS\nFOR I = 2 TO 10 STEP 2\nPRINT I;\nNEXT I\nEND",
+            "ne": "दिइएको प्रोग्रामको आउटपुट लेख्नुहोस्:\n\nCLS\nFOR I = 2 TO 10 STEP 2\nPRINT I;\nNEXT I\nEND"
+          },
+          "answer": {
+            "en": "2 4 6 8 10",
+            "ne": "2 4 6 8 10"
+          },
+          "solution": {
+            "en": "The loop counter I starts at 2 and increases by 2 until it exceeds 10, printing 2, 4, 6, 8, 10. The semicolon (;) prints the values on the same line.",
+            "ne": "लुप काउन्टर I, २ बाट सुरु भई STEP 2 ले बढ्दै १० नाघ्नेसम्म चल्छ र 2, 4, 6, 8, 10 छाप्छ। सेमिकोलन (;) ले मानहरू एउटै लाइनमा छाप्छ।"
+          }
+        },
+        {
+          "id": "cs-q22",
+          "questionNumber": "22",
+          "section": "C",
+          "marks": 3,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Write a QBASIC program that uses a SUB procedure to display the area of a rectangle. The length and breadth are input by the user.",
+            "ne": "प्रयोगकर्ताबाट लम्बाइ र चौडाइ लिई आयतको क्षेत्रफल देखाउने SUB प्रक्रिया प्रयोग गरेको QBASIC प्रोग्राम लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "DECLARE SUB AREA (L, B)\nCLS\nINPUT \"Enter length\"; L\nINPUT \"Enter breadth\"; B\nCALL AREA (L, B)\nEND\nSUB AREA (L, B)\nA = L * B\nPRINT \"Area of rectangle = \"; A\nEND SUB",
+            "ne": "DECLARE SUB AREA (L, B)\nCLS\nINPUT \"Enter length\"; L\nINPUT \"Enter breadth\"; B\nCALL AREA (L, B)\nEND\nSUB AREA (L, B)\nA = L * B\nPRINT \"Area of rectangle = \"; A\nEND SUB"
+          },
+          "solution": {
+            "en": "The main module declares the SUB, inputs length and breadth, and calls it with the two arguments. The SUB procedure multiplies L × B and prints the area, keeping the calculation modular and reusable.",
+            "ne": "मुख्य मोड्युलले SUB घोषणा गरी लम्बाइ र चौडाइ इनपुट गरेर दुई तर्कसहित CALL गर्छ। SUB प्रक्रियाले L × B गुणन गरी क्षेत्रफल छाप्छ, जसले गणनालाई मोड्युलर र पुनःप्रयोगयोग्य बनाउँछ।"
+          }
+        }
+      ]
+    }
+  ]
+}

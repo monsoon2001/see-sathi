@@ -1,0 +1,771 @@
+{
+  "chapterId": "see-2081-compulsory-maths-koshi",
+  "subjectId": "mathematics",
+  "classLevel": "10",
+  "province": "Koshi",
+  "examBoard": "SEE (National Examinations Board, Nepal)",
+  "examYear": "2081 (2025 AD)",
+  "paperCode": "RE-1031'KoP'",
+  "fullMarks": 75,
+  "timeAllowed": "3 hours",
+  "titleEn": "SEE 2081 (2025) Compulsory Mathematics Question Paper — Koshi Province",
+  "titleNe": "SEE २०८१ (२०२५) अनिवार्य गणित प्रश्नपत्र — कोशी प्रदेश",
+  "sourceNote": {
+    "en": "Answer all the questions in your own creative style based on the given instructions.",
+    "ne": "दिइएका निर्देशनका आधारमा आफ्नै शैलीमा सिर्जनात्मक उत्तर दिनुहोस्। सबै प्रश्नहरू अनिवार्य छन्।"
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "text": {
+        "en": "SEE 2081 (2025) — Compulsory Mathematics",
+        "ne": "SEE २०८१ (२०२५) — अनिवार्य गणित"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "Time: 3 hours | Full Marks: 75.\nAnswer all the questions in your own creative style based on the given instructions.",
+        "ne": "समय : ३ घण्टा | पूर्णाङ्क : 75।\nदिइएका निर्देशनका आधारमा आफ्नै शैलीमा सिर्जनात्मक उत्तर दिनुहोस्। सबै प्रश्नहरू अनिवार्य छन्।"
+      }
+    }
+  ],
+  "docType": "questionPaper",
+  "questionSections": [
+    {
+      "title": {
+        "en": "Q1 · Sets",
+        "ne": "प्रश्न १ · सेट"
+      },
+      "instructions": {
+        "en": "In a survey of a group of 360 students, 100 students like basketball game only, 60 like cricket game only and 100 do not like any of the two games.",
+        "ne": "360 जना विद्यार्थीहरूको समूहमा सर्वेक्षण गर्दा 100 जनाले बास्केटबल खेल मात्र मन पराउँछन् । 60 जनाले क्रिकेट खेल मात्र मन पराउँछन् र 100 जनाले दुवै खेलमध्ये कुनै पनि मन पराउँदैनन् ।"
+      },
+      "items": [
+        {
+          "id": "q1-a",
+          "questionNumber": "1(a)",
+          "marks": 1,
+          "question": {
+            "en": "If 'B' and 'C' denote the set of students who like basketball and cricket game respectively, then what is the value of $n(B \\cup C)$? Write it.",
+            "ne": "यदि 'B' र 'C' ले क्रमशः बास्केटबल र क्रिकेट खेल मन पराउने विद्यार्थीहरूको समूह जनाउँदछन् भने $n(B \\cup C)$ को मान कति हुन्छ ? लेख्नुहोस् ।"
+          }
+        },
+        {
+          "id": "q1-b",
+          "questionNumber": "1(b)",
+          "marks": 1,
+          "question": {
+            "en": "Present the above information in a venn-diagram.",
+            "ne": "माथिको तथ्यलाई भेन चित्रमा प्रस्तुत गर्नुहोस् ।"
+          }
+        },
+        {
+          "id": "q1-c",
+          "questionNumber": "1(c)",
+          "marks": 3,
+          "question": {
+            "en": "Find the number of students who like both the games.",
+            "ne": "दुवै खेल मन पराउने विद्यार्थीहरूको सङ्ख्या पत्ता लगाउनुहोस् ।"
+          }
+        },
+        {
+          "id": "q1-d",
+          "questionNumber": "1(d)",
+          "marks": 1,
+          "question": {
+            "en": "If everyone who is not interested in any game liked cricket game in the second survey and found others to be same then, what would be the number of students who like at least one game? Find it.",
+            "ne": "यदि दोस्रो पटक फेरि सर्वेक्षण गर्दा कुनै पनि खेलमा रुची नभएका सबैले क्रिकेट खेल मन पराएर अन्य यथावत् पाइयो भने कम्तिमा एउटा खेल मन पराउने विद्यार्थीहरूको सङ्ख्या कति हुने थियो ? पत्ता लगाउनुहोस् ।"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Q2 · Simple and Compound Interest",
+        "ne": "प्रश्न २ · साधारण र चक्रीय ब्याज"
+      },
+      "instructions": {
+        "en": "Rajan borrowed a loan of Rs.10,000 from Ram for 2 years at the rate of 10% simple interest. Immediately, Rajan lent the same sum for same time and same rate of interest compounded annually to Shyam.",
+        "ne": "राजनले रामसँग 2 वर्षका लागि 10% साधारण ब्याजको दरले रू.10,000 सापटी लिन्छ र त्यत्तिकै बेला सो रकम समान समय र उही ब्याजदरमा वार्षिक चक्रीय ब्याजमा श्यामलाई सापटी दिन्छ ।"
+      },
+      "items": [
+        {
+          "id": "q2-a",
+          "questionNumber": "2(a)",
+          "marks": 1,
+          "question": {
+            "en": "According to the given context, which interest is more among simple interest and compound interest for 2 years? Write it.",
+            "ne": "दिइएको सन्दर्भअनुसार, 2 वर्षको अन्त्यमा हुने साधारण ब्याज र चक्रीय ब्याज मध्ये कुन बढी हुन्छ ? लेख्नुहोस् ।"
+          }
+        },
+        {
+          "id": "q2-b",
+          "questionNumber": "2(b)",
+          "marks": 2,
+          "question": {
+            "en": "How much profit did Rajan get during the transaction of 2 years? Find it.",
+            "ne": "राजनले उक्त कारोबारमा 2 वर्षमा कति फाइदा पाए ? पत्ता लगाउनुहोस् ।"
+          }
+        },
+        {
+          "id": "q2-c",
+          "questionNumber": "2(c)",
+          "marks": 2,
+          "question": {
+            "en": "How much more interest should Shyam need to pay to Rajan if Rajan had lent the amount at semi-annual compound interest rate? Find it.",
+            "ne": "यदि राजनले उक्त रकम अर्धवार्षिक चक्रीय ब्याजदरमा सापटी दिएको भए थप कति ब्याज श्यामले दिनु पर्दथ्यो ? पत्ता लगाउनुहोस् ।"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Q3 · Population Growth",
+        "ne": "प्रश्न ३ · जनसङ्ख्या वृद्धि"
+      },
+      "instructions": {
+        "en": "The population of a village is 20,000. The population increases by 2% annually in the village.",
+        "ne": "कुनै गाउँको हालको जनसङ्ख्या 20,000 छ । उक्त गाउँमा वार्षिक 2% का दरले जनसङ्ख्या वृद्धि हुन्छ ।"
+      },
+      "items": [
+        {
+          "id": "q3-a",
+          "questionNumber": "3(a)",
+          "marks": 1,
+          "question": {
+            "en": "If the initial population is $P$, growth rate is $R$ per annum and population after $T$ years is $P_T$, then write the formula to find $P_T$.",
+            "ne": "यदि सुरुको जनसङ्ख्या $P$, जनसङ्ख्या वृद्धिदर $R$ प्रतिवर्ष र $T$ वर्षपछिको जनसङ्ख्या $P_T$ भए, $P_T$ पत्ता लगाउने सूत्र लेख्नुहोस् ।"
+          }
+        },
+        {
+          "id": "q3-b",
+          "questionNumber": "3(b)",
+          "marks": 2,
+          "question": {
+            "en": "After how many years will the population of the village be 20,808? Find it.",
+            "ne": "कति वर्षपछि सो गाउँको जनसङ्ख्या 20,808 पुग्छ ? पत्ता लगाउनुहोस् ।"
+          }
+        },
+        {
+          "id": "q3-c",
+          "questionNumber": "3(c)",
+          "marks": 1,
+          "question": {
+            "en": "If the population increases at the rate of 3% per annum, by what number will the population of the village be increased in 2 years? Find it.",
+            "ne": "यदि प्रति वर्ष 3% का दरले जनसङ्ख्या वृद्धि भएको भए 2 वर्षमा सो गाउँको जनसङ्ख्या कतिले बढ्छ ? पत्ता लगाउनुहोस् ।"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Q4 · Currency Exchange",
+        "ne": "प्रश्न ४ · मुद्रा विनिमय"
+      },
+      "instructions": {
+        "en": "According to the currency exchange rate, the buying rate of 1 American dollar was NRs.136.13 and selling rate was NRs.137.25 on a certain day.",
+        "ne": "मुद्रा विनिमय दरअनुसार कुनै दिनको 1 अमेरिकी डलरको खरिद दर ने.रू. 136.13 र बिक्री दर ने.रू. 137.25 थियो ।"
+      },
+      "items": [
+        {
+          "id": "q4-a",
+          "questionNumber": "4(a)",
+          "marks": 1,
+          "question": {
+            "en": "Which rate, buying or selling, is used when you exchange American dollar into Nepali rupees? Write it.",
+            "ne": "तपाईंले अमेरिकी डलर नेपाली रुपैयाँमा साट्दा खरिददर र बिक्रीदर मध्ये कुन प्रयोग हुन्छ ? लेख्नुहोस् ।"
+          }
+        },
+        {
+          "id": "q4-b",
+          "questionNumber": "4(b)",
+          "marks": 1,
+          "question": {
+            "en": "How many Nepali rupees can an American tourist get by exchanging 1000 dollars? Find it.",
+            "ne": "अमेरिकी पर्यटकले 1000 डलर साट्दा कति नेपाली रुपैयाँ पाउँछन् ? पत्ता लगाउनुहोस् ।"
+          }
+        },
+        {
+          "id": "q4-c",
+          "questionNumber": "4(c)",
+          "marks": 2,
+          "question": {
+            "en": "The American tourist spent NRs.1,01,817.50 while staying in Nepal. While returning back to his own country, how many American dollars can he exchange from the remaining Nepalese rupees? Find it.",
+            "ne": "उक्त अमेरिकी पर्यटकले नेपाल बसाइमा ने.रू.1,01,817.50 खर्च गरे भने आफ्नो देश फर्किंदा बाँकी रकमको कति अमेरिकी डलर सटही गर्न सक्दछ ? पत्ता लगाउनुहोस् ।"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Q5 · Mensuration – Pyramid",
+        "ne": "प्रश्न ५ · क्षेत्रमिति – पिरामिड"
+      },
+      "instructions": {
+        "en": "A group of students constructed a square based pyramid shaped tent having length of base side 24 meter and vertical height 5 meter.",
+        "ne": "एउटा विद्यार्थीहरूको समूहले आधार भुजाको लम्बाइ 24 मिटर र ठाडो उचाइ 5 मिटर भएको एउटा वर्गाकार आधार भएको पिरामिड आकारको टेन्ट बनाएछन् ।"
+      },
+      "items": [
+        {
+          "id": "q5-a",
+          "questionNumber": "5(a)",
+          "marks": 1,
+          "question": {
+            "en": "How many triangular surfaces are there in the square based pyramid? Write it.",
+            "ne": "वर्ग आधार भएको पिरामिडमा कतिओटा त्रिभुजाकार सतहहरू हुन्छन् ? लेख्नुहोस् ।"
+          }
+        },
+        {
+          "id": "q5-b",
+          "questionNumber": "5(b)",
+          "marks": 1,
+          "question": {
+            "en": "Find the slant height of the above square based tent.",
+            "ne": "उक्त माथिको वर्गाकार आधार भएको टेन्टको छड्के उचाइ पत्ता लगाउनुहोस् ।"
+          }
+        },
+        {
+          "id": "q5-c",
+          "questionNumber": "5(c)",
+          "marks": 2,
+          "question": {
+            "en": "What is the total cost of cloth required to make the triangular surfaces at the rate of Rs.125 per square metre? Find it.",
+            "ne": "त्रिभुजाकार सतहहरूमा प्रति वर्ग मिटर रू.125 का दरले कपडा लगाउँदा जम्मा कति खर्च लाग्छ ? पत्ता लगाउनुहोस् ।"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Q6 · Mensuration – Cylinder and Cone",
+        "ne": "प्रश्न ६ · क्षेत्रमिति – बेलना र सोली"
+      },
+      "instructions": {
+        "en": "In the given figure, wooden cylinder and cone having equal base are shown.",
+        "ne": "दिइएको चित्रमा बराबर आधार भएका काठको बेलना र सोली देखाइएको छ ।"
+      },
+      "items": [
+        {
+          "id": "q6-a",
+          "questionNumber": "6(a)",
+          "marks": 1,
+          "question": {
+            "en": "Write the formula to find the volume of a cone.",
+            "ne": "सोलीको आयतन पत्ता लगाउने सूत्र लेख्नुहोस् ।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-compulsory-maths-koshi/img-q6-cylinder-cone-figure.png",
+            "caption": {
+              "en": "Wooden cylinder and cone with equal base",
+              "ne": "बराबर आधार भएका काठको बेलना र सोली"
+            }
+          }
+        },
+        {
+          "id": "q6-b",
+          "questionNumber": "6(b)",
+          "marks": 2,
+          "question": {
+            "en": "Find the volume of the cone in the given objects.",
+            "ne": "देखाइएको वस्तुहरूमा सोलीको आयतन पत्ता लगाउनुहोस् ।"
+          }
+        },
+        {
+          "id": "q6-c",
+          "questionNumber": "6(c)",
+          "marks": 2,
+          "question": {
+            "en": "If the given wooden cylinder is drilled out in the given conical shape, what will be the volume of remaining wood in the cylinder? Find it.",
+            "ne": "दिइएको बेलनामा दिइएको सोली आकार खोपेमा, उक्त बेलनामा काठको आयतन कति बाँकी हुन आउँछ ? पत्ता लगाउनुहोस् ।"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Q7 · Mensuration – Wall and Bricks",
+        "ne": "प्रश्न ७ · क्षेत्रमिति – पर्खाल र इँटा"
+      },
+      "instructions": {
+        "en": "The length of a wall is 10 m, width is 0.5 m and height is 2 m. Bricks of size $25\\text{ cm} \\times 12\\text{ cm} \\times 8\\text{ cm}$ are used to build the wall. Also, $\\dfrac{1}{10}$ part of the wall is occupied by the clay joints.",
+        "ne": "एउटा पर्खालको लम्बाइ 10 मि., चौडाइ 0.5 मि. र उचाइ 2 मि. छ । उक्त पर्खाल बनाउन 25 से.मि. $\\times$ 12 से.मि. $\\times$ 8 से.मि. नापका इँटाहरू प्रयोग गरिएका छन् । साथै उक्त पर्खालको $\\dfrac{1}{10}$ भाग माटोको जोर्नीले ओगटेको छ ।"
+      },
+      "items": [
+        {
+          "id": "q7-a",
+          "questionNumber": "7(a)",
+          "marks": 3,
+          "question": {
+            "en": "How many bricks are required to construct the wall? Find it.",
+            "ne": "सो पर्खाल बनाउन कतिओटा इँटाहरू चाहिन्छन् ? पत्ता लगाउनुहोस् ।"
+          }
+        },
+        {
+          "id": "q7-b",
+          "questionNumber": "7(b)",
+          "marks": 1,
+          "question": {
+            "en": "Estimate the cost of bricks used in the wall at the rate of Rs.14,500 per 1000 bricks.",
+            "ne": "प्रति 1000 इँटाको मूल्य रू.14,500 का दरले सो पर्खाल बनाउन लाग्ने इँटाको खर्च अनुमान गर्नुहोस् ।"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Q8 · Sequence and Series",
+        "ne": "प्रश्न ८ · अनुक्रम र श्रेणी"
+      },
+      "instructions": {
+        "en": "Ramesh deposits an amount in a co-operative for 7 days by increasing the amount every day double than the previous day. He deposited Rs.10 on the first day, Rs.20 on the second day, Rs.40 on the third day and so on till the $7^{th}$ day.",
+        "ne": "रमेशले प्रत्येक दिन अघिल्लो दिनको भन्दा दोब्बर रकम जम्मा गर्ने गरी 7 दिनसम्म एउटा सहकारीमा रकम बचत गर्छन् । जसअनुसार उनले पहिलो दिन रू.10, दोस्रो दिन रू.20, तेस्रो दिन रू.40 गरी 7 औं दिनसम्म यसरी नै रकम जम्मा गरेछन् ।"
+      },
+      "items": [
+        {
+          "id": "q8-a",
+          "questionNumber": "8(a)",
+          "marks": 1,
+          "question": {
+            "en": "What type of series is formed from the deposit amount according to the above context? Write it.",
+            "ne": "माथिको सन्दर्भ अनुसार जम्मा गरेको रकमबाट बन्ने श्रेणी कुन प्रकारको हुन्छ ? लेख्नुहोस् ।"
+          }
+        },
+        {
+          "id": "q8-b",
+          "questionNumber": "8(b)",
+          "marks": 2,
+          "question": {
+            "en": "How much amount will Ramesh deposit by the end of 7 days? Find it using the formula.",
+            "ne": "7 दिनको अन्त्यसम्ममा रमेशले कति रकम जम्मा गर्छन् ? सूत्र प्रयोग गरी पत्ता लगाउनुहोस् ।"
+          }
+        },
+        {
+          "id": "q8-c",
+          "questionNumber": "8(c)",
+          "marks": 2,
+          "question": {
+            "en": "If Ramesh withdraws the amount deposited by 4 days, how much amount will he receive at the end of the $7^{th}$ day only from the remaining deposits? Find it.",
+            "ne": "यदि रमेशले 4 दिनसम्म जम्मा भएको रकम पहिले नै निकालेको भए, 7 दिनको अन्त्यमा उसले कति रकम मात्र पाउँछन् ? पत्ता लगाउनुहोस् ।"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Q9 · Algebra and Mensuration – Rectangular Field",
+        "ne": "प्रश्न ९ · बीजगणित तथा क्षेत्रमिति – आयताकार जमिन"
+      },
+      "instructions": {
+        "en": "The longer side of a rectangular field is 40 m more than the shorter side and its diagonal is 40 m more than its longer side.",
+        "ne": "एउटा आयताकार जमिनको लामो भुजा छोटो भुजाभन्दा 40 मि. बढी छ र त्यसको विकर्ण लामो भुजाभन्दा 40 मि. बढी छ ।"
+      },
+      "items": [
+        {
+          "id": "q9-a",
+          "questionNumber": "9(a)",
+          "marks": 1,
+          "question": {
+            "en": "Write the relation among the length ($l$), breadth ($b$) and diagonal ($d$) of the field according to the above context.",
+            "ne": "माथिको सन्दर्भ अनुसार जमिनको लम्बाइ ($l$), चौडाइ ($b$) र विकर्ण ($d$) बिचको सम्बन्ध लेख्नुहोस् ।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-compulsory-maths-koshi/img-q9-rectangular-field.png",
+            "caption": {
+              "en": "Rectangular field with length, breadth and diagonal",
+              "ne": "लम्बाइ, चौडाइ र विकर्ण भएको आयताकार जमिन"
+            }
+          }
+        },
+        {
+          "id": "q9-b",
+          "questionNumber": "9(b)",
+          "marks": 2,
+          "question": {
+            "en": "Find the length of the shorter side and longer side of the rectangular field.",
+            "ne": "आयताकार जमिनको छोटो भुजा र लामो भुजाको लम्बाइ पत्ता लगाउनुहोस् ।"
+          }
+        },
+        {
+          "id": "q9-c",
+          "questionNumber": "9(c)",
+          "marks": 2,
+          "question": {
+            "en": "How many maximum numbers of plots of size $30\\text{ m} \\times 20\\text{ m}$ can be made from the rectangular field? Find it.",
+            "ne": "उक्त आयताकार जमिनमा 30 मि. $\\times$ 20 मि. नापका अधिकतम कति ओटा जग्गाका टुक्राहरू तयार गर्न सकिन्छ ? पत्ता लगाउनुहोस् ।"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Q10 · Algebra",
+        "ne": "प्रश्न १० · बीजगणित"
+      },
+      "items": [
+        {
+          "id": "q10-a",
+          "questionNumber": "10(a)",
+          "marks": 2,
+          "question": {
+            "en": "Simplify: $\\dfrac{p+q}{pq} - \\dfrac{q+r}{qr} - \\dfrac{r+p}{rp}$",
+            "ne": "सरल गर्नुहोस् : $\\dfrac{p+q}{pq} - \\dfrac{q+r}{qr} - \\dfrac{r+p}{rp}$"
+          }
+        },
+        {
+          "id": "q10-b",
+          "questionNumber": "10(b)",
+          "marks": 3,
+          "question": {
+            "en": "Solve: $3^{y} + 3^{-y} = 9\\dfrac{1}{9}$",
+            "ne": "हल गर्नुहोस् : $3^{y} + 3^{-y} = 9\\dfrac{1}{9}$"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Q11 · Geometry – Area Theorems",
+        "ne": "प्रश्न ११ · ज्यामिति – क्षेत्रफल प्रमेय"
+      },
+      "instructions": {
+        "en": "In the given figure, $\\triangle ABC$ and $\\triangle BCD$ are standing on same base $BC$ and between same parallel lines $AD$ and $BC$. From the point $B$, a perpendicular $BP$ is drawn to the line $AC$.",
+        "ne": "दिइएको चित्रमा $\\triangle ABC$ र $\\triangle BCD$ एउटै आधार $BC$ र उही समानान्तर रेखाहरू $AD$ र $BC$ बिच रहेका छन् । बिन्दु $B$ बाट रेखा $AC$ मा लम्ब $BP$ खिचिएको छ ।"
+      },
+      "items": [
+        {
+          "id": "q11-a",
+          "questionNumber": "11(a)",
+          "marks": 1,
+          "question": {
+            "en": "Write the name of the triangle whose area is equal to the area of $\\triangle BAD$ in the given figure.",
+            "ne": "दिइएको चित्रमा $\\triangle BAD$ को क्षेत्रफलसँग बराबर हुने त्रिभुजको नाम लेख्नुहोस् ।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-compulsory-maths-koshi/img-q11a-triangles-same-base.png",
+            "caption": {
+              "en": "Triangles ABC and BCD on same base BC between parallels AD and BC",
+              "ne": "समानान्तर रेखा AD र BC बिच उही आधार BC मा रहेका त्रिभुज ABC र BCD"
+            }
+          }
+        },
+        {
+          "id": "q11-b",
+          "questionNumber": "11(b)",
+          "marks": 2,
+          "question": {
+            "en": "If $AC = 9$ cm and $BP = 6$ cm, find the area of triangle $BCD$.",
+            "ne": "यदि $AC = 9$ से.मि. र $BP = 6$ से.मि. भए त्रिभुज $BCD$ को क्षेत्रफल पत्ता लगाउनुहोस् ।"
+          }
+        },
+        {
+          "id": "q11-c",
+          "questionNumber": "11(c)",
+          "marks": 2,
+          "question": {
+            "en": "In the given figure, $PQRS$ is a trapezium where $PQ \\parallel SR$. $M$ and $N$ are the mid-points of the diagonals $PR$ and $QS$ respectively. Prove that: area of $\\triangle MSR$ = area of $\\triangle NSR$.",
+            "ne": "दिइएको चित्रमा $PQRS$ एउटा समलम्ब चतुर्भुज हो, जहाँ $PQ \\parallel SR$ छ । साथै $M$ र $N$ क्रमशः विकर्णहरू $PR$ र $QS$ का मध्यबिन्दुहरू हुन् भने $\\triangle MSR = \\triangle NSR$ हुन्छ भनि प्रमाणित गर्नुहोस् ।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-compulsory-maths-koshi/img-q11c-trapezium-pqrs.png",
+            "caption": {
+              "en": "Trapezium PQRS with PQ parallel to SR and midpoints M, N of the diagonals",
+              "ne": "PQ र SR समानान्तर भएको समलम्ब चतुर्भुज PQRS, विकर्णका मध्यबिन्दु M र N सहित"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Q12 · Geometry – Construction",
+        "ne": "प्रश्न १२ · ज्यामिति – रचना"
+      },
+      "instructions": {
+        "en": "In a triangle $PQR$, $\\angle PQR = 60^{\\circ}$, $QR = 8$ cm and $PQ = 6$ cm are given.",
+        "ne": "त्रिभुज $PQR$ मा $\\angle PQR = 60^{\\circ}$, $QR = 8$ से.मि. र $PQ = 6$ से.मि. दिइएका छन् ।"
+      },
+      "items": [
+        {
+          "id": "q12-a",
+          "questionNumber": "12(a)",
+          "marks": 3,
+          "question": {
+            "en": "Construct a $\\triangle PQR$ according to the above measurements and also construct a rectangle RITA equal in area to the triangle.",
+            "ne": "माथिका नाप अनुसारको $\\triangle PQR$ को रचना गर्नुहोस् र उक्त त्रिभुजको क्षेत्रफलसँग बराबर हुने गरी एउटा आयत RITA को पनि रचना गर्नुहोस् ।"
+          }
+        },
+        {
+          "id": "q12-b",
+          "questionNumber": "12(b)",
+          "marks": 1,
+          "question": {
+            "en": "Why are the areas of the triangle and the rectangle so formed equal? Write the reason.",
+            "ne": "यसरी बनेका त्रिभुज र आयतको क्षेत्रफल किन बराबर हुन्छ ? कारण लेख्नुहोस् ।"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Q13 · Geometry – Circle Theorem",
+        "ne": "प्रश्न १३ · ज्यामिति – वृत्त प्रमेय"
+      },
+      "instructions": {
+        "en": "$O$ is the centre of the given circle. Inscribed angles $PAQ$ and $PBQ$ are standing on the same arc $PQ$.",
+        "ne": "दिइएको वृत्तको केन्द्रबिन्दु $O$ छ । परिधिका कोणहरू $PAQ$ र $PBQ$ एउटै चाप $PQ$ मा आधारित छन् ।"
+      },
+      "items": [
+        {
+          "id": "q13-a",
+          "questionNumber": "13(a)",
+          "marks": 1,
+          "question": {
+            "en": "Write the relation between the circumference angles $PAQ$ and $PBQ$.",
+            "ne": "परिधि कोणहरू $PAQ$ र $PBQ$ बिचको सम्बन्ध लेख्नुहोस् ।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-compulsory-maths-koshi/img-q13-circle-inscribed-angle.png",
+            "caption": {
+              "en": "Circle with centre O; inscribed angles PAQ, PBQ on the same arc PQ",
+              "ne": "केन्द्र O भएको वृत्त; एउटै चाप PQ मा आधारित परिधि कोण PAQ, PBQ"
+            }
+          }
+        },
+        {
+          "id": "q13-b",
+          "questionNumber": "13(b)",
+          "marks": 1,
+          "question": {
+            "en": "If the measure of central angle $POQ$ is $(12x+4)^{\\circ}$ and the measure of inscribed angle $PAQ$ is $(3x+20)^{\\circ}$, find the value of $x$.",
+            "ne": "यदि केन्द्रीय कोण $POQ$ को नाप $(12x+4)^{\\circ}$ र परिधि कोण $PAQ$ को नाप $(3x+20)^{\\circ}$ छन् भने $x$ को मान निकाल्नुहोस् ।"
+          }
+        },
+        {
+          "id": "q13-c",
+          "questionNumber": "13(c)",
+          "marks": 2,
+          "question": {
+            "en": "Verify experimentally that the central angle is double of the inscribed angle formed on the same arc. (Two circles having radii more than 3 cm are necessary.)",
+            "ne": "एउटै चापमा बनेको केन्द्रीय कोण परिधि कोणको दोब्बर हुन्छ भनि प्रयोगद्वारा सिद्ध गर्नुहोस् । (अर्धव्यास 3 से.मि. भन्दा बढी भएका दुईओटा वृत्तहरू आवश्यक छन् ।)"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Q14 · Trigonometry – Height and Distance",
+        "ne": "प्रश्न १४ · त्रिकोणमिति – उचाइ र दूरी"
+      },
+      "instructions": {
+        "en": "In the given figure, height of the tower $AB$ is 24.5 meter and height of a house $CD$ is 4.5 meter. $BC$ denotes the distance between the tower and the house.",
+        "ne": "दिइएको चित्रमा स्तम्भ $AB$ को उचाइ 24.5 मिटर र घर $CD$ को उचाइ 4.5 मिटर छन् । $BC$ ले स्तम्भ र घर बिचको दूरी जनाउँछ ।"
+      },
+      "items": [
+        {
+          "id": "q14-a",
+          "questionNumber": "14(a)",
+          "marks": 1,
+          "question": {
+            "en": "Define the angle of elevation.",
+            "ne": "उन्नतांश कोणलाई परिभाषित गर्नुहोस् ।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-compulsory-maths-koshi/img-q14-tower-house.png",
+            "caption": {
+              "en": "Tower AB and house CD with the line of sight from A to D",
+              "ne": "स्तम्भ AB र घर CD, A देखि D सम्मको दृष्टि रेखासहित"
+            }
+          }
+        },
+        {
+          "id": "q14-b",
+          "questionNumber": "14(b)",
+          "marks": 1,
+          "question": {
+            "en": "Find the value of $AE$.",
+            "ne": "$AE$ को मान पत्ता लगाउनुहोस् ।"
+          }
+        },
+        {
+          "id": "q14-c",
+          "questionNumber": "14(c)",
+          "marks": 1,
+          "question": {
+            "en": "If $\\angle ADE = 30^{\\circ}$, find the distance between the tower and the house.",
+            "ne": "यदि $\\angle ADE = 30^{\\circ}$ भए स्तम्भ र घरबिचको दूरी पत्ता लगाउनुहोस् ।"
+          }
+        },
+        {
+          "id": "q14-d",
+          "questionNumber": "14(d)",
+          "marks": 1,
+          "question": {
+            "en": "By how many degrees is the angle of elevation less or more when $AE$ and $ED$ are equal? Compare it.",
+            "ne": "$AE$ र $ED$ बराबर भएको बेलामा उन्नतांश कोण कति डिग्रीले कम वा बढी हुन्छ ? तुलना गर्नुहोस् ।"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Q15 · Statistics",
+        "ne": "प्रश्न १५ · तथ्याङ्कशास्त्र"
+      },
+      "instructions": {
+        "en": "The marks obtained by the students in an exam of mathematics of 75 full marks are given in the following table.",
+        "ne": "75 पूर्णाङ्कको गणितको एउटा परीक्षामा विद्यार्थीहरूले प्राप्त गरेका अङ्क तलको तालिकामा दिइएको छ ।"
+      },
+      "items": [
+        {
+          "id": "q15-a",
+          "questionNumber": "15(a)",
+          "marks": 1,
+          "question": {
+            "en": "Illustrate the modal class from the above data.",
+            "ne": "माथिको तथ्याङ्कबाट रीत पर्ने श्रेणी उल्लेख गर्नुहोस् ।"
+          },
+          "table": {
+            "headers": [
+              {
+                "en": "Obtained Marks",
+                "ne": "प्राप्ताङ्क"
+              },
+              {
+                "en": "Number of Students",
+                "ne": "विद्यार्थी सङ्ख्या"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "0-15",
+                  "ne": "0-15"
+                },
+                {
+                  "en": "2",
+                  "ne": "2"
+                }
+              ],
+              [
+                {
+                  "en": "15-30",
+                  "ne": "15-30"
+                },
+                {
+                  "en": "5",
+                  "ne": "5"
+                }
+              ],
+              [
+                {
+                  "en": "30-45",
+                  "ne": "30-45"
+                },
+                {
+                  "en": "4",
+                  "ne": "4"
+                }
+              ],
+              [
+                {
+                  "en": "45-60",
+                  "ne": "45-60"
+                },
+                {
+                  "en": "6",
+                  "ne": "6"
+                }
+              ],
+              [
+                {
+                  "en": "60-75",
+                  "ne": "60-75"
+                },
+                {
+                  "en": "3",
+                  "ne": "3"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "q15-b",
+          "questionNumber": "15(b)",
+          "marks": 2,
+          "question": {
+            "en": "Find the median from the above table.",
+            "ne": "माथिको तालिकाबाट मध्यिका निकाल्नुहोस् ।"
+          }
+        },
+        {
+          "id": "q15-c",
+          "questionNumber": "15(c)",
+          "marks": 2,
+          "question": {
+            "en": "Find the mean from the above table.",
+            "ne": "माथिको तालिकाबाट मध्यक पत्ता लगाउनुहोस् ।"
+          }
+        },
+        {
+          "id": "q15-d",
+          "questionNumber": "15(d)",
+          "marks": 1,
+          "question": {
+            "en": "Among all the participants in the exam, what percentage of students obtained marks below the modal class? Find it.",
+            "ne": "सो परीक्षामा सहभागी विद्यार्थी सङ्ख्यामध्ये रीत पर्ने श्रेणी भन्दा तलको वर्गान्तरमा कति प्रतिशत विद्यार्थी रहेछन् ? पत्ता लगाउनुहोस् ।"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Q16 · Probability",
+        "ne": "प्रश्न १६ · सम्भाव्यता"
+      },
+      "instructions": {
+        "en": "A box contains 6 white and 10 black balls of same shape and size. Two balls are drawn at random one after another with replacement.",
+        "ne": "एउटा बासकमा 6 ओटा सेता र 10 ओटा काला उस्तै र उत्तै बलहरू छन् । दुई ओटा बलहरू एकपछि अर्को गरी पुनः राखेर झिकिएका छन् ।"
+      },
+      "items": [
+        {
+          "id": "q16-a",
+          "questionNumber": "16(a)",
+          "marks": 1,
+          "question": {
+            "en": "If $A$ and $B$ are two independent events, write the multiplication law of probability.",
+            "ne": "यदि $A$ र $B$ दुईओटा अनाश्रित घटनाहरू भए सम्भाव्यताको गुणन सिद्धान्त लेख्नुहोस् ।"
+          }
+        },
+        {
+          "id": "q16-b",
+          "questionNumber": "16(b)",
+          "marks": 2,
+          "question": {
+            "en": "Show the probability of all the possible outcomes in a tree diagram.",
+            "ne": "सबै सम्भावित परिणामहरूको सम्भाव्यतालाई वृक्षचित्रमा देखाउनुहोस् ।"
+          }
+        },
+        {
+          "id": "q16-c",
+          "questionNumber": "16(c)",
+          "marks": 1,
+          "question": {
+            "en": "Find the probability of getting both balls of same color.",
+            "ne": "दुवै बल उही रङका पर्ने सम्भाव्यता पत्ता लगाउनुहोस् ।"
+          }
+        },
+        {
+          "id": "q16-d",
+          "questionNumber": "16(d)",
+          "marks": 1,
+          "question": {
+            "en": "By how much is the probability of getting both balls of different color less or more than the probability of getting both balls of white color? Find it.",
+            "ne": "दुवै बल फरक रङका पर्ने सम्भाव्यता, दुवै बल सेता रङका पर्ने सम्भाव्यता भन्दा कति कम वा बढी हुन्छ ? पत्ता लगाउनुहोस् ।"
+          }
+        }
+      ]
+    }
+  ]
+}

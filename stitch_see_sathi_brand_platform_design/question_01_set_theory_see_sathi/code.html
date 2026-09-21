@@ -1,0 +1,596 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+          "on-surface": "#181a2b",
+          "on-secondary-container": "#590800",
+          "on-primary-container": "#e5e4ff",
+          "surface-container-lowest": "#ffffff",
+          "on-error-container": "#93000a",
+          "error": "#ba1a1a",
+          "surface-container-low": "#f4f2ff",
+          "outline": "#767587",
+          "secondary": "#b5250c",
+          "on-secondary": "#ffffff",
+          "secondary-fixed-dim": "#ffb4a5",
+          "on-tertiary": "#ffffff",
+          "on-background": "#181a2b",
+          "primary": "#2f30da",
+          "on-secondary-fixed-variant": "#8e1300",
+          "surface": "#fbf8ff",
+          "surface-variant": "#e1e1f8",
+          "secondary-fixed": "#ffdad3",
+          "on-error": "#ffffff",
+          "surface-dim": "#d8d8ef",
+          "tertiary-fixed": "#7cfbb1",
+          "on-tertiary-fixed": "#002110",
+          "on-primary-fixed": "#04006d",
+          "on-tertiary-container": "#7ffeb3",
+          "inverse-primary": "#c0c1ff",
+          "tertiary": "#005b34",
+          "tertiary-container": "#007645",
+          "outline-variant": "#c6c4d8",
+          "surface-container-high": "#e6e6fe",
+          "error-container": "#ffdad6",
+          "background": "#fbf8ff",
+          "on-tertiary-fixed-variant": "#00522f",
+          "on-primary": "#ffffff",
+          "inverse-on-surface": "#f1efff",
+          "secondary-container": "#fd583a",
+          "surface-bright": "#fbf8ff",
+          "primary-container": "#4b4ff2",
+          "on-surface-variant": "#454556",
+          "surface-container-highest": "#e1e1f8",
+          "primary-fixed": "#e1e0ff",
+          "on-primary-fixed-variant": "#2423d2",
+          "primary-fixed-dim": "#c0c1ff",
+          "on-secondary-fixed": "#3f0400",
+          "surface-tint": "#4145e9",
+          "inverse-surface": "#2d2f41",
+          "tertiary-fixed-dim": "#5ede96",
+          "surface-container": "#edecff"
+        },
+        "borderRadius": {
+          "DEFAULT": "1rem",
+          "lg": "2rem",
+          "xl": "3rem",
+          "full": "9999px"
+        },
+        "spacing": {
+          "gutter-sm": "1rem",
+          "margin-sm": "1rem",
+          "space-xl": "2.5rem",
+          "space-lg": "1.5rem",
+          "space-sm": "0.5rem",
+          "gutter": "1.5rem",
+          "margin": "2rem",
+          "space-xs": "0.25rem",
+          "space-md": "1rem"
+        },
+        "fontFamily": {
+          "headline-lg": ["Plus Jakarta Sans"],
+          "display-hero-mobile": ["Plus Jakarta Sans"],
+          "body-sm": ["Inter"],
+          "label-md": ["Inter"],
+          "headline-md": ["Plus Jakarta Sans"],
+          "body-md": ["Inter"],
+          "headline-sm": ["Plus Jakarta Sans"],
+          "body-lg": ["Inter"],
+          "title": ["Plus Jakarta Sans"],
+          "label-caps": ["Inter"],
+          "display-hero": ["Plus Jakarta Sans"],
+          "headline-lg-mobile": ["Plus Jakarta Sans"]
+        },
+        "fontSize": {
+          "headline-lg": ["32px", {"lineHeight": "38px", "letterSpacing": "-0.025em", "fontWeight": "700"}],
+          "display-hero-mobile": ["34px", {"lineHeight": "38px", "letterSpacing": "-0.025em", "fontWeight": "800"}],
+          "body-sm": ["13px", {"lineHeight": "18px", "fontWeight": "400"}],
+          "label-md": ["12px", {"lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600"}],
+          "headline-md": ["24px", {"lineHeight": "30px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+          "body-md": ["14px", {"lineHeight": "22px", "fontWeight": "400"}],
+          "headline-sm": ["20px", {"lineHeight": "26px", "letterSpacing": "-0.015em", "fontWeight": "600"}],
+          "body-lg": ["16px", {"lineHeight": "26px", "letterSpacing": "-0.005em", "fontWeight": "400"}],
+          "title": ["16px", {"lineHeight": "22px", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+          "label-caps": ["11px", {"lineHeight": "14px", "letterSpacing": "0.06em", "fontWeight": "700"}],
+          "display-hero": ["48px", {"lineHeight": "52px", "letterSpacing": "-0.03em", "fontWeight": "800"}],
+          "headline-lg-mobile": ["26px", {"lineHeight": "32px", "letterSpacing": "-0.02em", "fontWeight": "700"}]
+        }
+      }
+    }
+  }</script></head><body class="bg-background font-body-md text-on-surface selection:bg-primary-fixed selection:text-on-primary-fixed"><header class="fixed top-0 inset-x-0 z-50 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-7xl mx-auto px-margin-sm lg:px-margin flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-sm shrink-0"><a class="flex items-center gap-space-sm" data-path="subjects" href="#"><img alt="SEE Sathi Official Brand Logo" class="h-9 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VfqreKytT0I8MTcJBY7ZrTCVUrfGR4vxZdYnHnW0VJAkUshMi4PpqpKMgd8ppQITsRrIBE0_je8OitONXgy52wM-Pj2GnNucFyDmAu5XRr6K0XxBj4yDMo0UHZHKp0esEQGkMLSN2Jbv2L7vICEt4fBtfDtFq5N5AujqlCKBAwnroEFRA_QQmxsBXZPauiefggAxHbj2NOSvaVROmmH8bNIUR5e8eNCWWs3MdSS6LuUxbylz3uvgOpd7k"></a></div><nav class="hidden lg:flex items-center gap-space-xs p-space-xs rounded-full bg-surface-container-low/60" data-active-classes="bg-primary-fixed text-on-primary-fixed font-title"><a class="px-space-md py-space-xs rounded-full font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="subjects" href="#">Subjects</a><a class="px-space-md py-space-xs rounded-full font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="study-notes" href="#">Study Notes</a><a class="px-space-md py-space-xs rounded-full font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="solved-questions" href="#">Solved Questions</a><a class="px-space-md py-space-xs rounded-full font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="search-results" href="#">Search</a><a class="px-space-md py-space-xs rounded-full font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="saved-items" href="#">Saved</a></nav><div class="flex items-center gap-space-md shrink-0"><a class="hidden sm:inline-block font-title text-title text-on-surface-variant hover:text-on-surface transition-colors px-space-sm py-space-xs" data-path="auth" href="#">Log in</a><a class="relative group inline-flex items-center justify-center rounded-full bg-primary-container text-on-primary px-space-lg py-space-sm font-title text-title shadow-[0_4px_14px_rgba(75,79,242,0.28),0_1px_2px_rgba(75,79,242,0.16)] hover:-translate-y-0.5 hover:shadow-[0_6px_20px_rgba(75,79,242,0.38)] transition-all duration-200" data-path="study-notes" href="#"><span class="">Start Studying →</span></a><a class="flex items-center rounded-full ring-2 ring-transparent hover:ring-primary-container/30 transition-all" data-path="profile-settings" href="#"><img alt="Student Profile Avatar" class="w-8 h-8 rounded-full object-cover shadow-[0_1px_4px_rgba(0,0,0,0.1)]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCrDyxPWS6JozOwz-oSK0TQdsaQVNWqvX9vy4Gm5wZBZy3TV08Q_CUNga7wdA05bLkWRqtiOsdxC3yUzFyT9NjI-Yfbauq7Z129CinOYvntG1ar1VKMEZ9i0rwvHjPDm-_oEmRRfOIXiXmkWITbnyTzgi200Vml5bk0i0FHpNyAtP9pn1Tgeul7Ao_iTwoBHvJp4RpNI_99YUjUPw9fsjoNvPw0-GGqxLvo6BudnTbKDWzfhaLN5gYt"></a></div></div></header><main class="w-full pt-20 bg-background min-h-[calc(100vh-20rem)]"><div class="flex flex-col w-full">
+<div class="max-w-7xl mx-auto w-full px-margin-sm lg:px-margin py-space-md lg:py-space-lg space-y-space-lg">
+<!-- Top Breadcrumb Strip & Fast Actions -->
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm bg-surface-container-lowest p-space-md rounded-xl shadow-sm">
+<nav aria-label="Breadcrumb" class="flex flex-wrap items-center gap-space-xs font-body-sm text-body-sm text-on-surface-variant">
+<a class="hover:text-primary transition-colors flex items-center gap-1" href="#">
+<span class="material-symbols-outlined text-[18px]">home</span>
+          Subjects
+        </a>
+<span class="material-symbols-outlined text-[16px] text-outline">chevron_right</span>
+<a class="hover:text-primary transition-colors" href="#">Mathematics</a>
+<span class="material-symbols-outlined text-[16px] text-outline">chevron_right</span>
+<a class="hover:text-primary transition-colors" href="#">Sets</a>
+<span class="material-symbols-outlined text-[16px] text-outline">chevron_right</span>
+<a class="hover:text-primary transition-colors" href="#">Solved Questions</a>
+<span class="material-symbols-outlined text-[16px] text-outline">chevron_right</span>
+<span class="font-title text-primary font-semibold">Question 1</span>
+</nav>
+<div class="flex items-center gap-space-xs">
+<span class="inline-flex items-center gap-1 px-space-sm py-space-xs rounded-full bg-surface-container text-on-surface font-label-caps text-label-caps">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+          SEE EXAM SET 2080
+        </span>
+<span class="inline-flex items-center gap-1 px-space-sm py-space-xs rounded-full bg-primary-fixed text-on-primary-fixed font-label-caps text-label-caps">
+<span class="material-symbols-outlined text-[14px]">timer</span>
+          8 MIN REC.
+        </span>
+</div>
+</div>
+<!-- Main Layout: Question Canvas (Cols 8) + Exam Companion Dock (Cols 4) -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
+<!-- Primary Question & Solution Column -->
+<div class="lg:col-span-8 space-y-space-lg">
+<!-- Question Card -->
+<article class="bg-surface-container-lowest rounded-lg p-space-md lg:p-space-lg shadow-sm space-y-space-md relative overflow-hidden">
+<div class="absolute -top-12 -right-12 w-36 h-36 rounded-full bg-primary-fixed/30 blur-2xl pointer-events-none"></div>
+<!-- Header Badges -->
+<div class="flex flex-wrap items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-full bg-primary-container text-on-primary flex items-center justify-center font-headline-sm text-headline-sm shadow-[0_4px_14px_rgba(75,79,242,0.28)] shrink-0">
+                Q1
+              </div>
+<div>
+<span class="font-label-caps text-label-caps text-primary uppercase tracking-wider block">Compulsory Mathematics</span>
+<span class="font-title text-title text-on-surface">Chapter 1: Sets &amp; Cardinality</span>
+</div>
+</div>
+<div class="flex flex-wrap items-center gap-space-xs">
+<span class="px-space-sm py-space-xs rounded-full bg-surface-container-high text-on-surface font-label-caps text-label-caps">
+                Question No. 11 (Group C)
+              </span>
+<span class="px-space-sm py-space-xs rounded-full bg-primary-fixed text-on-primary-fixed font-label-caps text-label-caps">
+                Weightage: 4 Marks
+              </span>
+<span class="px-space-sm py-space-xs rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-caps text-label-caps">
+                CDC 2080 Board Exam
+              </span>
+</div>
+</div>
+<!-- Question Content Statement -->
+<div class="bg-surface-container-low rounded-xl p-space-md space-y-space-xs">
+<div class="flex items-center gap-1 text-on-surface-variant font-label-caps text-label-caps">
+<span class="material-symbols-outlined text-[16px] text-primary">psychology</span>
+              PROBLEM STATEMENT
+            </div>
+<p class="font-headline-sm text-headline-sm text-on-surface leading-snug">
+              In a survey of 100 students of a secondary school in Kathmandu, 65 like tea, 45 like coffee, and 15 like neither of them. By drawing a Venn diagram, calculate the number of students who like both tea and coffee, and find the number of students who like tea only.
+            </p>
+</div>
+<!-- Quick Metadata Bar -->
+<div class="flex flex-wrap items-center justify-between gap-space-sm pt-space-xs text-on-surface-variant font-body-sm text-body-sm">
+<div class="flex items-center gap-space-md">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-tertiary">task_alt</span> High Frequency SEE Question
+              </span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-outline">bar_chart</span> Difficulty: Moderate
+              </span>
+</div>
+<button class="inline-flex items-center gap-1 font-title text-primary hover:text-primary-container transition-colors" id="toggle-solution-btn">
+<span class="material-symbols-outlined text-[18px]">unfold_more</span>
+              Full Marking Breakdown
+            </button>
+</div>
+</article>
+<!-- Solution & Marking Breakdown Section -->
+<section class="bg-surface-container-lowest rounded-lg p-space-md lg:p-space-lg shadow-sm space-y-space-lg">
+<!-- Section Heading -->
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm pb-space-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-9 h-9 rounded-xl bg-tertiary text-on-tertiary flex items-center justify-center shadow-sm shrink-0">
+<span class="material-symbols-outlined text-[20px]">verified</span>
+</div>
+<div>
+<h2 class="font-headline-md text-headline-md text-on-surface">Solution &amp; CDC Marking Breakdown</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Step-by-step scoring aligned with curriculum guidelines</p>
+</div>
+</div>
+<div class="flex items-center gap-1 px-space-md py-space-xs rounded-full bg-surface-container font-label-caps text-label-caps text-on-surface">
+<span class="material-symbols-outlined text-[14px] text-primary">military_tech</span>
+              TOTAL ALLOCATED: 4.0 MARKS
+            </div>
+</div>
+<!-- Official Notice Callout -->
+<div class="bg-tertiary-fixed/30 p-space-md rounded-xl flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-tertiary text-[22px] mt-0.5 shrink-0">workspace_premium</span>
+<div class="space-y-0.5">
+<span class="font-title text-title text-on-tertiary-fixed block">Verified by Kathmandu Board Examiners</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Follows the Official CDC Model Marking Scheme (2080/2081 Revision). Full steps are mandatory to secure partial marks in Group C.</p>
+</div>
+</div>
+<!-- Step Cards Stack -->
+<div class="space-y-space-md">
+<!-- Step 1 -->
+<div class="bg-surface-container-low rounded-xl p-space-md space-y-space-sm">
+<div class="flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-8 h-8 rounded-full bg-primary-container text-on-primary font-title flex items-center justify-center text-title shadow-sm">
+                    1
+                  </div>
+<div>
+<h3 class="font-title text-title text-on-surface">Representation of Cardinality Data</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Defining universal set and subset symbols</p>
+</div>
+</div>
+<span class="px-space-sm py-space-xs rounded-full bg-tertiary-container text-on-tertiary font-label-caps text-label-caps">
+                  1.0 Mark
+                </span>
+</div>
+<div class="bg-surface-container-lowest rounded p-space-md font-body-md text-body-md text-on-surface space-y-space-xs">
+<p class="">Let <span class="font-semibold text-primary">T</span> and <span class="font-semibold text-primary">C</span> represent the set of students who like tea and coffee respectively.</p>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-space-sm pt-space-xs font-mono text-body-sm">
+<div class="bg-surface-container p-space-xs rounded text-center">n(U) = 100</div>
+<div class="bg-surface-container p-space-xs rounded text-center">n(T) = 65</div>
+<div class="bg-surface-container p-space-xs rounded text-center">n(C) = 45</div>
+<div class="bg-surface-container p-space-xs rounded text-center">n(T ∪ C)' = 15</div>
+</div>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="bg-surface-container-low rounded-xl p-space-md space-y-space-sm">
+<div class="flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-8 h-8 rounded-full bg-primary-container text-on-primary font-title flex items-center justify-center text-title shadow-sm">
+                    2
+                  </div>
+<div>
+<h3 class="font-title text-title text-on-surface">Formula Application for Union</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Computing cardinality of combined preference</p>
+</div>
+</div>
+<span class="px-space-sm py-space-xs rounded-full bg-tertiary-container text-on-tertiary font-label-caps text-label-caps">
+                  1.0 Mark
+                </span>
+</div>
+<div class="bg-surface-container-lowest rounded p-space-md font-body-md text-body-md text-on-surface space-y-space-xs">
+<p class="">By standard set theory cardinality formula for complement of union:</p>
+<div class="p-space-sm bg-surface-container rounded-lg font-mono text-body-md text-on-surface">
+                  n(T ∪ C) = n(U) - n(T ∪ C)'
+                </div>
+<p class="pt-space-xs">Substituting the given parameters:</p>
+<div class="p-space-sm bg-surface-container rounded-lg font-mono text-body-md text-primary font-bold">
+                  n(T ∪ C) = 100 - 15 = 85
+                </div>
+<p class="text-on-surface-variant text-body-sm">Thus, 85 students like at least one beverage (tea or coffee).</p>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="bg-surface-container-low rounded-xl p-space-md space-y-space-sm">
+<div class="flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-8 h-8 rounded-full bg-primary-container text-on-primary font-title flex items-center justify-center text-title shadow-sm">
+                    3
+                  </div>
+<div>
+<h3 class="font-title text-title text-on-surface">Finding Intersection n(T ∩ C)</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Calculating students who enjoy both beverages</p>
+</div>
+</div>
+<span class="px-space-sm py-space-xs rounded-full bg-tertiary-container text-on-tertiary font-label-caps text-label-caps">
+                  1.0 Mark
+                </span>
+</div>
+<div class="bg-surface-container-lowest rounded p-space-md font-body-md text-body-md text-on-surface space-y-space-xs">
+<p class="">Using the principle of inclusion and exclusion for two finite sets:</p>
+<div class="p-space-sm bg-surface-container rounded-lg font-mono text-body-md text-on-surface">
+                  n(T ∪ C) = n(T) + n(C) - n(T ∩ C)
+                </div>
+<p class="">Rearranging the equation to solve for the unknown intersection:</p>
+<div class="p-space-sm bg-surface-container rounded-lg font-mono text-body-md text-on-surface">
+                  n(T ∩ C) = n(T) + n(C) - n(T ∪ C)
+                </div>
+<div class="p-space-sm bg-surface-container rounded-lg font-mono text-body-md text-primary font-bold">
+                  n(T ∩ C) = 65 + 45 - 85 = 110 - 85 = 25
+                </div>
+<p class="text-tertiary font-title text-body-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">check_circle</span>
+                  Result (i): Exactly 25 students like both tea and coffee.
+                </p>
+</div>
+</div>
+<!-- Step 4 -->
+<div class="bg-surface-container-low rounded-xl p-space-md space-y-space-sm">
+<div class="flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-8 h-8 rounded-full bg-primary-container text-on-primary font-title flex items-center justify-center text-title shadow-sm">
+                    4
+                  </div>
+<div>
+<h3 class="font-title text-title text-on-surface">Venn Diagram Illustration &amp; Tea Only Calculation</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Diagrammatic modeling and disjoint cardinality</p>
+</div>
+</div>
+<span class="px-space-sm py-space-xs rounded-full bg-tertiary-container text-on-tertiary font-label-caps text-label-caps">
+                  1.0 Mark
+                </span>
+</div>
+<div class="bg-surface-container-lowest rounded p-space-md font-body-md text-body-md text-on-surface space-y-space-md">
+<div class="space-y-space-xs">
+<p class="">Number of students who like tea only is denoted by <span class="font-mono font-semibold">n<sub>o</sub>(T)</span>:</p>
+<div class="p-space-sm bg-surface-container rounded-lg font-mono text-body-md text-on-surface">
+                    n<sub>o</sub>(T) = n(T) - n(T ∩ C)
+                  </div>
+<div class="p-space-sm bg-surface-container rounded-lg font-mono text-body-md text-primary font-bold">
+                    n<sub>o</sub>(T) = 65 - 25 = 40
+                  </div>
+<p class="text-on-surface-variant text-body-sm">Additionally, Coffee only: n<sub>o</sub>(C) = n(C) - n(T ∩ C) = 45 - 25 = 20.</p>
+</div>
+<!-- Custom Precision SVG Venn Diagram Visualization -->
+<div class="bg-surface-container p-space-md rounded-xl flex flex-col items-center justify-center space-y-space-xs">
+<div class="w-full max-w-md">
+<svg class="w-full h-auto" viewBox="0 0 420 230" xmlns="http://www.w3.org/2000/svg">
+<!-- Universal Box -->
+<rect fill="#ffffff" height="220" rx="14" stroke="#c6c4d8" stroke-width="2" width="410" x="5" y="5"></rect>
+<text fill="#181a2b" font-family="Plus Jakarta Sans" font-size="14" font-weight="700" x="25" y="32">U = 100</text>
+<!-- Tea Circle Fill & Stroke -->
+<circle cx="165" cy="115" fill="#4b4ff2" fill-opacity="0.12" r="75" stroke="#4b4ff2" stroke-width="2.5"></circle>
+<!-- Coffee Circle Fill & Stroke -->
+<circle cx="255" cy="115" fill="#fd583a" fill-opacity="0.12" r="75" stroke="#fd583a" stroke-width="2.5"></circle>
+<!-- Set Labels -->
+<text fill="#2f30da" font-family="Plus Jakarta Sans" font-size="13" font-weight="700" text-anchor="middle" x="145" y="55">Set T (65)</text>
+<text fill="#b5250c" font-family="Plus Jakarta Sans" font-size="13" font-weight="700" text-anchor="middle" x="275" y="55">Set C (45)</text>
+<!-- Region Numbers -->
+<text fill="#181a2b" font-family="Inter" font-size="16" font-weight="700" text-anchor="middle" x="130" y="122">40</text>
+<text fill="#454556" font-family="Inter" font-size="10" text-anchor="middle" x="130" y="138">Tea only</text>
+<text fill="#2f30da" font-family="Inter" font-size="18" font-weight="800" text-anchor="middle" x="210" y="122">25</text>
+<text fill="#2f30da" font-family="Inter" font-size="10" font-weight="600" text-anchor="middle" x="210" y="138">Both (T ∩ C)</text>
+<text fill="#181a2b" font-family="Inter" font-size="16" font-weight="700" text-anchor="middle" x="290" y="122">20</text>
+<text fill="#454556" font-family="Inter" font-size="10" text-anchor="middle" x="290" y="138">Coffee only</text>
+<!-- Complement Label (Outside) -->
+<text fill="#767587" font-family="Inter" font-size="13" font-weight="600" text-anchor="middle" x="360" y="200">15</text>
+<text fill="#767587" font-family="Inter" font-size="10" text-anchor="middle" x="360" y="214">(T ∪ C)'</text>
+</svg>
+</div>
+<span class="font-label-caps text-label-caps text-on-surface-variant text-center">
+                    Official CDC Formatted Figure: Venn Diagram for Survey Groups
+                  </span>
+</div>
+</div>
+</div>
+</div>
+<!-- Final Answer Pull-Out Band (Success Tint) -->
+<div class="bg-tertiary-fixed/40 p-space-lg rounded-xl flex items-start gap-space-md shadow-sm">
+<div class="w-10 h-10 rounded-full bg-tertiary text-on-tertiary flex items-center justify-center shrink-0 mt-0.5 shadow-sm">
+<span class="material-symbols-outlined text-[24px]">check</span>
+</div>
+<div class="space-y-space-xs">
+<div class="font-headline-sm text-headline-sm text-tertiary font-bold tracking-tight">
+                Final Answer Summary
+              </div>
+<div class="font-body-lg text-body-lg text-on-surface space-y-1">
+<p class="">
+<span class="font-bold text-primary">(i)</span> Number of students who like both tea and coffee: 
+                  <span class="font-mono font-bold text-on-surface">n(T ∩ C) = 25 students</span>
+</p>
+<p class="">
+<span class="font-bold text-primary">(ii)</span> Number of students who like tea only: 
+                  <span class="font-mono font-bold text-on-surface">n<sub>o</sub>(T) = 40 students</span>
+</p>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant pt-space-xs">
+                Calculations validated against: 40 (tea only) + 20 (coffee only) + 25 (both) + 15 (neither) = 100 (Total Universe).
+              </p>
+</div>
+</div>
+</section>
+<!-- Contextual Student Companion Banner -->
+<div class="bg-gradient-to-r from-primary/10 via-surface-container to-secondary-container/10 p-space-md rounded-xl flex flex-col sm:flex-row items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-sm">
+<img class="w-12 h-12 rounded-full object-cover shadow-sm shrink-0" data-alt="A smiling high school girl in a Nepalese school uniform holding a blue mathematics workbook near a study table, warm afternoon light with soft focused classroom background in modern aesthetic style" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB1jNTi3apvS1aNqEiJy8LPcxZmPfyOCQxOTMe0rcaWATcn0lchJD8x1VeoMSzjhARAYUvfRLMePP1vO0D6sNFc_Qo_aRk_gZsHrWiL4wdVkY84zuhXxKE_ng5xDoE9zw8QxnESIfSwQY39WqMkGY7hC1p7vCuUbnNimqfXWCdziLeGgQjVDH9foiwG4lVOHGt3qbDd1Q3zIj2C-9sUYiWLljBdalMvGkFG_bOCOwlZEaCeN8M5Zrz4">
+<div>
+<p class="font-title text-title text-on-surface">Need help memorizing these 4 formulas?</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Review the Master Sets Formula Cheat Sheet curated by SEE gold medalists.</p>
+</div>
+</div>
+<a class="px-space-md py-space-xs rounded-full bg-surface-container-lowest text-primary font-title text-title hover:bg-surface-container transition-colors shadow-sm shrink-0" href="#">
+            Open Formula Sheet →
+          </a>
+</div>
+</div>
+<!-- Right Column: Exam Companion & Reference Dock -->
+<aside class="lg:col-span-4 space-y-space-md">
+<!-- Companion Card: Student Progress & Shortcuts -->
+<div class="bg-surface-container-lowest rounded-lg p-space-md shadow-sm space-y-space-md">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Chapter Mastery</h3>
+<span class="px-space-sm py-space-xs rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-caps text-label-caps">
+              SETS: 82% ACTIVE
+            </span>
+</div>
+<div class="space-y-space-xs">
+<div class="flex justify-between font-body-sm text-body-sm">
+<span class="text-on-surface-variant">Solved Questions in Sets</span>
+<span class="font-title text-on-surface font-semibold">18 / 22 Completed</span>
+</div>
+<div class="w-full h-2 bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-primary-container rounded-full" style="width: 82%"></div>
+</div>
+</div>
+<div class="pt-space-xs flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[20px]">local_fire_department</span>
+<span class="font-title text-title text-on-surface">14-Day Study Streak</span>
+<span class="text-body-sm text-on-surface-variant ml-auto">+30 XP today</span>
+</div>
+</div>
+<!-- Formula Quick Drawer -->
+<div class="bg-surface-container-lowest rounded-lg p-space-md shadow-sm space-y-space-md">
+<div class="flex items-center justify-between pb-space-xs">
+<h3 class="font-title text-title text-on-surface flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[18px] text-primary">functions</span>
+              Quick Formula Drawer
+            </h3>
+<span class="font-label-caps text-label-caps text-on-surface-variant">2-SET RULES</span>
+</div>
+<div class="space-y-space-xs">
+<div class="p-space-sm bg-surface-container rounded-lg font-mono text-body-sm text-on-surface hover:bg-surface-container-high transition-colors cursor-pointer group flex items-center justify-between">
+<span class="">n(A ∪ B) = n(A) + n(B) - n(A ∩ B)</span>
+<span class="material-symbols-outlined text-[16px] opacity-0 group-hover:opacity-100 text-primary">content_copy</span>
+</div>
+<div class="p-space-sm bg-surface-container rounded-lg font-mono text-body-sm text-on-surface hover:bg-surface-container-high transition-colors cursor-pointer group flex items-center justify-between">
+<span class="">n<sub>o</sub>(A) = n(A) - n(A ∩ B)</span>
+<span class="material-symbols-outlined text-[16px] opacity-0 group-hover:opacity-100 text-primary">content_copy</span>
+</div>
+<div class="p-space-sm bg-surface-container rounded-lg font-mono text-body-sm text-on-surface hover:bg-surface-container-high transition-colors cursor-pointer group flex items-center justify-between">
+<span class="">n(U) = n(A ∪ B) + n(A ∪ B)'</span>
+<span class="material-symbols-outlined text-[16px] opacity-0 group-hover:opacity-100 text-primary">content_copy</span>
+</div>
+<div class="p-space-sm bg-surface-container rounded-lg font-mono text-body-sm text-on-surface hover:bg-surface-container-high transition-colors cursor-pointer group flex items-center justify-between">
+<span class="">n<sub>o</sub>(A) + n<sub>o</sub>(B) + n(A ∩ B) = n(A ∪ B)</span>
+<span class="material-symbols-outlined text-[16px] opacity-0 group-hover:opacity-100 text-primary">content_copy</span>
+</div>
+</div>
+</div>
+<!-- Similar Frequently Tested Questions -->
+<div class="bg-surface-container-lowest rounded-lg p-space-md shadow-sm space-y-space-md">
+<h3 class="font-title text-title text-on-surface flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[18px] text-secondary">explore</span>
+            Related Questions in Sets
+          </h3>
+<div class="space-y-space-xs">
+<a class="p-space-sm rounded-lg bg-surface-container-low hover:bg-surface-container transition-colors flex items-start gap-space-sm group" href="#">
+<span class="w-6 h-6 rounded bg-surface-container-high text-primary font-mono text-label-md flex items-center justify-center shrink-0">Q2</span>
+<div class="min-w-0">
+<p class="font-title text-body-sm text-on-surface group-hover:text-primary transition-colors truncate">Survey of 120 tourists visiting Pokhara...</p>
+<span class="font-label-caps text-label-caps text-on-surface-variant">3-Set Venn Diagram · 4 Marks</span>
+</div>
+</a>
+<a class="p-space-sm rounded-lg bg-surface-container-low hover:bg-surface-container transition-colors flex items-start gap-space-sm group" href="#">
+<span class="w-6 h-6 rounded bg-surface-container-high text-primary font-mono text-label-md flex items-center justify-center shrink-0">Q3</span>
+<div class="min-w-0">
+<p class="font-title text-body-sm text-on-surface group-hover:text-primary transition-colors truncate">Ratio problem: students who like Football to Cricket...</p>
+<span class="font-label-caps text-label-caps text-on-surface-variant">Algebraic Sets · 4 Marks</span>
+</div>
+</a>
+<a class="p-space-sm rounded-lg bg-surface-container-low hover:bg-surface-container transition-colors flex items-start gap-space-sm group" href="#">
+<span class="w-6 h-6 rounded bg-surface-container-high text-primary font-mono text-label-md flex items-center justify-center shrink-0">Q4</span>
+<div class="min-w-0">
+<p class="font-title text-body-sm text-on-surface group-hover:text-primary transition-colors truncate">Complement subsets calculation given n(U)=80...</p>
+<span class="font-label-caps text-label-caps text-on-surface-variant">Basic Cardinality · 2 Marks</span>
+</div>
+</a>
+</div>
+</div>
+<!-- Student Motivation Widget with Nepal Imagery -->
+<div class="relative rounded-lg overflow-hidden shadow-sm bg-surface-container-high">
+<img class="w-full h-36 object-cover" data-alt="A scenic panoramic view of the Kathmandu valley and Himalayan mountain range during sunrise, golden light casting over traditional Nepalese brick buildings and stupa, inspiring calm academic study tone" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAbwd0ItV0dJbFMA_h_3GlAfz6ogtoo2HcBpjZ7mgOy0QkEb4eKBCz4lfVE_3e0obqYbcVM-0DNzodwN9k_TE5MiAH_fp5WwbKAYTXV7zRkO5TzO6Hv_tyWcyc9a6bn3KZo0SArVXKKbJlginIm-rFLBZrIO179lgwWBcieXJZWjDlf2yDEkIwCNuYP5c8dWYdXZEgNK22eGUUJNNbS8Rtp7BjN3dtzuPR7QI-EuPO85GZBT-iE02-6">
+<div class="p-space-md space-y-space-xs">
+<span class="font-label-caps text-label-caps text-primary uppercase">CDC Examiner Tip</span>
+<p class="font-title text-body-md text-on-surface">"Always state your set declarations (Let T and C be...) in your SEE answer sheet to secure the initial 1 mark before applying equations."</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">— Narayan Adhikari, SEE Evaluation Board</p>
+</div>
+</div>
+</aside>
+</div>
+<!-- Sticky / Prominent Bottom Navigation Bar -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-md space-y-space-md">
+<!-- Top Layer: Step / Question Completion Meter -->
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm pb-space-xs">
+<div class="flex items-center gap-space-sm">
+<div class="w-2.5 h-2.5 rounded-full bg-primary animate-pulse"></div>
+<span class="font-title text-title text-on-surface">Question 1 of 42</span>
+<span class="text-on-surface-variant font-body-sm text-body-sm">(Compulsory Math SEE Bank)</span>
+</div>
+<div class="flex items-center gap-space-md w-full sm:w-64">
+<div class="w-full h-2 bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-primary-container rounded-full" style="width: 2.4%"></div>
+</div>
+<span class="font-mono text-label-md text-primary font-bold whitespace-nowrap">2.4%</span>
+</div>
+</div>
+<!-- Bottom Layer: Action Buttons & Pager -->
+<div class="flex flex-col sm:flex-row items-center justify-between gap-space-md pt-space-xs">
+<!-- Pager Controls -->
+<div class="flex items-center gap-space-sm w-full sm:w-auto justify-between sm:justify-start">
+<a class="inline-flex items-center gap-1 px-space-md py-space-sm rounded-full bg-surface-container text-on-surface font-title text-title hover:bg-surface-container-high transition-colors shadow-sm" href="#">
+<span class="material-symbols-outlined text-[18px]">arrow_back</span>
+<span class="">Previous (Q42)</span>
+</a>
+<a class="inline-flex items-center gap-1 px-space-lg py-space-sm rounded-full bg-primary-container text-on-primary font-title text-title hover:-translate-y-0.5 hover:shadow-[0_6px_20px_rgba(75,79,242,0.38)] transition-all shadow-[0_4px_14px_rgba(75,79,242,0.28)]" href="#">
+<span class="">Next Question (Q2)</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+<!-- Student Utilities -->
+<div class="flex items-center gap-space-xs w-full sm:w-auto justify-end">
+<button class="inline-flex items-center gap-1 px-space-md py-space-sm rounded-full bg-surface-container-low hover:bg-surface-container text-on-surface font-title text-body-sm transition-colors" id="bookmark-btn">
+<span class="material-symbols-outlined text-[18px] text-primary" id="bookmark-icon">bookmark</span>
+<span id="bookmark-text" class="">Bookmark Question</span>
+</button>
+<button class="inline-flex items-center gap-1 px-space-md py-space-sm rounded-full bg-surface-container-low hover:bg-surface-container text-on-surface font-title text-body-sm transition-colors" id="report-btn">
+<span class="material-symbols-outlined text-[18px] text-outline">flag</span>
+<span class="">Report Error</span>
+</button>
+<button class="inline-flex items-center gap-1 px-space-md py-space-sm rounded-full bg-surface-container-low hover:bg-surface-container text-on-surface font-title text-body-sm transition-colors" onclick="window.print()">
+<span class="material-symbols-outlined text-[18px] text-outline">print</span>
+<span class="">Print / PDF</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<script>
+    // Micro-interactions for interactive utility buttons
+    const bookmarkBtn = document.getElementById('bookmark-btn');
+    const bookmarkIcon = document.getElementById('bookmark-icon');
+    const bookmarkText = document.getElementById('bookmark-text');
+    let isBookmarked = false;
+
+    if (bookmarkBtn) {
+      bookmarkBtn.addEventListener('click', () => {
+        isBookmarked = !isBookmarked;
+        if (isBookmarked) {
+          bookmarkIcon.style.fontVariationSettings = "'FILL' 1";
+          bookmarkText.textContent = 'Saved to Vault';
+          bookmarkBtn.classList.add('bg-primary-fixed', 'text-on-primary-fixed');
+        } else {
+          bookmarkIcon.style.fontVariationSettings = "'FILL' 0";
+          bookmarkText.textContent = 'Bookmark Question';
+          bookmarkBtn.classList.remove('bg-primary-fixed', 'text-on-primary-fixed');
+        }
+      });
+    }
+
+    const reportBtn = document.getElementById('report-btn');
+    if (reportBtn) {
+      reportBtn.addEventListener('click', () => {
+        const confirmed = window.confirm("Do you want to submit a correction flag for Question 1 to the SEE Editorial Board?");
+        if (confirmed) {
+          reportBtn.innerHTML = '<span class="material-symbols-outlined text-[18px] text-tertiary">check</span><span>Flagged</span>';
+          reportBtn.classList.add('bg-tertiary-fixed', 'text-on-tertiary-fixed');
+        }
+      });
+    }
+
+    // Interactive copy-to-clipboard for quick formulas
+    document.querySelectorAll('.font-mono.cursor-pointer').forEach(el => {
+      el.addEventListener('click', () => {
+        const textToCopy = el.querySelector('span')?.textContent || el.textContent;
+        navigator.clipboard.writeText(textToCopy.trim()).then(() => {
+          const originalHTML = el.innerHTML;
+          el.innerHTML = `<span class="text-tertiary font-title text-body-sm">Formula copied to clipboard!</span><span class="material-symbols-outlined text-[16px] text-tertiary">check</span>`;
+          setTimeout(() => {
+            el.innerHTML = originalHTML;
+          }, 1600);
+        });
+      });
+    });
+  </script>
+</div></main><footer class="w-full bg-surface-container-low text-on-surface"><div class="max-w-7xl mx-auto px-margin-sm lg:px-margin py-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-gutter lg:gap-space-xl mb-space-xl"><div class="lg:col-span-2 space-y-space-md"><div class="flex items-center gap-space-sm"><img alt="SEE Sathi Official Brand Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VfqreKytT0I8MTcJBY7ZrTCVUrfGR4vxZdYnHnW0VJAkUshMi4PpqpKMgd8ppQITsRrIBE0_je8OitONXgy52wM-Pj2GnNucFyDmAu5XRr6K0XxBj4yDMo0UHZHKp0esEQGkMLSN2Jbv2L7vICEt4fBtfDtFq5N5AujqlCKBAwnroEFRA_QQmxsBXZPauiefggAxHbj2NOSvaVROmmH8bNIUR5e8eNCWWs3MdSS6LuUxbylz3uvgOpd7k"></div><p class="font-body-md text-body-md text-on-surface-variant max-w-sm">Empowering every Class 10 student across Nepal with world-class, beautifully structured study notes and solved questions.</p><div class="flex items-center gap-space-sm text-on-surface-variant pt-space-xs"><span class="inline-flex items-center px-space-sm py-space-xs rounded-full bg-surface-container text-primary font-label-caps text-label-caps">Nepal Curriculum (CDC) Verified</span></div></div><div class="space-y-space-sm"><h4 class="font-label-caps text-label-caps text-on-surface uppercase tracking-wider">Study</h4><ul class="space-y-space-xs"><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="study-notes" href="#" class="">Master Notes</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="solved-questions" href="#" class="">Question Bank</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="saved-items" href="#" class="">Saved Vault</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="search-results" href="#" class="">Formula &amp; Topic Search</a></li></ul></div><div class="space-y-space-sm"><h4 class="font-label-caps text-label-caps text-on-surface uppercase tracking-wider">Curriculum</h4><ul class="space-y-space-xs"><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="subjects" href="#" class="">Compulsory Math</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="subjects" href="#" class="">Science &amp; Tech</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="subjects" href="#" class="">Optional Math</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="subjects" href="#" class="">English &amp; Nepali</a></li></ul></div><div class="space-y-space-sm"><h4 class="font-label-caps text-label-caps text-on-surface uppercase tracking-wider">Account</h4><ul class="space-y-space-xs"><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="profile-settings" href="#" class="">Profile &amp; Goal Settings</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="auth" href="#" class="">Student Login</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="saved-items" href="#" class="">Bookmarks &amp; Formulae</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="not-found" href="#" class="">Troubleshooting</a></li></ul></div><div class="space-y-space-sm"><h4 class="font-label-caps text-label-caps text-on-surface uppercase tracking-wider">Legal</h4><ul class="space-y-space-xs"><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="subjects" href="#" class="">About Mission</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="subjects" href="#" class="">Editorial Board</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="subjects" href="#" class="">Privacy Policy</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="subjects" href="#" class="">Terms of Use</a></li></ul></div></div><div class="pt-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-md text-on-surface-variant"><p class="font-body-sm text-body-sm">© 2026 SEE Sathi Technologies Pvt. Ltd. Kathmandu, Nepal.</p><div class="flex items-center gap-space-md font-body-sm text-body-sm"><span class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-tertiary">verified</span> CDC Curriculum Verified</span></div></div></div></footer>
+
+
+
+
+
+</body></html>

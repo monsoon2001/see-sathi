@@ -1,0 +1,240 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+          "on-surface": "#181a2b",
+          "on-secondary-container": "#590800",
+          "on-primary-container": "#e5e4ff",
+          "surface-container-lowest": "#ffffff",
+          "on-error-container": "#93000a",
+          "error": "#ba1a1a",
+          "surface-container-low": "#f4f2ff",
+          "outline": "#767587",
+          "secondary": "#b5250c",
+          "on-secondary": "#ffffff",
+          "secondary-fixed-dim": "#ffb4a5",
+          "on-tertiary": "#ffffff",
+          "on-background": "#181a2b",
+          "primary": "#2f30da",
+          "on-secondary-fixed-variant": "#8e1300",
+          "surface": "#fbf8ff",
+          "surface-variant": "#e1e1f8",
+          "secondary-fixed": "#ffdad3",
+          "on-error": "#ffffff",
+          "surface-dim": "#d8d8ef",
+          "tertiary-fixed": "#7cfbb1",
+          "on-tertiary-fixed": "#002110",
+          "on-primary-fixed": "#04006d",
+          "on-tertiary-container": "#7ffeb3",
+          "inverse-primary": "#c0c1ff",
+          "tertiary": "#005b34",
+          "tertiary-container": "#007645",
+          "outline-variant": "#c6c4d8",
+          "surface-container-high": "#e6e6fe",
+          "error-container": "#ffdad6",
+          "background": "#fbf8ff",
+          "on-tertiary-fixed-variant": "#00522f",
+          "on-primary": "#ffffff",
+          "inverse-on-surface": "#f1efff",
+          "secondary-container": "#fd583a",
+          "surface-bright": "#fbf8ff",
+          "primary-container": "#4b4ff2",
+          "on-surface-variant": "#454556",
+          "surface-container-highest": "#e1e1f8",
+          "primary-fixed": "#e1e0ff",
+          "on-primary-fixed-variant": "#2423d2",
+          "primary-fixed-dim": "#c0c1ff",
+          "on-secondary-fixed": "#3f0400",
+          "surface-tint": "#4145e9",
+          "inverse-surface": "#2d2f41",
+          "tertiary-fixed-dim": "#5ede96",
+          "surface-container": "#edecff"
+        },
+        "borderRadius": {
+          "DEFAULT": "1rem",
+          "lg": "2rem",
+          "xl": "3rem",
+          "full": "9999px"
+        },
+        "spacing": {
+          "gutter-sm": "1rem",
+          "margin-sm": "1rem",
+          "space-xl": "2.5rem",
+          "space-lg": "1.5rem",
+          "space-sm": "0.5rem",
+          "gutter": "1.5rem",
+          "margin": "2rem",
+          "space-xs": "0.25rem",
+          "space-md": "1rem"
+        },
+        "fontFamily": {
+          "headline-lg": ["Plus Jakarta Sans"],
+          "display-hero-mobile": ["Plus Jakarta Sans"],
+          "body-sm": ["Inter"],
+          "label-md": ["Inter"],
+          "headline-md": ["Plus Jakarta Sans"],
+          "body-md": ["Inter"],
+          "headline-sm": ["Plus Jakarta Sans"],
+          "body-lg": ["Inter"],
+          "title": ["Plus Jakarta Sans"],
+          "label-caps": ["Inter"],
+          "display-hero": ["Plus Jakarta Sans"],
+          "headline-lg-mobile": ["Plus Jakarta Sans"]
+        },
+        "fontSize": {
+          "headline-lg": ["32px", {"lineHeight": "38px", "letterSpacing": "-0.025em", "fontWeight": "700"}],
+          "display-hero-mobile": ["34px", {"lineHeight": "38px", "letterSpacing": "-0.025em", "fontWeight": "800"}],
+          "body-sm": ["13px", {"lineHeight": "18px", "fontWeight": "400"}],
+          "label-md": ["12px", {"lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600"}],
+          "headline-md": ["24px", {"lineHeight": "30px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+          "body-md": ["14px", {"lineHeight": "22px", "fontWeight": "400"}],
+          "headline-sm": ["20px", {"lineHeight": "26px", "letterSpacing": "-0.015em", "fontWeight": "600"}],
+          "body-lg": ["16px", {"lineHeight": "26px", "letterSpacing": "-0.005em", "fontWeight": "400"}],
+          "title": ["16px", {"lineHeight": "22px", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+          "label-caps": ["11px", {"lineHeight": "14px", "letterSpacing": "0.06em", "fontWeight": "700"}],
+          "display-hero": ["48px", {"lineHeight": "52px", "letterSpacing": "-0.03em", "fontWeight": "800"}],
+          "headline-lg-mobile": ["26px", {"lineHeight": "32px", "letterSpacing": "-0.02em", "fontWeight": "700"}]
+        }
+      }
+    }
+  }</script></head><body class="bg-background font-body-md text-on-surface selection:bg-primary-fixed selection:text-on-primary-fixed"><header class="fixed top-0 inset-x-0 z-50 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-7xl mx-auto px-margin-sm lg:px-margin flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-sm shrink-0"><a class="flex items-center gap-space-sm" data-path="subjects" href="#"><img alt="SEE Sathi Official Brand Logo" class="h-9 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VfqreKytT0I8MTcJBY7ZrTCVUrfGR4vxZdYnHnW0VJAkUshMi4PpqpKMgd8ppQITsRrIBE0_je8OitONXgy52wM-Pj2GnNucFyDmAu5XRr6K0XxBj4yDMo0UHZHKp0esEQGkMLSN2Jbv2L7vICEt4fBtfDtFq5N5AujqlCKBAwnroEFRA_QQmxsBXZPauiefggAxHbj2NOSvaVROmmH8bNIUR5e8eNCWWs3MdSS6LuUxbylz3uvgOpd7k"></a></div><nav class="hidden lg:flex items-center gap-space-xs p-space-xs rounded-full bg-surface-container-low/60" data-active-classes="bg-primary-fixed text-on-primary-fixed font-title"><a class="px-space-md py-space-xs rounded-full font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="subjects" href="#">Subjects</a><a aria-current="page" class="px-space-md py-space-xs rounded-full transition-colors bg-primary-fixed text-on-primary-fixed font-title" data-path="study-notes" href="#">Study Notes</a><a class="px-space-md py-space-xs rounded-full font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="solved-questions" href="#">Solved Questions</a><a class="px-space-md py-space-xs rounded-full font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="search-results" href="#">Search</a><a class="px-space-md py-space-xs rounded-full font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="saved-items" href="#">Saved</a></nav><div class="flex items-center gap-space-md shrink-0"><a class="hidden sm:inline-block font-title text-title text-on-surface-variant hover:text-on-surface transition-colors px-space-sm py-space-xs" data-path="auth" href="#">Log in</a><a class="relative group inline-flex items-center justify-center rounded-full bg-primary-container text-on-primary px-space-lg py-space-sm font-title text-title shadow-[0_4px_14px_rgba(75,79,242,0.28),0_1px_2px_rgba(75,79,242,0.16)] hover:-translate-y-0.5 hover:shadow-[0_6px_20px_rgba(75,79,242,0.38)] transition-all duration-200" data-path="study-notes" href="#"><span class="">Start Studying →</span></a><a class="flex items-center rounded-full ring-2 ring-transparent hover:ring-primary-container/30 transition-all" data-path="profile-settings" href="#"><img alt="Student Profile Avatar" class="w-8 h-8 rounded-full object-cover shadow-[0_1px_4px_rgba(0,0,0,0.1)]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCrDyxPWS6JozOwz-oSK0TQdsaQVNWqvX9vy4Gm5wZBZy3TV08Q_CUNga7wdA05bLkWRqtiOsdxC3yUzFyT9NjI-Yfbauq7Z129CinOYvntG1ar1VKMEZ9i0rwvHjPDm-_oEmRRfOIXiXmkWITbnyTzgi200Vml5bk0i0FHpNyAtP9pn1Tgeul7Ao_iTwoBHvJp4RpNI_99YUjUPw9fsjoNvPw0-GGqxLvo6BudnTbKDWzfhaLN5gYt"></a></div></div></header><main class="w-full pt-20 bg-background min-h-[calc(100vh-20rem)]"><div class="flex flex-col w-full">
+<!-- Reading Progress Bar -->
+<div class="sticky top-20 z-40 w-full h-1 bg-surface-container-high">
+<div class="h-full bg-tertiary transition-all duration-150" id="scrollProgressBar" style="width: 0%;"></div>
+</div>
+<div class="max-w-7xl mx-auto w-full px-margin-sm lg:px-margin py-space-lg">
+<!-- Top Meta Breadcrumb Strip -->
+<div class="flex flex-wrap items-center justify-between gap-space-sm mb-space-md max-w-3xl mx-auto">
+<nav class="flex items-center gap-space-xs font-label-md text-label-md text-on-surface-variant">
+<span class="inline-flex items-center justify-center w-7 h-7 rounded-DEFAULT bg-tertiary-fixed text-on-tertiary-fixed shadow-sm">
+<span class="material-symbols-outlined text-[16px]">bolt</span>
+</span>
+<a class="hover:text-primary transition-colors" data-path="subjects" href="#">Subjects</a>
+<span class="text-outline-variant">/</span>
+<a class="hover:text-primary transition-colors" data-path="subjects" href="#">Science &amp; Tech</a>
+<span class="text-outline-variant">/</span>
+<span class="text-on-surface font-title">Electricity</span>
+</nav>
+<div class="flex items-center gap-space-xs">
+<button class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-surface-container-lowest text-on-surface hover:bg-surface-container transition-all shadow-sm" id="bookmarkBtn">
+<span class="material-symbols-outlined text-[18px] text-tertiary" id="bookmarkIcon">bookmark</span>
+<span class="font-label-caps text-label-caps uppercase" id="bookmarkText">Save Note</span>
+</button>
+<button class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-surface-container-lowest text-on-surface hover:bg-surface-container transition-all shadow-sm" id="focusToggle">
+<span class="material-symbols-outlined text-[18px]">menu_book</span>
+<span class="font-label-caps text-label-caps uppercase">Focus Mode</span>
+</button>
+</div>
+</div>
+<!-- Main Workspace Grid -->
+<div class="w-full flex justify-center"><article class="w-full max-w-3xl mx-auto space-y-space-xl px-margin-sm sm:px-0" id="readingCanvas"><header class="scroll-mt-28 space-y-space-sm pb-space-md" id="intro"><div class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-tertiary/10 text-tertiary"><span class="material-symbols-outlined text-[14px]">school</span><span class="font-label-caps text-label-caps uppercase tracking-wider">CHAPTER 06 · SCIENCE &amp; TECHNOLOGY · CDC SYLLABUS 2081/2082</span></div><h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">Electricity: Ohm's Law &amp; Circuit Dynamics</h1><p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">Master the foundational mechanics of potential difference, directional charge drift, and circuit load resistance. This module directly addresses questions frequently assessed in <strong>Group B (Short Answer - 2 Marks)</strong> and <strong>Group C (Numerical &amp; Diagrammatic Deduction - 3 Marks)</strong> of the National Examination Board (NEB/CDC) secondary assessment.</p><div class="flex flex-wrap items-center gap-space-md pt-space-xs text-on-surface-variant font-label-md text-label-md"><span class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-tertiary">verified_user</span> Reviewed by Central CDC Board Team</span><span class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-primary">analytics</span> High SEE Weightage (6-8 Marks Total)</span></div></header><section class="scroll-mt-28 space-y-space-md" id="electric-current"><h2 class="font-headline-md text-headline-md text-on-surface flex items-center gap-space-xs"><span class="text-tertiary">01.</span> What is Electric Current?</h2><div class="space-y-space-md font-body-lg text-body-lg text-on-surface leading-[1.75]"><p class="">In solid conductors such as metallic copper or aluminum wires, valence electrons are loosely bounded to their parent atomic nuclei. In the absence of an applied external electrical field, these free electrons move erratically in random directions due to thermal excitation, colliding continuously with lattice ions. The net movement of charge along any specific cross-sectional plane remains strictly zero.</p><p class="">However, once an electro-chemical cell or battery is established across the terminal extremities of the conductor, an electrostatic potential gradient comes into existence. This potential difference drives a coherent collective drift of free charges. Electric current (<span class="font-title text-primary">I</span>) is rigorously defined as the rate of flow of electric charge through any cross-sectional area of a conductor over unit time:</p></div><div class="p-space-md rounded-DEFAULT bg-surface-container-lowest shadow-sm flex flex-col sm:flex-row items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><div class="w-10 h-10 rounded-full bg-primary/10 text-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined">calculate</span></div><div><span class="font-label-caps text-label-caps uppercase text-on-surface-variant">Rate of Charge Definition</span><p class="font-headline-sm text-headline-sm text-on-surface tracking-normal font-bold">I = Q / t</p></div></div><div class="text-right"><span class="font-label-md text-label-md text-on-surface-variant">1 Ampere (A) = 1 Coulomb (C) / 1 Second (s)</span></div></div></section><section class="scroll-mt-28 space-y-space-sm" id="circuit-dynamics"><h2 class="font-headline-md text-headline-md text-on-surface flex items-center gap-space-xs"><span class="text-tertiary">02.</span> Circuit Flow: Electrons vs Conventional Current</h2><p class="font-body-lg text-body-lg text-on-surface leading-[1.75]">A critical area where Class 10 candidates forfeit marks during diagram questions is misidentifying the arrow directions for electron movement versus conventional current flow. Examine the polarized CDC-standard circuit schematic below:</p><div class="bg-surface-container-lowest rounded-DEFAULT p-space-md sm:p-space-lg shadow-sm space-y-space-md"><div class="w-full bg-surface-container-low rounded-DEFAULT p-space-md overflow-hidden relative"><svg class="w-full h-auto text-on-surface select-none" viewBox="0 0 700 280"><rect fill="none" height="180" rx="16" stroke="#C6C4D8" stroke-dasharray="8 6" stroke-width="4" width="560" x="70" y="50"></rect><g transform="translate(310, 36)"><rect fill="#FFFFFF" height="28" rx="6" stroke="#767587" stroke-width="1.5" width="80" x="0" y="4"></rect><line stroke="#B5250C" stroke-linecap="round" stroke-width="4" x1="28" x2="28" y1="0" y2="36"></line><line stroke="#181A2B" stroke-linecap="round" stroke-width="6" x1="48" x2="48" y1="8" y2="28"></line><text fill="#B5250C" font-family="Plus Jakarta Sans" font-size="14" font-weight="700" x="18" y="22">+</text><text fill="#181A2B" font-family="Plus Jakarta Sans" font-size="16" font-weight="700" x="58" y="23">-</text><text fill="#454556" font-family="Inter" font-size="11" font-weight="600" text-anchor="middle" x="40" y="-8">DC Source (V)</text></g><g transform="translate(300, 214)"><path d="M 0 16 L 15 16 L 25 0 L 35 32 L 45 0 L 55 32 L 65 0 L 75 32 L 85 16 L 100 16" fill="none" stroke="#007645" stroke-linejoin="round" stroke-width="3.5"></path><text fill="#005B34" font-family="Inter" font-size="12" font-weight="600" text-anchor="middle" x="50" y="50">Load Resistance (R)</text></g><g transform="translate(100, 110)"><circle cx="10" cy="10" fill="#181A2B" r="4"></circle><circle cx="50" cy="10" fill="#181A2B" r="4"></circle><line stroke="#007645" stroke-width="3" x1="10" x2="48" y1="10" y2="10"></line><text fill="#454556" font-family="Inter" font-size="11" font-weight="600" text-anchor="middle" x="30" y="-8">Closed Key (K)</text></g><g transform="translate(560, 110)"><path d="M 0 0 L 0 40" marker-end="url(#arrow-red)" stroke="#B5250C" stroke-width="3"></path><polygon fill="#B5250C" points="0,45 -5,32 5,32"></polygon><text fill="#B5250C" font-family="Inter" font-size="11" font-weight="700" x="14" y="24">Conventional Current (I)</text><text fill="#454556" font-family="Inter" font-size="9" x="14" y="38">(+ to -)</text></g><g transform="translate(480, 75)"><polygon fill="#2F30DA" points="10,0 22,-5 22,5"></polygon><line stroke="#2F30DA" stroke-dasharray="3 3" stroke-width="2.5" x1="15" x2="60" y1="0" y2="0"></line><text fill="#2F30DA" font-family="Inter" font-size="11" font-weight="700" text-anchor="middle" x="36" y="-10">e- Flow (- to +)</text></g></svg></div><p class="font-body-sm text-body-sm text-on-surface-variant italic text-center">Figure 6.1: Conventional current flows externally from positive to negative terminal, while real physical electron drift occurs in the opposing direction (negative to positive).</p></div></section><section class="scroll-mt-28 space-y-space-md" id="ohms-law"><h2 class="font-headline-md text-headline-md text-on-surface flex items-center gap-space-xs"><span class="text-tertiary">03.</span> Ohm's Law: Statement &amp; Verification</h2><div class="space-y-space-md font-body-lg text-body-lg text-on-surface leading-[1.75]"><p class="">Formulated in 1827 by German physicist Georg Simon Ohm, this fundamental physical law describes the linear proportionality between potential drop and steady current through a metallic conductor under invariant ambient constraints.</p><div class="p-space-md rounded-DEFAULT bg-surface-container border-l-4 border-l-tertiary"><p class="font-title text-title text-on-surface italic">“At constant physical conditions (such as temperature, strain, and mechanical dimensions), the electric current flowing through a metallic conductor is directly proportional to the potential difference applied across its two terminals.”</p></div><p class="">Mathematically, if <em>V</em> represents the potential difference and <em>I</em> the current:<br><strong>V ∝ I</strong> &nbsp;(when Temperature is constant) ⇒ <strong>V = I × R</strong>, where <strong>R</strong> is the constant of proportionality known as electrical resistance.</p></div><div class="relative overflow-hidden rounded-DEFAULT bg-gradient-to-r from-tertiary/15 via-tertiary/10 to-surface-container-high p-space-lg shadow-sm"><span class="material-symbols-outlined absolute -right-4 -bottom-6 text-[140px] text-tertiary/10 pointer-events-none select-none">bolt</span><div class="relative z-10 flex flex-col md:flex-row items-center justify-between gap-space-lg"><div class="space-y-space-xs text-center md:text-left"><div class="inline-flex items-center gap-space-xs px-space-sm py-0.5 rounded-full bg-tertiary text-on-tertiary font-label-caps text-label-caps uppercase"><span class="material-symbols-outlined text-[14px]">auto_awesome</span> Essential Core Formula</div><div class="font-display-hero text-display-hero text-tertiary tracking-tight font-extrabold py-space-xs">V = I × R</div><div class="flex flex-wrap items-center justify-center md:justify-start gap-space-xs pt-space-xs"><span class="px-space-sm py-1 rounded-DEFAULT bg-surface-container-lowest font-body-sm text-body-sm text-on-surface shadow-sm"><strong>V:</strong> Potential Diff (Volts · V)</span><span class="px-space-sm py-1 rounded-DEFAULT bg-surface-container-lowest font-body-sm text-body-sm text-on-surface shadow-sm"><strong>I:</strong> Current (Amperes · A)</span><span class="px-space-sm py-1 rounded-DEFAULT bg-surface-container-lowest font-body-sm text-body-sm text-on-surface shadow-sm"><strong>R:</strong> Resistance (Ohms · Ω)</span></div></div><div class="flex flex-col items-center gap-space-xs shrink-0"><button class="inline-flex items-center gap-space-xs px-space-lg py-space-sm rounded-full bg-tertiary text-on-tertiary font-title text-title shadow-[0_4px_14px_rgba(0,118,69,0.28)] hover:-translate-y-0.5 transition-all" id="copyFormulaBtn"><span class="material-symbols-outlined text-[18px]" id="copyFormulaIcon">content_copy</span><span id="copyFormulaText" class="">Copy Formula</span></button><span class="font-label-caps text-label-caps text-on-surface-variant">Tap to copy LaTeX string</span></div></div></div></section><section class="scroll-mt-28 space-y-space-md" id="numerical-card"><div class="flex items-center justify-between"><h2 class="font-headline-md text-headline-md text-on-surface flex items-center gap-space-xs"><span class="text-tertiary">04.</span> Solved Numerical with CDC Rubric</h2><span class="px-space-md py-space-xs rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-caps text-label-caps uppercase">SEE Past Question · 3 Marks</span></div><div class="bg-surface-container-lowest rounded-DEFAULT p-space-lg shadow-sm space-y-space-md"><div class="p-space-md rounded-DEFAULT bg-surface-container-low space-y-space-xs"><div class="flex items-center gap-space-xs text-secondary font-title text-title"><span class="material-symbols-outlined text-[18px]">quiz</span><span class="">Question (SEE 2079 Bagmati Province):</span></div><p class="font-body-md text-body-md text-on-surface">An electric heating coil with an internal resistance of <strong>44 Ω</strong> is connected across a standard domestic power outlet of <strong>220 V</strong>. Calculate the electrical current drawn by the coil and compute the electrical power consumed.</p></div><div class="space-y-space-md pt-space-xs"><div class="flex items-center justify-between border-b-0 pb-space-xs"><span class="font-label-caps text-label-caps uppercase text-on-surface-variant">Official CDC Step-by-Step Marking Scheme</span><span class="font-label-caps text-label-caps text-tertiary">Total: 3.0 / 3.0</span></div><div class="flex items-start gap-space-md"><div class="w-7 h-7 rounded-full bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center shrink-0 font-title text-title text-xs">1</div><div class="flex-1 space-y-space-xs"><div class="flex items-center justify-between"><span class="font-title text-title text-on-surface">Step 1: Stating Given Parameters &amp; Required Units</span><span class="font-label-caps text-label-caps text-on-surface-variant bg-surface-container px-space-xs rounded">[0.5 Mark]</span></div><div class="font-body-sm text-body-sm text-on-surface-variant font-mono bg-surface-container-low p-space-sm rounded-DEFAULT">Given:<br>Resistance (R) = 44 Ω<br>Potential Difference (V) = 220 V<br>Current (I) = ?<br>Power (P) = ?</div></div></div><div class="flex items-start gap-space-md"><div class="w-7 h-7 rounded-full bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center shrink-0 font-title text-title text-xs">2</div><div class="flex-1 space-y-space-xs"><div class="flex items-center justify-between"><span class="font-title text-title text-on-surface">Step 2: Applying Ohm's Law for Current</span><span class="font-label-caps text-label-caps text-on-surface-variant bg-surface-container px-space-xs rounded">[1.0 Mark]</span></div><p class="font-body-md text-body-md text-on-surface">According to Ohm's Law: <span class="font-mono text-tertiary font-bold">V = I × R</span> ⇒ <span class="font-mono text-tertiary font-bold">I = V / R</span></p><p class="font-body-md text-body-md text-on-surface">Substituting values: <span class="font-mono">I = 220 / 44 = <strong>5 A</strong></span>.</p></div></div><div class="flex items-start gap-space-md"><div class="w-7 h-7 rounded-full bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center shrink-0 font-title text-title text-xs">3</div><div class="flex-1 space-y-space-xs"><div class="flex items-center justify-between"><span class="font-title text-title text-on-surface">Step 3: Calculating Power &amp; Final Conclusion</span><span class="font-label-caps text-label-caps text-on-surface-variant bg-surface-container px-space-xs rounded">[1.5 Marks]</span></div><p class="font-body-md text-body-md text-on-surface">Electric Power consumed: <span class="font-mono text-tertiary font-bold">P = V × I</span></p><p class="font-body-md text-body-md text-on-surface"><span class="font-mono">P = 220 × 5 = <strong>1100 W (or 1.1 kW)</strong></span></p><div class="p-space-sm rounded-DEFAULT bg-tertiary/10 text-on-surface font-body-sm text-body-sm flex items-center gap-space-xs"><span class="material-symbols-outlined text-tertiary text-[18px]">check_circle</span><span class=""><strong>Conclusion:</strong> The current drawn is <strong>5 Amperes</strong> and the power consumption is <strong>1100 Watts</strong>.</span></div></div></div></div></div></section><section class="scroll-mt-28 space-y-space-md" id="summary-points"><h2 class="font-headline-md text-headline-md text-on-surface flex items-center gap-space-xs"><span class="text-tertiary">05.</span> Summary &amp; High-Yield Examination Points</h2><div class="bg-surface-container-lowest rounded-DEFAULT p-space-lg shadow-sm space-y-space-sm"><div class="grid grid-cols-1 gap-space-sm"><div class="flex items-start gap-space-md p-space-sm rounded-DEFAULT hover:bg-surface-container-low transition-colors"><div class="w-6 h-6 rounded-full bg-tertiary/15 text-tertiary flex items-center justify-center shrink-0 mt-0.5"><span class="material-symbols-outlined text-[16px] font-bold">check</span></div><div class="space-y-0.5"><h4 class="font-title text-title text-on-surface">Temperature Dependence</h4><p class="font-body-md text-body-md text-on-surface-variant">Ohm's law holds true strictly when temperature remains constant. If a filament heats up significantly, its resistance rises, and the V-I curve deviates from linearity.</p></div></div><div class="flex items-start gap-space-md p-space-sm rounded-DEFAULT hover:bg-surface-container-low transition-colors"><div class="w-6 h-6 rounded-full bg-tertiary/15 text-tertiary flex items-center justify-center shrink-0 mt-0.5"><span class="material-symbols-outlined text-[16px] font-bold">check</span></div><div class="space-y-0.5"><h4 class="font-title text-title text-on-surface">1 Ampere Definition (Frequent 1-Mark Question)</h4><p class="font-body-md text-body-md text-on-surface-variant">Defined as the current flowing when one Coulomb of charge passes across a specific cross-section per second (1 A = 1 C / 1 s).</p></div></div><div class="flex items-start gap-space-md p-space-sm rounded-DEFAULT hover:bg-surface-container-low transition-colors"><div class="w-6 h-6 rounded-full bg-tertiary/15 text-tertiary flex items-center justify-center shrink-0 mt-0.5"><span class="material-symbols-outlined text-[16px] font-bold">check</span></div><div class="space-y-0.5"><h4 class="font-title text-title text-on-surface">Ammeter vs Voltmeter Connection</h4><p class="font-body-md text-body-md text-on-surface-variant">Ammeters have near-zero resistance and must always be wired in series. Voltmeters carry extremely high resistance and must strictly be connected across components in parallel.</p></div></div><div class="flex items-start gap-space-md p-space-sm rounded-DEFAULT hover:bg-surface-container-low transition-colors"><div class="w-6 h-6 rounded-full bg-tertiary/15 text-tertiary flex items-center justify-center shrink-0 mt-0.5"><span class="material-symbols-outlined text-[16px] font-bold">check</span></div><div class="space-y-0.5"><h4 class="font-title text-title text-on-surface">Ohmic vs Non-Ohmic Conductors</h4><p class="font-body-md text-body-md text-on-surface-variant">Copper and silver follow linear Ohm's characteristics. Semiconductor diodes, vacuum tubes, and torch bulbs represent non-ohmic devices where resistance varies with voltage.</p></div></div></div></div></section><div class="rounded-DEFAULT bg-primary text-on-primary p-space-lg md:p-space-xl relative overflow-hidden shadow-xl"><div class="relative z-10 flex flex-col md:flex-row items-center justify-between gap-space-lg"><div class="space-y-space-xs text-center md:text-left"><span class="px-space-sm py-0.5 rounded-full bg-on-primary/10 text-on-primary font-label-caps text-label-caps uppercase">Ready for Practice?</span><h3 class="font-headline-lg text-headline-lg text-on-primary font-bold">Reinforce With Past Papers</h3><p class="font-body-md text-body-md text-on-primary-container max-w-md">Access 24 solved board questions and multiple choice challenges specifically covering this module.</p></div><a class="shrink-0 inline-flex items-center justify-center gap-space-xs px-space-xl py-space-md rounded-full bg-surface-container-lowest text-primary font-title text-title shadow-[0_4px_14px_rgba(75,79,242,0.28)] hover:scale-105 transition-all" data-path="solved-questions" href=""><span class="">Study Solved Questions for this chapter →</span></a></div></div><nav class="pt-space-md pb-space-xl grid grid-cols-1 sm:grid-cols-2 gap-space-md"><a class="group flex items-center gap-space-md p-space-md rounded-DEFAULT bg-surface-container-lowest hover:bg-surface-container transition-all shadow-sm" data-path="study-notes" href=""><span class="w-10 h-10 rounded-full bg-surface-container group-hover:bg-primary-fixed text-on-surface flex items-center justify-center transition-colors"><span class="material-symbols-outlined text-[20px]">chevron_left</span></span><div class="flex flex-col"><span class="font-label-caps text-label-caps uppercase text-on-surface-variant">Previous Topic</span><span class="font-title text-title text-on-surface line-clamp-1">Chapter 05: Heat &amp; Thermodynamics</span></div></a><a class="group flex items-center justify-between gap-space-md p-space-md rounded-DEFAULT bg-surface-container-lowest hover:bg-surface-container transition-all shadow-sm text-right" data-path="study-notes" href=""><div class="flex flex-col items-end flex-1"><span class="font-label-caps text-label-caps uppercase text-on-surface-variant">Next Topic</span><span class="font-title text-title text-on-surface line-clamp-1">Chapter 07: Chemical Reaction Dynamics</span></div><span class="w-10 h-10 rounded-full bg-surface-container group-hover:bg-primary-fixed text-on-surface flex items-center justify-center transition-colors shrink-0"><span class="material-symbols-outlined text-[20px]">chevron_right</span></span></a></nav></article></div>
+</div>
+</div>
+<script>
+  // Scroll Progress Indicator
+  window.addEventListener('scroll', () => {
+    const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = (winScroll / height) * 100;
+    const bar = document.getElementById('scrollProgressBar');
+    if (bar) {
+      bar.style.width = scrolled + '%';
+    }
+  });
+
+  // Copy Formula Micro-Interaction
+  const copyFormulaBtn = document.getElementById('copyFormulaBtn');
+  const copyFormulaText = document.getElementById('copyFormulaText');
+  const copyFormulaIcon = document.getElementById('copyFormulaIcon');
+
+  if (copyFormulaBtn) {
+    copyFormulaBtn.addEventListener('click', () => {
+      const formulaLatex = "V = I \\times R";
+      navigator.clipboard.writeText(formulaLatex).then(() => {
+        copyFormulaText.textContent = "Copied to Clipboard!";
+        copyFormulaIcon.textContent = "check";
+        setTimeout(() => {
+          copyFormulaText.textContent = "Copy Formula";
+          copyFormulaIcon.textContent = "content_copy";
+        }, 2200);
+      });
+    });
+  }
+
+  // Bookmark Toggle
+  const bookmarkBtn = document.getElementById('bookmarkBtn');
+  const bookmarkText = document.getElementById('bookmarkText');
+  const bookmarkIcon = document.getElementById('bookmarkIcon');
+  let isBookmarked = false;
+
+  if (bookmarkBtn) {
+    bookmarkBtn.addEventListener('click', () => {
+      isBookmarked = !isBookmarked;
+      if (isBookmarked) {
+        bookmarkText.textContent = "Saved";
+        bookmarkIcon.textContent = "bookmark_added";
+        bookmarkBtn.classList.add('bg-tertiary-fixed', 'text-on-tertiary-fixed');
+      } else {
+        bookmarkText.textContent = "Save Note";
+        bookmarkIcon.textContent = "bookmark";
+        bookmarkBtn.classList.remove('bg-tertiary-fixed', 'text-on-tertiary-fixed');
+      }
+    });
+  }
+
+  // Focus Mode Toggle (Dims sidebar for distraction-free reading)
+  const focusToggle = document.getElementById('focusToggle');
+  const sideNavCol = document.getElementById('sideNavCol');
+  const readingCanvas = document.getElementById('readingCanvas');
+  let isFocus = false;
+
+  if (focusToggle && sideNavCol && readingCanvas) {
+    focusToggle.addEventListener('click', () => {
+      isFocus = !isFocus;
+      if (isFocus) {
+        sideNavCol.classList.add('hidden');
+        readingCanvas.classList.remove('lg:col-span-9');
+        readingCanvas.classList.add('lg:col-span-12');
+        focusToggle.classList.add('bg-primary-fixed', 'text-on-primary-fixed');
+      } else {
+        sideNavCol.classList.remove('hidden');
+        readingCanvas.classList.remove('lg:col-span-12');
+        readingCanvas.classList.add('lg:col-span-9');
+        focusToggle.classList.remove('bg-primary-fixed', 'text-on-primary-fixed');
+      }
+    });
+  }
+
+  // Active TOC Link State Tracking
+  const sections = document.querySelectorAll('article section, article header');
+  const navLinks = document.querySelectorAll('.toc-link');
+
+  window.addEventListener('scroll', () => {
+    let current = '';
+    sections.forEach(section => {
+      const sectionTop = section.offsetTop - 150;
+      if (pageYOffset >= sectionTop) {
+        current = section.getAttribute('id');
+      }
+    });
+
+    navLinks.forEach(link => {
+      link.classList.remove('text-tertiary', 'bg-tertiary-fixed/30', 'font-title');
+      link.classList.add('text-on-surface-variant');
+      if (link.getAttribute('href') === `#${current}`) {
+        link.classList.add('text-tertiary', 'bg-tertiary-fixed/30', 'font-title');
+        link.classList.remove('text-on-surface-variant');
+      }
+    });
+  });
+</script></main><footer class="w-full bg-surface-container-low text-on-surface"><div class="max-w-7xl mx-auto px-margin-sm lg:px-margin py-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-gutter lg:gap-space-xl mb-space-xl"><div class="lg:col-span-2 space-y-space-md"><div class="flex items-center gap-space-sm"><img alt="SEE Sathi Official Brand Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VfqreKytT0I8MTcJBY7ZrTCVUrfGR4vxZdYnHnW0VJAkUshMi4PpqpKMgd8ppQITsRrIBE0_je8OitONXgy52wM-Pj2GnNucFyDmAu5XRr6K0XxBj4yDMo0UHZHKp0esEQGkMLSN2Jbv2L7vICEt4fBtfDtFq5N5AujqlCKBAwnroEFRA_QQmxsBXZPauiefggAxHbj2NOSvaVROmmH8bNIUR5e8eNCWWs3MdSS6LuUxbylz3uvgOpd7k"></div><p class="font-body-md text-body-md text-on-surface-variant max-w-sm">Empowering every Class 10 student across Nepal with world-class, beautifully structured study notes and solved questions.</p><div class="flex items-center gap-space-sm text-on-surface-variant pt-space-xs"><span class="inline-flex items-center px-space-sm py-space-xs rounded-full bg-surface-container text-primary font-label-caps text-label-caps">Nepal Curriculum (CDC) Verified</span></div></div><div class="space-y-space-sm"><h4 class="font-label-caps text-label-caps text-on-surface uppercase tracking-wider">Study</h4><ul class="space-y-space-xs"><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="study-notes" href="#" class="">Master Notes</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="solved-questions" href="#" class="">Question Bank</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="saved-items" href="#" class="">Saved Vault</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="search-results" href="#" class="">Formula &amp; Topic Search</a></li></ul></div><div class="space-y-space-sm"><h4 class="font-label-caps text-label-caps text-on-surface uppercase tracking-wider">Curriculum</h4><ul class="space-y-space-xs"><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="subjects" href="#" class="">Compulsory Math</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="subjects" href="#" class="">Science &amp; Tech</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="subjects" href="#" class="">Optional Math</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="subjects" href="#" class="">English &amp; Nepali</a></li></ul></div><div class="space-y-space-sm"><h4 class="font-label-caps text-label-caps text-on-surface uppercase tracking-wider">Account</h4><ul class="space-y-space-xs"><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="profile-settings" href="#" class="">Profile &amp; Goal Settings</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="auth" href="#" class="">Student Login</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="saved-items" href="#" class="">Bookmarks &amp; Formulae</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="not-found" href="#" class="">Troubleshooting</a></li></ul></div><div class="space-y-space-sm"><h4 class="font-label-caps text-label-caps text-on-surface uppercase tracking-wider">Legal</h4><ul class="space-y-space-xs"><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="subjects" href="#" class="">About Mission</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="subjects" href="#" class="">Editorial Board</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="subjects" href="#" class="">Privacy Policy</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="subjects" href="#" class="">Terms of Use</a></li></ul></div></div><div class="pt-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-md text-on-surface-variant"><p class="font-body-sm text-body-sm">© 2026 SEE Sathi Technologies Pvt. Ltd. Kathmandu, Nepal.</p><div class="flex items-center gap-space-md font-body-sm text-body-sm"><span class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-tertiary">verified</span> CDC Curriculum Verified</span></div></div></div></footer>
+
+
+
+
+
+
+
+</body></html>

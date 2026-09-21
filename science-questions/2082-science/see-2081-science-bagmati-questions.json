@@ -1,0 +1,753 @@
+{
+  "subjectId": "science",
+  "classLevel": "10",
+  "province": "Bagmati",
+  "examBoard": "SEE (National Examinations Board, Nepal)",
+  "examYear": "2081 (2025 AD)",
+  "paperCode": "RE-1041'BP'",
+  "fullMarks": 75,
+  "timeAllowed": "3 hours",
+  "sourceNote": {
+    "en": "Digitised from the uploaded scan of the SEE 2081 (2025) Science question paper, Bagmati Province, set 'BP'. Note: the last scanned page (marked code 'GP') belongs to a different exam set and was not merged into this paper — it is not included in Sections A-D below.",
+    "ne": "यो फाइल SEE 2081 (2025) विज्ञान प्रश्नपत्र, बागमती प्रदेश, सेट 'BP' को स्क्यान गरिएको प्रतिबाट तयार पारिएको हो। नोट: अन्तिम स्क्यान गरिएको पानाको कोड 'GP' फरक सेटको हो, यसलाई यो प्रश्नपत्रमा मिसाइएको छैन।"
+  },
+  "chapterId": "see-2081-science-bagmati-qp",
+  "docType": "questionPaper",
+  "titleEn": "SEE 2081 (2025) Science Question Paper — Bagmati Province",
+  "titleNe": "SEE २०८१ (२०२५) विज्ञान तथा प्रविधि प्रश्नपत्र — बागमती प्रदेश",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": {
+        "en": "SEE 2081 (2025) — Science and Technology",
+        "ne": "SEE २०८१ (२०२५) — विज्ञान तथा प्रविधि"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "Time: 3 hours | Full Marks: 75. Answer creatively in your own style, based on the given instructions.",
+        "ne": "समय : ३ घण्टा | पूर्णाङ्क : ७५। दिइएका निर्देशनका आधारमा आफ्नै शैलीमा सिर्जनात्मक उत्तर दिनुहोस्।"
+      }
+    }
+  ],
+  "questionSections": [
+    {
+      "title": {
+        "en": "Section A — Multiple Choice Questions",
+        "ne": "खण्ड 'क' — बहुवैकल्पिक प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Choose the best alternative to the following questions and write in the answer sheet. (10 x 1 = 10)",
+        "ne": "तलका प्रश्नहरूको ठिक विकल्प छानी उत्तरपुस्तिकामा लेख्नुहोस्। (१०x१=१०)"
+      },
+      "items": [
+        {
+          "id": "q1a",
+          "questionNumber": "1(a)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "What is the number of chromosomes in a human skin cell?",
+            "ne": "मानिसको छालाको कोषमा क्रोमोजोमको सङ्ख्या कति हुन्छ ?"
+          },
+          "options": [
+            {
+              "en": "40",
+              "ne": "४०"
+            },
+            {
+              "en": "42",
+              "ne": "४२"
+            },
+            {
+              "en": "44",
+              "ne": "४४"
+            },
+            {
+              "en": "46",
+              "ne": "४६"
+            }
+          ]
+        },
+        {
+          "id": "q1b",
+          "questionNumber": "1(b)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Which is the correct formula to find the focal length of a lens?",
+            "ne": "लेन्सको केन्द्रीकरण दूरी पत्ता लगाउने सही सूत्र कुन हो ?"
+          },
+          "options": [
+            {
+              "en": "v = M/u",
+              "ne": "v = M/u"
+            },
+            {
+              "en": "M = i/o",
+              "ne": "M = i/o"
+            },
+            {
+              "en": "P = 1/f",
+              "ne": "P = 1/f"
+            },
+            {
+              "en": "f = v/u",
+              "ne": "f = v/u"
+            }
+          ]
+        },
+        {
+          "id": "q1c",
+          "questionNumber": "1(c)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Which valve controls the blood flow from the right ventricle to the right auricle?",
+            "ne": "रगत दायाँ भेन्ट्रिकलबाट दायाँ अरिकलमा जान कुन भल्भले नियन्त्रण गर्छ ?"
+          },
+          "options": [
+            {
+              "en": "Aortic valve",
+              "ne": "एओर्टिक भल्भ"
+            },
+            {
+              "en": "Bicuspid valve",
+              "ne": "बाइकस्पिड भल्भ"
+            },
+            {
+              "en": "Pulmonic valve",
+              "ne": "पल्मोनिक भल्भ"
+            },
+            {
+              "en": "Tricuspid valve",
+              "ne": "ट्राइकस्पिड भल्भ"
+            }
+          ]
+        },
+        {
+          "id": "q1d",
+          "questionNumber": "1(d)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Which medicinal plant has the antimicrobial property that can activate the digestive process?",
+            "ne": "पाचन क्रिया सक्रिय बनाउने एन्टिमाइक्रोबियल गुण भएको जडीबुटी कुन हो ?"
+          },
+          "options": [
+            {
+              "en": "Neem",
+              "ne": "नीम"
+            },
+            {
+              "en": "Gurjo (Heart-leaved moonseed)",
+              "ne": "गुर्जो"
+            },
+            {
+              "en": "Asiatic pennywort (Ghodtapre)",
+              "ne": "घोडटापे"
+            },
+            {
+              "en": "Holy basil (Tulsi)",
+              "ne": "तुलसी"
+            }
+          ]
+        },
+        {
+          "id": "q1e",
+          "questionNumber": "1(e)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Which of the following is a di-hydric alcohol?",
+            "ne": "दिइएको मध्ये डाइहाइड्रिक अल्कोहल कुन हो ?"
+          },
+          "options": [
+            {
+              "en": "Ethanol",
+              "ne": "इथानोल"
+            },
+            {
+              "en": "Ethylene glycol",
+              "ne": "इथिलिन ग्लाइकोल"
+            },
+            {
+              "en": "Methanol",
+              "ne": "मिथानोल"
+            },
+            {
+              "en": "Glycerol",
+              "ne": "ग्लिसेरोल"
+            }
+          ]
+        },
+        {
+          "id": "q1f",
+          "questionNumber": "1(f)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "If the Earth could be squeezed to the size of the Moon, what would be the effect on the value of acceleration due to gravity of the Earth?",
+            "ne": "यदि पृथ्वीलाई खुम्च्याएर चन्द्रमाजत्रै बनाउन सकियो भने पृथ्वीको गुरुत्व प्रवेगको मानमा कस्तो असर पर्छ ?"
+          },
+          "options": [
+            {
+              "en": "Increases",
+              "ne": "बढ्छ"
+            },
+            {
+              "en": "Decreases",
+              "ne": "घट्छ"
+            },
+            {
+              "en": "Becomes zero",
+              "ne": "शून्य हुन्छ"
+            },
+            {
+              "en": "Remains the same",
+              "ne": "उही नै रहन्छ"
+            }
+          ]
+        },
+        {
+          "id": "q1g",
+          "questionNumber": "1(g)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Which of the following facts is correct?",
+            "ne": "तलकामध्ये कुन तथ्य सही छ ?"
+          },
+          "options": [
+            {
+              "en": "Electric motor changes electrical energy into kinetic energy.",
+              "ne": "विद्युत मोटरले विद्युतीय शक्तिलाई गति शक्तिमा रूपान्तर गर्दछ।"
+            },
+            {
+              "en": "Electric generator changes electrical energy into mechanical energy.",
+              "ne": "विद्युत जेनेरेटरले विद्युत शक्तिलाई यान्त्रिक शक्तिमा रूपान्तरण गर्दछ।"
+            },
+            {
+              "en": "Both electric motor and generator work on the same principle.",
+              "ne": "विद्युत मोटर र जेनेरेटर दुवै एउटै सिद्धान्तमा आधारित रही कार्य गर्दछन्।"
+            },
+            {
+              "en": "Both electric motor and generator change mechanical energy into electrical energy.",
+              "ne": "विद्युत मोटर र जेनेरेटर दुवै यन्त्रले यान्त्रिक शक्तिलाई विद्युतीय शक्तिमा रूपान्तर गर्दछन्।"
+            }
+          ]
+        },
+        {
+          "id": "q1h",
+          "questionNumber": "1(h)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "On which of the following factors does specific heat capacity depend?",
+            "ne": "पदार्थको विशिष्ट तापधारण क्षमता तलकामध्ये कुन कुरामा निर्भर गर्दछ ?"
+          },
+          "options": [
+            {
+              "en": "Mass of matter",
+              "ne": "पदार्थको पिण्ड"
+            },
+            {
+              "en": "Volume of matter",
+              "ne": "पदार्थको आयतन"
+            },
+            {
+              "en": "Temperature of matter",
+              "ne": "पदार्थको तापक्रम"
+            },
+            {
+              "en": "Nature of matter",
+              "ne": "पदार्थको प्रकृति"
+            }
+          ]
+        },
+        {
+          "id": "q1i",
+          "questionNumber": "1(i)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Which of the following group of fundamental units represents the derived unit of energy, Joule (J)?",
+            "ne": "तलका मध्ये कुन आधारभूत एकाईको समूहले शक्तिको तत्जन्य एकाई जुल (J) लाई जनाउँछ ?"
+          },
+          "options": [
+            {
+              "en": "kg m s⁻²",
+              "ne": "kg m s⁻²"
+            },
+            {
+              "en": "kg m s⁻¹",
+              "ne": "kg m s⁻¹"
+            },
+            {
+              "en": "kg m² s⁻²",
+              "ne": "kg m² s⁻²"
+            },
+            {
+              "en": "kg m s⁻³",
+              "ne": "kg m s⁻³"
+            }
+          ]
+        },
+        {
+          "id": "q1j",
+          "questionNumber": "1(j)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "If 500 N force is applied on piston A, how much force is produced on piston B? (Area of A = 200 cm², Area of B = 350 cm²)",
+            "ne": "देखाइएको चित्रमा पिस्टन A मा 500 N को बल लगाइयो भने पिस्टन B मा कति बल लाग्छ होला ? (A को क्षेत्रफल = 200 cm², B को क्षेत्रफल = 350 cm²)"
+          },
+          "options": [
+            {
+              "en": "875 N",
+              "ne": "८७५ N"
+            },
+            {
+              "en": "975 N",
+              "ne": "९७५ N"
+            },
+            {
+              "en": "1075 N",
+              "ne": "१०७५ N"
+            },
+            {
+              "en": "1175 N",
+              "ne": "११७५ N"
+            }
+          ],
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-bagmati/q1j-hydraulic-pistons.png",
+            "caption": {
+              "en": "Hydraulic piston system: piston A (200 cm²) connected to piston B (350 cm²).",
+              "ne": "हाइड्रोलिक पिस्टन प्रणाली: पिस्टन A (200 cm²) पिस्टन B (350 cm²) सँग जोडिएको।"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Section B — Very Short Answer Questions",
+        "ne": "खण्ड 'ख' — अति छोटो उत्तर प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Write very short answers to the following questions. (9 x 1 = 9)",
+        "ne": "तलका प्रश्नहरूको अति छोटो उत्तर लेख्नुहोस् : (९x१=९)"
+      },
+      "items": [
+        {
+          "id": "q2a",
+          "questionNumber": "2(a)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "What is the name of the blood vessel that carries blood from the heart to different parts of the body?",
+            "ne": "मुटुबाट शरीरको विभिन्न भागमा रगत लैजाने रक्तनलीलाई के भनिन्छ ?"
+          }
+        },
+        {
+          "id": "q2b",
+          "questionNumber": "2(b)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Write the name of the compound which is formed when ammonia dissolves in water.",
+            "ne": "एमोनिया पानीमा घुलेर बनाउने यौगिकको नाम लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q2c",
+          "questionNumber": "2(c)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Why is carbon dioxide gas collected in an erect (upright) gas jar?",
+            "ne": "कार्बन डाइअक्साइडलाई किन सुल्टो ग्यास जारमा जम्मा गरिन्छ ?"
+          }
+        },
+        {
+          "id": "q2d",
+          "questionNumber": "2(d)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Write a precaution to be taken by a good netizen.",
+            "ne": "असल नेटिजनले अपनाउनुपर्ने एउटा सजगता लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q2e",
+          "questionNumber": "2(e)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "What change does a negative catalyst do to the rate of a chemical reaction?",
+            "ne": "नकारात्मक उत्प्रेरकले रासायनिक प्रतिक्रियाको दरमा कस्तो परिवर्तन गर्छ ?"
+          }
+        },
+        {
+          "id": "q2f",
+          "questionNumber": "2(f)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Why is detergent considered less eco-friendly than soap? Give one reason.",
+            "ne": "साबुनभन्दा डिटर्जेन्ट वातावरणमैत्री मानिँदैन, किन ? एउटा कारण दिनुहोस्।"
+          }
+        },
+        {
+          "id": "q2g",
+          "questionNumber": "2(g)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "When black (Bb) and brown (bb) dogs are crossed, what is the genotypic ratio of the black and brown offspring produced?",
+            "ne": "कालो (Bb) र खैरो (bb) कुकुरबिच क्रस गराउँदा दोस्रो वंशमा निस्कने कालो र खैरो सन्तानको अनुपात लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q2h",
+          "questionNumber": "2(h)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "A student has difficulty reading letters on the board while sitting on the last bench, due to a defect of vision. Draw a ray diagram showing the remedy for that person's problem.",
+            "ne": "एकजना विद्यार्थीलाई कक्षाको अन्तिम बेन्चमा बसी बोर्डमा लेखिएका अक्षरहरू पढ्न गाह्रो भएको छ। उक्त व्यक्तिको आँखाको कमजोरीलाई हटाउने उपाएको किरण रेखाचित्र देखाउनुहोस्।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-bagmati/q2h-myopia-prompt.png",
+            "caption": {
+              "en": "(Question figure prompt — student is expected to draw this as the answer.)",
+              "ne": "(यो प्रश्नमा विद्यार्थीले आफैं चित्र कोर्नुपर्छ।)"
+            }
+          }
+        },
+        {
+          "id": "q2i",
+          "questionNumber": "2(i)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Calculate the refractive index of water, if the speed of light in water is 2.25×10⁵ m/s and in air is 3×10⁸ m/s.",
+            "ne": "यदि पानीमा प्रकाशको वेग 2.25×10⁵ m/s छ र हावामा 3×10⁸ m/s छ भने पानीको रिफ्र्याक्टिभ इन्डेक्सको मान हिसाब गर्नुहोस्।"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Section C — Short Answer Questions",
+        "ne": "खण्ड 'ग' — छोटो उत्तर प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Write short answers to the following questions. (14 x 2 = 28)",
+        "ne": "तलका प्रश्नहरूको छोटो उत्तर लेख्नुहोस् : (१४x२=२८)"
+      },
+      "items": [
+        {
+          "id": "q3",
+          "questionNumber": "3",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Write any two characteristics of a worker bee.",
+            "ne": "कर्मी मौरीका कुनै दुईओटा विशेषताहरू लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q4",
+          "questionNumber": "4",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Mention any two effects of climate change.",
+            "ne": "जलवायु परिवर्तनका कुनै दुईओटा असरहरू लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q5",
+          "questionNumber": "5",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Write two differences between independent and dependent variables.",
+            "ne": "स्वतन्त्र चर र आश्रित चर बिच दुईओटा फरक लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q6",
+          "questionNumber": "6",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Write the class of sparrow and the division of fern.",
+            "ne": "भँगेराको क्लास र फर्नको डिभिजन लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q7",
+          "questionNumber": "7",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "What difficulties would Mendel have faced if he had used an apple plant instead of pea for his experiment? Write in two points.",
+            "ne": "मेण्डलले आफ्नो प्रयोगको लागि केराउको सट्टा स्याउको बोट लिएको भए के अप्ठ्यारो हुन्थ्यो होला ? कुनै दुई बुँदामा लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q8",
+          "questionNumber": "8",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "In the given figure, what does 16 N represent? What should be the weight of the object for it to float on water?",
+            "ne": "दिइएको चित्रमा 16 N ले के जनाउँछ ? उक्त वस्तुको तौल कति भएको भए पानीमा तैरिन्थ्यो होला ?"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-bagmati/q8-spring-balance-water.png",
+            "caption": {
+              "en": "A stone hangs from a spring balance and is submerged in a beaker of water; the balance reads 16 N.",
+              "ne": "स्प्रिङ ब्यालेन्समा झुण्ड्याइएको ढुङ्गा पानीको भाँडोमा डुबाइएको छ; ब्यालेन्सले 16 N देखाउँछ।"
+            }
+          }
+        },
+        {
+          "id": "q9",
+          "questionNumber": "9",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Differentiate between the flat universe and the closed universe in two points.",
+            "ne": "समतल ब्रह्माण्ड र बन्द ब्रह्माण्डबिच दुई बुँदामा फरक लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q10",
+          "questionNumber": "10",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Answer the questions based on the given chemical equations. Reaction A: MgO + H2O -> Mg(OH)2. Reaction B: Zn + dil. H2SO4 -> ZnSO4 + H2. (i) Out of these two chemical equations, which one is the combination reaction? (ii) What happens when conc. H2SO4 is used instead of dil. H2SO4 in chemical reaction B?",
+            "ne": "दिइएको रासायनिक समीकरणको आधारमा सोधिएका प्रश्नहरूको उत्तर दिनुहोस्। प्रतिक्रिया (A): MgO + H2O -> Mg(OH)2, प्रतिक्रिया (B): Zn + dil H2SO4 -> ZnSO4 + H2 (i) उक्त प्रतिक्रियाहरूमध्ये सयोजन प्रतिक्रिया कुन हो ? (ii) रासायनिक समीकरण B मा dil H2SO4 को सट्टा conc. H2SO4 को प्रयोग गर्दा के हुन्छ होला ?"
+          }
+        },
+        {
+          "id": "q11",
+          "questionNumber": "11",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Draw a neat and clean diagram of the laboratory preparation of carbon dioxide gas. Write the name of the salt used in this process.",
+            "ne": "प्रयोगशालामा कार्बनडाइअक्साइड ग्यास बनाउने विधिको सफा चित्र खिच्नुहोस् र उक्त प्रक्रियामा प्रयोग हुने लवणको नाम लेख्नुहोस्।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-bagmati/q11-co2-preparation-prompt.png",
+            "caption": {
+              "en": "(Question figure prompt — student draws this as the answer.)",
+              "ne": "(यो प्रश्नमा विद्यार्थीले आफैं चित्र कोर्नुपर्छ।)"
+            }
+          }
+        },
+        {
+          "id": "q12",
+          "questionNumber": "12",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Although the use of pesticides is considered a major concern for agriculture, write two reasons why its use continues.",
+            "ne": "कीटनाशकहरूको प्रयोगलाई कृषिका लागि प्रमुख चिन्ताको विषयको रूपमा लिइएको भए तापनि यसको प्रयोगले निरन्तरता पाउनका दुईओटा कारणहरू लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q13",
+          "questionNumber": "13",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Among the animals Peacock, Crocodile, Snake, Whale and Sea-horse, which is the mammal, and which is the least developed animal?",
+            "ne": "मयुर (peacock), गोही (Crocodile), सर्प (Snake), ह्वेल (whale) र समुद्री घोडा (Sea-horse) मा स्तनधारी जनावर कुन हो र सबैभन्दा कम विकसित जनावर कुन हो ?"
+          }
+        },
+        {
+          "id": "q14",
+          "questionNumber": "14",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "How much heat energy is required to raise the temperature of 700 g of water from 5°C to 40°C?",
+            "ne": "700 g पिण्ड भएको पानीलाई 5°C बाट 40°C सम्म तताउन कति ताप शक्ति आवश्यक पर्दछ ?"
+          }
+        },
+        {
+          "id": "q15",
+          "questionNumber": "15",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "If you are applying the process shown in the diagram to get pure silver from impure silver, then: (i) Between A and B, in which part will you place the impure silver? (ii) What is the role of 'C' in obtaining pure silver?",
+            "ne": "यदि तपाईंले चित्रमा देखाइएको जस्तै प्रक्रिया अपनाएर अशुद्ध चाँदीबाट शुद्ध चाँदी पाउन चाहनुहुन्छ भने, (i) A र B मध्ये कुन भागमा अशुद्ध चाँदी राख्नुहुन्छ ? (ii) शुद्ध चाँदी प्राप्त गर्न 'C' को भूमिका के हुन्छ ?"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-bagmati/q15-electrorefining-silver.png",
+            "caption": {
+              "en": "Electrolytic refining setup: two electrodes A and B dipped in electrolyte solution C.",
+              "ne": "विद्युत-अपघटन विधि: A र B दुई इलेक्ट्रोड र इलेक्ट्रोलाइट C मा डुबेको।"
+            }
+          }
+        },
+        {
+          "id": "q16",
+          "questionNumber": "16",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Write the structural formula of the saturated hydrocarbon having molecular mass 44 amu. Write the IUPAC name of the compound obtained by removing one hydrogen atom each from two adjacent carbons of that compound.",
+            "ne": "आणविक भार 44 amu भएको सतृप्त हाइड्रोकार्बनको संरचना सूत्र लेख्नुहोस्। उक्त यौगिकको दुईओटा आसन्न कार्बनहरूबाट एक-एकओटा हाइड्रोजन हटाएर बन्ने यौगिकको IUPAC नाम लेख्नुहोस्।"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Section D — Long Answer Questions",
+        "ne": "खण्ड 'घ' — लामो उत्तर प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Write long answers to the following questions. (7 x 4 = 28)",
+        "ne": "तलका प्रश्नहरूको लामो उत्तर लेख्नुहोस् : (७x४=२८)"
+      },
+      "items": [
+        {
+          "id": "q17",
+          "questionNumber": "17",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Write any two characteristics of each of the s-block and p-block elements of the modern periodic table.",
+            "ne": "आधुनिक पेरियोडिक तालिकाको s ब्लक र p ब्लक तत्त्वहरूको कुनै दुई-दुईओटा विशेषताहरू लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q18",
+          "questionNumber": "18",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Find the independent and dependent variables in the following events: (i) more growth of plant in sunlight; (ii) measuring the stretch of a catapult and the distance covered by the stone thrown by it.",
+            "ne": "तल दिइएका घटनाहरूमा स्वतन्त्र चर र आश्रित चरहरू पत्ता लगाउनुहोस्। (i) घाममा बिरुवाको बढी वृद्धि हुनु (ii) गुलेलीको तन्काई र त्यसले फालेको ढुङ्गाले पार गरेको दूरी नाप्दा"
+          }
+        },
+        {
+          "id": "q19",
+          "questionNumber": "19",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Draw a diagram to show the dispersion of white light as it passes through a prism. Write two causes of the dispersion of light.",
+            "ne": "सेतो प्रकाशको किरण प्रिज्मबाट पठाउँदा हुने प्रकासको विच्छेदनको चित्र बनाउनुहोस् र यसो हुनुका दुईओटा कारणहरू लेख्नुहोस्।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-bagmati/q19-dispersion-prism-prompt.png",
+            "caption": {
+              "en": "(Question figure prompt — student draws this as the answer.)",
+              "ne": "(यो प्रश्नमा विद्यार्थीले आफैं चित्र कोर्नुपर्छ।)"
+            }
+          }
+        },
+        {
+          "id": "q20",
+          "questionNumber": "20",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "The report of WBC, RBC and Platelet counts of a person is shown in the table below.\nW = 30,00,000; X = 3,000; Y = 3,50,000 (all per unit volume of blood, as in the original table)\n(i) Which of the blood cells is in normal condition? (ii) Write a problem that arises due to the count of blood cell X. (iii) If the count of cell Y decreases and reaches 1,50,000, what would be the problem in the person? (iv) Name the blood cell W.",
+            "ne": "एक जना मानिसको रगतको परीक्षण गर्दा रिपोर्टमा देखिएको सेता रक्तकोष, राता रक्तकोष र प्लेटलेट्सको सङ्ख्या तलको तालिकामा देखाइएको छ। W = 30,00,000; X = 3,000; Y = 3,50,000 (i) तिनीहरूमध्ये सामान्य अवस्थामा भएको रक्तकोष कुन हो ? (ii) व्यक्तिमा X रक्तकोषको सङ्ख्याको कारणले देखिने एउटा समस्या लेख्नुहोस्। (iii) यदि Y को सङ्ख्या घटेर 1,50,000 मा पुग्यो भने उक्त मानिसलाई के समस्या हुन्छ ? (iv) W रक्तकोषको नाम लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q21",
+          "questionNumber": "21",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "(i) When 240 V is passed in the primary coil of a transformer, 480 V is induced in the secondary coil. If there are 300 turns in the primary coil, how many turns will be in the secondary coil? (ii) Why is the core of a transformer laminated? (iii) Can a transformer be used in a DC circuit? Give a reason.",
+            "ne": "(i) एउटा ट्रान्सफर्मरको प्राइमरी क्वाइलमा 240 V को विद्युत पठाउँदा सेकेण्डरी क्वाइलबाट 480 V विद्युत निस्कन्छ भने प्राइमरी फन्का 300 हुँदा सेकेन्डरी फन्का कति होला ? (ii) ट्रान्सफर्मरको कोर किन लेमिनेसन गरिन्छ ? (iii) के ट्रान्सफर्मरको प्रयोग DC परिपथमा गर्न सकिन्छ ? एउटा कारण लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q22",
+          "questionNumber": "22",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Nowadays, sperms are collected from a male animal by artificial methods, and fertilization is done by inserting sperms mechanically into the uterus of a female. (i) Write any two advantages of this technology. (ii) Write two points to be considered while performing this technology.",
+            "ne": "आजभोली कृत्रिम विधिबाट जनावरहरूको भालेबाट वीर्यलाई सङ्कलन गरी आवश्यकता अनुसार मेकानिकल विधिबाट पोथीको पाठेघरमा पुऱ्याएर गर्भाधान गराइन्छ। (i) यो प्रविधिबाट हुने दुईओटा फाइदाहरू लेख्नुहोस्। (ii) यो प्रविधि अपनाउँदा ध्यान दिनुपर्ने कुराहरूलाई दुई बुँदामा लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q23",
+          "questionNumber": "23",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "In the given figure, the mass of A and B are 6×10²⁴ kg and 400 kg respectively, and the radius of A is 6400 km. (i) Calculate the gravitational force between the objects A and B. (ii) To what height should the body B be taken from the surface of body A so that the value of acceleration due to gravity becomes 6 m/s²?",
+            "ne": "दिइएको चित्रमा A र B को पिण्ड क्रमशः 6×10²⁴ kg र 400 kg तथा A को अर्धव्यास 6400 km छ। (i) A र B वस्तुहरू बिचको गुरुत्वाकर्षण बल पत्ता लगाउनुहोस्। (ii) वस्तु B लाई वस्तु A को सतहबाट कति उचाइमा लग्दा गुरुत्वप्रवेगको मान 6 m/s² हुन्छ ?"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-bagmati/q23-gravitation-A-B.png",
+            "caption": {
+              "en": "Body B on the surface of large body A (radius 6400 km).",
+              "ne": "ठूलो वस्तु A को सतहमा रहेको सानो वस्तु B (अर्धव्यास 6400 km)।"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

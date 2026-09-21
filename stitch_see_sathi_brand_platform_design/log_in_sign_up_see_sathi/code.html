@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+          "on-surface": "#181a2b",
+          "on-secondary-container": "#590800",
+          "on-primary-container": "#e5e4ff",
+          "surface-container-lowest": "#ffffff",
+          "on-error-container": "#93000a",
+          "error": "#ba1a1a",
+          "surface-container-low": "#f4f2ff",
+          "outline": "#767587",
+          "secondary": "#b5250c",
+          "on-secondary": "#ffffff",
+          "secondary-fixed-dim": "#ffb4a5",
+          "on-tertiary": "#ffffff",
+          "on-background": "#181a2b",
+          "primary": "#2f30da",
+          "on-secondary-fixed-variant": "#8e1300",
+          "surface": "#fbf8ff",
+          "surface-variant": "#e1e1f8",
+          "secondary-fixed": "#ffdad3",
+          "on-error": "#ffffff",
+          "surface-dim": "#d8d8ef",
+          "tertiary-fixed": "#7cfbb1",
+          "on-tertiary-fixed": "#002110",
+          "on-primary-fixed": "#04006d",
+          "on-tertiary-container": "#7ffeb3",
+          "inverse-primary": "#c0c1ff",
+          "tertiary": "#005b34",
+          "tertiary-container": "#007645",
+          "outline-variant": "#c6c4d8",
+          "surface-container-high": "#e6e6fe",
+          "error-container": "#ffdad6",
+          "background": "#fbf8ff",
+          "on-tertiary-fixed-variant": "#00522f",
+          "on-primary": "#ffffff",
+          "inverse-on-surface": "#f1efff",
+          "secondary-container": "#fd583a",
+          "surface-bright": "#fbf8ff",
+          "primary-container": "#4b4ff2",
+          "on-surface-variant": "#454556",
+          "surface-container-highest": "#e1e1f8",
+          "primary-fixed": "#e1e0ff",
+          "on-primary-fixed-variant": "#2423d2",
+          "primary-fixed-dim": "#c0c1ff",
+          "on-secondary-fixed": "#3f0400",
+          "surface-tint": "#4145e9",
+          "inverse-surface": "#2d2f41",
+          "tertiary-fixed-dim": "#5ede96",
+          "surface-container": "#edecff"
+        },
+        "borderRadius": {
+          "DEFAULT": "1rem",
+          "lg": "2rem",
+          "xl": "3rem",
+          "full": "9999px"
+        },
+        "spacing": {
+          "gutter-sm": "1rem",
+          "margin-sm": "1rem",
+          "space-xl": "2.5rem",
+          "space-lg": "1.5rem",
+          "space-sm": "0.5rem",
+          "gutter": "1.5rem",
+          "margin": "2rem",
+          "space-xs": "0.25rem",
+          "space-md": "1rem"
+        },
+        "fontFamily": {
+          "headline-lg": ["Plus Jakarta Sans"],
+          "display-hero-mobile": ["Plus Jakarta Sans"],
+          "body-sm": ["Inter"],
+          "label-md": ["Inter"],
+          "headline-md": ["Plus Jakarta Sans"],
+          "body-md": ["Inter"],
+          "headline-sm": ["Plus Jakarta Sans"],
+          "body-lg": ["Inter"],
+          "title": ["Plus Jakarta Sans"],
+          "label-caps": ["Inter"],
+          "display-hero": ["Plus Jakarta Sans"],
+          "headline-lg-mobile": ["Plus Jakarta Sans"]
+        },
+        "fontSize": {
+          "headline-lg": ["32px", {"lineHeight": "38px", "letterSpacing": "-0.025em", "fontWeight": "700"}],
+          "display-hero-mobile": ["34px", {"lineHeight": "38px", "letterSpacing": "-0.025em", "fontWeight": "800"}],
+          "body-sm": ["13px", {"lineHeight": "18px", "fontWeight": "400"}],
+          "label-md": ["12px", {"lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600"}],
+          "headline-md": ["24px", {"lineHeight": "30px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+          "body-md": ["14px", {"lineHeight": "22px", "fontWeight": "400"}],
+          "headline-sm": ["20px", {"lineHeight": "26px", "letterSpacing": "-0.015em", "fontWeight": "600"}],
+          "body-lg": ["16px", {"lineHeight": "26px", "letterSpacing": "-0.005em", "fontWeight": "400"}],
+          "title": ["16px", {"lineHeight": "22px", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+          "label-caps": ["11px", {"lineHeight": "14px", "letterSpacing": "0.06em", "fontWeight": "700"}],
+          "display-hero": ["48px", {"lineHeight": "52px", "letterSpacing": "-0.03em", "fontWeight": "800"}],
+          "headline-lg-mobile": ["26px", {"lineHeight": "32px", "letterSpacing": "-0.02em", "fontWeight": "700"}]
+        }
+      }
+    }
+  }</script></head><body class="bg-background font-body-md text-on-surface selection:bg-primary-fixed selection:text-on-primary-fixed"><main class="w-full min-h-screen flex items-center justify-center p-margin-sm md:p-margin"><div class="flex flex-col w-full max-w-7xl mx-auto py-space-sm md:py-space-md">
+<!-- Minimal Top Header Bar -->
+<header class="w-full flex items-center justify-between px-margin-sm md:px-margin mb-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-DEFAULT bg-primary-container flex items-center justify-center text-on-primary shadow-sm shadow-primary/20">
+<span class="material-symbols-outlined text-headline-sm" style="font-variation-settings: 'FILL' 1;">auto_stories</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm tracking-tight text-on-surface">SEE Sathi<span class="text-secondary">.</span></span>
+<span class="font-label-caps text-label-caps text-outline uppercase tracking-wider">Class 10 Companion</span>
+</div>
+</div>
+<div class="flex items-center gap-space-md">
+<div class="hidden sm:flex items-center gap-space-xs px-3 py-1.5 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md">
+<span class="inline-block w-2 h-2 rounded-full bg-tertiary-container animate-pulse"></span>
+<span>SEE Exam 2081 Ready</span>
+</div>
+<a class="font-body-sm text-body-sm text-primary font-semibold hover:underline flex items-center gap-1" href="#help">
+<span class="material-symbols-outlined text-title">help</span>
+<span class="hidden sm:inline">Need help?</span>
+</a>
+</div>
+</header>
+<!-- Main Auth Split Container -->
+<div class="w-full grid grid-cols-1 lg:grid-cols-12 rounded-lg overflow-hidden shadow-xl bg-surface-container-lowest">
+<!-- LEFT PANEL: High Converting Auth Card -->
+<div class="lg:col-span-6 xl:col-span-5 p-space-md sm:p-space-lg md:p-space-xl flex flex-col justify-between bg-surface-container-lowest">
+<div>
+<!-- Pill Segmented Control -->
+<div class="inline-flex p-1 rounded-full bg-surface-container mb-space-lg max-w-xs w-full">
+<button class="flex-1 py-2 px-4 rounded-full font-headline-sm text-body-sm font-semibold transition-all duration-200 bg-surface-container-lowest text-on-surface shadow-sm" id="tab-signin" onclick="switchAuthTab('signin')">
+            Sign In
+          </button>
+<button class="flex-1 py-2 px-4 rounded-full font-headline-sm text-body-sm font-medium transition-all duration-200 text-on-surface-variant hover:text-on-surface" id="tab-signup" onclick="switchAuthTab('signup')">
+            Create Free Account
+          </button>
+</div>
+<!-- Typography Heading -->
+<div class="mb-space-lg">
+<h1 class="font-display-hero text-headline-lg md:text-display-hero text-on-surface mb-space-xs tracking-tight" id="auth-heading">
+            Welcome back, Sathi<span class="text-primary">.</span>
+</h1>
+<p class="font-body-md text-body-md text-on-surface-variant" id="auth-subtext">
+            Continue your Class 10 SEE preparation right where you left off.
+          </p>
+</div>
+<!-- Dynamic Form -->
+<form class="space-y-space-md" onsubmit="event.preventDefault();">
+<!-- Input 1: Phone / Email -->
+<div class="space-y-1.5">
+<div class="flex items-center justify-between">
+<label class="font-label-md text-label-md text-on-surface font-semibold">Email or Mobile Number</label>
+<span class="font-label-caps text-label-caps text-outline uppercase tracking-wider">SEE Registration ID ok</span>
+</div>
+<div class="relative flex items-center">
+<div class="absolute left-3 flex items-center gap-1.5 pr-2 mr-2 bg-surface-container-low px-2 py-1 rounded-md text-on-surface font-label-md text-label-md">
+<span class="text-sm">🇳🇵</span>
+<span class="font-semibold text-on-surface">+977</span>
+</div>
+<input class="w-full h-12 pl-24 pr-4 bg-surface-container-low text-on-surface font-body-md text-body-md rounded-DEFAULT focus:outline-none focus:bg-surface-container-lowest transition-all" onblur="this.style.boxShadow='inset 0 0 0 1px rgba(24, 26, 43, 0.1)';" onfocus="this.style.boxShadow='0 0 0 3px rgba(75, 79, 242, 0.2), inset 0 0 0 1.5px #4b4ff2';" placeholder="98XXXXXXXX or student@see.np" style="box-shadow: inset 0 0 0 1px rgba(24, 26, 43, 0.1);" type="text"/>
+</div>
+</div>
+<!-- Input 2: Password -->
+<div class="space-y-1.5">
+<div class="flex items-center justify-between">
+<label class="font-label-md text-label-md text-on-surface font-semibold">Password</label>
+<a class="font-body-sm text-body-sm text-primary hover:underline font-medium" href="#reset">Forgot password?</a>
+</div>
+<div class="relative flex items-center">
+<input class="w-full h-12 px-4 pr-12 bg-surface-container-low text-on-surface font-body-md text-body-md rounded-DEFAULT focus:outline-none focus:bg-surface-container-lowest transition-all" id="password-field" onblur="this.style.boxShadow='inset 0 0 0 1px rgba(24, 26, 43, 0.1)';" onfocus="this.style.boxShadow='0 0 0 3px rgba(75, 79, 242, 0.2), inset 0 0 0 1.5px #4b4ff2';" placeholder="••••••••••••" style="box-shadow: inset 0 0 0 1px rgba(24, 26, 43, 0.1);" type="password"/>
+<button class="absolute right-3 p-1.5 rounded-full text-outline hover:text-on-surface transition-colors flex items-center justify-center" onclick="togglePasswordVisibility()" type="button">
+<span class="material-symbols-outlined text-headline-sm" id="password-toggle-icon">visibility</span>
+</button>
+</div>
+</div>
+<!-- Remember Me + Offline Sync -->
+<div class="flex items-center justify-between pt-1">
+<label class="flex items-center gap-2 cursor-pointer select-none">
+<input checked="" class="w-4 h-4 rounded text-primary bg-surface-container-low accent-primary cursor-pointer" type="checkbox"/>
+<span class="font-body-sm text-body-sm text-on-surface-variant font-medium">Remember me on this device</span>
+</label>
+<span class="hidden sm:inline-flex items-center gap-1 font-label-caps text-label-caps text-tertiary-container bg-tertiary-container/10 px-2 py-0.5 rounded-full">
+<span class="material-symbols-outlined text-body-sm">offline_pin</span>
+              Sync active
+            </span>
+</div>
+<!-- Primary Submit Pill Button -->
+<button class="w-full h-12 rounded-full bg-primary-container text-on-primary font-headline-sm text-body-lg font-semibold flex items-center justify-center gap-2 transition-transform active:scale-[0.98] hover:-translate-y-0.5" style="box-shadow: 0 4px 14px rgba(75, 79, 242, 0.35), 0 1px 2px rgba(75, 79, 242, 0.2);" type="submit">
+<span id="submit-btn-text">Sign In to SEE Sathi</span>
+<span class="material-symbols-outlined text-headline-sm">arrow_forward</span>
+</button>
+</form>
+<!-- Divider -->
+<div class="relative my-space-lg">
+<div class="absolute inset-0 flex items-center">
+<div class="w-full bg-surface-variant h-px"></div>
+</div>
+<div class="relative flex justify-center text-label-caps">
+<span class="px-4 bg-surface-container-lowest font-label-caps uppercase text-outline tracking-wider">or continue with</span>
+</div>
+</div>
+<!-- Social Buttons Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm">
+<!-- Google -->
+<button class="h-11 px-4 rounded-DEFAULT bg-surface-container-low hover:bg-surface-container text-on-surface font-title text-body-sm flex items-center justify-center gap-2.5 transition-colors">
+<svg class="w-4 h-4" viewbox="0 0 24 24">
+<path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"></path>
+<path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"></path>
+<path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"></path>
+<path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"></path>
+</svg>
+<span>Google</span>
+</button>
+<!-- SMS OTP -->
+<button class="h-11 px-4 rounded-DEFAULT bg-surface-container-low hover:bg-surface-container text-on-surface font-title text-body-sm flex items-center justify-center gap-2 transition-colors">
+<span class="material-symbols-outlined text-headline-sm text-primary">chat</span>
+<span>Mobile SMS OTP</span>
+</button>
+</div>
+</div>
+<!-- Legal / CDC Notice Footer -->
+<div class="mt-space-lg pt-space-sm text-center">
+<p class="font-body-sm text-body-sm text-outline">
+          By continuing, you agree to SEE Sathi's <a class="text-on-surface underline hover:text-primary" href="#terms">Terms</a> &amp; 
+          <a class="text-on-surface underline hover:text-primary" href="#code">CDC Student Honor Code</a>.
+        </p>
+</div>
+</div>
+<!-- RIGHT PANEL: Ink-dark (#0E1020) with Glows, Social Proof & Benefits -->
+<div class="lg:col-span-6 xl:col-span-7 relative p-space-md sm:p-space-lg md:p-space-xl flex flex-col justify-between overflow-hidden" style="background-color: #0E1020;">
+<!-- Glowing Radial Ambient Background Elements -->
+<div class="absolute -top-24 -right-24 w-96 h-96 rounded-full blur-3xl opacity-30 pointer-events-none" style="background: radial-gradient(circle, #4b4ff2 0%, transparent 70%);"></div>
+<div class="absolute -bottom-24 -left-20 w-80 h-80 rounded-full blur-3xl opacity-20 pointer-events-none" style="background: radial-gradient(circle, #fd583a 0%, transparent 70%);"></div>
+<div class="absolute top-1/2 left-1/3 w-64 h-64 rounded-full blur-3xl opacity-15 pointer-events-none" style="background: radial-gradient(circle, #7cfbb1 0%, transparent 70%);"></div>
+<!-- Top Tag & Brand Watermark -->
+<div class="relative z-10 flex items-center justify-between">
+<div class="flex items-center gap-2 bg-white/10 backdrop-blur-md px-3.5 py-1.5 rounded-full">
+<span class="w-2 h-2 rounded-full bg-secondary-container animate-ping"></span>
+<span class="font-label-caps text-label-caps text-white uppercase tracking-wider">Curriculum 2081 Verified</span>
+</div>
+<div class="font-label-caps text-label-caps text-white/50 tracking-widest uppercase">
+          Nepal • Grade 10
+        </div>
+</div>
+<!-- Center Content: Logo mark, Headline, Value Props -->
+<div class="relative z-10 my-space-lg">
+<!-- Logo Emblem -->
+<div class="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-white/10 backdrop-blur-lg mb-space-md shadow-lg shadow-primary/30">
+<span class="material-symbols-outlined text-display-hero text-primary-fixed-dim" style="font-variation-settings: 'FILL' 1;">school</span>
+</div>
+<h2 class="font-display-hero text-headline-lg md:text-display-hero text-white mb-space-sm tracking-tight leading-tight">
+          Your Class 10 study space. <br/>
+<span class="text-transparent bg-clip-text bg-gradient-to-r from-primary-fixed to-secondary-fixed">
+            From Mechi to Mahakali.
+          </span>
+</h2>
+<p class="font-body-lg text-body-lg text-white/80 max-w-xl mb-space-lg leading-relaxed">
+          Access 80+ chapter summaries, 1,000+ past paper solutions, and verified CDC marking schemes — 
+          <span class="text-white font-semibold underline decoration-secondary-container decoration-2 underline-offset-4">100% free forever</span>.
+        </p>
+<!-- 3 Key Benefit Pills -->
+<div class="flex flex-wrap gap-2.5 mb-space-lg">
+<div class="flex items-center gap-2 px-3.5 py-2 rounded-full bg-white/10 backdrop-blur-md text-white font-label-md text-label-md">
+<span>⚡</span>
+<span>Zero ads or distraction</span>
+</div>
+<div class="flex items-center gap-2 px-3.5 py-2 rounded-full bg-white/10 backdrop-blur-md text-white font-label-md text-label-md">
+<span>📱</span>
+<span>Works offline on low data</span>
+</div>
+<div class="flex items-center gap-2 px-3.5 py-2 rounded-full bg-white/10 backdrop-blur-md text-white font-label-md text-label-md">
+<span>🎯</span>
+<span>100% CDC Syllabus aligned</span>
+</div>
+</div>
+<!-- Student Testimonial Floating Card -->
+<div class="p-space-md rounded-xl bg-white/10 backdrop-blur-xl border-none shadow-2xl relative">
+<div class="flex items-start gap-space-sm">
+<div class="w-12 h-12 rounded-full overflow-hidden shrink-0 bg-primary-container/30">
+<img class="w-full h-full object-cover" data-alt="Photorealistic portrait of a smiling 16-year old Nepali high school male student wearing a neat school uniform collar against warm morning classroom daylight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCTRfCIm11Ol4n7kSihz_3exh1OYPhigVywp_AAbW4v2QCEVKo9y3QIBviOpMfUYv0psU36Uzsn5UWhvegx_pj8B4IQOKGdnDiG8m3M0oyK7GjGFkU4cdckqwI8-LsqZ63sq2t8jV72m_fA7I2QnwMTb2wXQ_jKwbvrldsJiddi1WflAHYqClIafjVjveyIk3fRsJ7TMpl8woge3Ea9nauk4-NJDFeOsHFvIJ8Q-g42qDzoxWN_vKa-"/>
+</div>
+<div class="flex-1 min-w-0">
+<div class="flex items-center gap-1 mb-1 text-secondary-fixed">
+<span class="material-symbols-outlined text-body-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-body-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-body-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-body-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-body-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="ml-1 text-white/60 font-label-caps text-label-caps">GPA 3.95</span>
+</div>
+<p class="font-body-md text-body-md text-white/95 italic mb-2">
+                "SEE Sathi's step-by-step math answers gave me the confidence to score an A+ in Compulsory Math."
+              </p>
+<div class="flex items-center justify-between">
+<p class="font-title text-body-sm text-white font-semibold">Aayush S., Kaski</p>
+<span class="font-label-caps text-label-caps text-primary-fixed-dim bg-primary/20 px-2 py-0.5 rounded-full">SEE Batch 2080</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Footer: Live Activity Badge & Province Distribution -->
+<div class="relative z-10 pt-space-md flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 text-white/60">
+<div class="flex items-center gap-2 text-white/80 font-body-sm text-body-sm">
+<span class="w-2.5 h-2.5 rounded-full bg-tertiary-fixed inline-block"></span>
+<span><strong>14,280+</strong> SEE candidates preparing right now</span>
+</div>
+<div class="flex items-center gap-1 font-label-caps text-label-caps tracking-wider uppercase text-white/50">
+<span>7 Provinces</span>
+<span>•</span>
+<span>77 Districts</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Global Footer Bar -->
+<footer class="w-full flex flex-col sm:flex-row items-center justify-between px-margin-sm md:px-margin mt-space-md gap-2 font-body-sm text-body-sm text-outline">
+<div class="flex items-center gap-4">
+<span>© 2081 SEE Sathi Education Foundation.</span>
+<span class="hidden md:inline">Open access initiative for Nepalese secondary students.</span>
+</div>
+<div class="flex items-center gap-4">
+<a class="hover:text-primary transition-colors" href="#model-papers">2081 Model Sets</a>
+<a class="hover:text-primary transition-colors" href="#privacy">Privacy</a>
+<a class="hover:text-primary transition-colors" href="#cdc">CDC Syllabus</a>
+<a class="hover:text-primary transition-colors" href="#contact">Contact Support</a>
+</div>
+</footer>
+</div>
+<script>
+  function switchAuthTab(tab) {
+    const signinBtn = document.getElementById('tab-signin');
+    const signupBtn = document.getElementById('tab-signup');
+    const heading = document.getElementById('auth-heading');
+    const subtext = document.getElementById('auth-subtext');
+    const submitBtnText = document.getElementById('submit-btn-text');
+
+    if (tab === 'signin') {
+      signinBtn.className = "flex-1 py-2 px-4 rounded-full font-headline-sm text-body-sm font-semibold transition-all duration-200 bg-surface-container-lowest text-on-surface shadow-sm";
+      signupBtn.className = "flex-1 py-2 px-4 rounded-full font-headline-sm text-body-sm font-medium transition-all duration-200 text-on-surface-variant hover:text-on-surface";
+      heading.innerHTML = 'Welcome back, Sathi<span class="text-primary">.</span>';
+      subtext.innerText = "Continue your Class 10 SEE preparation right where you left off.";
+      submitBtnText.innerText = "Sign In to SEE Sathi";
+    } else {
+      signupBtn.className = "flex-1 py-2 px-4 rounded-full font-headline-sm text-body-sm font-semibold transition-all duration-200 bg-surface-container-lowest text-on-surface shadow-sm";
+      signinBtn.className = "flex-1 py-2 px-4 rounded-full font-headline-sm text-body-sm font-medium transition-all duration-200 text-on-surface-variant hover:text-on-surface";
+      heading.innerHTML = 'Create your free account<span class="text-secondary">.</span>';
+      subtext.innerText = "Get instant, permanent access to all model papers and past solutions.";
+      submitBtnText.innerText = "Start Learning Free";
+    }
+  }
+
+  function togglePasswordVisibility() {
+    const input = document.getElementById('password-field');
+    const icon = document.getElementById('password-toggle-icon');
+    if (input.type === 'password') {
+      input.type = 'text';
+      icon.innerText = 'visibility_off';
+    } else {
+      input.type = 'password';
+      icon.innerText = 'visibility';
+    }
+  }
+</script></main></body></html>

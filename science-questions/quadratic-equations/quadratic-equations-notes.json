@@ -1,0 +1,323 @@
+{
+  "schemaVersion": "2.0",
+  "chapterId": "quadratic-equations",
+  "chapterNumber": 5,
+  "subject": "Compulsory Mathematics",
+  "grade": 10,
+  "title": {
+    "en": "Quadratic Equations",
+    "ne": "द्विघात समीकरण"
+  },
+  "estimatedPeriods": 8,
+  "sections": [
+    {
+      "sectionId": "5.1",
+      "title": {
+        "en": "Introduction and Standard Form",
+        "ne": "परिचय र मानक स्वरूप"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "en": "An equation of the form $ax^2 + bx + c = 0$, where $a, b, c$ are real numbers and $a \\neq 0$, is called a quadratic equation. The highest power of the variable $x$ is 2.",
+            "ne": "$ax^2 + bx + c = 0$ को स्वरूपमा रहेको समीकरण, जहाँ $a, b, c$ वास्तविक संख्या हुन् र $a \\neq 0$ हुन्छ, लाई द्विघात समीकरण भनिन्छ। यहाँ चल $x$ को उच्चतम घात 2 हुन्छ।"
+          }
+        },
+        {
+          "type": "formula",
+          "label": {
+            "en": "Standard form",
+            "ne": "मानक स्वरूप"
+          },
+          "expression": "$ax^{2} + bx + c = 0,\\quad a \\neq 0$"
+        },
+        {
+          "type": "text",
+          "text": {
+            "en": "For example, $x^2 - 5x + 6 = 0$ and $2x^2 - 3x - 5 = 0$ are quadratic equations, but $3x + 7 = 0$ is not, since the highest power of $x$ is 1.",
+            "ne": "जस्तै, $x^2 - 5x + 6 = 0$ र $2x^2 - 3x - 5 = 0$ द्विघात समीकरणहरू हुन्, तर $3x + 7 = 0$ द्विघात समीकरण होइन किनभने यसमा $x$ को उच्चतम घात 1 मात्र छ।"
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "5.2",
+      "title": {
+        "en": "Solving by Factorization",
+        "ne": "गुणनखण्ड विधिद्वारा हल"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "en": "If a quadratic expression can be written as a product of two linear factors, we can find the roots by setting each factor equal to zero. We split the middle term $bx$ into two terms whose coefficients multiply to $ac$ and add to $b$.",
+            "ne": "यदि द्विघात अभिव्यक्तिलाई दुई रैखिक गुणनखण्डको गुणनफलको रूपमा लेख्न सकिन्छ भने, प्रत्येक गुणनखण्डलाई शून्य बराबर राखेर मूलहरू पत्ता लगाउन सकिन्छ। यसका लागि बीचको पद $bx$ लाई दुई पदमा यसरी विभाजन गरिन्छ कि तिनको गुणनफल $ac$ र योगफल $b$ हुन्छ।"
+          }
+        },
+        {
+          "type": "example",
+          "problem": {
+            "en": "Solve $x^2 - 5x + 6 = 0$ by factorization.",
+            "ne": "$x^2 - 5x + 6 = 0$ लाई गुणनखण्ड विधिद्वारा हल गर्नुहोस्।"
+          },
+          "solutionSteps": [
+            {
+              "step": 1,
+              "text": {
+                "en": "We need two numbers whose product is $6$ and sum is $-5$: these are $-2$ and $-3$.",
+                "ne": "गुणनफल $6$ र योगफल $-5$ हुने दुई संख्या चाहिन्छ: ती हुन् $-2$ र $-3$।"
+              }
+            },
+            {
+              "step": 2,
+              "text": {
+                "en": "$x^2 - 2x - 3x + 6 = 0 \\Rightarrow x(x-2) - 3(x-2) = 0 \\Rightarrow (x-2)(x-3) = 0$",
+                "ne": "$x^2 - 2x - 3x + 6 = 0 \\Rightarrow x(x-2) - 3(x-2) = 0 \\Rightarrow (x-2)(x-3) = 0$"
+              }
+            },
+            {
+              "step": 3,
+              "text": {
+                "en": "So $x - 2 = 0$ or $x - 3 = 0$, giving $x = 2$ or $x = 3$.",
+                "ne": "त्यसैले $x - 2 = 0$ वा $x - 3 = 0$, अर्थात् $x = 2$ वा $x = 3$।"
+              }
+            }
+          ],
+          "finalAnswer": {
+            "en": "$x = 2, 3$",
+            "ne": "$x = 2, 3$"
+          }
+        },
+        {
+          "type": "image",
+          "imageId": "img-quad-graph-roots-01",
+          "caption": {
+            "en": "Graph of $y = x^2 - 5x + 6$ showing the parabola crossing the x-axis at the roots",
+            "ne": "$y = x^2 - 5x + 6$ को ग्राफ, जसले मूलहरूमा प्याराबोला x-अक्षलाई काटेको देखाउँछ"
+          },
+          "altText": {
+            "en": "Upward parabola crossing x-axis at x=2 and x=3, vertex below x-axis between the roots",
+            "ne": "x=2 र x=3 मा x-अक्ष काट्ने माथितिर खुल्ने प्याराबोला, दुई मूलको बीचमा शीर्षविन्दु x-अक्षमुनि"
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "5.3",
+      "title": {
+        "en": "The Quadratic Formula",
+        "ne": "द्विघात सूत्र"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "en": "When factorization is difficult, the roots of $ax^2 + bx + c = 0$ can always be found using the quadratic formula, derived by completing the square.",
+            "ne": "गुणनखण्ड गर्न गाह्रो भएको अवस्थामा, $ax^2 + bx + c = 0$ का मूलहरू सधैं द्विघात सूत्रको प्रयोगले पत्ता लगाउन सकिन्छ, जुन वर्ग पूरा गर्ने विधिबाट व्युत्पन्न गरिएको हो।"
+          }
+        },
+        {
+          "type": "formula",
+          "label": {
+            "en": "Quadratic formula",
+            "ne": "द्विघात सूत्र"
+          },
+          "expression": "$x = \\dfrac{-b \\pm \\sqrt{b^{2} - 4ac}}{2a}$"
+        },
+        {
+          "type": "image",
+          "imageId": "img-completing-square-steps-01",
+          "caption": {
+            "en": "Geometric idea of completing the square for $x^2 + bx$",
+            "ne": "$x^2 + bx$ लाई वर्ग पूरा गर्ने ज्यामितीय अवधारणा"
+          },
+          "altText": {
+            "en": "A square of side x with an attached rectangle of width b split into two strips, rearranged into a larger square with a small missing corner",
+            "ne": "x भुजा भएको वर्गमा b चौडाइको आयत जोडिएको, दुई पट्टीमा विभाजन गरी ठूलो वर्गमा पुनर्संयोजन गरिएको, कुनामा सानो खण्ड नपुगेको चित्र"
+          }
+        },
+        {
+          "type": "example",
+          "problem": {
+            "en": "Solve $2x^2 - 3x - 5 = 0$ using the quadratic formula.",
+            "ne": "$2x^2 - 3x - 5 = 0$ लाई द्विघात सूत्रको प्रयोगले हल गर्नुहोस्।"
+          },
+          "solutionSteps": [
+            {
+              "step": 1,
+              "text": {
+                "en": "Here $a = 2$, $b = -3$, $c = -5$.",
+                "ne": "यहाँ $a = 2$, $b = -3$, $c = -5$।"
+              }
+            },
+            {
+              "step": 2,
+              "text": {
+                "en": "$x = \\dfrac{-(-3) \\pm \\sqrt{(-3)^2 - 4(2)(-5)}}{2(2)} = \\dfrac{3 \\pm \\sqrt{9 + 40}}{4} = \\dfrac{3 \\pm \\sqrt{49}}{4} = \\dfrac{3 \\pm 7}{4}$",
+                "ne": "$x = \\dfrac{-(-3) \\pm \\sqrt{(-3)^2 - 4(2)(-5)}}{2(2)} = \\dfrac{3 \\pm \\sqrt{9 + 40}}{4} = \\dfrac{3 \\pm \\sqrt{49}}{4} = \\dfrac{3 \\pm 7}{4}$"
+              }
+            },
+            {
+              "step": 3,
+              "text": {
+                "en": "$x = \\dfrac{10}{4} = \\dfrac{5}{2}$ or $x = \\dfrac{-4}{4} = -1$",
+                "ne": "$x = \\dfrac{10}{4} = \\dfrac{5}{2}$ वा $x = \\dfrac{-4}{4} = -1$"
+              }
+            }
+          ],
+          "finalAnswer": {
+            "en": "$x = \\dfrac{5}{2}, -1$",
+            "ne": "$x = \\dfrac{5}{2}, -1$"
+          }
+        }
+      ]
+    },
+    {
+      "sectionId": "5.4",
+      "title": {
+        "en": "Nature of Roots (Discriminant)",
+        "ne": "मूलहरूको प्रकृति (विभेदक)"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "en": "The expression $D = b^2 - 4ac$ is called the discriminant. It tells us the nature of the roots without solving the equation fully.",
+            "ne": "$D = b^2 - 4ac$ लाई विभेदक भनिन्छ। यसले समीकरणलाई पूर्ण रूपमा हल नगरिकनै मूलहरूको प्रकृति बताउँछ।"
+          }
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "en": "If $D > 0$: two distinct real roots.",
+              "ne": "यदि $D > 0$ भए: दुई भिन्न वास्तविक मूल हुन्छन्।"
+            },
+            {
+              "en": "If $D = 0$: two equal real roots.",
+              "ne": "यदि $D = 0$ भए: दुई बराबर वास्तविक मूल हुन्छन्।"
+            },
+            {
+              "en": "If $D < 0$: no real roots (roots are imaginary).",
+              "ne": "यदि $D < 0$ भए: कुनै वास्तविक मूल हुँदैन (मूलहरू काल्पनिक हुन्छन्)।"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "practiceQuestions": [
+    {
+      "questionId": "q1",
+      "type": "single",
+      "text": {
+        "en": "Solve by factorization: $x^2 - 7x + 12 = 0$",
+        "ne": "गुणनखण्ड विधिद्वारा हल गर्नुहोस्: $x^2 - 7x + 12 = 0$"
+      },
+      "marks": 3
+    },
+    {
+      "questionId": "q2",
+      "type": "single",
+      "text": {
+        "en": "Using the quadratic formula, solve $3x^2 + 5x - 2 = 0$",
+        "ne": "द्विघात सूत्रको प्रयोग गरी हल गर्नुहोस्: $3x^2 + 5x - 2 = 0$"
+      },
+      "marks": 4
+    },
+    {
+      "questionId": "q3",
+      "type": "multi-part",
+      "marksTotal": 4,
+      "parts": [
+        {
+          "partId": "a",
+          "text": {
+            "en": "Find the discriminant of $2x^2 - 4x + 5 = 0$",
+            "ne": "$2x^2 - 4x + 5 = 0$ को विभेदक पत्ता लगाउनुहोस्।"
+          },
+          "marks": 2
+        },
+        {
+          "partId": "b",
+          "text": {
+            "en": "Hence state the nature of its roots.",
+            "ne": "त्यसैलाई आधार मानी यसका मूलहरूको प्रकृति बताउनुहोस्।"
+          },
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "questionId": "q4",
+      "type": "multi-part",
+      "marksTotal": 5,
+      "parts": [
+        {
+          "partId": "a",
+          "text": {
+            "en": "The product of two consecutive positive integers is 132. Form a quadratic equation to represent this statement, taking the smaller integer as $x$.",
+            "ne": "दुई क्रमागत धनात्मक पूर्णाङ्कहरूको गुणनफल 132 छ। सानो पूर्णाङ्कलाई $x$ मानी यस कथनलाई द्विघात समीकरणमा लेख्नुहोस्।"
+          },
+          "marks": 2
+        },
+        {
+          "partId": "b",
+          "text": {
+            "en": "Solve the equation formed in part (a) to find the two integers.",
+            "ne": "(क) मा बनेको समीकरण हल गरी दुवै पूर्णाङ्क पत्ता लगाउनुहोस्।"
+          },
+          "marks": 3
+        }
+      ]
+    },
+    {
+      "questionId": "q5",
+      "type": "single",
+      "text": {
+        "en": "Solve for $x$: $\\dfrac{x}{x-1} + \\dfrac{x-1}{x} = 2\\dfrac{1}{2}$",
+        "ne": "$x$ को मान पत्ता लगाउनुहोस्: $\\dfrac{x}{x-1} + \\dfrac{x-1}{x} = 2\\dfrac{1}{2}$"
+      },
+      "marks": 4
+    },
+    {
+      "questionId": "q6",
+      "type": "single",
+      "text": {
+        "en": "From the graph shown above (Figure 5.1), write down the roots of $x^2 - 5x + 6 = 0$ and verify them by substitution.",
+        "ne": "माथि देखाइएको ग्राफ (चित्र ५.१) बाट $x^2 - 5x + 6 = 0$ का मूलहरू लेख्नुहोस् र प्रतिस्थापन गरी पुष्टि गर्नुहोस्।"
+      },
+      "referenceImageId": "img-quad-graph-roots-01",
+      "marks": 3
+    }
+  ],
+  "images": [
+    {
+      "imageId": "img-quad-graph-roots-01",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Upward parabola crossing x-axis at x=2 and x=3, vertex below x-axis between the roots",
+        "ne": "x=2 र x=3 मा x-अक्ष काट्ने माथितिर खुल्ने प्याराबोला, दुई मूलको बीचमा शीर्षविन्दु x-अक्षमुनि"
+      },
+      "caption": {
+        "en": "Graph of $y = x^2 - 5x + 6$",
+        "ne": "$y = x^2 - 5x + 6$ को ग्राफ"
+      }
+    },
+    {
+      "imageId": "img-completing-square-steps-01",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "A square of side x with an attached rectangle of width b split into two strips, rearranged into a larger square with a small missing corner",
+        "ne": "x भुजा भएको वर्गमा b चौडाइको आयत जोडिएको, दुई पट्टीमा विभाजन गरी ठूलो वर्गमा पुनर्संयोजन गरिएको, कुनामा सानो खण्ड नपुगेको चित्र"
+      },
+      "caption": {
+        "en": "Geometric idea of completing the square",
+        "ne": "वर्ग पूरा गर्ने ज्यामितीय अवधारणा"
+      }
+    }
+  ]
+}

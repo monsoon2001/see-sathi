@@ -1,0 +1,165 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* ── Light tokens (identical to the original Stitch palette) ── */
+    --ink: 14 16 32;
+    --muted: 91 94 110;
+    --paper-warm: 247 246 242;
+    --paper: 255 255 255;
+
+    --primary: 75 79 242;
+    --primary-dark: 47 48 218;
+    --primary-fixed: 225 224 255;
+    --primary-fixed-dim: 192 193 255;
+    --primary-container: 75 79 242;
+    --on-primary: 255 255 255;
+    --on-primary-fixed: 4 0 109;
+    --on-primary-fixed-variant: 36 35 210;
+
+    --secondary: 181 37 12;
+    --secondary-dark: 181 37 12;
+    --secondary-fixed: 255 218 211;
+    --secondary-fixed-dim: 255 219 211;
+    --secondary-container: 253 88 58;
+    --on-secondary: 255 255 255;
+    --on-secondary-container: 65 0 2;
+    --on-secondary-fixed: 63 4 0;
+    --on-secondary-fixed-variant: 142 19 0;
+
+    --tertiary: 0 91 52;
+    --tertiary-fixed: 124 251 177;
+    --tertiary-fixed-dim: 255 219 211;
+    --tertiary-container: 0 118 69;
+    --on-tertiary: 255 255 255;
+    --on-tertiary-fixed: 1 74 43;
+    --on-tertiary-fixed-variant: 1 74 43;
+
+    --success: 47 182 115;
+    --success-dark: 0 91 52;
+    --success-soft: 124 251 177;
+    --success-medium: 0 118 69;
+
+    --error: 186 26 26;
+    --error-container: 255 218 214;
+    --on-error-container: 65 0 2;
+
+    --background: 251 248 255;
+    --on-surface: 24 26 43;
+    --on-surface-variant: 69 69 86;
+    --surface-container-lowest: 255 255 255;
+    --surface-container-low: 244 242 255;
+    --surface-container: 237 236 255;
+    --surface-container-high: 230 230 254;
+    --surface-container-highest: 225 225 248;
+    --surface-variant: 225 225 248;
+    --inverse-surface: 14 16 32;
+    --inverse-on-surface: 241 239 255;
+    --outline: 118 117 135;
+    --outline-variant: 198 196 216;
+
+    color-scheme: light;
+  }
+
+  .dark {
+    /* ── Dark tokens: contrast-checked against the dark canvas ── */
+    --ink: 14 16 32;
+    --muted: 166 168 187;
+    --paper-warm: 38 37 46;
+    --paper: 24 26 43;
+
+    --primary: 75 79 242;
+    --primary-dark: 192 193 255;
+    --primary-fixed: 192 193 255;
+    --primary-fixed-dim: 105 111 255;
+    --primary-container: 75 79 242;
+    --on-primary: 255 255 255;
+    --on-primary-fixed: 4 0 109;
+    --on-primary-fixed-variant: 105 111 255;
+
+    --secondary: 255 179 161;
+    --secondary-dark: 255 179 161;
+    --secondary-fixed: 255 218 211;
+--secondary-fixed-dim: 205 96 74;
+    --secondary-container: 147 22 5;
+    --on-secondary: 255 255 255;
+    --on-secondary-container: 255 218 214;
+    --on-secondary-fixed: 63 4 0;
+    --on-secondary-fixed-variant: 255 179 161;
+
+    --tertiary: 0 91 52;
+    --tertiary-fixed: 124 251 177;
+    --tertiary-fixed-dim: 67 160 71;
+    --tertiary-container: 0 118 69;
+    --on-tertiary: 255 255 255;
+    --on-tertiary-fixed: 1 74 43;
+    --on-tertiary-fixed-variant: 1 74 43;
+
+    --success: 47 182 115;
+    --success-dark: 0 91 52;
+    --success-soft: 124 251 177;
+    --success-medium: 0 118 69;
+
+    --error: 255 180 171;
+    --error-container: 147 24 24;
+    --on-error-container: 255 218 214;
+
+    --background: 14 16 32;
+    --on-surface: 241 239 255;
+    --on-surface-variant: 199 197 222;
+    --surface-container-lowest: 19 21 39;
+    --surface-container-low: 27 29 49;
+    --surface-container: 34 36 61;
+    --surface-container-high: 43 45 76;
+    --surface-container-highest: 52 55 90;
+    --surface-variant: 63 66 104;
+    --inverse-surface: 241 239 255;
+    --inverse-on-surface: 14 16 32;
+    --outline: 149 147 173;
+    --outline-variant: 70 72 106;
+
+    color-scheme: dark;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background font-body text-on-surface antialiased;
+  }
+
+  ::selection {
+    @apply bg-primary-fixed text-on-primary-fixed;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+@layer utilities {
+  /* line-clamp helper (pre-Tailwind 3.3 built-in) */
+  .line-clamp-1 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+  }
+  .line-clamp-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+}

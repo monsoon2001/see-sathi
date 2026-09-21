@@ -1,0 +1,506 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+          "on-surface": "#181a2b",
+          "on-secondary-container": "#590800",
+          "on-primary-container": "#e5e4ff",
+          "surface-container-lowest": "#ffffff",
+          "on-error-container": "#93000a",
+          "error": "#ba1a1a",
+          "surface-container-low": "#f4f2ff",
+          "outline": "#767587",
+          "secondary": "#b5250c",
+          "on-secondary": "#ffffff",
+          "secondary-fixed-dim": "#ffb4a5",
+          "on-tertiary": "#ffffff",
+          "on-background": "#181a2b",
+          "primary": "#2f30da",
+          "on-secondary-fixed-variant": "#8e1300",
+          "surface": "#fbf8ff",
+          "surface-variant": "#e1e1f8",
+          "secondary-fixed": "#ffdad3",
+          "on-error": "#ffffff",
+          "surface-dim": "#d8d8ef",
+          "tertiary-fixed": "#7cfbb1",
+          "on-tertiary-fixed": "#002110",
+          "on-primary-fixed": "#04006d",
+          "on-tertiary-container": "#7ffeb3",
+          "inverse-primary": "#c0c1ff",
+          "tertiary": "#005b34",
+          "tertiary-container": "#007645",
+          "outline-variant": "#c6c4d8",
+          "surface-container-high": "#e6e6fe",
+          "error-container": "#ffdad6",
+          "background": "#fbf8ff",
+          "on-tertiary-fixed-variant": "#00522f",
+          "on-primary": "#ffffff",
+          "inverse-on-surface": "#f1efff",
+          "secondary-container": "#fd583a",
+          "surface-bright": "#fbf8ff",
+          "primary-container": "#4b4ff2",
+          "on-surface-variant": "#454556",
+          "surface-container-highest": "#e1e1f8",
+          "primary-fixed": "#e1e0ff",
+          "on-primary-fixed-variant": "#2423d2",
+          "primary-fixed-dim": "#c0c1ff",
+          "on-secondary-fixed": "#3f0400",
+          "surface-tint": "#4145e9",
+          "inverse-surface": "#2d2f41",
+          "tertiary-fixed-dim": "#5ede96",
+          "surface-container": "#edecff"
+        },
+        "borderRadius": {
+          "DEFAULT": "1rem",
+          "lg": "2rem",
+          "xl": "3rem",
+          "full": "9999px"
+        },
+        "spacing": {
+          "gutter-sm": "1rem",
+          "margin-sm": "1rem",
+          "space-xl": "2.5rem",
+          "space-lg": "1.5rem",
+          "space-sm": "0.5rem",
+          "gutter": "1.5rem",
+          "margin": "2rem",
+          "space-xs": "0.25rem",
+          "space-md": "1rem"
+        },
+        "fontFamily": {
+          "headline-lg": ["Plus Jakarta Sans"],
+          "display-hero-mobile": ["Plus Jakarta Sans"],
+          "body-sm": ["Inter"],
+          "label-md": ["Inter"],
+          "headline-md": ["Plus Jakarta Sans"],
+          "body-md": ["Inter"],
+          "headline-sm": ["Plus Jakarta Sans"],
+          "body-lg": ["Inter"],
+          "title": ["Plus Jakarta Sans"],
+          "label-caps": ["Inter"],
+          "display-hero": ["Plus Jakarta Sans"],
+          "headline-lg-mobile": ["Plus Jakarta Sans"]
+        },
+        "fontSize": {
+          "headline-lg": ["32px", {"lineHeight": "38px", "letterSpacing": "-0.025em", "fontWeight": "700"}],
+          "display-hero-mobile": ["34px", {"lineHeight": "38px", "letterSpacing": "-0.025em", "fontWeight": "800"}],
+          "body-sm": ["13px", {"lineHeight": "18px", "fontWeight": "400"}],
+          "label-md": ["12px", {"lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600"}],
+          "headline-md": ["24px", {"lineHeight": "30px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+          "body-md": ["14px", {"lineHeight": "22px", "fontWeight": "400"}],
+          "headline-sm": ["20px", {"lineHeight": "26px", "letterSpacing": "-0.015em", "fontWeight": "600"}],
+          "body-lg": ["16px", {"lineHeight": "26px", "letterSpacing": "-0.005em", "fontWeight": "400"}],
+          "title": ["16px", {"lineHeight": "22px", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+          "label-caps": ["11px", {"lineHeight": "14px", "letterSpacing": "0.06em", "fontWeight": "700"}],
+          "display-hero": ["48px", {"lineHeight": "52px", "letterSpacing": "-0.03em", "fontWeight": "800"}],
+          "headline-lg-mobile": ["26px", {"lineHeight": "32px", "letterSpacing": "-0.02em", "fontWeight": "700"}]
+        }
+      }
+    }
+  }</script></head><body class="bg-background font-body-md text-on-surface selection:bg-primary-fixed selection:text-on-primary-fixed"><header class="fixed top-0 inset-x-0 z-50 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-7xl mx-auto px-margin-sm lg:px-margin flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-sm shrink-0"><a class="flex items-center gap-space-sm" data-path="home" href="#"><img alt="SEE Sathi" class="h-9 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VfqreKytT0I8MTcJBY7ZrTCVUrfGR4vxZdYnHnW0VJAkUshMi4PpqpKMgd8ppQITsRrIBE0_je8OitONXgy52wM-Pj2GnNucFyDmAu5XRr6K0XxBj4yDMo0UHZHKp0esEQGkMLSN2Jbv2L7vICEt4fBtfDtFq5N5AujqlCKBAwnroEFRA_QQmxsBXZPauiefggAxHbj2NOSvaVROmmH8bNIUR5e8eNCWWs3MdSS6LuUxbylz3uvgOpd7k"></a></div><nav class="hidden xl:flex items-center gap-space-xs p-space-xs rounded-full bg-surface-container-low/60" data-active-classes="bg-primary-fixed text-on-primary-fixed font-title"><a class="px-space-md py-space-xs rounded-full font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="home" href="#">Home</a><a aria-current="page" class="px-space-md py-space-xs rounded-full transition-colors bg-primary-fixed text-on-primary-fixed font-title" data-path="subjects" href="#">Subjects</a><a class="px-space-md py-space-xs rounded-full font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="study-notes" href="#">Study Notes</a><a class="px-space-md py-space-xs rounded-full font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="solved-questions" href="#">Solved Questions</a><a class="px-space-md py-space-xs rounded-full font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="practice" href="#">Practice</a></nav><div class="flex items-center gap-space-md shrink-0"><a class="hidden sm:inline-block font-title text-title text-on-surface-variant hover:text-on-surface transition-colors px-space-sm py-space-xs" data-path="login" href="#">Log in</a><a class="relative group inline-flex items-center justify-center rounded-full bg-primary-container text-on-primary px-space-lg py-space-sm font-title text-title shadow-[0_4px_14px_rgba(75,79,242,0.28),0_1px_2px_rgba(75,79,242,0.16)] hover:-translate-y-0.5 hover:shadow-[0_6px_20px_rgba(75,79,242,0.38)] transition-all duration-200" data-path="subjects" href="#"><span class="">Start Studying →</span></a><div class="flex items-center"><img alt="Student Avatar" class="w-8 h-8 rounded-full object-cover shadow-[0_1px_4px_rgba(0,0,0,0.1)]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCrDyxPWS6JozOwz-oSK0TQdsaQVNWqvX9vy4Gm5wZBZy3TV08Q_CUNga7wdA05bLkWRqtiOsdxC3yUzFyT9NjI-Yfbauq7Z129CinOYvntG1ar1VKMEZ9i0rwvHjPDm-_oEmRRfOIXiXmkWITbnyTzgi200Vml5bk0i0FHpNyAtP9pn1Tgeul7Ao_iTwoBHvJp4RpNI_99YUjUPw9fsjoNvPw0-GGqxLvo6BudnTbKDWzfhaLN5gYt"></div></div></div></header><main class="w-full pt-20 bg-background min-h-[calc(100vh-20rem)]"><div class="flex flex-col w-full">
+<!-- Subtle Ambient Glow Background Orbs -->
+<div class="relative w-full max-w-7xl mx-auto px-margin-sm lg:px-margin pb-space-xl">
+<div class="absolute -top-16 left-1/4 w-96 h-96 bg-primary-fixed/30 rounded-full blur-3xl pointer-events-none -z-10"></div>
+<div class="absolute top-48 right-10 w-80 h-80 bg-secondary-fixed/20 rounded-full blur-3xl pointer-events-none -z-10"></div>
+<!-- Header Section -->
+<header class="pt-space-lg pb-space-md max-w-4xl">
+<div class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-primary-fixed text-primary font-label-caps text-label-caps uppercase tracking-wider mb-space-sm shadow-sm">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+        EXPLORE CURRICULUM · CDC NEPAL 2081/2082
+      </div>
+<h1 class="font-display-hero text-display-hero text-on-surface tracking-tight mb-space-sm">
+        Subjects
+      </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-3xl leading-relaxed">
+        Pick a subject and start studying, chapter by chapter. Formatted for high retention, step-by-step model answers, and official SEE mark distribution.
+      </p>
+</header>
+<!-- Controls Row: Segmented Filters + Search Bar -->
+<div class="mt-space-md mb-space-xl flex flex-col xl:flex-row items-stretch xl:items-center justify-between gap-space-md">
+<!-- Filter Segmented Chips -->
+<div class="flex items-center gap-space-xs p-1.5 rounded-full bg-surface-container-high/60 overflow-x-auto no-scrollbar shadow-inner" id="filter-tabs">
+<button class="filter-tab px-space-md py-2 rounded-full font-title text-title text-on-primary bg-primary-container shadow-[0_4px_14px_rgba(75,79,242,0.28)] transition-all" data-filter="all">
+          All Subjects <span class="font-label-md text-label-md opacity-80">(7)</span>
+</button>
+<button class="filter-tab px-space-md py-2 rounded-full font-title text-title text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-filter="compulsory">
+          Compulsory <span class="font-label-md text-label-md opacity-70">(5)</span>
+</button>
+<button class="filter-tab px-space-md py-2 rounded-full font-title text-title text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-filter="elective">
+          Electives <span class="font-label-md text-label-md opacity-70">(2)</span>
+</button>
+<button class="filter-tab px-space-md py-2 rounded-full font-title text-title text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-filter="banks">
+          Question Banks
+        </button>
+<button class="filter-tab px-space-md py-2 rounded-full font-title text-title text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-filter="formula">
+          Formula Sheets
+        </button>
+</div>
+<!-- Quick Search Bar -->
+<div class="relative w-full xl:w-96 shrink-0">
+<span class="material-symbols-outlined absolute left-space-md top-1/2 -translate-y-1/2 text-outline text-[20px] pointer-events-none">search</span>
+<input class="w-full pl-11 pr-space-md py-3 rounded-full bg-surface-container-lowest text-on-surface placeholder:text-outline font-body-md text-body-md shadow-[0_2px_8px_rgba(24,26,43,0.05)] focus:outline-none focus:ring-2 focus:ring-primary-container transition-all" id="subject-search" placeholder="Search topic or chapter (e.g. Sets, Ohm's Law)..." type="text">
+</div>
+</div>
+<!-- Subjects Grid (3 columns on desktop, 2 on tablet, 1 on mobile) -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter" id="subject-cards-grid">
+<!-- 1. Compulsory Mathematics -->
+<article class="subject-card group relative flex flex-col justify-between bg-surface-container-lowest rounded-lg p-space-lg shadow-[0_2px_4px_rgba(24,26,43,0.03),0_12px_28px_rgba(24,26,43,0.05)] hover:shadow-[0_16px_36px_rgba(75,79,242,0.16)] hover:-translate-y-1.5 transition-all duration-300" data-category="compulsory">
+<div>
+<!-- Header: Duotone Icon + Status Tag -->
+<div class="flex items-center justify-between gap-space-sm mb-space-md">
+<div class="w-12 h-12 rounded-2xl bg-primary-fixed flex items-center justify-center text-primary transition-transform group-hover:scale-105">
+<span class="material-symbols-outlined text-[26px]">calculate</span>
+</div>
+<span class="px-space-sm py-1 rounded-full bg-primary-fixed text-primary font-label-caps text-label-caps uppercase tracking-wide">
+              Compulsory · CDC Verified
+            </span>
+</div>
+<!-- Title & Meta -->
+<h2 class="font-headline-md text-headline-md text-on-surface tracking-tight group-hover:text-primary transition-colors">
+            Compulsory Mathematics
+          </h2>
+<div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm mt-1 mb-space-md">
+<span class="material-symbols-outlined text-[16px] text-primary">auto_stories</span>
+<span class="">12 Chapters</span>
+<span class="inline-block w-1 h-1 rounded-full bg-outline-variant"></span>
+<span class="">240 Solved Model Questions</span>
+</div>
+<!-- Topic Badges -->
+<div class="flex flex-wrap gap-1.5 mb-space-lg">
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-body-sm text-body-sm">Sets</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-body-sm text-body-sm">Compound Interest</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-body-sm text-body-sm">Mensuration</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-body-sm text-body-sm">Quadratic Equations</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-body-sm text-body-sm">Circle Theorems</span>
+</div>
+</div>
+<!-- Card Footer Link -->
+<div class="pt-space-sm mt-auto">
+<a class="inline-flex items-center gap-space-xs font-title text-title text-primary group-hover:translate-x-1 transition-transform" data-path="subject-detail" href="#">
+<span class="">Explore Chapters</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</article>
+<!-- 2. Science & Technology -->
+<article class="subject-card group relative flex flex-col justify-between bg-surface-container-lowest rounded-lg p-space-lg shadow-[0_2px_4px_rgba(24,26,43,0.03),0_12px_28px_rgba(24,26,43,0.05)] hover:shadow-[0_16px_36px_rgba(0,118,69,0.14)] hover:-translate-y-1.5 transition-all duration-300" data-category="compulsory">
+<div>
+<!-- Header -->
+<div class="flex items-center justify-between gap-space-sm mb-space-md">
+<div class="w-12 h-12 rounded-2xl bg-tertiary-fixed flex items-center justify-center text-tertiary transition-transform group-hover:scale-105">
+<span class="material-symbols-outlined text-[26px]">science</span>
+</div>
+<span class="px-space-sm py-1 rounded-full bg-tertiary-fixed text-tertiary font-label-caps text-label-caps uppercase tracking-wide">
+              Compulsory · CDC Verified
+            </span>
+</div>
+<!-- Title & Meta -->
+<h2 class="font-headline-md text-headline-md text-on-surface tracking-tight group-hover:text-tertiary transition-colors">
+            Science &amp; Technology
+          </h2>
+<div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm mt-1 mb-space-md">
+<span class="material-symbols-outlined text-[16px] text-tertiary">auto_stories</span>
+<span class="">18 Chapters</span>
+<span class="inline-block w-1 h-1 rounded-full bg-outline-variant"></span>
+<span class="">310 Solved Model Questions</span>
+</div>
+<!-- Topic Badges -->
+<div class="flex flex-wrap gap-1.5 mb-space-lg">
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-body-sm text-body-sm">Force &amp; Motion</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-body-sm text-body-sm">Electricity</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-body-sm text-body-sm">Metals</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-body-sm text-body-sm">Heredity &amp; Genetics</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-body-sm text-body-sm">Chemical Reactions</span>
+</div>
+</div>
+<!-- Action -->
+<div class="pt-space-sm mt-auto">
+<a class="inline-flex items-center gap-space-xs font-title text-title text-tertiary group-hover:translate-x-1 transition-transform" data-path="subject-detail" href="#">
+<span class="">Explore Chapters</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</article>
+<!-- 3. English -->
+<article class="subject-card group relative flex flex-col justify-between bg-surface-container-lowest rounded-lg p-space-lg shadow-[0_2px_4px_rgba(24,26,43,0.03),0_12px_28px_rgba(24,26,43,0.05)] hover:shadow-[0_16px_36px_rgba(181,37,12,0.14)] hover:-translate-y-1.5 transition-all duration-300" data-category="compulsory">
+<div>
+<!-- Header -->
+<div class="flex items-center justify-between gap-space-sm mb-space-md">
+<div class="w-12 h-12 rounded-2xl bg-secondary-fixed flex items-center justify-center text-secondary transition-transform group-hover:scale-105">
+<span class="material-symbols-outlined text-[26px]">menu_book</span>
+</div>
+<span class="px-space-sm py-1 rounded-full bg-secondary-fixed text-secondary font-label-caps text-label-caps uppercase tracking-wide">
+              Compulsory · CDC Verified
+            </span>
+</div>
+<!-- Title & Meta -->
+<h2 class="font-headline-md text-headline-md text-on-surface tracking-tight group-hover:text-secondary transition-colors">
+            English
+          </h2>
+<div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm mt-1 mb-space-md">
+<span class="material-symbols-outlined text-[16px] text-secondary">auto_stories</span>
+<span class="">10 Chapters</span>
+<span class="inline-block w-1 h-1 rounded-full bg-outline-variant"></span>
+<span class="">180 Model Questions</span>
+</div>
+<!-- Topic Badges -->
+<div class="flex flex-wrap gap-1.5 mb-space-lg">
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-body-sm text-body-sm">Reading Comprehension</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-body-sm text-body-sm">Guided Writing</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-body-sm text-body-sm">Free Writing</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-body-sm text-body-sm">Grammar &amp; Voice</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-body-sm text-body-sm">Seen Passages</span>
+</div>
+</div>
+<!-- Action -->
+<div class="pt-space-sm mt-auto">
+<a class="inline-flex items-center gap-space-xs font-title text-title text-secondary group-hover:translate-x-1 transition-transform" data-path="subject-detail" href="#">
+<span class="">Explore Chapters</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</article>
+<!-- 4. Nepali -->
+<article class="subject-card group relative flex flex-col justify-between bg-surface-container-lowest rounded-lg p-space-lg shadow-[0_2px_4px_rgba(24,26,43,0.03),0_12px_28px_rgba(24,26,43,0.05)] hover:shadow-[0_16px_36px_rgba(181,37,12,0.12)] hover:-translate-y-1.5 transition-all duration-300" data-category="compulsory">
+<div>
+<!-- Header -->
+<div class="flex items-center justify-between gap-space-sm mb-space-md">
+<div class="w-12 h-12 rounded-2xl bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed-variant transition-transform group-hover:scale-105">
+<span class="material-symbols-outlined text-[26px]">edit_note</span>
+</div>
+<span class="px-space-sm py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed-variant font-label-caps text-label-caps uppercase tracking-wide">
+              अनिवार्य · CDC पाठ्यक्रम
+            </span>
+</div>
+<!-- Title & Meta -->
+<h2 class="font-headline-md text-headline-md text-on-surface tracking-tight group-hover:text-secondary transition-colors">
+            नेपाली (Nepali)
+          </h2>
+<div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm mt-1 mb-space-md">
+<span class="material-symbols-outlined text-[16px] text-secondary">auto_stories</span>
+<span class="">14 Chapters</span>
+<span class="inline-block w-1 h-1 rounded-full bg-outline-variant"></span>
+<span class="">195 Solved Exercises</span>
+</div>
+<!-- Topic Badges -->
+<div class="flex flex-wrap gap-1.5 mb-space-lg">
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-body-sm text-body-sm">व्याकरण (वर्णविन्यास)</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-body-sm text-body-sm">भावविस्तार</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-body-sm text-body-sm">कथा विवेचना</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-body-sm text-body-sm">निवन्ध लेखन</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-body-sm text-body-sm">प्रतिवेदन</span>
+</div>
+</div>
+<!-- Action -->
+<div class="pt-space-sm mt-auto">
+<a class="inline-flex items-center gap-space-xs font-title text-title text-secondary group-hover:translate-x-1 transition-transform" data-path="subject-detail" href="#">
+<span class="">Explore Chapters</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</article>
+<!-- 5. Social Studies -->
+<article class="subject-card group relative flex flex-col justify-between bg-surface-container-lowest rounded-lg p-space-lg shadow-[0_2px_4px_rgba(24,26,43,0.03),0_12px_28px_rgba(24,26,43,0.05)] hover:shadow-[0_16px_36px_rgba(75,79,242,0.12)] hover:-translate-y-1.5 transition-all duration-300" data-category="compulsory">
+<div>
+<!-- Header -->
+<div class="flex items-center justify-between gap-space-sm mb-space-md">
+<div class="w-12 h-12 rounded-2xl bg-surface-container-highest flex items-center justify-center text-primary-container transition-transform group-hover:scale-105">
+<span class="material-symbols-outlined text-[26px]">public</span>
+</div>
+<span class="px-space-sm py-1 rounded-full bg-surface-container-highest text-primary-container font-label-caps text-label-caps uppercase tracking-wide">
+              Compulsory · CDC Verified
+            </span>
+</div>
+<!-- Title & Meta -->
+<h2 class="font-headline-md text-headline-md text-on-surface tracking-tight group-hover:text-primary-container transition-colors">
+            Social Studies &amp; Life Skills
+          </h2>
+<div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm mt-1 mb-space-md">
+<span class="material-symbols-outlined text-[16px] text-primary-container">auto_stories</span>
+<span class="">9 Chapters</span>
+<span class="inline-block w-1 h-1 rounded-full bg-outline-variant"></span>
+<span class="">160 Model Answers</span>
+</div>
+<!-- Topic Badges -->
+<div class="flex flex-wrap gap-1.5 mb-space-lg">
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-body-sm text-body-sm">We and Our Society</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-body-sm text-body-sm">Constitution &amp; Rights</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-body-sm text-body-sm">Nepal Geography</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-body-sm text-body-sm">International Relations</span>
+</div>
+</div>
+<!-- Action -->
+<div class="pt-space-sm mt-auto">
+<a class="inline-flex items-center gap-space-xs font-title text-title text-primary-container group-hover:translate-x-1 transition-transform" data-path="subject-detail" href="#">
+<span class="">Explore Chapters</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</article>
+<!-- 6. Optional Mathematics -->
+<article class="subject-card group relative flex flex-col justify-between bg-surface-container-lowest rounded-lg p-space-lg shadow-[0_2px_4px_rgba(24,26,43,0.03),0_12px_28px_rgba(24,26,43,0.05)] hover:shadow-[0_16px_36px_rgba(47,48,218,0.16)] hover:-translate-y-1.5 transition-all duration-300" data-category="elective">
+<div>
+<!-- Header -->
+<div class="flex items-center justify-between gap-space-sm mb-space-md">
+<div class="w-12 h-12 rounded-2xl bg-primary-fixed-dim flex items-center justify-center text-on-primary-fixed-variant transition-transform group-hover:scale-105">
+<span class="material-symbols-outlined text-[26px]">show_chart</span>
+</div>
+<span class="px-space-sm py-1 rounded-full bg-primary-fixed-dim text-on-primary-fixed-variant font-label-caps text-label-caps uppercase tracking-wide">
+              Elective I · Advanced
+            </span>
+</div>
+<!-- Title & Meta -->
+<h2 class="font-headline-md text-headline-md text-on-surface tracking-tight group-hover:text-primary transition-colors">
+            Optional Mathematics
+          </h2>
+<div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm mt-1 mb-space-md">
+<span class="material-symbols-outlined text-[16px] text-primary">auto_stories</span>
+<span class="">11 Chapters</span>
+<span class="inline-block w-1 h-1 rounded-full bg-outline-variant"></span>
+<span class="">210 Solved Model Questions</span>
+</div>
+<!-- Topic Badges -->
+<div class="flex flex-wrap gap-1.5 mb-space-lg">
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-body-sm text-body-sm">Functions &amp; Polynomials</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-body-sm text-body-sm">Matrices</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-body-sm text-body-sm">Trigonometry</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-body-sm text-body-sm">Vectors</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-body-sm text-body-sm">Statistics</span>
+</div>
+</div>
+<!-- Action -->
+<div class="pt-space-sm mt-auto">
+<a class="inline-flex items-center gap-space-xs font-title text-title text-primary group-hover:translate-x-1 transition-transform" data-path="subject-detail" href="#">
+<span class="">Explore Chapters</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</article>
+<!-- 7. Computer Science -->
+<article class="subject-card group relative flex flex-col justify-between bg-surface-container-lowest rounded-lg p-space-lg shadow-[0_2px_4px_rgba(24,26,43,0.03),0_12px_28px_rgba(24,26,43,0.05)] hover:shadow-[0_16px_36px_rgba(75,79,242,0.16)] hover:-translate-y-1.5 transition-all duration-300" data-category="elective">
+<div>
+<!-- Header -->
+<div class="flex items-center justify-between gap-space-sm mb-space-md">
+<div class="w-12 h-12 rounded-2xl bg-surface-container-high flex items-center justify-center text-primary transition-transform group-hover:scale-105">
+<span class="material-symbols-outlined text-[26px]">terminal</span>
+</div>
+<span class="px-space-sm py-1 rounded-full bg-surface-container-high text-primary font-label-caps text-label-caps uppercase tracking-wide">
+              Elective II · Technical
+            </span>
+</div>
+<!-- Title & Meta -->
+<h2 class="font-headline-md text-headline-md text-on-surface tracking-tight group-hover:text-primary transition-colors">
+            Computer Science
+          </h2>
+<div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm mt-1 mb-space-md">
+<span class="material-symbols-outlined text-[16px] text-primary">auto_stories</span>
+<span class="">8 Chapters</span>
+<span class="inline-block w-1 h-1 rounded-full bg-outline-variant"></span>
+<span class="">140 Code Exercises</span>
+</div>
+<!-- Topic Badges -->
+<div class="flex flex-wrap gap-1.5 mb-space-lg">
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-body-sm text-body-sm">QBASIC Modular</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-body-sm text-body-sm">C Programming</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-body-sm text-body-sm">MS-Access DBMS</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-body-sm text-body-sm">Networking</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-body-sm text-body-sm">Cyber Ethics</span>
+</div>
+</div>
+<!-- Action -->
+<div class="pt-space-sm mt-auto">
+<a class="inline-flex items-center gap-space-xs font-title text-title text-primary group-hover:translate-x-1 transition-transform" data-path="subject-detail" href="#">
+<span class="">Explore Chapters</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</article>
+</div>
+<!-- Bottom Resources Banner -->
+<div class="mt-space-xl p-space-lg lg:p-space-xl rounded-lg bg-surface-container-low shadow-[0_4px_16px_rgba(24,26,43,0.03)] flex flex-col lg:flex-row items-start lg:items-center justify-between gap-gutter">
+<div class="space-y-1">
+<div class="inline-flex items-center gap-space-xs text-secondary font-label-caps text-label-caps uppercase">
+<span class="material-symbols-outlined text-[16px]">verified</span> Official Curriculum Archive
+        </div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">
+          Looking for Official SEE Past Papers?
+        </h3>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl">
+          Directly practice with verified past examination questions and step-by-step CDC marking scheme keys.
+        </p>
+</div>
+<div class="flex flex-wrap items-center gap-space-sm shrink-0">
+<a class="inline-flex items-center gap-space-xs px-space-md py-space-sm rounded-full bg-surface-container-lowest text-on-surface font-title text-title hover:bg-surface-container transition-colors shadow-sm" data-path="solved-questions" href="#">
+<span class="">2080 Board Paper</span>
+<span class="material-symbols-outlined text-[16px] text-primary">download</span>
+</a>
+<a class="inline-flex items-center gap-space-xs px-space-md py-space-sm rounded-full bg-surface-container-lowest text-on-surface font-title text-title hover:bg-surface-container transition-colors shadow-sm" data-path="solved-questions" href="#">
+<span class="">2079 Board Paper</span>
+<span class="material-symbols-outlined text-[16px] text-primary">download</span>
+</a>
+<a class="inline-flex items-center gap-space-xs px-space-lg py-space-sm rounded-full bg-primary-container text-on-primary font-title text-title shadow-[0_4px_14px_rgba(75,79,242,0.28)] hover:-translate-y-0.5 hover:shadow-[0_6px_20px_rgba(75,79,242,0.38)] transition-all" data-path="practice" href="#">
+<span class="">CDC 2081 Model Set →</span>
+</a>
+</div>
+</div>
+</div>
+<script>
+    (function() {
+      const searchInput = document.getElementById('subject-search');
+      const filterTabs = document.querySelectorAll('.filter-tab');
+      const cards = document.querySelectorAll('.subject-card');
+
+      let currentFilter = 'all';
+      let currentQuery = '';
+
+      function updateVisibility() {
+        cards.forEach(card => {
+          const cat = card.getAttribute('data-category');
+          const title = card.querySelector('h2').innerText.toLowerCase();
+          const badges = Array.from(card.querySelectorAll('.font-body-sm')).map(el => el.innerText.toLowerCase()).join(' ');
+
+          const matchesCategory = (currentFilter === 'all') || 
+                                  (currentFilter === 'compulsory' && cat === 'compulsory') || 
+                                  (currentFilter === 'elective' && cat === 'elective') ||
+                                  (currentFilter === 'banks' || currentFilter === 'formula'); // Still visible, but could highlight relevant materials
+
+          const matchesSearch = !currentQuery || 
+                                title.includes(currentQuery) || 
+                                badges.includes(currentQuery);
+
+          if (matchesCategory && matchesSearch) {
+            card.style.display = 'flex';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      }
+
+      filterTabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+          filterTabs.forEach(t => {
+            t.className = 'filter-tab px-space-md py-2 rounded-full font-title text-title text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors';
+          });
+          tab.className = 'filter-tab px-space-md py-2 rounded-full font-title text-title text-on-primary bg-primary-container shadow-[0_4px_14px_rgba(75,79,242,0.28)] transition-all';
+          currentFilter = tab.getAttribute('data-filter');
+          updateVisibility();
+        });
+      });
+
+      if (searchInput) {
+        searchInput.addEventListener('input', (e) => {
+          currentQuery = e.target.value.toLowerCase().trim();
+          updateVisibility();
+        });
+      }
+    })();
+  </script>
+</div></main><footer class="w-full bg-surface-container-low text-on-surface"><div class="max-w-7xl mx-auto px-margin-sm lg:px-margin py-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-gutter lg:gap-space-xl mb-space-xl"><div class="lg:col-span-2 space-y-space-md"><div class="flex items-center gap-space-sm"><img alt="SEE Sathi" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VfqreKytT0I8MTcJBY7ZrTCVUrfGR4vxZdYnHnW0VJAkUshMi4PpqpKMgd8ppQITsRrIBE0_je8OitONXgy52wM-Pj2GnNucFyDmAu5XRr6K0XxBj4yDMo0UHZHKp0esEQGkMLSN2Jbv2L7vICEt4fBtfDtFq5N5AujqlCKBAwnroEFRA_QQmxsBXZPauiefggAxHbj2NOSvaVROmmH8bNIUR5e8eNCWWs3MdSS6LuUxbylz3uvgOpd7k"></div><p class="font-body-md text-body-md text-on-surface-variant max-w-sm">Empowering every Class 10 student across Nepal with world-class, beautifully structured study notes and solved questions.</p><div class="flex items-center gap-space-sm text-on-surface-variant pt-space-xs"><span class="inline-flex items-center px-space-sm py-space-xs rounded-full bg-surface-container text-primary font-label-caps text-label-caps">Nepal Curriculum (CDC) Verified</span></div></div><div class="space-y-space-sm"><h4 class="font-label-caps text-label-caps text-on-surface uppercase tracking-wider">Study</h4><ul class="space-y-space-xs"><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="study-notes" href="#" class="">Master Notes</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="solved-questions" href="#" class="">Question Bank</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="practice" href="#" class="">Formula Sheets</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="practice" href="#" class="">Mock SEE Papers</a></li></ul></div><div class="space-y-space-sm"><h4 class="font-label-caps text-label-caps text-on-surface uppercase tracking-wider">Subjects</h4><ul class="space-y-space-xs"><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="subject-detail" href="#" class="">Compulsory Math</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="subject-detail" href="#" class="">Science &amp; Tech</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="subject-detail" href="#" class="">Optional Math</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="subject-detail" href="#" class="">English &amp; Nepali</a></li></ul></div><div class="space-y-space-sm"><h4 class="font-label-caps text-label-caps text-on-surface uppercase tracking-wider">Resources</h4><ul class="space-y-space-xs"><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="home" href="#" class="">SEE Grading Guide</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="study-notes" href="#" class="">Syllabus Breakdown</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="chapter-detail" href="#" class="">Topper Answer Sets</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="practice" href="#" class="">Model Exam Simulator</a></li></ul></div><div class="space-y-space-sm"><h4 class="font-label-caps text-label-caps text-on-surface uppercase tracking-wider">Legal</h4><ul class="space-y-space-xs"><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="home" href="#" class="">About Mission</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="home" href="#" class="">Editorial Board</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="home" href="#" class="">Privacy Policy</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="home" href="#" class="">Terms of Use</a></li></ul></div></div><div class="pt-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-md text-on-surface-variant"><p class="font-body-sm text-body-sm">© 2026 SEE Sathi Technologies Pvt. Ltd. Kathmandu, Nepal.</p><div class="flex items-center gap-space-md font-body-sm text-body-sm"><span class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-tertiary">verified</span> CDC Curriculum Verified</span></div></div></div></footer>
+
+
+
+
+
+</body></html>

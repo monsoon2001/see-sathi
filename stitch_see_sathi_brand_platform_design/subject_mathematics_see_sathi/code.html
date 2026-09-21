@@ -1,0 +1,916 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+          "on-surface": "#181a2b",
+          "on-secondary-container": "#590800",
+          "on-primary-container": "#e5e4ff",
+          "surface-container-lowest": "#ffffff",
+          "on-error-container": "#93000a",
+          "error": "#ba1a1a",
+          "surface-container-low": "#f4f2ff",
+          "outline": "#767587",
+          "secondary": "#b5250c",
+          "on-secondary": "#ffffff",
+          "secondary-fixed-dim": "#ffb4a5",
+          "on-tertiary": "#ffffff",
+          "on-background": "#181a2b",
+          "primary": "#2f30da",
+          "on-secondary-fixed-variant": "#8e1300",
+          "surface": "#fbf8ff",
+          "surface-variant": "#e1e1f8",
+          "secondary-fixed": "#ffdad3",
+          "on-error": "#ffffff",
+          "surface-dim": "#d8d8ef",
+          "tertiary-fixed": "#7cfbb1",
+          "on-tertiary-fixed": "#002110",
+          "on-primary-fixed": "#04006d",
+          "on-tertiary-container": "#7ffeb3",
+          "inverse-primary": "#c0c1ff",
+          "tertiary": "#005b34",
+          "tertiary-container": "#007645",
+          "outline-variant": "#c6c4d8",
+          "surface-container-high": "#e6e6fe",
+          "error-container": "#ffdad6",
+          "background": "#fbf8ff",
+          "on-tertiary-fixed-variant": "#00522f",
+          "on-primary": "#ffffff",
+          "inverse-on-surface": "#f1efff",
+          "secondary-container": "#fd583a",
+          "surface-bright": "#fbf8ff",
+          "primary-container": "#4b4ff2",
+          "on-surface-variant": "#454556",
+          "surface-container-highest": "#e1e1f8",
+          "primary-fixed": "#e1e0ff",
+          "on-primary-fixed-variant": "#2423d2",
+          "primary-fixed-dim": "#c0c1ff",
+          "on-secondary-fixed": "#3f0400",
+          "surface-tint": "#4145e9",
+          "inverse-surface": "#2d2f41",
+          "tertiary-fixed-dim": "#5ede96",
+          "surface-container": "#edecff"
+        },
+        "borderRadius": {
+          "DEFAULT": "1rem",
+          "lg": "2rem",
+          "xl": "3rem",
+          "full": "9999px"
+        },
+        "spacing": {
+          "gutter-sm": "1rem",
+          "margin-sm": "1rem",
+          "space-xl": "2.5rem",
+          "space-lg": "1.5rem",
+          "space-sm": "0.5rem",
+          "gutter": "1.5rem",
+          "margin": "2rem",
+          "space-xs": "0.25rem",
+          "space-md": "1rem"
+        },
+        "fontFamily": {
+          "headline-lg": ["Plus Jakarta Sans"],
+          "display-hero-mobile": ["Plus Jakarta Sans"],
+          "body-sm": ["Inter"],
+          "label-md": ["Inter"],
+          "headline-md": ["Plus Jakarta Sans"],
+          "body-md": ["Inter"],
+          "headline-sm": ["Plus Jakarta Sans"],
+          "body-lg": ["Inter"],
+          "title": ["Plus Jakarta Sans"],
+          "label-caps": ["Inter"],
+          "display-hero": ["Plus Jakarta Sans"],
+          "headline-lg-mobile": ["Plus Jakarta Sans"]
+        },
+        "fontSize": {
+          "headline-lg": ["32px", {"lineHeight": "38px", "letterSpacing": "-0.025em", "fontWeight": "700"}],
+          "display-hero-mobile": ["34px", {"lineHeight": "38px", "letterSpacing": "-0.025em", "fontWeight": "800"}],
+          "body-sm": ["13px", {"lineHeight": "18px", "fontWeight": "400"}],
+          "label-md": ["12px", {"lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600"}],
+          "headline-md": ["24px", {"lineHeight": "30px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+          "body-md": ["14px", {"lineHeight": "22px", "fontWeight": "400"}],
+          "headline-sm": ["20px", {"lineHeight": "26px", "letterSpacing": "-0.015em", "fontWeight": "600"}],
+          "body-lg": ["16px", {"lineHeight": "26px", "letterSpacing": "-0.005em", "fontWeight": "400"}],
+          "title": ["16px", {"lineHeight": "22px", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+          "label-caps": ["11px", {"lineHeight": "14px", "letterSpacing": "0.06em", "fontWeight": "700"}],
+          "display-hero": ["48px", {"lineHeight": "52px", "letterSpacing": "-0.03em", "fontWeight": "800"}],
+          "headline-lg-mobile": ["26px", {"lineHeight": "32px", "letterSpacing": "-0.02em", "fontWeight": "700"}]
+        }
+      }
+    }
+  }</script></head><body class="bg-background font-body-md text-on-surface selection:bg-primary-fixed selection:text-on-primary-fixed"><header class="fixed top-0 inset-x-0 z-50 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-7xl mx-auto px-margin-sm lg:px-margin flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-sm shrink-0"><a class="flex items-center gap-space-sm" data-path="home" href="#"><img alt="SEE Sathi Official Brand Logo" class="h-9 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VfqreKytT0I8MTcJBY7ZrTCVUrfGR4vxZdYnHnW0VJAkUshMi4PpqpKMgd8ppQITsRrIBE0_je8OitONXgy52wM-Pj2GnNucFyDmAu5XRr6K0XxBj4yDMo0UHZHKp0esEQGkMLSN2Jbv2L7vICEt4fBtfDtFq5N5AujqlCKBAwnroEFRA_QQmxsBXZPauiefggAxHbj2NOSvaVROmmH8bNIUR5e8eNCWWs3MdSS6LuUxbylz3uvgOpd7k"></a></div><nav class="hidden xl:flex items-center gap-space-xs p-space-xs rounded-full bg-surface-container-low/60" data-active-classes="bg-primary-fixed text-on-primary-fixed font-title"><a class="px-space-md py-space-xs rounded-full font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="home" href="#">Home</a><a class="px-space-md py-space-xs rounded-full font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="subjects" href="#">Subjects</a><a class="px-space-md py-space-xs rounded-full font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="study-notes" href="#">Study Notes</a><a class="px-space-md py-space-xs rounded-full font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="solved-questions" href="#">Solved Questions</a><a class="px-space-md py-space-xs rounded-full font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="practice" href="#">Practice</a></nav><div class="flex items-center gap-space-md shrink-0"><a class="hidden sm:inline-block font-title text-title text-on-surface-variant hover:text-on-surface transition-colors px-space-sm py-space-xs" data-path="login" href="#">Log in</a><a class="relative group inline-flex items-center justify-center rounded-full bg-primary-container text-on-primary px-space-lg py-space-sm font-title text-title shadow-[0_4px_14px_rgba(75,79,242,0.28),0_1px_2px_rgba(75,79,242,0.16)] hover:-translate-y-0.5 hover:shadow-[0_6px_20px_rgba(75,79,242,0.38)] transition-all duration-200" data-path="subjects" href="#"><span class="">Start Studying →</span></a><div class="flex items-center"><img alt="Student Avatar" class="w-8 h-8 rounded-full object-cover shadow-[0_1px_4px_rgba(0,0,0,0.1)]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCrDyxPWS6JozOwz-oSK0TQdsaQVNWqvX9vy4Gm5wZBZy3TV08Q_CUNga7wdA05bLkWRqtiOsdxC3yUzFyT9NjI-Yfbauq7Z129CinOYvntG1ar1VKMEZ9i0rwvHjPDm-_oEmRRfOIXiXmkWITbnyTzgi200Vml5bk0i0FHpNyAtP9pn1Tgeul7Ao_iTwoBHvJp4RpNI_99YUjUPw9fsjoNvPw0-GGqxLvo6BudnTbKDWzfhaLN5gYt"></div></div></div></header><main class="w-full pt-20 bg-background min-h-[calc(100vh-20rem)]"><div class="flex flex-col w-full">
+<!-- Subject Header Canvas with Subtle Geometry and Dynamic Glow -->
+<section class="relative w-full bg-surface-container-lowest overflow-hidden pb-space-xl"><!-- Ambient glowing backdrop blurs (contained) -->
+<div class="absolute -top-24 -right-24 w-96 h-96 rounded-full bg-primary-container/10 blur-3xl pointer-events-none"></div>
+<div class="absolute top-48 -left-32 w-80 h-80 rounded-full bg-secondary-container/10 blur-3xl pointer-events-none"></div>
+
+<div class="max-w-7xl mx-auto px-margin-sm lg:px-margin pt-space-lg">
+  <!-- 1. Breadcrumb Bar & Quick Badges Header -->
+  <div class="flex items-center justify-between gap-gutter flex-wrap mb-space-lg pb-space-xs border-b border-surface-container/60">
+    <nav aria-label="Breadcrumb" class="flex items-center gap-space-xs text-on-surface-variant font-label-md text-label-md flex-wrap">
+      <a class="hover:text-primary transition-colors flex items-center gap-1" data-path="subjects" href="#">
+        <span class="material-symbols-outlined text-[16px]">grid_view</span>
+        Subjects
+      </a>
+      <span class="text-outline-variant font-title">/</span>
+      <div class="inline-flex items-center gap-space-xs px-space-sm py-0.5 rounded-full bg-surface-container-high text-primary font-title text-body-sm">
+        <span class="material-symbols-outlined text-[15px] text-primary">calculate</span>
+        Mathematics (Compulsory)
+      </div>
+      <span class="text-outline-variant font-title">/</span>
+      <span class="text-on-surface font-title">CDC Curriculum 2081/2082</span>
+    </nav>
+
+    <!-- Streak & Verified Status Badges -->
+    <div class="flex items-center gap-space-sm shrink-0">
+      <div class="inline-flex items-center gap-space-xs px-space-md py-1.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-caps text-label-caps shadow-sm">
+        <span class="material-symbols-outlined text-[15px] text-secondary" style="font-variation-settings: 'FILL' 1;">local_fire_department</span>
+        <span class="">4-Day Math Streak</span>
+      </div>
+      <div class="inline-flex items-center gap-space-xs px-space-md py-1.5 rounded-full bg-surface-container text-on-surface-variant font-label-caps text-label-caps">
+        <span class="w-2 h-2 rounded-full bg-tertiary"></span>
+        <span class="">CDC Verified Syllabus</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2 & 3 & 4. Main Hero Title Block with Aligned Readiness Card -->
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center mb-space-xl">
+    <div class="lg:col-span-8 flex flex-col items-start">
+      <!-- Eyebrow badge -->
+      <div class="inline-flex items-center gap-space-xs text-primary font-label-caps text-label-caps uppercase tracking-wider mb-space-xs px-space-sm py-0.5 rounded-md bg-primary-container/10">
+        <span class="">COMPULSORY SUBJECT · CODE: 101</span>
+      </div>
+
+      <!-- Main H1 title -->
+      <h1 class="font-display-hero text-display-hero text-on-surface tracking-tight font-extrabold">
+        Mathematics
+      </h1>
+      <div class="h-1.5 w-24 bg-primary-container rounded-full mt-2 mb-space-sm shadow-[0_2px_8px_rgba(75,79,242,0.35)]"></div>
+
+      <!-- Subtitle description -->
+      <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl pt-1">
+        12 chapters · CDC Syllabus 2081/2082 · 240 Solved Model Questions · 100 Marks Preparation Guide
+      </p>
+    </div>
+
+    <!-- Exam Readiness Gauge Card (Vertically aligned) -->
+    <div class="lg:col-span-4 bg-surface-container-low rounded-2xl p-space-md shadow-sm space-y-space-xs border border-surface-container-high/60">
+      <div class="flex items-center justify-between">
+        <span class="font-label-caps text-label-caps uppercase text-on-surface-variant">Overall Exam Readiness</span>
+        <span class="font-title text-title text-primary">42% Prepared</span>
+      </div>
+      <div class="w-full h-2.5 bg-surface-container-high rounded-full overflow-hidden">
+        <div class="h-full bg-primary-container rounded-full transition-all duration-500" style="width: 42%;"></div>
+      </div>
+      <div class="flex items-center justify-between text-on-surface-variant font-body-sm text-body-sm pt-1">
+        <span class="">5 of 12 chapters mastered</span>
+        <span class="text-tertiary font-title flex items-center gap-0.5">
+          <span class="material-symbols-outlined text-[14px]">trending_up</span> On Track for A+
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5. Question Weightage Blueprint Strip -->
+  <div class="grid grid-cols-2 sm:grid-cols-4 gap-space-sm pt-space-xs">
+    <div class="bg-surface-container rounded-xl p-space-sm flex items-center gap-space-sm transition-all hover:bg-surface-container-high">
+      <div class="w-10 h-10 rounded-xl bg-surface-container-lowest flex items-center justify-center font-headline-sm text-headline-sm text-primary shrink-0 shadow-sm">
+        A
+      </div>
+      <div class="min-w-0">
+        <div class="font-label-caps text-label-caps uppercase text-on-surface-variant">Very Short</div>
+        <div class="font-title text-title text-on-surface">10 Marks <span class="text-on-surface-variant font-body-sm">(10 × 1)</span></div>
+      </div>
+    </div>
+    <div class="bg-surface-container rounded-xl p-space-sm flex items-center gap-space-sm transition-all hover:bg-surface-container-high">
+      <div class="w-10 h-10 rounded-xl bg-surface-container-lowest flex items-center justify-center font-headline-sm text-headline-sm text-primary shrink-0 shadow-sm">
+        B
+      </div>
+      <div class="min-w-0">
+        <div class="font-label-caps text-label-caps uppercase text-on-surface-variant">Short Questions</div>
+        <div class="font-title text-title text-on-surface">34 Marks <span class="text-on-surface-variant font-body-sm">(17 × 2)</span></div>
+      </div>
+    </div>
+    <div class="bg-surface-container rounded-xl p-space-sm flex items-center gap-space-sm transition-all hover:bg-surface-container-high">
+      <div class="w-10 h-10 rounded-xl bg-surface-container-lowest flex items-center justify-center font-headline-sm text-headline-sm text-primary shrink-0 shadow-sm">
+        C
+      </div>
+      <div class="min-w-0">
+        <div class="font-label-caps text-label-caps uppercase text-on-surface-variant">Long Questions</div>
+        <div class="font-title text-title text-on-surface">40 Marks <span class="text-on-surface-variant font-body-sm">(10 × 4)</span></div>
+      </div>
+    </div>
+    <div class="bg-surface-container rounded-xl p-space-sm flex items-center gap-space-sm transition-all hover:bg-surface-container-high">
+      <div class="w-10 h-10 rounded-xl bg-surface-container-lowest flex items-center justify-center font-headline-sm text-headline-sm text-secondary-container shrink-0 shadow-sm">
+        D
+      </div>
+      <div class="min-w-0">
+        <div class="font-label-caps text-label-caps uppercase text-on-surface-variant">Higher Ability (HOT)</div>
+        <div class="font-title text-title text-on-surface">16 Marks <span class="text-on-surface-variant font-body-sm">(4 × 4)</span></div>
+      </div>
+    </div>
+  </div>
+</div></section>
+<!-- Filter & Search Toolbar (Sticky feel with high contrast) -->
+<section class="max-w-7xl mx-auto px-margin-sm lg:px-margin w-full -mt-4 z-20">
+<div class="bg-surface-container-lowest rounded-2xl p-space-sm shadow-[0_4px_24px_rgba(24,26,43,0.06)] flex flex-col md:flex-row items-center justify-between gap-space-sm">
+<!-- Search Bar -->
+<div class="relative w-full md:flex-1">
+<span class="material-symbols-outlined absolute left-space-md top-1/2 -translate-y-1/2 text-outline text-[20px] pointer-events-none">search</span>
+<input class="w-full h-12 pl-12 pr-16 bg-surface-container-low rounded-full text-on-surface font-body-md text-body-md placeholder:text-outline focus:outline-none focus:bg-surface-container-lowest focus:ring-2 focus:ring-primary transition-all duration-200" id="chapterSearchInput" placeholder="Search Mathematics chapters, theorems, or formulas (e.g. Venn Diagram, Depreciation, Cyclic Quadrilateral)..." type="text">
+<div class="absolute right-space-sm top-1/2 -translate-y-1/2 hidden sm:flex items-center gap-1 px-2 py-0.5 rounded-md bg-surface-container-high text-on-surface-variant font-label-caps text-label-caps">
+<span class="">⌘</span><span class="">K</span>
+</div>
+</div>
+<!-- Quick Group Filters -->
+<div class="flex items-center gap-space-xs w-full md:w-auto overflow-x-auto pb-1 md:pb-0 scrollbar-none shrink-0" id="filterTabs">
+<button class="filter-btn active px-space-md py-2 rounded-full font-label-md text-label-md bg-primary text-on-primary shadow-[0_2px_8px_rgba(75,79,242,0.3)] transition-all whitespace-nowrap" data-filter="all">
+          All (12)
+        </button>
+<button class="filter-btn px-space-md py-2 rounded-full font-label-md text-label-md bg-surface-container text-on-surface-variant hover:text-on-surface transition-colors whitespace-nowrap" data-filter="group-c">
+          Group C (40m)
+        </button>
+<button class="filter-btn px-space-md py-2 rounded-full font-label-md text-label-md bg-surface-container text-on-surface-variant hover:text-on-surface transition-colors whitespace-nowrap" data-filter="group-d">
+          Group D HOTs (16m)
+        </button>
+<button class="filter-btn px-space-md py-2 rounded-full font-label-md text-label-md bg-surface-container text-on-surface-variant hover:text-on-surface transition-colors whitespace-nowrap" data-filter="high-yield">
+          High Yield
+        </button>
+</div>
+</div>
+</section>
+<!-- 12 Structured Chapter Cards Grid -->
+<section class="max-w-7xl mx-auto px-margin-sm lg:px-margin w-full py-space-xl">
+<div class="flex items-center justify-between mb-space-md">
+<h2 class="font-headline-md text-headline-md text-on-surface tracking-tight">
+        Curriculum Roadmap
+      </h2>
+<span class="font-body-sm text-body-sm text-on-surface-variant" id="matchCounter">
+        Showing all 12 modules
+      </span>
+</div>
+<!-- Chapter Cards Stack -->
+<div class="space-y-space-sm" id="chapterListContainer">
+<!-- 01. Set Theory (Sets) -->
+<div class="chapter-card group relative bg-surface-container-lowest hover:bg-surface-container-low/80 rounded-2xl p-space-md lg:p-space-lg shadow-[0_2px_8px_rgba(24,26,43,0.03)] hover:shadow-[0_8px_24px_rgba(75,79,242,0.08)] transition-all duration-200" data-group="group-c high-yield" data-title="Set Theory Sets Venn Diagram Cardinality">
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md">
+<div class="flex items-start gap-space-md min-w-0">
+<!-- Chapter Numeral -->
+<span class="font-headline-lg text-headline-lg text-outline-variant group-hover:text-primary transition-colors shrink-0 w-12 pt-0.5 select-none font-extrabold">
+              01
+            </span>
+<div class="space-y-space-xs min-w-0">
+<div class="flex items-center gap-space-xs flex-wrap">
+<h3 class="font-headline-sm text-headline-sm text-on-surface tracking-tight group-hover:text-primary transition-colors">
+                  Set Theory (Sets)
+                </h3>
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-caps text-label-caps">
+                  Weightage: 4 Marks · Group C
+                </span>
+<span class="px-space-xs py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-caps text-label-caps">
+                  CDC High Yield
+                </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-1">
+                Cardinality of three intersecting sets, Venn diagram derivations, and word problems.
+              </p>
+<div class="flex items-center gap-space-md text-on-surface-variant font-body-sm text-body-sm pt-1">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-tertiary">check_circle</span>
+                  Mastered (100%)
+                </span>
+<span class="">·</span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px]">schedule</span> 25 min notes
+                </span>
+<span class="">·</span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px]">quiz</span> 24 questions
+                </span>
+</div>
+</div>
+</div>
+<!-- Action Buttons -->
+<div class="flex items-center gap-space-sm shrink-0 self-end lg:self-center">
+<a class="inline-flex items-center gap-space-xs px-space-md py-2.5 rounded-full bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-title text-body-md transition-colors" data-path="chapter-detail" href="#">
+<span class="material-symbols-outlined text-[18px]">menu_book</span>
+<span class="">Notes</span>
+</a>
+<a class="inline-flex items-center gap-space-xs px-space-lg py-2.5 rounded-full bg-primary-container text-on-primary font-title text-body-md shadow-[0_4px_12px_rgba(75,79,242,0.25)] hover:shadow-[0_6px_18px_rgba(75,79,242,0.38)] hover:-translate-y-0.5 transition-all" data-path="solved-questions" href="#">
+<span class="material-symbols-outlined text-[18px]">task_alt</span>
+<span class="">24 Solved Qs →</span>
+</a>
+</div>
+</div>
+</div>
+<!-- 02. Compound Interest -->
+<div class="chapter-card group relative bg-surface-container-lowest hover:bg-surface-container-low/80 rounded-2xl p-space-md lg:p-space-lg shadow-[0_2px_8px_rgba(24,26,43,0.03)] hover:shadow-[0_8px_24px_rgba(75,79,242,0.08)] transition-all duration-200" data-group="group-c high-yield" data-title="Compound Interest annual semi-annual population growth">
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md">
+<div class="flex items-start gap-space-md min-w-0">
+<span class="font-headline-lg text-headline-lg text-outline-variant group-hover:text-primary transition-colors shrink-0 w-12 pt-0.5 select-none font-extrabold">
+              02
+            </span>
+<div class="space-y-space-xs min-w-0">
+<div class="flex items-center gap-space-xs flex-wrap">
+<h3 class="font-headline-sm text-headline-sm text-on-surface tracking-tight group-hover:text-primary transition-colors">
+                  Compound Interest
+                </h3>
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-caps text-label-caps">
+                  Weightage: 4 Marks · Group C
+                </span>
+<span class="px-space-xs py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-caps text-label-caps">
+                  CDC High Yield
+                </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-1">
+                Annual, semi-annual, and quarterly compound interest, population growth, and compound depreciation.
+              </p>
+<div class="flex items-center gap-space-md text-on-surface-variant font-body-sm text-body-sm pt-1">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-tertiary">check_circle</span>
+                  Mastered (100%)
+                </span>
+<span class="">·</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[15px]">schedule</span> 30 min notes</span>
+<span class="">·</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[15px]">quiz</span> 28 questions</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-space-sm shrink-0 self-end lg:self-center">
+<a class="inline-flex items-center gap-space-xs px-space-md py-2.5 rounded-full bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-title text-body-md transition-colors" data-path="chapter-detail" href="#">
+<span class="material-symbols-outlined text-[18px]">menu_book</span>
+<span class="">Notes</span>
+</a>
+<a class="inline-flex items-center gap-space-xs px-space-lg py-2.5 rounded-full bg-primary-container text-on-primary font-title text-body-md shadow-[0_4px_12px_rgba(75,79,242,0.25)] hover:shadow-[0_6px_18px_rgba(75,79,242,0.38)] hover:-translate-y-0.5 transition-all" data-path="solved-questions" href="#">
+<span class="material-symbols-outlined text-[18px]">task_alt</span>
+<span class="">28 Solved Qs →</span>
+</a>
+</div>
+</div>
+</div>
+<!-- 03. Population Growth & Compound Depreciation -->
+<div class="chapter-card group relative bg-surface-container-lowest hover:bg-surface-container-low/80 rounded-2xl p-space-md lg:p-space-lg shadow-[0_2px_8px_rgba(24,26,43,0.03)] hover:shadow-[0_8px_24px_rgba(75,79,242,0.08)] transition-all duration-200" data-group="group-c" data-title="Population Growth Compound Depreciation census metrics erosion">
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md">
+<div class="flex items-start gap-space-md min-w-0">
+<span class="font-headline-lg text-headline-lg text-outline-variant group-hover:text-primary transition-colors shrink-0 w-12 pt-0.5 select-none font-extrabold">
+              03
+            </span>
+<div class="space-y-space-xs min-w-0">
+<div class="flex items-center gap-space-xs flex-wrap">
+<h3 class="font-headline-sm text-headline-sm text-on-surface tracking-tight group-hover:text-primary transition-colors">
+                  Population Growth &amp; Compound Depreciation
+                </h3>
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-caps text-label-caps">
+                  Weightage: 2-4 Marks · Group B/C
+                </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-1">
+                Compounded census metrics, asset value erosion formulas, and multi-year rates.
+              </p>
+<div class="flex items-center gap-space-md text-on-surface-variant font-body-sm text-body-sm pt-1">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-tertiary">check_circle</span>
+                  Mastered (100%)
+                </span>
+<span class="">·</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[15px]">schedule</span> 18 min notes</span>
+<span class="">·</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[15px]">quiz</span> 16 questions</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-space-sm shrink-0 self-end lg:self-center">
+<a class="inline-flex items-center gap-space-xs px-space-md py-2.5 rounded-full bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-title text-body-md transition-colors" data-path="chapter-detail" href="#">
+<span class="material-symbols-outlined text-[18px]">menu_book</span>
+<span class="">Notes</span>
+</a>
+<a class="inline-flex items-center gap-space-xs px-space-lg py-2.5 rounded-full bg-primary-container text-on-primary font-title text-body-md shadow-[0_4px_12px_rgba(75,79,242,0.25)] hover:shadow-[0_6px_18px_rgba(75,79,242,0.38)] hover:-translate-y-0.5 transition-all" data-path="solved-questions" href="#">
+<span class="material-symbols-outlined text-[18px]">task_alt</span>
+<span class="">16 Solved Qs →</span>
+</a>
+</div>
+</div>
+</div>
+<!-- 04. Currency Exchange & Money Exchange -->
+<div class="chapter-card group relative bg-surface-container-lowest hover:bg-surface-container-low/80 rounded-2xl p-space-md lg:p-space-lg shadow-[0_2px_8px_rgba(24,26,43,0.03)] hover:shadow-[0_8px_24px_rgba(75,79,242,0.08)] transition-all duration-200" data-group="group-c" data-title="Currency Exchange Money Exchange Banking rates buying selling commission devaluation">
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md">
+<div class="flex items-start gap-space-md min-w-0">
+<span class="font-headline-lg text-headline-lg text-outline-variant group-hover:text-primary transition-colors shrink-0 w-12 pt-0.5 select-none font-extrabold">
+              04
+            </span>
+<div class="space-y-space-xs min-w-0">
+<div class="flex items-center gap-space-xs flex-wrap">
+<h3 class="font-headline-sm text-headline-sm text-on-surface tracking-tight group-hover:text-primary transition-colors">
+                  Currency Exchange &amp; Money Exchange
+                </h3>
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-caps text-label-caps">
+                  Weightage: 4 Marks · Group C
+                </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-1">
+                Banking rates, buying/selling commission, devaluation, and revaluation calculations.
+              </p>
+<div class="flex items-center gap-space-md text-on-surface-variant font-body-sm text-body-sm pt-1">
+<span class="flex items-center gap-1 text-primary font-title">
+<span class="material-symbols-outlined text-[15px]">pending</span> In Progress (40%)
+                </span>
+<span class="">·</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[15px]">schedule</span> 20 min notes</span>
+<span class="">·</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[15px]">quiz</span> 18 questions</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-space-sm shrink-0 self-end lg:self-center">
+<a class="inline-flex items-center gap-space-xs px-space-md py-2.5 rounded-full bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-title text-body-md transition-colors" data-path="chapter-detail" href="#">
+<span class="material-symbols-outlined text-[18px]">menu_book</span>
+<span class="">Notes</span>
+</a>
+<a class="inline-flex items-center gap-space-xs px-space-lg py-2.5 rounded-full bg-primary-container text-on-primary font-title text-body-md shadow-[0_4px_12px_rgba(75,79,242,0.25)] hover:shadow-[0_6px_18px_rgba(75,79,242,0.38)] hover:-translate-y-0.5 transition-all" data-path="solved-questions" href="#">
+<span class="material-symbols-outlined text-[18px]">task_alt</span>
+<span class="">18 Solved Qs →</span>
+</a>
+</div>
+</div>
+</div>
+<!-- 05. Plane Surfaces & Mensuration -->
+<div class="chapter-card group relative bg-surface-container-lowest hover:bg-surface-container-low/80 rounded-2xl p-space-md lg:p-space-lg shadow-[0_2px_8px_rgba(24,26,43,0.03)] hover:shadow-[0_8px_24px_rgba(75,79,242,0.08)] transition-all duration-200" data-group="group-d high-yield" data-title="Plane Surfaces Mensuration Heron formula area triangles quadrilaterals pathways cost estimation">
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md">
+<div class="flex items-start gap-space-md min-w-0">
+<span class="font-headline-lg text-headline-lg text-outline-variant group-hover:text-primary transition-colors shrink-0 w-12 pt-0.5 select-none font-extrabold">
+              05
+            </span>
+<div class="space-y-space-xs min-w-0">
+<div class="flex items-center gap-space-xs flex-wrap">
+<h3 class="font-headline-sm text-headline-sm text-on-surface tracking-tight group-hover:text-primary transition-colors">
+                  Plane Surfaces &amp; Mensuration
+                </h3>
+<span class="px-space-xs py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-caps text-label-caps">
+                  Weightage: 5 Marks · Group D HOT
+                </span>
+<span class="px-space-xs py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-caps text-label-caps">
+                  CDC High Yield
+                </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-1">
+                Area of triangles (Heron's formula), quadrilaterals, pathways, and cost estimation.
+              </p>
+<div class="flex items-center gap-space-md text-on-surface-variant font-body-sm text-body-sm pt-1">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-tertiary">check_circle</span>
+                  Mastered (100%)
+                </span>
+<span class="">·</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[15px]">schedule</span> 35 min notes</span>
+<span class="">·</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[15px]">quiz</span> 22 questions</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-space-sm shrink-0 self-end lg:self-center">
+<a class="inline-flex items-center gap-space-xs px-space-md py-2.5 rounded-full bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-title text-body-md transition-colors" data-path="chapter-detail" href="#">
+<span class="material-symbols-outlined text-[18px]">menu_book</span>
+<span class="">Notes</span>
+</a>
+<a class="inline-flex items-center gap-space-xs px-space-lg py-2.5 rounded-full bg-primary-container text-on-primary font-title text-body-md shadow-[0_4px_12px_rgba(75,79,242,0.25)] hover:shadow-[0_6px_18px_rgba(75,79,242,0.38)] hover:-translate-y-0.5 transition-all" data-path="solved-questions" href="#">
+<span class="material-symbols-outlined text-[18px]">task_alt</span>
+<span class="">22 Solved Qs →</span>
+</a>
+</div>
+</div>
+</div>
+<!-- 06. Cylinder & Sphere -->
+<div class="chapter-card group relative bg-surface-container-lowest hover:bg-surface-container-low/80 rounded-2xl p-space-md lg:p-space-lg shadow-[0_2px_8px_rgba(24,26,43,0.03)] hover:shadow-[0_8px_24px_rgba(75,79,242,0.08)] transition-all duration-200" data-group="group-d high-yield" data-title="Cylinder Sphere Surface area total area volume combined solids hemisphere cone">
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md">
+<div class="flex items-start gap-space-md min-w-0">
+<span class="font-headline-lg text-headline-lg text-outline-variant group-hover:text-primary transition-colors shrink-0 w-12 pt-0.5 select-none font-extrabold">
+              06
+            </span>
+<div class="space-y-space-xs min-w-0">
+<div class="flex items-center gap-space-xs flex-wrap">
+<h3 class="font-headline-sm text-headline-sm text-on-surface tracking-tight group-hover:text-primary transition-colors">
+                  Cylinder &amp; Sphere
+                </h3>
+<span class="px-space-xs py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-caps text-label-caps">
+                  Weightage: 5 Marks · Group D HOT
+                </span>
+<span class="px-space-xs py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-caps text-label-caps">
+                  CDC High Yield
+                </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-1">
+                Surface area, total area, and volume of combined solids (hemisphere + cone, cylinder + hemisphere).
+              </p>
+<div class="flex items-center gap-space-md text-on-surface-variant font-body-sm text-body-sm pt-1">
+<span class="flex items-center gap-1 text-outline">
+<span class="material-symbols-outlined text-[15px]">radio_button_unchecked</span> Not Started
+                </span>
+<span class="">·</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[15px]">schedule</span> 40 min notes</span>
+<span class="">·</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[15px]">quiz</span> 26 questions</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-space-sm shrink-0 self-end lg:self-center">
+<a class="inline-flex items-center gap-space-xs px-space-md py-2.5 rounded-full bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-title text-body-md transition-colors" data-path="chapter-detail" href="#">
+<span class="material-symbols-outlined text-[18px]">menu_book</span>
+<span class="">Notes</span>
+</a>
+<a class="inline-flex items-center gap-space-xs px-space-lg py-2.5 rounded-full bg-primary-container text-on-primary font-title text-body-md shadow-[0_4px_12px_rgba(75,79,242,0.25)] hover:shadow-[0_6px_18px_rgba(75,79,242,0.38)] hover:-translate-y-0.5 transition-all" data-path="solved-questions" href="#">
+<span class="material-symbols-outlined text-[18px]">task_alt</span>
+<span class="">26 Solved Qs →</span>
+</a>
+</div>
+</div>
+</div>
+<!-- 07. Prism & Pyramid -->
+<div class="chapter-card group relative bg-surface-container-lowest hover:bg-surface-container-low/80 rounded-2xl p-space-md lg:p-space-lg shadow-[0_2px_8px_rgba(24,26,43,0.03)] hover:shadow-[0_8px_24px_rgba(75,79,242,0.08)] transition-all duration-200" data-group="group-c" data-title="Prism Pyramid Total surface area volume triangular square based slant height">
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md">
+<div class="flex items-start gap-space-md min-w-0">
+<span class="font-headline-lg text-headline-lg text-outline-variant group-hover:text-primary transition-colors shrink-0 w-12 pt-0.5 select-none font-extrabold">
+              07
+            </span>
+<div class="space-y-space-xs min-w-0">
+<div class="flex items-center gap-space-xs flex-wrap">
+<h3 class="font-headline-sm text-headline-sm text-on-surface tracking-tight group-hover:text-primary transition-colors">
+                  Prism &amp; Pyramid
+                </h3>
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-caps text-label-caps">
+                  Weightage: 4 Marks · Group C
+                </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-1">
+                Total surface area and volume of triangular and square-based pyramids, slant height relations.
+              </p>
+<div class="flex items-center gap-space-md text-on-surface-variant font-body-sm text-body-sm pt-1">
+<span class="flex items-center gap-1 text-outline">
+<span class="material-symbols-outlined text-[15px]">radio_button_unchecked</span> Not Started
+                </span>
+<span class="">·</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[15px]">schedule</span> 28 min notes</span>
+<span class="">·</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[15px]">quiz</span> 19 questions</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-space-sm shrink-0 self-end lg:self-center">
+<a class="inline-flex items-center gap-space-xs px-space-md py-2.5 rounded-full bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-title text-body-md transition-colors" data-path="chapter-detail" href="#">
+<span class="material-symbols-outlined text-[18px]">menu_book</span>
+<span class="">Notes</span>
+</a>
+<a class="inline-flex items-center gap-space-xs px-space-lg py-2.5 rounded-full bg-primary-container text-on-primary font-title text-body-md shadow-[0_4px_12px_rgba(75,79,242,0.25)] hover:shadow-[0_6px_18px_rgba(75,79,242,0.38)] hover:-translate-y-0.5 transition-all" data-path="solved-questions" href="#">
+<span class="material-symbols-outlined text-[18px]">task_alt</span>
+<span class="">19 Solved Qs →</span>
+</a>
+</div>
+</div>
+</div>
+<!-- 08. HCF & LCM -->
+<div class="chapter-card group relative bg-surface-container-lowest hover:bg-surface-container-low/80 rounded-2xl p-space-md lg:p-space-lg shadow-[0_2px_8px_rgba(24,26,43,0.03)] hover:shadow-[0_8px_24px_rgba(75,79,242,0.08)] transition-all duration-200" data-group="group-c" data-title="Highest Common Factor Lowest Common Multiple HCF LCM Algebraic fractions factorization rational algebraic">
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md">
+<div class="flex items-start gap-space-md min-w-0">
+<span class="font-headline-lg text-headline-lg text-outline-variant group-hover:text-primary transition-colors shrink-0 w-12 pt-0.5 select-none font-extrabold">
+              08
+            </span>
+<div class="space-y-space-xs min-w-0">
+<div class="flex items-center gap-space-xs flex-wrap">
+<h3 class="font-headline-sm text-headline-sm text-on-surface tracking-tight group-hover:text-primary transition-colors">
+                  Highest Common Factor &amp; Lowest Common Multiple (HCF &amp; LCM)
+                </h3>
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-caps text-label-caps">
+                  Weightage: 4 Marks · Group C
+                </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-1">
+                Algebraic fractions, factorization, and rational algebraic expressions.
+              </p>
+<div class="flex items-center gap-space-md text-on-surface-variant font-body-sm text-body-sm pt-1">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-tertiary">check_circle</span>
+                  Mastered (100%)
+                </span>
+<span class="">·</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[15px]">schedule</span> 22 min notes</span>
+<span class="">·</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[15px]">quiz</span> 20 questions</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-space-sm shrink-0 self-end lg:self-center">
+<a class="inline-flex items-center gap-space-xs px-space-md py-2.5 rounded-full bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-title text-body-md transition-colors" data-path="chapter-detail" href="#">
+<span class="material-symbols-outlined text-[18px]">menu_book</span>
+<span class="">Notes</span>
+</a>
+<a class="inline-flex items-center gap-space-xs px-space-lg py-2.5 rounded-full bg-primary-container text-on-primary font-title text-body-md shadow-[0_4px_12px_rgba(75,79,242,0.25)] hover:shadow-[0_6px_18px_rgba(75,79,242,0.38)] hover:-translate-y-0.5 transition-all" data-path="solved-questions" href="#">
+<span class="material-symbols-outlined text-[18px]">task_alt</span>
+<span class="">20 Solved Qs →</span>
+</a>
+</div>
+</div>
+</div>
+<!-- 09. Quadratic Equations & Simultaneous Equations -->
+<div class="chapter-card group relative bg-surface-container-lowest hover:bg-surface-container-low/80 rounded-2xl p-space-md lg:p-space-lg shadow-[0_2px_8px_rgba(24,26,43,0.03)] hover:shadow-[0_8px_24px_rgba(75,79,242,0.08)] transition-all duration-200" data-group="group-c high-yield" data-title="Quadratic Equations Simultaneous Equations Factorization quadratic formula word problems numbers age speed">
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md">
+<div class="flex items-start gap-space-md min-w-0">
+<span class="font-headline-lg text-headline-lg text-outline-variant group-hover:text-primary transition-colors shrink-0 w-12 pt-0.5 select-none font-extrabold">
+              09
+            </span>
+<div class="space-y-space-xs min-w-0">
+<div class="flex items-center gap-space-xs flex-wrap">
+<h3 class="font-headline-sm text-headline-sm text-on-surface tracking-tight group-hover:text-primary transition-colors">
+                  Quadratic Equations &amp; Simultaneous Equations
+                </h3>
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-caps text-label-caps">
+                  Weightage: 4 Marks · Group C
+                </span>
+<span class="px-space-xs py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-caps text-label-caps">
+                  CDC High Yield
+                </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-1">
+                Solving by factorization, quadratic formula, word problems on numbers, age, and speed.
+              </p>
+<div class="flex items-center gap-space-md text-on-surface-variant font-body-sm text-body-sm pt-1">
+<span class="flex items-center gap-1 text-primary font-title">
+<span class="material-symbols-outlined text-[15px]">pending</span> In Progress (65%)
+                </span>
+<span class="">·</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[15px]">schedule</span> 32 min notes</span>
+<span class="">·</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[15px]">quiz</span> 25 questions</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-space-sm shrink-0 self-end lg:self-center">
+<a class="inline-flex items-center gap-space-xs px-space-md py-2.5 rounded-full bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-title text-body-md transition-colors" data-path="chapter-detail" href="#">
+<span class="material-symbols-outlined text-[18px]">menu_book</span>
+<span class="">Notes</span>
+</a>
+<a class="inline-flex items-center gap-space-xs px-space-lg py-2.5 rounded-full bg-primary-container text-on-primary font-title text-body-md shadow-[0_4px_12px_rgba(75,79,242,0.25)] hover:shadow-[0_6px_18px_rgba(75,79,242,0.38)] hover:-translate-y-0.5 transition-all" data-path="solved-questions" href="#">
+<span class="material-symbols-outlined text-[18px]">task_alt</span>
+<span class="">25 Solved Qs →</span>
+</a>
+</div>
+</div>
+</div>
+<!-- 10. Indices & Surds -->
+<div class="chapter-card group relative bg-surface-container-lowest hover:bg-surface-container-low/80 rounded-2xl p-space-md lg:p-space-lg shadow-[0_2px_8px_rgba(24,26,43,0.03)] hover:shadow-[0_8px_24px_rgba(75,79,242,0.08)] transition-all duration-200" data-group="all" data-title="Indices Surds exponential laws radical equations rationalization denominators">
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md">
+<div class="flex items-start gap-space-md min-w-0">
+<span class="font-headline-lg text-headline-lg text-outline-variant group-hover:text-primary transition-colors shrink-0 w-12 pt-0.5 select-none font-extrabold">
+              10
+            </span>
+<div class="space-y-space-xs min-w-0">
+<div class="flex items-center gap-space-xs flex-wrap">
+<h3 class="font-headline-sm text-headline-sm text-on-surface tracking-tight group-hover:text-primary transition-colors">
+                  Indices &amp; Surds
+                </h3>
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-caps text-label-caps">
+                  Weightage: 3 Marks · Group B
+                </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-1">
+                Simplification of exponential laws, radical equations, and rationalization of surd denominators.
+              </p>
+<div class="flex items-center gap-space-md text-on-surface-variant font-body-sm text-body-sm pt-1">
+<span class="flex items-center gap-1 text-outline">
+<span class="material-symbols-outlined text-[15px]">radio_button_unchecked</span> Not Started
+                </span>
+<span class="">·</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[15px]">schedule</span> 20 min notes</span>
+<span class="">·</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[15px]">quiz</span> 18 questions</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-space-sm shrink-0 self-end lg:self-center">
+<a class="inline-flex items-center gap-space-xs px-space-md py-2.5 rounded-full bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-title text-body-md transition-colors" data-path="chapter-detail" href="#">
+<span class="material-symbols-outlined text-[18px]">menu_book</span>
+<span class="">Notes</span>
+</a>
+<a class="inline-flex items-center gap-space-xs px-space-lg py-2.5 rounded-full bg-primary-container text-on-primary font-title text-body-md shadow-[0_4px_12px_rgba(75,79,242,0.25)] hover:shadow-[0_6px_18px_rgba(75,79,242,0.38)] hover:-translate-y-0.5 transition-all" data-path="solved-questions" href="#">
+<span class="material-symbols-outlined text-[18px]">task_alt</span>
+<span class="">18 Solved Qs →</span>
+</a>
+</div>
+</div>
+</div>
+<!-- 11. Circle & Area of Triangles & Quadrilaterals -->
+<div class="chapter-card group relative bg-surface-container-lowest hover:bg-surface-container-low/80 rounded-2xl p-space-md lg:p-space-lg shadow-[0_2px_8px_rgba(24,26,43,0.03)] hover:shadow-[0_8px_24px_rgba(75,79,242,0.08)] transition-all duration-200" data-group="group-d high-yield" data-title="Circle Area Triangles Quadrilaterals Geometric proofs angles center circumference cyclic tangents">
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md">
+<div class="flex items-start gap-space-md min-w-0">
+<span class="font-headline-lg text-headline-lg text-outline-variant group-hover:text-primary transition-colors shrink-0 w-12 pt-0.5 select-none font-extrabold">
+              11
+            </span>
+<div class="space-y-space-xs min-w-0">
+<div class="flex items-center gap-space-xs flex-wrap">
+<h3 class="font-headline-sm text-headline-sm text-on-surface tracking-tight group-hover:text-primary transition-colors">
+                  Circle &amp; Area of Triangles &amp; Quadrilaterals
+                </h3>
+<span class="px-space-xs py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-caps text-label-caps">
+                  Weightage: 5 Marks · Group D HOT
+                </span>
+<span class="px-space-xs py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-caps text-label-caps">
+                  CDC High Yield
+                </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-1">
+                Geometric proofs: angles at center vs circumference, cyclic quadrilaterals, tangents.
+              </p>
+<div class="flex items-center gap-space-md text-on-surface-variant font-body-sm text-body-sm pt-1">
+<span class="flex items-center gap-1 text-primary font-title">
+<span class="material-symbols-outlined text-[15px]">pending</span> In Progress (20%)
+                </span>
+<span class="">·</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[15px]">schedule</span> 45 min notes</span>
+<span class="">·</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[15px]">quiz</span> 30 questions</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-space-sm shrink-0 self-end lg:self-center">
+<a class="inline-flex items-center gap-space-xs px-space-md py-2.5 rounded-full bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-title text-body-md transition-colors" data-path="chapter-detail" href="#">
+<span class="material-symbols-outlined text-[18px]">menu_book</span>
+<span class="">Notes</span>
+</a>
+<a class="inline-flex items-center gap-space-xs px-space-lg py-2.5 rounded-full bg-primary-container text-on-primary font-title text-body-md shadow-[0_4px_12px_rgba(75,79,242,0.25)] hover:shadow-[0_6px_18px_rgba(75,79,242,0.38)] hover:-translate-y-0.5 transition-all" data-path="solved-questions" href="#">
+<span class="material-symbols-outlined text-[18px]">task_alt</span>
+<span class="">30 Solved Qs →</span>
+</a>
+</div>
+</div>
+</div>
+<!-- 12. Statistics & Probability -->
+<div class="chapter-card group relative bg-surface-container-lowest hover:bg-surface-container-low/80 rounded-2xl p-space-md lg:p-space-lg shadow-[0_2px_8px_rgba(24,26,43,0.03)] hover:shadow-[0_8px_24px_rgba(75,79,242,0.08)] transition-all duration-200" data-group="group-c high-yield" data-title="Statistics Probability Median quartiles mean deviation continuous series tree diagrams mutually exclusive">
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md">
+<div class="flex items-start gap-space-md min-w-0">
+<span class="font-headline-lg text-headline-lg text-outline-variant group-hover:text-primary transition-colors shrink-0 w-12 pt-0.5 select-none font-extrabold">
+              12
+            </span>
+<div class="space-y-space-xs min-w-0">
+<div class="flex items-center gap-space-xs flex-wrap">
+<h3 class="font-headline-sm text-headline-sm text-on-surface tracking-tight group-hover:text-primary transition-colors">
+                  Statistics &amp; Probability
+                </h3>
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-caps text-label-caps">
+                  Weightage: 7 Marks · Group B/C
+                </span>
+<span class="px-space-xs py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-caps text-label-caps">
+                  CDC High Yield
+                </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-1">
+                Median, quartiles, mean deviation for continuous series, mutually exclusive and independent events with tree diagrams.
+              </p>
+<div class="flex items-center gap-space-md text-on-surface-variant font-body-sm text-body-sm pt-1">
+<span class="flex items-center gap-1 text-outline">
+<span class="material-symbols-outlined text-[15px]">radio_button_unchecked</span> Not Started
+                </span>
+<span class="">·</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[15px]">schedule</span> 35 min notes</span>
+<span class="">·</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[15px]">quiz</span> 24 questions</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-space-sm shrink-0 self-end lg:self-center">
+<a class="inline-flex items-center gap-space-xs px-space-md py-2.5 rounded-full bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-title text-body-md transition-colors" data-path="chapter-detail" href="#">
+<span class="material-symbols-outlined text-[18px]">menu_book</span>
+<span class="">Notes</span>
+</a>
+<a class="inline-flex items-center gap-space-xs px-space-lg py-2.5 rounded-full bg-primary-container text-on-primary font-title text-body-md shadow-[0_4px_12px_rgba(75,79,242,0.25)] hover:shadow-[0_6px_18px_rgba(75,79,242,0.38)] hover:-translate-y-0.5 transition-all" data-path="solved-questions" href="#">
+<span class="material-symbols-outlined text-[18px]">task_alt</span>
+<span class="">24 Solved Qs →</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- High-Impact Bottom Study Accelerators (Bento Pair) -->
+<section class="max-w-7xl mx-auto px-margin-sm lg:px-margin w-full pb-space-xl">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+<!-- Accelerator 1: Formula Sheet Download -->
+<div class="relative overflow-hidden bg-surface-container rounded-2xl p-space-lg flex flex-col justify-between group hover:shadow-[0_12px_32px_rgba(75,79,242,0.1)] transition-all duration-300">
+<div class="absolute -bottom-8 -right-8 w-44 h-44 rounded-full bg-primary-container/10 blur-2xl pointer-events-none"></div>
+<div class="space-y-space-sm z-10">
+<div class="inline-flex items-center gap-space-xs px-space-sm py-1 rounded-full bg-surface-container-lowest text-primary font-label-caps text-label-caps shadow-sm">
+<span class="material-symbols-outlined text-[16px]">picture_as_pdf</span>
+<span class="">Cheat Sheet Ready</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface tracking-tight">
+            Quick Download Formula Sheet (PDF)
+          </h4>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+            All 12 chapters compacted into a high-density 4-page printable revision booklet. Includes Heron's formula, solid geometry volume tables, and probability theorem matrices.
+          </p>
+</div>
+<div class="pt-space-md z-10 flex items-center gap-space-md">
+<a class="inline-flex items-center gap-space-xs px-space-lg py-space-sm rounded-full bg-on-surface text-surface-container-lowest font-title text-title hover:bg-primary transition-colors shadow-md" href="#">
+<span class="material-symbols-outlined text-[20px]">download</span>
+<span class="">Download PDF (2.4 MB)</span>
+</a>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Updated for SEE 2081</span>
+</div>
+</div>
+<!-- Accelerator 2: Mock Exam Simulator -->
+<div class="relative overflow-hidden bg-primary text-on-primary rounded-2xl p-space-lg flex flex-col justify-between group shadow-[0_8px_30px_rgba(47,48,218,0.25)] transition-all duration-300">
+<div class="absolute -top-12 -right-12 w-48 h-48 rounded-full bg-white/10 blur-2xl pointer-events-none"></div>
+<div class="space-y-space-sm z-10">
+<div class="inline-flex items-center gap-space-xs px-space-sm py-1 rounded-full bg-white/10 text-on-primary font-label-caps text-label-caps backdrop-blur-sm">
+<span class="material-symbols-outlined text-[16px]">timer</span>
+<span class="">3 Hours Real Simulation</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-primary tracking-tight">
+            Practice Full 3-Hour Mathematics Model Paper 2081
+          </h4>
+<p class="font-body-md text-body-md text-primary-fixed max-w-md">
+            Complete full mock examination set following the official CDC 100-mark grid: Group A (10m), Group B (34m), Group C (40m), Group D (16m) with real-time timer &amp; step-by-step marking rubric.
+          </p>
+</div>
+<div class="pt-space-md z-10 flex items-center gap-space-md">
+<a class="inline-flex items-center gap-space-xs px-space-lg py-space-sm rounded-full bg-surface-container-lowest text-primary font-title text-title hover:bg-surface-container-low shadow-lg transition-all hover:scale-[1.02]" data-path="practice" href="#">
+<span class="material-symbols-outlined text-[20px]">play_circle</span>
+<span class="">Start Simulated Exam</span>
+</a>
+<span class="font-body-sm text-body-sm text-primary-fixed-dim">Free Access</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Client-side Script for Instant Chapter Filtering and Search -->
+<script>
+    (function() {
+      const searchInput = document.getElementById('chapterSearchInput');
+      const container = document.getElementById('chapterListContainer');
+      const counter = document.getElementById('matchCounter');
+      const filterButtons = document.querySelectorAll('.filter-btn');
+
+      if (!searchInput || !container) return;
+
+      const cards = container.querySelectorAll('.chapter-card');
+      let activeFilter = 'all';
+
+      function applyFilters() {
+        const query = (searchInput.value || '').toLowerCase().trim();
+        let visibleCount = 0;
+
+        cards.forEach(card => {
+          const groupData = card.getAttribute('data-group') || '';
+          const titleData = (card.getAttribute('data-title') || '').toLowerCase();
+          const cardText = card.innerText.toLowerCase();
+
+          const matchesQuery = !query || titleData.includes(query) || cardText.includes(query);
+          const matchesGroup = activeFilter === 'all' || groupData.includes(activeFilter);
+
+          if (matchesQuery && matchesGroup) {
+            card.style.display = 'block';
+            visibleCount++;
+          } else {
+            card.style.display = 'none';
+          }
+        });
+
+        if (counter) {
+          counter.textContent = `Showing ${visibleCount} of ${cards.length} modules`;
+        }
+      }
+
+      searchInput.addEventListener('input', applyFilters);
+
+      // Keyboard shortcut (⌘K or Ctrl+K)
+      window.addEventListener('keydown', function(e) {
+        if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
+          e.preventDefault();
+          searchInput.focus();
+        }
+      });
+
+      filterButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          filterButtons.forEach(b => {
+            b.classList.remove('bg-primary', 'text-on-primary', 'shadow-[0_2px_8px_rgba(75,79,242,0.3)]');
+            b.classList.add('bg-surface-container', 'text-on-surface-variant');
+          });
+          btn.classList.remove('bg-surface-container', 'text-on-surface-variant');
+          btn.classList.add('bg-primary', 'text-on-primary', 'shadow-[0_2px_8px_rgba(75,79,242,0.3)]');
+
+          activeFilter = btn.getAttribute('data-filter') || 'all';
+          applyFilters();
+        });
+      });
+    })();
+  </script>
+</div></main><footer class="w-full bg-surface-container-low text-on-surface"><div class="max-w-7xl mx-auto px-margin-sm lg:px-margin py-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-gutter lg:gap-space-xl mb-space-xl"><div class="lg:col-span-2 space-y-space-md"><div class="flex items-center gap-space-sm"><img alt="SEE Sathi Official Brand Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VfqreKytT0I8MTcJBY7ZrTCVUrfGR4vxZdYnHnW0VJAkUshMi4PpqpKMgd8ppQITsRrIBE0_je8OitONXgy52wM-Pj2GnNucFyDmAu5XRr6K0XxBj4yDMo0UHZHKp0esEQGkMLSN2Jbv2L7vICEt4fBtfDtFq5N5AujqlCKBAwnroEFRA_QQmxsBXZPauiefggAxHbj2NOSvaVROmmH8bNIUR5e8eNCWWs3MdSS6LuUxbylz3uvgOpd7k"></div><p class="font-body-md text-body-md text-on-surface-variant max-w-sm">Empowering every Class 10 student across Nepal with world-class, beautifully structured study notes and solved questions.</p><div class="flex items-center gap-space-sm text-on-surface-variant pt-space-xs"><span class="inline-flex items-center px-space-sm py-space-xs rounded-full bg-surface-container text-primary font-label-caps text-label-caps">Nepal Curriculum (CDC) Verified</span></div></div><div class="space-y-space-sm"><h4 class="font-label-caps text-label-caps text-on-surface uppercase tracking-wider">Study</h4><ul class="space-y-space-xs"><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="study-notes" href="#" class="">Master Notes</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="solved-questions" href="#" class="">Question Bank</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="practice" href="#" class="">Formula Sheets</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="practice" href="#" class="">Mock SEE Papers</a></li></ul></div><div class="space-y-space-sm"><h4 class="font-label-caps text-label-caps text-on-surface uppercase tracking-wider">Subjects</h4><ul class="space-y-space-xs"><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="subject-detail" href="#" class="">Compulsory Math</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="subject-detail" href="#" class="">Science &amp; Tech</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="subject-detail" href="#" class="">Optional Math</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="subject-detail" href="#" class="">English &amp; Nepali</a></li></ul></div><div class="space-y-space-sm"><h4 class="font-label-caps text-label-caps text-on-surface uppercase tracking-wider">Resources</h4><ul class="space-y-space-xs"><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="home" href="#" class="">SEE Grading Guide</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="study-notes" href="#" class="">Syllabus Breakdown</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="chapter-detail" href="#" class="">Topper Answer Sets</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="practice" href="#" class="">Model Exam Simulator</a></li></ul></div><div class="space-y-space-sm"><h4 class="font-label-caps text-label-caps text-on-surface uppercase tracking-wider">Legal</h4><ul class="space-y-space-xs"><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="home" href="#" class="">About Mission</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="home" href="#" class="">Editorial Board</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="home" href="#" class="">Privacy Policy</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="home" href="#" class="">Terms of Use</a></li></ul></div></div><div class="pt-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-md text-on-surface-variant"><p class="font-body-sm text-body-sm">© 2026 SEE Sathi Technologies Pvt. Ltd. Kathmandu, Nepal.</p><div class="flex items-center gap-space-md font-body-sm text-body-sm"><span class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-tertiary">verified</span> CDC Curriculum Verified</span></div></div></div></footer>
+
+
+
+
+
+
+
+</body></html>
