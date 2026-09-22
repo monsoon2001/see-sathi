@@ -14,6 +14,7 @@ import {
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { chapterDisplayNumber } from "@/lib/chapterLabel";
+import { useChapterProgress } from "@/lib/chapterProgress";
 import type { Chapter } from "@/lib/types";
 
 type Filter = "all" | "group-c" | "group-d" | "high-yield";
@@ -24,7 +25,7 @@ function progressData(chapter: Chapter): { label: string; icon: typeof CheckCirc
   }
   if (chapter.progress === "in-progress") {
     return {
-      label: `In Progress (${chapter.progressPercent ?? 0}%)`,
+      label: chapter.progressPercent && chapter.progressPercent > 0 ? `In Progress (${chapter.progressPercent}%)` : "In Progress",
       icon: Hourglass,
       className: "text-primary font-title",
     };
@@ -280,6 +281,16 @@ export function ChapterRoadmap({ subjectSlug, chapters }: { subjectSlug: string;
   const [query, setQuery] = useState("");
   const inputRef = useRef<HTMLInputElement>(null);
   const isEnglish = subjectSlug === "english";
+  const { statusFor } = useChapterProgress();
+
+  const chaptersView = useMemo(
+    () =>
+      chapters.map((c) => {
+        const entry = statusFor(c.id);
+        return { ...c, progress: entry.status, progressPercent: entry.status === "mastered" ? 100 : entry.percent };
+      }),
+    [chapters, statusFor],
+  );
 
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
@@ -296,7 +307,7 @@ export function ChapterRoadmap({ subjectSlug, chapters }: { subjectSlug: string;
     const q = query.trim().toLowerCase();
     const items: ListItem[] = [];
     const groups = new Map<number, Chapter[]>();
-    for (const c of chapters) {
+    for (const c of chaptersView) {
       if (c.subLabel) {
         const arr = groups.get(c.number) ?? [];
         arr.push(c);
@@ -309,8 +320,8 @@ export function ChapterRoadmap({ subjectSlug, chapters }: { subjectSlug: string;
       const ordered = [...members].sort((a, b) => (a.subLabel ?? "").localeCompare(b.subLabel ?? ""));
       if (ordered.some((m) => matchGroup(m, filter) && matchQuery(m, q))) items.push({ kind: "group", members: ordered });
     }
-    return items.sort((a, b) => originalIndex(a, chapters) - originalIndex(b, chapters));
-  }, [chapters, filter, query]);
+    return items.sort((a, b) => originalIndex(a, chaptersView) - originalIndex(b, chaptersView));
+  }, [chaptersView, filter, query]);
 
   const groupedItems = useMemo(() => {
     if (!isEnglish) return null;

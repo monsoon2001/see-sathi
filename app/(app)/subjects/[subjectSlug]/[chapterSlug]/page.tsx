@@ -18,6 +18,7 @@ import {
   Star,
 } from "lucide-react";
 import { CopyFormulasButton } from "@/components/content/CopyFormulasButton";
+import { ChapterProgressToggle } from "@/components/chapters/ChapterProgressToggle";
 import { MathChapterViewer } from "@/components/math/MathChapterViewer";
 import { getChapters, getSubject } from "@/lib/data/subjects";
 import { getMathChapter } from "@/lib/mathChapter";
@@ -72,7 +73,7 @@ export default async function ChapterPage({ params }: { params: { subjectSlug: s
   if (mathChapter && mathChapter.notes.subject?.toLowerCase().includes(subjectKey)) {
     return (
       <div className="pb-24">
-        <MathChapterViewer chapter={mathChapter} />
+        <MathChapterViewer chapter={mathChapter} chapterId={chapter.id} />
       </div>
     );
   }
@@ -156,6 +157,9 @@ export default async function ChapterPage({ params }: { params: { subjectSlug: s
               <span className="font-title text-body-sm text-on-surface">
                 Board Appearances: <strong>2074–2081</strong>
               </span>
+            </div>
+            <div className="w-full max-w-sm sm:ml-auto">
+              <ChapterProgressToggle chapterId={chapter.id} />
             </div>
           </div>
         </div>

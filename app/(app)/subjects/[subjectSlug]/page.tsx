@@ -5,9 +5,9 @@ import {
   LayoutGrid,
   PlayCircle,
   Timer,
-  TrendingUp,
 } from "lucide-react";
 import { ChapterRoadmap } from "@/components/chapters/ChapterRoadmap";
+import { SubjectReadinessCard } from "@/components/subjects/SubjectReadinessCard";
 import { SubjectIcon } from "@/components/brand/SubjectIcon";
 import { ComputerScienceExamGuide } from "@/components/subjects/ComputerScienceExamGuide";
 import { ScienceExamGuide } from "@/components/subjects/ScienceExamGuide";
@@ -65,8 +65,6 @@ export default async function SubjectDetailPage({ params }: { params: { subjectS
   if (!subject) notFound();
 
   const chapters = await getChapters(subject.slug);
-  const mastered = chapters.filter((c) => c.progress === "mastered").length;
-  const readinessPct = chapters.length ? Math.round((mastered / chapters.length) * 100) : 0;
   const isNepali = subject.slug === "nepali";
 
   return (
@@ -113,26 +111,7 @@ export default async function SubjectDetailPage({ params }: { params: { subjectS
               </p>
             </div>
 
-            <div className="space-y-1 rounded-2xl border border-surface-container-high/60 bg-surface-container-low p-4 shadow-sm lg:col-span-4">
-              <div className="flex items-center justify-between">
-                <span className="text-label-caps uppercase text-on-surface-variant">Overall Exam Readiness</span>
-                <span className="font-title text-title text-primary">{readinessPct}% Prepared</span>
-              </div>
-              <div className="h-2.5 w-full overflow-hidden rounded-full bg-surface-container-high">
-                <div
-                  className="h-full rounded-full bg-primary-container transition-all duration-500"
-                  style={{ width: `${readinessPct}%` }}
-                />
-              </div>
-              <div className="flex items-center justify-between pt-1 font-body-sm text-body-sm text-on-surface-variant">
-                <span>
-                  {mastered} of {chapters.length} chapters mastered
-                </span>
-                <span className="flex items-center gap-0.5 font-title text-tertiary">
-                  <TrendingUp className="h-[14px] w-[14px]" aria-hidden="true" /> On Track for A+
-                </span>
-              </div>
-            </div>
+            <SubjectReadinessCard chapters={chapters} />
           </div>
 
           <div className="grid grid-cols-2 gap-2 pt-1 sm:grid-cols-4">

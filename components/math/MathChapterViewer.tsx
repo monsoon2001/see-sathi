@@ -10,6 +10,7 @@ import type { MathAnswerStep, MathBlock, MathChapter } from "@/lib/mathChapter";
 import { ImageBox, LangToggle, langFont, pickText } from "@/components/firestore/fsBlocks";
 import { RichText } from "@/components/math/RichText";
 import { ScrollProgressBar } from "@/components/layout/ScrollProgressBar";
+import { ChapterProgressToggle } from "@/components/chapters/ChapterProgressToggle";
 
 const SECTION_COLORS = [
   "bg-primary-container text-on-primary",
@@ -164,7 +165,7 @@ function SolutionSteps({ steps, finalAnswer, lang }: { steps: MathAnswerStep[]; 
   );
 }
 
-export function MathChapterViewer({ chapter }: { chapter: MathChapter }) {
+export function MathChapterViewer({ chapter, chapterId }: { chapter: MathChapter; chapterId?: string }) {
   const { notes, answers, folderId, imageUrls } = chapter;
   const [lang, setLang] = useState<Lang>("en");
   const [open, setOpen] = useState<Record<string, boolean>>({});
@@ -196,6 +197,7 @@ export function MathChapterViewer({ chapter }: { chapter: MathChapter }) {
               </span>
             </nav>
             <LangToggle lang={lang} onChange={setLang} />
+            {chapterId && <div className="w-full sm:w-72"><ChapterProgressToggle chapterId={chapterId} compact /></div>}
           </div>
         </div>
       </div>
