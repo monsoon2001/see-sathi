@@ -1,0 +1,1248 @@
+{
+  "chapterId": "see-2081-science-sudurpaschim-ans",
+  "subjectId": "science",
+  "classLevel": "10",
+  "province": "Sudurpaschim",
+  "examBoard": "SEE (National Examinations Board, Nepal)",
+  "examYear": "2081 (2025 AD)",
+  "paperCode": "RE-1041'SP'",
+  "fullMarks": 75,
+  "docType": "answerKey",
+  "linkedQuestionPaperId": "see-2081-science-sudurpaschim-qp",
+  "titleEn": "SEE 2081 (2025) Science — Model Answers (Sudurpaschim Province)",
+  "titleNe": "SEE २०८१ (२०२५) विज्ञान — नमूना उत्तर (सुदूरपश्चिम प्रदेश)",
+  "sourceNote": {
+    "en": "Digitised from the uploaded scan of the SEE 2081 (2025) Science question paper, Sudurpaschim Province, set 'SP'. The scan contains a student's handwritten name and rough calculations in the margins (e.g. 'Sandesh Lamsal', scratch work for Q1(e)/(f)/(h) and Q12) — these are not part of the printed paper and have been excluded from this JSON.",
+    "ne": "यो फाइल SEE 2081 (2025) विज्ञान प्रश्नपत्र, सुदूरपश्चिम प्रदेश, सेट 'SP' को स्क्यान गरिएको प्रतिबाट तयार पारिएको हो। स्क्यानमा विद्यार्थीले हातैले लेखेको नाम र छेउछाउमा गरेको हिसाब (जस्तै 'Sandesh Lamsal', प्रश्न 1(e)/(f)/(h) र 12 को स्क्र्याच वर्क) देखिन्छ — यी छापिएको प्रश्नपत्रको हिस्सा नभएकाले यस JSON बाट हटाइएको छ।"
+  },
+  "answerLanguageLevelNote": {
+    "en": "Answers and step-by-step solutions are written at a Class 10 (SEE) level of understanding, in simple bilingual language matching the question paper. Q2(d)'s figure could not be confidently identified from the scan — please verify against the original before publishing.",
+    "ne": "उत्तर तथा चरणबद्ध हलहरू कक्षा १० (SEE) स्तरको सजिलो र प्रश्नपत्रसँग मिल्दो द्विभाषिक भाषामा लेखिएका छन्। प्रश्न 2(d) को चित्र स्क्यानबाट पक्का पहिचान गर्न सकिएन — प्रकाशित गर्नुअघि मूल प्रतिसँग जाँच्नुहोस्।"
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "text": {
+        "en": "Model Answers — Science and Technology, SEE 2081 (Sudurpaschim)",
+        "ne": "नमूना उत्तर — विज्ञान तथा प्रविधि, SEE २०८१ (सुदूरपश्चिम)"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "These are model/reference answers written for Class 10 students. For long-answer numerical questions, full step-by-step working is included.",
+        "ne": "यी कक्षा १० का विद्यार्थीका लागि तयार पारिएका नमूना/सन्दर्भ उत्तरहरू हुन्। लामो उत्तर र सङ्ख्यात्मक प्रश्नहरूमा पूर्ण चरणबद्ध हल समावेश गरिएको छ।"
+      }
+    }
+  ],
+  "questionSections": [
+    {
+      "title": {
+        "en": "Section A — Multiple Choice Questions",
+        "ne": "खण्ड 'क' — बहुवैकल्पिक प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Choose the best alternative to the following questions and write in the answer sheet. (10 x 1 = 10)",
+        "ne": "तलका प्रश्नहरूको ठिक विकल्प छानी उत्तरपुस्तिकामा लेख्नुहोस्। (१०x१=१०)"
+      },
+      "items": [
+        {
+          "id": "q1a",
+          "questionNumber": "1(a)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "How many bits are there in 1 byte?",
+            "ne": "एक बाइटमा कति बिट हुन्छ ?"
+          },
+          "options": [
+            {
+              "en": "2",
+              "ne": "2"
+            },
+            {
+              "en": "4",
+              "ne": "4"
+            },
+            {
+              "en": "6",
+              "ne": "6"
+            },
+            {
+              "en": "8",
+              "ne": "8"
+            }
+          ],
+          "answer": {
+            "en": "8",
+            "ne": "8"
+          },
+          "solution": {
+            "en": "By definition, 1 byte = 8 bits, the standard grouping used to represent a single character in computer memory.",
+            "ne": "परिभाषाअनुसार, 1 byte = 8 bits हुन्छ, जुन कम्प्युटर मेमोरीमा एउटा क्यारेक्टर जनाउन प्रयोग हुने मानक समूह हो।"
+          },
+          "correctOption": "iv"
+        },
+        {
+          "id": "q1b",
+          "questionNumber": "1(b)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Which one of the following is a plant that bears flower, has fibrous root and no branches?",
+            "ne": "फूल फुल्ने, गुच्छे जरा हुने र हाँगा नहुने विरुवा दिइएकामध्ये कुन हो ?"
+          },
+          "options": [
+            {
+              "en": "fern",
+              "ne": "उनिउँ (fern)"
+            },
+            {
+              "en": "maize",
+              "ne": "मकै (maize)"
+            },
+            {
+              "en": "mustard",
+              "ne": "तोरी (mustard)"
+            },
+            {
+              "en": "cycas",
+              "ne": "साइकस (cycas)"
+            }
+          ],
+          "answer": {
+            "en": "maize",
+            "ne": "मकै (maize)"
+          },
+          "solution": {
+            "en": "Maize is a monocot plant with fibrous roots, an unbranched stem, and it bears flowers (in the form of tassels and cobs). Ferns do not bear flowers, mustard has a taproot and branches, and cycas is a gymnosperm that bears cones rather than true flowers.",
+            "ne": "मकै फुल फुल्ने (टासल र भुट्टाको रूपमा), गुच्छे जरा भएको, र हाँगा नभएको मोनोकट बिरुवा हो। उनिउँ (फर्न) मा फूल फुल्दैन, तोरीको जरा मूल जरा (taproot) र हाँगा हुन्छन्, र साइकस जिम्नोस्पर्म हो जसले साँचो फूलभन्दा कोन बनाउँछ।"
+          },
+          "correctOption": "ii"
+        },
+        {
+          "id": "q1c",
+          "questionNumber": "1(c)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Which order is right in terms of evolution?",
+            "ne": "विकास क्रमको आधारमा कुन क्रम सही छ ?"
+          },
+          "options": [
+            {
+              "en": "earthworm, jellyfish, frog, fish",
+              "ne": "गड्यौँला, जेलिफिस, भ्यागुता, माछा"
+            },
+            {
+              "en": "jellyfish, earthworm, frog, fish",
+              "ne": "जेलिफिस, गड्यौँला, भ्यागुता, माछा"
+            },
+            {
+              "en": "earthworm, jellyfish, fish, frog",
+              "ne": "गड्यौँला, जेलिफिस, माछा, भ्यागुता"
+            },
+            {
+              "en": "jellyfish, earthworm, fish, frog",
+              "ne": "जेलिफिस, गड्यौँला, माछा, भ्यागुता"
+            }
+          ],
+          "answer": {
+            "en": "jellyfish, earthworm, fish, frog",
+            "ne": "जेलिफिस, गड्यौँला, माछा, भ्यागुता"
+          },
+          "solution": {
+            "en": "In terms of evolutionary complexity (from simplest to most complex), the order is: jellyfish (a simple cnidarian) -> earthworm (a segmented worm/annelid) -> fish (the first vertebrates) -> frog (an amphibian, which evolved after fish and can live both in water and on land).",
+            "ne": "विकासक्रमको जटिलताको आधारमा (सरलदेखि जटिलसम्म), क्रम यस्तो हुन्छ: जेलिफिस (सरल सिलेन्टरेटा) -> गड्यौँला (खण्डयुक्त कृमि/एनेलिडा) -> माछा (पहिलो कशेरुकी) -> भ्यागुता (उभयचर, जुन माछापछि विकसित भई पानी र जमिन दुवैमा बाँच्न सक्छ)।"
+          },
+          "correctOption": "iv"
+        },
+        {
+          "id": "q1d",
+          "questionNumber": "1(d)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Volcanic eruption (A) and over use of fossil fuel (B) are two causes of climate change. Which of the following alternative is correct about these?",
+            "ne": "ज्वालामुखी विस्फोटन (A) र जीवावशेष इन्धनको दोहन (B) यी दुई जलवायु परिवर्तनका कारणहरू हुन्। यिनीहरूका बारेमा दिइएकामध्ये कुन विकल्प सही छ ?"
+          },
+          "options": [
+            {
+              "en": "A is a natural cause and B is a human cause",
+              "ne": "A प्राकृतिक कारण र B मानवीय कारण"
+            },
+            {
+              "en": "A is a human cause and B is a natural cause",
+              "ne": "A मानवीय कारण B प्राकृतिक कारण"
+            },
+            {
+              "en": "Both A and B are human causes",
+              "ne": "दुवै मानवीय कारण हुन्।"
+            },
+            {
+              "en": "Both A and B are natural causes",
+              "ne": "दुवै प्राकृतिक कारणहरू हुन्।"
+            }
+          ],
+          "answer": {
+            "en": "A is a natural cause and B is a human cause",
+            "ne": "A प्राकृतिक कारण र B मानवीय कारण"
+          },
+          "solution": {
+            "en": "Volcanic eruption (A) is a natural geological event, not caused by human activity, so it is a natural cause of climate change. Over-use of fossil fuels (B) results directly from human activities (burning coal, oil, gas for energy), so it is a human (anthropogenic) cause.",
+            "ne": "ज्वालामुखी विस्फोटन (A) एउटा प्राकृतिक भूगर्भीय घटना हो, जुन मानवीय गतिविधिले हुँदैन, त्यसैले यो जलवायु परिवर्तनको प्राकृतिक कारण हो। जीवाश्म इन्धनको अत्यधिक प्रयोग (B) सिधै मानवीय गतिविधि (ऊर्जाका लागि कोइला, तेल, ग्यास जलाउने) बाट हुन्छ, त्यसैले यो मानवीय (एन्थ्रोपोजेनिक) कारण हो।"
+          },
+          "correctOption": "i"
+        },
+        {
+          "id": "q1e",
+          "questionNumber": "1(e)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "If the radius of the Earth is halved keeping the mass constant, how will the value of acceleration due to gravity 'g' change?",
+            "ne": "यदि पृथ्वीको पिण्डलाई यथावत् राखी अर्धव्यासलाई आधा गर्दा गुरुत्वप्रवेग 'g' को मानमा कस्तो परिवर्तन आउँछ ?"
+          },
+          "options": [
+            {
+              "en": "becomes 1/2 times of the original value",
+              "ne": "पहिलेको मानको 1/2 गुणा हुन्छ"
+            },
+            {
+              "en": "becomes 1/3 of the original value",
+              "ne": "पहिलेको मानको 1/3 हुन्छ"
+            },
+            {
+              "en": "becomes 4 times of the original value",
+              "ne": "पहिलेको मानको 4 गुणा हुन्छ"
+            },
+            {
+              "en": "becomes 6 times of the original value",
+              "ne": "पहिलेको मानको 6 गुणा हुन्छ"
+            }
+          ],
+          "answer": {
+            "en": "becomes 4 times of the original value",
+            "ne": "पहिलेको मानको 4 गुणा हुन्छ"
+          },
+          "solution": {
+            "en": "g = GM/R². If R becomes R/2 while M stays constant, g_new = GM/(R/2)² = GM/(R²/4) = 4×(GM/R²) = 4g. So the new value of g becomes 4 times the original value.",
+            "ne": "g = GM/R²। M स्थिर राखी R लाई R/2 बनाउँदा, g_new = GM/(R/2)² = GM/(R²/4) = 4×(GM/R²) = 4g। त्यसैले g को नयाँ मान पहिलेको भन्दा 4 गुणा हुन्छ।"
+          },
+          "correctOption": "iii",
+          "solutionTable": {
+            "headers": [
+              {
+                "en": "Quantity",
+                "ne": "परिमाण"
+              },
+              {
+                "en": "Change",
+                "ne": "परिवर्तन"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "Mass (M)",
+                  "ne": "पिण्ड (M)"
+                },
+                {
+                  "en": "unchanged",
+                  "ne": "अपरिवर्तित"
+                }
+              ],
+              [
+                {
+                  "en": "Radius (R)",
+                  "ne": "अर्धव्यास (R)"
+                },
+                {
+                  "en": "R/2",
+                  "ne": "R/2"
+                }
+              ],
+              [
+                {
+                  "en": "g_new = GM/(R/2)²",
+                  "ne": "g_new = GM/(R/2)²"
+                },
+                {
+                  "en": "4g (4 times original)",
+                  "ne": "4g (पहिलेको 4 गुणा)"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "q1f",
+          "questionNumber": "1(f)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "In the adjoining figure, how much weight can be balanced on Piston B? (Piston A: 2 cm² with 30 N; Piston B: 10 cm²)",
+            "ne": "सँगैको चित्रमा पिस्टन B मा कति तौल सन्तुलन गर्न सकिन्छ ? (पिस्टन A: 2 cm² मा 30 N; पिस्टन B: 10 cm²)"
+          },
+          "options": [
+            {
+              "en": "100N",
+              "ne": "100N"
+            },
+            {
+              "en": "150 N",
+              "ne": "150 N"
+            },
+            {
+              "en": "200 N",
+              "ne": "200 N"
+            },
+            {
+              "en": "250 N",
+              "ne": "250 N"
+            }
+          ],
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-sudurpaschim/q1f-hydraulic-pistons.png",
+            "caption": {
+              "en": "Hydraulic piston system: piston A (2 cm², 30 N) connected to piston B (10 cm²).",
+              "ne": "हाइड्रोलिक पिस्टन प्रणाली: पिस्टन A (2 cm², 30 N) पिस्टन B (10 cm²) सँग जोडिएको।"
+            }
+          },
+          "answer": {
+            "en": "150 N",
+            "ne": "150 N"
+          },
+          "solution": {
+            "en": "By Pascal's law, F_A/A_A = F_B/A_B, so F_B = F_A × (A_B/A_A) = 30 N × (10 cm²/2 cm²) = 30 × 5 = 150 N.",
+            "ne": "पास्कलको नियमअनुसार, F_A/A_A = F_B/A_B, त्यसैले F_B = F_A × (A_B/A_A) = 30 N × (10 cm²/2 cm²) = 30 × 5 = 150 N।"
+          },
+          "correctOption": "ii",
+          "solutionTable": {
+            "headers": [
+              {
+                "en": "Quantity",
+                "ne": "परिमाण"
+              },
+              {
+                "en": "Value",
+                "ne": "मान"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "F_A",
+                  "ne": "F_A"
+                },
+                {
+                  "en": "30 N",
+                  "ne": "30 N"
+                }
+              ],
+              [
+                {
+                  "en": "A_A",
+                  "ne": "A_A"
+                },
+                {
+                  "en": "2 cm²",
+                  "ne": "2 cm²"
+                }
+              ],
+              [
+                {
+                  "en": "A_B",
+                  "ne": "A_B"
+                },
+                {
+                  "en": "10 cm²",
+                  "ne": "10 cm²"
+                }
+              ],
+              [
+                {
+                  "en": "F_B = F_A × A_B/A_A",
+                  "ne": "F_B = F_A × A_B/A_A"
+                },
+                {
+                  "en": "150 N",
+                  "ne": "150 N"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "q1g",
+          "questionNumber": "1(g)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Which situation will be correct when a ray of light enters glass from air and emerges in the air? [Note: i = angle of incidence, r = angle of refraction, e = emergent angle]",
+            "ne": "प्रकाशको किरण हावाबाट काँचमा प्रवेश गरी फेरि हावामा आएर आवर्तन हुँदा तलका मध्ये कुन अवस्था सही हुन्छ ? [नोट: i = आपतित कोण, r = परावर्तित कोण र e = इमर्जेन्ट कोण]"
+          },
+          "options": [
+            {
+              "en": "i = e < r",
+              "ne": "i = e < r"
+            },
+            {
+              "en": "i = e = r",
+              "ne": "i = e = r"
+            },
+            {
+              "en": "i > e = r",
+              "ne": "i > e = r"
+            },
+            {
+              "en": "i = e > r",
+              "ne": "i = e > r"
+            }
+          ],
+          "answer": {
+            "en": "i = e > r",
+            "ne": "i = e > r"
+          },
+          "solution": {
+            "en": "When light passes through a glass slab with parallel surfaces (entering from air and emerging back into air), the emergent ray is parallel to the incident ray, so the angle of incidence equals the angle of emergence (i = e). Since glass is denser than air, the ray bends towards the normal while entering, making the angle of refraction smaller than the angle of incidence (r < i). Combining these, i = e > r.",
+            "ne": "समानान्तर सतह भएको काँचको स्ल्याबबाट प्रकाश जाँदा (हावाबाट प्रवेश गरी फेरि हावामा निस्कँदा), निस्केको किरण प्रवेश गरेको किरणसँग समानान्तर हुन्छ, त्यसैले आपतित कोण र इमर्जेन्ट कोण बराबर हुन्छ (i = e)। काँच हावाभन्दा सघन भएकाले, प्रवेश गर्दा किरण नर्मलतिर बाङ्गिन्छ, जसले गर्दा परावर्तन कोण आपतित कोणभन्दा सानो हुन्छ (r < i)। यी दुवैलाई मिलाउँदा, i = e > r हुन्छ।"
+          },
+          "correctOption": "iv"
+        },
+        {
+          "id": "q1h",
+          "questionNumber": "1(h)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Due to which force do masses on the universe remain in their position?",
+            "ne": "ब्रह्माण्डमा रहेका खगोलीय पिण्डहरू कुन बलको कारण आफ्नो स्थानमा रहेका छन् ?"
+          },
+          "options": [
+            {
+              "en": "nuclear force",
+              "ne": "न्युक्लीयर बल"
+            },
+            {
+              "en": "gravitational force",
+              "ne": "गुरुत्वाकर्षण बल"
+            },
+            {
+              "en": "magnetic force",
+              "ne": "चुम्बकीय बल"
+            },
+            {
+              "en": "electro-magnetic force",
+              "ne": "विद्युत चुम्बकीय बल"
+            }
+          ],
+          "answer": {
+            "en": "gravitational force",
+            "ne": "गुरुत्वाकर्षण बल"
+          },
+          "solution": {
+            "en": "Gravitational force is the attractive force that acts between all masses in the universe, and it is this force that keeps celestial bodies (planets, stars, galaxies) held together and in their relative positions/orbits.",
+            "ne": "गुरुत्वाकर्षण बल ब्रह्माण्डमा रहेका सबै पिण्डबिच लाग्ने आकर्षण बल हो, र यही बलले खगोलीय पिण्डहरू (ग्रह, तारा, ग्यालेक्सी) लाई एकसाथ र आफ्नो सापेक्षिक स्थान/परिक्रमामा राख्छ।"
+          },
+          "correctOption": "ii"
+        },
+        {
+          "id": "q1i",
+          "questionNumber": "1(i)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Which type of chemical reaction is given below? Zn + HCl -> ZnCl2 + H2",
+            "ne": "तल दिइएको रासायनिक प्रतिक्रिया कुन प्रकारको हो ? Zn + HCl -> ZnCl2 + H2"
+          },
+          "options": [
+            {
+              "en": "Combination",
+              "ne": "संयोजन"
+            },
+            {
+              "en": "Decomposition",
+              "ne": "विभाजन"
+            },
+            {
+              "en": "Displacement",
+              "ne": "विस्थापन"
+            },
+            {
+              "en": "Neutralization",
+              "ne": "निराकरण"
+            }
+          ],
+          "answer": {
+            "en": "Displacement",
+            "ne": "विस्थापन"
+          },
+          "solution": {
+            "en": "In Zn + HCl -> ZnCl2 + H2, the more reactive metal zinc displaces the less reactive hydrogen from hydrochloric acid, which is the defining feature of a (single) displacement reaction.",
+            "ne": "Zn + HCl -> ZnCl2 + H2 मा, बढी क्रियाशील धातु जिङ्कले हाइड्रोक्लोरिक एसिडबाट कम क्रियाशील हाइड्रोजनलाई विस्थापित गर्छ, जुन (एकल) विस्थापन प्रतिक्रियाको मुख्य विशेषता हो।"
+          },
+          "correctOption": "iii"
+        },
+        {
+          "id": "q1j",
+          "questionNumber": "1(j)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Fruit sellers use a certain white powder to ripen fruits. What could be the name of this chemical?",
+            "ne": "फलफूल व्यवसायीले फलफूल पकाउनका लागि एक सेतो धुलो पाउडर प्रयोग गर्दछन्। यो रसायनको नाम के हुन सक्छ ?"
+          },
+          "options": [
+            {
+              "en": "Sodium Sulphate",
+              "ne": "सोडियम सल्फेट"
+            },
+            {
+              "en": "Sodium Carbonate",
+              "ne": "सोडियम कार्बोनेट"
+            },
+            {
+              "en": "Calcium Carbide",
+              "ne": "क्यालिसियम कार्बाइड"
+            },
+            {
+              "en": "Calcium Carbonate",
+              "ne": "क्यालिसियम कार्बोनेट"
+            }
+          ],
+          "answer": {
+            "en": "Calcium Carbide",
+            "ne": "क्यालिसियम कार्बाइड"
+          },
+          "solution": {
+            "en": "Calcium Carbide (CaC2) is the white powder commonly (though unsafely) used by some fruit sellers to artificially ripen fruits quickly, as it reacts with moisture to produce acetylene gas, which mimics the natural ripening hormone ethylene.",
+            "ne": "क्यालिसियम कार्बाइड (CaC2) सेतो पाउडर हो जुन केही फलफूल व्यवसायीले फलफूल छिटो पकाउन (असुरक्षित रूपमा भए पनि) प्रयोग गर्छन्, किनभने यसले चिस्यानसँग प्रतिक्रिया गरी एसेटिलिन ग्यास बनाउँछ, जसले प्राकृतिक पकाउने हर्मोन इथिलिनको जस्तै काम गर्छ।"
+          },
+          "correctOption": "iii"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Section B — Very Short Answer Questions",
+        "ne": "खण्ड 'ख' — अति छोटो उत्तर प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Write very short answers to the following questions. (9 x 1 = 9)",
+        "ne": "तलका प्रश्नहरूको अति छोटो उत्तर लेख्नुहोस् : (९x१=९)"
+      },
+      "items": [
+        {
+          "id": "q2a",
+          "questionNumber": "2(a)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Write a difference between fundamental unit and derived unit.",
+            "ne": "आधारभूत एकाई र तत्जन्य एकाईबिच कुनै एक भिन्नता लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "A fundamental unit is a basic unit that cannot be derived from other units (e.g. metre, kilogram, second), whereas a derived unit is obtained by combining fundamental units through multiplication or division (e.g. m/s for speed, or Newton for force).",
+            "ne": "आधारभूत एकाई भनेको अन्य एकाईबाट व्युत्पन्न गर्न नसकिने आधारभूत एकाई हो (जस्तै मिटर, किलोग्राम, सेकेन्ड), जबकि तत्जन्य एकाई भनेको आधारभूत एकाईहरूलाई गुणन वा भागद्वारा मिलाएर बनाइएको एकाई हो (जस्तै गति नाप्ने m/s, वा बल नाप्ने न्युटन)।"
+          }
+        },
+        {
+          "id": "q2b",
+          "questionNumber": "2(b)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Name the force applied by water in upward direction to the body immersed in it.",
+            "ne": "कुनै बस्तुलाई पानीमा डुबाउँदा पानीले त्यस वस्तुलाई माथितिर धकेल्न लगाउने बललाई के भनिन्छ ?"
+          },
+          "answer": {
+            "en": "Upthrust (buoyant force).",
+            "ne": "उर्ध्वचाप (बोएन्ट फोर्स)।"
+          }
+        },
+        {
+          "id": "q2c",
+          "questionNumber": "2(c)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Why does a ray of light bend towards normal while refracting from air to glass?",
+            "ne": "प्रकाशको किरण हावाबाट काँचमा जाँदा नर्मलतिर बाङ्गिन्छ, किन ?"
+          },
+          "answer": {
+            "en": "Glass is optically denser than air, and light travels more slowly in a denser medium. This change in speed causes the ray to bend towards the normal as it enters the denser glass from the rarer air.",
+            "ne": "काँच हावाभन्दा प्रकाशीय रूपमा सघन हुन्छ, र सघन माध्यममा प्रकाशको गति ढिलो हुन्छ। गतिमा हुने यो परिवर्तनले विरल हावाबाट सघन काँचमा प्रवेश गर्दा किरणलाई नर्मलतिर बाङ्ग्याउँछ।"
+          }
+        },
+        {
+          "id": "q2d",
+          "questionNumber": "2(d)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "To which phenomenon of light is the given figure related?",
+            "ne": "दिइएको चित्र प्रकाशको कुन प्रक्रियासँग सम्बन्धित छ ?"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-sudurpaschim/q2d-light-phenomenon.png",
+            "caption": {
+              "en": "Light rays bending near a wavy/uneven reference line (exact phenomenon not fully clear from the scan — possibly atmospheric refraction/twinkling of stars).",
+              "ne": "छेउछाउको धर्सा/असमान रेखानजिक बाङ्गिँदै गरेका प्रकाश किरण (स्क्यानबाट ठ्याक्कै प्रक्रिया छुट्याउन गाह्रो — सम्भवतः वायुमण्डलीय आवर्तन/ताराको टिलिक्क बल्नु)।"
+            }
+          },
+          "answer": {
+            "en": "Based on the visible sketch (rays bending near an uneven/wavy reference line), this figure most likely relates to atmospheric refraction — specifically, the twinkling of stars, which happens because starlight bends unpredictably as it passes through air layers of varying density/temperature in the atmosphere. (Note: the exact figure was not fully legible in the scan — please confirm against the original paper, as it could alternatively depict a related phenomenon such as a mirage.)",
+            "ne": "देखिने रेखाचित्र (असमान/छेउछाउको धर्सा नजिक बाङ्गिँदै गरेका किरण) को आधारमा, यो चित्र सम्भवतः वायुमण्डलीय आवर्तनसँग सम्बन्धित छ — विशेष गरी, ताराको टिलिक्क बल्नु, जुन वायुमण्डलमा फरक-फरक घनत्व/तापक्रम भएका हावाका तहबाट तारकोप्रकाश अनियमित रूपमा बाङ्गिँदा हुन्छ। (नोट: स्क्यानमा ठ्याक्कै चित्र स्पष्ट थिएन — कृपया मूल प्रश्नपत्रसँग पुष्टि गर्नुहोस्, किनकि यो मृगमरीचिका जस्तो सम्बन्धित अर्को प्रक्रिया पनि हुन सक्छ।)"
+          }
+        },
+        {
+          "id": "q2e",
+          "questionNumber": "2(e)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Give one reason why wire vibrates when current/electricity is passed through the coil of wire placed near a magnet.",
+            "ne": "चित्रमा दिइएको क्वाइलमा विद्युत प्रवाह गर्दा तार कम्पन हुन्छ किन ? कुनै एउटा कारण दिनुहोस्।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-sudurpaschim/q2e-coil-magnet-vibration.png",
+            "caption": {
+              "en": "A coil of wire placed near a bar magnet (S-N), connected in a circuit.",
+              "ne": "बार म्याग्नेट (S-N) नजिक राखिएको तारको क्वाइल, सर्किटसँग जोडिएको।"
+            }
+          },
+          "answer": {
+            "en": "The wire vibrates due to the motor effect — when current flows through the wire placed in the magnetic field of the nearby magnet, the magnetic field exerts a force on the current-carrying wire (F = BIL), causing it to move/vibrate.",
+            "ne": "तार मोटर असरको कारणले कम्पन हुन्छ — नजिकैको चुम्बकको चुम्बकीय क्षेत्रमा राखिएको तारमा करेन्ट बग्दा, चुम्बकीय क्षेत्रले करेन्ट बग्ने तारमा बल लगाउँछ (F = BIL), जसले गर्दा तार चल्छ/कम्पन हुन्छ।"
+          }
+        },
+        {
+          "id": "q2f",
+          "questionNumber": "2(f)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Write one condition necessary for a closed universe to form.",
+            "ne": "बन्द ब्रह्माण्ड हुनको लागि आवश्यक पर्ने एउटा अवस्था लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "For a closed universe to form, the average density of the universe must be greater than the critical density, so that the total gravitational pull is strong enough to eventually stop and reverse the expansion of the universe.",
+            "ne": "बन्द ब्रह्माण्ड बन्नका लागि, ब्रह्माण्डको औसत घनत्व क्रिटिकल घनत्वभन्दा बढी हुनुपर्छ, ताकि समग्र गुरुत्वाकर्षण तानले ब्रह्माण्डको विस्तारलाई अन्ततः रोकेर उल्टो (खुम्चिने) बनाउन सकोस्।"
+          }
+        },
+        {
+          "id": "q2g",
+          "questionNumber": "2(g)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Define ore.",
+            "ne": "धाउको परिभाषा दिनुहोस्।"
+          },
+          "answer": {
+            "en": "An ore is a mineral or rock from which a metal can be extracted profitably/economically.",
+            "ne": "धाउ भनेको त्यस्तो खनिज वा चट्टान हो जसबाट धातुलाई नाफामूलक/आर्थिक रूपमा निकाल्न सकिन्छ।"
+          }
+        },
+        {
+          "id": "q2h",
+          "questionNumber": "2(h)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Which concentration method is applied during the purification of iron from its ore?",
+            "ne": "फलामको धाउबाट शुद्ध फलाम प्रशोधन गर्दा अपनाइने कन्सेन्ट्रेसन विधि कुन होला ?"
+          },
+          "answer": {
+            "en": "Gravity separation (hydraulic washing) is commonly applied to concentrate iron ore, since the iron ore particles are heavier/denser than the unwanted earthy impurities (gangue) and settle out when washed with a flowing stream of water.",
+            "ne": "फलामको धाउलाई सान्द्रित गर्न सामान्यतया गुरुत्व पृथकीकरण (हाइड्रोलिक वासिङ) विधि अपनाइन्छ, किनभने फलामको धाउका कण अनावश्यक माटोजन्य अशुद्धि (ग्याङ्ग)भन्दा भारी/घना हुन्छन् र बगिरहेको पानीको धारले धोउँदा फरक हुन्छन्।"
+          }
+        },
+        {
+          "id": "q2i",
+          "questionNumber": "2(i)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Why are hydrocarbons called organic compounds?",
+            "ne": "हाइड्रोकार्वनलाई किन प्राङ्गारिक यौगिक भनिन्छ ?"
+          },
+          "answer": {
+            "en": "Hydrocarbons are called organic compounds because organic chemistry originally referred to the study of compounds derived from living organisms, and hydrocarbons — being carbon-and-hydrogen based compounds forming the structural backbone of most substances found in or derived from living things — fall under this same carbon-based chemistry.",
+            "ne": "हाइड्रोकार्बनलाई प्राङ्गारिक यौगिक भनिन्छ किनभने प्राङ्गारिक रसायनशास्त्र मूलतः जीवित प्राणीबाट प्राप्त हुने यौगिकहरूको अध्ययनलाई जनाउँथ्यो, र हाइड्रोकार्बन — कार्बन र हाइड्रोजनमा आधारित यौगिक जसले धेरैजसो जीवजन्तुसम्बन्धी पदार्थको संरचनात्मक आधार बनाउँछ — पनि यसै कार्बन-आधारित रसायनशास्त्र अन्तर्गत पर्छ।"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Section C — Short Answer Questions",
+        "ne": "खण्ड 'ग' — छोटो उत्तर प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Write short answers to the following questions. (14 x 2 = 28)",
+        "ne": "तलका प्रश्नहरूको छोटो उत्तर लेख्नुहोस् : (१४x२=२८)"
+      },
+      "items": [
+        {
+          "id": "q3",
+          "questionNumber": "3",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Name a dependent and an independent variable of an observation of the growth rate of plants in a lighted room and dark room.",
+            "ne": "उज्यालो कोठा र अध्याँरो कोठामा विरुवाको वृद्धिमा के फरक पर्दछ भनी गरिएको अवलोकनमा एउटा स्वतन्त्र र एउटा आश्रित चर लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "Independent variable: the lighting condition of the room (lighted room vs dark room). Dependent variable: the growth rate of the plant.",
+            "ne": "स्वतन्त्र चर: कोठाको उज्यालो अवस्था (उज्यालो कोठा वा अध्याँरो कोठा)। आश्रित चर: बिरुवाको वृद्धि दर।"
+          }
+        },
+        {
+          "id": "q4",
+          "questionNumber": "4",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Write the Phylum of the following organisms: (i) slug (ii) sea-cucumber",
+            "ne": "निम्न जीवहरूको फाइलम लेख्नुहोस् । (i) चिप्लेकिरा (slug) (ii) सिक्युकम्बर (Sea-cucumber)"
+          },
+          "answer": {
+            "en": "(i) Slug — Phylum Mollusca. (ii) Sea-cucumber — Phylum Echinodermata.",
+            "ne": "(i) चिप्लेकिरा — फाइलम मोलस्का। (ii) सिक्युकम्बर — फाइलम इकाइनोडर्मेटा।"
+          }
+        },
+        {
+          "id": "q5",
+          "questionNumber": "5",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Write any two advantages of bee-keeping for farmers.",
+            "ne": "मौरी पालनबाट कृषकलाई हुने कुनै दुई फाइदाहरू लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "1) Bee-keeping provides farmers with an additional source of income through the sale of honey and beeswax. 2) Bees pollinate crops as they collect nectar and pollen, which improves the yield and quality of the surrounding crops/fruits.",
+            "ne": "१) मौरी पालनले किसानलाई मह र मौरीको मैन बेचेर थप आम्दानीको स्रोत दिन्छ। २) मौरीले मह र पराग सङ्कलन गर्दा वरपरका बाली/फलफूलमा परागसेचन गराउँछ, जसले उत्पादन र गुणस्तर बढाउँछ।"
+          }
+        },
+        {
+          "id": "q6",
+          "questionNumber": "6",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Why is meiosis cell division called reduction division? What is a diploid cell?",
+            "ne": "मियोसिस कोष विभाजनलाई न्युनीकरण विभाजन भनिन्छ, किन ? डिप्लोइड कोष भनेको के हो ?"
+          },
+          "answer": {
+            "en": "Meiosis is called reduction division because it reduces the chromosome number by half — starting from a diploid (2n) cell, it produces haploid (n) gametes. A diploid cell is a cell that contains two complete sets of chromosomes (2n), one set inherited from each parent.",
+            "ne": "मियोसिसलाई न्युनीकरण विभाजन भनिन्छ किनभने यसले क्रोमोजोम सङ्ख्यालाई आधा घटाउँछ — डिप्लोइड (2n) कोषबाट सुरु भई हेप्लोइड (n) ग्यामेट उत्पादन गर्छ। डिप्लोइड कोष भनेको दुई पूर्ण सेट क्रोमोजोम (2n) भएको कोष हो, जसमा एक सेट प्रत्येक अभिभावकबाट आएको हुन्छ।"
+          }
+        },
+        {
+          "id": "q7",
+          "questionNumber": "7",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "What is In-Vitro Fertilization (IVF)? Explain briefly about it.",
+            "ne": "इनभिट्रो फर्टिलाइजेसन (IVF) भनेको के हो ? यसको बारेमा छोटकरीमा व्याख्या गर्नुहोस्।"
+          },
+          "answer": {
+            "en": "In-Vitro Fertilization (IVF) is an assisted reproductive technology in which an egg (ovum) is fertilised by a sperm outside the human body, in a laboratory dish ('in vitro'). The resulting embryo is then implanted into the woman's uterus to establish a pregnancy. It is commonly used to help couples who are facing difficulty conceiving naturally.",
+            "ne": "इनभिट्रो फर्टिलाइजेसन (IVF) एउटा सहायक प्रजनन प्रविधि हो, जसमा डिम्बलाई शरीर बाहिर, प्रयोगशालाको भाँडोमा ('इनभिट्रो') शुक्रकिटले निषेचन गराइन्छ। त्यसपछि बनेको भ्रूणलाई महिलाको पाठेघरमा प्रत्यारोपण गरी गर्भावस्था स्थापित गरिन्छ। यो प्राकृतिक रूपमा गर्भधारण गर्न कठिनाइ भइरहेका दम्पत्तिलाई सहयोग गर्न सामान्यतया प्रयोग गरिन्छ।"
+          }
+        },
+        {
+          "id": "q8",
+          "questionNumber": "8",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Write one use each of Turmeric and Asiatic Pennywort.",
+            "ne": "बेसार र घोडटाप्रेको एक एक ओटा उपयोग लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "Turmeric: used as an antiseptic — commonly applied to wounds/cuts to prevent infection and speed up healing. Asiatic Pennywort (Ghodtapre): used to improve memory and brain function (a well-known 'brain tonic' in traditional medicine).",
+            "ne": "बेसार: एन्टिसेप्टिकको रूपमा प्रयोग — सामान्यतया घाउ/चोटमा सङ्क्रमण रोक्न र चाँडो निको पार्न लगाइन्छ। घोडटाप्रे: सम्झनाशक्ति र दिमागको कार्यक्षमता सुधार्न प्रयोग गरिन्छ (परम्परागत औषधिमा प्रख्यात 'दिमागको टानिक')।"
+          }
+        },
+        {
+          "id": "q9",
+          "questionNumber": "9",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Write the name of the disease which shows the following symptoms: (i) headache, reddish face, nose bleeding, sweating (ii) excess appetite and thirst, frequent urination, weight loss",
+            "ne": "निम्न लक्षणहरू देखिने रोगको नाम लेख्नुहोस्। (i) टाउको दुख्ने, अनुहार रातो हुने, नाथ्रो फुट्ने, पसिना आउने (ii) धेरै भोक र तिर्खा लाग्ने, छिन-छिनमा पिसाब लाग्ने, तौल घट्ने"
+          },
+          "answer": {
+            "en": "(i) High blood pressure (Hypertension). (ii) Diabetes (Diabetes mellitus).",
+            "ne": "(i) उच्च रक्तचाप (हाइपरटेन्सन)। (ii) मधुमेह (डायबिटिज मेलाइटस)।"
+          }
+        },
+        {
+          "id": "q10",
+          "questionNumber": "10",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "The value of acceleration due to gravity is more in the polar region than the equatorial region, why?",
+            "ne": "गुरुत्वप्रवेगको मान पृथ्वीको भू-मध्यरेखीय खण्डमा भन्दा ध्रुवीय खण्डमा बढी हुन्छ, किन ?"
+          },
+          "answer": {
+            "en": "The Earth is not a perfect sphere — it is an oblate spheroid, slightly flattened at the poles and bulging at the equator. This means the polar radius is smaller than the equatorial radius. Since g = GM/R², a smaller radius at the poles results in a larger value of g there, compared to the equator where the larger radius reduces g.",
+            "ne": "पृथ्वी पूर्ण गोलाकार होइन — यो ध्रुवमा अलिकति चप्टिएको र भू-मध्यरेखामा फुलेको ओब्लेट स्फेरोइड हो। यसको अर्थ ध्रुवीय अर्धव्यास भू-मध्यरेखीय अर्धव्यासभन्दा सानो हुन्छ। g = GM/R² भएकाले, ध्रुवमा सानो अर्धव्यासले त्यहाँ g को मान बढी दिन्छ, जबकि भू-मध्यरेखामा ठूलो अर्धव्यासले g घटाउँछ।"
+          }
+        },
+        {
+          "id": "q11",
+          "questionNumber": "11",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Write any two differences between acceleration due to gravity (g) and gravitational constant (G).",
+            "ne": "गुरुत्वप्रवेग (g) र गुरुत्वाकर्षण अचर (G) मा कुनै दुईओटा फरक लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "1) g (acceleration due to gravity) varies depending on the mass and radius of the celestial body and changes from place to place (e.g. it differs on Earth vs Moon, and even at different points on Earth), whereas G (gravitational constant) is a universal constant with the same value everywhere in the universe. 2) g has the unit of acceleration, m/s², whereas G has the unit N·m²/kg² (a different dimensional unit).",
+            "ne": "१) g (गुरुत्वप्रवेग) आकाशीय पिण्डको पिण्ड र अर्धव्यासमा भर पर्छ र ठाउँअनुसार फरक हुन्छ (जस्तै पृथ्वी र चन्द्रमामा फरक हुन्छ, पृथ्वीका विभिन्न ठाउँमा पनि अलि फरक हुन्छ), जबकि G (गुरुत्वाकर्षण अचर) ब्रह्माण्डभर उही मान हुने विश्वव्यापी अचर हो। २) g को एकाइ त्वरणको m/s² हुन्छ, जबकि G को एकाइ N·m²/kg² (फरक आयामी एकाइ) हुन्छ।"
+          }
+        },
+        {
+          "id": "q12",
+          "questionNumber": "12",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "What type of transformer is shown in the figure? If the potential difference in coil A is 700 V, calculate the voltage produced in coil B. (Np = 1000, Ns = 50)",
+            "ne": "चित्रमा देखाइएको ट्रान्सफर्मर कुन प्रकारको हो ? A मा 700 V को भोल्टेज पठाउँदा B मा कति भोल्टेज उत्पन्न हुन्छ ? (np = 1000, ns = 50)"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-sudurpaschim/q12-transformer.png",
+            "caption": {
+              "en": "Transformer with coil A (np=1000 turns) and coil B (ns=50 turns).",
+              "ne": "क्वाइल A (np=1000 फन्का) र क्वाइल B (ns=50 फन्का) भएको ट्रान्सफर्मर।"
+            }
+          },
+          "answer": {
+            "en": "This is a step-down transformer (since Ns < Np). Voltage produced in coil B = 35 V.",
+            "ne": "यो स्टेप-डाउन ट्रान्सफर्मर हो (किनकि Ns < Np)। क्वाइल B मा उत्पन्न भोल्टेज = 35 V।"
+          },
+          "solution": {
+            "en": "Vs/Vp = Ns/Np, so Vs = Vp × (Ns/Np) = 700 × (50/1000) = 700 × 0.05 = 35 V. Since the secondary voltage (35 V) is less than the primary voltage (700 V), this is a step-down transformer.",
+            "ne": "Vs/Vp = Ns/Np, त्यसैले Vs = Vp × (Ns/Np) = 700 × (50/1000) = 700 × 0.05 = 35 V। सेकेन्डरी भोल्टेज (35 V) प्राइमरी भोल्टेज (700 V) भन्दा कम भएकाले, यो स्टेप-डाउन ट्रान्सफर्मर हो।"
+          },
+          "solutionTable": {
+            "headers": [
+              {
+                "en": "Quantity",
+                "ne": "परिमाण"
+              },
+              {
+                "en": "Value",
+                "ne": "मान"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "Vp (coil A)",
+                  "ne": "Vp (क्वाइल A)"
+                },
+                {
+                  "en": "700 V",
+                  "ne": "700 V"
+                }
+              ],
+              [
+                {
+                  "en": "Np",
+                  "ne": "Np"
+                },
+                {
+                  "en": "1000",
+                  "ne": "1000"
+                }
+              ],
+              [
+                {
+                  "en": "Ns",
+                  "ne": "Ns"
+                },
+                {
+                  "en": "50",
+                  "ne": "50"
+                }
+              ],
+              [
+                {
+                  "en": "Vs = Vp × Ns/Np",
+                  "ne": "Vs = Vp × Ns/Np"
+                },
+                {
+                  "en": "35 V",
+                  "ne": "35 V"
+                }
+              ],
+              [
+                {
+                  "en": "Type",
+                  "ne": "प्रकार"
+                },
+                {
+                  "en": "Step-down transformer",
+                  "ne": "स्टेप-डाउन ट्रान्सफर्मर"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "q13",
+          "questionNumber": "13",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Name an instrument in which an electro-magnet is used, and write a use of that instrument.",
+            "ne": "विद्युत चुम्बक प्रयोग भएको एउटा उपकरणको नाम लेखी त्यसको एउटा उपयोगिता पनि लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "Electric bell is an instrument in which an electro-magnet is used. It is used to produce a ringing/alert sound, for example in doorbells, alarms, and school bells.",
+            "ne": "इलेक्ट्रिक बेल एउटा उपकरण हो जसमा विद्युत चुम्बक प्रयोग हुन्छ। यसलाई घण्टी/सतर्क गर्ने आवाज उत्पन्न गर्न प्रयोग गरिन्छ, जस्तै डोरबेल, अलार्म, र स्कुलको घण्टीमा।"
+          }
+        },
+        {
+          "id": "q14",
+          "questionNumber": "14",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Beaker A contains dil. HCl at 30°C and beaker B contains dil. HCl at 20°C. If limestones of the same size are placed in those beakers, in which beaker will the reaction take place faster? Why?",
+            "ne": "विकर A मा 30°C तापक्रम भएको फिका HCl र विकर B मा 20°C तापक्रम भएको फिका HCl राखिएको छ। दुवैमा समान साइजका चुनढुङ्गाका टुक्राहरू राखियो भने कुन चाँहिमा चाँडो रासायनिक प्रतिक्रिया हुन्छ, किन ?"
+          },
+          "answer": {
+            "en": "The reaction will take place faster in Beaker A (at 30°C), because a higher temperature gives the reacting particles more kinetic energy, causing more frequent and more energetic collisions between the acid and the limestone (CaCO3), which increases the rate of the reaction.",
+            "ne": "प्रतिक्रिया विकर A (30°C) मा चाँडो हुन्छ, किनभने बढी तापक्रमले प्रतिक्रिया गर्ने कणहरूलाई बढी गतिज ऊर्जा दिन्छ, जसले एसिड र चुनढुङ्गा (CaCO3) बिच बढी पटक र बढी शक्तिशाली टक्कर हुन्छ, जसले प्रतिक्रियाको दर बढाउँछ।"
+          }
+        },
+        {
+          "id": "q15",
+          "questionNumber": "15",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "A student had made a model of methane and another student had made a model of propane. Their teacher removed one hydrogen atom from the terminals of each model and joined them together. Now which hydrocarbon is formed? Write its structural formula too.",
+            "ne": "एकजना विद्यार्थीले सिथेन र अर्कोले प्रोपेनको मोडल बनाएका थिए। शिक्षकले दुवै मोडलका छेउको हाइड्रोजन निकालेर दुवैलाई आपसमा जोडिदिन भयो। अब कुन हाइड्रोकार्बन तयार भयो ? यसको संरचना सूत्र पनि बनाउनुहोस्।"
+          },
+          "answer": {
+            "en": "Butane (C4H10) is formed. Structural formula: CH3-CH2-CH2-CH3.",
+            "ne": "ब्युटेन (C4H10) बन्छ। संरचना सूत्र: CH3-CH2-CH2-CH3।"
+          },
+          "solution": {
+            "en": "Removing one hydrogen from methane (CH4) leaves a -CH3 group with one open bond. Removing one hydrogen from a terminal carbon of propane (C3H8, CH3-CH2-CH3) leaves a -CH2-CH2-CH3 group with one open bond. Joining these two open bonds together gives CH3-CH2-CH2-CH3, a four-carbon chain, which is butane.",
+            "ne": "मिथेन (CH4) बाट एउटा हाइड्रोजन हटाउँदा एउटा खुला बन्ड भएको -CH3 समूह बाँकी रहन्छ। प्रोपेन (C3H8, CH3-CH2-CH3) को अन्तिम कार्बनबाट एउटा हाइड्रोजन हटाउँदा एउटा खुला बन्ड भएको -CH2-CH2-CH3 समूह बाँकी रहन्छ। यी दुई खुला बन्डलाई जोड्दा CH3-CH2-CH2-CH3 बन्छ, जुन चार-कार्बन चेन हो, अर्थात् ब्युटेन।"
+          }
+        },
+        {
+          "id": "q16",
+          "questionNumber": "16",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Write any two precautions to be taken while using insecticides.",
+            "ne": "किटनाशक औषधीको प्रयोग गर्दा अपनाउनुपर्ने दुईओटा सावधानीहरू लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "1) Wear proper protective gear (gloves, mask, full-sleeve clothing) while handling and spraying insecticides to avoid direct skin contact and inhalation. 2) Use only the recommended dose at the recommended time, and avoid spraying insecticides close to the harvest period, to minimise chemical residue on the crop and in the environment.",
+            "ne": "१) किटनाशक ह्यान्डल र स्प्रे गर्दा उचित सुरक्षा साधन (पन्जा, मास्क, पूरा बाहुला भएको लुगा) लगाउने, ताकि छालामा सिधै सम्पर्क र सास फेर्दा शरीरभित्र जानबाट बचिन्छ। २) सिफारिस गरिएको मात्रा र समयमा मात्र प्रयोग गर्ने, र बाली टिप्ने समयनजिक किटनाशक नछर्कने, ताकि बाली र वातावरणमा रासायनिक अवशेष न्यून हुन्छ।"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Section D — Long Answer Questions",
+        "ne": "खण्ड 'घ' — लामो उत्तर प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Write long answer to the following questions. (7 x 4 = 28)",
+        "ne": "तलका प्रश्नहरूको लामो उत्तर लेख्नुहोस् : (७x४=२८)"
+      },
+      "items": [
+        {
+          "id": "q17",
+          "questionNumber": "17",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Write any two positive and two negative effects that occur while using social media online.",
+            "ne": "अनलाइनमा बसेर सामाजिक सञ्जाल प्रयोग गर्दा हुने दुईओटा सकारात्मक र दुईओटा नकारात्मक प्रभावहरू लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "Two positive effects: 1) Enables instant communication and staying connected with friends and family regardless of distance. 2) Provides a platform for sharing information, learning new things, and even business/marketing opportunities. Two negative effects: 1) Excessive use can lead to addiction, reduced productivity, and negative impacts on mental health (anxiety, poor sleep). 2) Raises risks of cyberbullying, spread of misinformation, and privacy/security breaches.",
+            "ne": "दुई सकारात्मक प्रभाव: १) टाढा भए पनि साथी र परिवारसँग तत्काल सञ्चार र सम्पर्कमा रहन मिल्छ। २) जानकारी आदानप्रदान, नयाँ कुरा सिक्ने, र व्यवसाय/मार्केटिङको अवसर पनि दिन्छ। दुई नकारात्मक प्रभाव: १) अत्यधिक प्रयोगले लत, उत्पादकत्वमा कमी, र मानसिक स्वास्थ्यमा नकारात्मक असर (चिन्ता, निद्रामा खलल) ल्याउन सक्छ। २) साइबरबुलिङ, गलत सूचनाको प्रसार, र गोपनीयता/सुरक्षा उल्लङ्घनको जोखिम बढाउँछ।"
+          }
+        },
+        {
+          "id": "q18",
+          "questionNumber": "18",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Can a white child be born even though both parents are black? Explain on the basis of Mendelism with a suitable chart and reason.",
+            "ne": "के बाबु आमा दुवै कालो हुँदा पनि गोरो सन्तान जन्मन सक्छ ? मेन्डलको सिद्धान्तको आधारमा कसरी यो सम्भव भयो ? चार्टमा देखाइ कारणसहित व्याख्या गर्नुहोस्।"
+          },
+          "answer": {
+            "en": "Yes, a white child can be born even though both parents are black, if both parents are heterozygous carriers of the recessive white-skin allele (genotype Bb, where B = black is dominant and b = white is recessive). Even though both parents show the black phenotype (because B is dominant), each secretly carries one copy of the recessive 'b' allele. When two such heterozygous (Bb) parents have children, a Punnett square cross of Bb × Bb gives offspring in the ratio 1 BB : 2 Bb : 1 bb — a genotypic ratio of 1:2:1, and a phenotypic ratio of 3 black : 1 white. So there is a 1-in-4 (25%) chance that a child inherits two copies of the recessive 'b' allele (bb) and is born with white/light skin, even though both parents themselves appear black.",
+            "ne": "हो, बाबु आमा दुवै कालो भए पनि गोरो सन्तान जन्मन सक्छ, यदि दुवै अभिभावक खैरो/गोरो छालाको लुप्त एलिल (जिनोटाइप Bb, जहाँ B = कालो प्रवल र b = गोरो लुप्त हो) बोकेका हेटेरोजाइगस क्यारियर छन् भने। दुवै अभिभावकले कालो फिनोटाइप देखाए पनि (किनभने B प्रवल हो), प्रत्येकले लुकेको एक प्रति लुप्त 'b' एलिल बोकेका हुन्छन्। यस्ता दुई हेटेरोजाइगस (Bb) अभिभावकको सन्तान हुँदा, Bb × Bb को पनेट-वर्ग क्रसले सन्तानमा 1 BB : 2 Bb : 1 bb अनुपात दिन्छ — जिनोटाइपिक अनुपात 1:2:1, र फिनोटाइपिक अनुपात 3 कालो : 1 गोरो। त्यसैले सन्तानले दुई प्रति लुप्त 'b' एलिल (bb) पाई गोरो/उज्यालो छालासहित जन्मने सम्भावना 4 मा 1 (25%) रहन्छ, भलै दुवै अभिभावक आफैं कालो देखिए पनि।"
+          },
+          "solutionTable": {
+            "headers": [
+              {
+                "en": "Gametes",
+                "ne": "ग्यामिट"
+              },
+              {
+                "en": "B",
+                "ne": "B"
+              },
+              {
+                "en": "b",
+                "ne": "b"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "B",
+                  "ne": "B"
+                },
+                {
+                  "en": "BB (black)",
+                  "ne": "BB (कालो)"
+                },
+                {
+                  "en": "Bb (black)",
+                  "ne": "Bb (कालो)"
+                }
+              ],
+              [
+                {
+                  "en": "b",
+                  "ne": "b"
+                },
+                {
+                  "en": "Bb (black)",
+                  "ne": "Bb (कालो)"
+                },
+                {
+                  "en": "bb (white)",
+                  "ne": "bb (गोरो)"
+                }
+              ]
+            ]
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-sudurpaschim/q18-Bb-cross-chart-answer.png",
+            "caption": {
+              "en": "Model answer chart: Punnett square for Bb × Bb cross.",
+              "ne": "नमूना उत्तर चार्ट: Bb × Bb क्रसको पनेट-वर्ग।"
+            }
+          }
+        },
+        {
+          "id": "q19",
+          "questionNumber": "19",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "(a) An iron ball of mass 1 kg at 80°C is cooled to 20°C, how much heat energy is lost by the iron ball? (Specific heat capacity of iron = 460 J/kg°C) (b) Draw a graph that shows the relationship between temperature and volume of water when it is heated from 0°C to 10°C.",
+            "ne": "(a) 80°C तापक्रम भएको 1 kg को फलामको डल्लोलाई 20°C तापक्रम सम्म चिस्याउँदा कति तापशक्ति गुमाउँछ ? (फलामको विशिष्ट तापधारण क्षमता = 460 J/kg°C) (b) पानीलाई 0°C देखि 10°C सम्म तताउँदा तापक्रम र पानीको आयतनको सम्बन्ध ग्राफमा देखाउनुहोस्।"
+          },
+          "answer": {
+            "en": "(a) 27,600 J (= 27.6 kJ) of heat energy is lost. (b) See the model graph: as water is heated from 0°C to 4°C, its volume decreases (reaching a minimum at 4°C, where density is maximum); as it is heated further from 4°C to 10°C, its volume increases again — this is the anomalous expansion of water.",
+            "ne": "(a) 27,600 J (= 27.6 kJ) ताप शक्ति गुम्छ। (b) नमूना ग्राफ हेर्नुहोस्: पानीलाई 0°C देखि 4°C सम्म तताउँदा यसको आयतन घट्छ (4°C मा न्यूनतम आयतन/अधिकतम घनत्व हुन्छ); त्यसपछि 4°C देखि 10°C सम्म तताउँदा आयतन फेरि बढ्छ — यसैलाई पानीको असाधारण फैलावट भनिन्छ।"
+          },
+          "solution": {
+            "en": "Q = mcΔT, where m = 1 kg, c = 460 J/kg°C, ΔT = 80°C − 20°C = 60°C. Q = 1 × 460 × 60 = 27,600 J.",
+            "ne": "Q = mcΔT, जहाँ m = 1 kg, c = 460 J/kg°C, ΔT = 80°C − 20°C = 60°C। Q = 1 × 460 × 60 = 27,600 J।"
+          },
+          "solutionTable": {
+            "headers": [
+              {
+                "en": "Quantity",
+                "ne": "परिमाण"
+              },
+              {
+                "en": "Value",
+                "ne": "मान"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "Mass (m)",
+                  "ne": "पिण्ड (m)"
+                },
+                {
+                  "en": "1 kg",
+                  "ne": "1 kg"
+                }
+              ],
+              [
+                {
+                  "en": "Specific heat (c)",
+                  "ne": "विशिष्ट ताप (c)"
+                },
+                {
+                  "en": "460 J/kg°C",
+                  "ne": "460 J/kg°C"
+                }
+              ],
+              [
+                {
+                  "en": "ΔT",
+                  "ne": "ΔT"
+                },
+                {
+                  "en": "60°C",
+                  "ne": "60°C"
+                }
+              ],
+              [
+                {
+                  "en": "Q = mcΔT",
+                  "ne": "Q = mcΔT"
+                },
+                {
+                  "en": "27,600 J",
+                  "ne": "27,600 J"
+                }
+              ]
+            ]
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-sudurpaschim/q19b-water-volume-temp-graph-answer.png",
+            "caption": {
+              "en": "Model answer graph: volume of water vs temperature, 0-10°C, showing a minimum at 4°C.",
+              "ne": "नमूना उत्तर ग्राफ: पानीको आयतन र तापक्रम, 0-10°C, 4°C मा न्यूनतम देखाउँदै।"
+            }
+          }
+        },
+        {
+          "id": "q20",
+          "questionNumber": "20",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "(a) Diamond shines more than glass, why? Write two reasons. (b) Draw a diagram to show the splitting of white light into seven colors when it passes through a prism. Label the colors in the diagram in correct order.",
+            "ne": "(a) काँच र हिरामा, हिरा बढी चम्किनका दुईओटा कारणहरू लेख्नुहोस्। (b) सेतो प्रकाशलाई प्रिज्मबाट पठाउँदा सात अलग-अलग रङमा विच्छेदन हुने प्रक्रियाको चित्र बनाउनुहोस् र चित्रमा रङहरूको नाम क्रमसँग लेख्नुहोस्।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-sudurpaschim/q20b-dispersion-prism-answer.png",
+            "caption": {
+              "en": "Model answer diagram: dispersion of white light through a prism, labelled VIBGYOR.",
+              "ne": "नमूना उत्तर चित्र: प्रिज्मबाट सेतो प्रकाशको विच्छेदन, VIBGYOR लेबल गरिएको।"
+            }
+          },
+          "answer": {
+            "en": "(a) Two reasons: 1) Diamond has a much higher refractive index (about 2.42) than glass (about 1.5), which bends light more strongly and causes greater total internal reflection within the diamond, making it sparkle brightly. 2) Diamonds are cut with many precise angled facets that are specifically designed to maximise total internal reflection and dispersion of light into spectral colours, giving diamonds much more brilliance than glass, which is usually cut with fewer/less precise facets. (b) See the model diagram: white light entering a triangular prism splits into seven colours in the order Violet, Indigo, Blue, Green, Yellow, Orange, Red (VIBGYOR) as it exits.",
+            "ne": "(a) दुई कारण: १) हिराको रिफ्र्याक्टिभ इन्डेक्स (लगभग 2.42) काँच (लगभग 1.5) भन्दा धेरै बढी हुन्छ, जसले प्रकाशलाई बढी बलपूर्वक झुकाउँछ र हिराभित्र बढी पूर्ण आन्तरिक परावर्तन गराउँछ, जसले यसलाई चम्किलो बनाउँछ। २) हिरालाई धेरै सटीक कोणमा काटिएको फेसेटसहित काटिन्छ, जुन विशेष गरी पूर्ण आन्तरिक परावर्तन र प्रकाशको स्पेक्ट्रल रङमा विच्छेदन अधिकतम बनाउन डिजाइन गरिएको हुन्छ, जसले हिरालाई काँचभन्दा धेरै बढी चम्किलो बनाउँछ, जबकि काँच सामान्यतया कम/कम सटीक फेसेटसहित काटिन्छ। (b) नमूना चित्र हेर्नुहोस्: त्रिकोणीय प्रिज्ममा प्रवेश गरेको सेतो प्रकाश निस्कँदा सात रङमा विच्छेदन हुन्छ, क्रम: वैजनी, नीलम, नीलो, हरियो, पहेंलो, सुन्तला, रातो (VIBGYOR)।"
+          }
+        },
+        {
+          "id": "q21",
+          "questionNumber": "21",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Write the name of three proteins found in plasma. Write the name of plasma which is obtained after the removal of the protein which helps in clotting of blood.",
+            "ne": "प्लाज्मामा पाइने तीनओटा प्रोटिनको नाम लेख्नुहोस्। रगत जम्न सहयोग गर्ने प्रोटिन हटाएपछिको प्लाज्मालाई के भनिन्छ ? लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "Three proteins found in plasma: Albumin, Globulin, and Fibrinogen. The plasma obtained after removing fibrinogen (the protein that helps in blood clotting) is called Serum.",
+            "ne": "प्लाज्मामा पाइने तीनओटा प्रोटिन: एल्बुमिन, ग्लोबुलिन, र फाइब्रिनोजेन। रगत जम्न सहयोग गर्ने प्रोटिन (फाइब्रिनोजेन) हटाएपछिको प्लाज्मालाई सेरम भनिन्छ।"
+          }
+        },
+        {
+          "id": "q22",
+          "questionNumber": "22",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Which element is more reactive between sodium and potassium, why? Write the electronic configuration of chlorine on the basis of sub-shell and write its group in the periodic table.",
+            "ne": "सोडियम र पोटासियममा कुन तत्त्व बढी सक्रिय हुन्छ, किन ? क्लोरिनको उपसेलको इलेक्ट्रोन विन्यास लेख्नुहोस् र यसको पिरियोडिक तालिकाको समूह उल्लेख गर्नुहोस्।"
+          },
+          "answer": {
+            "en": "Potassium (K) is more reactive than sodium (Na), because potassium has one more electron shell than sodium (larger atomic radius), so its single valence electron is farther from the nucleus and less strongly held, making it easier to lose — reactivity of alkali metals increases going down the group. Electronic configuration of Chlorine (Cl, atomic number 17): 1s² 2s²2p⁶ 3s²3p⁵. Chlorine belongs to Group 17 (the halogens) of the periodic table.",
+            "ne": "पोटासियम (K) सोडियम (Na) भन्दा बढी सक्रिय हुन्छ, किनभने पोटासियममा सोडियमभन्दा एक थप इलेक्ट्रोन सेल हुन्छ (ठूलो परमाणु अर्धव्यास), त्यसैले यसको एउटा मात्र भ्यालेन्स इलेक्ट्रोन न्युक्लियसबाट टाढा र कम बलपूर्वक बाँधिएको हुन्छ, जसले त्यसलाई त्याग्न सजिलो बनाउँछ — समूहमा तल जाँदा क्षार धातुको सक्रियता बढ्छ। क्लोरिन (Cl, परमाणु सङ्ख्या 17) को इलेक्ट्रोन विन्यास: 1s² 2s²2p⁶ 3s²3p⁵। क्लोरिन पिरियोडिक तालिकाको समूह 17 (हेलोजन) मा पर्छ।"
+          }
+        },
+        {
+          "id": "q23",
+          "questionNumber": "23",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Draw a neat diagram of the apparatus fitted to prepare ammonia gas in the laboratory and label any one part. What is the function of the lime tower in this process?",
+            "ne": "प्रयोगशालामा एमोनिया ग्यास बनाउने विधिको सफा चित्र बनाई कुनै एउटा भागको नामाकरण गर्नुहोस्। यस प्रक्रियामा प्रयोग हुने लाइम टावरको काम के हो ?"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-sudurpaschim/q23-nh3-preparation-limetower-answer.png",
+            "caption": {
+              "en": "Model answer diagram: laboratory preparation of ammonia gas with a lime tower for drying.",
+              "ne": "नमूना उत्तर चित्र: लाइम टावरसहित प्रयोगशालामा एमोनिया ग्यास तयार पार्ने विधि।"
+            }
+          },
+          "answer": {
+            "en": "The apparatus involves heating a mixture of ammonium chloride and calcium hydroxide (slaked lime) in a flask; the ammonia gas produced passes through a lime tower (containing quicklime, CaO) before being collected in an inverted/upright gas jar by downward displacement of air (since ammonia is lighter than air). Function of the lime tower: it dries the ammonia gas by absorbing moisture/water vapour from it before collection — CaO is used (rather than an acidic drying agent) because it is basic and does not react with the basic ammonia gas.",
+            "ne": "यो उपकरणमा फ्लास्कमा एमोनियम क्लोराइड र क्यालिसियम हाइड्रोक्साइड (चुनढुङ्गाको पानी) को मिश्रण तताइन्छ; बनेको एमोनिया ग्यास लाइम टावर (क्याल्सियम अक्साइड, CaO भएको) बाट भएर गएपछि, हावाभन्दा हल्का भएकाले तल्लो हावा विस्थापन विधिद्वारा ठाडो ग्यास जारमा सङ्कलन गरिन्छ। लाइम टावरको काम: यसले सङ्कलन गर्नुअघि एमोनिया ग्यासबाट चिस्यान/वाष्प सोसेर सुकाउँछ — CaO प्रयोग गरिन्छ (अम्लीय सुकाउने पदार्थको सट्टा) किनभने यो क्षारीय हो र क्षारीय एमोनिया ग्याससँग प्रतिक्रिया गर्दैन।"
+          }
+        }
+      ]
+    }
+  ]
+}

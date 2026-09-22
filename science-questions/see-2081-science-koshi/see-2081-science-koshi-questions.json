@@ -1,0 +1,746 @@
+{
+  "subjectId": "science",
+  "classLevel": "10",
+  "province": "Koshi",
+  "examBoard": "SEE (National Examinations Board, Nepal)",
+  "examYear": "2081 (2025 AD)",
+  "paperCode": "RE-1041'KoP'",
+  "fullMarks": 75,
+  "timeAllowed": "3 hours",
+  "sourceNote": {
+    "en": "Digitised from the uploaded scan of the SEE 2081 (2025) Science question paper, Koshi Province, set 'KoP'.",
+    "ne": "यो फाइल SEE 2081 (2025) विज्ञान प्रश्नपत्र, कोशी प्रदेश, सेट 'KoP' को स्क्यान गरिएको प्रतिबाट तयार पारिएको हो।"
+  },
+  "chapterId": "see-2081-science-koshi-qp",
+  "docType": "questionPaper",
+  "titleEn": "SEE 2081 (2025) Science Question Paper — Koshi Province",
+  "titleNe": "SEE २०८१ (२०२५) विज्ञान तथा प्रविधि प्रश्नपत्र — कोशी प्रदेश",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": {
+        "en": "SEE 2081 (2025) — Science and Technology",
+        "ne": "SEE २०८१ (२०२५) — विज्ञान तथा प्रविधि"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "Time: 3 hours | Full Marks: 75. Answer creatively in your own style, based on the given instructions.",
+        "ne": "समय : ३ घण्टा | पूर्णाङ्क : ७५। दिइएका निर्देशनका आधारमा आफ्नै शैलीमा सिर्जनात्मक उत्तर दिनुहोस्।"
+      }
+    }
+  ],
+  "questionSections": [
+    {
+      "title": {
+        "en": "Section A — Multiple Choice Questions",
+        "ne": "खण्ड 'क' — बहुवैकल्पिक प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Choose the best alternative to the following questions and write in the answer sheet. (10 x 1 = 10)",
+        "ne": "तलका प्रश्नहरूको ठिक विकल्प छानी उत्तरपुस्तिकामा लेख्नुहोस्। (१०x१=१०)"
+      },
+      "items": [
+        {
+          "id": "q1a",
+          "questionNumber": "1(a)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Which of the following units is used for measuring the capacity of computer memory?",
+            "ne": "निम्नमध्ये कम्प्युटर मेमोरीको क्षमता नाप्ने एकाई कुन हो ?"
+          },
+          "options": [
+            {
+              "en": "Hz",
+              "ne": "हर्ज (Hz)"
+            },
+            {
+              "en": "KHz",
+              "ne": "किलो हर्ज (KHz)"
+            },
+            {
+              "en": "MHz",
+              "ne": "मेगा हर्ज (MHz)"
+            },
+            {
+              "en": "GB",
+              "ne": "गिगा बाइट्स (GB)"
+            }
+          ]
+        },
+        {
+          "id": "q1b",
+          "questionNumber": "1(b)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Which of the following is the phenotypic ratio of a monohybrid cross in the F2 generation on the basis of recessive and dominant character?",
+            "ne": "मोनोहाइब्रिड क्रसको दोस्रो वंशमा देखिने सन्तानहरूको लुप्त गुण र प्रवल गुणको आधारमा फिनोटाइपिक अनुपात कुन हुन सक्छ ?"
+          },
+          "options": [
+            {
+              "en": "1:3",
+              "ne": "1:3"
+            },
+            {
+              "en": "3:1",
+              "ne": "3:1"
+            },
+            {
+              "en": "1:2:1",
+              "ne": "1:2:1"
+            },
+            {
+              "en": "1:1:2",
+              "ne": "1:1:2"
+            }
+          ]
+        },
+        {
+          "id": "q1c",
+          "questionNumber": "1(c)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Which of the following organ produces male gamete in fern?",
+            "ne": "ऊनिउमा भाले ग्यामेट उत्पादन गर्ने अङ्ग तलकामध्ये कुन हो ?"
+          },
+          "options": [
+            {
+              "en": "Antheridium",
+              "ne": "एन्थेरिडियम"
+            },
+            {
+              "en": "Archegonium",
+              "ne": "आर्किगोनियम"
+            },
+            {
+              "en": "Sorus",
+              "ne": "सोरस"
+            },
+            {
+              "en": "Gemma cup",
+              "ne": "गेम्मा कप"
+            }
+          ]
+        },
+        {
+          "id": "q1d",
+          "questionNumber": "1(d)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Which of the following plant is used for curing stomach and skin diseases?",
+            "ne": "पेट र छाला सम्बन्धी रोगहरूको उपचार गर्न निम्न मध्ये कुन विरुवालाई परम्परागत रूपमा प्रयोग गरिन्छ ?"
+          },
+          "options": [
+            {
+              "en": "Aloe-vera",
+              "ne": "घ्युकुमारी"
+            },
+            {
+              "en": "Yarsagumba",
+              "ne": "यार्सागुम्वा"
+            },
+            {
+              "en": "Bojo",
+              "ne": "बोजो"
+            },
+            {
+              "en": "Tulasi",
+              "ne": "तुलसी"
+            }
+          ]
+        },
+        {
+          "id": "q1e",
+          "questionNumber": "1(e)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "If the weight of a person on the surface of the Earth is 294 N, what might be the weight of the person on the moon?",
+            "ne": "यदि पृथ्वीको सतहमा एउटा वस्तुको तौल 294 N छ भने, चन्द्रमाको सतहमा उक्त वस्तुको तौल कति होला ?"
+          },
+          "options": [
+            {
+              "en": "6 N",
+              "ne": "6 N"
+            },
+            {
+              "en": "9.8 N",
+              "ne": "9.8 N"
+            },
+            {
+              "en": "49 N",
+              "ne": "49 N"
+            },
+            {
+              "en": "60 N",
+              "ne": "60 N"
+            }
+          ]
+        },
+        {
+          "id": "q1f",
+          "questionNumber": "1(f)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "When a ship enters a river from a sea, it is found to sink more than before. What is the reason for this?",
+            "ne": "जब पानी जहाज समुन्द्रबाट नदीमा पस्छ, त्यो पहिलेभन्दा धेरै डुबेको पाइन्छ। यसको कारण के होला ?"
+          },
+          "options": [
+            {
+              "en": "Due to the temperature of the sea water being more than that of river.",
+              "ne": "समुन्द्रको पानीको तापक्रम नदीको पानीभन्दा बढी भएर।"
+            },
+            {
+              "en": "Due to the density of sea water being more than that of river water.",
+              "ne": "नदीको पानीभन्दा समुन्द्रको पानीको घनत्व बढी भएर।"
+            },
+            {
+              "en": "Due to the temperature of sea water being less than that of river water.",
+              "ne": "समुन्द्रको पानीको तापक्रम नदीको पानीभन्दा कम भएर।"
+            },
+            {
+              "en": "Due to the density of sea water being less than that of river water.",
+              "ne": "समुन्द्रको पानीको घनत्व नदीको पानीको भन्दा कम भएर।"
+            }
+          ]
+        },
+        {
+          "id": "q1g",
+          "questionNumber": "1(g)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Figure shows refraction of a ray of light (30° in medium-1, 52° in medium-2). Which of the following statements is correct for this situation?",
+            "ne": "चित्रमा प्रकाशको किरणको आवर्तन देखाइएको छ (माध्यम-1 मा 30°, माध्यम-2 मा 52°)। यो अवस्थामा तलकामध्ये कुन तथ्य सही हो ?"
+          },
+          "options": [
+            {
+              "en": "Medium 1 is denser and medium 2 rarer.",
+              "ne": "माध्यम 1 सघन र माध्यम 2 विरल हो।"
+            },
+            {
+              "en": "Medium 1 is rarer and medium 2 denser.",
+              "ne": "माध्यम 1 विरल र माध्यम 2 सघन हो।"
+            },
+            {
+              "en": "Speed of light is same in both media.",
+              "ne": "प्रकाशको गति दुवै माध्यममा बराबर हुन्छ।"
+            },
+            {
+              "en": "Speed of light in medium 1 is greater than medium 2.",
+              "ne": "प्रकाशको गति माध्यम 2 मा भन्दा माध्यम 1 मा बढी हुन्छ।"
+            }
+          ],
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-koshi/q1g-refraction-diagram.png",
+            "caption": {
+              "en": "Ray of light refracting from medium-1 (30° from normal) to medium-2 (52° from normal).",
+              "ne": "प्रकाशको किरण माध्यम-1 (सामान्यबाट 30°) बाट माध्यम-2 (सामान्यबाट 52°) मा आवर्तन।"
+            }
+          }
+        },
+        {
+          "id": "q1h",
+          "questionNumber": "1(h)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "What is the value of H in Hubble's law, v = Hd?",
+            "ne": "हव्बलको नियम v = Hd मा H को मान कति हुन्छ ?"
+          },
+          "options": [
+            {
+              "en": "65 km/s/Mpc",
+              "ne": "65 km/s/Mpc"
+            },
+            {
+              "en": "68 km/s/Mpc",
+              "ne": "68 km/s/Mpc"
+            },
+            {
+              "en": "70 km/s/Mpc",
+              "ne": "70 km/s/Mpc"
+            },
+            {
+              "en": "73 km/s/Mpc",
+              "ne": "73 km/s/Mpc"
+            }
+          ]
+        },
+        {
+          "id": "q1i",
+          "questionNumber": "1(i)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "What is the valency of 'Y' in the following chemical equation? 2Y + 6HCl -> 2YCl3 + 3H2",
+            "ne": "तलको रासायनिक समीकरणमा 'Y' को संयुज्यता कति हुन्छ ? 2Y + 6HCl -> 2YCl3 + 3H2"
+          },
+          "options": [
+            {
+              "en": "1",
+              "ne": "1"
+            },
+            {
+              "en": "2",
+              "ne": "2"
+            },
+            {
+              "en": "3",
+              "ne": "3"
+            },
+            {
+              "en": "4",
+              "ne": "4"
+            }
+          ]
+        },
+        {
+          "id": "q1j",
+          "questionNumber": "1(j)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Why is detergent considered better than soap for washing clothes?",
+            "ne": "कपडा धुन साबुनभन्दा डिटर्जेन्ट राम्रो मानिन्छ, किन ?"
+          },
+          "options": [
+            {
+              "en": "Detergents work well in both hard and soft water, whereas soap is less effective in hard water.",
+              "ne": "डिटर्जेन्टहरू कडा र नरम दुवै पानीमा राम्रोसँग काम गर्छन्, जबकि साबुनहरू कडा पानीमा कम प्रभावकारी हुन्छन्।"
+            },
+            {
+              "en": "Detergents are biodegradable, whereas soap is not.",
+              "ne": "डिटर्जेन्टहरू बायोडिग्रेडेबल हुन्छन्, जबकि साबुन हुँदैन।"
+            },
+            {
+              "en": "Detergents are cheaper and easier to manufacture than soaps.",
+              "ne": "साबुनभन्दा डिटर्जेन्ट सस्तो र उत्पादन गर्न सजिलो हुन्छ।"
+            },
+            {
+              "en": "Detergents produce less pollution than soaps.",
+              "ne": "डिटर्जेन्टहरूले साबुनभन्दा कम प्रदूषण उत्पादन गर्दछ।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Section B — Very Short Answer Questions",
+        "ne": "खण्ड 'ख' — अति छोटो उत्तर प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Write very short answer to the following questions. (9 x 1 = 9)",
+        "ne": "तलका प्रश्नहरूको अति छोटो उत्तर लेख्नुहोस् : (९x१=९)"
+      },
+      "items": [
+        {
+          "id": "q2a",
+          "questionNumber": "2(a)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Which is the dependent variable in the experiment where solubility of salt is measured at different temperatures?",
+            "ne": "विभिन्न तापक्रममा नुनको घुलनशीलता मापन गरिएको प्रयोगमा आश्रित चर कुन हो ?"
+          }
+        },
+        {
+          "id": "q2b",
+          "questionNumber": "2(b)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Write the relation between up-thrust and the density of liquid.",
+            "ne": "तरल पदार्थको उर्ध्वचाप र यसको घनत्व बिचको सम्बन्ध लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q2c",
+          "questionNumber": "2(c)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Write an application of total internal reflection of light in daily life.",
+            "ne": "प्रकाशको पूर्ण आन्तरिक परावर्तनको दैनिक जीवनमा एउटा उपयोग लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q2d",
+          "questionNumber": "2(d)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Write any one way for the correction of defect of vision without using spectacles.",
+            "ne": "चस्माको प्रयोग नगरी दृष्टिदोष सुधार्ने कुनै एक उपाय लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q2e",
+          "questionNumber": "2(e)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "When an alternating current of 60 Hz frequency is connected to the primary coil of a transformer, what will be the frequency of alternating current in the secondary coil?",
+            "ne": "60Hz आवृति भएको अल्टरनेटिड करेन्ट ट्रान्सफर्मरको प्राइमरी क्वाइलमा जोड्दा, सेकेन्डरी क्वाइलमा अल्टरनेटिड करेन्टको आवृति कति हुन्छ ?"
+          }
+        },
+        {
+          "id": "q2f",
+          "questionNumber": "2(f)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Write the definition of flat universe.",
+            "ne": "समतल ब्रह्माण्डको परिभाषा लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q2g",
+          "questionNumber": "2(g)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Write the name of an ore of copper.",
+            "ne": "तामाको एउटा धाउको नाम लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q2h",
+          "questionNumber": "2(h)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Gold is found in a pure state in nature, why?",
+            "ne": "प्रकृतिमा सुन शुद्ध अवस्थामा पाइन्छ, किन ?"
+          }
+        },
+        {
+          "id": "q2i",
+          "questionNumber": "2(i)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Write the structural formula of glycerol.",
+            "ne": "ग्लिसेरोलको संरचना सूत्र लेख्नुहोस्।"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Section C — Short Answer Questions",
+        "ne": "खण्ड 'ग' — छोटो उत्तर प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Write short answer to the following questions. (14 x 2 = 28)",
+        "ne": "तलका प्रश्नहरूको छोटो उत्तर लेख्नुहोस् : (१४x२=२८)"
+      },
+      "items": [
+        {
+          "id": "q3",
+          "questionNumber": "3",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Check the correctness of the equation s = ut + (1/2)at² by using unit-wise analysis.",
+            "ne": "एकाइगत विश्लेषण प्रयोग गरी s = ut + (1/2)at² समीकरण ठिक छ वा छैन परीक्षण गर्नुहोस्।"
+          }
+        },
+        {
+          "id": "q4",
+          "questionNumber": "4",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Write the name of an animal having a two-chambered heart, write one characteristic of this animal.",
+            "ne": "मुटुमा दुई कोठा हुने कुनै एक जीवको नाम लेखी कुनै एक विशेषता लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q5",
+          "questionNumber": "5",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Write any two characteristics which distinguish queen bee and drone bee.",
+            "ne": "रानी मौरी र भाले मौरी छुट्याउने कुनै दुईओटा विशेषता लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q6",
+          "questionNumber": "6",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Write any two differences between DNA and RNA.",
+            "ne": "DNA र RNA को बिचमा दुईओटा भिन्नता लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q7",
+          "questionNumber": "7",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "How is sex determined in human? Show by chart.",
+            "ne": "मानिसमा लिङ्ग निर्धारण कसरी हुन्छ ? चार्टद्वारा देखाउनुहोस्।"
+          }
+        },
+        {
+          "id": "q8",
+          "questionNumber": "8",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "(i) Which chamber of the human heart receives pure blood? (ii) Write the name of the main artery that takes pure blood from heart to different parts of the body.",
+            "ne": "(i) मानव मुटुको कुन कोठाले शुद्ध रगत प्राप्त गर्दछ ? (ii) मुटुबाट शरीरका विभिन्न भागमा शुद्ध रगत लैजाने मुख्य धमनीको नाम उल्लेख गर्नुहोस्।"
+          }
+        },
+        {
+          "id": "q9",
+          "questionNumber": "9",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Write any two uses of the medicinal plant shown in the figure.",
+            "ne": "चित्रमा दिइएको जडीबुटीको दुई ओटा उपयोगिताहरू लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q10",
+          "questionNumber": "10",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "How does this fall differ from an object falling on the moon? Write any two.",
+            "ne": "चित्रमा देखाइएको वस्तुको खसाइ र चन्द्रमामा वस्तुको खसाइबिच कुनै दुई अन्तर लेख्नुहोस्।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-koshi/q10-object-falling-earth.png",
+            "caption": {
+              "en": "An object (coconut) falling freely from a tree toward the ground on Earth, marked X to Y.",
+              "ne": "पृथ्वीमा रुखबाट नरिवल खस्दै गरेको, X देखि Y सम्म चिह्नित।"
+            }
+          }
+        },
+        {
+          "id": "q11",
+          "questionNumber": "11",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "If a cricket ball is thrown vertically upward into the sky with velocity of 18 m/s, calculate the maximum height attained by the ball. (Neglect air resistance.)",
+            "ne": "यदि क्रिकेट बललाई 18 m/s को गतिमा सिधै माथि आकाशमा फ्याँकियो भने उक्त बल कति उचाइसम्म पुग्छ ? हिसाब गर्नुहोस्। (नोट: हावाको अवरोधलाई नगन्य मान्नुहोस्।)"
+          }
+        },
+        {
+          "id": "q12",
+          "questionNumber": "12",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Draw a neat diagram of the process of electric current production by using a magnet and a coil.",
+            "ne": "चुम्बक र क्वाइल प्रयोग गरी करेन्ट उत्पादन गर्न सकिने प्रक्रियाको सफा चित्र कोर्नुहोस्।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-koshi/q12-emf-induction-prompt.png",
+            "caption": {
+              "en": "(Question prompt — student draws this as the answer.)",
+              "ne": "(यो प्रश्नमा विद्यार्थीले आफैं चित्र कोर्नुपर्छ।)"
+            }
+          }
+        },
+        {
+          "id": "q13",
+          "questionNumber": "13",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Write any two differences between alternating current and direct current.",
+            "ne": "अल्टरनेटिड करेन्ट र डाइरेक्ट करेन्ट बिचमा कुनै दुई भिन्नता लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q14",
+          "questionNumber": "14",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Identify the compound X in the given chemical equation and balance the equation. X + HCl -> ZnCl2 + H2O",
+            "ne": "दिइएको रासायनिक समीकरणमा यौगिक X लाई पहिचान गरी समीकरणलाई सन्तुलन गर्नुहोस्। X + HCl -> ZnCl2 + H2O"
+          }
+        },
+        {
+          "id": "q15",
+          "questionNumber": "15",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Write the general molecular formula of the compound given, H-C≡C-H. Also write the IUPAC name of the compound.",
+            "ne": "दिइएको यौगिकको संरचनात्मक सूत्रको आधारमा सामान्य आणविक सूत्र लेख्नुहोस्। यस यौगिकको IUPAC नाम पनि लेख्नुहोस्। H-C≡C-H"
+          }
+        },
+        {
+          "id": "q16",
+          "questionNumber": "16",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Which food preservative is better between the natural food preservative and the chemical food preservative? Why?",
+            "ne": "प्राकृतिक खाद्य परिरक्षी र रासायनिक खाद्य परिरक्षीमा कुन परिरक्षी राम्रो हुन्छ ? किन ?"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Section D — Long Answer Questions",
+        "ne": "खण्ड 'घ' — लामो उत्तर प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Write long answer to the following questions. (7 x 4 = 28)",
+        "ne": "तलका प्रश्नहरूको लामो उत्तर लेख्नुहोस् : (७x४=२८)"
+      },
+      "items": [
+        {
+          "id": "q17",
+          "questionNumber": "17",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "(i) Identify the transmission channel of communication shown in the given figure. (ii) Write any two characteristics of the transmission channel shown in the figure. (iii) Give one example of the use of this transmission channel.",
+            "ne": "(i) चित्रमा दिइएको सञ्चारको प्रसारण च्यानल पहिचान गर्नुहोस्। (ii) चित्रमा दिइएको प्रसारण च्यानलका कुनै दुई विशेषताहरू लेख्नुहोस्। (iii) यस प्रसारण च्यानलको उपयोग भएको एउटा उदाहरण दिनुहोस्।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-koshi/q17-transmission-channel.png",
+            "caption": {
+              "en": "Digital signal transmitted between two devices via satellite/wireless channel.",
+              "ne": "डिजिटल सिग्नल स्याटेलाइट/वायरलेस च्यानलमार्फत दुई उपकरणबिच प्रसारण भइरहेको।"
+            }
+          }
+        },
+        {
+          "id": "q18",
+          "questionNumber": "18",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Write two advantages and two disadvantages of cross-breeding between local buffaloes with a high quality he-buffalo (ranga).",
+            "ne": "स्थानीय भैंसीसँग उन्नत जातका राँगाहरूको क्रस ब्रीडिङ गराउँदा हुने दुईओटा फाइदा र दुईओटा बेफाइदाहरू लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q19",
+          "questionNumber": "19",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Write any two causes and two preventive measures of heart-attack.",
+            "ne": "हृदयघात हुनाको कुनै दुईओटा कारणहरू र दुईओटा रोकथामका उपायहरू लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q20",
+          "questionNumber": "20",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "(i) Due to which property of water is the organism living in the condition given in the figure? (ii) Why is the water at 0°C floating at the top? (iii) Write the biological significance of this characteristic of water. (iv) Mention one problem caused by this property of water in daily life.",
+            "ne": "(i) चित्रमा देखाइएको अवस्थामा पानीको कुन गुणको कारणले दिइएको जीव बाँच्न सफल छ ? (ii) 0°C को पानी सबैभन्दा माथि तैरिएको छ, किन ? (iii) पानीको यस गुणको जैविक महत्व लेख्नुहोस्। (iv) दैनिक जीवनमा पानीको यस गुणले निम्त्याउने एउटा समस्या उल्लेख गर्नुहोस्।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-koshi/q20-fish-under-ice.png",
+            "caption": {
+              "en": "A pond frozen at the top (-6°C ice), with temperature layers down to 4°C at the bottom where a fish lives.",
+              "ne": "माथि जमेको (-6°C बरफ) पोखरी, तल 4°C सम्मको तापक्रम तह, जहाँ माछा बाँचेको छ।"
+            }
+          }
+        },
+        {
+          "id": "q21",
+          "questionNumber": "21",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "(i) Write any two differences between convex and concave lens. (ii) The power of the lens used in the spectacles worn by a student is 4 D. Calculate the focal length of the lens. Also mention the type of the lens.",
+            "ne": "(i) कन्भेक्स र कन्केभ लेन्स बिचमा कुनै दुई भिन्नता लेख्नुहोस्। (ii) एकजना विद्यार्थीले लगाउने चस्मामा प्रयोग हुने लेन्सको सामर्थ्य 4 D छ। यस लेन्सको केन्द्रीकरण दूरी निकाल्नुहोस्। यस लेन्सको प्रकार पनि उल्लेख गर्नुहोस्।"
+          }
+        },
+        {
+          "id": "q22",
+          "questionNumber": "22",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Study the given table and answer the following questions. Element P = 1s² 2s²2p⁵ ; Element Q = 1s² 2s²2p⁶ 3s² ; Element R = 1s² 2s²2p⁶ 3s²3p⁵ (i) Write the valency of element Q. (ii) Between P and R which one is more reactive? Why? (iii) Write the balanced chemical equation of the chemical reaction between elements Q and R.",
+            "ne": "दिइएको तालिका अध्ययन गर्नुहोस् र निम्न प्रश्नहरूको उत्तर दिनुहोस्। तत्व P = 1s² 2s²2p⁵ ; तत्व Q = 1s² 2s²2p⁶ 3s² ; तत्व R = 1s² 2s²2p⁶ 3s²3p⁵ (i) तत्व Q को संयुज्यता लेख्नुहोस्। (ii) P र R मध्ये कुन बढी सक्रिय छ ? किन ? (iii) तत्वहरू Q र R को बीचमा रासायनिक प्रतिक्रिया हुँदा बन्ने सन्तुलित रासायनिक समीकरण लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q23",
+          "questionNumber": "23",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "(i) Write the balanced chemical equation involved in the process shown in the vessel of the given diagram (CaCO3 + dil. HCl in a Woulfe's bottle). (ii) Can dilute sulphuric acid be used instead of dilute hydrochloric acid? Why? (iii) What is the reason of collecting this gas in an erect (upright) gas jar?",
+            "ne": "(i) देखाइएको चित्रको भाँडामा हुने रासायनिक प्रतिक्रियाको सन्तुलित रासायनिक समीकरण लेख्नुहोस् (CaCO3 + dil. HCl, Woulfe's Bottle मा)। (ii) के हाइड्रोक्लोरिक एसिडको सट्टा तनुकृत सल्फ्युरिक एसिड प्रयोग गर्न सकिन्छ ? किन ? (iii) यसलाई ठाडो ग्यास जारमा जम्मा गरिनुको कारण के हो ?"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-koshi/q23-co2-woulfe-bottle.png",
+            "caption": {
+              "en": "CaCO3 reacting with dilute HCl in a Woulfe's bottle, gas collected in an upright gas jar.",
+              "ne": "Woulfe's Bottle मा CaCO3 ले तनुकृत HCl सँग प्रतिक्रिया गर्दै, ग्यास ठाडो ग्यास जारमा सङ्कलन।"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

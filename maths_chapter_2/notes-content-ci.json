@@ -1,0 +1,611 @@
+{
+  "chapter": {
+    "en": "Compound Interest",
+    "ne": "चक्रवृद्धि ब्याज"
+  },
+  "sections": [
+    {
+      "sectionId": "sec-2-0",
+      "title": {
+        "en": "2.0 Review",
+        "ne": "२.० पुनरावलोकन"
+      },
+      "content": [
+        {
+          "blockId": "c-2-0-1",
+          "type": "context",
+          "text": {
+            "en": "A person borrowed Rs. $10,00,000$ for a business from a commercial bank. Discuss: a) How much interest should he pay after 2 years at the rate of $8\\%$ per annum? b) What total sum should he pay after 2 years, and what is that sum called? c) If he had borrowed for 5 years, how much interest should be paid at the same rate?",
+            "ne": "एक व्यक्तिले व्यापारका लागि वाणिज्य बैंकबाट रु. $10,00,000$ ऋण लिए। छलफल गर्नुहोस्: क) $8\\%$ वार्षिक दरमा २ वर्षपछि उनले बैंकलाई कति ब्याज तिर्नुपर्छ? ख) २ वर्षपछि उनले कति कुल रकम तिर्नुपर्छ, र त्यो रकमलाई के भनिन्छ? ग) यदि उनले ५ वर्षका लागि ऋण लिएका भए, उही दरमा कति ब्याज तिर्नुपर्ने थियो?"
+          }
+        },
+        {
+          "blockId": "c-2-0-2",
+          "type": "rule_box",
+          "text": {
+            "en": "The sum of money paid to the bank at the rate of $8\\%$ p.a. after 2 years is called simple interest. The total sum of borrowed money and additional interest is called amount. The formula used for the calculation of simple interest is: Simple interest $(SI) = \\dfrac{PTR}{100}$.",
+            "ne": "$8\\%$ वार्षिक दरमा २ वर्षपछि बैंकलाई तिरिने रकमलाई साधारण ब्याज भनिन्छ। ऋण लिएको रकम र थप ब्याजको कुल योगलाई रकम (Amount) भनिन्छ। साधारण ब्याज गणनाका लागि प्रयोग हुने सूत्र: साधारण ब्याज $(SI) = \\dfrac{PTR}{100}$।"
+          }
+        }
+      ],
+      "examples": []
+    },
+    {
+      "sectionId": "sec-2-1",
+      "title": {
+        "en": "2.1 Introduction of Compound Interest (2.1.1 Compound Interest Compounded Annually)",
+        "ne": "२.१ चक्रवृद्धि ब्याजको परिचय (२.१.१ वार्षिक रूपमा चक्रवृद्धि हुने चक्रवृद्धि ब्याज)"
+      },
+      "content": [
+        {
+          "blockId": "c-2-1-1",
+          "type": "worked_discussion",
+          "text": {
+            "en": "Activity 1: A teacher borrowed Rs. $5,00,000$ for 2 years at the interest rate of $12\\%$ per annum from a commercial bank. He could not pay the interest at the end of the first year, so he had to pay interest-of-interest of the first year in the second year. The interest to be paid in the first year $I_1 = \\dfrac{PTR}{100} = \\dfrac{5,00,000 \\times 1 \\times 12}{100} = \\text{Rs. } 60,000$. Since he could not pay the interest in the first year, the principal for the second year $P_1 = \\text{Rs. } 5,00,000 + \\text{Rs. } 60,000 = \\text{Rs. } 5,60,000$. Thus, the interest for the second year $I_2 = \\dfrac{P_1TR}{100} = \\dfrac{5,60,000 \\times 1 \\times 12}{100} = \\text{Rs. } 67,200$. Hence, the total interest to be paid by the teacher $= \\text{Rs. } 60,000 + \\text{Rs. } 67,200 = \\text{Rs. } 1,27,200$. There is a difference between the interests for the first and second year because in the second year, interest is charged on both the original principal and the unpaid first-year interest — i.e. interest is charged on interest.",
+            "ne": "क्रियाकलाप १: एक शिक्षकले वाणिज्य बैंकबाट $12\\%$ वार्षिक ब्याजदरमा २ वर्षका लागि रु. $5,00,000$ ऋण लिए। पहिलो वर्षको अन्त्यमा ब्याज तिर्न नसकेकाले, दोस्रो वर्षमा पहिलो वर्षको ब्याजको-ब्याज पनि तिर्नुपर्यो। पहिलो वर्षमा तिर्नुपर्ने ब्याज $I_1 = \\dfrac{PTR}{100} = \\dfrac{5,00,000 \\times 1 \\times 12}{100} = \\text{रु. } 60,000$। पहिलो वर्षमा ब्याज तिर्न नसकेकाले, दोस्रो वर्षको सांचो $P_1 = \\text{रु. } 5,00,000 + \\text{रु. } 60,000 = \\text{रु. } 5,60,000$। त्यसैले, दोस्रो वर्षको ब्याज $I_2 = \\dfrac{P_1TR}{100} = \\dfrac{5,60,000 \\times 1 \\times 12}{100} = \\text{रु. } 67,200$। त्यसैले, शिक्षकले तिर्नुपर्ने कुल ब्याज $= \\text{रु. } 60,000 + \\text{रु. } 67,200 = \\text{रु. } 1,27,200$। पहिलो र दोस्रो वर्षको ब्याजमा फरक हुनुको कारण दोस्रो वर्षमा मूल सांचो र नतिरिएको पहिलो वर्षको ब्याज दुवैमा ब्याज लाग्नु हो — अर्थात् ब्याजमाथि नै ब्याज लाग्छ।"
+          }
+        },
+        {
+          "blockId": "c-2-1-2",
+          "type": "rule_box",
+          "text": {
+            "en": "If the interest of a principal after every year or after a certain period (yearly, half yearly or terminal) is calculated and added to the principal and again the interest is calculated, then the interest so obtained is called compound interest. The sum of the principal and compound interest is called compound amount.",
+            "ne": "यदि कुनै सांचोको ब्याज प्रत्येक वर्ष वा निश्चित अवधि (वार्षिक, अर्धवार्षिक वा त्रैमासिक) पछि गणना गरी सांचोमा जोडिन्छ र पुनः त्यसको ब्याज गणना गरिन्छ भने, त्यसरी प्राप्त ब्याजलाई चक्रवृद्धि ब्याज भनिन्छ। सांचो र चक्रवृद्धि ब्याजको योगलाई चक्रवृद्धि रकम (compound amount) भनिन्छ।"
+          }
+        },
+        {
+          "blockId": "c-2-1-3",
+          "type": "worked_discussion",
+          "text": {
+            "en": "Activity 2: Bishal and Badri each borrowed Rs. $30,000$ from a bank for 3 years at the rate of $10\\%$ yearly, with Bishal paying simple interest and Badri paying compound interest. For Bishal (SI): each year's interest is calculated on the same principal $P=\\text{Rs. }30,000$: $I_1 = I_2 = I_3 = \\dfrac{30,000\\times 10\\times 1}{100} = \\text{Rs. }3,000$, so total interest $= 3(3,000) = \\text{Rs. }9,000$. For Badri (CI): the principal changes each year. Year 1: $P_1=\\text{Rs. }30,000$, $I_1=\\dfrac{30,000\\times10\\times1}{100}=\\text{Rs. }3,000$. Year 2: $P_2 = 30,000+3,000=\\text{Rs. }33,000$, $I_2=\\dfrac{33,000\\times10\\times1}{100}=\\text{Rs. }3,300$. Year 3: $P_3=33,000+3,300=\\text{Rs. }36,300$, $I_3=\\dfrac{36,300\\times10\\times1}{100}=\\text{Rs. }3,630$. Total interest $=3,000+3,300+3,630=\\text{Rs. }9,930$. So Badri (compound interest) pays more — Rs. $9,930$ vs Rs. $9,000$ — even at the same rate, because in compound interest the principal of every year equals the interest plus principal of the preceding year, so interest-of-interest is charged.",
+            "ne": "क्रियाकलाप २: बिशाल र बादरीले प्रत्येकले बैंकबाट ३ वर्षका लागि $10\\%$ वार्षिक दरमा रु. $30,000$ ऋण लिए, बिशालले साधारण ब्याज र बादरीले चक्रवृद्धि ब्याज तिर्ने सर्तमा। बिशालका लागि (SI): हरेक वर्षको ब्याज उही सांचो $P=\\text{रु. }30,000$ मा गणना हुन्छ: $I_1 = I_2 = I_3 = \\dfrac{30,000\\times 10\\times 1}{100} = \\text{रु. }3,000$, त्यसैले कुल ब्याज $= 3(3,000) = \\text{रु. }9,000$। बादरीका लागि (CI): सांचो हरेक वर्ष फरक हुन्छ। वर्ष १: $P_1=\\text{रु. }30,000$, $I_1=\\dfrac{30,000\\times10\\times1}{100}=\\text{रु. }3,000$। वर्ष २: $P_2 = 30,000+3,000=\\text{रु. }33,000$, $I_2=\\dfrac{33,000\\times10\\times1}{100}=\\text{रु. }3,300$। वर्ष ३: $P_3=33,000+3,300=\\text{रु. }36,300$, $I_3=\\dfrac{36,300\\times10\\times1}{100}=\\text{रु. }3,630$। कुल ब्याज $=3,000+3,300+3,630=\\text{रु. }9,930$। त्यसैले बादरीले (चक्रवृद्धि ब्याज) बढी तिर्छन् — रु. $9,930$ बनाम रु. $9,000$ — उही दरमा पनि, किनभने चक्रवृद्धि ब्याजमा हरेक वर्षको सांचो अघिल्लो वर्षको ब्याज र सांचोको योग बराबर हुन्छ, त्यसैले ब्याजमाथि नै ब्याज लाग्छ।"
+          }
+        },
+        {
+          "blockId": "c-2-1-4",
+          "type": "rule_box",
+          "text": {
+            "en": "While calculating simple interest, the principal is the same for each year. But while calculating compound interest, the principals are different every year (the principal for the second year is the amount of the first year, the principal for the third year is the amount of the second year, etc.). The compound interest of the same principal is more at the same rate and time than the simple interest of the same principal.",
+            "ne": "साधारण ब्याज गणना गर्दा, सांचो हरेक वर्ष उही रहन्छ। तर चक्रवृद्धि ब्याज गणना गर्दा, सांचो हरेक वर्ष फरक हुन्छ (दोस्रो वर्षको सांचो पहिलो वर्षको रकम हो, तेस्रो वर्षको सांचो दोस्रो वर्षको रकम हो, आदि)। उही दर र समयमा उही सांचोको चक्रवृद्धि ब्याज साधारण ब्याजभन्दा बढी हुन्छ।"
+          }
+        },
+        {
+          "blockId": "c-2-1-5",
+          "type": "derivation",
+          "text": {
+            "en": "Activity 3 (general derivation): If a principal $P$ is deposited at the rate of $R\\%$ per annum for $T$ years: interest at the end of year 1, $I_1 = \\dfrac{P\\times T\\times R}{100} = \\dfrac{P\\times 1\\times R}{100} = \\dfrac{PR}{100}$. Amount at the end of year 1, $A_1 = P + I_1 = P + \\dfrac{PR}{100} = P\\left(1+\\dfrac{R}{100}\\right)$. Since the amount at the end of year 1 becomes the principal for year 2: $P_2 = P\\left(1+\\dfrac{R}{100}\\right)$. Interest of year 2, $I_2 = \\dfrac{P\\left(1+\\frac{R}{100}\\right)\\times 1\\times R}{100} = P\\left(1+\\dfrac{R}{100}\\right)\\times\\dfrac{R}{100}$. Amount at the end of year 2, $A_2 = P\\left(1+\\dfrac{R}{100}\\right) + P\\left(1+\\dfrac{R}{100}\\right)\\times\\dfrac{R}{100} = P\\left(1+\\dfrac{R}{100}\\right)\\left(1+\\dfrac{R}{100}\\right) = P\\left(1+\\dfrac{R}{100}\\right)^2$. Similarly, principal for year 3 $P_3 = P\\left(1+\\dfrac{R}{100}\\right)^2$, interest of year 3 $I_3 = P\\left(1+\\dfrac{R}{100}\\right)^2\\times\\dfrac{R}{100}$, and amount at end of year 3, $A_3 = P_3+I_3 = P\\left(1+\\dfrac{R}{100}\\right)^2\\left(1+\\dfrac{R}{100}\\right) = P\\left(1+\\dfrac{R}{100}\\right)^3$. Following this pattern, the compound amount at the end of $T$ years: $CA = P\\left(1+\\dfrac{R}{100}\\right)^T$. Similarly, compound interest $CI = CA - P = P\\left(1+\\dfrac{R}{100}\\right)^T - P = P\\left[\\left(1+\\dfrac{R}{100}\\right)^T - 1\\right]$.",
+            "ne": "क्रियाकलाप ३ (सामान्य व्युत्पत्ति): यदि सांचो $P$ लाई $T$ वर्षका लागि वार्षिक $R\\%$ दरमा जम्मा गरिन्छ भने: वर्ष १ को अन्त्यको ब्याज, $I_1 = \\dfrac{P\\times T\\times R}{100} = \\dfrac{P\\times 1\\times R}{100} = \\dfrac{PR}{100}$। वर्ष १ को अन्त्यको रकम, $A_1 = P + I_1 = P + \\dfrac{PR}{100} = P\\left(1+\\dfrac{R}{100}\\right)$। वर्ष १ को अन्त्यको रकम वर्ष २ को सांचो बन्ने भएकोले: $P_2 = P\\left(1+\\dfrac{R}{100}\\right)$। वर्ष २ को ब्याज, $I_2 = \\dfrac{P\\left(1+\\frac{R}{100}\\right)\\times 1\\times R}{100} = P\\left(1+\\dfrac{R}{100}\\right)\\times\\dfrac{R}{100}$। वर्ष २ को अन्त्यको रकम, $A_2 = P\\left(1+\\dfrac{R}{100}\\right) + P\\left(1+\\dfrac{R}{100}\\right)\\times\\dfrac{R}{100} = P\\left(1+\\dfrac{R}{100}\\right)\\left(1+\\dfrac{R}{100}\\right) = P\\left(1+\\dfrac{R}{100}\\right)^2$। त्यसैगरी, वर्ष ३ को सांचो $P_3 = P\\left(1+\\dfrac{R}{100}\\right)^2$, वर्ष ३ को ब्याज $I_3 = P\\left(1+\\dfrac{R}{100}\\right)^2\\times\\dfrac{R}{100}$, र वर्ष ३ को अन्त्यको रकम, $A_3 = P_3+I_3 = P\\left(1+\\dfrac{R}{100}\\right)^2\\left(1+\\dfrac{R}{100}\\right) = P\\left(1+\\dfrac{R}{100}\\right)^3$। यही ढाँचा पछ्याउँदा, $T$ वर्षको अन्त्यको चक्रवृद्धि रकम: $CA = P\\left(1+\\dfrac{R}{100}\\right)^T$। त्यसैगरी, चक्रवृद्धि ब्याज $CI = CA - P = P\\left(1+\\dfrac{R}{100}\\right)^T - P = P\\left[\\left(1+\\dfrac{R}{100}\\right)^T - 1\\right]$।"
+          }
+        },
+        {
+          "blockId": "c-2-1-6",
+          "type": "rule_box",
+          "text": {
+            "en": "Activity 4 — variations of the compound interest formula: (a) If the rate of interest is different every year ($R_1\\%$, $R_2\\%$, $R_3\\%$ for the first, second and third years respectively): $CA = P\\left(1+\\dfrac{R_1}{100}\\right)\\left(1+\\dfrac{R_2}{100}\\right)\\left(1+\\dfrac{R_3}{100}\\right)$ and $CI = P\\left[\\left(1+\\dfrac{R_1}{100}\\right)\\left(1+\\dfrac{R_2}{100}\\right)\\left(1+\\dfrac{R_3}{100}\\right) - 1\\right]$. (b) If time is given as $T$ years and $M$ months: $CA = P\\left(1+\\dfrac{R}{100}\\right)^T\\left(1+\\dfrac{MR}{1200}\\right)$ and $CI = P\\left[\\left(1+\\dfrac{R}{100}\\right)^T\\left(1+\\dfrac{MR}{1200}\\right) - 1\\right]$. (c) If the interest is calculated half yearly: the annual rate $R\\%$ is treated as $\\dfrac{R}{2}\\%$ per half-year, and time $T$ years becomes $2T$ half-year periods, so $CA = P\\left(1+\\dfrac{R}{200}\\right)^{2T}$ and $CI = P\\left[\\left(1+\\dfrac{R}{200}\\right)^{2T} - 1\\right]$. A financial institution that releases interest twice a year (e.g. the first of Magh and the first of Shrawan) computes each 6-month interest on the principal plus the previous 6 months' interest — this is called half-yearly compound interest. (d) If the interest is calculated terminally (quarterly): the annual rate $R\\%$ is treated as $\\dfrac{R}{4}\\%$ per quarter, and time $T$ years becomes $4T$ quarterly periods, so $CA = P\\left(1+\\dfrac{R}{400}\\right)^{4T}$ and $CI = P\\left[\\left(1+\\dfrac{R}{400}\\right)^{4T} - 1\\right]$. Terminal (quarterly) compound interest is computed the same way as yearly and half-yearly compound interest, just with a smaller period and more compounding steps.",
+            "ne": "क्रियाकलाप ४ — चक्रवृद्धि ब्याज सूत्रका भिन्नताहरू: (क) यदि ब्याजदर हरेक वर्ष फरक छ भने (पहिलो, दोस्रो, तेस्रो वर्षका लागि क्रमशः $R_1\\%$, $R_2\\%$, $R_3\\%$): $CA = P\\left(1+\\dfrac{R_1}{100}\\right)\\left(1+\\dfrac{R_2}{100}\\right)\\left(1+\\dfrac{R_3}{100}\\right)$ र $CI = P\\left[\\left(1+\\dfrac{R_1}{100}\\right)\\left(1+\\dfrac{R_2}{100}\\right)\\left(1+\\dfrac{R_3}{100}\\right) - 1\\right]$। (ख) यदि समय $T$ वर्ष र $M$ महिनामा दिइएको छ भने: $CA = P\\left(1+\\dfrac{R}{100}\\right)^T\\left(1+\\dfrac{MR}{1200}\\right)$ र $CI = P\\left[\\left(1+\\dfrac{R}{100}\\right)^T\\left(1+\\dfrac{MR}{1200}\\right) - 1\\right]$। (ग) यदि ब्याज अर्धवार्षिक रूपमा गणना गरिन्छ भने: वार्षिक दर $R\\%$ लाई अर्धवार्षिक $\\dfrac{R}{2}\\%$ मानिन्छ, र समय $T$ वर्षलाई $2T$ अर्धवार्षिक अवधिमा मानिन्छ, त्यसैले $CA = P\\left(1+\\dfrac{R}{200}\\right)^{2T}$ र $CI = P\\left[\\left(1+\\dfrac{R}{200}\\right)^{2T} - 1\\right]$। वर्षमा दुई पटक (जस्तै माघ १ र श्रावण १ मा) ब्याज दिने वित्तीय संस्थाले हरेक ६ महिनाको ब्याज अघिल्लो ६ महिनाको ब्याज र सांचोको योगमा गणना गर्छ — यसलाई अर्धवार्षिक चक्रवृद्धि ब्याज भनिन्छ। (घ) यदि ब्याज त्रैमासिक रूपमा गणना गरिन्छ भने: वार्षिक दर $R\\%$ लाई त्रैमासिक $\\dfrac{R}{4}\\%$ मानिन्छ, र समय $T$ वर्षलाई $4T$ त्रैमासिक अवधिमा मानिन्छ, त्यसैले $CA = P\\left(1+\\dfrac{R}{400}\\right)^{4T}$ र $CI = P\\left[\\left(1+\\dfrac{R}{400}\\right)^{4T} - 1\\right]$। त्रैमासिक चक्रवृद्धि ब्याज पनि वार्षिक र अर्धवार्षिक चक्रवृद्धि ब्याज जस्तै गणना गरिन्छ, फरक यत्ति हो कि अवधि साना र गणना-चरण बढी हुन्छन्।"
+          }
+        },
+        {
+          "blockId": "c-2-1-7",
+          "type": "worked_discussion",
+          "text": {
+            "en": "Activity 5: Someone plans to invest Rs. $1,00,000$ for a year at $15\\%$ compound interest per annum, choosing between yearly, half yearly, or terminal (quarterly) compounding. a) Yearly: $CI = 1,00,000\\left[\\left(1+\\dfrac{15}{100}\\right)^1-1\\right] = 1,00,000\\left[\\dfrac{115}{100}-1\\right] = \\text{Rs. }15,000$. b) Half yearly: $CI = 1,00,000\\left[\\left(1+\\dfrac{15}{200}\\right)^{2\\times1}-1\\right] = \\text{Rs. }15,562.50$. c) Terminal (quarterly): $CI = 1,00,000\\left[\\left(1+\\dfrac{15}{400}\\right)^{4\\times1}-1\\right] = \\text{Rs. }15,865.04$. Out of these three options, the terminal (quarterly) option is best because its interest is highest — Rs. $865.04$ more than yearly and Rs. $562.50$ more than half yearly.",
+            "ne": "क्रियाकलाप ५: कसैले रु. $1,00,000$ लाई १ वर्षका लागि $15\\%$ वार्षिक चक्रवृद्धि ब्याजमा लगानी गर्ने योजना बनाउँछन्, वार्षिक, अर्धवार्षिक वा त्रैमासिक चक्रवृद्धिमध्ये छनोट गर्दै। क) वार्षिक: $CI = 1,00,000\\left[\\left(1+\\dfrac{15}{100}\\right)^1-1\\right] = 1,00,000\\left[\\dfrac{115}{100}-1\\right] = \\text{रु. }15,000$। ख) अर्धवार्षिक: $CI = 1,00,000\\left[\\left(1+\\dfrac{15}{200}\\right)^{2\\times1}-1\\right] = \\text{रु. }15,562.50$। ग) त्रैमासिक: $CI = 1,00,000\\left[\\left(1+\\dfrac{15}{400}\\right)^{4\\times1}-1\\right] = \\text{रु. }15,865.04$। यी तीन विकल्पमध्ये, त्रैमासिक विकल्प उत्तम हो किनभने यसको ब्याज सबैभन्दा बढी हुन्छ — वार्षिकभन्दा रु. $865.04$ र अर्धवार्षिकभन्दा रु. $562.50$ बढी।"
+          },
+          "referenceImageId": "img-activity5-options"
+        },
+        {
+          "blockId": "c-2-1-8",
+          "type": "rule_box",
+          "text": {
+            "en": "While calculating the interest of the same sum at the same rate of interest for the same time, terminal (quarterly) compound interest is more than half yearly compound interest, and half yearly compound interest is greater than yearly compound interest.",
+            "ne": "उही रकमको उही दर र उही समयको ब्याज गणना गर्दा, त्रैमासिक चक्रवृद्धि ब्याज अर्धवार्षिक चक्रवृद्धि ब्याजभन्दा बढी हुन्छ, र अर्धवार्षिक चक्रवृद्धि ब्याज वार्षिक चक्रवृद्धि ब्याजभन्दा बढी हुन्छ।"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "exampleId": "ex-2-1-1",
+          "question": {
+            "en": "What will be the compound interest and compound amount of Rs. 2,000 at the interest rate of 12% p.a. in 2 years? Find the compound interest without using formula.",
+            "ne": "रु. २,००० को $12\\%$ वार्षिक ब्याजदरमा २ वर्षको चक्रवृद्धि ब्याज र चक्रवृद्धि रकम कति हुन्छ? सूत्र प्रयोग नगरी चक्रवृद्धि ब्याज पत्ता लगाउनुहोस्।"
+          },
+          "solution": {
+            "en": "Principal $P_1 = \\text{Rs. }2,000$, rate $R=12\\%$ p.a., time $T=2$ years. At the end of the first year, simple interest $I_1 = \\dfrac{P_1TR}{100} = \\dfrac{2000\\times1\\times12}{100} = \\text{Rs. }240$. Principal for the second year $P_2 = $ amount at the end of the first year $= P_1+I_1 = \\text{Rs. }(2000+240) = \\text{Rs. }2,240$. Simple interest for the second year $I_2 = \\dfrac{2240\\times1\\times12}{100} = \\text{Rs. }268.8$. Thus, compound interest at the end of 2 years $CI = I_1+I_2 = 240+268.8 = \\text{Rs. }508.8$. Compound amount $CA = P_1+CI = 2000+508.8 = \\text{Rs. }2,508.8$.",
+            "ne": "सांचो $P_1 = \\text{रु. }2,000$, दर $R=12\\%$ वार्षिक, समय $T=2$ वर्ष। पहिलो वर्षको अन्त्यमा साधारण ब्याज $I_1 = \\dfrac{P_1TR}{100} = \\dfrac{2000\\times1\\times12}{100} = \\text{रु. }240$। दोस्रो वर्षको सांचो $P_2 = $ पहिलो वर्षको अन्त्यको रकम $= P_1+I_1 = \\text{रु. }(2000+240) = \\text{रु. }2,240$। दोस्रो वर्षको साधारण ब्याज $I_2 = \\dfrac{2240\\times1\\times12}{100} = \\text{रु. }268.8$। यसरी, २ वर्षको अन्त्यको चक्रवृद्धि ब्याज $CI = I_1+I_2 = 240+268.8 = \\text{रु. }508.8$। चक्रवृद्धि रकम $CA = P_1+CI = 2000+508.8 = \\text{रु. }2,508.8$।"
+          }
+        },
+        {
+          "exampleId": "ex-2-1-2",
+          "question": {
+            "en": "Find the compound interest and compound amount of the borrowed amount of Rs. 25,000 which is paid in exactly 3 years at the rate of yearly compound interest rate 12%.",
+            "ne": "रु. २५,००० को ऋण रकम ठ्याक्कै ३ वर्षमा $12\\%$ वार्षिक चक्रवृद्धि ब्याजदरमा तिरिन्छ भने, चक्रवृद्धि ब्याज र चक्रवृद्धि रकम पत्ता लगाउनुहोस्।"
+          },
+          "solution": {
+            "en": "Principal $P=\\text{Rs. }25,000$, rate $R=12\\%$ per year, time $T=3$ years. Using the formula, $CI = P\\left[\\left(1+\\dfrac{R}{100}\\right)^T-1\\right] = 25,000\\left[\\left(1+\\dfrac{12}{100}\\right)^3-1\\right] = 25,000\\left[\\left(\\dfrac{112}{100}\\right)^3-1\\right] = 25,000[1.404928-1] = 25,000\\times0.404928 = \\text{Rs. }10,123.20$. Again, compound amount $CA = P+CI = \\text{Rs. }25,000+\\text{Rs. }10,123.20 = \\text{Rs. }35,123.20$.",
+            "ne": "सांचो $P=\\text{रु. }25,000$, दर $R=12\\%$ प्रतिवर्ष, समय $T=3$ वर्ष। सूत्र प्रयोग गर्दा, $CI = P\\left[\\left(1+\\dfrac{R}{100}\\right)^T-1\\right] = 25,000\\left[\\left(1+\\dfrac{12}{100}\\right)^3-1\\right] = 25,000\\left[\\left(\\dfrac{112}{100}\\right)^3-1\\right] = 25,000[1.404928-1] = 25,000\\times0.404928 = \\text{रु. }10,123.20$। पुनः, चक्रवृद्धि रकम $CA = P+CI = \\text{रु. }25,000+\\text{रु. }10,123.20 = \\text{रु. }35,123.20$।"
+          }
+        },
+        {
+          "exampleId": "ex-2-1-3",
+          "question": {
+            "en": "A man borrowed Rs. 32,000 from his friend at the rate of simple interest of 12.5% per annum. He lent the whole sum to a shopkeeper at the same rate of compound interest. How much more money will he get in 3 years? Find.",
+            "ne": "एक व्यक्तिले आफ्नो साथीबाट $12.5\\%$ वार्षिक साधारण ब्याजदरमा रु. ३२,००० ऋण लिए। उनले सोही रकम उही दरको चक्रवृद्धि ब्याजमा एक पसलेलाई सापटी दिए। ३ वर्षमा उनले कति बढी रकम पाउनेछन्? पत्ता लगाउनुहोस्।"
+          },
+          "solution": {
+            "en": "Principal $P = \\text{Rs. }32,000$, rate $R=12.5\\%$, time $T=3$ years. Case I (simple interest, what he pays his friend): $SI = \\dfrac{PTR}{100} = \\dfrac{32000\\times3\\times12.5}{100} = \\text{Rs. }12,000$. Case II (compound interest, what he receives from the shopkeeper): $CI = P\\left[\\left(1+\\dfrac{R}{100}\\right)^T-1\\right] = 32,000\\left[\\left(1+\\dfrac{12.5}{100}\\right)^3-1\\right] = 32,000\\left[\\left(\\dfrac{112.5}{100}\\right)^3-1\\right] = 32,000[1.423828125-1] = 32,000\\times0.423828125 = \\text{Rs. }13,562.50$. Therefore, the extra money the man receives $= CI-SI = 13,562.50-12,000 = \\text{Rs. }1,562.50$.",
+            "ne": "सांचो $P = \\text{रु. }32,000$, दर $R=12.5\\%$, समय $T=3$ वर्ष। अवस्था I (साधारण ब्याज, साथीलाई तिर्ने): $SI = \\dfrac{PTR}{100} = \\dfrac{32000\\times3\\times12.5}{100} = \\text{रु. }12,000$। अवस्था II (चक्रवृद्धि ब्याज, पसलेबाट पाउने): $CI = P\\left[\\left(1+\\dfrac{R}{100}\\right)^T-1\\right] = 32,000\\left[\\left(1+\\dfrac{12.5}{100}\\right)^3-1\\right] = 32,000\\left[\\left(\\dfrac{112.5}{100}\\right)^3-1\\right] = 32,000[1.423828125-1] = 32,000\\times0.423828125 = \\text{रु. }13,562.50$। त्यसैले, व्यक्तिले पाउने बढी रकम $= CI-SI = 13,562.50-12,000 = \\text{रु. }1,562.50$।"
+          }
+        },
+        {
+          "exampleId": "ex-2-1-4",
+          "question": {
+            "en": "Sameer decided to invest Rs. 5,000 at the rate of 8% per annum for 2 years. For this, he has two safe alternatives. The first alternative is to get half yearly compound interest and the second alternative is to get yearly compound interest. If you were to suggest him, which alternative would you suggest? Write with reason.",
+            "ne": "समिरले $8\\%$ वार्षिक दरमा २ वर्षका लागि रु. ५,००० लगानी गर्ने निर्णय गरे। यसका लागि उनीसँग दुई सुरक्षित विकल्प छन्। पहिलो विकल्प अर्धवार्षिक चक्रवृद्धि ब्याज पाउनु हो र दोस्रो विकल्प वार्षिक चक्रवृद्धि ब्याज पाउनु हो। यदि तपाईंले उनलाई सुझाव दिनुपर्ने भए, कुन विकल्प सुझाव दिनुहुन्छ? कारणसहित लेख्नुहोस्।"
+          },
+          "solution": {
+            "en": "Principal $P=\\text{Rs. }5,000$, rate $R=8\\%$, time $T=2$ years. a) First alternative (half yearly): $CI_1 = P\\left[\\left(1+\\dfrac{R}{200}\\right)^{2T}-1\\right] = 5,000\\left[\\left(1+\\dfrac{8}{200}\\right)^{2\\times2}-1\\right] = 5,000\\left[\\left(\\dfrac{208}{200}\\right)^4-1\\right] = 5,000[1.16985856-1] = 5,000\\times0.16985856 = \\text{Rs. }849.29$. b) Second alternative (yearly): $CI_2 = P\\left[\\left(1+\\dfrac{R}{100}\\right)^T-1\\right] = 5,000\\left[\\left(1+\\dfrac{8}{100}\\right)^2-1\\right] = 5,000\\left[(1.08)^2-1\\right] = 5,000(1.1664-1) = 5,000\\times0.1664 = \\text{Rs. }832$. The difference between half yearly and yearly compound interest $= CI_1-CI_2 = 849.29-832 = \\text{Rs. }17.29$. Since half yearly compound interest is Rs. $17.29$ more than yearly compound interest, I would suggest him to invest in the first alternative (half yearly).",
+            "ne": "सांचो $P=\\text{रु. }5,000$, दर $R=8\\%$, समय $T=2$ वर्ष। क) पहिलो विकल्प (अर्धवार्षिक): $CI_1 = P\\left[\\left(1+\\dfrac{R}{200}\\right)^{2T}-1\\right] = 5,000\\left[\\left(1+\\dfrac{8}{200}\\right)^{2\\times2}-1\\right] = 5,000\\left[\\left(\\dfrac{208}{200}\\right)^4-1\\right] = 5,000[1.16985856-1] = 5,000\\times0.16985856 = \\text{रु. }849.29$। ख) दोस्रो विकल्प (वार्षिक): $CI_2 = P\\left[\\left(1+\\dfrac{R}{100}\\right)^T-1\\right] = 5,000\\left[\\left(1+\\dfrac{8}{100}\\right)^2-1\\right] = 5,000\\left[(1.08)^2-1\\right] = 5,000(1.1664-1) = 5,000\\times0.1664 = \\text{रु. }832$। अर्धवार्षिक र वार्षिक चक्रवृद्धि ब्याजबीचको फरक $= CI_1-CI_2 = 849.29-832 = \\text{रु. }17.29$। अर्धवार्षिक चक्रवृद्धि ब्याज वार्षिकभन्दा रु. $17.29$ बढी भएकाले, म उनलाई पहिलो विकल्प (अर्धवार्षिक) मा लगानी गर्न सुझाव दिनेछु।"
+          }
+        },
+        {
+          "exampleId": "ex-2-1-5",
+          "question": {
+            "en": "A twelve-grade student invests Rs. 10,000 for 2 years at the rate of yearly compound interest. If the compound interest in 1 year is Rs. 1,200 (a) Find the rate of yearly compound interest. (b) Find the yearly compound amount at the end of the second year.",
+            "ne": "कक्षा १२ का एक विद्यार्थीले २ वर्षका लागि वार्षिक चक्रवृद्धि ब्याजदरमा रु. १०,००० लगानी गर्छन्। यदि १ वर्षको चक्रवृद्धि ब्याज रु. १,२०० हो भने (क) वार्षिक चक्रवृद्धि ब्याजदर पत्ता लगाउनुहोस्। (ख) दोस्रो वर्षको अन्त्यको वार्षिक चक्रवृद्धि रकम पत्ता लगाउनुहोस्।"
+          },
+          "solution": {
+            "en": "a) Principal $P=\\text{Rs. }10,000$, compound amount at the end of the first year $CA = \\text{Rs. }11,200$, time $T_1=1$ year. Using $CA = P\\left(1+\\dfrac{R}{100}\\right)^T$: $11200 = 10000\\left(1+\\dfrac{R}{100}\\right)^1$, so $\\dfrac{11200}{10000} = 1+\\dfrac{R}{100}$, giving $1.12 = 1+\\dfrac{R}{100}$, so $0.12\\times100=R$, i.e. $R=12\\%$. Thus, the rate of yearly compound interest is $12\\%$. b) Compound amount at the end of the second year, time $T=2$ years: $CA = P\\left(1+\\dfrac{R}{100}\\right)^T = 10,000\\left(1+\\dfrac{12}{100}\\right)^2 = 10,000\\left(\\dfrac{112}{100}\\right)^2 = \\text{Rs. }12,544$.",
+            "ne": "क) सांचो $P=\\text{रु. }10,000$, पहिलो वर्षको अन्त्यको चक्रवृद्धि रकम $CA = \\text{रु. }11,200$, समय $T_1=1$ वर्ष। $CA = P\\left(1+\\dfrac{R}{100}\\right)^T$ प्रयोग गर्दा: $11200 = 10000\\left(1+\\dfrac{R}{100}\\right)^1$, त्यसैले $\\dfrac{11200}{10000} = 1+\\dfrac{R}{100}$, जसबाट $1.12 = 1+\\dfrac{R}{100}$, त्यसैले $0.12\\times100=R$, अर्थात् $R=12\\%$। त्यसैले, वार्षिक चक्रवृद्धि ब्याजदर $12\\%$ हो। ख) दोस्रो वर्षको अन्त्यको चक्रवृद्धि रकम, समय $T=2$ वर्ष: $CA = P\\left(1+\\dfrac{R}{100}\\right)^T = 10,000\\left(1+\\dfrac{12}{100}\\right)^2 = 10,000\\left(\\dfrac{112}{100}\\right)^2 = \\text{रु. }12,544$।"
+          }
+        },
+        {
+          "exampleId": "ex-2-1-6",
+          "question": {
+            "en": "Find the compound interest and compound amount of Rs. 2,00,000 invested for 3 years such that the rate of interest for the first year is 8% p.a., for the second year it is 10% p.a. and for the third year it is 12%.",
+            "ne": "रु. २,००,००० लाई ३ वर्षका लागि यसरी लगानी गरिन्छ कि पहिलो वर्षको ब्याजदर $8\\%$ वार्षिक, दोस्रो वर्षको $10\\%$ वार्षिक र तेस्रो वर्षको $12\\%$ हुन्छ। चक्रवृद्धि ब्याज र चक्रवृद्धि रकम पत्ता लगाउनुहोस्।"
+          },
+          "solution": {
+            "en": "Principal $P=\\text{Rs. }2,00,000$, time $T=3$ years, $R_1=8\\%$, $R_2=10\\%$, $R_3=12\\%$. Using the formula, compound amount $CA = P\\left(1+\\dfrac{R_1}{100}\\right)\\left(1+\\dfrac{R_2}{100}\\right)\\left(1+\\dfrac{R_3}{100}\\right) = 2,00,000\\left(1+\\dfrac{8}{100}\\right)\\left(1+\\dfrac{10}{100}\\right)\\left(1+\\dfrac{12}{100}\\right) = 2,00,000\\left(\\dfrac{108}{100}\\right)\\left(\\dfrac{110}{100}\\right)\\left(\\dfrac{112}{100}\\right) = \\text{Rs. }2,66,112$. Thus, compound interest $CI = CA-P = \\text{Rs. }2,66,112-\\text{Rs. }2,00,000 = \\text{Rs. }66,112$.",
+            "ne": "सांचो $P=\\text{रु. }2,00,000$, समय $T=3$ वर्ष, $R_1=8\\%$, $R_2=10\\%$, $R_3=12\\%$। सूत्र प्रयोग गर्दा, चक्रवृद्धि रकम $CA = P\\left(1+\\dfrac{R_1}{100}\\right)\\left(1+\\dfrac{R_2}{100}\\right)\\left(1+\\dfrac{R_3}{100}\\right) = 2,00,000\\left(1+\\dfrac{8}{100}\\right)\\left(1+\\dfrac{10}{100}\\right)\\left(1+\\dfrac{12}{100}\\right) = 2,00,000\\left(\\dfrac{108}{100}\\right)\\left(\\dfrac{110}{100}\\right)\\left(\\dfrac{112}{100}\\right) = \\text{रु. }2,66,112$। त्यसैले, चक्रवृद्धि ब्याज $CI = CA-P = \\text{रु. }2,66,112-\\text{रु. }2,00,000 = \\text{रु. }66,112$।"
+          }
+        },
+        {
+          "exampleId": "ex-2-1-7",
+          "question": {
+            "en": "A sum amounts to Rs. 14,520 in 2 years and Rs. 15,972 in 3 years at a certain rate of annual compound interest. Then, (a) Find the rate of compound interest. (b) Find what is the principal.",
+            "ne": "कुनै निश्चित वार्षिक चक्रवृद्धि ब्याजदरमा कुनै सांचो २ वर्षमा रु. १४,५२० र ३ वर्षमा रु. १५,९७२ हुन्छ। त्यसो भए, (क) चक्रवृद्धि ब्याजदर पत्ता लगाउनुहोस्। (ख) सांचो कति हो पत्ता लगाउनुहोस्।"
+          },
+          "solution": {
+            "en": "Let rate of interest $=R\\%$ and principal $P=\\text{Rs. }x$. Case I: compound amount $CA_1=\\text{Rs. }14,520$ in $T=2$ years: $x\\left(1+\\dfrac{R}{100}\\right)^2 = 14,520$ ...(i). Case II: compound amount $CA_2=\\text{Rs. }15,972$ in $T=3$ years: $x\\left(1+\\dfrac{R}{100}\\right)^3 = 15,972$ ...(ii). Dividing (ii) by (i): $\\dfrac{15,972}{14,520} = \\dfrac{x\\left(1+\\frac{R}{100}\\right)^3}{x\\left(1+\\frac{R}{100}\\right)^2} = 1+\\dfrac{R}{100}$, so $1.10 = 1+\\dfrac{R}{100}$, giving $\\dfrac{R}{100}=0.10$, so $R=10\\%$ p.a. Putting $R=10\\%$ back into (i): $14520 = x\\left(1+\\dfrac{10}{100}\\right)^2 = x\\times1.21$, so $x = \\dfrac{14,520}{1.21} = \\text{Rs. }12,000$. Therefore, the rate of interest is $10\\%$ p.a. and the principal is Rs. $12,000$.",
+            "ne": "मानौं ब्याजदर $=R\\%$ र सांचो $P=\\text{रु. }x$। अवस्था I: $T=2$ वर्षमा चक्रवृद्धि रकम $CA_1=\\text{रु. }14,520$: $x\\left(1+\\dfrac{R}{100}\\right)^2 = 14,520$ ...(i)। अवस्था II: $T=3$ वर्षमा चक्रवृद्धि रकम $CA_2=\\text{रु. }15,972$: $x\\left(1+\\dfrac{R}{100}\\right)^3 = 15,972$ ...(ii)। (ii) लाई (i) ले भाग गर्दा: $\\dfrac{15,972}{14,520} = \\dfrac{x\\left(1+\\frac{R}{100}\\right)^3}{x\\left(1+\\frac{R}{100}\\right)^2} = 1+\\dfrac{R}{100}$, त्यसैले $1.10 = 1+\\dfrac{R}{100}$, जसबाट $\\dfrac{R}{100}=0.10$, अतः $R=10\\%$ वार्षिक। $R=10\\%$ लाई (i) मा राख्दा: $14520 = x\\left(1+\\dfrac{10}{100}\\right)^2 = x\\times1.21$, त्यसैले $x = \\dfrac{14,520}{1.21} = \\text{रु. }12,000$। त्यसैले, ब्याजदर $10\\%$ वार्षिक र सांचो रु. १२,००० हो।"
+          }
+        },
+        {
+          "exampleId": "ex-2-1-8",
+          "question": {
+            "en": "A person deposited Rs. 2,00,000 in a development bank for 2 years to get the half yearly compound interest at the rate of 10% per annum after deducting the 5% tax on the interest. But right after a year, the bank has changed the policy and decided to compute the interest terminally (quarterly) at the same rate of interest. (a) Find the interest of the first year by deducting the tax. (b) What would be the interest of the second year after deducting the tax? (c) What is the difference between interests of the first year and second year after deducting the tax? Find. (d) After deducting the tax, by what percentage does the interest of the first year differ from the interest of the second year?",
+            "ne": "एक व्यक्तिले विकास बैंकमा २ वर्षका लागि रु. २,००,००० जम्मा गरी $10\\%$ वार्षिक दरमा अर्धवार्षिक चक्रवृद्धि ब्याज पाउने गरी, ब्याजमा $5\\%$ कर कटौती गरी, जम्मा गरे। तर १ वर्षपछि नै, बैंकले नीति परिवर्तन गरी उही दरमा ब्याज त्रैमासिक रूपमा गणना गर्ने निर्णय गर्यो। (क) कर कटौती गरी पहिलो वर्षको ब्याज पत्ता लगाउनुहोस्। (ख) कर कटौती गरेपछि दोस्रो वर्षको ब्याज कति हुन्छ? (ग) कर कटौती गरेपछि पहिलो वर्ष र दोस्रो वर्षको ब्याजबीचको फरक कति हो? पत्ता लगाउनुहोस्। (घ) कर कटौती गरेपछि, पहिलो वर्षको ब्याज दोस्रो वर्षको ब्याजभन्दा कति प्रतिशतले फरक छ?"
+          },
+          "solution": {
+            "en": "Principal $P=\\text{Rs. }2,00,000$, rate $R=10\\%$ p.a. a) For the first year, half yearly compound interest $CI_1 = P\\left[\\left(1+\\dfrac{R}{200}\\right)^{2T}-1\\right] = 2,00,000\\left[\\left(1+\\dfrac{10}{200}\\right)^{2\\times1}-1\\right] = 2,00,000\\left[\\left(\\dfrac{210}{200}\\right)^2-1\\right] = 2,00,000[1.1025-1] = 2,00,000\\times0.1025 = \\text{Rs. }20,500$. After deducting $5\\%$ tax: $CI_1 = 20,500-20,500\\times\\dfrac{5}{100} = 20,500-1,025 = \\text{Rs. }19,475$. So the interest of the first year after deducting tax is Rs. $19,475$. b) Compound amount after 1 year $CA = 2,00,000+19,475 = \\text{Rs. }2,19,475$; this becomes the principal for the second year. Using quarterly compound interest, $CI_2 = P\\left[\\left(1+\\dfrac{R}{400}\\right)^{4T}-1\\right] = 2,19,475\\left[\\left(1+\\dfrac{10}{400}\\right)^{4\\times1}-1\\right] = 2,19,475[0.1038128906] = \\text{Rs. }22,784.33$. After deducting $5\\%$ tax: $CI_2 = 22,784.33-22,784.33\\times\\dfrac{5}{100} = 22,784.33-1,139.21 = \\text{Rs. }21,645.12$. So the interest after deducting tax is Rs. $21,645.12$. c) The difference in interests $= CI_2-CI_1 = 21,645.12-19,475 = \\text{Rs. }2,170.12$. d) The difference of interests in percentage $= \\dfrac{CI_2-CI_1}{CI_1}\\times100\\% = \\dfrac{2170.12}{19475}\\times100\\% = 11.14\\%$. Thus, the interest of the second year differs by $11.14\\%$ from that of the first year.",
+            "ne": "सांचो $P=\\text{रु. }2,00,000$, दर $R=10\\%$ वार्षिक। क) पहिलो वर्षको लागि, अर्धवार्षिक चक्रवृद्धि ब्याज $CI_1 = P\\left[\\left(1+\\dfrac{R}{200}\\right)^{2T}-1\\right] = 2,00,000\\left[\\left(1+\\dfrac{10}{200}\\right)^{2\\times1}-1\\right] = 2,00,000\\left[\\left(\\dfrac{210}{200}\\right)^2-1\\right] = 2,00,000[1.1025-1] = 2,00,000\\times0.1025 = \\text{रु. }20,500$। $5\\%$ कर कटौती गरेपछि: $CI_1 = 20,500-20,500\\times\\dfrac{5}{100} = 20,500-1,025 = \\text{रु. }19,475$। त्यसैले कर कटौती गरेपछि पहिलो वर्षको ब्याज रु. १९,४७५ हो। ख) १ वर्षपछिको चक्रवृद्धि रकम $CA = 2,00,000+19,475 = \\text{रु. }2,19,475$; यो दोस्रो वर्षको सांचो बन्छ। त्रैमासिक चक्रवृद्धि ब्याज प्रयोग गर्दा, $CI_2 = P\\left[\\left(1+\\dfrac{R}{400}\\right)^{4T}-1\\right] = 2,19,475\\left[\\left(1+\\dfrac{10}{400}\\right)^{4\\times1}-1\\right] = 2,19,475[0.1038128906] = \\text{रु. }22,784.33$। $5\\%$ कर कटौती गरेपछि: $CI_2 = 22,784.33-22,784.33\\times\\dfrac{5}{100} = 22,784.33-1,139.21 = \\text{रु. }21,645.12$। त्यसैले कर कटौती गरेपछिको ब्याज रु. २१,६४५.१२ हो। ग) ब्याजहरूको फरक $= CI_2-CI_1 = 21,645.12-19,475 = \\text{रु. }2,170.12$। घ) प्रतिशतमा ब्याजहरूको फरक $= \\dfrac{CI_2-CI_1}{CI_1}\\times100\\% = \\dfrac{2170.12}{19475}\\times100\\% = 11.14\\%$। त्यसैले, दोस्रो वर्षको ब्याज पहिलो वर्षको भन्दा $11.14\\%$ ले फरक छ।"
+          }
+        },
+        {
+          "exampleId": "ex-2-1-9",
+          "question": {
+            "en": "A commercial bank releases a loan of Rs. 52,500 to Babulal and Jibanlal at the rate of yearly 10% compound interest. If the compound amount paid by Babulal in 2 years is the same as the compound amount paid by Jibanlal in 3 years, how much loan did each of them borrow from the bank?",
+            "ne": "एउटा वाणिज्य बैंकले बबुलाल र जीवनलाललाई $10\\%$ वार्षिक चक्रवृद्धि ब्याजदरमा रु. ५२,५०० ऋण दिन्छ। यदि बबुलालले २ वर्षमा तिर्ने चक्रवृद्धि रकम जीवनलालले ३ वर्षमा तिर्ने चक्रवृद्धि रकम बराबर छ भने, उनीहरू प्रत्येकले बैंकबाट कति ऋण लिए?"
+          },
+          "solution": {
+            "en": "Let the loan amount of Babulal $P_1 = \\text{Rs. }x$; the loan amount of Jibanlal $P_2 = \\text{Rs. }(52,500-x)$. The compound amount to be paid by Babulal in 2 years: $CA_1 = P_1\\left(1+\\dfrac{R}{100}\\right)^T = x\\left(1+\\dfrac{10}{100}\\right)^2 = x\\left(\\dfrac{110}{100}\\right)^2 = 1.21x$. The compound amount to be paid by Jibanlal in 3 years: $CA_2 = P_2\\left(1+\\dfrac{R}{100}\\right)^T = (52,500-x)\\left(1+\\dfrac{10}{100}\\right)^3 = (52,500-x)(1.331) = 69,877.5-1.331x$. Since $CA_1=CA_2$: $1.21x = 69,877.5-1.331x$, so $1.21x+1.331x=69,877.5$, giving $2.541x=69,877.5$, so $x=27,500$. Thus, Babulal borrowed Rs. $27,500$ and Jibanlal borrowed Rs. $(52,500-27,500) = \\text{Rs. }25,000$.",
+            "ne": "मानौं बबुलालको ऋण रकम $P_1 = \\text{रु. }x$; जीवनलालको ऋण रकम $P_2 = \\text{रु. }(52,500-x)$। बबुलालले २ वर्षमा तिर्ने चक्रवृद्धि रकम: $CA_1 = P_1\\left(1+\\dfrac{R}{100}\\right)^T = x\\left(1+\\dfrac{10}{100}\\right)^2 = x\\left(\\dfrac{110}{100}\\right)^2 = 1.21x$। जीवनलालले ३ वर्षमा तिर्ने चक्रवृद्धि रकम: $CA_2 = P_2\\left(1+\\dfrac{R}{100}\\right)^T = (52,500-x)\\left(1+\\dfrac{10}{100}\\right)^3 = (52,500-x)(1.331) = 69,877.5-1.331x$। $CA_1=CA_2$ भएकोले: $1.21x = 69,877.5-1.331x$, त्यसैले $1.21x+1.331x=69,877.5$, जसबाट $2.541x=69,877.5$, अतः $x=27,500$। त्यसैले, बबुलालले रु. २७,५०० र जीवनलालले रु. $(52,500-27,500) = \\text{रु. }25,000$ ऋण लिए।"
+          }
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "exerciseId": "ex2.1-q1",
+      "text": {
+        "en": "Define:",
+        "ne": "परिभाषित गर्नुहोस्:"
+      },
+      "parts": [
+        {
+          "partId": "ex2.1-q1-a",
+          "text": {
+            "en": "Yearly compound interest",
+            "ne": "वार्षिक चक्रवृद्धि ब्याज"
+          }
+        },
+        {
+          "partId": "ex2.1-q1-b",
+          "text": {
+            "en": "Half yearly compound interest",
+            "ne": "अर्धवार्षिक चक्रवृद्धि ब्याज"
+          }
+        },
+        {
+          "partId": "ex2.1-q1-c",
+          "text": {
+            "en": "Quarterly compound interest",
+            "ne": "त्रैमासिक चक्रवृद्धि ब्याज"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex2.1-q2",
+      "text": {
+        "en": "Question 2",
+        "ne": "प्रश्न २"
+      },
+      "parts": [
+        {
+          "partId": "ex2.1-q2-a",
+          "text": {
+            "en": "According to the yearly compound interest, if principal is $P$, yearly rate of interest is $R$ and time is $T$ years, write the formula to compute compound amount.",
+            "ne": "वार्षिक चक्रवृद्धि ब्याज अनुसार, यदि सांचो $P$, वार्षिक ब्याजदर $R$ र समय $T$ वर्ष हो भने, चक्रवृद्धि रकम गणना गर्ने सूत्र लेख्नुहोस्।"
+          }
+        },
+        {
+          "partId": "ex2.1-q2-b",
+          "text": {
+            "en": "The compound interest $CI$ of a sum $P$ in $T$ years at the rate of yearly compound interest is $R\\%$, write the relation between $P$, $T$, $R$ and $CI$.",
+            "ne": "सांचो $P$ को $T$ वर्षमा $R\\%$ वार्षिक चक्रवृद्धि ब्याजदरको चक्रवृद्धि ब्याज $CI$ हो भने, $P$, $T$, $R$ र $CI$ बीचको सम्बन्ध लेख्नुहोस्।"
+          }
+        },
+        {
+          "partId": "ex2.1-q2-c",
+          "text": {
+            "en": "Employee Provident Fund changes the rate of interest per annum according to the economic liquidity of the state. As per the given condition, the compound amount of a sum $P$ at the interest rate of $R_1\\%$, $R_2\\%$ and $R_3\\%$ for the first, second and third years respectively is $CA$, then write the formula to find $CA$.",
+            "ne": "कर्मचारी सञ्चय कोषले राज्यको आर्थिक तरलता अनुसार वार्षिक ब्याजदर परिवर्तन गर्छ। दिइएको अवस्था अनुसार सांचो $P$ को पहिलो, दोस्रो र तेस्रो वर्षका लागि क्रमशः $R_1\\%$, $R_2\\%$ र $R_3\\%$ ब्याजदरमा चक्रवृद्धि रकम $CA$ हो भने, $CA$ पत्ता लगाउने सूत्र लेख्नुहोस्।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex2.1-q3",
+      "text": {
+        "en": "Without using formula, find the compound interest and compound amount for the following conditions:",
+        "ne": "सूत्र प्रयोग नगरी, निम्न अवस्थाका लागि चक्रवृद्धि ब्याज र चक्रवृद्धि रकम पत्ता लगाउनुहोस्:"
+      },
+      "parts": [
+        {
+          "partId": "ex2.1-q3-a",
+          "text": {
+            "en": "Principal $(P) = $ Rs. 10,000, Time $(T) = 2$ years and Rate of interest $(R) = 6\\%$ p.a.",
+            "ne": "सांचो $(P) = $ रु. १०,०००, समय $(T) = 2$ वर्ष र ब्याजदर $(R) = 6\\%$ वार्षिक।"
+          }
+        },
+        {
+          "partId": "ex2.1-q3-b",
+          "text": {
+            "en": "Principal $(P) = $ Rs. 64,000, Time $(T) = 3$ years and Rate of interest $(R) = 6\\%$ p.a.",
+            "ne": "सांचो $(P) = $ रु. ६४,०००, समय $(T) = 3$ वर्ष र ब्याजदर $(R) = 6\\%$ वार्षिक।"
+          }
+        },
+        {
+          "partId": "ex2.1-q3-c",
+          "text": {
+            "en": "Principal $(P) = $ Rs. 20,000, Time $(T) = 2$ years, Rate of interest for the first year $(R_1) = 10\\%$ p.a. and the rate of interest for the second year $(R_2) = 12\\%$ p.a.",
+            "ne": "सांचो $(P) = $ रु. २०,०००, समय $(T) = 2$ वर्ष, पहिलो वर्षको ब्याजदर $(R_1) = 10\\%$ वार्षिक र दोस्रो वर्षको ब्याजदर $(R_2) = 12\\%$ वार्षिक।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex2.1-q4",
+      "text": {
+        "en": "Question 4",
+        "ne": "प्रश्न ४"
+      },
+      "parts": [
+        {
+          "partId": "ex2.1-q4-a",
+          "text": {
+            "en": "At what rate of compound interest per year will the compound interest of Rs. 100 in a year be Rs. 12? Write.",
+            "ne": "कुन वार्षिक चक्रवृद्धि ब्याजदरमा रु. १०० को १ वर्षको चक्रवृद्धि ब्याज रु. १२ हुन्छ? लेख्नुहोस्।"
+          }
+        },
+        {
+          "partId": "ex2.1-q4-b",
+          "text": {
+            "en": "At what rate of compound interest per year will the compound interest of Rs. 200 in 2 years be Rs. 42? Find it.",
+            "ne": "कुन वार्षिक चक्रवृद्धि ब्याजदरमा रु. २०० को २ वर्षको चक्रवृद्धि ब्याज रु. ४२ हुन्छ? पत्ता लगाउनुहोस्।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex2.1-q5",
+      "text": {
+        "en": "Question 5",
+        "ne": "प्रश्न ५"
+      },
+      "parts": [
+        {
+          "partId": "ex2.1-q5-a",
+          "text": {
+            "en": "A farmer borrowed Rs. 20,000 from a co-operative to invest in poultry farm for 3 years at the rate of compound interest of 15% per year. Find the compound interest and compound amount of 3 years.",
+            "ne": "एक किसानले पोल्ट्री फार्ममा लगानी गर्न सहकारीबाट $15\\%$ वार्षिक चक्रवृद्धि ब्याजदरमा ३ वर्षका लागि रु. २०,००० ऋण लिए। ३ वर्षको चक्रवृद्धि ब्याज र चक्रवृद्धि रकम पत्ता लगाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "ex2.1-q5-b",
+          "text": {
+            "en": "A teacher deposited Rs. 50,000 in a bank at the account of his daughter. If the bank provides yearly 10% interest, what will be the compound interest and compound amount in 3 years? Find.",
+            "ne": "एक शिक्षकले आफ्नी छोरीको खातामा बैंकमा रु. ५०,००० जम्मा गरे। यदि बैंकले वार्षिक $10\\%$ ब्याज दिन्छ भने, ३ वर्षमा चक्रवृद्धि ब्याज र चक्रवृद्धि रकम कति हुन्छ? पत्ता लगाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "ex2.1-q5-c",
+          "text": {
+            "en": "Sabita deposited Rs. 1,50,000 in a bank. If the bank provides yearly 6% interest after 2 years 6 months, (i) how much is the compound amount? (ii) how much is the compound interest?",
+            "ne": "सबिताले बैंकमा रु. १,५०,००० जम्मा गरिन्। यदि बैंकले २ वर्ष ६ महिनापछि वार्षिक $6\\%$ ब्याज दिन्छ भने, (i) चक्रवृद्धि रकम कति हुन्छ? (ii) चक्रवृद्धि ब्याज कति हुन्छ?"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex2.1-q6",
+      "text": {
+        "en": "Question 6",
+        "ne": "प्रश्न ६"
+      },
+      "parts": [
+        {
+          "partId": "ex2.1-q6-a",
+          "text": {
+            "en": "Manisha deposited Rs. 50,000 in a bank at the rate of compound interest 8% p.a. If the bank provides half yearly compound interest, then find the compound interest and compound amount she receives after 2 years.",
+            "ne": "मनिषाले बैंकमा $8\\%$ वार्षिक चक्रवृद्धि ब्याजदरमा रु. ५०,००० जम्मा गरिन्। यदि बैंकले अर्धवार्षिक चक्रवृद्धि ब्याज दिन्छ भने, २ वर्षपछि उनले पाउने चक्रवृद्धि ब्याज र चक्रवृद्धि रकम पत्ता लगाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "ex2.1-q6-b",
+          "text": {
+            "en": "A bank provides quarterly compound interest. If Sunil deposited Rs. 50,00,000 for 1 year at the rate of 12% p.a. interest, then find the compound interest and compound amount.",
+            "ne": "एउटा बैंकले त्रैमासिक चक्रवृद्धि ब्याज दिन्छ। यदि सुनिलले $12\\%$ वार्षिक ब्याजदरमा १ वर्षका लागि रु. ५०,००,००० जम्मा गरे भने, चक्रवृद्धि ब्याज र चक्रवृद्धि रकम पत्ता लगाउनुहोस्।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex2.1-q7",
+      "text": {
+        "en": "Question 7",
+        "ne": "प्रश्न ७"
+      },
+      "parts": [
+        {
+          "partId": "ex2.1-q7-a",
+          "text": {
+            "en": "Karma Gurung deposited Rs. 80,000 in a bank at the rate of 8% compound interest p.a. Find the difference between simple interest and compound interest of the sum in 2 years.",
+            "ne": "कर्म गुरुङले बैंकमा $8\\%$ वार्षिक चक्रवृद्धि ब्याजदरमा रु. ८०,००० जम्मा गरे। २ वर्षमा सो रकमको साधारण ब्याज र चक्रवृद्धि ब्याजबीचको फरक पत्ता लगाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "ex2.1-q7-b",
+          "text": {
+            "en": "Find the difference between simple interest and yearly compound interest of a sum Rs. 7,500 at the rate of 12% p.a. interest in 3 years.",
+            "ne": "$12\\%$ वार्षिक ब्याजदरमा रु. ७,५०० को ३ वर्षमा साधारण ब्याज र वार्षिक चक्रवृद्धि ब्याजबीचको फरक पत्ता लगाउनुहोस्।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex2.1-q8",
+      "text": {
+        "en": "Question 8",
+        "ne": "प्रश्न ८"
+      },
+      "parts": [
+        {
+          "partId": "ex2.1-q8-a",
+          "text": {
+            "en": "Chhiring deposited Rs. 40,000 at the rate of 6% annual compound interest. Find the difference of yearly compound interest and half yearly compound interest of the sum in 2 years.",
+            "ne": "छिरिङले $6\\%$ वार्षिक चक्रवृद्धि ब्याजदरमा रु. ४०,००० जम्मा गरे। २ वर्षमा सो रकमको वार्षिक चक्रवृद्धि ब्याज र अर्धवार्षिक चक्रवृद्धि ब्याजबीचको फरक पत्ता लगाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "ex2.1-q8-b",
+          "text": {
+            "en": "What is the difference between semi-annual compound interest and quarterly compound interest of Rs. 18,000 in a year at the rate of 12% compound interest p.a.? Find it.",
+            "ne": "$12\\%$ वार्षिक चक्रवृद्धि ब्याजदरमा रु. १८,००० को १ वर्षमा अर्धवार्षिक चक्रवृद्धि ब्याज र त्रैमासिक चक्रवृद्धि ब्याजबीचको फरक कति हो? पत्ता लगाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "ex2.1-q8-c",
+          "text": {
+            "en": "You went to deposit Rs. 60,000 in a bank for 2 years. The bank's notice board offers two fixed deposit accounts: Fixed deposit (P) with half yearly compound interest at 10% p.a., and Fixed deposit (Q) with yearly compound interest at 12% p.a. (i) How much interest will be collected in account (P) after 2 years? (ii) How much interest will be collected in account (Q) after 2 years? (iii) After knowing the interest rates of both options, by which option will you deposit the money? And why?",
+            "ne": "तपाईं बैंकमा २ वर्षका लागि रु. ६०,००० जम्मा गर्न जानुहुन्छ। बैंकको सूचनापाटीमा दुई प्रकारका फिक्स्ड डिपोजिट खाता उल्लेख छन्: फिक्स्ड डिपोजिट (P) मा $10\\%$ वार्षिक दरमा अर्धवार्षिक चक्रवृद्धि ब्याज, र फिक्स्ड डिपोजिट (Q) मा $12\\%$ वार्षिक दरमा वार्षिक चक्रवृद्धि ब्याज। (i) २ वर्षपछि खाता (P) मा कति ब्याज संकलन हुन्छ? (ii) २ वर्षपछि खाता (Q) मा कति ब्याज संकलन हुन्छ? (iii) दुवै विकल्पको ब्याजदर थाहा पाएपछि, तपाईं कुन विकल्पमा रकम जम्मा गर्नुहुन्छ? र किन?"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex2.1-q9",
+      "text": {
+        "en": "Question 9",
+        "ne": "प्रश्न ९"
+      },
+      "parts": [
+        {
+          "partId": "ex2.1-q9-a",
+          "text": {
+            "en": "If the yearly compound interest of a sum in 2 years at the rate of 15% p.a. interest is Rs. 180 more than simple interest, then find the sum.",
+            "ne": "यदि कुनै सांचोको $15\\%$ वार्षिक दरमा २ वर्षको वार्षिक चक्रवृद्धि ब्याज साधारण ब्याजभन्दा रु. १८० बढी छ भने, सांचो पत्ता लगाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "ex2.1-q9-b",
+          "text": {
+            "en": "If the half yearly compound interest of a sum in a year at the rate of 10% interest p.a. is Rs. 40 more than the yearly compound interest of the same sum for the same period of time at the same rate of interest, then find the sum.",
+            "ne": "यदि कुनै सांचोको $10\\%$ वार्षिक दरमा १ वर्षको अर्धवार्षिक चक्रवृद्धि ब्याज सोही सांचोको सोही अवधि र सोही दरको वार्षिक चक्रवृद्धि ब्याजभन्दा रु. ४० बढी छ भने, सांचो पत्ता लगाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "ex2.1-q9-c",
+          "text": {
+            "en": "Suprim borrowed some money for 2 years at the rate of compound interest of 10% p.a. and immediately he lent the money at the same rate of half yearly compound interest for the same period of time. In this transaction, if he gained Rs. 2019.24, then find how much he borrowed.",
+            "ne": "सुप्रिमले $10\\%$ वार्षिक चक्रवृद्धि ब्याजदरमा २ वर्षका लागि केही रकम ऋण लिए र तुरुन्तै सोही दरको अर्धवार्षिक चक्रवृद्धि ब्याजमा सोही अवधिका लागि सापटी दिए। यस कारोबारमा, यदि उनले रु. २०१९.२४ फाइदा पाए भने, उनले कति रकम ऋण लिएका थिए पत्ता लगाउनुहोस्।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex2.1-q10",
+      "text": {
+        "en": "Question 10",
+        "ne": "प्रश्न १०"
+      },
+      "parts": [
+        {
+          "partId": "ex2.1-q10-a",
+          "text": {
+            "en": "In how many years does a sum of Rs. 1,00,000 amount to Rs. 1,21,000 at the rate of compound interest 10% p.a.?",
+            "ne": "$10\\%$ वार्षिक चक्रवृद्धि ब्याजदरमा रु. १,००,००० कति वर्षमा रु. १,२१,००० हुन्छ?"
+          }
+        },
+        {
+          "partId": "ex2.1-q10-b",
+          "text": {
+            "en": "According to the compound interest, in how many years will the compound interest of Rs. 8,00,000 at the rate of 10% p.a. be Rs. 12,61,000? Find it.",
+            "ne": "चक्रवृद्धि ब्याज अनुसार, $10\\%$ वार्षिक दरमा रु. ८,००,००० को चक्रवृद्धि ब्याज कति वर्षमा रु. १२,६१,००० हुन्छ? पत्ता लगाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "ex2.1-q10-c",
+          "text": {
+            "en": "At what rate of yearly compound interest does the sum of Rs. 700 amount to Rs. 847 in 2 years?",
+            "ne": "कुन वार्षिक चक्रवृद्धि ब्याजदरमा रु. ७०० २ वर्षमा रु. ८४७ हुन्छ?"
+          }
+        },
+        {
+          "partId": "ex2.1-q10-d",
+          "text": {
+            "en": "At what rate of annual compound interest will the compound interest of Rs. 3,43,000 in 3 years be Rs. 1,13,533? Find.",
+            "ne": "कुन वार्षिक चक्रवृद्धि ब्याजदरमा रु. ३,४३,००० को ३ वर्षको चक्रवृद्धि ब्याज रु. १,१३,५३३ हुन्छ? पत्ता लगाउनुहोस्।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex2.1-q11",
+      "text": {
+        "en": "Question 11",
+        "ne": "प्रश्न ११"
+      },
+      "parts": [
+        {
+          "partId": "ex2.1-q11-a",
+          "text": {
+            "en": "At the rate of yearly compound interest, a sum will be Rs. 6,050 in 2 years and Rs. 6,655 in 3 years respectively. Then (i) find the rate of the compound interest. (ii) find the sum.",
+            "ne": "वार्षिक चक्रवृद्धि ब्याजदरमा, कुनै सांचो २ वर्षमा रु. ६,०५० र ३ वर्षमा रु. ६,६५५ हुन्छ। त्यसो भए (i) चक्रवृद्धि ब्याजदर पत्ता लगाउनुहोस्। (ii) सांचो पत्ता लगाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "ex2.1-q11-b",
+          "text": {
+            "en": "At the rate of annual compound interest, a sum amounts to Rs. 10,580 in 2 years and Rs. 12,167 in 3 years respectively. Then (i) find the rate of the compound interest. (ii) find the sum.",
+            "ne": "वार्षिक चक्रवृद्धि ब्याजदरमा, कुनै सांचो २ वर्षमा रु. १०,५८० र ३ वर्षमा रु. १२,१६७ हुन्छ। त्यसो भए (i) चक्रवृद्धि ब्याजदर पत्ता लगाउनुहोस्। (ii) सांचो पत्ता लगाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "ex2.1-q11-c",
+          "text": {
+            "en": "The compound interest of a sum at the rate of yearly compound interest in 1 year and 2 years are respectively Rs. 1,800 and Rs. 3,816, then find the rate of the interest and the sum.",
+            "ne": "कुनै सांचोको वार्षिक चक्रवृद्धि ब्याजदरमा १ वर्ष र २ वर्षको चक्रवृद्धि ब्याज क्रमशः रु. १,८०० र रु. ३,८१६ छ भने, ब्याजदर र सांचो पत्ता लगाउनुहोस्।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex2.1-q12",
+      "text": {
+        "en": "Question 12",
+        "ne": "प्रश्न १२"
+      },
+      "parts": [
+        {
+          "partId": "ex2.1-q12-a",
+          "text": {
+            "en": "A person deposited Rs. 5,00,000 in a commercial bank for 2 years to get the half yearly compound interest at the rate of 10% per annum. 5% tax on the interest will be levied. But right after a year, the bank has changed the policy and decided to compute the interest quarterly at the same rate of interest. (i) Find the interest of the first year by deducting the tax. (ii) What would be the interest of the second year after deducting the tax? (iii) What is the difference between the interest of the first year and second year after deducting the tax? Find. (iv) After deducting the tax, by what percentage does the interest of the first year differ from the interest of the second year?",
+            "ne": "एक व्यक्तिले वाणिज्य बैंकमा २ वर्षका लागि रु. ५,००,००० जम्मा गरी $10\\%$ वार्षिक दरमा अर्धवार्षिक चक्रवृद्धि ब्याज पाउने योजना बनाए। ब्याजमा $5\\%$ कर लाग्नेछ। तर १ वर्षपछि नै, बैंकले नीति परिवर्तन गरी उही दरमा ब्याज त्रैमासिक रूपमा गणना गर्ने निर्णय गर्यो। (i) कर कटौती गरी पहिलो वर्षको ब्याज पत्ता लगाउनुहोस्। (ii) कर कटौती गरेपछि दोस्रो वर्षको ब्याज कति हुन्छ? (iii) कर कटौती गरेपछि पहिलो वर्ष र दोस्रो वर्षको ब्याजबीचको फरक कति हो? पत्ता लगाउनुहोस्। (iv) कर कटौती गरेपछि, पहिलो वर्षको ब्याज दोस्रो वर्षको ब्याजभन्दा कति प्रतिशतले फरक छ?"
+          }
+        },
+        {
+          "partId": "ex2.1-q12-b",
+          "text": {
+            "en": "A person deposited Rs. 80,000 in a co-operative limited for 2 years to get the yearly compound interest at the rate of 15% per annum after deducting the 5% tax on the interest. But right after a year, the bank has changed the policy and decided to compute the interest half yearly at the same rate of interest. After deducting tax, by what percentage does the interest of the first year differ from the interest of the second year?",
+            "ne": "एक व्यक्तिले सहकारी लिमिटेडमा २ वर्षका लागि रु. ८०,००० जम्मा गरी $15\\%$ वार्षिक दरमा वार्षिक चक्रवृद्धि ब्याज पाउने योजना बनाए, ब्याजमा $5\\%$ कर कटौती गरी। तर १ वर्षपछि नै, बैंकले नीति परिवर्तन गरी उही दरमा ब्याज अर्धवार्षिक रूपमा गणना गर्ने निर्णय गर्यो। कर कटौती गरेपछि, पहिलो वर्षको ब्याज दोस्रो वर्षको ब्याजभन्दा कति प्रतिशतले फरक छ?"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex2.1-q13",
+      "text": {
+        "en": "Question 13",
+        "ne": "प्रश्न १३"
+      },
+      "parts": [
+        {
+          "partId": "ex2.1-q13-a",
+          "text": {
+            "en": "Ram divided Rs. 41,000 in two parts and deposited in the bank account of two daughters at the rate of annual compound interest 5% for 2 years and 3 years respectively. If the compound amount received by them after 2 years and 3 years respectively are equal, find how much did each of them get?",
+            "ne": "रामले रु. ४१,००० लाई दुई भागमा बाँडी दुई छोरीको बैंक खातामा $5\\%$ वार्षिक चक्रवृद्धि ब्याजदरमा क्रमशः २ वर्ष र ३ वर्षका लागि जम्मा गरे। यदि २ वर्ष र ३ वर्षपछि उनीहरूले पाउने चक्रवृद्धि रकम बराबर छ भने, प्रत्येकले कति रकम पाए पत्ता लगाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "ex2.1-q13-b",
+          "text": {
+            "en": "Divide Rs. 21,000 in two parts in such a way that the compound amount of the first part at the rate of 10% p.a. for 3 years is equal to the compound amount for 2 years. What sums are there in the first part and the second part? Find it.",
+            "ne": "रु. २१,००० लाई दुई भागमा यसरी बाँड्नुहोस् कि पहिलो भागको $10\\%$ वार्षिक दरमा ३ वर्षको चक्रवृद्धि रकम दोस्रो भागको २ वर्षको चक्रवृद्धि रकम बराबर होस्। पहिलो र दोस्रो भागमा कति रकम छ पत्ता लगाउनुहोस्।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex2.1-q14",
+      "text": {
+        "en": "Question 14",
+        "ne": "प्रश्न १४"
+      },
+      "parts": [
+        {
+          "partId": "ex2.1-q14-a",
+          "text": {
+            "en": "According to the yearly compound interest, the compound interest of a sum for 1 year and 2 years are respectively Rs. 450 and Rs. 945, find the rate of interest and the sum.",
+            "ne": "वार्षिक चक्रवृद्धि ब्याज अनुसार, कुनै सांचोको १ वर्ष र २ वर्षको चक्रवृद्धि ब्याज क्रमशः रु. ४५० र रु. ९४५ छ भने, ब्याजदर र सांचो पत्ता लगाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "ex2.1-q14-b",
+          "text": {
+            "en": "According to the yearly compound interest, the compound interests of a sum for 1 year and 2 years are Rs. 1800 and Rs. 3816 respectively. Find the rate of the interest and the sum.",
+            "ne": "वार्षिक चक्रवृद्धि ब्याज अनुसार, कुनै सांचोको १ वर्ष र २ वर्षको चक्रवृद्धि ब्याज क्रमशः रु. १८०० र रु. ३८१६ छ। ब्याजदर र सांचो पत्ता लगाउनुहोस्।"
+          }
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "imageId": "img-activity5-options",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Flowchart: Options branching into yearly interest, half yearly interest, terminal interest",
+        "ne": "फ्लोचार्ट: विकल्पहरू वार्षिक ब्याज, अर्धवार्षिक ब्याज, त्रैमासिक ब्याजमा शाखा हुँदै"
+      },
+      "caption": {
+        "en": "Flowchart of the three compounding options in Activity 5",
+        "ne": "क्रियाकलाप ५ का तीन चक्रवृद्धि विकल्पको फ्लोचार्ट"
+      }
+    }
+  ]
+}

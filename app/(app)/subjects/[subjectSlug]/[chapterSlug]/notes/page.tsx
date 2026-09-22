@@ -74,7 +74,7 @@ export default async function NotesPage({ params }: { params: { subjectSlug: str
 
   if (!subject || !chapter) notFound();
 
-  if (subjectSlug === "science" || subjectSlug === "nepali" || subjectSlug === "computer-science" || subjectSlug === "english" || subjectSlug === "social-studies") {
+  if (subjectSlug === "science" || subjectSlug === "nepali" || subjectSlug === "computer-science" || subjectSlug === "english" || subjectSlug === "social-studies" || subjectSlug === "mathematics") {
     return (
       <Suspense fallback={<NotesLoading title={chapter.title} />}>
         <ChapterNotesLoader subject={subject} chapter={chapter} />

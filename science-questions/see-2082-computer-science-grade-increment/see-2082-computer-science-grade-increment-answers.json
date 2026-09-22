@@ -1,0 +1,682 @@
+{
+  "chapterId": "see-2082-computer-science-grade-increment",
+  "subjectId": "computer-science",
+  "classLevel": "10",
+  "examBoard": "SEE (National Examinations Board, Nepal)",
+  "examYear": "2082 BS (2026 AD) - Grade Increment",
+  "paperCode": "GI-3031",
+  "fullMarks": 50,
+  "timeAllowed": "2 hours",
+  "titleEn": "SEE (Grade Increment) 2082 (2026) Computer Science (Optional Second) - GI-3031 - Answers",
+  "titleNe": "SEE ग्रेड वृद्धि २०८२ (२०२६) कम्प्युटर विज्ञान (ऐच्छिक दोस्रो) - GI-3031 - उत्तर कुञ्जी",
+  "sourceNote": {
+    "en": "Answer key for the SEE 2082 (2026 AD) (Grade Increment) Optional Computer Science question paper, paper code GI-3031. Solutions are written at Class 10 / SEE level in the same QBASIC/C vocabulary the paper uses, keyed to each question number.",
+    "ne": "SEE 2082 (2026 AD) (Grade Increment) ऐच्छिक कम्प्युटर विज्ञान प्रश्नपत्र (कोड GI-3031) को उत्तर कुञ्जी। समाधानहरू कक्षा १० / SEE स्तरमा प्रश्नपत्रले प्रयोग गरेकै QBASIC/C शब्दावलीमा तयार गरिएका छन्।"
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "text": {
+        "en": "Answer Key - SEE (Grade Increment) 2082 (2026) Computer Science, Optional Second",
+        "ne": "Answer Key - SEE (Grade Increment) 2082 (2026) Computer Science, Optional Second"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "Full worked answers, step-by-step solutions, and complete runnable code for the SEE Grade Increment 2082 (2026) Computer Science Optional Second paper (GI-3031), mirrored section-by-section and item-by-item against the questions file.",
+        "ne": "Full worked answers, step-by-step solutions, and complete runnable code for the SEE Grade Increment 2082 (2026) Computer Science Optional Second paper (GI-3031), mirrored section-by-section and item-by-item against the questions file."
+      }
+    }
+  ],
+  "docType": "answerKey",
+  "questionSections": [
+    {
+      "title": {
+        "en": "Group A - Q1: Answer the following questions in one sentence",
+        "ne": "Group A - Q1: Answer the following questions in one sentence"
+      },
+      "items": [
+        {
+          "id": "cs-see-gi-2082-gi3031b-q1a",
+          "questionNumber": "1(a)",
+          "section": "Group A",
+          "marks": 1,
+          "answer": {
+            "en": "Television broadcasting and radio broadcasting.",
+            "ne": "Television broadcasting and radio broadcasting."
+          }
+        },
+        {
+          "id": "cs-see-gi-2082-gi3031b-q1b",
+          "questionNumber": "1(b)",
+          "section": "Group A",
+          "marks": 1,
+          "answer": {
+            "en": "A password is a secret combination of characters used to verify a user's identity and restrict unauthorized access to a computer system or account.",
+            "ne": "A password is a secret combination of characters used to verify a user's identity and restrict unauthorized access to a computer system or account."
+          }
+        },
+        {
+          "id": "cs-see-gi-2082-gi3031b-q1c",
+          "questionNumber": "1(c)",
+          "section": "Group A",
+          "marks": 1,
+          "answer": {
+            "en": "OLE Object (Attachment is also acceptable in newer versions of MS-Access).",
+            "ne": "OLE Object (Attachment is also acceptable in newer versions of MS-Access)."
+          }
+        },
+        {
+          "id": "cs-see-gi-2082-gi3031b-q1d",
+          "questionNumber": "1(d)",
+          "section": "Group A",
+          "marks": 1,
+          "answer": {
+            "en": "The caption field property is used to display a more descriptive or user-friendly label for a field in Datasheet View, Forms, and Reports, without changing the actual field name.",
+            "ne": "The caption field property is used to display a more descriptive or user-friendly label for a field in Datasheet View, Forms, and Reports, without changing the actual field name."
+          }
+        },
+        {
+          "id": "cs-see-gi-2082-gi3031b-q1e",
+          "questionNumber": "1(e)",
+          "section": "Group A",
+          "marks": 1,
+          "answer": {
+            "en": "Two advantages of modular programming: (1) It makes large programs easier to understand, develop, and debug by breaking them into smaller, manageable parts. (2) It allows code reusability, as the same module/function can be reused in different parts of the program or in other programs.",
+            "ne": "Two advantages of modular programming: (1) It makes large programs easier to understand, develop, and debug by breaking them into smaller, manageable parts. (2) It allows code reusability, as the same module/function can be reused in different parts of the program or in other programs."
+          }
+        },
+        {
+          "id": "cs-see-gi-2082-gi3031b-q1f",
+          "questionNumber": "1(f)",
+          "section": "Group A",
+          "marks": 1,
+          "answer": {
+            "en": "int and float (if, while, return, and void are also acceptable C keywords).",
+            "ne": "int and float (if, while, return, and void are also acceptable C keywords)."
+          }
+        }
+      ],
+      "instructions": {
+        "en": "6x1=6",
+        "ne": "6x1=6"
+      }
+    },
+    {
+      "title": {
+        "en": "Group A - Q2: Write appropriate technical term for the following",
+        "ne": "Group A - Q2: Write appropriate technical term for the following"
+      },
+      "items": [
+        {
+          "id": "cs-see-gi-2082-gi3031b-q2a",
+          "questionNumber": "2(a)",
+          "section": "Group A",
+          "marks": 1,
+          "answer": {
+            "en": "E-commerce",
+            "ne": "E-commerce"
+          }
+        },
+        {
+          "id": "cs-see-gi-2082-gi3031b-q2b",
+          "questionNumber": "2(b)",
+          "section": "Group A",
+          "marks": 1,
+          "answer": {
+            "en": "POP3 (Post Office Protocol version 3) - IMAP is also acceptable.",
+            "ne": "POP3 (Post Office Protocol version 3) - IMAP is also acceptable."
+          }
+        }
+      ],
+      "instructions": {
+        "en": "2x1=2",
+        "ne": "2x1=2"
+      }
+    },
+    {
+      "title": {
+        "en": "Group A - Q3: Write the full form of the following",
+        "ne": "Group A - Q3: Write the full form of the following"
+      },
+      "items": [
+        {
+          "id": "cs-see-gi-2082-gi3031b-q3a",
+          "questionNumber": "3(a)",
+          "section": "Group A",
+          "marks": 1,
+          "answer": {
+            "en": "Transmission Control Protocol/Internet Protocol",
+            "ne": "Transmission Control Protocol/Internet Protocol"
+          }
+        },
+        {
+          "id": "cs-see-gi-2082-gi3031b-q3b",
+          "questionNumber": "3(b)",
+          "section": "Group A",
+          "marks": 1,
+          "answer": {
+            "en": "Business to Consumer",
+            "ne": "Business to Consumer"
+          }
+        }
+      ],
+      "instructions": {
+        "en": "2x1=2",
+        "ne": "2x1=2"
+      }
+    },
+    {
+      "title": {
+        "en": "Group B - Q4: Answer the following questions in short",
+        "ne": "Group B - Q4: Answer the following questions in short"
+      },
+      "items": [
+        {
+          "id": "cs-see-gi-2082-gi3031b-q4a",
+          "questionNumber": "4(a)",
+          "section": "Group B",
+          "marks": 2,
+          "answer": {
+            "en": "A computer network is a group of two or more computers linked together so they can communicate and share resources with each other.",
+            "ne": "A computer network is a group of two or more computers linked together so they can communicate and share resources with each other."
+          },
+          "solution": {
+            "en": "Two advantages: (1) It allows sharing of resources such as printers, files, and internet connections among multiple users. (2) It enables fast and convenient communication and data exchange between connected devices.",
+            "ne": "Two advantages: (1) It allows sharing of resources such as printers, files, and internet connections among multiple users. (2) It enables fast and convenient communication and data exchange between connected devices."
+          }
+        },
+        {
+          "id": "cs-see-gi-2082-gi3031b-q4b",
+          "questionNumber": "4(b)",
+          "section": "Group B",
+          "marks": 2,
+          "answer": {
+            "en": "Artificial Intelligence (AI) is the branch of computer science that develops systems capable of performing tasks that normally require human intelligence, such as learning, reasoning, and problem-solving.",
+            "ne": "Artificial Intelligence (AI) is the branch of computer science that develops systems capable of performing tasks that normally require human intelligence, such as learning, reasoning, and problem-solving."
+          },
+          "solution": {
+            "en": "Two areas where AI is used: (1) Voice assistants and chatbots for customer service. (2) Self-driving/autonomous vehicles (healthcare diagnosis and recommendation systems are also acceptable examples).",
+            "ne": "Two areas where AI is used: (1) Voice assistants and chatbots for customer service. (2) Self-driving/autonomous vehicles (healthcare diagnosis and recommendation systems are also acceptable examples)."
+          }
+        },
+        {
+          "id": "cs-see-gi-2082-gi3031b-q4c",
+          "questionNumber": "4(c)",
+          "section": "Group B",
+          "marks": 2,
+          "answer": {
+            "en": "Data backup is the process of creating a copy of important data and storing it separately so it can be restored if the original data is lost or damaged.",
+            "ne": "Data backup is the process of creating a copy of important data and storing it separately so it can be restored if the original data is lost or damaged."
+          },
+          "solution": {
+            "en": "It provides computer data security by ensuring that even if data is accidentally deleted, corrupted by a virus, or lost due to hardware failure, a safe copy is still available and the original information is not permanently lost.",
+            "ne": "It provides computer data security by ensuring that even if data is accidentally deleted, corrupted by a virus, or lost due to hardware failure, a safe copy is still available and the original information is not permanently lost."
+          }
+        },
+        {
+          "id": "cs-see-gi-2082-gi3031b-q4d",
+          "questionNumber": "4(d)",
+          "section": "Group B",
+          "marks": 2,
+          "answer": {
+            "en": "Online payment is the process of making or receiving payments electronically over the internet, without using physical cash.",
+            "ne": "Online payment is the process of making or receiving payments electronically over the internet, without using physical cash."
+          },
+          "solution": {
+            "en": "Two forms of e-payment in Nepal: (1) Mobile wallets such as eSewa or Khalti. (2) Internet/mobile banking transfers through a bank's app or website.",
+            "ne": "Two forms of e-payment in Nepal: (1) Mobile wallets such as eSewa or Khalti. (2) Internet/mobile banking transfers through a bank's app or website."
+          }
+        },
+        {
+          "id": "cs-see-gi-2082-gi3031b-q4e",
+          "questionNumber": "4(e)",
+          "section": "Group B",
+          "marks": 2,
+          "answer": {
+            "en": "The Internet is called the network of networks because it is not a single network but a vast, interconnected system made up of millions of smaller private, public, academic, and government networks all linked together and communicating using common protocols such as TCP/IP.",
+            "ne": "The Internet is called the network of networks because it is not a single network but a vast, interconnected system made up of millions of smaller private, public, academic, and government networks all linked together and communicating using common protocols such as TCP/IP."
+          }
+        },
+        {
+          "id": "cs-see-gi-2082-gi3031b-q4f",
+          "questionNumber": "4(f)",
+          "section": "Group B",
+          "marks": 2,
+          "answer": {
+            "en": "A DBMS (Database Management System) is software used to create, store, manage, and manipulate data in a database.",
+            "ne": "A DBMS (Database Management System) is software used to create, store, manage, and manipulate data in a database."
+          },
+          "solution": {
+            "en": "Two examples of DBMS: MS-Access and MySQL (Oracle and SQL Server are also acceptable examples).",
+            "ne": "Two examples of DBMS: MS-Access and MySQL (Oracle and SQL Server are also acceptable examples)."
+          }
+        },
+        {
+          "id": "cs-see-gi-2082-gi3031b-q4g",
+          "questionNumber": "4(g)",
+          "section": "Group B",
+          "marks": 2,
+          "answer": {
+            "en": "Data redundancy is the unnecessary repetition/duplication of the same data stored in multiple places within a database.",
+            "ne": "Data redundancy is the unnecessary repetition/duplication of the same data stored in multiple places within a database."
+          },
+          "solution": {
+            "en": "It can be reduced in a database by properly normalizing the database (organizing data into related tables) and by using a Primary key/Foreign key relationship instead of repeating the same data in every table.",
+            "ne": "It can be reduced in a database by properly normalizing the database (organizing data into related tables) and by using a Primary key/Foreign key relationship instead of repeating the same data in every table."
+          }
+        },
+        {
+          "id": "cs-see-gi-2082-gi3031b-q4h",
+          "questionNumber": "4(h)",
+          "section": "Group B",
+          "marks": 2,
+          "answer": {
+            "en": "A query is a database object used to retrieve, filter, or manipulate data stored in tables based on specified criteria.",
+            "ne": "A query is a database object used to retrieve, filter, or manipulate data stored in tables based on specified criteria."
+          },
+          "solution": {
+            "en": "Types of query: Select Query (used to retrieve/display data) and Action Query (used to modify data - which further includes Update, Delete, Append, and Make-Table queries).",
+            "ne": "Types of query: Select Query (used to retrieve/display data) and Action Query (used to modify data - which further includes Update, Delete, Append, and Make-Table queries)."
+          }
+        },
+        {
+          "id": "cs-see-gi-2082-gi3031b-q4i",
+          "questionNumber": "4(i)",
+          "section": "Group B",
+          "marks": 2,
+          "answer": {
+            "en": "A Form is used for entering, viewing, and editing data conveniently, while a Report is used for presenting and printing data in a formatted, read-only layout.",
+            "ne": "A Form is used for entering, viewing, and editing data conveniently, while a Report is used for presenting and printing data in a formatted, read-only layout."
+          },
+          "solutionTable": {
+            "headers": [
+              {
+                "en": "Form",
+                "ne": "Form"
+              },
+              {
+                "en": "Report",
+                "ne": "Report"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "Mainly used for data entry and editing.",
+                  "ne": "Mainly used for data entry and editing."
+                },
+                {
+                  "en": "Mainly used for presenting/printing data.",
+                  "ne": "Mainly used for presenting/printing data."
+                }
+              ],
+              [
+                {
+                  "en": "Data displayed can usually be modified.",
+                  "ne": "Data displayed can usually be modified."
+                },
+                {
+                  "en": "Data displayed is typically read-only.",
+                  "ne": "Data displayed is typically read-only."
+                }
+              ]
+            ]
+          }
+        }
+      ],
+      "instructions": {
+        "en": "9x2=18",
+        "ne": "9x2=18"
+      }
+    },
+    {
+      "title": {
+        "en": "Group B - Q5: Dry run the given program",
+        "ne": "Group B - Q5: Dry run the given program"
+      },
+      "items": [
+        {
+          "id": "cs-see-gi-2082-gi3031b-q5",
+          "questionNumber": "5",
+          "section": "Group B",
+          "marks": 2,
+          "answer": {
+            "en": "Output:\n1 2 3 4 5\n1 2 3 4\n1 2 3\n1 2\n1",
+            "ne": "Output:\n1 2 3 4 5\n1 2 3 4\n1 2 3\n1 2\n1"
+          },
+          "solution": {
+            "en": "The outer loop runs J from 5 down to 1 (STEP -1). For each value of J, the inner loop runs I from 1 to J, printing each I with a trailing semicolon (so the numbers appear on the same line, separated by spaces). After the inner loop finishes, a plain 'PRINT' statement (with no value) moves output to a new line before the next value of J. This produces a decreasing right-angled triangle of numbers: J=5 prints 1 2 3 4 5; J=4 prints 1 2 3 4; J=3 prints 1 2 3; J=2 prints 1 2; J=1 prints 1.",
+            "ne": "The outer loop runs J from 5 down to 1 (STEP -1). For each value of J, the inner loop runs I from 1 to J, printing each I with a trailing semicolon (so the numbers appear on the same line, separated by spaces). After the inner loop finishes, a plain 'PRINT' statement (with no value) moves output to a new line before the next value of J. This produces a decreasing right-angled triangle of numbers: J=5 prints 1 2 3 4 5; J=4 prints 1 2 3 4; J=3 prints 1 2 3; J=2 prints 1 2; J=1 prints 1."
+          },
+          "solutionTable": {
+            "headers": [
+              {
+                "en": "J",
+                "ne": "J"
+              },
+              {
+                "en": "Inner loop I values printed",
+                "ne": "Inner loop I values printed"
+              },
+              {
+                "en": "Line output",
+                "ne": "Line output"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "5",
+                  "ne": "5"
+                },
+                {
+                  "en": "1,2,3,4,5",
+                  "ne": "1,2,3,4,5"
+                },
+                {
+                  "en": "1 2 3 4 5",
+                  "ne": "1 2 3 4 5"
+                }
+              ],
+              [
+                {
+                  "en": "4",
+                  "ne": "4"
+                },
+                {
+                  "en": "1,2,3,4",
+                  "ne": "1,2,3,4"
+                },
+                {
+                  "en": "1 2 3 4",
+                  "ne": "1 2 3 4"
+                }
+              ],
+              [
+                {
+                  "en": "3",
+                  "ne": "3"
+                },
+                {
+                  "en": "1,2,3",
+                  "ne": "1,2,3"
+                },
+                {
+                  "en": "1 2 3",
+                  "ne": "1 2 3"
+                }
+              ],
+              [
+                {
+                  "en": "2",
+                  "ne": "2"
+                },
+                {
+                  "en": "1,2",
+                  "ne": "1,2"
+                },
+                {
+                  "en": "1 2",
+                  "ne": "1 2"
+                }
+              ],
+              [
+                {
+                  "en": "1",
+                  "ne": "1"
+                },
+                {
+                  "en": "1",
+                  "ne": "1"
+                },
+                {
+                  "en": "1",
+                  "ne": "1"
+                }
+              ]
+            ]
+          },
+          "code": "DECLARE SUB SERIES ()\nCLS\nCALL SERIES\nEND\n\nSUB SERIES\nFOR J = 5 TO 1 STEP -1\n    FOR I = 1 TO J\n        PRINT I;\n    NEXT I\n    PRINT\nNEXT J\nEND SUB",
+          "codeLanguage": "QBASIC"
+        }
+      ],
+      "instructions": {
+        "en": "2",
+        "ne": "2"
+      }
+    },
+    {
+      "title": {
+        "en": "Group B - Q6: Correct the bugs in the given program",
+        "ne": "Group B - Q6: Correct the bugs in the given program"
+      },
+      "items": [
+        {
+          "id": "cs-see-gi-2082-gi3031b-q6",
+          "questionNumber": "6",
+          "section": "Group B",
+          "marks": 2,
+          "answer": {
+            "en": "The program has three bugs: the file open mode, a write statement wrongly written as a read statement referencing the wrong file number, and CLOSE not specifying which file to close.",
+            "ne": "The program has three bugs: the file open mode, a write statement wrongly written as a read statement referencing the wrong file number, and CLOSE not specifying which file to close."
+          },
+          "solution": {
+            "en": "(1) 'OPEN \"REC.DAT\" FOR OUTPUT AS #1' would erase any existing data; since the comment says more data should be added to an existing file, it must be 'FOR APPEND AS #1'. (2) 'INPUT #2, N$, A$, C$, RN' both reads from the file instead of writing to it, and refers to file #2 which was never opened (the file was opened as #1); to add a record it must be 'WRITE #1, N$, A$, C$, RN'. (3) 'CLOSE' with no file number closes all open files by default, which happens to work here since only one file is open, but it has been made explicit as 'CLOSE #1' to clearly match the file that was opened. Note: the filename has also been cleaned from the scanned 'REC. DAT' (with a stray space) to 'REC.DAT'; please verify this against the original paper.",
+            "ne": "(1) 'OPEN \"REC.DAT\" FOR OUTPUT AS #1' would erase any existing data; since the comment says more data should be added to an existing file, it must be 'FOR APPEND AS #1'. (2) 'INPUT #2, N$, A$, C$, RN' both reads from the file instead of writing to it, and refers to file #2 which was never opened (the file was opened as #1); to add a record it must be 'WRITE #1, N$, A$, C$, RN'. (3) 'CLOSE' with no file number closes all open files by default, which happens to work here since only one file is open, but it has been made explicit as 'CLOSE #1' to clearly match the file that was opened. Note: the filename has also been cleaned from the scanned 'REC. DAT' (with a stray space) to 'REC.DAT'; please verify this against the original paper."
+          },
+          "code": "REM to add more data in sequential data file\nOPEN \"REC.DAT\" FOR APPEND AS #1\nDO\n    INPUT \"Enter Name\"; N$\n    INPUT \"Enter Address\"; A$\n    INPUT \"Enter class with section\"; C$\n    INPUT \"Enter Roll no.\"; RN\n    WRITE #1, N$, A$, C$, RN\n    INPUT \"Do you want to continue\"; CH$\nLOOP WHILE UCASE$(CH$) = \"Y\"\nCLOSE #1\nEND",
+          "codeLanguage": "QBASIC"
+        }
+      ],
+      "instructions": {
+        "en": "2",
+        "ne": "2"
+      }
+    },
+    {
+      "title": {
+        "en": "Group B - Q7: Study the given program and answer the questions",
+        "ne": "Group B - Q7: Study the given program and answer the questions"
+      },
+      "items": [
+        {
+          "id": "cs-see-gi-2082-gi3031b-q7a",
+          "questionNumber": "7(a)",
+          "section": "Group B",
+          "marks": 1,
+          "answer": {
+            "en": "Real (actual) parameter: A. Formal parameter: N.",
+            "ne": "Real (actual) parameter: A. Formal parameter: N."
+          },
+          "solution": {
+            "en": "A is the Real (actual) parameter - the variable holding the value 1234 that is passed into the function when it is called as 'Y = SUM(A)'. N is the Formal parameter - the name used inside 'FUNCTION SUM(N)' to receive and refer to that passed-in value within the function body.",
+            "ne": "A is the Real (actual) parameter - the variable holding the value 1234 that is passed into the function when it is called as 'Y = SUM(A)'. N is the Formal parameter - the name used inside 'FUNCTION SUM(N)' to receive and refer to that passed-in value within the function body."
+          },
+          "code": "DECLARE FUNCTION SUM (N)\nCLS\nA = 1234\nY = SUM (A)\nPRINT \"Sum of individual digits\"; Y\nEND\n\nFUNCTION SUM (N)\n    WHILE N<>0\n        D = N MOD 10\n        S = S+D\n        N = INT (N/10)\n    WEND\n    SUM = S\nEND FUNCTION",
+          "codeLanguage": "QBASIC"
+        },
+        {
+          "id": "cs-see-gi-2082-gi3031b-q7b",
+          "questionNumber": "7(b)",
+          "section": "Group B",
+          "marks": 1,
+          "answer": {
+            "en": "The loop will continue infinitely (it will never terminate).",
+            "ne": "The loop will continue infinitely (it will never terminate)."
+          },
+          "solution": {
+            "en": "The line 'N = INT(N/10)' is what removes the last digit from N on every pass, gradually reducing N toward 0 so that the condition 'WHILE N<>0' eventually becomes false. If this line is removed, N never changes and always stays equal to its original value (1234), so the condition N<>0 remains true forever, causing an infinite loop that never terminates.",
+            "ne": "The line 'N = INT(N/10)' is what removes the last digit from N on every pass, gradually reducing N toward 0 so that the condition 'WHILE N<>0' eventually becomes false. If this line is removed, N never changes and always stays equal to its original value (1234), so the condition N<>0 remains true forever, causing an infinite loop that never terminates."
+          }
+        }
+      ],
+      "instructions": {
+        "en": "2x1=2",
+        "ne": "2x1=2"
+      }
+    },
+    {
+      "title": {
+        "en": "Group C - Q8: Convert/Calculate as per the instruction",
+        "ne": "Group C - Q8: Convert/Calculate as per the instruction"
+      },
+      "items": [
+        {
+          "id": "cs-see-gi-2082-gi3031b-q8i",
+          "questionNumber": "8(i)",
+          "section": "Group C",
+          "marks": 1,
+          "answer": {
+            "en": "(101001101110)2",
+            "ne": "(101001101110)2"
+          },
+          "solution": {
+            "en": "Convert each hexadecimal digit to its 4-bit binary equivalent: A = 1010, 6 = 0110, E = 1110. Concatenating these gives (101001101110)2.",
+            "ne": "Convert each hexadecimal digit to its 4-bit binary equivalent: A = 1010, 6 = 0110, E = 1110. Concatenating these gives (101001101110)2."
+          }
+        },
+        {
+          "id": "cs-see-gi-2082-gi3031b-q8ii",
+          "questionNumber": "8(ii)",
+          "section": "Group C",
+          "marks": 1,
+          "answer": {
+            "en": "27",
+            "ne": "27"
+          },
+          "solution": {
+            "en": "(11011)2 = 1x16 + 1x8 + 0x4 + 1x2 + 1x1 = 16 + 8 + 0 + 2 + 1 = 27 in decimal.",
+            "ne": "(11011)2 = 1x16 + 1x8 + 0x4 + 1x2 + 1x1 = 16 + 8 + 0 + 2 + 1 = 27 in decimal."
+          }
+        },
+        {
+          "id": "cs-see-gi-2082-gi3031b-q8iii",
+          "questionNumber": "8(iii)",
+          "section": "Group C",
+          "marks": 1,
+          "answer": {
+            "en": "(110111)2",
+            "ne": "(110111)2"
+          },
+          "solution": {
+            "en": "In decimal: (1011)2 = 11 and (101)2 = 5. Multiplying gives 11 x 5 = 55, which in binary is (110111)2.",
+            "ne": "In decimal: (1011)2 = 11 and (101)2 = 5. Multiplying gives 11 x 5 = 55, which in binary is (110111)2."
+          }
+        },
+        {
+          "id": "cs-see-gi-2082-gi3031b-q8iv",
+          "questionNumber": "8(iv)",
+          "section": "Group C",
+          "marks": 1,
+          "answer": {
+            "en": "Quotient = (111)2, Remainder = 0",
+            "ne": "Quotient = (111)2, Remainder = 0"
+          },
+          "solution": {
+            "en": "(1110)2 in decimal is 14, and (10)2 in decimal is 2. 14 divided by 2 gives a quotient of 7 with a remainder of 0. Converting back: 7 = (111)2.",
+            "ne": "(1110)2 in decimal is 14, and (10)2 in decimal is 2. 14 divided by 2 gives a quotient of 7 with a remainder of 0. Converting back: 7 = (111)2."
+          }
+        }
+      ],
+      "instructions": {
+        "en": "4x1=4",
+        "ne": "4x1=4"
+      }
+    },
+    {
+      "title": {
+        "en": "Group C - Q9: Answer the following questions",
+        "ne": "Group C - Q9: Answer the following questions"
+      },
+      "items": [
+        {
+          "id": "cs-see-gi-2082-gi3031b-q9a",
+          "questionNumber": "9(a)",
+          "section": "Group C",
+          "marks": 4,
+          "answer": {
+            "en": "A QBASIC program using a user-defined Function for the Total Surface Area and a Sub procedure for the Perimeter, as shown in the code field.",
+            "ne": "A QBASIC program using a user-defined Function for the Total Surface Area and a Sub procedure for the Perimeter, as shown in the code field."
+          },
+          "solution": {
+            "en": "The main module takes the room's length (L), breadth (B), and height (H) as input. It calls the user-defined Function TSA(L, B, H), which returns 2*(LB+BH+HL) as given in the hint, and prints the result directly since a function returns a value. It then calls the Sub procedure Perimeter(L, B) using CALL, which computes 2*(L+B) internally and prints it itself, since a sub does not return a value to the caller.",
+            "ne": "The main module takes the room's length (L), breadth (B), and height (H) as input. It calls the user-defined Function TSA(L, B, H), which returns 2*(LB+BH+HL) as given in the hint, and prints the result directly since a function returns a value. It then calls the Sub procedure Perimeter(L, B) using CALL, which computes 2*(L+B) internally and prints it itself, since a sub does not return a value to the caller."
+          },
+          "code": "DECLARE FUNCTION TSA (L, B, H)\nDECLARE SUB Perimeter (L, B)\n\nCLS\nINPUT \"Enter length of room: \", L\nINPUT \"Enter breadth of room: \", B\nINPUT \"Enter height of room: \", H\n\nPRINT \"Total Surface Area = \"; TSA(L, B, H)\nCALL Perimeter(L, B)\n\nEND\n\nFUNCTION TSA (L, B, H)\n    TSA = 2 * (L * B + B * H + H * L)\nEND FUNCTION\n\nSUB Perimeter (L, B)\n    P = 2 * (L + B)\n    PRINT \"Perimeter = \"; P\nEND SUB",
+          "codeLanguage": "QBASIC"
+        },
+        {
+          "id": "cs-see-gi-2082-gi3031b-q9b",
+          "questionNumber": "9(b)",
+          "section": "Group C",
+          "marks": 4,
+          "answer": {
+            "en": "A QBASIC program that reads student records from \"mark.txt\" and displays only those with a GPA greater than 2.8, as shown in the code field.",
+            "ne": "A QBASIC program that reads student records from \"mark.txt\" and displays only those with a GPA greater than 2.8, as shown in the code field."
+          },
+          "solution": {
+            "en": "The file \"mark.txt\" is opened FOR INPUT. A DO WHILE NOT EOF(1) loop reads one student's record at a time with INPUT #1 into the roll number, name, and GPA. An IF condition checks whether GPA is greater than 2.8, and if so, prints that student's full record. The loop continues until the end of the file is reached, after which the file is closed.",
+            "ne": "The file \"mark.txt\" is opened FOR INPUT. A DO WHILE NOT EOF(1) loop reads one student's record at a time with INPUT #1 into the roll number, name, and GPA. An IF condition checks whether GPA is greater than 2.8, and if so, prints that student's full record. The loop continues until the end of the file is reached, after which the file is closed."
+          },
+          "code": "OPEN \"mark.txt\" FOR INPUT AS #1\nCLS\nPRINT \"Students with GPA greater than 2.8:\"\nDO WHILE NOT EOF(1)\n    INPUT #1, RollNo, Name$, GPA\n    IF GPA > 2.8 THEN\n        PRINT RollNo, Name$, GPA\n    END IF\nLOOP\nCLOSE #1\nEND",
+          "codeLanguage": "QBASIC"
+        }
+      ],
+      "instructions": {
+        "en": "4x2=8",
+        "ne": "4x2=8"
+      }
+    },
+    {
+      "title": {
+        "en": "Group C - Q10: Write a program (attempt either option)",
+        "ne": "Group C - Q10: Write a program (attempt either option)"
+      },
+      "items": [
+        {
+          "id": "cs-see-gi-2082-gi3031b-q10a",
+          "questionNumber": "10(a)",
+          "section": "Group C",
+          "marks": 4,
+          "answer": {
+            "en": "A C program that reads a number and checks whether it is exactly divisible by 5, as shown in the code field.",
+            "ne": "A C program that reads a number and checks whether it is exactly divisible by 5, as shown in the code field."
+          },
+          "solution": {
+            "en": "An integer n is read using scanf. The expression n % 5 gives the remainder when n is divided by 5; if this remainder is 0, n is exactly divisible by 5, otherwise it is not. An if-else statement prints the appropriate message.",
+            "ne": "An integer n is read using scanf. The expression n % 5 gives the remainder when n is divided by 5; if this remainder is 0, n is exactly divisible by 5, otherwise it is not. An if-else statement prints the appropriate message."
+          },
+          "code": "#include <stdio.h>\n\nint main() {\n    int n;\n    printf(\"Enter a number: \");\n    scanf(\"%d\", &n);\n\n    if (n % 5 == 0) {\n        printf(\"%d is exactly divisible by 5.\\n\", n);\n    } else {\n        printf(\"%d is not exactly divisible by 5.\\n\", n);\n    }\n\n    return 0;\n}",
+          "codeLanguage": "C",
+          "alternativeGroup": "q10",
+          "altLabel": "Option 1"
+        },
+        {
+          "id": "cs-see-gi-2082-gi3031b-q10b",
+          "questionNumber": "10(b) (OR)",
+          "section": "Group C",
+          "marks": 4,
+          "answer": {
+            "en": "A C program that calculates and displays the sum of all numbers from 1 to 10, as shown in the code field.",
+            "ne": "A C program that calculates and displays the sum of all numbers from 1 to 10, as shown in the code field."
+          },
+          "solution": {
+            "en": "A variable sum is initialized to 0. A for loop runs from i = 1 to i = 10, adding each value of i to sum in every iteration (sum = sum + i). After the loop finishes, the final value of sum (55) is printed.",
+            "ne": "A variable sum is initialized to 0. A for loop runs from i = 1 to i = 10, adding each value of i to sum in every iteration (sum = sum + i). After the loop finishes, the final value of sum (55) is printed."
+          },
+          "code": "#include <stdio.h>\n\nint main() {\n    int i, sum = 0;\n    for (i = 1; i <= 10; i++) {\n        sum = sum + i;\n    }\n    printf(\"Sum of numbers from 1 to 10 = %d\\n\", sum);\n    return 0;\n}",
+          "codeLanguage": "C",
+          "alternativeGroup": "q10",
+          "altLabel": "Option 2"
+        }
+      ],
+      "instructions": {
+        "en": "4 (attempt either (a) or (b) - not both)",
+        "ne": "4 (attempt either (a) or (b) - not both)"
+      }
+    }
+  ],
+  "linkedQuestionPaperId": "see-2082-computer-science-grade-increment"
+}

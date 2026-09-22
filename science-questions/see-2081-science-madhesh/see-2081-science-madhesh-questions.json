@@ -1,0 +1,966 @@
+{
+  "subjectId": "science",
+  "classLevel": "10",
+  "province": "Madhesh",
+  "examBoard": "SEE (National Examinations Board, Nepal)",
+  "examYear": "2081 (2025 AD)",
+  "paperCode": "RE-1041'MP'",
+  "fullMarks": 75,
+  "timeAllowed": "3 hours",
+  "sourceNote": {
+    "en": "Digitised from the uploaded scan of the SEE 2081 (2025) Science question paper, Madhesh Province, set 'MP'. The scan carries a third-party watermark/download-source overlay (a Facebook page and website branding) on every page — this is not part of the original exam paper and has been ignored/excluded from this JSON.",
+    "ne": "यो फाइल SEE 2081 (2025) विज्ञान प्रश्नपत्र, मधेश प्रदेश, सेट 'MP' को स्क्यान गरिएको प्रतिबाट तयार पारिएको हो। स्क्यानको हरेक पानामा तेस्रो-पक्षको वाटरमार्क/डाउनलोड-स्रोत (फेसबुक पेज र वेबसाइटको ब्रान्डिङ) देखिन्छ — यो मूल प्रश्नपत्रको हिस्सा नभएकाले यस JSON बाट हटाइएको छ।"
+  },
+  "chapterId": "see-2081-science-madhesh-qp",
+  "docType": "questionPaper",
+  "titleEn": "SEE 2081 (2025) Science Question Paper — Madhesh Province",
+  "titleNe": "SEE २०८१ (२०२५) विज्ञान तथा प्रविधि प्रश्नपत्र — मधेश प्रदेश",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": {
+        "en": "SEE 2081 (2025) — Science and Technology",
+        "ne": "SEE २०८१ (२०२५) — विज्ञान तथा प्रविधि"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "Time: 3 hours | Full Marks: 75. Answer creatively in your own style, based on the given instructions.",
+        "ne": "समय : ३ घण्टा | पूर्णाङ्क : ७५। दिइएका निर्देशनका आधारमा आफ्नै शैलीमा सिर्जनात्मक उत्तर दिनुहोस्।"
+      }
+    }
+  ],
+  "questionSections": [
+    {
+      "title": {
+        "en": "Section A — Multiple Choice Questions",
+        "ne": "खण्ड 'क' — बहुवैकल्पिक प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Choose the best alternative to the following questions and write in the answer sheet. (10 x 1 = 10)",
+        "ne": "तलका प्रश्नहरूको ठिक विकल्प छानी उत्तरपुस्तिकामा लेख्नुहोस् : (१०x१=१०)"
+      },
+      "items": [
+        {
+          "id": "q1a",
+          "questionNumber": "1(a)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "In which of the following activities is digital signal used?",
+            "ne": "तलको कुन क्रियाकलापमा डिजिटल सिग्नल प्रसारण हुन्छ ?"
+          },
+          "options": [
+            {
+              "en": "speaking through a loudspeaker",
+              "ne": "लाउडस्पीकरबाट बोल्दा"
+            },
+            {
+              "en": "face to face chatting together",
+              "ne": "आपसमा प्रत्यक्ष कुराकानी गर्दा"
+            },
+            {
+              "en": "chatting on internet",
+              "ne": "इन्टरनेटमा कुराकानी गर्दा"
+            },
+            {
+              "en": "watching antenna TV",
+              "ne": "एन्टेनाजडित टि.भि. हेर्दा"
+            }
+          ]
+        },
+        {
+          "id": "q1b",
+          "questionNumber": "1(b)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Which of the following plant belongs to the division algae?",
+            "ne": "तलका मध्ये कुन विरुवा एल्जी डिभिजन अन्तर्गत पर्दछ ?"
+          },
+          "options": [
+            {
+              "en": "Pea",
+              "ne": "केराउ"
+            },
+            {
+              "en": "Moss",
+              "ne": "मस"
+            },
+            {
+              "en": "Spirogyra",
+              "ne": "स्पाइरोगाइरा"
+            },
+            {
+              "en": "Cycas",
+              "ne": "साइकस"
+            }
+          ]
+        },
+        {
+          "id": "q1c",
+          "questionNumber": "1(c)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Which of the following kingdoms have cell wall in their cells?",
+            "ne": "तलका मध्ये कोषमा कोषभित्ता हुने जगतहरू कुन कुन हुन् ?"
+          },
+          "options": [
+            {
+              "en": "Monera, Fungi, Animalia",
+              "ne": "मोनेरा, फन्जाइ, एनिमलिया"
+            },
+            {
+              "en": "Plantae, Protista, Animalia",
+              "ne": "प्लान्टी, प्रोटिस्टा, एनिमलिया"
+            },
+            {
+              "en": "Fungi, Plantae, Animalia",
+              "ne": "फन्जाइ, प्लान्टी, एनिमलिया"
+            },
+            {
+              "en": "Fungi, Plantae, Monera",
+              "ne": "फन्जाइ, प्लान्टी, मोनेरा"
+            }
+          ]
+        },
+        {
+          "id": "q1d",
+          "questionNumber": "1(d)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Now a days, agricultural production has been affected by low rainfall at times and heavy rainfall at other times. Which of the following is the main reason for this?",
+            "ne": "आज भोलि कहिले अल्पवृष्टि त कहिले अतिवृष्टि भएर कृषि उत्पादनमा बाधा पुग्न गएको छ। यसको मुख्य कारण तलका मध्ये कुन हो ?"
+          },
+          "options": [
+            {
+              "en": "volcanic eruption",
+              "ne": "ज्वालामुखी विस्फोटन"
+            },
+            {
+              "en": "flood and landslide",
+              "ne": "बाढी र पहिरो"
+            },
+            {
+              "en": "climate change",
+              "ne": "जलवायु परिवर्तन"
+            },
+            {
+              "en": "decrease in endangered animals",
+              "ne": "दुर्लभ वन्यजन्तुको ह्रास"
+            }
+          ]
+        },
+        {
+          "id": "q1e",
+          "questionNumber": "1(e)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "If the mass and radius of a heavenly object are four times greater than that of the Earth, what is the value of acceleration due to gravity of that object?",
+            "ne": "यदि कुनै खगोलीय वस्तुको पिण्ड र अर्धव्यास क्रमशः पृथ्वीको पिण्ड र अर्धव्यासभन्दा 4 गुणा बढी छ भने सो वस्तुको गुरुत्वप्रवेग कति हुन्छ ?"
+          },
+          "options": [
+            {
+              "en": "1.22 m/s²",
+              "ne": "1.22 m/s²"
+            },
+            {
+              "en": "2.45 m/s²",
+              "ne": "2.45 m/s²"
+            },
+            {
+              "en": "4.9 m/s²",
+              "ne": "4.9 m/s²"
+            },
+            {
+              "en": "9.8 m/s²",
+              "ne": "9.8 m/s²"
+            }
+          ]
+        },
+        {
+          "id": "q1f",
+          "questionNumber": "1(f)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "When aluminum foil is placed flat on water in a beaker, it floats, but when the same piece of foil is squeezed into a spherical shape, it sinks. What could be the reason for this?",
+            "ne": "एउटा आल्मिनियमको फोइललाई पानीले भरिएको विकरमा राख्दा तैरिन्छ तर त्यही फोइललाई डल्लो बनाएर पानीमा राख्दा डुब्छ, यसको कारण के हुन्छ ?"
+          },
+          "options": [
+            {
+              "en": "The surface area decreases, upthrust decreases and it sinks.",
+              "ne": "सतहको क्षेत्रफल कम हुन्छ, उर्ध्वचाप घट्छ र डुब्छ।"
+            },
+            {
+              "en": "Weight increases and it sinks.",
+              "ne": "तौल बढ्छ र डुब्छ।"
+            },
+            {
+              "en": "Surface area increases and it sinks.",
+              "ne": "सतहको क्षेत्रफल बढ्छ र डुब्छ।"
+            },
+            {
+              "en": "Density of foil increases and it sinks.",
+              "ne": "फोइलको घनत्व बढ्छ र डुब्छ।"
+            }
+          ]
+        },
+        {
+          "id": "q1g",
+          "questionNumber": "1(g)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "In the process of formation of a rainbow, which of the following is the correct order of speed of light? The speed of green, violet and red coloured rays of light is represented by V1, V2 and V3 respectively.",
+            "ne": "इन्द्रेणी बन्ने क्रममा देखिने हरियो, वैजनी र रातो रङ्गको प्रकाशका किरणको वेगलाई क्रमशः V1, V2 र V3 ले जनाइएको छ। ती वेगको सही क्रम कुन हो ?"
+          },
+          "options": [
+            {
+              "en": "V1 > V2 > V3",
+              "ne": "V1 > V2 > V3"
+            },
+            {
+              "en": "V1 > V2 < V3",
+              "ne": "V1 > V2 < V3"
+            },
+            {
+              "en": "V1 < V3 < V2",
+              "ne": "V1 < V3 < V2"
+            },
+            {
+              "en": "V1 > V3 < V2",
+              "ne": "V1 > V3 < V2"
+            }
+          ]
+        },
+        {
+          "id": "q1h",
+          "questionNumber": "1(h)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Under what condition can a closed universe be hypothesized?",
+            "ne": "कुन अवस्थामा बन्द ब्रह्माण्डको परिकल्पना गर्न सकिन्छ ?"
+          },
+          "options": [
+            {
+              "en": "When average density is greater than the critical density.",
+              "ne": "औसत घनत्व चरम घनत्वभन्दा बढी भएको अवस्थामा"
+            },
+            {
+              "en": "When average density is less than the critical density.",
+              "ne": "औसत घनत्व, चरम घनत्व भन्दा कम भएको अवस्थामा"
+            },
+            {
+              "en": "When average density and critical density are equal.",
+              "ne": "औसत घनत्व र चरम घनत्व बराबर भएको अवस्थामा"
+            },
+            {
+              "en": "When average density and critical density are not comparable.",
+              "ne": "औसत घनत्व र चरम घनत्व तुलना गर्न नसकिने अवस्थामा"
+            }
+          ]
+        },
+        {
+          "id": "q1i",
+          "questionNumber": "1(i)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Which of the following is the effect of heat on the rate of chemical reaction?",
+            "ne": "रासायनिक प्रतिक्रियाको दरमा तापको प्रभाव तलका मध्ये कुन हो ?"
+          },
+          "options": [
+            {
+              "en": "The kinetic energy of particles increases when heat increases and particles come in contact faster.",
+              "ne": "ताप बढाउँदा कणहरूको गति शक्ति बढ्छ र कणहरू छिटो सम्पर्कमा आउँछन्।"
+            },
+            {
+              "en": "The chemical reactivity decreases when heat increases.",
+              "ne": "ताप बढाउँदा रासायनिक सक्रियता घट्छ।"
+            },
+            {
+              "en": "There is no relationship between heat and chemical reactivity.",
+              "ne": "ताप र रासायनिक प्रतिक्रियाको दरमा कुनै सम्बन्ध छैन।"
+            },
+            {
+              "en": "Rate of chemical reaction increases because the concentration of matter increases when heat increases.",
+              "ne": "ताप बढ्दा पदार्थको गाढापन बढ्छ त्यसैले प्रतिक्रियाको दर बढ्छ।"
+            }
+          ]
+        },
+        {
+          "id": "q1j",
+          "questionNumber": "1(j)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "A statement and two arguments are given below. Statement: Detergent is called a soapless soap. Argument 1: It has cleaning properties like soap but chemical properties are different. Argument 2: Soap does not cause chemical pollution but detergent does. Which of the following is correct?",
+            "ne": "एउटा कथन र दुईओटा तर्क दिइएको छ। कथन : डिटर्जेन्टलाई साबुनरहित साबुन भनिन्छ। तर्क १ : यसले साबुनले जस्तै वस्तु सफा गर्छ तर रासायनिक गुणहरू फरक छन्। तर्क २ : साबुनले रासायनिक प्रदूषण गर्दैन भने डिटर्जेन्टले गर्छ। तलका मध्ये कुन सही छ ?"
+          },
+          "options": [
+            {
+              "en": "Statement and argument 1 are correct but argument 2 is incorrect.",
+              "ne": "कथन र तर्क १ सही तर तर्क २ गलत।"
+            },
+            {
+              "en": "Statement and argument 1 are incorrect but argument 2 is correct.",
+              "ne": "कथन र तर्क १ गलत तर तर्क २ सही।"
+            },
+            {
+              "en": "Statement and argument 2 are incorrect but argument 1 is correct.",
+              "ne": "कथन र तर्क २ गलत तर तर्क १ सहि।"
+            },
+            {
+              "en": "Statement and argument 2 are correct but argument 1 is incorrect.",
+              "ne": "कथन र तर्क २ सही तर तर्क १ गलत।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Section B — Very Short Answer Questions",
+        "ne": "खण्ड 'ख' — अति छोटो उत्तर प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Write very short answers to the following questions. (9 x 1 = 9)",
+        "ne": "तलका प्रश्नहरूको अति छोटो उत्तर लेख्नुहोस् : (९x१=९)"
+      },
+      "items": [
+        {
+          "id": "q2a",
+          "questionNumber": "2(a)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "What is a dependent variable in a process of throwing a stone with a stretched rubber band?",
+            "ne": "रबर तन्काएर ढुङ्गा फाल्ने क्रियामा आश्रित चर कुन हुन्छ ?"
+          }
+        },
+        {
+          "id": "q2b",
+          "questionNumber": "2(b)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Define one Pascal pressure.",
+            "ne": "1 पास्कल चापको परिभाषा दिनुहोस्।"
+          }
+        },
+        {
+          "id": "q2c",
+          "questionNumber": "2(c)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Draw a diagram that shows refraction of light.",
+            "ne": "प्रकाशको आवर्तन देखाउने चित्र खिच्नुहोस्।"
+          }
+        },
+        {
+          "id": "q2d",
+          "questionNumber": "2(d)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "According to Hubble's law, on what factor does the speed of a star depend?",
+            "ne": "हब्बलको नियमअनुसार ताराको गति के कुरामा निर्भर हुन्छ ?"
+          }
+        },
+        {
+          "id": "q2e",
+          "questionNumber": "2(e)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Complete the given ray diagram. (An object is shown placed between 2F and F in front of a convex lens.)",
+            "ne": "दिइएको रेखाचित्र पूरा गर्नुहोस्। (एउटा वस्तु कन्भेक्स लेन्सको अगाडि 2F र F बिच राखिएको देखाइएको छ।)"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-madhesh/q2e-ray-diagram-incomplete.png",
+            "caption": {
+              "en": "Incomplete ray diagram: convex lens with 2F and F marked, an object placed between 2F and F.",
+              "ne": "अपूर्ण रेखाचित्र: 2F र F चिन्हित कन्भेक्स लेन्स, वस्तु 2F र F बिच राखिएको।"
+            }
+          }
+        },
+        {
+          "id": "q2f",
+          "questionNumber": "2(f)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Write a difference between roasting and calcination.",
+            "ne": "रोस्टिङ र क्याल्सिनेसन बिच कुनै एक फरक लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q2g",
+          "questionNumber": "2(g)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Arrange the metals sodium, aluminium and magnesium in ascending order of their reactivity.",
+            "ne": "सोडियम, एलुमिनियम र म्यानेसियम धातुलाई रासायनिक सक्रियताको बढ्दो क्रममा लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q2h",
+          "questionNumber": "2(h)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Write an application of the given hydrocarbon in daily life.",
+            "ne": "दिइएको हाइड्रोकार्बनको दैनिक जीवनमा एउटा उपयोगिता लेख्नुहोस्।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-madhesh/q2h-glycerol-structure.png",
+            "caption": {
+              "en": "Structural formula of glycerol (propane-1,2,3-triol): each of three carbons bears one -OH group.",
+              "ne": "ग्लिसेरोल (प्रोपेन-1,2,3-ट्राइओल) को संरचना सूत्र: तीनओटै कार्बनमा एक-एक -OH समूह।"
+            }
+          }
+        },
+        {
+          "id": "q2i",
+          "questionNumber": "2(i)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Draw a graph to show the relationship of alternating current and time.",
+            "ne": "अल्टर्नेटिड करेन्ट र समयको सम्बन्ध देखाउने ग्राफ बनाउनुहोस्।"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Section C — Short Answer Questions",
+        "ne": "खण्ड 'ग' — छोटो उत्तर प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Write short answers to the following questions. (14 x 2 = 28)",
+        "ne": "तलका प्रश्नहरूको छोटो उत्तर लेख्नुहोस् : (१४x२=२८)"
+      },
+      "items": [
+        {
+          "id": "q3",
+          "questionNumber": "3",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Prove that the fundamental units of power is kg m²/s³.",
+            "ne": "सामर्थ्यको आधारभूत एकाईहरू kgm²/s³ हुन्छ भनी प्रमाणित गर्नुहोस्।"
+          }
+        },
+        {
+          "id": "q4",
+          "questionNumber": "4",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Write any two main features of Aves.",
+            "ne": "पंक्षी वर्गको कुनै दुई मुख्य विशेषताहरू लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q5",
+          "questionNumber": "5",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Study the given concept map and write the function of Y and Z. (X - Parthenogenesis - Bee - Fertilization -> Fertile (Y) and Sterile (Z))",
+            "ne": "दिइएको कन्सेप्ट म्यापको अध्ययन गरी Y र Z को एक एक ओटा कार्य लेख्नुहोस्। (X - पार्थेनोजिनेसिस - मौरी - गर्भाधान -> प्रजननयोग्य (Y) र प्रजनन गर्न नसक्ने (Z))"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-madhesh/q5-concept-map-bee.png",
+            "caption": {
+              "en": "Concept map: X -> Parthenogenesis -> Bee -> Fertilization -> Fertile (Y) / Sterile (Z).",
+              "ne": "कन्सेप्ट म्याप: X -> पार्थेनोजिनेसिस -> मौरी -> गर्भाधान -> प्रजननयोग्य (Y) / प्रजनन गर्न नसक्ने (Z)।"
+            }
+          }
+        },
+        {
+          "id": "q6",
+          "questionNumber": "6",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Write any two differences between mitosis and meiosis cell division.",
+            "ne": "माइटोसिस र मियोसिस कोष विभाजन बिच कुनै दुई भिन्नताहरू लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q7",
+          "questionNumber": "7",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Show in a chart the result of a cross between pure long (LL) winged drosophila and pure short (ll) winged drosophila up to the second filial generation.",
+            "ne": "शुद्ध लामो (LL) पखेटा भएको ड्रोसोफिला र शुद्ध छोटो (ll) पखेटा भएको ड्रोसोफिला बिच गर्भाधान गराउँदा दोस्रो वंशसम्मको नतिजा चार्टमा देखाउनुहोस्।"
+          }
+        },
+        {
+          "id": "q8",
+          "questionNumber": "8",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "How is open-heart surgery done? Describe in brief.",
+            "ne": "ओपन-हार्ट सर्जरी कसरी गरिन्छ ? छोटकरीमा लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q9",
+          "questionNumber": "9",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Now a days, mountains are turning into black rock due to the melting of snow in the Himalayan region. How can we control this process? Write any two ways.",
+            "ne": "आजभोली हिमाली भेगको हिउँ पग्लेर हिमालहरू काला पत्थरमा परिणत भइरहेका छन्। यस प्रक्रियालाई कसरी रोक्न सकिन्छ ? कुनै दुई उपायहरू लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q10",
+          "questionNumber": "10",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Write any two conditions for an object to be in a state of weightlessness.",
+            "ne": "बस्तु तौलविहीन हुने कुनै दुई अवस्थाहरू लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q11",
+          "questionNumber": "11",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Calculate the gravitational force of attraction between objects A and B as shown in the given figure. (A = 2,000 kg, B = 4,000 kg, distance = 80 km)",
+            "ne": "चित्रमा दिइएका वस्तुहरू A र B बिच उत्पन्न हुने गुरुत्वाकर्षण बल हिसाब गर्नुहोस्। (A = 2,000 kg, B = 4,000 kg, दूरी = 80 km)"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-madhesh/q11-gravitation-A-B.png",
+            "caption": {
+              "en": "Two bodies A (2,000 kg) and B (4,000 kg) separated by 80 km.",
+              "ne": "A (2,000 kg) र B (4,000 kg) वस्तुहरू 80 km दूरीमा।"
+            }
+          }
+        },
+        {
+          "id": "q12",
+          "questionNumber": "12",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Draw a neat diagram of the materials required for preparing ammonia gas in the laboratory.",
+            "ne": "प्रयोगशालामा एमोनिया ग्यास बनाउँदा आवश्यक पर्ने सामग्रीको चित्र बनाउनुहोस्।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-madhesh/q12-nh3-preparation-prompt.png",
+            "caption": {
+              "en": "(Question prompt — student draws this as the answer.)",
+              "ne": "(यो प्रश्नमा विद्यार्थीले आफैं चित्र कोर्नुपर्छ।)"
+            }
+          }
+        },
+        {
+          "id": "q13",
+          "questionNumber": "13",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Write a formula equation of a chemical reaction which takes place in the presence of light, and balance the equation.",
+            "ne": "प्रकाशको उपस्थितिमा हुने एउटा रासायनिक प्रतिक्रियाको सूत्र समीकरण लेखी सन्तुलन गर्नुहोस्।"
+          }
+        },
+        {
+          "id": "q14",
+          "questionNumber": "14",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Write the name of the member of alkyne series which contains an equal number of carbon and hydrogen atoms. Write its structural formula.",
+            "ne": "अल्काइनको सदस्यमध्ये कार्बन र हाइड्रोजनको सङ्ख्या बराबर हुने यौगिकको नाम लेखी यसको संरचनात्मक सूत्र लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q15",
+          "questionNumber": "15",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Excessive use of insecticides has started causing serious problems in human health. Give two suggestions to mitigate such problems.",
+            "ne": "अत्यधिक मात्रामा रासायनिक किटनाशक विषादीको प्रयोगको कारणले मानव स्वास्थ्यमा जटिल समस्या देखापर्न थालेका छन्। यस्ता किसिमका समस्या न्युनिकरणका लागि दुईओटा सुभावहरू लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q16",
+          "questionNumber": "16",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Write a balanced chemical equation of the reaction of two gases having molecular weight 17 a.m.u. and 44 a.m.u.",
+            "ne": "आणविक भार 17 a.m.u. र 44 a.m.u. हुने ग्यासलाई रासायनिक प्रतिक्रिया गराउँदा हुने सन्तुलित रासायनिक समीकरण लेख्नुहोस्।"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Section D — Long Answer Questions",
+        "ne": "खण्ड 'घ' — लामो उत्तर प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Write long answer to the following questions. (7 x 4 = 28)",
+        "ne": "तलका प्रश्नहरूको लामो उत्तर लेख्नुहोस् : (७x४=२८)"
+      },
+      "items": [
+        {
+          "id": "q17",
+          "questionNumber": "17",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Mention any four ways of gaining digital well-being.",
+            "ne": "डिजिटल आरोग्यता हासिल गर्ने कुनै चार तरिका उल्लेख गर्नुहोस्।"
+          }
+        },
+        {
+          "id": "q18",
+          "questionNumber": "18",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Write any two advantages and two disadvantages of producing offspring through artificial fertilization.",
+            "ne": "कृत्रिम गर्भाधानबाट सन्तान जन्माउँदा हुने दुई फाइदाहरू र दुई बेफाइदाहरू उल्लेख गर्नुहोस्।"
+          }
+        },
+        {
+          "id": "q19",
+          "questionNumber": "19",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "The results of the blood group test of two students are shown in the table. Identify the blood group of student A and student B. What type of blood group is called A-positive and what type is called O-negative?\n\nStudent A — Antigen A: clot seen; Antigen B: clot seen; Antigen D: clot seen.\nStudent B — Antigen A: clot unseen; Antigen B: clot seen; Antigen D: clot seen.",
+            "ne": "दुई जना विद्यार्थीको रक्त समूह परीक्षण गर्दाको नतिजा तालिकामा देखाइएको छ। विद्यार्थी A र विद्यार्थी B को रक्त समूह पहिचान गर्नुहोस्। कस्तोलाई A पोजेटिभ र कस्तोलाई O नेगेटिभ रक्त समूह भनिन्छ ?\n\nविद्यार्थी A — एन्टिजेन A: रगत जम्ने देखियो; एन्टिजेन B: रगत जम्ने देखियो; एन्टिजेन D: रगत जम्ने देखियो।\nविद्यार्थी B — एन्टिजेन A: रगत जम्ने देखिएन; एन्टिजेन B: रगत जम्ने देखियो; एन्टिजेन D: रगत जम्ने देखियो।"
+          },
+          "questionTable": {
+            "headers": [
+              {
+                "en": "",
+                "ne": ""
+              },
+              {
+                "en": "Antigen A",
+                "ne": "एन्टिजेन A"
+              },
+              {
+                "en": "Antigen B",
+                "ne": "एन्टिजेन B"
+              },
+              {
+                "en": "Antigen D",
+                "ne": "एन्टिजेन D"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "Student A",
+                  "ne": "विद्यार्थी A"
+                },
+                {
+                  "en": "clot seen",
+                  "ne": "देखियो"
+                },
+                {
+                  "en": "clot seen",
+                  "ne": "देखियो"
+                },
+                {
+                  "en": "clot seen",
+                  "ne": "देखियो"
+                }
+              ],
+              [
+                {
+                  "en": "Student B",
+                  "ne": "विद्यार्थी B"
+                },
+                {
+                  "en": "clot unseen",
+                  "ne": "देखिएन"
+                },
+                {
+                  "en": "clot seen",
+                  "ne": "देखियो"
+                },
+                {
+                  "en": "clot seen",
+                  "ne": "देखियो"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "q20",
+          "questionNumber": "20",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Three liquids 'X', 'Y', and 'Z' of equal mass are kept in the same type of container and placed in the sun for equal time. The increase in temperature is given in the table (X: 30°C, Y: 35°C, Z: 28°C). (i) Among them, which liquid has the highest specific heat capacity? Why? (ii) If equal masses of all three liquids at the same temperature are cooled, which one will cool down faster? Why?",
+            "ne": "बराबर पिण्ड भएका तीनओटा तरल पदार्थहरू 'X', 'Y', र 'Z' उस्तै भाँडामा बराबर समय घाममा राखिएको छ। उक्त भाँडामा हुने तापक्रम वृद्धि तल तालिकामा दिइएको छ (X: 30°C, Y: 35°C, Z: 28°C)। (i) यी मध्ये कुन तरल पदार्थको विशिष्ट तापधारण क्षमता बढी छ ? किन ? (ii) यदि तीनओटै तरलका समान तापक्रममा रहेका बराबर पिण्डलाई चिस्याइयो भने, कुन तरल पदार्थ छिटो चिसो हुन्छ ? किन ?"
+          },
+          "questionTable": {
+            "headers": [
+              {
+                "en": "Liquid",
+                "ne": "तरल"
+              },
+              {
+                "en": "Increase in temperature",
+                "ne": "तापक्रममा वृद्धि"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "X",
+                  "ne": "X"
+                },
+                {
+                  "en": "30°C",
+                  "ne": "30°C"
+                }
+              ],
+              [
+                {
+                  "en": "Y",
+                  "ne": "Y"
+                },
+                {
+                  "en": "35°C",
+                  "ne": "35°C"
+                }
+              ],
+              [
+                {
+                  "en": "Z",
+                  "ne": "Z"
+                },
+                {
+                  "en": "28°C",
+                  "ne": "28°C"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "q21",
+          "questionNumber": "21",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Study the given diagram and answer the following questions: (light rays converging to a point behind the retina) (a) Write any two causes of such defect. (b) What type of lens is used to remove the defect of vision shown in the given figure? Why?",
+            "ne": "दिइएको चित्रको अध्ययन गरी सोधिएका प्रश्नहरूको उत्तर दिनुहोस्: (प्रकाश किरणहरू रेटिनाभन्दा पछाडि एक बिन्दुमा केन्द्रित हुँदै) (a) यो कमजोरीका दुईओटा कारणहरू लेख्नुहोस्। (b) चित्रमा दिइएको आँखाको कमजोरी हटाउन कुन प्रकारको लेन्स प्रयोग गरिन्छ ? किन ?"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-madhesh/q21-hypermetropia-eye.png",
+            "caption": {
+              "en": "Eye diagram: light rays entering the eye and converging to a point behind the retina.",
+              "ne": "आँखाको चित्र: आँखाभित्र पस्ने प्रकाश किरण रेटिनाभन्दा पछाडि एक बिन्दुमा केन्द्रित हुँदै।"
+            }
+          }
+        },
+        {
+          "id": "q22",
+          "questionNumber": "22",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "A transformer in a power house has a 1:80 ratio of primary and secondary coils. If 400 V is passed into the primary coil, what voltage is produced in the secondary coil? Can this transformer be used in a domestic circuit? Give a reason.",
+            "ne": "एउटा पावरहाउसमा जडान गरिएको ट्रान्सफर्मरको प्राइमरी फन्काको सङ्ख्या र सेकेन्डरी फन्काको सङ्ख्या 1:80 को अनुपातमा छ। यदि उक्त ट्रान्सफर्मरको प्राइमरी फन्कामा 400 V पठाइएको रहेछ भने त्यसको सेकेन्डरी फन्कामा कति भोल्टेज उत्पादन हुन्छ ? उक्त ट्रान्सफर्मर गृहस्थ्य विद्युतीकरणमा प्रयोग गर्न मिल्छ कि मिल्दैन, एउटा कारण दिनुहोस्।"
+          }
+        },
+        {
+          "id": "q23",
+          "questionNumber": "23",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "A part of the periodic table is shown below in which some hypothetical symbols are used to represent real elements. Study the table and answer the following questions. (Period n=2: Group IA=c, Group IIA=b, Group 0=Ne. Period n=3: Group VIIA=a, Group 0=d.) (i) Write the electronic configuration of element 'a' on the basis of sub-shell. (ii) Element c is more reactive than b, why? (iii) Atomic size of 'a' is greater than element 'd', why?",
+            "ne": "पेरियोडिक तालिकाको एउटा अंश दिइएको छ यसमा वास्तविक तत्त्वहरूलाई काल्पनिक सङ्केतले जनाइएको छ। यसलाई अध्ययन गरी तलका प्रश्नहरूको उत्तर दिनुहोस्। (पिरियड n=2: समूह IA=c, समूह IIA=b, समूह 0=Ne। पिरियड n=3: समूह VIIA=a, समूह 0=d।) (i) तत्त्व 'a' को उपसेलको आधारमा इलेक्ट्रोनिक विन्यास गर्नुहोस्। (ii) तत्त्व b भन्दा c बढी सक्रिय हुन्छ, किन ? (iii) तत्त्व a को पारमाणविक आकार तत्त्व d को भन्दा ठुलो हुन्छ, किन ?"
+          },
+          "questionTable": {
+            "headers": [
+              {
+                "en": "Period",
+                "ne": "पिरियड"
+              },
+              {
+                "en": "IA",
+                "ne": "IA"
+              },
+              {
+                "en": "IIA",
+                "ne": "IIA"
+              },
+              {
+                "en": "IIIA",
+                "ne": "IIIA"
+              },
+              {
+                "en": "IVA",
+                "ne": "IVA"
+              },
+              {
+                "en": "VA",
+                "ne": "VA"
+              },
+              {
+                "en": "VIA",
+                "ne": "VIA"
+              },
+              {
+                "en": "VIIA",
+                "ne": "VIIA"
+              },
+              {
+                "en": "0",
+                "ne": "0"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "n=2",
+                  "ne": "n=2"
+                },
+                {
+                  "en": "c",
+                  "ne": "c"
+                },
+                {
+                  "en": "b",
+                  "ne": "b"
+                },
+                {
+                  "en": "",
+                  "ne": ""
+                },
+                {
+                  "en": "",
+                  "ne": ""
+                },
+                {
+                  "en": "",
+                  "ne": ""
+                },
+                {
+                  "en": "",
+                  "ne": ""
+                },
+                {
+                  "en": "",
+                  "ne": ""
+                },
+                {
+                  "en": "Ne",
+                  "ne": "Ne"
+                }
+              ],
+              [
+                {
+                  "en": "n=3",
+                  "ne": "n=3"
+                },
+                {
+                  "en": "",
+                  "ne": ""
+                },
+                {
+                  "en": "",
+                  "ne": ""
+                },
+                {
+                  "en": "",
+                  "ne": ""
+                },
+                {
+                  "en": "",
+                  "ne": ""
+                },
+                {
+                  "en": "",
+                  "ne": ""
+                },
+                {
+                  "en": "",
+                  "ne": ""
+                },
+                {
+                  "en": "a",
+                  "ne": "a"
+                },
+                {
+                  "en": "d",
+                  "ne": "d"
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

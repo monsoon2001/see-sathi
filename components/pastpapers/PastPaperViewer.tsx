@@ -69,6 +69,8 @@ function mergeAnswerItems(sections: PastPaperSection[], answer?: PastPaper | nul
       return {
         ...it,
         ...ans,
+        code: it.code, // keep the program printed in the question stem (if any)
+        answerCode: ans.code, // solution program lives on the answer side
         question: hasText(ans.question) ? ans.question : it.question,
         passage: hasText(ans.passage) ? ans.passage : it.passage,
       };
@@ -95,6 +97,19 @@ function PassagePanel({ passage, lang, className }: { passage: Bilingual; lang: 
   );
 }
 
+function CodeBlock({ code, language }: { code: string; language?: string }) {
+  return (
+    <div className="mt-3 overflow-hidden rounded-DEFAULT border border-surface-container bg-surface-container-low">
+      {language && (
+        <div className="flex items-center gap-2 border-b border-surface-container bg-surface-container-lowest/70 px-4 py-1.5">
+          <span className="font-mono text-[11px] font-semibold uppercase tracking-wider text-tertiary">{language}</span>
+        </div>
+      )}
+      <pre className="overflow-x-auto whitespace-pre px-4 py-3 font-mono text-[0.82em] leading-[1.6em] text-on-surface">{code}</pre>
+    </div>
+  );
+}
+
 function PaperQuestionCard({
   item,
   index,
@@ -116,9 +131,10 @@ function PaperQuestionCard({
 }) {
   const answerText = pickText(item.answer, lang);
   const answerPoints = splitEnumeratedPoints(answerText);
-  const hasAnswer = Boolean(item.answer || item.solution || item.modelAnswer || item.solutionTable);
+  const hasAnswer = Boolean(item.answer || item.solution || item.modelAnswer || item.solutionTable || item.answerCode);
   const correctIdx =
     item.correctOption != null ? ROMAN_IDX[item.correctOption.toLowerCase()] : undefined;
+  const plain = subjectId === "computer-science"; // QBASIC/C prose is full of $, not LaTeX
 
   return (
     <article className="rounded-DEFAULT border border-surface-container bg-surface-container-lowest p-5 shadow-[0_1px_3px_rgba(0,0,0,0.03)]">
@@ -136,13 +152,26 @@ function PaperQuestionCard({
             {fmtMarks(item.marks)} marks
           </span>
         )}
+        {item.altLabel && (
+          <span className="rounded-full bg-surface-container-high px-3 py-0.5 font-title text-body-sm text-on-surface-variant">
+            {item.altLabel}
+          </span>
+        )}
       </div>
 
       <p className={cn("whitespace-pre-line font-title text-[1.06em] leading-[1.76em] text-on-surface", langFont(lang))}>
-        <RichText text={pickText(item.question, lang)} lang={lang} />
+        {plain ? pickText(item.question, lang) : <RichText text={pickText(item.question, lang)} lang={lang} />}
       </p>
 
       {item.passage && showPassage && <PassagePanel passage={item.passage} lang={lang} className="mt-4" />}
+
+      {item.code && <CodeBlock code={item.code} language={item.codeLanguage} />}
+
+      {item.ocrFlag && (
+        <p className="mt-3 rounded-DEFAULT bg-tertiary-fixed/10 px-4 py-2.5 font-body-sm text-[0.82em] italic leading-[1.5em] text-on-surface-variant">
+          {item.ocrFlag}
+        </p>
+      )}
 
       {item.image?.url && showImage && (
         <div className="my-4">
@@ -199,20 +228,21 @@ function PaperQuestionCard({
                       key={i}
                       className={cn("whitespace-pre-line font-title text-[0.94em] font-semibold text-on-surface", langFont(lang))}
                     >
-                      <RichText text={p} lang={lang} />
+                      {plain ? p : <RichText text={p} lang={lang} />}
                     </li>
                   ))}
                 </ol>
               ) : (
-                <span className={cn("font-title text-[0.94em] font-semibold text-on-surface", langFont(lang))}>
-                  <RichText text={answerText} lang={lang} />
+                <span className={cn("whitespace-pre-line font-title text-[0.94em] font-semibold text-on-surface", langFont(lang))}>
+                  {plain ? answerText : <RichText text={answerText} lang={lang} />}
                 </span>
               )}
             </div>
           )}
+          {item.answerCode && item.answerCode !== item.code && <CodeBlock code={item.answerCode} language={item.codeLanguage} />}
           {item.solution && (
             <p className={cn("whitespace-pre-line font-body-md text-[0.91em] leading-[1.53em] text-on-surface-variant", langFont(lang))}>
-              <RichText text={pickText(item.solution, lang)} lang={lang} />
+              {plain ? pickText(item.solution, lang) : <RichText text={pickText(item.solution, lang)} lang={lang} />}
             </p>
           )}
           {item.modelAnswer && (

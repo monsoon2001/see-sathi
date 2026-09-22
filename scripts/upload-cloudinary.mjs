@@ -79,17 +79,24 @@ function collect() {
   }
 
   const paperFolders = [
-    { folderId: "see2081-sci-bagmati", dir: path.join(REPO, "science-questions/2082-science/science-diagrams") },
-    { folderId: "see2081-compulsory-maths-koshi", dir: path.join(REPO, "science-questions/see-2081-compulsory-maths-koshi/maths-diagrams") },
-    { folderId: "quadratic-equations", dir: path.join(REPO, "science-questions/quadratic-equations/math-diagrams") },
+    { cloud: "see2081-sci-bagmati", dir: path.join(REPO, "science-questions/see-2081-science-bagmati/science-diagrams") },
+    { cloud: "see2081-sci-gandaki", dir: path.join(REPO, "science-questions/see-2081-science-gandaki/gandaki-science-diagrams") },
+    { cloud: "see2081-sci-koshi", dir: path.join(REPO, "science-questions/see-2081-science-koshi/koshi-science-diagrams") },
+    { cloud: "see2081-sci-lumbini", dir: path.join(REPO, "science-questions/see-2081-science-lumbini/lumbini-science-diagrams") },
+    { cloud: "see2081-sci-madhesh", dir: path.join(REPO, "science-questions/see-2081-science-madhesh/textbook-diagrams") },
+    { cloud: "see2081-sci-sudurpaschim", dir: path.join(REPO, "science-questions/see-2081-science-sudurpaschim/sudurpaschim-diagrams") },
+    { cloud: "see2081-compulsory-maths-koshi", dir: path.join(REPO, "science-questions/see-2081-compulsory-maths-koshi/maths-diagrams") },
+    { cloud: "quadratic-equations", dir: path.join(REPO, "science-questions/quadratic-equations/math-diagrams") },
+    { cloud: "see-math-ch1", dir: path.join(REPO, "maths_chapter_1/lesson1-venn-diagrams") },
+    { cloud: "see-math-ch2", dir: path.join(REPO, "science-questions/see-math-ch2/math-diagrams") },
   ];
-  for (const { folderId, dir } of paperFolders) {
+  for (const { cloud, dir } of paperFolders) {
     for (const e of fs.readdirSync(dir)) {
       if (/\.png$/i.test(e)) {
         jobs.push({
-          key: `see-papers/${folderId}/${e}`,
+          key: `see-papers/${cloud}/${e}`,
           file: path.join(dir, e),
-          public_id: `see-papers/${folderId}/${bareId(e)}`,
+          public_id: `see-papers/${cloud}/${bareId(e)}`,
         });
       }
     }

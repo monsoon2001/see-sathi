@@ -73,7 +73,7 @@ export default async function QuestionsListPage({ params }: { params: { subjectS
 
   if (!subject || !chapter) notFound();
 
-  if (subjectSlug === "science" || subjectSlug === "nepali" || subjectSlug === "computer-science" || subjectSlug === "english" || subjectSlug === "social-studies") {
+  if (subjectSlug === "science" || subjectSlug === "nepali" || subjectSlug === "computer-science" || subjectSlug === "english" || subjectSlug === "social-studies" || subjectSlug === "mathematics") {
     return (
       <Suspense fallback={<QuestionsLoading title={chapter.title} />}>
         <ChapterQuestionsLoader subject={subject} chapter={chapter} />

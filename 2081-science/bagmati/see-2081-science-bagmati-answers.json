@@ -1,0 +1,1289 @@
+{
+  "chapterId": "see-2081-science-bagmati-ans",
+  "subjectId": "science",
+  "classLevel": "10",
+  "province": "Bagmati",
+  "examBoard": "SEE (National Examinations Board, Nepal)",
+  "examYear": "2081 (2025 AD)",
+  "paperCode": "RE-1041'BP'",
+  "fullMarks": 75,
+  "docType": "answerKey",
+  "linkedQuestionPaperId": "see-2081-science-bagmati-qp",
+  "titleEn": "SEE 2081 (2025) Science — Model Answers (Bagmati Province)",
+  "titleNe": "SEE २०८१ (२०२५) विज्ञान — नमूना उत्तर (बागमती प्रदेश)",
+  "sourceNote": {
+    "en": "Digitised from the uploaded scan of the SEE 2081 (2025) Science question paper, Bagmati Province, set 'BP'. Note: the last scanned page (marked code 'GP') belongs to a different exam set and was not merged into this paper — it is not included in Sections A-D below.",
+    "ne": "यो फाइल SEE 2081 (2025) विज्ञान प्रश्नपत्र, बागमती प्रदेश, सेट 'BP' को स्क्यान गरिएको प्रतिबाट तयार पारिएको हो। नोट: अन्तिम स्क्यान गरिएको पानाको कोड 'GP' फरक सेटको हो, यसलाई यो प्रश्नपत्रमा मिसाइएको छैन।"
+  },
+  "answerLanguageLevelNote": {
+    "en": "Answers and step-by-step solutions are written at a Class 10 (SEE) level of understanding, in simple bilingual language matching the question paper.",
+    "ne": "उत्तर तथा चरणबद्ध हलहरू कक्षा १० (SEE) स्तरको सजिलो र प्रश्नपत्रसँग मिल्दो द्विभाषिक भाषामा लेखिएका छन्।"
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "text": {
+        "en": "Model Answers — Science and Technology, SEE 2081",
+        "ne": "नमूना उत्तर — विज्ञान तथा प्रविधि, SEE २०८१"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "These are model/reference answers written for Class 10 students. For long-answer numerical questions, full step-by-step working is included.",
+        "ne": "यी कक्षा १० का विद्यार्थीका लागि तयार पारिएका नमूना/सन्दर्भ उत्तरहरू हुन्। लामो उत्तर र सङ्ख्यात्मक प्रश्नहरूमा पूर्ण चरणबद्ध हल समावेश गरिएको छ।"
+      }
+    }
+  ],
+  "questionSections": [
+    {
+      "title": {
+        "en": "Section A — Multiple Choice Questions",
+        "ne": "खण्ड 'क' — बहुवैकल्पिक प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Choose the best alternative to the following questions and write in the answer sheet. (10 x 1 = 10)",
+        "ne": "तलका प्रश्नहरूको ठिक विकल्प छानी उत्तरपुस्तिकामा लेख्नुहोस्। (१०x१=१०)"
+      },
+      "items": [
+        {
+          "id": "q1a",
+          "questionNumber": "1(a)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "What is the number of chromosomes in a human skin cell?",
+            "ne": "मानिसको छालाको कोषमा क्रोमोजोमको सङ्ख्या कति हुन्छ ?"
+          },
+          "options": [
+            {
+              "en": "40",
+              "ne": "४०"
+            },
+            {
+              "en": "42",
+              "ne": "४२"
+            },
+            {
+              "en": "44",
+              "ne": "४४"
+            },
+            {
+              "en": "46",
+              "ne": "४६"
+            }
+          ],
+          "answer": {
+            "en": "46",
+            "ne": "४६"
+          },
+          "solution": {
+            "en": "A normal human somatic (body/skin) cell contains 23 pairs of chromosomes, i.e. 46 chromosomes.",
+            "ne": "मानिसको सामान्य शारीरिक (छाला) कोषमा २३ जोडी अर्थात् ४६ ओटा क्रोमोजोम हुन्छन्।"
+          },
+          "correctOption": "iv"
+        },
+        {
+          "id": "q1b",
+          "questionNumber": "1(b)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Which is the correct formula to find the focal length of a lens?",
+            "ne": "लेन्सको केन्द्रीकरण दूरी पत्ता लगाउने सही सूत्र कुन हो ?"
+          },
+          "options": [
+            {
+              "en": "v = M/u",
+              "ne": "v = M/u"
+            },
+            {
+              "en": "M = i/o",
+              "ne": "M = i/o"
+            },
+            {
+              "en": "P = 1/f",
+              "ne": "P = 1/f"
+            },
+            {
+              "en": "f = v/u",
+              "ne": "f = v/u"
+            }
+          ],
+          "answer": {
+            "en": "P = 1/f",
+            "ne": "P = 1/f"
+          },
+          "solution": {
+            "en": "The power of a lens and its focal length are related by P = 1/f (f in metres, P in dioptre). So focal length can always be found from f = 1/P.",
+            "ne": "लेन्सको पावर र फोकल लम्बाइबिचको सम्बन्ध P = 1/f हो (f मिटरमा, P डायोप्टरमा)। यसैबाट f = 1/P प्रयोग गरी फोकल दूरी पत्ता लगाउन सकिन्छ।"
+          },
+          "correctOption": "iii"
+        },
+        {
+          "id": "q1c",
+          "questionNumber": "1(c)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Which valve controls the blood flow from the right ventricle to the right auricle?",
+            "ne": "रगत दायाँ भेन्ट्रिकलबाट दायाँ अरिकलमा जान कुन भल्भले नियन्त्रण गर्छ ?"
+          },
+          "options": [
+            {
+              "en": "Aortic valve",
+              "ne": "एओर्टिक भल्भ"
+            },
+            {
+              "en": "Bicuspid valve",
+              "ne": "बाइकस्पिड भल्भ"
+            },
+            {
+              "en": "Pulmonic valve",
+              "ne": "पल्मोनिक भल्भ"
+            },
+            {
+              "en": "Tricuspid valve",
+              "ne": "ट्राइकस्पिड भल्भ"
+            }
+          ],
+          "answer": {
+            "en": "Tricuspid valve",
+            "ne": "ट्राइकस्पिड भल्भ"
+          },
+          "solution": {
+            "en": "The tricuspid valve lies between the right auricle (atrium) and right ventricle. It closes when the ventricle contracts, preventing backflow of blood from the right ventricle into the right auricle.",
+            "ne": "ट्राइकस्पिड भल्भ दायाँ अरिकल (एट्रियम) र दायाँ भेन्ट्रिकलको बिचमा हुन्छ। भेन्ट्रिकल सङ्कुचन हुँदा यो बन्द हुन्छ, जसले गर्दा रगत भेन्ट्रिकलबाट अरिकलतिर फर्कन पाउँदैन।"
+          },
+          "correctOption": "iv"
+        },
+        {
+          "id": "q1d",
+          "questionNumber": "1(d)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Which medicinal plant has the antimicrobial property that can activate the digestive process?",
+            "ne": "पाचन क्रिया सक्रिय बनाउने एन्टिमाइक्रोबियल गुण भएको जडीबुटी कुन हो ?"
+          },
+          "options": [
+            {
+              "en": "Neem",
+              "ne": "नीम"
+            },
+            {
+              "en": "Gurjo (Heart-leaved moonseed)",
+              "ne": "गुर्जो"
+            },
+            {
+              "en": "Asiatic pennywort (Ghodtapre)",
+              "ne": "घोडटापे"
+            },
+            {
+              "en": "Holy basil (Tulsi)",
+              "ne": "तुलसी"
+            }
+          ],
+          "answer": {
+            "en": "Gurjo (Heart-leaved moonseed / Guduchi)",
+            "ne": "गुर्जो"
+          },
+          "solution": {
+            "en": "Gurjo (Tinospora cordifolia) is traditionally used as a digestive tonic; it has antimicrobial and immunity-boosting properties that help activate/regulate digestion.",
+            "ne": "गुर्जो (टिनोस्पोरा कर्डिफोलिया) पाचन बढाउने टानिकको रूपमा परापूर्वकालदेखि प्रयोग हुँदै आएको छ; यसमा एन्टिमाइक्रोबियल र रोगप्रतिरोधात्मक गुण पाइन्छ जसले पाचन क्रियालाई सक्रिय बनाउन मद्दत गर्छ।"
+          },
+          "correctOption": "ii"
+        },
+        {
+          "id": "q1e",
+          "questionNumber": "1(e)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Which of the following is a di-hydric alcohol?",
+            "ne": "दिइएको मध्ये डाइहाइड्रिक अल्कोहल कुन हो ?"
+          },
+          "options": [
+            {
+              "en": "Ethanol",
+              "ne": "इथानोल"
+            },
+            {
+              "en": "Ethylene glycol",
+              "ne": "इथिलिन ग्लाइकोल"
+            },
+            {
+              "en": "Methanol",
+              "ne": "मिथानोल"
+            },
+            {
+              "en": "Glycerol",
+              "ne": "ग्लिसेरोल"
+            }
+          ],
+          "answer": {
+            "en": "Ethylene glycol",
+            "ne": "इथिलिन ग्लाइकोल"
+          },
+          "solution": {
+            "en": "A di-hydric alcohol has two –OH groups. Ethylene glycol, CH2(OH)-CH2(OH), has exactly two hydroxyl groups. Ethanol and methanol are mono-hydric; glycerol is tri-hydric.",
+            "ne": "डाइहाइड्रिक अल्कोहलमा दुईओटा –OH समूह हुन्छन्। इथिलिन ग्लाइकोल, CH2(OH)-CH2(OH), मा ठ्याक्कै दुईओटा हाइड्रोक्सिल समूह छन्। इथानोल र मिथानोल मोनोहाइड्रिक हुन् भने ग्लिसेरोल ट्राइहाइड्रिक हो।"
+          },
+          "correctOption": "ii"
+        },
+        {
+          "id": "q1f",
+          "questionNumber": "1(f)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "If the Earth could be squeezed to the size of the Moon, what would be the effect on the value of acceleration due to gravity of the Earth?",
+            "ne": "यदि पृथ्वीलाई खुम्च्याएर चन्द्रमाजत्रै बनाउन सकियो भने पृथ्वीको गुरुत्व प्रवेगको मानमा कस्तो असर पर्छ ?"
+          },
+          "options": [
+            {
+              "en": "Increases",
+              "ne": "बढ्छ"
+            },
+            {
+              "en": "Decreases",
+              "ne": "घट्छ"
+            },
+            {
+              "en": "Becomes zero",
+              "ne": "शून्य हुन्छ"
+            },
+            {
+              "en": "Remains the same",
+              "ne": "उही नै रहन्छ"
+            }
+          ],
+          "answer": {
+            "en": "Increases",
+            "ne": "बढ्छ"
+          },
+          "solution": {
+            "en": "g = GM/R². If Earth's mass M stays the same but its radius R decreases (squeezed to Moon's size), then g increases because g is inversely proportional to R².",
+            "ne": "g = GM/R² । पृथ्वीको पिण्ड M उस्तै रहे पनि अर्धव्यास R घट्दा (चन्द्रमाको आकारमा खुम्च्याउँदा), g बढ्छ किनभने g, R² सँग व्युत्क्रमानुपाती हुन्छ।"
+          },
+          "correctOption": "i"
+        },
+        {
+          "id": "q1g",
+          "questionNumber": "1(g)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Which of the following facts is correct?",
+            "ne": "तलकामध्ये कुन तथ्य सही छ ?"
+          },
+          "options": [
+            {
+              "en": "Electric motor changes electrical energy into kinetic energy.",
+              "ne": "विद्युत मोटरले विद्युतीय शक्तिलाई गति शक्तिमा रूपान्तर गर्दछ।"
+            },
+            {
+              "en": "Electric generator changes electrical energy into mechanical energy.",
+              "ne": "विद्युत जेनेरेटरले विद्युत शक्तिलाई यान्त्रिक शक्तिमा रूपान्तरण गर्दछ।"
+            },
+            {
+              "en": "Both electric motor and generator work on the same principle.",
+              "ne": "विद्युत मोटर र जेनेरेटर दुवै एउटै सिद्धान्तमा आधारित रही कार्य गर्दछन्।"
+            },
+            {
+              "en": "Both electric motor and generator change mechanical energy into electrical energy.",
+              "ne": "विद्युत मोटर र जेनेरेटर दुवै यन्त्रले यान्त्रिक शक्तिलाई विद्युतीय शक्तिमा रूपान्तर गर्दछन्।"
+            }
+          ],
+          "answer": {
+            "en": "Electric motor changes electrical energy into kinetic energy.",
+            "ne": "विद्युत मोटरले विद्युतीय शक्तिलाई गति शक्तिमा रूपान्तर गर्दछ।"
+          },
+          "solution": {
+            "en": "An electric motor works on the motor effect of current (force on a current-carrying conductor in a magnetic field) and converts electrical energy into mechanical/kinetic (rotational) energy. A generator does the opposite — it converts mechanical energy into electrical energy using electromagnetic induction, so options (ii), (iii) and (iv) are incorrect.",
+            "ne": "विद्युत मोटरले करेन्टको मोटर-प्रभाव (चुम्बकीय क्षेत्रमा रहेको करेन्ट बग्ने चालकमा लाग्ने बल) को सिद्धान्तमा काम गर्छ र विद्युतीय शक्तिलाई यान्त्रिक/गति (परिक्रमी) शक्तिमा रूपान्तरण गर्छ। जेनेरेटरले यसको ठीक विपरीत, विद्युतचुम्बकीय इन्डक्सनद्वारा यान्त्रिक शक्तिलाई विद्युतीय शक्तिमा बदल्छ; त्यसैले (ii), (iii) र (iv) गलत छन्।"
+          },
+          "correctOption": "i"
+        },
+        {
+          "id": "q1h",
+          "questionNumber": "1(h)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "On which of the following factors does specific heat capacity depend?",
+            "ne": "पदार्थको विशिष्ट तापधारण क्षमता तलकामध्ये कुन कुरामा निर्भर गर्दछ ?"
+          },
+          "options": [
+            {
+              "en": "Mass of matter",
+              "ne": "पदार्थको पिण्ड"
+            },
+            {
+              "en": "Volume of matter",
+              "ne": "पदार्थको आयतन"
+            },
+            {
+              "en": "Temperature of matter",
+              "ne": "पदार्थको तापक्रम"
+            },
+            {
+              "en": "Nature of matter",
+              "ne": "पदार्थको प्रकृति"
+            }
+          ],
+          "answer": {
+            "en": "Nature of matter",
+            "ne": "पदार्थको प्रकृति"
+          },
+          "solution": {
+            "en": "Specific heat capacity is an intrinsic property that depends on the nature (material/substance) of the object — different materials need different amounts of heat to raise their temperature by 1°C per unit mass — not on how much of it there is (mass/volume) or its current temperature.",
+            "ne": "विशिष्ट तापधारण क्षमता वस्तुको प्रकृति (पदार्थको किसिम) मा भर पर्ने गुण हो — फरक-फरक पदार्थलाई प्रति एकाइ पिण्ड 1°C तापक्रम बढाउन फरक-फरक तापको आवश्यक पर्छ — यो पदार्थको मात्रा (पिण्ड/आयतन) वा हालको तापक्रममा भर पर्दैन।"
+          },
+          "correctOption": "iv"
+        },
+        {
+          "id": "q1i",
+          "questionNumber": "1(i)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Which of the following group of fundamental units represents the derived unit of energy, Joule (J)?",
+            "ne": "तलका मध्ये कुन आधारभूत एकाईको समूहले शक्तिको तत्जन्य एकाई जुल (J) लाई जनाउँछ ?"
+          },
+          "options": [
+            {
+              "en": "kg m s⁻²",
+              "ne": "kg m s⁻²"
+            },
+            {
+              "en": "kg m s⁻¹",
+              "ne": "kg m s⁻¹"
+            },
+            {
+              "en": "kg m² s⁻²",
+              "ne": "kg m² s⁻²"
+            },
+            {
+              "en": "kg m s⁻³",
+              "ne": "kg m s⁻³"
+            }
+          ],
+          "answer": {
+            "en": "kg m² s⁻²",
+            "ne": "kg m² s⁻²"
+          },
+          "solution": {
+            "en": "Energy (Joule) = Force × distance = (kg·m·s⁻²) × m = kg m² s⁻².",
+            "ne": "ऊर्जा (जुल) = बल × दूरी = (kg·m·s⁻²) × m = kg m² s⁻²।"
+          },
+          "correctOption": "iii"
+        },
+        {
+          "id": "q1j",
+          "questionNumber": "1(j)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "If 500 N force is applied on piston A, how much force is produced on piston B? (Area of A = 200 cm², Area of B = 350 cm²)",
+            "ne": "देखाइएको चित्रमा पिस्टन A मा 500 N को बल लगाइयो भने पिस्टन B मा कति बल लाग्छ होला ? (A को क्षेत्रफल = 200 cm², B को क्षेत्रफल = 350 cm²)"
+          },
+          "options": [
+            {
+              "en": "875 N",
+              "ne": "८७५ N"
+            },
+            {
+              "en": "975 N",
+              "ne": "९७५ N"
+            },
+            {
+              "en": "1075 N",
+              "ne": "१०७५ N"
+            },
+            {
+              "en": "1175 N",
+              "ne": "११७५ N"
+            }
+          ],
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-bagmati/q1j-hydraulic-pistons.png",
+            "caption": {
+              "en": "Hydraulic piston system: piston A (200 cm²) connected to piston B (350 cm²).",
+              "ne": "हाइड्रोलिक पिस्टन प्रणाली: पिस्टन A (200 cm²) पिस्टन B (350 cm²) सँग जोडिएको।"
+            }
+          },
+          "answer": {
+            "en": "875 N",
+            "ne": "८७५ N"
+          },
+          "solution": {
+            "en": "By Pascal's law, pressure transmitted is equal: F_A/A_A = F_B/A_B. So F_B = F_A × (A_B/A_A) = 500 N × (350 cm²/200 cm²) = 500 × 1.75 = 875 N.",
+            "ne": "पास्कलको नियमअनुसार दबाब बराबर सर्छ: F_A/A_A = F_B/A_B। त्यसैले F_B = F_A × (A_B/A_A) = 500 N × (350 cm²/200 cm²) = 500 × 1.75 = 875 N।"
+          },
+          "correctOption": "i",
+          "solutionTable": {
+            "headers": [
+              {
+                "en": "Quantity",
+                "ne": "परिमाण"
+              },
+              {
+                "en": "Value",
+                "ne": "मान"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "F_A",
+                  "ne": "F_A"
+                },
+                {
+                  "en": "500 N",
+                  "ne": "५०० N"
+                }
+              ],
+              [
+                {
+                  "en": "A_A",
+                  "ne": "A_A"
+                },
+                {
+                  "en": "200 cm²",
+                  "ne": "२०० cm²"
+                }
+              ],
+              [
+                {
+                  "en": "A_B",
+                  "ne": "A_B"
+                },
+                {
+                  "en": "350 cm²",
+                  "ne": "३५० cm²"
+                }
+              ],
+              [
+                {
+                  "en": "F_B = F_A × A_B/A_A",
+                  "ne": "F_B = F_A × A_B/A_A"
+                },
+                {
+                  "en": "875 N",
+                  "ne": "८७५ N"
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Section B — Very Short Answer Questions",
+        "ne": "खण्ड 'ख' — अति छोटो उत्तर प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Write very short answers to the following questions. (9 x 1 = 9)",
+        "ne": "तलका प्रश्नहरूको अति छोटो उत्तर लेख्नुहोस् : (९x१=९)"
+      },
+      "items": [
+        {
+          "id": "q2a",
+          "questionNumber": "2(a)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "What is the name of the blood vessel that carries blood from the heart to different parts of the body?",
+            "ne": "मुटुबाट शरीरको विभिन्न भागमा रगत लैजाने रक्तनलीलाई के भनिन्छ ?"
+          },
+          "answer": {
+            "en": "Artery",
+            "ne": "धमनी (आर्टरी)"
+          },
+          "solution": {
+            "en": "Arteries are the blood vessels that carry (oxygenated, except pulmonary artery) blood away from the heart to different parts of the body.",
+            "ne": "धमनीहरूले (पल्मोनरी आर्टरीबाहेक अक्सिजनयुक्त) रगत मुटुबाट शरीरका विभिन्न भागमा लैजान्छन्।"
+          }
+        },
+        {
+          "id": "q2b",
+          "questionNumber": "2(b)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Write the name of the compound which is formed when ammonia dissolves in water.",
+            "ne": "एमोनिया पानीमा घुलेर बनाउने यौगिकको नाम लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "Ammonium hydroxide (NH4OH)",
+            "ne": "अमोनियम हाइड्रोक्साइड (NH4OH)"
+          },
+          "solution": {
+            "en": "NH3 + H2O -> NH4OH.",
+            "ne": "NH3 + H2O -> NH4OH।"
+          }
+        },
+        {
+          "id": "q2c",
+          "questionNumber": "2(c)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Why is carbon dioxide gas collected in an erect (upright) gas jar?",
+            "ne": "कार्बन डाइअक्साइडलाई किन सुल्टो ग्यास जारमा जम्मा गरिन्छ ?"
+          },
+          "answer": {
+            "en": "Because carbon dioxide is heavier (denser) than air.",
+            "ne": "किनभने कार्बन डाइअक्साइड हावाभन्दा भारी (बढी घना) हुन्छ।"
+          },
+          "solution": {
+            "en": "Since CO2 gas is denser than air, it settles at the bottom of an upright (erect) gas jar and does not escape, allowing it to be collected by the downward/upward-displacement-of-air method with the jar mouth facing up.",
+            "ne": "CO2 ग्यास हावाभन्दा बढी घना भएकाले सुल्टो राखिएको ग्यास जारको फेदमा जम्छ र सजिलै भागेर जाँदैन, त्यसैले यसलाई सुल्टो जारमा जम्मा गरिन्छ।"
+          }
+        },
+        {
+          "id": "q2d",
+          "questionNumber": "2(d)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Write a precaution to be taken by a good netizen.",
+            "ne": "असल नेटिजनले अपनाउनुपर्ने एउटा सजगता लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "A good netizen should never share personal/private information (like passwords, address, photos) with strangers online.",
+            "ne": "असल नेटिजनले आफ्नो व्यक्तिगत जानकारी (जस्तै पासवर्ड, ठेगाना, फोटो) अनजान व्यक्तिसँग अनलाइनमा कहिल्यै साझा गर्नु हुँदैन।"
+          }
+        },
+        {
+          "id": "q2e",
+          "questionNumber": "2(e)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "What change does a negative catalyst do to the rate of a chemical reaction?",
+            "ne": "नकारात्मक उत्प्रेरकले रासायनिक प्रतिक्रियाको दरमा कस्तो परिवर्तन गर्छ ?"
+          },
+          "answer": {
+            "en": "A negative catalyst decreases (slows down) the rate of a chemical reaction.",
+            "ne": "नकारात्मक उत्प्रेरकले रासायनिक प्रतिक्रियाको दरलाई घटाउँछ (सुस्त बनाउँछ)।"
+          }
+        },
+        {
+          "id": "q2f",
+          "questionNumber": "2(f)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Why is detergent considered less eco-friendly than soap? Give one reason.",
+            "ne": "साबुनभन्दा डिटर्जेन्ट वातावरणमैत्री मानिँदैन, किन ? एउटा कारण दिनुहोस्।"
+          },
+          "answer": {
+            "en": "Detergents are largely non-biodegradable (or biodegrade very slowly), so they persist in water and cause water pollution, harming aquatic life, unlike soap which is biodegradable.",
+            "ne": "धेरैजसो डिटर्जेन्ट सजिलै विघटन (बायोडिग्रेड) हुँदैनन्, त्यसैले तिनीहरू पानीमा लामो समय रहेर जलजीवलाई हानि पुऱ्याउँछन्; साबुन भने सजिलै विघटन हुन्छ।"
+          }
+        },
+        {
+          "id": "q2g",
+          "questionNumber": "2(g)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "When black (Bb) and brown (bb) dogs are crossed, what is the genotypic ratio of the black and brown offspring produced?",
+            "ne": "कालो (Bb) र खैरो (bb) कुकुरबिच क्रस गराउँदा दोस्रो वंशमा निस्कने कालो र खैरो सन्तानको अनुपात लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "1 : 1 (Bb : bb)",
+            "ne": "१ : १ (Bb : bb)"
+          },
+          "solution": {
+            "en": "Crossing Bb (black) × bb (brown): gametes from Bb are B and b; gametes from bb are only b. Offspring genotypes: Bb and bb in equal proportion, giving a genotypic (and phenotypic) ratio of 1 black (Bb) : 1 brown (bb).",
+            "ne": "Bb (कालो) × bb (खैरो) क्रस गराउँदा: Bb ले B र b दुई किसिमका र bb ले केवल b मात्र ग्यामिट दिन्छ। सन्तानमा Bb र bb बराबर अनुपातमा बन्छन्, अर्थात् १ कालो (Bb) : १ खैरो (bb)।"
+          }
+        },
+        {
+          "id": "q2h",
+          "questionNumber": "2(h)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "A student has difficulty reading letters on the board while sitting on the last bench, due to a defect of vision. Draw a ray diagram showing the remedy for that person's problem.",
+            "ne": "एकजना विद्यार्थीलाई कक्षाको अन्तिम बेन्चमा बसी बोर्डमा लेखिएका अक्षरहरू पढ्न गाह्रो भएको छ। उक्त व्यक्तिको आँखाको कमजोरीलाई हटाउने उपाएको किरण रेखाचित्र देखाउनुहोस्।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-bagmati/q2h-myopia-correction.png",
+            "caption": {
+              "en": "Correction of myopia using a concave lens.",
+              "ne": "अवतल लेन्स प्रयोग गरी मायोपिया सुधार।"
+            }
+          },
+          "answer": {
+            "en": "The person has myopia (short-sightedness) — light rays focus in front of the retina. It is corrected by using a concave (diverging) lens, which diverges the incoming rays slightly before they enter the eye so that they focus exactly on the retina.",
+            "ne": "व्यक्तिलाई मायोपिया (नजिकको दृष्टिदोष) छ — प्रकाश किरणहरू रेटिनाभन्दा अगाडि केन्द्रित हुन्छन्। यसलाई अवतल (डाइभर्जिङ) लेन्स प्रयोग गरेर सच्याइन्छ, जसले आँखामा पस्नुअघि किरणहरूलाई अलिकति फैलाइदिन्छ ताकि तिनीहरू ठ्याक्कै रेटिनामा केन्द्रित होऊन्।"
+          }
+        },
+        {
+          "id": "q2i",
+          "questionNumber": "2(i)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Calculate the refractive index of water, if the speed of light in water is 2.25×10⁵ m/s and in air is 3×10⁸ m/s.",
+            "ne": "यदि पानीमा प्रकाशको वेग 2.25×10⁵ m/s छ र हावामा 3×10⁸ m/s छ भने पानीको रिफ्र्याक्टिभ इन्डेक्सको मान हिसाब गर्नुहोस्।"
+          },
+          "answer": {
+            "en": "n ≈ 1.33",
+            "ne": "n ≈ १.३३"
+          },
+          "solution": {
+            "en": "Refractive index n = speed of light in air / speed of light in water = c/v. Note: as printed, the given speed in water (2.25×10^5 m/s) appears to contain a typographical slip in the original paper — the standard value used in the SEE syllabus is 2.25×10^8 m/s, which gives the well-known result n = 3×10^8/2.25×10^8 = 1.33. (If the value 2.25×10^5 m/s is used literally, n = 3×10^8/2.25×10^5 ≈ 1333, which is not physically realistic for water and is almost certainly a scanning/printing error.)",
+            "ne": "रिफ्र्याक्टिभ इन्डेक्स n = हावामा प्रकाशको वेग / पानीमा प्रकाशको वेग = c/v। नोट: दिइएको पानीमा वेग (2.25×10⁵ m/s) मा सम्भवतः छाप्ने क्रममा त्रुटि (टाइपो) भएको देखिन्छ — SEE पाठ्यक्रममा प्रयोग हुने मान्य मान 2.25×10⁸ m/s हो, जसबाट n = 3×10⁸/2.25×10⁸ = १.३३ आउँछ। (दिइएको मान (2.25×10⁵ m/s) लाई सिधै प्रयोग गर्दा n ≈ १३३३ आउँछ, जुन पानीको लागि व्यावहारिक मान होइन।)"
+          },
+          "solutionTable": {
+            "headers": [
+              {
+                "en": "Quantity",
+                "ne": "परिमाण"
+              },
+              {
+                "en": "Value",
+                "ne": "मान"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "Speed in air (c)",
+                  "ne": "हावामा वेग (c)"
+                },
+                {
+                  "en": "3 × 10⁸ m/s",
+                  "ne": "३ × १०⁸ m/s"
+                }
+              ],
+              [
+                {
+                  "en": "Speed in water (v)",
+                  "ne": "पानीमा वेग (v)"
+                },
+                {
+                  "en": "2.25 × 10⁸ m/s (corrected)",
+                  "ne": "२.२५ × १०⁸ m/s (सच्याइएको)"
+                }
+              ],
+              [
+                {
+                  "en": "n = c/v",
+                  "ne": "n = c/v"
+                },
+                {
+                  "en": "1.33",
+                  "ne": "१.३३"
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Section C — Short Answer Questions",
+        "ne": "खण्ड 'ग' — छोटो उत्तर प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Write short answers to the following questions. (14 x 2 = 28)",
+        "ne": "तलका प्रश्नहरूको छोटो उत्तर लेख्नुहोस् : (१४x२=२८)"
+      },
+      "items": [
+        {
+          "id": "q3",
+          "questionNumber": "3",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Write any two characteristics of a worker bee.",
+            "ne": "कर्मी मौरीका कुनै दुईओटा विशेषताहरू लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "1) Worker bees are sterile (non-reproductive) females. 2) They collect nectar and pollen, build/clean the hive, feed the larvae and queen, and defend the colony.",
+            "ne": "१) कर्मी मौरी बाँझी (सन्तानोत्पादन नगर्ने) पोथी हुन्छन्। २) तिनीहरूले मह र पराग सङ्कलन गर्छन्, घार बनाउँछन्/सफा गर्छन्, लार्भा र रानीलाई खुवाउँछन् र घारको रक्षा गर्छन्।"
+          }
+        },
+        {
+          "id": "q4",
+          "questionNumber": "4",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Mention any two effects of climate change.",
+            "ne": "जलवायु परिवर्तनका कुनै दुईओटा असरहरू लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "1) Rise in average global temperature, causing melting of glaciers and rise in sea level. 2) Changes in rainfall patterns leading to more frequent floods, droughts and unpredictable weather.",
+            "ne": "१) विश्वव्यापी औसत तापक्रम बढ्नु, जसले गर्दा हिमनदी पग्लन्छ र समुद्रको सतह बढ्छ। २) वर्षाको ढाँचामा परिवर्तन आई बाढी, खडेरी र अनिश्चित मौसम बढी हुनु।"
+          }
+        },
+        {
+          "id": "q5",
+          "questionNumber": "5",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Write two differences between independent and dependent variables.",
+            "ne": "स्वतन्त्र चर र आश्रित चर बिच दुईओटा फरक लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "Independent variable is the factor that the experimenter deliberately changes/controls, and is plotted on the x-axis. Dependent variable is the factor that changes as a result and is measured/observed, and is plotted on the y-axis.",
+            "ne": "स्वतन्त्र चर भनेको प्रयोगकर्ताले जानाजान परिवर्तन/नियन्त्रण गर्ने कारक हो, जसलाई x-अक्षमा राखिन्छ। आश्रित चर भनेको त्यसको परिणामस्वरूप परिवर्तन हुने र नापिने/अवलोकन गरिने कारक हो, जसलाई y-अक्षमा राखिन्छ।"
+          }
+        },
+        {
+          "id": "q6",
+          "questionNumber": "6",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Write the class of sparrow and the division of fern.",
+            "ne": "भँगेराको क्लास र फर्नको डिभिजन लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "Class of sparrow: Aves. Division of fern: Pteridophyta.",
+            "ne": "भँगेराको क्लास: एभिज (Aves)। फर्नको डिभिजन: टेरिडोफाइटा (Pteridophyta)।"
+          }
+        },
+        {
+          "id": "q7",
+          "questionNumber": "7",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "What difficulties would Mendel have faced if he had used an apple plant instead of pea for his experiment? Write in two points.",
+            "ne": "मेण्डलले आफ्नो प्रयोगको लागि केराउको सट्टा स्याउको बोट लिएको भए के अप्ठ्यारो हुन्थ्यो होला ? कुनै दुई बुँदामा लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "1) Apple trees take a very long time to grow and mature/flower, so results would take many years, unlike pea which grows and flowers quickly. 2) Apple flowers are difficult to strictly self-pollinate or cross-pollinate by hand due to the tree's size and structure, making controlled crosses hard, and apples lack easily distinguishable contrasting traits like pea seeds/flowers had.",
+            "ne": "१) स्याउको बोट हुर्किन र फुल्न धेरै वर्ष लाग्छ, जबकि केराउ चाँडै हुर्किन्छ र फुल्छ, त्यसैले नतिजा पाउन धेरै समय लाग्ने थियो। २) स्याउको फूलमा हातैले स्व-परागसेचन वा क्रस-परागसेचन नियन्त्रण गर्न बोटको आकार/बनावटका कारण कठिन हुन्छ, र स्याउमा केराउजस्तै छुट्याउन सजिलो विपरीत गुणहरू पनि हुँदैनन्।"
+          }
+        },
+        {
+          "id": "q8",
+          "questionNumber": "8",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "In the given figure, what does 16 N represent? What should be the weight of the object for it to float on water?",
+            "ne": "दिइएको चित्रमा 16 N ले के जनाउँछ ? उक्त वस्तुको तौल कति भएको भए पानीमा तैरिन्थ्यो होला ?"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-bagmati/q8-spring-balance-water.png",
+            "caption": {
+              "en": "A stone hangs from a spring balance and is submerged in a beaker of water; the balance reads 16 N.",
+              "ne": "स्प्रिङ ब्यालेन्समा झुण्ड्याइएको ढुङ्गा पानीको भाँडोमा डुबाइएको छ; ब्यालेन्सले 16 N देखाउँछ।"
+            }
+          },
+          "answer": {
+            "en": "16 N represents the apparent weight of the object when it is fully submerged in water (i.e. its true weight minus the upward buoyant force/upthrust of water acting on it). For the object to just float on water, its actual weight (in air) should be equal to the upthrust of water on it, i.e. its apparent weight in water should become zero (0 N).",
+            "ne": "16 N ले वस्तुलाई पानीमा पूर्ण रूपमा डुबाउँदा देखिने आभासी तौल (अर्थात् वास्तविक तौलबाट पानीले लगाउने माथितिरको उत्प्लावन बल घटाएको मान) जनाउँछ। वस्तु पानीमा तैरनको लागि, त्यसको वास्तविक तौल (हावामा) पानीले लगाउने उत्प्लावन बलसँग बराबर हुनुपर्छ, अर्थात् पानीमा त्यसको आभासी तौल शून्य (0 N) हुनुपर्छ।"
+          }
+        },
+        {
+          "id": "q9",
+          "questionNumber": "9",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Differentiate between the flat universe and the closed universe in two points.",
+            "ne": "समतल ब्रह्माण्ड र बन्द ब्रह्माण्डबिच दुई बुँदामा फरक लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "1) A flat universe has zero (no) overall curvature and its average density equals the critical density, whereas a closed universe has positive curvature and its density is greater than the critical density. 2) A flat universe expands forever, with the rate of expansion slowing down and approaching (but never quite reaching) zero, while a closed universe is finite in size and will eventually stop expanding and start contracting (leading to a 'Big Crunch').",
+            "ne": "१) समतल ब्रह्माण्डको समग्र वक्रता शून्य हुन्छ र यसको औसत घनत्व क्रिटिकल घनत्वसँग बराबर हुन्छ, जबकि बन्द ब्रह्माण्डको धनात्मक वक्रता हुन्छ र यसको घनत्व क्रिटिकल घनत्वभन्दा बढी हुन्छ। २) समतल ब्रह्माण्ड सधैँ विस्तार हुँदै जान्छ, विस्तारको दर घट्दै शून्यनजिक पुग्छ (तर कहिल्यै शून्य हुँदैन), जबकि बन्द ब्रह्माण्ड सीमित आकारको हुन्छ र अन्ततः विस्तार रोकिएर खुम्चिन थाल्छ ('बिग क्रन्च')।"
+          }
+        },
+        {
+          "id": "q10",
+          "questionNumber": "10",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Answer the questions based on the given chemical equations. Reaction A: MgO + H2O -> Mg(OH)2. Reaction B: Zn + dil. H2SO4 -> ZnSO4 + H2. (i) Out of these two chemical equations, which one is the combination reaction? (ii) What happens when conc. H2SO4 is used instead of dil. H2SO4 in chemical reaction B?",
+            "ne": "दिइएको रासायनिक समीकरणको आधारमा सोधिएका प्रश्नहरूको उत्तर दिनुहोस्। प्रतिक्रिया (A): MgO + H2O -> Mg(OH)2, प्रतिक्रिया (B): Zn + dil H2SO4 -> ZnSO4 + H2 (i) उक्त प्रतिक्रियाहरूमध्ये सयोजन प्रतिक्रिया कुन हो ? (ii) रासायनिक समीकरण B मा dil H2SO4 को सट्टा conc. H2SO4 को प्रयोग गर्दा के हुन्छ होला ?"
+          },
+          "answer": {
+            "en": "(i) Reaction A (MgO + H2O -> Mg(OH)2) is the combination reaction, because two substances (MgO and H2O) combine to form a single product (Mg(OH)2). (ii) When conc. H2SO4 is used instead of dil. H2SO4 with zinc, concentrated sulphuric acid acts as an oxidising agent — no hydrogen gas is evolved; instead, sulphur dioxide (SO2) gas and water are produced: Zn + 2H2SO4(conc.) -> ZnSO4 + SO2 + 2H2O.",
+            "ne": "(i) प्रतिक्रिया A (MgO + H2O -> Mg(OH)2) सयोजन प्रतिक्रिया हो, किनभने दुईओटा पदार्थ (MgO र H2O) मिलेर एउटै उत्पादन (Mg(OH)2) बन्छ। (ii) जस्तासँग dil H2SO4 को सट्टा conc. H2SO4 प्रयोग गर्दा, सांद्र सल्फ्युरिक एसिडले अक्सिडाइजिङ एजेन्टको रूपमा काम गर्छ — हाइड्रोजन ग्यास निस्कँदैन, बरु सल्फर डाइअक्साइड (SO2) ग्यास र पानी बन्छ: Zn + 2H2SO4(conc.) -> ZnSO4 + SO2 + 2H2O।"
+          }
+        },
+        {
+          "id": "q11",
+          "questionNumber": "11",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Draw a neat and clean diagram of the laboratory preparation of carbon dioxide gas. Write the name of the salt used in this process.",
+            "ne": "प्रयोगशालामा कार्बनडाइअक्साइड ग्यास बनाउने विधिको सफा चित्र खिच्नुहोस् र उक्त प्रक्रियामा प्रयोग हुने लवणको नाम लेख्नुहोस्।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-bagmati/q11-co2-preparation-answer.png",
+            "caption": {
+              "en": "Model answer diagram: laboratory preparation of CO2 gas.",
+              "ne": "नमूना उत्तर चित्र: प्रयोगशालामा CO2 ग्यास बनाउने विधि।"
+            }
+          },
+          "answer": {
+            "en": "Salt used/formed: Calcium chloride (CaCl2). Marble chips (CaCO3) react with dilute hydrochloric acid: CaCO3 + 2HCl -> CaCl2 + H2O + CO2; the CO2 gas produced is collected by upward displacement of air in an upright gas jar.",
+            "ne": "प्रयोग हुने/बन्ने लवण: क्याल्सियम क्लोराइड (CaCl2)। मार्बल चिप्स (CaCO3) ले तनुकृत हाइड्रोक्लोरिक एसिडसँग प्रतिक्रिया गर्छ: CaCO3 + 2HCl -> CaCl2 + H2O + CO2; बनेको CO2 ग्यासलाई हावा विस्थापन विधिद्वारा सुल्टो ग्यास जारमा सङ्कलन गरिन्छ।"
+          }
+        },
+        {
+          "id": "q12",
+          "questionNumber": "12",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Although the use of pesticides is considered a major concern for agriculture, write two reasons why its use continues.",
+            "ne": "कीटनाशकहरूको प्रयोगलाई कृषिका लागि प्रमुख चिन्ताको विषयको रूपमा लिइएको भए तापनि यसको प्रयोगले निरन्तरता पाउनका दुईओटा कारणहरू लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "1) Pesticides quickly and effectively increase crop yield by killing pests, which farmers rely on for their livelihood and food security. 2) Pesticides are relatively cheap, easily available, and require less labour compared to organic/biological alternatives, so farmers continue to prefer them despite the environmental concerns.",
+            "ne": "१) कीटनाशकले कीराहरू मार्दै छिटो र प्रभावकारी रूपमा उत्पादन बढाउँछ, जसमा किसानहरू आफ्नो जीविका र खाद्य सुरक्षाका लागि भर पर्छन्। २) कीटनाशक अपेक्षाकृत सस्तो, सजिलै उपलब्ध हुन्छ र जैविक विकल्पहरूको तुलनामा कम श्रम लाग्छ, त्यसैले वातावरणीय चिन्ता हुँदाहुँदै पनि किसानहरूले यसैलाई रोज्छन्।"
+          }
+        },
+        {
+          "id": "q13",
+          "questionNumber": "13",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Among the animals Peacock, Crocodile, Snake, Whale and Sea-horse, which is the mammal, and which is the least developed animal?",
+            "ne": "मयुर (peacock), गोही (Crocodile), सर्प (Snake), ह्वेल (whale) र समुद्री घोडा (Sea-horse) मा स्तनधारी जनावर कुन हो र सबैभन्दा कम विकसित जनावर कुन हो ?"
+          },
+          "answer": {
+            "en": "Mammal: Whale. Least developed animal: Sea-horse (a bony fish, which is evolutionarily the simplest/least developed among the five given animals).",
+            "ne": "स्तनधारी: ह्वेल। सबैभन्दा कम विकसित जनावर: समुद्री घोडा (सी-हर्स) — यो एउटा हाडयुक्त माछा हो, जुन दिइएका पाँचओटा जनावरमध्ये विकासात्मक दृष्टिले सबैभन्दा कम विकसित हो।"
+          }
+        },
+        {
+          "id": "q14",
+          "questionNumber": "14",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "How much heat energy is required to raise the temperature of 700 g of water from 5°C to 40°C?",
+            "ne": "700 g पिण्ड भएको पानीलाई 5°C बाट 40°C सम्म तताउन कति ताप शक्ति आवश्यक पर्दछ ?"
+          },
+          "answer": {
+            "en": "102,900 J (= 102.9 kJ)",
+            "ne": "१०२,९०० J (= १०२.९ kJ)"
+          },
+          "solution": {
+            "en": "Q = mcΔT, where m = 0.7 kg, c (specific heat of water) = 4200 J/kg°C, ΔT = 40°C − 5°C = 35°C. Q = 0.7 × 4200 × 35 = 102,900 J.",
+            "ne": "Q = mcΔT, जहाँ m = 0.7 kg, c (पानीको विशिष्ट ताप) = 4200 J/kg°C, ΔT = 40°C − 5°C = 35°C। Q = 0.7 × 4200 × 35 = १०२,९०० J।"
+          },
+          "solutionTable": {
+            "headers": [
+              {
+                "en": "Quantity",
+                "ne": "परिमाण"
+              },
+              {
+                "en": "Value",
+                "ne": "मान"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "Mass (m)",
+                  "ne": "पिण्ड (m)"
+                },
+                {
+                  "en": "0.7 kg",
+                  "ne": "०.७ kg"
+                }
+              ],
+              [
+                {
+                  "en": "Specific heat (c)",
+                  "ne": "विशिष्ट ताप (c)"
+                },
+                {
+                  "en": "4200 J/kg°C",
+                  "ne": "४२०० J/kg°C"
+                }
+              ],
+              [
+                {
+                  "en": "ΔT",
+                  "ne": "ΔT"
+                },
+                {
+                  "en": "35°C",
+                  "ne": "३५°C"
+                }
+              ],
+              [
+                {
+                  "en": "Q = mcΔT",
+                  "ne": "Q = mcΔT"
+                },
+                {
+                  "en": "102,900 J",
+                  "ne": "१,०२,९०० J"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "q15",
+          "questionNumber": "15",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "If you are applying the process shown in the diagram to get pure silver from impure silver, then: (i) Between A and B, in which part will you place the impure silver? (ii) What is the role of 'C' in obtaining pure silver?",
+            "ne": "यदि तपाईंले चित्रमा देखाइएको जस्तै प्रक्रिया अपनाएर अशुद्ध चाँदीबाट शुद्ध चाँदी पाउन चाहनुहुन्छ भने, (i) A र B मध्ये कुन भागमा अशुद्ध चाँदी राख्नुहुन्छ ? (ii) शुद्ध चाँदी प्राप्त गर्न 'C' को भूमिका के हुन्छ ?"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-bagmati/q15-electrorefining-silver.png",
+            "caption": {
+              "en": "Electrolytic refining setup: two electrodes A and B dipped in electrolyte solution C.",
+              "ne": "विद्युत-अपघटन विधि: A र B दुई इलेक्ट्रोड र इलेक्ट्रोलाइट C मा डुबेको।"
+            }
+          },
+          "answer": {
+            "en": "(i) The impure silver is placed at the electrode connected to the positive terminal of the battery — the anode (commonly labelled A in such diagrams). The pure silver strip forms the cathode (B). (ii) 'C' is the electrolyte solution (a soluble silver salt solution, e.g. silver nitrate, AgNO3). It allows silver ions (Ag⁺) to move from the impure anode through the solution and deposit as pure silver on the cathode, so it carries/conducts the ions during electrolysis. (Note: label exactly which electrode is A and which is B according to the polarity marks shown in your own textbook diagram.)",
+            "ne": "(i) अशुद्ध चाँदीलाई ब्याट्रीको धनात्मक टर्मिनलसँग जोडिएको इलेक्ट्रोड (एनोड, सामान्यतया यस्ता चित्रमा A) मा राखिन्छ। शुद्ध चाँदीको पट्टी क्याथोड (B) बन्छ। (ii) 'C' इलेक्ट्रोलाइट घोल हो (घुलनशील चाँदीको लवणको घोल, जस्तै सिल्भर नाइट्रेट, AgNO3)। यसले चाँदीका आयन (Ag⁺) लाई अशुद्ध एनोडबाट घोलमार्फत बगाई क्याथोडमा शुद्ध चाँदीको रूपमा जम्मा गर्न मद्दत गर्छ, अर्थात् यसले विद्युत-अपघटनका बेला आयनहरू बोक्ने/सञ्चालन गर्ने काम गर्छ। (नोट: तपाईंको आफ्नै पाठ्यपुस्तकको चित्रमा देखाइएको ध्रुवताको चिन्हअनुसार A र B ठ्याक्कै कुन इलेक्ट्रोड हो भनी पहिचान गर्नुहोस्।)"
+          }
+        },
+        {
+          "id": "q16",
+          "questionNumber": "16",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Write the structural formula of the saturated hydrocarbon having molecular mass 44 amu. Write the IUPAC name of the compound obtained by removing one hydrogen atom each from two adjacent carbons of that compound.",
+            "ne": "आणविक भार 44 amu भएको सतृप्त हाइड्रोकार्बनको संरचना सूत्र लेख्नुहोस्। उक्त यौगिकको दुईओटा आसन्न कार्बनहरूबाट एक-एकओटा हाइड्रोजन हटाएर बन्ने यौगिकको IUPAC नाम लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "Structural formula: CH3–CH2–CH3 (propane, C3H8, molecular mass = 3×12 + 8×1 = 44 amu). Removing one hydrogen atom each from two adjacent carbons of propane forms a carbon-carbon double bond, giving CH2=CH–CH3. IUPAC name: Propene.",
+            "ne": "संरचना सूत्र: CH3–CH2–CH3 (प्रोपेन, C3H8, आणविक भार = ३×१२ + ८×१ = ४४ amu)। प्रोपेनको दुईओटा आसन्न कार्बनबाट एक-एकओटा हाइड्रोजन हटाउँदा दुई कार्बनबिच दोहोरो बन्ड बन्छ, जसले CH2=CH–CH3 बनाउँछ। IUPAC नाम: प्रोपिन (Propene)।"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Section D — Long Answer Questions",
+        "ne": "खण्ड 'घ' — लामो उत्तर प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Write long answers to the following questions. (7 x 4 = 28)",
+        "ne": "तलका प्रश्नहरूको लामो उत्तर लेख्नुहोस् : (७x४=२८)"
+      },
+      "items": [
+        {
+          "id": "q17",
+          "questionNumber": "17",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Write any two characteristics of each of the s-block and p-block elements of the modern periodic table.",
+            "ne": "आधुनिक पेरियोडिक तालिकाको s ब्लक र p ब्लक तत्त्वहरूको कुनै दुई-दुईओटा विशेषताहरू लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "s-block elements: 1) Their last (valence) electron enters an s-orbital (electronic configuration ns¹ or ns²). 2) They are highly reactive, soft metals (alkali and alkaline-earth metals) with low ionization energy and mostly form ionic compounds. p-block elements: 1) Their last (valence) electron enters a p-orbital. 2) The block contains metals, non-metals and metalloids, shows variable oxidation states, and includes many non-metals/gases.",
+            "ne": "s-ब्लक तत्त्व: १) यिनको अन्तिम (भ्यालेन्स) इलेक्ट्रोन s-ऑर्बिटलमा प्रवेश गर्छ (इलेक्ट्रोनिक बनावट ns¹ वा ns²)। २) यी उच्च क्रियाशील, नरम धातु (क्षार तथा क्षारीय-मृदा धातु) हुन्, जसको आयनीकरण ऊर्जा कम हुन्छ र प्रायः आयोनिक यौगिक बनाउँछन्। p-ब्लक तत्त्व: १) यिनको अन्तिम इलेक्ट्रोन p-ऑर्बिटलमा प्रवेश गर्छ। २) यस ब्लकमा धातु, अधातु र मेटालोइड सबै पर्छन्, विभिन्न अक्सिकरण अवस्था देखाउँछन्, र धेरै अधातु/ग्यासहरू यसैमा पर्छन्।"
+          }
+        },
+        {
+          "id": "q18",
+          "questionNumber": "18",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Find the independent and dependent variables in the following events: (i) more growth of plant in sunlight; (ii) measuring the stretch of a catapult and the distance covered by the stone thrown by it.",
+            "ne": "तल दिइएका घटनाहरूमा स्वतन्त्र चर र आश्रित चरहरू पत्ता लगाउनुहोस्। (i) घाममा बिरुवाको बढी वृद्धि हुनु (ii) गुलेलीको तन्काई र त्यसले फालेको ढुङ्गाले पार गरेको दूरी नाप्दा"
+          },
+          "answer": {
+            "en": "(i) Independent variable: sunlight (amount/intensity of sunlight). Dependent variable: growth of the plant. (ii) Independent variable: the stretch (extension) of the catapult. Dependent variable: the distance covered by the stone thrown.",
+            "ne": "(i) स्वतन्त्र चर: घाम (घामको मात्रा/तीव्रता)। आश्रित चर: बिरुवाको वृद्धि। (ii) स्वतन्त्र चर: गुलेलीको तन्काइ। आश्रित चर: ढुङ्गाले पार गरेको दूरी।"
+          }
+        },
+        {
+          "id": "q19",
+          "questionNumber": "19",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Draw a diagram to show the dispersion of white light as it passes through a prism. Write two causes of the dispersion of light.",
+            "ne": "सेतो प्रकाशको किरण प्रिज्मबाट पठाउँदा हुने प्रकासको विच्छेदनको चित्र बनाउनुहोस् र यसो हुनुका दुईओटा कारणहरू लेख्नुहोस्।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-bagmati/q19-dispersion-prism-answer.png",
+            "caption": {
+              "en": "Model answer diagram: dispersion of white light through a prism.",
+              "ne": "नमूना उत्तर चित्र: प्रिज्मबाट सेतो प्रकाशको विच्छेदन।"
+            }
+          },
+          "answer": {
+            "en": "Two causes of dispersion: 1) White light is made up of seven different colours (VIBGYOR), each of a different wavelength. 2) Each wavelength/colour has a slightly different refractive index in the glass of the prism, so each colour bends (refracts) by a different angle, causing the colours to separate out as they leave the prism.",
+            "ne": "प्रकाश विच्छेदनका दुईओटा कारण: १) सेतो प्रकाश सात फरक-फरक रङ (VIBGYOR) बाट बनेको हुन्छ, जसको तरङ्गदैर्घ्य फरक-फरक हुन्छ। २) प्रत्येक तरङ्गदैर्घ्य/रङको प्रिज्मको सिसामा फरक-फरक रिफ्र्याक्टिभ इन्डेक्स हुन्छ, त्यसैले प्रत्येक रङ फरक-फरक कोणमा झुक्छ (रिफ्र्याक्ट हुन्छ), जसले गर्दा प्रिज्मबाट बाहिर निस्कँदा रङहरू छुट्टिन्छन्।"
+          }
+        },
+        {
+          "id": "q20",
+          "questionNumber": "20",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "The report of WBC, RBC and Platelet counts of a person is shown in the table below.\nW = 30,00,000; X = 3,000; Y = 3,50,000 (all per unit volume of blood, as in the original table)\n(i) Which of the blood cells is in normal condition? (ii) Write a problem that arises due to the count of blood cell X. (iii) If the count of cell Y decreases and reaches 1,50,000, what would be the problem in the person? (iv) Name the blood cell W.",
+            "ne": "एक जना मानिसको रगतको परीक्षण गर्दा रिपोर्टमा देखिएको सेता रक्तकोष, राता रक्तकोष र प्लेटलेट्सको सङ्ख्या तलको तालिकामा देखाइएको छ। W = 30,00,000; X = 3,000; Y = 3,50,000 (i) तिनीहरूमध्ये सामान्य अवस्थामा भएको रक्तकोष कुन हो ? (ii) व्यक्तिमा X रक्तकोषको सङ्ख्याको कारणले देखिने एउटा समस्या लेख्नुहोस्। (iii) यदि Y को सङ्ख्या घटेर 1,50,000 मा पुग्यो भने उक्त मानिसलाई के समस्या हुन्छ ? (iv) W रक्तकोषको नाम लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "(i) Y (platelets, 3,50,000) is in normal condition — normal platelet count is roughly 1.5–4.5 lakh per unit volume, so 3,50,000 falls within the normal range. (ii) X represents WBC (white blood cell) count, and 3,000 is well below the normal range (about 4,000–11,000); a low WBC count (leukopenia) weakens the body's immune system and makes the person more prone to infections. (iii) Y is the platelet count; if it decreases to 1,50,000 (near/below the lower normal limit), the blood's clotting ability is reduced, so the person becomes prone to excessive/prolonged bleeding (risk of thrombocytopenia). (iv) W is Red Blood Cell (RBC / erythrocyte) — its count (30,00,000, i.e. in millions) matches the typical order of magnitude of RBC counts, though this particular value is lower than the normal RBC range, indicating anaemia.",
+            "ne": "(i) Y (प्लेटलेट्स, ३,५०,०००) सामान्य अवस्थामा छ — प्लेटलेट्सको सामान्य सङ्ख्या करिब १.५–४.५ लाख हुन्छ, त्यसैले ३,५०,००० सामान्य दायरामा पर्छ। (ii) X ले सेता रक्तकोष (WBC) को सङ्ख्या जनाउँछ, र ३,००० सामान्य दायरा (करिब ४,०००–११,०००) भन्दा धेरै कम हो; कम WBC सङ्ख्याले (ल्युकोपेनिया) शरीरको रोगप्रतिरोधात्मक क्षमता कमजोर बनाउँछ र व्यक्तिलाई सङ्क्रमण हुने सम्भावना बढाउँछ। (iii) Y प्लेटलेट्सको सङ्ख्या हो; यदि यो घटेर १,५०,००० (सामान्य दायराको तल्लो सीमानजिक/तल) मा पुग्यो भने रगत जम्ने क्षमता कमजोर हुन्छ, जसले गर्दा व्यक्तिलाई धेरै/लामो समयसम्म रगत बग्ने समस्या (थ्रोम्बोसाइटोपेनियाको जोखिम) हुन्छ। (iv) W राता रक्तकोष (RBC / एरिथ्रोसाइट) हो — यसको सङ्ख्या (३०,००,०००, अर्थात् लाखौंमा) RBC सङ्ख्याको सामान्य परिमाणसँग मिल्छ, यद्यपि यो मान सामान्य RBC दायराभन्दा कम भएकाले रक्तअल्पता (एनिमिया) देखिन्छ।"
+          }
+        },
+        {
+          "id": "q21",
+          "questionNumber": "21",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "(i) When 240 V is passed in the primary coil of a transformer, 480 V is induced in the secondary coil. If there are 300 turns in the primary coil, how many turns will be in the secondary coil? (ii) Why is the core of a transformer laminated? (iii) Can a transformer be used in a DC circuit? Give a reason.",
+            "ne": "(i) एउटा ट्रान्सफर्मरको प्राइमरी क्वाइलमा 240 V को विद्युत पठाउँदा सेकेण्डरी क्वाइलबाट 480 V विद्युत निस्कन्छ भने प्राइमरी फन्का 300 हुँदा सेकेन्डरी फन्का कति होला ? (ii) ट्रान्सफर्मरको कोर किन लेमिनेसन गरिन्छ ? (iii) के ट्रान्सफर्मरको प्रयोग DC परिपथमा गर्न सकिन्छ ? एउटा कारण लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "(i) 600 turns. (ii) To reduce eddy-current losses in the core (and hence increase the efficiency of the transformer). (iii) No — a transformer cannot be used in a DC circuit.",
+            "ne": "(i) ६०० फन्का। (ii) कोरमा एड्डी-करेन्टको क्षति घटाउन (र ट्रान्सफर्मरको दक्षता बढाउन)। (iii) होइन — ट्रान्सफर्मर DC परिपथमा प्रयोग गर्न सकिँदैन।"
+          },
+          "solution": {
+            "en": "(i) Transformer relation: Vp/Vs = Np/Ns, so Ns = Np × (Vs/Vp) = 300 × (480/240) = 300 × 2 = 600 turns. (ii) The core is laminated (made of thin insulated sheets instead of a solid block) to reduce eddy currents induced in it, which minimises heat loss and increases efficiency. (iii) A transformer works on the principle of mutual electromagnetic induction, which requires a continuously changing (alternating) magnetic flux. DC produces a constant, unchanging flux, so no e.m.f. is induced in the secondary coil — hence a transformer cannot work with DC.",
+            "ne": "(i) ट्रान्सफर्मर सम्बन्ध: Vp/Vs = Np/Ns, त्यसैले Ns = Np × (Vs/Vp) = ३०० × (४८०/२४०) = ३०० × २ = ६०० फन्का। (ii) एड्डी-करेन्ट घटाउन कोरलाई लेमिनेसन (पातलो-पातलो इन्सुलेटेड पाताहरूबाट बनाइन्छ, एकल ठोस टुक्रा होइन) गरिन्छ, जसले तापको क्षति घटाउँछ र दक्षता बढाउँछ। (iii) ट्रान्सफर्मरले पारस्परिक विद्युतचुम्बकीय इन्डक्सनको सिद्धान्तमा काम गर्छ, जसका लागि निरन्तर परिवर्तन हुने (अल्टरनेटिङ) चुम्बकीय फ्लक्स चाहिन्छ। DC ले स्थिर, नपरिवर्तन हुने फ्लक्स बनाउँछ, त्यसैले सेकेन्डरी क्वाइलमा कुनै e.m.f. उत्पन्न हुँदैन — त्यसैले ट्रान्सफर्मर DC सँग काम गर्दैन।"
+          },
+          "solutionTable": {
+            "headers": [
+              {
+                "en": "Quantity",
+                "ne": "परिमाण"
+              },
+              {
+                "en": "Value",
+                "ne": "मान"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "Vp",
+                  "ne": "Vp"
+                },
+                {
+                  "en": "240 V",
+                  "ne": "२४० V"
+                }
+              ],
+              [
+                {
+                  "en": "Vs",
+                  "ne": "Vs"
+                },
+                {
+                  "en": "480 V",
+                  "ne": "४८० V"
+                }
+              ],
+              [
+                {
+                  "en": "Np",
+                  "ne": "Np"
+                },
+                {
+                  "en": "300",
+                  "ne": "३००"
+                }
+              ],
+              [
+                {
+                  "en": "Ns = Np × Vs/Vp",
+                  "ne": "Ns = Np × Vs/Vp"
+                },
+                {
+                  "en": "600 turns",
+                  "ne": "६०० फन्का"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "q22",
+          "questionNumber": "22",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "Nowadays, sperms are collected from a male animal by artificial methods, and fertilization is done by inserting sperms mechanically into the uterus of a female. (i) Write any two advantages of this technology. (ii) Write two points to be considered while performing this technology.",
+            "ne": "आजभोली कृत्रिम विधिबाट जनावरहरूको भालेबाट वीर्यलाई सङ्कलन गरी आवश्यकता अनुसार मेकानिकल विधिबाट पोथीको पाठेघरमा पुऱ्याएर गर्भाधान गराइन्छ। (i) यो प्रविधिबाट हुने दुईओटा फाइदाहरू लेख्नुहोस्। (ii) यो प्रविधि अपनाउँदा ध्यान दिनुपर्ने कुराहरूलाई दुई बुँदामा लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "(i) Advantages: 1) It allows semen from a genetically superior male to be used to fertilise many females without needing to transport/keep the male animal, improving breed quality and productivity. 2) It reduces the risk of transmitting sexually-transmitted diseases between animals during natural mating. (ii) Points to consider: 1) The collected semen must be properly preserved/stored (e.g. by freezing) to keep it viable until use. 2) Insemination must be carried out at the correct time, matching the female's fertile (estrus) period, and under hygienic conditions to prevent infection.",
+            "ne": "(i) फाइदाहरू: १) यसले एउटा उत्कृष्ट गुणको भालेको वीर्य धेरैओटा पोथीमा प्रयोग गर्न सकिने बनाउँछ, भालेलाई हरेकपटक ओसारपसार गर्नु नपर्ने भएकाले नश्ल सुधार र उत्पादकत्व बढ्छ। २) प्राकृतिक मैथुनको तुलनामा जनावरहरूबिच यौन-सङ्क्रमित रोग सर्ने जोखिम घट्छ। (ii) ध्यान दिनुपर्ने कुराहरू: १) सङ्कलन गरिएको वीर्यलाई प्रयोग नहुन्जेलसम्म ठीकसँग सुरक्षित राख्नुपर्छ (जस्तै फ्रिज गरेर)। २) गर्भाधान पोथीको उर्वर (एस्ट्रस) समयअनुसार ठीक समयमा र सरसफाइ राखेर गर्नुपर्छ ताकि सङ्क्रमण नहोस्।"
+          }
+        },
+        {
+          "id": "q23",
+          "questionNumber": "23",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Bagmati Province",
+          "question": {
+            "en": "In the given figure, the mass of A and B are 6×10²⁴ kg and 400 kg respectively, and the radius of A is 6400 km. (i) Calculate the gravitational force between the objects A and B. (ii) To what height should the body B be taken from the surface of body A so that the value of acceleration due to gravity becomes 6 m/s²?",
+            "ne": "दिइएको चित्रमा A र B को पिण्ड क्रमशः 6×10²⁴ kg र 400 kg तथा A को अर्धव्यास 6400 km छ। (i) A र B वस्तुहरू बिचको गुरुत्वाकर्षण बल पत्ता लगाउनुहोस्। (ii) वस्तु B लाई वस्तु A को सतहबाट कति उचाइमा लग्दा गुरुत्वप्रवेगको मान 6 m/s² हुन्छ ?"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-bagmati/q23-gravitation-A-B.png",
+            "caption": {
+              "en": "Body B on the surface of large body A (radius 6400 km).",
+              "ne": "ठूलो वस्तु A को सतहमा रहेको सानो वस्तु B (अर्धव्यास 6400 km)।"
+            }
+          },
+          "answer": {
+            "en": "(i) F ≈ 3.91 × 10³ N (about 3911 N). (ii) h ≈ 1769 km.",
+            "ne": "(i) F ≈ ३.९१ × १०³ N (लगभग ३९११ N)। (ii) h ≈ १७६९ km।"
+          },
+          "solution": {
+            "en": "(i) F = GMm/r², where G = 6.674×10⁻¹¹ N m²/kg², M (mass of A) = 6×10²⁴ kg, m (mass of B) = 400 kg, r (radius of A) = 6400 km = 6.4×10⁶ m. F = (6.674×10⁻¹¹ × 6×10²⁴ × 400) / (6.4×10⁶)² = (1.602×10¹⁷) / (4.096×10¹³) ≈ 3.91×10³ N. (ii) First find g at the surface of A: g = GM/R² = (6.674×10⁻¹¹ × 6×10²⁴)/(6.4×10⁶)² ≈ 9.78 m/s². At height h, g_h = g × [R/(R+h)]². Setting g_h = 6 m/s²: [R/(R+h)]² = 6/9.78 ≈ 0.6135, so R/(R+h) ≈ 0.7832, giving R+h ≈ 6400/0.7832 ≈ 8171 km, so h ≈ 8171 − 6400 ≈ 1771 km (≈ 1.77×10³ km, small variation due to rounding of g).",
+            "ne": "(i) F = GMm/r², जहाँ G = 6.674×10⁻¹¹ N m²/kg², M (A को पिण्ड) = 6×10²⁴ kg, m (B को पिण्ड) = 400 kg, r (A को अर्धव्यास) = 6400 km = 6.4×10⁶ m। F = (6.674×10⁻¹¹ × 6×10²⁴ × 400) / (6.4×10⁶)² = (1.602×10¹⁷) / (4.096×10¹³) ≈ 3.91×10³ N। (ii) पहिले A को सतहमा g पत्ता लगाऔं: g = GM/R² = (6.674×10⁻¹¹ × 6×10²⁴)/(6.4×10⁶)² ≈ 9.78 m/s²। h उचाइमा, g_h = g × [R/(R+h)]²। g_h = 6 m/s² राख्दा: [R/(R+h)]² = 6/9.78 ≈ 0.6135, अर्थात् R/(R+h) ≈ 0.7832, यसबाट R+h ≈ 6400/0.7832 ≈ 8171 km, त्यसैले h ≈ 8171 − 6400 ≈ 1771 km (गोलाइका कारण सानो भिन्नता हुन सक्छ)।"
+          },
+          "solutionTable": {
+            "headers": [
+              {
+                "en": "Quantity",
+                "ne": "परिमाण"
+              },
+              {
+                "en": "Value",
+                "ne": "मान"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "G",
+                  "ne": "G"
+                },
+                {
+                  "en": "6.674 × 10⁻¹¹ N m²/kg²",
+                  "ne": "6.674 × 10⁻¹¹ N m²/kg²"
+                }
+              ],
+              [
+                {
+                  "en": "M (mass of A)",
+                  "ne": "M (A को पिण्ड)"
+                },
+                {
+                  "en": "6 × 10²⁴ kg",
+                  "ne": "6 × 10²⁴ kg"
+                }
+              ],
+              [
+                {
+                  "en": "m (mass of B)",
+                  "ne": "m (B को पिण्ड)"
+                },
+                {
+                  "en": "400 kg",
+                  "ne": "400 kg"
+                }
+              ],
+              [
+                {
+                  "en": "R (radius of A)",
+                  "ne": "R (A को अर्धव्यास)"
+                },
+                {
+                  "en": "6400 km = 6.4×10⁶ m",
+                  "ne": "6400 km = 6.4×10⁶ m"
+                }
+              ],
+              [
+                {
+                  "en": "F",
+                  "ne": "F"
+                },
+                {
+                  "en": "≈ 3.91 × 10³ N",
+                  "ne": "≈ 3.91 × 10³ N"
+                }
+              ],
+              [
+                {
+                  "en": "g at surface of A",
+                  "ne": "A को सतहमा g"
+                },
+                {
+                  "en": "≈ 9.78 m/s²",
+                  "ne": "≈ 9.78 m/s²"
+                }
+              ],
+              [
+                {
+                  "en": "h (for g = 6 m/s²)",
+                  "ne": "h (g = 6 m/s² को लागि)"
+                },
+                {
+                  "en": "≈ 1771 km",
+                  "ne": "≈ 1771 km"
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

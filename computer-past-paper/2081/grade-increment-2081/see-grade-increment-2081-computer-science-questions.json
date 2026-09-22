@@ -1,0 +1,341 @@
+{
+  "chapterId": "full-paper",
+  "subjectId": "computer-science",
+  "classLevel": "10",
+  "province": null,
+  "examBoard": "SEE",
+  "examYear": "2081 BS (2025 AD) - Grade Increment",
+  "paperCode": "GI-3031",
+  "fullMarks": 50,
+  "timeAllowed": "2 hours",
+  "title": "SEE (Grade Increment) 2081 (2025) Computer Science (Optional Second) - GI-3031",
+  "sourceNote": "Transcribed and translated in full to English from a scanned SEE (Grade Increment) 2081 (2025) Computer Science (Optional Second) question paper, code GI-3031. Only the English wording printed on the paper is used here (this is a Grade Increment / supplementary exam, distinct from the earlier regular SEE 2081 paper RE-3031 already converted). The paper did not state which province issued it, so 'province' is left null - please confirm. 'examBoard' is set to the generic 'SEE' as no specific board name was printed. Page 1 contains a visible watermark/overlay text reading 'FB - Tuition Class of Rajan Shrestha' printed over question 3; this is not part of the original exam content and has been excluded from the transcription. No other figures, flowcharts, or diagrams appear in this paper, so no items include an image field. Full marks (50) reconcile exactly against the printed section-wise marks breakdown (Group A = 10, Group B = 24, Group C = 16).",
+  "blocks": [
+    {
+      "heading": "SEE (Grade Increment) 2081 (2025) Computer Science - Optional Second",
+      "paragraph": "This is the SEE Grade Increment 2081 (2025 AD) question paper for Computer Science, Optional Second subject, paper code GI-3031. It carries full marks of 50 and an allotted time of 2 hours, divided into Group A (short, one-line answers and terminology), Group B (short/medium answers including QBASIC program tracing and debugging), and Group C (numerical conversions and full program-writing questions in QBASIC and C)."
+    }
+  ],
+  "questionSections": [
+    {
+      "title": "Group A - Q1: Answer the following questions in one sentence",
+      "instructions": "6x1=6",
+      "items": [
+        {
+          "id": "cs-see-gi-2081-gi3031-q1a",
+          "questionNumber": "1(a)",
+          "section": "Group A",
+          "marks": 1,
+          "source": "SEE Grade Increment 2081 (2025) Computer Science Optional II",
+          "question": "Name any two unguided transmission media."
+        },
+        {
+          "id": "cs-see-gi-2081-gi3031-q1b",
+          "questionNumber": "1(b)",
+          "section": "Group A",
+          "marks": 1,
+          "source": "SEE Grade Increment 2081 (2025) Computer Science Optional II",
+          "question": "What is online payment?"
+        },
+        {
+          "id": "cs-see-gi-2081-gi3031-q1c",
+          "questionNumber": "1(c)",
+          "section": "Group A",
+          "marks": 1,
+          "source": "SEE Grade Increment 2081 (2025) Computer Science Optional II",
+          "question": "Write down any two objects of MS-Access."
+        },
+        {
+          "id": "cs-see-gi-2081-gi3031-q1d",
+          "questionNumber": "1(d)",
+          "section": "Group A",
+          "marks": 1,
+          "source": "SEE Grade Increment 2081 (2025) Computer Science Optional II",
+          "question": "What is report?"
+        },
+        {
+          "id": "cs-see-gi-2081-gi3031-q1e",
+          "questionNumber": "1(e)",
+          "section": "Group A",
+          "marks": 1,
+          "source": "SEE Grade Increment 2081 (2025) Computer Science Optional II",
+          "question": "Write the function of the 'WRITE' statement."
+        },
+        {
+          "id": "cs-see-gi-2081-gi3031-q1f",
+          "questionNumber": "1(f)",
+          "section": "Group A",
+          "marks": 1,
+          "source": "SEE Grade Increment 2081 (2025) Computer Science Optional II",
+          "question": "Write down any two data types used in C-language."
+        }
+      ]
+    },
+    {
+      "title": "Group A - Q2: Write appropriate technical term for the following",
+      "instructions": "2x1=2",
+      "items": [
+        {
+          "id": "cs-see-gi-2081-gi3031-q2a",
+          "questionNumber": "2(a)",
+          "section": "Group A",
+          "marks": 1,
+          "source": "SEE Grade Increment 2081 (2025) Computer Science Optional II",
+          "question": "Name the illegal activity done through computer and internet."
+        },
+        {
+          "id": "cs-see-gi-2081-gi3031-q2b",
+          "questionNumber": "2(b)",
+          "section": "Group A",
+          "marks": 1,
+          "source": "SEE Grade Increment 2081 (2025) Computer Science Optional II",
+          "question": "Name the rate at which data is transmitted through a given medium."
+        }
+      ]
+    },
+    {
+      "title": "Group A - Q3: Write the full form of the following",
+      "instructions": "2x1=2",
+      "items": [
+        {
+          "id": "cs-see-gi-2081-gi3031-q3a",
+          "questionNumber": "3(a)",
+          "section": "Group A",
+          "marks": 1,
+          "source": "SEE Grade Increment 2081 (2025) Computer Science Optional II",
+          "question": "ISP"
+        },
+        {
+          "id": "cs-see-gi-2081-gi3031-q3b",
+          "questionNumber": "3(b)",
+          "section": "Group A",
+          "marks": 1,
+          "source": "SEE Grade Increment 2081 (2025) Computer Science Optional II",
+          "question": "G2G"
+        }
+      ]
+    },
+    {
+      "title": "Group B - Q4: Answer the following questions",
+      "instructions": "9x2=18",
+      "items": [
+        {
+          "id": "cs-see-gi-2081-gi3031-q4a",
+          "questionNumber": "4(a)",
+          "section": "Group B",
+          "marks": 2,
+          "source": "SEE Grade Increment 2081 (2025) Computer Science Optional II",
+          "question": "What is data communication? List two modes of data communication."
+        },
+        {
+          "id": "cs-see-gi-2081-gi3031-q4b",
+          "questionNumber": "4(b)",
+          "section": "Group B",
+          "marks": 2,
+          "source": "SEE Grade Increment 2081 (2025) Computer Science Optional II",
+          "question": "Define Antivirus software with two examples."
+        },
+        {
+          "id": "cs-see-gi-2081-gi3031-q4c",
+          "questionNumber": "4(c)",
+          "section": "Group B",
+          "marks": 2,
+          "source": "SEE Grade Increment 2081 (2025) Computer Science Optional II",
+          "question": "What is software security? Write any two measures of hardware security."
+        },
+        {
+          "id": "cs-see-gi-2081-gi3031-q4d",
+          "questionNumber": "4(d)",
+          "section": "Group B",
+          "marks": 2,
+          "source": "SEE Grade Increment 2081 (2025) Computer Science Optional II",
+          "question": "What is Internet of Things (IoT)? Write any two importance of it."
+        },
+        {
+          "id": "cs-see-gi-2081-gi3031-q4e",
+          "questionNumber": "4(e)",
+          "section": "Group B",
+          "marks": 2,
+          "source": "SEE Grade Increment 2081 (2025) Computer Science Optional II",
+          "question": "Define e-commerce with its types."
+        },
+        {
+          "id": "cs-see-gi-2081-gi3031-q4f",
+          "questionNumber": "4(f)",
+          "section": "Group B",
+          "marks": 2,
+          "source": "SEE Grade Increment 2081 (2025) Computer Science Optional II",
+          "question": "What is table? Which view is used to modify a table?"
+        },
+        {
+          "id": "cs-see-gi-2081-gi3031-q4g",
+          "questionNumber": "4(g)",
+          "section": "Group B",
+          "marks": 2,
+          "source": "SEE Grade Increment 2081 (2025) Computer Science Optional II",
+          "question": "What is Query? List any two importance of it."
+        },
+        {
+          "id": "cs-see-gi-2081-gi3031-q4h",
+          "questionNumber": "4(h)",
+          "section": "Group B",
+          "marks": 2,
+          "source": "SEE Grade Increment 2081 (2025) Computer Science Optional II",
+          "question": "Define Validation Rule and Validation Text."
+        },
+        {
+          "id": "cs-see-gi-2081-gi3031-q4i",
+          "questionNumber": "4(i)",
+          "section": "Group B",
+          "marks": 2,
+          "source": "SEE Grade Increment 2081 (2025) Computer Science Optional II",
+          "question": "Give any two differences between Form and Report."
+        }
+      ]
+    },
+    {
+      "title": "Group B - Q5: Dry run the given program",
+      "instructions": "2",
+      "items": [
+        {
+          "id": "cs-see-gi-2081-gi3031-q5",
+          "questionNumber": "5",
+          "section": "Group B",
+          "marks": 2,
+          "source": "SEE Grade Increment 2081 (2025) Computer Science Optional II",
+          "question": "Write down the output of the given program and show it in a dry run table.",
+          "code": "DECLARE SUB Result (A$)\nA$=\"Development\"\nCALL Result (A$)\nEND\n\nSUB Result (A$)\nFOR C=1 TO LEN(A$) STEP 2\n  X$=MID$(A$,C,1)\n  PRINT X$\nNEXT C\nEND SUB",
+          "codeLanguage": "QBASIC"
+        }
+      ]
+    },
+    {
+      "title": "Group B - Q6: Correct the bugs in the given program",
+      "instructions": "2",
+      "items": [
+        {
+          "id": "cs-see-gi-2081-gi3031-q6",
+          "questionNumber": "6",
+          "section": "Group B",
+          "marks": 2,
+          "source": "SEE Grade Increment 2081 (2025) Computer Science Optional II",
+          "question": "Rewrite the given program after correcting the bugs.",
+          "code": "REM to display records\nOPEN \"marks.dat\" FOR INPUT AS #1\nCLS\nPRINT \"Roll Number\", \"Name\", \"English\", \"Nepali\"\nDO WHILE NOT EOF( )\n  INPUT #1, RN, N$, E, Ne\n  DISPLAY RN, N$, E, Ne\nWEND\nCLOSE\nEND",
+          "codeLanguage": "QBASIC"
+        }
+      ]
+    },
+    {
+      "title": "Group B - Q7: Study the given program and answer the questions",
+      "instructions": "2x1=2",
+      "items": [
+        {
+          "id": "cs-see-gi-2081-gi3031-q7a",
+          "questionNumber": "7(a)",
+          "section": "Group B",
+          "marks": 1,
+          "source": "SEE Grade Increment 2081 (2025) Computer Science Optional II",
+          "question": "List the parameters used in the above program.",
+          "code": "DECLARE FUNCTION MUL (A, B)\nM=5\nN=3\nPRINT MUL (M,N)\nEND\n\nFUNCTION MUL (A, B)\n  MUL = A*B\nEND FUNCTION",
+          "codeLanguage": "QBASIC"
+        },
+        {
+          "id": "cs-see-gi-2081-gi3031-q7b",
+          "questionNumber": "7(b)",
+          "section": "Group B",
+          "marks": 1,
+          "source": "SEE Grade Increment 2081 (2025) Computer Science Optional II",
+          "question": "Which procedure is used in the above program?",
+          "code": "DECLARE FUNCTION MUL (A, B)\nM=5\nN=3\nPRINT MUL (M,N)\nEND\n\nFUNCTION MUL (A, B)\n  MUL = A*B\nEND FUNCTION",
+          "codeLanguage": "QBASIC"
+        }
+      ]
+    },
+    {
+      "title": "Group C - Q8: Convert/Calculate as per the instruction",
+      "instructions": "4x1=4",
+      "items": [
+        {
+          "id": "cs-see-gi-2081-gi3031-q8i",
+          "questionNumber": "8(i)",
+          "section": "Group C",
+          "marks": 1,
+          "source": "SEE Grade Increment 2081 (2025) Computer Science Optional II",
+          "question": "(00101001)2 = (?)16"
+        },
+        {
+          "id": "cs-see-gi-2081-gi3031-q8ii",
+          "questionNumber": "8(ii)",
+          "section": "Group C",
+          "marks": 1,
+          "source": "SEE Grade Increment 2081 (2025) Computer Science Optional II",
+          "question": "(111)2 x (10)2 - (111)2"
+        },
+        {
+          "id": "cs-see-gi-2081-gi3031-q8iii",
+          "questionNumber": "8(iii)",
+          "section": "Group C",
+          "marks": 1,
+          "source": "SEE Grade Increment 2081 (2025) Computer Science Optional II",
+          "question": "(86)10 = (?)2"
+        },
+        {
+          "id": "cs-see-gi-2081-gi3031-q8iv",
+          "questionNumber": "8(iv)",
+          "section": "Group C",
+          "marks": 1,
+          "source": "SEE Grade Increment 2081 (2025) Computer Science Optional II",
+          "question": "(1011)2 / (10)2"
+        }
+      ]
+    },
+    {
+      "title": "Group C - Q9: Answer the following questions",
+      "instructions": "4x2=8",
+      "items": [
+        {
+          "id": "cs-see-gi-2081-gi3031-q9a",
+          "questionNumber": "9(a)",
+          "section": "Group C",
+          "marks": 4,
+          "source": "SEE Grade Increment 2081 (2025) Computer Science Optional II",
+          "question": "Write a program in QBASIC to ask for three numbers from the user, find the average using a Sub Procedure, and find the sum using a Function Procedure."
+        },
+        {
+          "id": "cs-see-gi-2081-gi3031-q9b",
+          "questionNumber": "9(b)",
+          "section": "Group C",
+          "marks": 4,
+          "source": "SEE Grade Increment 2081 (2025) Computer Science Optional II",
+          "question": "Write a program in QBASIC to create a sequential data file named \"record.txt\" and store the Roll_number, Name, Address, and Class of a few students."
+        }
+      ]
+    },
+    {
+      "title": "Group C - Q10: Write a program (attempt either option)",
+      "instructions": "4 (attempt either (a) or (b) - not both)",
+      "items": [
+        {
+          "id": "cs-see-gi-2081-gi3031-q10a",
+          "questionNumber": "10(a)",
+          "section": "Group C",
+          "marks": 4,
+          "source": "SEE Grade Increment 2081 (2025) Computer Science Optional II",
+          "question": "Write a program in C-language that asks for a number and checks whether the input number is odd or even.",
+          "alternativeGroup": "q10",
+          "altLabel": "Option 1"
+        },
+        {
+          "id": "cs-see-gi-2081-gi3031-q10b",
+          "questionNumber": "10(b) (OR)",
+          "section": "Group C",
+          "marks": 4,
+          "source": "SEE Grade Increment 2081 (2025) Computer Science Optional II",
+          "question": "OR: Write a program in C-language to display the given series 2, 4, 6, 8, 10, ... up to 100.",
+          "alternativeGroup": "q10",
+          "altLabel": "Option 2"
+        }
+      ]
+    }
+  ]
+}

@@ -113,7 +113,6 @@ export const mockSubjects: Subject[] = [
       "Sets, Compound Interest, Mensuration, Geometry proofs, Trigonometry, and Statistics with step-by-step solutions aligned to the CDC marking scheme.",
     chapterCount: 12,
     questionCount: 240,
-    comingSoon: true,
   },
   {
     id: "subject-optional-mathematics",

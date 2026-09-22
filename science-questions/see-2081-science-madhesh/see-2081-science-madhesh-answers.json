@@ -1,0 +1,1526 @@
+{
+  "chapterId": "see-2081-science-madhesh-ans",
+  "subjectId": "science",
+  "classLevel": "10",
+  "province": "Madhesh",
+  "examBoard": "SEE (National Examinations Board, Nepal)",
+  "examYear": "2081 (2025 AD)",
+  "paperCode": "RE-1041'MP'",
+  "fullMarks": 75,
+  "docType": "answerKey",
+  "linkedQuestionPaperId": "see-2081-science-madhesh-qp",
+  "titleEn": "SEE 2081 (2025) Science — Model Answers (Madhesh Province)",
+  "titleNe": "SEE २०८१ (२०२५) विज्ञान — नमूना उत्तर (मधेश प्रदेश)",
+  "sourceNote": {
+    "en": "Digitised from the uploaded scan of the SEE 2081 (2025) Science question paper, Madhesh Province, set 'MP'. The scan carries a third-party watermark/download-source overlay (a Facebook page and website branding) on every page — this is not part of the original exam paper and has been ignored/excluded from this JSON.",
+    "ne": "यो फाइल SEE 2081 (2025) विज्ञान प्रश्नपत्र, मधेश प्रदेश, सेट 'MP' को स्क्यान गरिएको प्रतिबाट तयार पारिएको हो। स्क्यानको हरेक पानामा तेस्रो-पक्षको वाटरमार्क/डाउनलोड-स्रोत (फेसबुक पेज र वेबसाइटको ब्रान्डिङ) देखिन्छ — यो मूल प्रश्नपत्रको हिस्सा नभएकाले यस JSON बाट हटाइएको छ।"
+  },
+  "answerLanguageLevelNote": {
+    "en": "Answers and step-by-step solutions are written at a Class 10 (SEE) level of understanding, in simple bilingual language matching the question paper.",
+    "ne": "उत्तर तथा चरणबद्ध हलहरू कक्षा १० (SEE) स्तरको सजिलो र प्रश्नपत्रसँग मिल्दो द्विभाषिक भाषामा लेखिएका छन्।"
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "text": {
+        "en": "Model Answers — Science and Technology, SEE 2081 (Madhesh)",
+        "ne": "नमूना उत्तर — विज्ञान तथा प्रविधि, SEE २०८१ (मधेश)"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "These are model/reference answers written for Class 10 students. For long-answer numerical questions, full step-by-step working is included.",
+        "ne": "यी कक्षा १० का विद्यार्थीका लागि तयार पारिएका नमूना/सन्दर्भ उत्तरहरू हुन्। लामो उत्तर र सङ्ख्यात्मक प्रश्नहरूमा पूर्ण चरणबद्ध हल समावेश गरिएको छ।"
+      }
+    }
+  ],
+  "questionSections": [
+    {
+      "title": {
+        "en": "Section A — Multiple Choice Questions",
+        "ne": "खण्ड 'क' — बहुवैकल्पिक प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Choose the best alternative to the following questions and write in the answer sheet. (10 x 1 = 10)",
+        "ne": "तलका प्रश्नहरूको ठिक विकल्प छानी उत्तरपुस्तिकामा लेख्नुहोस् : (१०x१=१०)"
+      },
+      "items": [
+        {
+          "id": "q1a",
+          "questionNumber": "1(a)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "In which of the following activities is digital signal used?",
+            "ne": "तलको कुन क्रियाकलापमा डिजिटल सिग्नल प्रसारण हुन्छ ?"
+          },
+          "options": [
+            {
+              "en": "speaking through a loudspeaker",
+              "ne": "लाउडस्पीकरबाट बोल्दा"
+            },
+            {
+              "en": "face to face chatting together",
+              "ne": "आपसमा प्रत्यक्ष कुराकानी गर्दा"
+            },
+            {
+              "en": "chatting on internet",
+              "ne": "इन्टरनेटमा कुराकानी गर्दा"
+            },
+            {
+              "en": "watching antenna TV",
+              "ne": "एन्टेनाजडित टि.भि. हेर्दा"
+            }
+          ],
+          "answer": {
+            "en": "chatting on internet",
+            "ne": "इन्टरनेटमा कुराकानी गर्दा"
+          },
+          "solution": {
+            "en": "Internet chatting sends text/data as digital signals (discrete binary values). A loudspeaker converts electrical signals to analog sound waves, face-to-face talking involves no electronic signal at all, and antenna TV traditionally carries an analog broadcast signal.",
+            "ne": "इन्टरनेट च्याटिङले पाठ/डाटालाई डिजिटल सिग्नल (डिस्क्रिट बाइनरी मान) को रूपमा पठाउँछ। लाउडस्पीकरले विद्युतीय सिग्नललाई एनालग ध्वनि तरङ्गमा बदल्छ, प्रत्यक्ष कुराकानीमा कुनै इलेक्ट्रोनिक सिग्नल हुँदैन, र एन्टेनाजडित टिभीले परम्परागत रूपमा एनालग प्रसारण सिग्नल बोक्छ।"
+          },
+          "correctOption": "iii"
+        },
+        {
+          "id": "q1b",
+          "questionNumber": "1(b)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Which of the following plant belongs to the division algae?",
+            "ne": "तलका मध्ये कुन विरुवा एल्जी डिभिजन अन्तर्गत पर्दछ ?"
+          },
+          "options": [
+            {
+              "en": "Pea",
+              "ne": "केराउ"
+            },
+            {
+              "en": "Moss",
+              "ne": "मस"
+            },
+            {
+              "en": "Spirogyra",
+              "ne": "स्पाइरोगाइरा"
+            },
+            {
+              "en": "Cycas",
+              "ne": "साइकस"
+            }
+          ],
+          "answer": {
+            "en": "Spirogyra",
+            "ne": "स्पाइरोगाइरा"
+          },
+          "solution": {
+            "en": "Spirogyra is a filamentous green alga, belonging to the division Algae. Pea and Moss belong to Angiospermae and Bryophyta respectively, and Cycas is a gymnosperm.",
+            "ne": "स्पाइरोगाइरा एउटा फिलामेन्टस हरियो शैवाल हो, जुन एल्जी डिभिजन अन्तर्गत पर्छ। केराउ र मस क्रमशः एन्जियोस्पर्मी र ब्रायोफाइटा अन्तर्गत पर्छन्, र साइकस जिम्नोस्पर्म हो।"
+          },
+          "correctOption": "iii"
+        },
+        {
+          "id": "q1c",
+          "questionNumber": "1(c)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Which of the following kingdoms have cell wall in their cells?",
+            "ne": "तलका मध्ये कोषमा कोषभित्ता हुने जगतहरू कुन कुन हुन् ?"
+          },
+          "options": [
+            {
+              "en": "Monera, Fungi, Animalia",
+              "ne": "मोनेरा, फन्जाइ, एनिमलिया"
+            },
+            {
+              "en": "Plantae, Protista, Animalia",
+              "ne": "प्लान्टी, प्रोटिस्टा, एनिमलिया"
+            },
+            {
+              "en": "Fungi, Plantae, Animalia",
+              "ne": "फन्जाइ, प्लान्टी, एनिमलिया"
+            },
+            {
+              "en": "Fungi, Plantae, Monera",
+              "ne": "फन्जाइ, प्लान्टी, मोनेरा"
+            }
+          ],
+          "answer": {
+            "en": "Fungi, Plantae, Monera",
+            "ne": "फन्जाइ, प्लान्टी, मोनेरा"
+          },
+          "solution": {
+            "en": "Cells of Fungi (chitin cell wall), Plantae (cellulose cell wall) and Monera (peptidoglycan/other cell wall material, e.g. bacteria) all have a cell wall. Animalia cells never have a cell wall, so any option including Animalia is incorrect.",
+            "ne": "फन्जाइ (काइटिन कोषभित्ता), प्लान्टी (सेल्युलोज कोषभित्ता) र मोनेरा (पेप्टिडोग्लाइकन/अन्य पदार्थको कोषभित्ता, जस्तै ब्याक्टेरिया) का कोषहरूमा कोषभित्ता हुन्छ। एनिमलियाका कोषमा कहिल्यै कोषभित्ता हुँदैन, त्यसैले एनिमलिया समावेश भएको कुनै पनि विकल्प गलत हुन्छ।"
+          },
+          "correctOption": "iv"
+        },
+        {
+          "id": "q1d",
+          "questionNumber": "1(d)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Now a days, agricultural production has been affected by low rainfall at times and heavy rainfall at other times. Which of the following is the main reason for this?",
+            "ne": "आज भोलि कहिले अल्पवृष्टि त कहिले अतिवृष्टि भएर कृषि उत्पादनमा बाधा पुग्न गएको छ। यसको मुख्य कारण तलका मध्ये कुन हो ?"
+          },
+          "options": [
+            {
+              "en": "volcanic eruption",
+              "ne": "ज्वालामुखी विस्फोटन"
+            },
+            {
+              "en": "flood and landslide",
+              "ne": "बाढी र पहिरो"
+            },
+            {
+              "en": "climate change",
+              "ne": "जलवायु परिवर्तन"
+            },
+            {
+              "en": "decrease in endangered animals",
+              "ne": "दुर्लभ वन्यजन्तुको ह्रास"
+            }
+          ],
+          "answer": {
+            "en": "climate change",
+            "ne": "जलवायु परिवर्तन"
+          },
+          "solution": {
+            "en": "Irregular and unpredictable rainfall patterns — sometimes too little (drought), sometimes too much (heavy rainfall/flooding) — are a well-known consequence of global climate change, which disrupts normal weather/monsoon patterns.",
+            "ne": "अनियमित र अनुमान गर्न नसकिने वर्षाको ढाँचा — कहिले धेरै कम (खडेरी), कहिले धेरै बढी (अतिवृष्टि/बाढी) — विश्वव्यापी जलवायु परिवर्तनको प्रख्यात परिणाम हो, जसले सामान्य मौसम/मनसुनको ढाँचालाई बिथोल्छ।"
+          },
+          "correctOption": "iii"
+        },
+        {
+          "id": "q1e",
+          "questionNumber": "1(e)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "If the mass and radius of a heavenly object are four times greater than that of the Earth, what is the value of acceleration due to gravity of that object?",
+            "ne": "यदि कुनै खगोलीय वस्तुको पिण्ड र अर्धव्यास क्रमशः पृथ्वीको पिण्ड र अर्धव्यासभन्दा 4 गुणा बढी छ भने सो वस्तुको गुरुत्वप्रवेग कति हुन्छ ?"
+          },
+          "options": [
+            {
+              "en": "1.22 m/s²",
+              "ne": "1.22 m/s²"
+            },
+            {
+              "en": "2.45 m/s²",
+              "ne": "2.45 m/s²"
+            },
+            {
+              "en": "4.9 m/s²",
+              "ne": "4.9 m/s²"
+            },
+            {
+              "en": "9.8 m/s²",
+              "ne": "9.8 m/s²"
+            }
+          ],
+          "answer": {
+            "en": "2.45 m/s²",
+            "ne": "2.45 m/s²"
+          },
+          "solution": {
+            "en": "g = GM/R². If both M and R become 4 times: g_new = G(4M)/(4R)² = 4GM/16R² = (1/4)×(GM/R²) = (1/4) × 9.8 = 2.45 m/s².",
+            "ne": "g = GM/R²। M र R दुवै 4 गुणा हुँदा: g_new = G(4M)/(4R)² = 4GM/16R² = (1/4)×(GM/R²) = (1/4) × 9.8 = 2.45 m/s²।"
+          },
+          "correctOption": "ii",
+          "solutionTable": {
+            "headers": [
+              {
+                "en": "Quantity",
+                "ne": "परिमाण"
+              },
+              {
+                "en": "Change",
+                "ne": "परिवर्तन"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "Mass",
+                  "ne": "पिण्ड"
+                },
+                {
+                  "en": "4M",
+                  "ne": "4M"
+                }
+              ],
+              [
+                {
+                  "en": "Radius",
+                  "ne": "अर्धव्यास"
+                },
+                {
+                  "en": "4R",
+                  "ne": "4R"
+                }
+              ],
+              [
+                {
+                  "en": "g_new = G(4M)/(4R)²",
+                  "ne": "g_new = G(4M)/(4R)²"
+                },
+                {
+                  "en": "(1/4)g_earth = 2.45 m/s²",
+                  "ne": "(1/4)g_पृथ्वी = 2.45 m/s²"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "q1f",
+          "questionNumber": "1(f)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "When aluminum foil is placed flat on water in a beaker, it floats, but when the same piece of foil is squeezed into a spherical shape, it sinks. What could be the reason for this?",
+            "ne": "एउटा आल्मिनियमको फोइललाई पानीले भरिएको विकरमा राख्दा तैरिन्छ तर त्यही फोइललाई डल्लो बनाएर पानीमा राख्दा डुब्छ, यसको कारण के हुन्छ ?"
+          },
+          "options": [
+            {
+              "en": "The surface area decreases, upthrust decreases and it sinks.",
+              "ne": "सतहको क्षेत्रफल कम हुन्छ, उर्ध्वचाप घट्छ र डुब्छ।"
+            },
+            {
+              "en": "Weight increases and it sinks.",
+              "ne": "तौल बढ्छ र डुब्छ।"
+            },
+            {
+              "en": "Surface area increases and it sinks.",
+              "ne": "सतहको क्षेत्रफल बढ्छ र डुब्छ।"
+            },
+            {
+              "en": "Density of foil increases and it sinks.",
+              "ne": "फोइलको घनत्व बढ्छ र डुब्छ।"
+            }
+          ],
+          "answer": {
+            "en": "The surface area decreases, upthrust decreases and it sinks.",
+            "ne": "सतहको क्षेत्रफल कम हुन्छ, उर्ध्वचाप घट्छ र डुब्छ।"
+          },
+          "solution": {
+            "en": "When flat, the foil spreads over a large surface area and, together with surface tension, effectively displaces enough water to generate an upthrust equal to its weight, so it floats. When squeezed into a compact ball, its surface area (and the volume of water it can displace while staying at the surface) decreases drastically, so the upthrust generated becomes less than its weight, and it sinks. (Note: the foil's actual mass and density of the aluminium material itself do not change by reshaping it — only the effective displaced volume/upthrust changes.)",
+            "ne": "फोइल समतल हुँदा, यो ठूलो सतह क्षेत्रफलमा फैलिन्छ र सतह तनावसँगै, यसले आफ्नो तौल बराबरको उर्ध्वचाप उत्पन्न गर्न पर्याप्त पानी प्रभावकारी रूपमा विस्थापन गर्छ, त्यसैले यो तैरिन्छ। यसलाई कसेर डल्लो बनाउँदा, यसको सतह क्षेत्रफल (र सतहमा रहँदा विस्थापन गर्न सक्ने पानीको आयतन) धेरै घट्छ, त्यसैले उत्पन्न हुने उर्ध्वचाप तौलभन्दा कम हुन्छ, र यो डुब्छ। (नोट: फोइलको वास्तविक पिण्ड र एल्युमिनियम पदार्थको घनत्व आकार बदल्दा परिवर्तन हुँदैन — केवल प्रभावकारी विस्थापित आयतन/उर्ध्वचाप मात्र परिवर्तन हुन्छ।)"
+          },
+          "correctOption": "i"
+        },
+        {
+          "id": "q1g",
+          "questionNumber": "1(g)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "In the process of formation of a rainbow, which of the following is the correct order of speed of light? The speed of green, violet and red coloured rays of light is represented by V1, V2 and V3 respectively.",
+            "ne": "इन्द्रेणी बन्ने क्रममा देखिने हरियो, वैजनी र रातो रङ्गको प्रकाशका किरणको वेगलाई क्रमशः V1, V2 र V3 ले जनाइएको छ। ती वेगको सही क्रम कुन हो ?"
+          },
+          "options": [
+            {
+              "en": "V1 > V2 > V3",
+              "ne": "V1 > V2 > V3"
+            },
+            {
+              "en": "V1 > V2 < V3",
+              "ne": "V1 > V2 < V3"
+            },
+            {
+              "en": "V1 < V3 < V2",
+              "ne": "V1 < V3 < V2"
+            },
+            {
+              "en": "V1 > V3 < V2",
+              "ne": "V1 > V3 < V2"
+            }
+          ],
+          "answer": {
+            "en": "V1 > V2 < V3",
+            "ne": "V1 > V2 < V3"
+          },
+          "solution": {
+            "en": "During dispersion in a rainbow, violet light has the highest refractive index and therefore travels slowest, while red light has the lowest refractive index and travels fastest; green lies in between. So V2 (violet) is the smallest speed, with both V1 (green) and V3 (red) being greater than V2, matching V1 > V2 < V3.",
+            "ne": "इन्द्रेणी बन्दा विच्छेदन हुँदा, वैजनी प्रकाशको रिफ्र्याक्टिभ इन्डेक्स सबैभन्दा बढी हुन्छ र त्यसैले यो सबैभन्दा ढिलो गुड्छ, जबकि रातो प्रकाशको रिफ्र्याक्टिभ इन्डेक्स सबैभन्दा कम हुन्छ र यो सबैभन्दा छिटो गुड्छ; हरियो बिचमा पर्छ। त्यसैले V2 (वैजनी) सबैभन्दा सानो वेग हो, र V1 (हरियो) र V3 (रातो) दुवै V2 भन्दा ठूला हुन्छन्, जुन V1 > V2 < V3 सँग मेल खान्छ।"
+          },
+          "correctOption": "ii"
+        },
+        {
+          "id": "q1h",
+          "questionNumber": "1(h)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Under what condition can a closed universe be hypothesized?",
+            "ne": "कुन अवस्थामा बन्द ब्रह्माण्डको परिकल्पना गर्न सकिन्छ ?"
+          },
+          "options": [
+            {
+              "en": "When average density is greater than the critical density.",
+              "ne": "औसत घनत्व चरम घनत्वभन्दा बढी भएको अवस्थामा"
+            },
+            {
+              "en": "When average density is less than the critical density.",
+              "ne": "औसत घनत्व, चरम घनत्व भन्दा कम भएको अवस्थामा"
+            },
+            {
+              "en": "When average density and critical density are equal.",
+              "ne": "औसत घनत्व र चरम घनत्व बराबर भएको अवस्थामा"
+            },
+            {
+              "en": "When average density and critical density are not comparable.",
+              "ne": "औसत घनत्व र चरम घनत्व तुलना गर्न नसकिने अवस्थामा"
+            }
+          ],
+          "answer": {
+            "en": "When average density is greater than the critical density.",
+            "ne": "औसत घनत्व चरम घनत्वभन्दा बढी भएको अवस्थामा"
+          },
+          "solution": {
+            "en": "A closed universe is hypothesized when the universe's average density exceeds the critical density, meaning gravitational attraction is strong enough to eventually halt and reverse the expansion of the universe (leading toward a 'Big Crunch').",
+            "ne": "बन्द ब्रह्माण्डको परिकल्पना तब गरिन्छ जब ब्रह्माण्डको औसत घनत्व चरम घनत्वभन्दा बढी हुन्छ, अर्थात् गुरुत्वाकर्षण तान यति बलियो हुन्छ कि यसले अन्ततः ब्रह्माण्डको विस्तार रोकेर उल्टाउन सक्छ ('बिग क्रन्च' तिर लैजान्छ)।"
+          },
+          "correctOption": "i"
+        },
+        {
+          "id": "q1i",
+          "questionNumber": "1(i)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Which of the following is the effect of heat on the rate of chemical reaction?",
+            "ne": "रासायनिक प्रतिक्रियाको दरमा तापको प्रभाव तलका मध्ये कुन हो ?"
+          },
+          "options": [
+            {
+              "en": "The kinetic energy of particles increases when heat increases and particles come in contact faster.",
+              "ne": "ताप बढाउँदा कणहरूको गति शक्ति बढ्छ र कणहरू छिटो सम्पर्कमा आउँछन्।"
+            },
+            {
+              "en": "The chemical reactivity decreases when heat increases.",
+              "ne": "ताप बढाउँदा रासायनिक सक्रियता घट्छ।"
+            },
+            {
+              "en": "There is no relationship between heat and chemical reactivity.",
+              "ne": "ताप र रासायनिक प्रतिक्रियाको दरमा कुनै सम्बन्ध छैन।"
+            },
+            {
+              "en": "Rate of chemical reaction increases because the concentration of matter increases when heat increases.",
+              "ne": "ताप बढ्दा पदार्थको गाढापन बढ्छ त्यसैले प्रतिक्रियाको दर बढ्छ।"
+            }
+          ],
+          "answer": {
+            "en": "The kinetic energy of particles increases when heat increases and particles come in contact faster.",
+            "ne": "ताप बढाउँदा कणहरूको गति शक्ति बढ्छ र कणहरू छिटो सम्पर्कमा आउँछन्।"
+          },
+          "solution": {
+            "en": "Increasing heat/temperature raises the average kinetic energy of the reacting particles, causing them to move faster and collide more frequently and with greater energy, which increases the rate of the chemical reaction.",
+            "ne": "ताप/तापक्रम बढाउँदा प्रतिक्रिया गर्ने कणहरूको औसत गतिज ऊर्जा बढ्छ, जसले तिनलाई छिटो चलाउँछ र बढी पटक तथा बढी शक्तिका साथ ठोक्किन लगाउँछ, जसले रासायनिक प्रतिक्रियाको दर बढाउँछ।"
+          },
+          "correctOption": "i"
+        },
+        {
+          "id": "q1j",
+          "questionNumber": "1(j)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "A statement and two arguments are given below. Statement: Detergent is called a soapless soap. Argument 1: It has cleaning properties like soap but chemical properties are different. Argument 2: Soap does not cause chemical pollution but detergent does. Which of the following is correct?",
+            "ne": "एउटा कथन र दुईओटा तर्क दिइएको छ। कथन : डिटर्जेन्टलाई साबुनरहित साबुन भनिन्छ। तर्क १ : यसले साबुनले जस्तै वस्तु सफा गर्छ तर रासायनिक गुणहरू फरक छन्। तर्क २ : साबुनले रासायनिक प्रदूषण गर्दैन भने डिटर्जेन्टले गर्छ। तलका मध्ये कुन सही छ ?"
+          },
+          "options": [
+            {
+              "en": "Statement and argument 1 are correct but argument 2 is incorrect.",
+              "ne": "कथन र तर्क १ सही तर तर्क २ गलत।"
+            },
+            {
+              "en": "Statement and argument 1 are incorrect but argument 2 is correct.",
+              "ne": "कथन र तर्क १ गलत तर तर्क २ सही।"
+            },
+            {
+              "en": "Statement and argument 2 are incorrect but argument 1 is correct.",
+              "ne": "कथन र तर्क २ गलत तर तर्क १ सहि।"
+            },
+            {
+              "en": "Statement and argument 2 are correct but argument 1 is incorrect.",
+              "ne": "कथन र तर्क २ सही तर तर्क १ गलत।"
+            }
+          ],
+          "answer": {
+            "en": "Statement and argument 1 are correct but argument 2 is incorrect.",
+            "ne": "कथन र तर्क १ सही तर तर्क २ गलत।"
+          },
+          "solution": {
+            "en": "Detergent is indeed called a 'soapless soap' precisely because it cleans like soap but has a different chemical composition/structure (argument 1 correctly explains the naming). Argument 2, while touching on a real environmental concern, is not the reason behind the name 'soapless soap' and its claim that soap causes no chemical pollution at all is an oversimplification — so it is not a correct justification for the statement.",
+            "ne": "डिटर्जेन्टलाई 'साबुनरहित साबुन' भनिनुको सही कारण भनेकै यसले साबुनले जस्तै सफा गर्छ तर यसको रासायनिक संरचना फरक छ भन्ने हो (तर्क १ ले नामकरणलाई सही व्याख्या गर्छ)। तर्क २ ले एउटा वास्तविक वातावरणीय चिन्तालाई छोए पनि, यो 'साबुनरहित साबुन' नामको कारण होइन, र साबुनले रासायनिक प्रदूषण बिल्कुलै नगर्ने दाबी अत्यधिक सरलीकरण हो — त्यसैले यो कथनको सही व्याख्या होइन।"
+          },
+          "correctOption": "i"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Section B — Very Short Answer Questions",
+        "ne": "खण्ड 'ख' — अति छोटो उत्तर प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Write very short answers to the following questions. (9 x 1 = 9)",
+        "ne": "तलका प्रश्नहरूको अति छोटो उत्तर लेख्नुहोस् : (९x१=९)"
+      },
+      "items": [
+        {
+          "id": "q2a",
+          "questionNumber": "2(a)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "What is a dependent variable in a process of throwing a stone with a stretched rubber band?",
+            "ne": "रबर तन्काएर ढुङ्गा फाल्ने क्रियामा आश्रित चर कुन हुन्छ ?"
+          },
+          "answer": {
+            "en": "The dependent variable is the distance travelled (or speed) of the stone after it is released — it depends on the stretch (independent variable) of the rubber band.",
+            "ne": "आश्रित चर भनेको ढुङ्गा छोडेपछि त्यसले पार गरेको दूरी (वा गति) हो — यो रबर व्याण्डको तन्काइ (स्वतन्त्र चर) मा भर पर्छ।"
+          }
+        },
+        {
+          "id": "q2b",
+          "questionNumber": "2(b)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Define one Pascal pressure.",
+            "ne": "1 पास्कल चापको परिभाषा दिनुहोस्।"
+          },
+          "answer": {
+            "en": "One Pascal (1 Pa) is defined as the pressure exerted when a force of 1 Newton acts perpendicularly on an area of 1 square metre (1 Pa = 1 N/m²).",
+            "ne": "1 पास्कल (1 Pa) भनेको 1 न्युटनको बलले 1 वर्ग मिटर क्षेत्रफलमा लम्बरूपमा लगाउँदा उत्पन्न हुने चाप हो (1 Pa = 1 N/m²)।"
+          }
+        },
+        {
+          "id": "q2c",
+          "questionNumber": "2(c)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Draw a diagram that shows refraction of light.",
+            "ne": "प्रकाशको आवर्तन देखाउने चित्र खिच्नुहोस्।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-madhesh/q2c-refraction-answer.png",
+            "caption": {
+              "en": "Model answer diagram: a ray of light refracting from air into glass, bending towards the normal.",
+              "ne": "नमूना उत्तर चित्र: हावाबाट काँचमा जाँदा नर्मलतिर बाङ्गिँदै गरेको प्रकाशको किरण।"
+            }
+          },
+          "answer": {
+            "en": "A ray of light travelling from one transparent medium into another of different optical density bends at the boundary — this bending is called refraction. (See the model diagram: a ray passing from air into a denser medium like glass or water, bending towards the normal.)",
+            "ne": "प्रकाशको किरण एउटा पारदर्शी माध्यमबाट फरक प्रकाशीय घनत्व भएको अर्को माध्यममा जाँदा सीमामा बाङ्गिन्छ — यसैलाई आवर्तन (रिफ्र्याक्सन) भनिन्छ। (नमूना चित्र हेर्नुहोस्: हावाबाट काँच वा पानी जस्तो सघन माध्यममा जाँदा किरण नर्मलतिर बाङ्गिँदै।)"
+          }
+        },
+        {
+          "id": "q2d",
+          "questionNumber": "2(d)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "According to Hubble's law, on what factor does the speed of a star depend?",
+            "ne": "हब्बलको नियमअनुसार ताराको गति के कुरामा निर्भर हुन्छ ?"
+          },
+          "answer": {
+            "en": "According to Hubble's law (v = Hd), the speed at which a star/galaxy is moving away from us depends on its distance (d) from the observer — the greater the distance, the greater the recession speed.",
+            "ne": "हब्बलको नियम (v = Hd) अनुसार, तारा/ग्यालेक्सी हामीबाट कति वेगमा टाढा गइरहेको छ भन्ने कुरा त्यसको अवलोकनकर्ताबाटको दूरी (d) मा भर पर्छ — दूरी जति बढी, टाढा जाने वेग पनि त्यति नै बढी हुन्छ।"
+          }
+        },
+        {
+          "id": "q2e",
+          "questionNumber": "2(e)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Complete the given ray diagram. (An object is shown placed between 2F and F in front of a convex lens.)",
+            "ne": "दिइएको रेखाचित्र पूरा गर्नुहोस्। (एउटा वस्तु कन्भेक्स लेन्सको अगाडि 2F र F बिच राखिएको देखाइएको छ।)"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-madhesh/q2e-ray-diagram-completed.png",
+            "caption": {
+              "en": "Model answer diagram: completed ray diagram for an object between 2F and F of a convex lens.",
+              "ne": "नमूना उत्तर चित्र: कन्भेक्स लेन्सको 2F र F बिच रहेको वस्तुको पूरा गरिएको रेखाचित्र।"
+            }
+          },
+          "answer": {
+            "en": "The rays from the top of the object are completed by drawing: (1) a ray parallel to the principal axis from the object's tip, which refracts through the lens and passes through the far focal point F; (2) a ray passing through the near focal point F before the lens, which refracts and becomes parallel to the principal axis after the lens. Since the object lies between 2F and F, the two refracted rays converge beyond 2F on the other side, forming a real, inverted, and magnified image.",
+            "ne": "वस्तुको टुप्पाबाट निस्कने किरणहरू यसरी पूरा गरिन्छ: (1) प्रधान अक्षसँग समानान्तर किरण वस्तुको टुप्पाबाट गई लेन्समा रिफ्र्याक्ट भई टाढाको फोकस बिन्दु F बाट गुज्रिन्छ; (2) लेन्सअघिको नजिकको फोकस बिन्दु F बाट गुज्रिने किरण रिफ्र्याक्ट भएपछि प्रधान अक्षसँग समानान्तर बन्छ। वस्तु 2F र F बिच रहेकाले, दुवै रिफ्र्याक्ट भएका किरणहरू अर्कोतर्फ 2F भन्दा पर मिलेर वास्तविक, उल्टो, र ठूलो प्रतिबिम्ब बनाउँछन्।"
+          }
+        },
+        {
+          "id": "q2f",
+          "questionNumber": "2(f)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Write a difference between roasting and calcination.",
+            "ne": "रोस्टिङ र क्याल्सिनेसन बिच कुनै एक फरक लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "Roasting is heating an ore strongly in the presence of excess air/oxygen, whereas calcination is heating an ore strongly in the absence or very limited supply of air.",
+            "ne": "रोस्टिङ भनेको धाउलाई प्रशस्त हावा/अक्सिजनको उपस्थितिमा तीव्र रूपमा तताउनु हो, जबकि क्याल्सिनेसन भनेको धाउलाई हावाको अनुपस्थिति वा एकदमै सीमित आपूर्तिमा तीव्र रूपमा तताउनु हो।"
+          }
+        },
+        {
+          "id": "q2g",
+          "questionNumber": "2(g)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Arrange the metals sodium, aluminium and magnesium in ascending order of their reactivity.",
+            "ne": "सोडियम, एलुमिनियम र म्यानेसियम धातुलाई रासायनिक सक्रियताको बढ्दो क्रममा लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "Aluminium < Magnesium < Sodium (Al is the least reactive, Na is the most reactive of the three).",
+            "ne": "एलुमिनियम < म्यानेसियम < सोडियम (यी तीनमध्ये Al सबैभन्दा कम सक्रिय, Na सबैभन्दा बढी सक्रिय हो)।"
+          }
+        },
+        {
+          "id": "q2h",
+          "questionNumber": "2(h)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Write an application of the given hydrocarbon in daily life.",
+            "ne": "दिइएको हाइड्रोकार्बनको दैनिक जीवनमा एउटा उपयोगिता लेख्नुहोस्।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-madhesh/q2h-glycerol-structure.png",
+            "caption": {
+              "en": "Structural formula of glycerol (propane-1,2,3-triol): each of three carbons bears one -OH group.",
+              "ne": "ग्लिसेरोल (प्रोपेन-1,2,3-ट्राइओल) को संरचना सूत्र: तीनओटै कार्बनमा एक-एक -OH समूह।"
+            }
+          },
+          "answer": {
+            "en": "The compound shown is glycerol (propane-1,2,3-triol). It is widely used in cosmetics and skin-care products as a moisturiser/humectant, and is also used in soap-making and as a solvent/sweetener in pharmaceutical medicines.",
+            "ne": "देखाइएको यौगिक ग्लिसेरोल (प्रोपेन-1,2,3-ट्राइओल) हो। यो कस्मेटिक्स र छाला हेरचाह उत्पादनमा मोइस्चराइजरको रूपमा व्यापक प्रयोग हुन्छ, र साबुन बनाउनमा तथा औषधिमा विलायक/मिठास दिने पदार्थको रूपमा पनि प्रयोग हुन्छ।"
+          }
+        },
+        {
+          "id": "q2i",
+          "questionNumber": "2(i)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Draw a graph to show the relationship of alternating current and time.",
+            "ne": "अल्टर्नेटिड करेन्ट र समयको सम्बन्ध देखाउने ग्राफ बनाउनुहोस्।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-madhesh/q2i-ac-time-graph-answer.png",
+            "caption": {
+              "en": "Model answer graph: sine-wave graph of alternating current vs time.",
+              "ne": "नमूना उत्तर ग्राफ: अल्टर्नेटिङ करेन्ट र समयको साइन-तरङ्ग ग्राफ।"
+            }
+          },
+          "answer": {
+            "en": "The graph of alternating current against time is a sine wave: the current rises from zero to a maximum positive value, falls back through zero to a maximum negative value, and returns to zero, repeating this cycle periodically — showing that AC periodically reverses direction.",
+            "ne": "अल्टर्नेटिङ करेन्ट र समयको ग्राफ साइन तरङ्गको आकारमा हुन्छ: करेन्ट शून्यबाट अधिकतम धनात्मक मानसम्म बढ्छ, फेरि शून्यहुँदै अधिकतम ऋणात्मक मानसम्म घट्छ, र फेरि शून्यमा फर्कन्छ, यो चक्र नियमित रूपमा दोहोरिन्छ — जसले AC को दिशा बारम्बार उल्टिने देखाउँछ।"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Section C — Short Answer Questions",
+        "ne": "खण्ड 'ग' — छोटो उत्तर प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Write short answers to the following questions. (14 x 2 = 28)",
+        "ne": "तलका प्रश्नहरूको छोटो उत्तर लेख्नुहोस् : (१४x२=२८)"
+      },
+      "items": [
+        {
+          "id": "q3",
+          "questionNumber": "3",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Prove that the fundamental units of power is kg m²/s³.",
+            "ne": "सामर्थ्यको आधारभूत एकाईहरू kgm²/s³ हुन्छ भनी प्रमाणित गर्नुहोस्।"
+          },
+          "answer": {
+            "en": "Power = Work done / time = (Force × distance)/time. Force has units kg·m/s² (from F = ma), so Work = Force × distance has units kg·m/s² × m = kg·m²/s². Dividing by time (s): Power = kg·m²/s² ÷ s = kg·m²/s³. Hence proved.",
+            "ne": "सामर्थ्य = गरिएको काम / समय = (बल × दूरी)/समय। बलको एकाइ kg·m/s² हुन्छ (F = ma बाट), त्यसैले काम = बल × दूरी को एकाइ kg·m/s² × m = kg·m²/s² हुन्छ। समय (s) ले भाग गर्दा: सामर्थ्य = kg·m²/s² ÷ s = kg·m²/s³ हुन्छ। यसरी प्रमाणित भयो।"
+          },
+          "solutionTable": {
+            "headers": [
+              {
+                "en": "Quantity",
+                "ne": "परिमाण"
+              },
+              {
+                "en": "Unit",
+                "ne": "एकाइ"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "Force (F = ma)",
+                  "ne": "बल (F = ma)"
+                },
+                {
+                  "en": "kg·m/s²",
+                  "ne": "kg·m/s²"
+                }
+              ],
+              [
+                {
+                  "en": "Work (Force × distance)",
+                  "ne": "काम (बल × दूरी)"
+                },
+                {
+                  "en": "kg·m²/s²",
+                  "ne": "kg·m²/s²"
+                }
+              ],
+              [
+                {
+                  "en": "Power (Work / time)",
+                  "ne": "सामर्थ्य (काम / समय)"
+                },
+                {
+                  "en": "kg·m²/s³",
+                  "ne": "kg·m²/s³"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "q4",
+          "questionNumber": "4",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Write any two main features of Aves.",
+            "ne": "पंक्षी वर्गको कुनै दुई मुख्य विशेषताहरू लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "1) The body of Aves (birds) is covered with feathers. 2) Their forelimbs are modified into wings (in most species, used for flight), and they have a beak instead of teeth.",
+            "ne": "१) एभिज (चराहरू) को शरीर प्वाँखले ढाकिएको हुन्छ। २) तिनीहरूको अगाडिको खुट्टा पखेटामा परिवर्तित हुन्छ (धेरैजसो प्रजातिमा उड्नका लागि प्रयोग हुन्छ), र तिनीहरूको दाँतको सट्टा चुच्चो हुन्छ।"
+          }
+        },
+        {
+          "id": "q5",
+          "questionNumber": "5",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Study the given concept map and write the function of Y and Z. (X - Parthenogenesis - Bee - Fertilization -> Fertile (Y) and Sterile (Z))",
+            "ne": "दिइएको कन्सेप्ट म्यापको अध्ययन गरी Y र Z को एक एक ओटा कार्य लेख्नुहोस्। (X - पार्थेनोजिनेसिस - मौरी - गर्भाधान -> प्रजननयोग्य (Y) र प्रजनन गर्न नसक्ने (Z))"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-madhesh/q5-concept-map-bee.png",
+            "caption": {
+              "en": "Concept map: X -> Parthenogenesis -> Bee -> Fertilization -> Fertile (Y) / Sterile (Z).",
+              "ne": "कन्सेप्ट म्याप: X -> पार्थेनोजिनेसिस -> मौरी -> गर्भाधान -> प्रजननयोग्य (Y) / प्रजनन गर्न नसक्ने (Z)।"
+            }
+          },
+          "answer": {
+            "en": "Y (fertile bees) refers to the queen bee, whose function is to lay eggs and reproduce, maintaining and growing the colony's population. Z (sterile bees) refers to the worker bees, whose function is to perform all other hive duties — collecting nectar and pollen, building and maintaining the hive, feeding larvae, and guarding the colony — since they cannot reproduce themselves.",
+            "ne": "Y (प्रजननयोग्य मौरी) ले रानी मौरीलाई जनाउँछ, जसको कार्य अण्डा पार्नु र प्रजनन गर्नु हो, जसले घारको जनसङ्ख्या कायम राख्छ र बढाउँछ। Z (प्रजनन गर्न नसक्ने मौरी) ले कर्मी मौरीलाई जनाउँछ, जसको कार्य घारका अन्य सबै काम गर्नु हो — मह र पराग सङ्कलन गर्नु, घार बनाउनु र मर्मत गर्नु, लार्भालाई खुवाउनु, र घारको रक्षा गर्नु — किनभने तिनीहरू आफैं प्रजनन गर्न सक्दैनन्।"
+          }
+        },
+        {
+          "id": "q6",
+          "questionNumber": "6",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Write any two differences between mitosis and meiosis cell division.",
+            "ne": "माइटोसिस र मियोसिस कोष विभाजन बिच कुनै दुई भिन्नताहरू लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "1) Mitosis produces two daughter cells with the same chromosome number as the parent cell (diploid to diploid), whereas meiosis produces four daughter cells with half the chromosome number (diploid to haploid). 2) Mitosis occurs in somatic (body) cells for growth and repair, whereas meiosis occurs in reproductive/germ cells to produce gametes.",
+            "ne": "१) माइटोसिसले अभिभावक कोषसँगै बराबर क्रोमोजोम सङ्ख्या भएका दुई सन्तान कोष उत्पादन गर्छ (डिप्लोइडबाट डिप्लोइड), जबकि मियोसिसले क्रोमोजोम सङ्ख्या आधा भएका चार सन्तान कोष उत्पादन गर्छ (डिप्लोइडबाट हेप्लोइड)। २) माइटोसिस शारीरिक (सोमेटिक) कोषमा वृद्धि र मर्मतका लागि हुन्छ, जबकि मियोसिस प्रजनन/जर्म कोषमा ग्यामेट उत्पादनका लागि हुन्छ।"
+          }
+        },
+        {
+          "id": "q7",
+          "questionNumber": "7",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Show in a chart the result of a cross between pure long (LL) winged drosophila and pure short (ll) winged drosophila up to the second filial generation.",
+            "ne": "शुद्ध लामो (LL) पखेटा भएको ड्रोसोफिला र शुद्ध छोटो (ll) पखेटा भएको ड्रोसोफिला बिच गर्भाधान गराउँदा दोस्रो वंशसम्मको नतिजा चार्टमा देखाउनुहोस्।"
+          },
+          "answer": {
+            "en": "P: LL (pure long) × ll (pure short). F1: all Ll (long, since L is dominant). F1 self-cross (Ll × Ll) gives F2: genotypes LL : Ll : ll in ratio 1:2:1, and phenotypes 3 long : 1 short.",
+            "ne": "P: LL (शुद्ध लामो) × ll (शुद्ध छोटो)। F1: सबै Ll (लामो, किनभने L प्रवल हो)। F1 स्व-क्रस (Ll × Ll) ले F2 दिन्छ: जिनोटाइप LL : Ll : ll अनुपातमा 1:2:1, र फिनोटाइप 3 लामो : 1 छोटो।"
+          },
+          "solutionTable": {
+            "headers": [
+              {
+                "en": "Generation",
+                "ne": "पुस्ता"
+              },
+              {
+                "en": "Genotype(s)",
+                "ne": "जिनोटाइप"
+              },
+              {
+                "en": "Phenotype(s)",
+                "ne": "फिनोटाइप"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "P",
+                  "ne": "P"
+                },
+                {
+                  "en": "LL × ll",
+                  "ne": "LL × ll"
+                },
+                {
+                  "en": "Long × Short",
+                  "ne": "लामो × छोटो"
+                }
+              ],
+              [
+                {
+                  "en": "F1",
+                  "ne": "F1"
+                },
+                {
+                  "en": "All Ll",
+                  "ne": "सबै Ll"
+                },
+                {
+                  "en": "All Long",
+                  "ne": "सबै लामो"
+                }
+              ],
+              [
+                {
+                  "en": "F2",
+                  "ne": "F2"
+                },
+                {
+                  "en": "1 LL : 2 Ll : 1 ll",
+                  "ne": "1 LL : 2 Ll : 1 ll"
+                },
+                {
+                  "en": "3 Long : 1 Short",
+                  "ne": "3 लामो : 1 छोटो"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "q8",
+          "questionNumber": "8",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "How is open-heart surgery done? Describe in brief.",
+            "ne": "ओपन-हार्ट सर्जरी कसरी गरिन्छ ? छोटकरीमा लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "In open-heart surgery, the surgeon opens the chest (cutting through the sternum/breastbone) to directly access the heart. A heart-lung bypass machine is usually connected to take over the job of pumping and oxygenating the blood while the heart itself is temporarily stopped, allowing the surgeon to repair heart valves, blood vessels, or correct other defects. Once the repair is complete, the heart is restarted, the bypass machine is disconnected, and the chest is closed.",
+            "ne": "ओपन-हार्ट सर्जरीमा, शल्यचिकित्सकले छाती खोलेर (स्टर्नम/छातीको हड्डी काटेर) मुटुसम्म सिधै पहुँच बनाउँछन्। सामान्यतया हृदय-फोक्सो बाइपास मेसिन जडान गरिन्छ, जसले मुटु अस्थायी रूपमा रोकिएको बेला रगत पम्प गर्ने र अक्सिजनयुक्त बनाउने काम गर्छ, जसले शल्यचिकित्सकलाई मुटुको भल्भ, रक्तनली मर्मत गर्न वा अन्य दोष सुधार गर्न सम्भव बनाउँछ। मर्मत पूरा भएपछि, मुटु फेरि चलाइन्छ, बाइपास मेसिन हटाइन्छ, र छाती बन्द गरिन्छ।"
+          }
+        },
+        {
+          "id": "q9",
+          "questionNumber": "9",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Now a days, mountains are turning into black rock due to the melting of snow in the Himalayan region. How can we control this process? Write any two ways.",
+            "ne": "आजभोली हिमाली भेगको हिउँ पग्लेर हिमालहरू काला पत्थरमा परिणत भइरहेका छन्। यस प्रक्रियालाई कसरी रोक्न सकिन्छ ? कुनै दुई उपायहरू लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "1) Reduce greenhouse gas emissions by using renewable/clean energy sources and cutting down on fossil fuel use, to slow global warming, which is the main cause of glacier melting. 2) Promote afforestation and reforestation and reduce deforestation, since forests help absorb CO2 and mitigate the overall impact of climate change on the Himalayan glaciers.",
+            "ne": "१) नवीकरणीय/स्वच्छ ऊर्जा स्रोत प्रयोग गरी र जीवाश्म इन्धनको प्रयोग घटाई हरितगृह ग्यास उत्सर्जन घटाउनु, ताकि हिमनदी पग्लनुको मुख्य कारण भूमण्डलीय तापवृद्धि सुस्त बनोस्। २) वृक्षरोपण र वन पुनर्स्थापना प्रवर्द्धन गर्नु र वन फडानी घटाउनु, किनभने वनले CO2 सोस्न मद्दत गर्छ र हिमाली हिमनदीमा पर्ने जलवायु परिवर्तनको समग्र असर कम गर्छ।"
+          }
+        },
+        {
+          "id": "q10",
+          "questionNumber": "10",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Write any two conditions for an object to be in a state of weightlessness.",
+            "ne": "बस्तु तौलविहीन हुने कुनै दुई अवस्थाहरू लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "1) When an object is in a state of free fall, falling freely under gravity with no other supporting force acting on it (e.g. astronauts and objects inside a spacecraft continuously falling/orbiting around the Earth). 2) When an object is located very far away from all celestial bodies, in deep space where gravitational attraction is negligible.",
+            "ne": "१) जब कुनै वस्तु स्वतन्त्र खसाइको अवस्थामा हुन्छ, अरू कुनै सहायक बल नभई केवल गुरुत्वाकर्षणको प्रभावमा मात्र खस्दै हुन्छ (जस्तै अन्तरिक्ष यान र त्यसभित्रका वस्तु पृथ्वीको परिक्रमा गर्दा निरन्तर खस्दै/परिक्रमा गर्दै हुन्छन्)। २) जब कुनै वस्तु सबै आकाशीय पिण्डबाट धेरै टाढा, गहिरो अन्तरिक्षमा हुन्छ जहाँ गुरुत्वाकर्षण नगण्य हुन्छ।"
+          }
+        },
+        {
+          "id": "q11",
+          "questionNumber": "11",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Calculate the gravitational force of attraction between objects A and B as shown in the given figure. (A = 2,000 kg, B = 4,000 kg, distance = 80 km)",
+            "ne": "चित्रमा दिइएका वस्तुहरू A र B बिच उत्पन्न हुने गुरुत्वाकर्षण बल हिसाब गर्नुहोस्। (A = 2,000 kg, B = 4,000 kg, दूरी = 80 km)"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-madhesh/q11-gravitation-A-B.png",
+            "caption": {
+              "en": "Two bodies A (2,000 kg) and B (4,000 kg) separated by 80 km.",
+              "ne": "A (2,000 kg) र B (4,000 kg) वस्तुहरू 80 km दूरीमा।"
+            }
+          },
+          "answer": {
+            "en": "F ≈ 8.34 × 10⁻¹⁴ N.",
+            "ne": "F ≈ 8.34 × 10⁻¹⁴ N।"
+          },
+          "solution": {
+            "en": "F = Gm1m2/r², where G = 6.674×10⁻¹¹ N m²/kg², m1 = 2000 kg, m2 = 4000 kg, r = 80 km = 8×10⁴ m. F = (6.674×10⁻¹¹ × 2000 × 4000) / (8×10⁴)² = (6.674×10⁻¹¹ × 8×10⁶) / (6.4×10⁹) = (5.3392×10⁻⁴) / (6.4×10⁹) ≈ 8.34×10⁻¹⁴ N.",
+            "ne": "F = Gm1m2/r², जहाँ G = 6.674×10⁻¹¹ N m²/kg², m1 = 2000 kg, m2 = 4000 kg, r = 80 km = 8×10⁴ m। F = (6.674×10⁻¹¹ × 2000 × 4000) / (8×10⁴)² = (6.674×10⁻¹¹ × 8×10⁶) / (6.4×10⁹) = (5.3392×10⁻⁴) / (6.4×10⁹) ≈ 8.34×10⁻¹⁴ N।"
+          },
+          "solutionTable": {
+            "headers": [
+              {
+                "en": "Quantity",
+                "ne": "परिमाण"
+              },
+              {
+                "en": "Value",
+                "ne": "मान"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "m1 (A)",
+                  "ne": "m1 (A)"
+                },
+                {
+                  "en": "2000 kg",
+                  "ne": "2000 kg"
+                }
+              ],
+              [
+                {
+                  "en": "m2 (B)",
+                  "ne": "m2 (B)"
+                },
+                {
+                  "en": "4000 kg",
+                  "ne": "4000 kg"
+                }
+              ],
+              [
+                {
+                  "en": "r",
+                  "ne": "r"
+                },
+                {
+                  "en": "80 km = 8×10⁴ m",
+                  "ne": "80 km = 8×10⁴ m"
+                }
+              ],
+              [
+                {
+                  "en": "F = Gm1m2/r²",
+                  "ne": "F = Gm1m2/r²"
+                },
+                {
+                  "en": "≈ 8.34 × 10⁻¹⁴ N",
+                  "ne": "≈ 8.34 × 10⁻¹⁴ N"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "q12",
+          "questionNumber": "12",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Draw a neat diagram of the materials required for preparing ammonia gas in the laboratory.",
+            "ne": "प्रयोगशालामा एमोनिया ग्यास बनाउँदा आवश्यक पर्ने सामग्रीको चित्र बनाउनुहोस्।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-madhesh/q12-nh3-preparation-answer.png",
+            "caption": {
+              "en": "Model answer diagram: apparatus for laboratory preparation of ammonia gas.",
+              "ne": "नमूना उत्तर चित्र: प्रयोगशालामा एमोनिया ग्यास बनाउने उपकरण।"
+            }
+          },
+          "answer": {
+            "en": "Materials required: a round-bottom flask, a mixture of ammonium chloride (NH4Cl) and calcium hydroxide (Ca(OH)2), a source of heat (burner), a delivery tube, a drying tower/tube containing quicklime (CaO) to dry the gas, and an inverted gas jar to collect the ammonia gas by downward displacement of air (since ammonia is lighter than air).",
+            "ne": "आवश्यक सामग्री: एउटा राउन्ड-बटम फ्लास्क, एमोनियम क्लोराइड (NH4Cl) र क्यालिसियम हाइड्रोक्साइड (Ca(OH)2) को मिश्रण, ताप स्रोत (बर्नर), डेलिभरी ट्युब, ग्यास सुकाउन क्वीकलाइम (CaO) भएको सुकाउने टावर/ट्युब, र हावाभन्दा हल्का भएकाले तल्लो हावा विस्थापन विधिद्वारा एमोनिया ग्यास सङ्कलन गर्न उल्टो ग्यास जार।"
+          }
+        },
+        {
+          "id": "q13",
+          "questionNumber": "13",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Write a formula equation of a chemical reaction which takes place in the presence of light, and balance the equation.",
+            "ne": "प्रकाशको उपस्थितिमा हुने एउटा रासायनिक प्रतिक्रियाको सूत्र समीकरण लेखी सन्तुलन गर्नुहोस्।"
+          },
+          "answer": {
+            "en": "2AgCl --(sunlight)--> 2Ag + Cl2 (photodecomposition of silver chloride in the presence of light; already balanced with 2 Ag and 2 Cl on both sides). (Photosynthesis, 6CO2 + 6H2O --light--> C6H12O6 + 6O2, is also an acceptable example of a light-dependent reaction.)",
+            "ne": "2AgCl --(सूर्यको प्रकाश)--> 2Ag + Cl2 (प्रकाशको उपस्थितिमा सिल्भर क्लोराइडको फोटोडिकम्पोजिसन; दुवैतिर 2 Ag र 2 Cl सहित पहिल्यै सन्तुलित)। (प्रकाश-निर्भर प्रतिक्रियाको अर्को स्वीकार्य उदाहरण: प्रकाश संश्लेषण, 6CO2 + 6H2O --प्रकाश--> C6H12O6 + 6O2।)"
+          }
+        },
+        {
+          "id": "q14",
+          "questionNumber": "14",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Write the name of the member of alkyne series which contains an equal number of carbon and hydrogen atoms. Write its structural formula.",
+            "ne": "अल्काइनको सदस्यमध्ये कार्बन र हाइड्रोजनको सङ्ख्या बराबर हुने यौगिकको नाम लेखी यसको संरचनात्मक सूत्र लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "Ethyne (acetylene), C2H2, is the alkyne with an equal number of carbon and hydrogen atoms (2 of each). Structural formula: H-C≡C-H.",
+            "ne": "इथाइन (एसेटिलिन), C2H2, कार्बन र हाइड्रोजनको सङ्ख्या बराबर (दुई-दुई) भएको अल्काइन हो। संरचना सूत्र: H-C≡C-H।"
+          },
+          "solution": {
+            "en": "Alkynes follow the general formula CnH2n-2. Setting the number of carbon atoms (n) equal to the number of hydrogen atoms (2n-2): n = 2n-2, which gives n = 2. So the compound is C2H2 (ethyne), which indeed has 2 carbon and 2 hydrogen atoms.",
+            "ne": "अल्काइनको सामान्य सूत्र CnH2n-2 हुन्छ। कार्बन परमाणुको सङ्ख्या (n) लाई हाइड्रोजन परमाणुको सङ्ख्या (2n-2) सँग बराबर राख्दा: n = 2n-2, जसबाट n = 2 आउँछ। त्यसैले यौगिक C2H2 (इथाइन) हो, जसमा साँच्चै 2 कार्बन र 2 हाइड्रोजन परमाणु छन्।"
+          }
+        },
+        {
+          "id": "q15",
+          "questionNumber": "15",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Excessive use of insecticides has started causing serious problems in human health. Give two suggestions to mitigate such problems.",
+            "ne": "अत्यधिक मात्रामा रासायनिक किटनाशक विषादीको प्रयोगको कारणले मानव स्वास्थ्यमा जटिल समस्या देखापर्न थालेका छन्। यस्ता किसिमका समस्या न्युनिकरणका लागि दुईओटा सुभावहरू लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "1) Promote and use organic/biological pest-control methods (such as neem-based bio-pesticides or natural predators) instead of harsh chemical insecticides wherever possible. 2) Ensure safe use of chemical insecticides when they must be used — wear protective equipment while spraying, follow the recommended dosage, and observe the recommended waiting period before harvesting/consuming treated crops.",
+            "ne": "१) सम्भव भएसम्म कडा रासायनिक किटनाशकको सट्टा जैविक/प्राकृतिक कीट-नियन्त्रण विधि (जस्तै नीममा आधारित बायो-पेस्टिसाइड वा प्राकृतिक शिकारी) प्रयोग गर्ने र प्रवर्द्धन गर्ने। २) रासायनिक किटनाशक प्रयोग गर्नैपर्दा सुरक्षित तरिकाले प्रयोग गर्ने — स्प्रे गर्दा सुरक्षा साधन लगाउने, सिफारिस गरिएको मात्रा पालना गर्ने, र उपचार गरिएको बाली टिप्नु/खानुअघि सिफारिस गरिएको प्रतीक्षा अवधि पालना गर्ने।"
+          }
+        },
+        {
+          "id": "q16",
+          "questionNumber": "16",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Write a balanced chemical equation of the reaction of two gases having molecular weight 17 a.m.u. and 44 a.m.u.",
+            "ne": "आणविक भार 17 a.m.u. र 44 a.m.u. हुने ग्यासलाई रासायनिक प्रतिक्रिया गराउँदा हुने सन्तुलित रासायनिक समीकरण लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "CO2 + 2NH3 -> CO(NH2)2 + H2O",
+            "ne": "CO2 + 2NH3 -> CO(NH2)2 + H2O"
+          },
+          "solution": {
+            "en": "The gas with molecular weight 17 a.m.u. is ammonia (NH3), and the gas with molecular weight 44 a.m.u. is carbon dioxide (CO2). These react together to form urea, CO(NH2)2, and water: CO2 + 2NH3 -> CO(NH2)2 + H2O — balanced with 1 C, 2 N, 4 H (from NH3) + 2 H (from H2O) = 6 H total on each side, and 2 O atoms on each side.",
+            "ne": "आणविक भार 17 a.m.u. भएको ग्यास अमोनिया (NH3) हो, र आणविक भार 44 a.m.u. भएको ग्यास कार्बन डाइअक्साइड (CO2) हो। यी दुई मिलेर युरिया, CO(NH2)2, र पानी बनाउँछन्: CO2 + 2NH3 -> CO(NH2)2 + H2O — दुवैतिर 1 C, 2 N, र कुल 6 H (NH3 बाट 4 H + H2O बाट 2 H), र 2 O परमाणुसहित सन्तुलित।"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Section D — Long Answer Questions",
+        "ne": "खण्ड 'घ' — लामो उत्तर प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Write long answer to the following questions. (7 x 4 = 28)",
+        "ne": "तलका प्रश्नहरूको लामो उत्तर लेख्नुहोस् : (७x४=२८)"
+      },
+      "items": [
+        {
+          "id": "q17",
+          "questionNumber": "17",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Mention any four ways of gaining digital well-being.",
+            "ne": "डिजिटल आरोग्यता हासिल गर्ने कुनै चार तरिका उल्लेख गर्नुहोस्।"
+          },
+          "answer": {
+            "en": "1) Limit screen time and take regular breaks from digital devices (e.g. follow the 20-20-20 rule for eye care). 2) Avoid using digital devices right before bedtime to ensure good quality sleep. 3) Be mindful of the content consumed and avoid excessive/mindless social media scrolling. 4) Balance time spent on digital devices with physical activity, outdoor time, and face-to-face social interactions.",
+            "ne": "१) स्क्रिनमा बिताउने समय सीमित गर्ने र डिजिटल उपकरणबाट नियमित विश्राम लिने (जस्तै आँखाको हेरचाहका लागि 20-20-20 नियम पालना गर्ने)। २) राम्रो निद्राका लागि सुत्नुअघि डिजिटल उपकरण प्रयोगबाट जोगिने। ३) उपभोग गरिने सामग्रीप्रति सचेत रहने र अनावश्यक/लक्ष्यविहीन सामाजिक सञ्जाल स्क्रोलिङबाट जोगिने। ४) डिजिटल उपकरणमा बिताउने समयलाई शारीरिक गतिविधि, बाहिरी समय, र प्रत्यक्ष सामाजिक भेटघाटसँग सन्तुलनमा राख्ने।"
+          }
+        },
+        {
+          "id": "q18",
+          "questionNumber": "18",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Write any two advantages and two disadvantages of producing offspring through artificial fertilization.",
+            "ne": "कृत्रिम गर्भाधानबाट सन्तान जन्माउँदा हुने दुई फाइदाहरू र दुई बेफाइदाहरू उल्लेख गर्नुहोस्।"
+          },
+          "answer": {
+            "en": "Two advantages: 1) Allows selection and use of semen from genetically superior males to breed offspring with better quality/productivity, improving the overall herd. 2) Prevents disease transmission through natural mating and allows breeding even when the male and female animals are geographically far apart (semen can be transported/stored). Two disadvantages: 1) Requires technical expertise, special equipment, and higher cost compared to natural mating, which may not be affordable or accessible to all farmers. 2) Over-reliance on a few superior males' genetics can reduce genetic diversity in the population over time, which may increase vulnerability to disease.",
+            "ne": "दुई फाइदा: १) आनुवंशिक रूपले उत्कृष्ट भालेको वीर्य छानेर प्रयोग गर्न सकिने भएकाले राम्रो गुणस्तर/उत्पादकत्व भएका सन्तान जन्मन्छन्, जसले समग्र गाईवस्तु सुधार गर्छ। २) प्राकृतिक मैथुनको तुलनामा रोग सर्ने जोखिम घट्छ, र भाले-पोथी भौगोलिक रूपमा टाढा भए पनि प्रजनन गराउन सकिन्छ (वीर्य ओसारपसार/भण्डारण गर्न सकिन्छ)। दुई बेफाइदा: १) प्राकृतिक मैथुनको तुलनामा प्राविधिक सीप, विशेष उपकरण, र बढी लागत चाहिन्छ, जुन सबै किसानले धान्न वा पहुँच पाउन नसक्न सक्छन्। २) थोरै उत्कृष्ट भालेको आनुवंशिकतामा अत्यधिक भर पर्दा समयक्रममा जनसङ्ख्यामा आनुवंशिक विविधता घट्न सक्छ, जसले रोगप्रतिको जोखिम बढाउन सक्छ।"
+          }
+        },
+        {
+          "id": "q19",
+          "questionNumber": "19",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "The results of the blood group test of two students are shown in the table. Identify the blood group of student A and student B. What type of blood group is called A-positive and what type is called O-negative?\n\nStudent A — Antigen A: clot seen; Antigen B: clot seen; Antigen D: clot seen.\nStudent B — Antigen A: clot unseen; Antigen B: clot seen; Antigen D: clot seen.",
+            "ne": "दुई जना विद्यार्थीको रक्त समूह परीक्षण गर्दाको नतिजा तालिकामा देखाइएको छ। विद्यार्थी A र विद्यार्थी B को रक्त समूह पहिचान गर्नुहोस्। कस्तोलाई A पोजेटिभ र कस्तोलाई O नेगेटिभ रक्त समूह भनिन्छ ?\n\nविद्यार्थी A — एन्टिजेन A: रगत जम्ने देखियो; एन्टिजेन B: रगत जम्ने देखियो; एन्टिजेन D: रगत जम्ने देखियो।\nविद्यार्थी B — एन्टिजेन A: रगत जम्ने देखिएन; एन्टिजेन B: रगत जम्ने देखियो; एन्टिजेन D: रगत जम्ने देखियो।"
+          },
+          "questionTable": {
+            "headers": [
+              {
+                "en": "",
+                "ne": ""
+              },
+              {
+                "en": "Antigen A",
+                "ne": "एन्टिजेन A"
+              },
+              {
+                "en": "Antigen B",
+                "ne": "एन्टिजेन B"
+              },
+              {
+                "en": "Antigen D",
+                "ne": "एन्टिजेन D"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "Student A",
+                  "ne": "विद्यार्थी A"
+                },
+                {
+                  "en": "clot seen",
+                  "ne": "देखियो"
+                },
+                {
+                  "en": "clot seen",
+                  "ne": "देखियो"
+                },
+                {
+                  "en": "clot seen",
+                  "ne": "देखियो"
+                }
+              ],
+              [
+                {
+                  "en": "Student B",
+                  "ne": "विद्यार्थी B"
+                },
+                {
+                  "en": "clot unseen",
+                  "ne": "देखिएन"
+                },
+                {
+                  "en": "clot seen",
+                  "ne": "देखियो"
+                },
+                {
+                  "en": "clot seen",
+                  "ne": "देखियो"
+                }
+              ]
+            ]
+          },
+          "answer": {
+            "en": "Student A's blood group is AB positive (AB+) — since clotting/agglutination occurred with all three antigens (A, B and D), meaning both A and B antigens and the Rh (D) antigen are present. Student B's blood group is B positive (B+) — clotting occurred with Antigen B and Antigen D but not with Antigen A, meaning only the B antigen and the Rh (D) antigen are present. A-positive blood group is one whose red blood cells carry the A antigen along with the Rh (D) antigen (but not the B antigen). O-negative blood group is one whose red blood cells carry neither the A nor the B antigen, and also lack the Rh (D) antigen — making it the 'universal donor' blood type.",
+            "ne": "विद्यार्थी A को रक्त समूह AB पोजेटिभ (AB+) हो — किनभने तीनओटै एन्टिजेन (A, B र D) सँग रगत जम्ने (agglutination) देखिएको छ, अर्थात् A र B दुवै एन्टिजेन र Rh (D) एन्टिजेन उपस्थित छन्। विद्यार्थी B को रक्त समूह B पोजेटिभ (B+) हो — एन्टिजेन B र एन्टिजेन D सँग रगत जम्ने देखियो तर एन्टिजेन A सँग देखिएन, अर्थात् केवल B एन्टिजेन र Rh (D) एन्टिजेन मात्र उपस्थित छन्। A-पोजेटिभ रक्त समूह भनेको त्यस्तो समूह हो जसको राता रक्तकोषमा A एन्टिजेनसँगै Rh (D) एन्टिजेन पनि हुन्छ (तर B एन्टिजेन हुँदैन)। O-नेगेटिभ रक्त समूह भनेको त्यस्तो समूह हो जसको राता रक्तकोषमा न त A न त B एन्टिजेन हुन्छ, र Rh (D) एन्टिजेन पनि हुँदैन — यसैले यसलाई 'विश्वव्यापी दाता' (universal donor) रक्त समूह मानिन्छ।"
+          }
+        },
+        {
+          "id": "q20",
+          "questionNumber": "20",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Three liquids 'X', 'Y', and 'Z' of equal mass are kept in the same type of container and placed in the sun for equal time. The increase in temperature is given in the table (X: 30°C, Y: 35°C, Z: 28°C). (i) Among them, which liquid has the highest specific heat capacity? Why? (ii) If equal masses of all three liquids at the same temperature are cooled, which one will cool down faster? Why?",
+            "ne": "बराबर पिण्ड भएका तीनओटा तरल पदार्थहरू 'X', 'Y', र 'Z' उस्तै भाँडामा बराबर समय घाममा राखिएको छ। उक्त भाँडामा हुने तापक्रम वृद्धि तल तालिकामा दिइएको छ (X: 30°C, Y: 35°C, Z: 28°C)। (i) यी मध्ये कुन तरल पदार्थको विशिष्ट तापधारण क्षमता बढी छ ? किन ? (ii) यदि तीनओटै तरलका समान तापक्रममा रहेका बराबर पिण्डलाई चिस्याइयो भने, कुन तरल पदार्थ छिटो चिसो हुन्छ ? किन ?"
+          },
+          "questionTable": {
+            "headers": [
+              {
+                "en": "Liquid",
+                "ne": "तरल"
+              },
+              {
+                "en": "Increase in temperature",
+                "ne": "तापक्रममा वृद्धि"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "X",
+                  "ne": "X"
+                },
+                {
+                  "en": "30°C",
+                  "ne": "30°C"
+                }
+              ],
+              [
+                {
+                  "en": "Y",
+                  "ne": "Y"
+                },
+                {
+                  "en": "35°C",
+                  "ne": "35°C"
+                }
+              ],
+              [
+                {
+                  "en": "Z",
+                  "ne": "Z"
+                },
+                {
+                  "en": "28°C",
+                  "ne": "28°C"
+                }
+              ]
+            ]
+          },
+          "answer": {
+            "en": "(i) Z has the highest specific heat capacity, because for the same mass and the same heat input (equal sun exposure time), Z showed the smallest temperature rise (28°C) — since Q = mcΔT, a smaller ΔT for the same Q and m means a larger specific heat capacity c. (ii) Y will cool down fastest, because Y showed the largest temperature rise (35°C) for the same heat input, meaning Y has the lowest specific heat capacity — a liquid with lower specific heat capacity needs to lose less heat energy to drop its temperature by a given amount, so it cools down (and heats up) fastest.",
+            "ne": "(i) Z को विशिष्ट तापधारण क्षमता सबैभन्दा बढी छ, किनभने उही पिण्ड र उही ताप (बराबर घाममा रहेको समय) का लागि, Z को तापक्रम वृद्धि सबैभन्दा कम (28°C) देखियो — Q = mcΔT भएकाले, उही Q र m का लागि सानो ΔT ले ठूलो विशिष्ट ताप c जनाउँछ। (ii) Y सबैभन्दा छिटो चिसो हुन्छ, किनभने उही तापका लागि Y को तापक्रम वृद्धि सबैभन्दा बढी (35°C) देखियो, अर्थात् Y को विशिष्ट तापधारण क्षमता सबैभन्दा कम हो — कम विशिष्ट ताप भएको तरललाई दिइएको मात्रामा तापक्रम घटाउन थोरै मात्र तापशक्ति गुमाउनुपर्छ, त्यसैले यो सबैभन्दा छिटो चिसो (र तातो) हुन्छ।"
+          },
+          "solutionTable": {
+            "headers": [
+              {
+                "en": "Liquid",
+                "ne": "तरल"
+              },
+              {
+                "en": "ΔT",
+                "ne": "ΔT"
+              },
+              {
+                "en": "Relative specific heat",
+                "ne": "सापेक्षिक विशिष्ट ताप"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "X",
+                  "ne": "X"
+                },
+                {
+                  "en": "30°C",
+                  "ne": "30°C"
+                },
+                {
+                  "en": "medium",
+                  "ne": "मध्यम"
+                }
+              ],
+              [
+                {
+                  "en": "Y",
+                  "ne": "Y"
+                },
+                {
+                  "en": "35°C (highest ΔT)",
+                  "ne": "35°C (सबैभन्दा बढी ΔT)"
+                },
+                {
+                  "en": "lowest",
+                  "ne": "सबैभन्दा कम"
+                }
+              ],
+              [
+                {
+                  "en": "Z",
+                  "ne": "Z"
+                },
+                {
+                  "en": "28°C (lowest ΔT)",
+                  "ne": "28°C (सबैभन्दा कम ΔT)"
+                },
+                {
+                  "en": "highest",
+                  "ne": "सबैभन्दा बढी"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "q21",
+          "questionNumber": "21",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "Study the given diagram and answer the following questions: (light rays converging to a point behind the retina) (a) Write any two causes of such defect. (b) What type of lens is used to remove the defect of vision shown in the given figure? Why?",
+            "ne": "दिइएको चित्रको अध्ययन गरी सोधिएका प्रश्नहरूको उत्तर दिनुहोस्: (प्रकाश किरणहरू रेटिनाभन्दा पछाडि एक बिन्दुमा केन्द्रित हुँदै) (a) यो कमजोरीका दुईओटा कारणहरू लेख्नुहोस्। (b) चित्रमा दिइएको आँखाको कमजोरी हटाउन कुन प्रकारको लेन्स प्रयोग गरिन्छ ? किन ?"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-madhesh/q21-hypermetropia-eye.png",
+            "caption": {
+              "en": "Eye diagram: light rays entering the eye and converging to a point behind the retina.",
+              "ne": "आँखाको चित्र: आँखाभित्र पस्ने प्रकाश किरण रेटिनाभन्दा पछाडि एक बिन्दुमा केन्द्रित हुँदै।"
+            }
+          },
+          "answer": {
+            "en": "(a) Two causes: 1) The eyeball is too short (reduced axial length), so the image forms behind the retina instead of on it. 2) The cornea or eye lens has insufficient curvature/converging power, causing light rays to focus behind the retina. (b) A convex (converging) lens is used, because it adds extra converging power to the incoming light rays before they enter the eye, bringing the focus point forward so that the image forms exactly on the retina instead of behind it.",
+            "ne": "(a) दुई कारण: १) आँखाको गेडा छोटो हुनु (एक्सियल लम्बाइ कम हुनु), जसले गर्दा प्रतिबिम्ब रेटिनामा नभई त्योभन्दा पछाडि बन्छ। २) कर्निया वा आँखाको लेन्सको वक्रता/कन्भर्जिङ पावर अपर्याप्त हुनु, जसले प्रकाश किरणलाई रेटिनाभन्दा पछाडि केन्द्रित गराउँछ। (b) कन्भेक्स (कन्भर्जिङ) लेन्स प्रयोग गरिन्छ, किनभने यसले आँखाभित्र पस्नुअघि नै आउने प्रकाश किरणमा थप कन्भर्जिङ पावर थप्छ, जसले फोकस बिन्दुलाई अगाडि ल्याई प्रतिबिम्ब ठ्याक्कै रेटिनामा (पछाडि होइन) बन्न मद्दत गर्छ।"
+          }
+        },
+        {
+          "id": "q22",
+          "questionNumber": "22",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "A transformer in a power house has a 1:80 ratio of primary and secondary coils. If 400 V is passed into the primary coil, what voltage is produced in the secondary coil? Can this transformer be used in a domestic circuit? Give a reason.",
+            "ne": "एउटा पावरहाउसमा जडान गरिएको ट्रान्सफर्मरको प्राइमरी फन्काको सङ्ख्या र सेकेन्डरी फन्काको सङ्ख्या 1:80 को अनुपातमा छ। यदि उक्त ट्रान्सफर्मरको प्राइमरी फन्कामा 400 V पठाइएको रहेछ भने त्यसको सेकेन्डरी फन्कामा कति भोल्टेज उत्पादन हुन्छ ? उक्त ट्रान्सफर्मर गृहस्थ्य विद्युतीकरणमा प्रयोग गर्न मिल्छ कि मिल्दैन, एउटा कारण दिनुहोस्।"
+          },
+          "answer": {
+            "en": "Secondary voltage = 32,000 V (32 kV). No, this transformer cannot be used directly in a domestic circuit, because it is a step-up transformer designed to raise voltage to a very high level for efficient long-distance power transmission — 32,000 V is far too high and dangerous for household appliances and wiring, which require a low, safe voltage (around 220-230 V), so a step-down transformer would be needed before the electricity reaches homes.",
+            "ne": "सेकेन्डरी भोल्टेज = 32,000 V (32 kV)। होइन, यो ट्रान्सफर्मरलाई सिधै गृहस्थ्य विद्युतीकरणमा प्रयोग गर्न मिल्दैन, किनभने यो लामो दूरीमा प्रभावकारी रूपमा विद्युत प्रसारण गर्न भोल्टेज धेरै उच्च बनाउने स्टेप-अप ट्रान्सफर्मर हो — 32,000 V घरायसी उपकरण र वायरिङका लागि धेरै उच्च र खतरनाक हो, जसलाई कम, सुरक्षित भोल्टेज (करिब 220-230 V) चाहिन्छ, त्यसैले बिजुली घरसम्म पुग्नुअघि स्टेप-डाउन ट्रान्सफर्मर चाहिन्छ।"
+          },
+          "solution": {
+            "en": "Vs/Vp = Ns/Np = 80/1 = 80. So Vs = Vp × 80 = 400 V × 80 = 32,000 V.",
+            "ne": "Vs/Vp = Ns/Np = 80/1 = 80। त्यसैले Vs = Vp × 80 = 400 V × 80 = 32,000 V।"
+          },
+          "solutionTable": {
+            "headers": [
+              {
+                "en": "Quantity",
+                "ne": "परिमाण"
+              },
+              {
+                "en": "Value",
+                "ne": "मान"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "Vp",
+                  "ne": "Vp"
+                },
+                {
+                  "en": "400 V",
+                  "ne": "400 V"
+                }
+              ],
+              [
+                {
+                  "en": "Ns/Np",
+                  "ne": "Ns/Np"
+                },
+                {
+                  "en": "80",
+                  "ne": "80"
+                }
+              ],
+              [
+                {
+                  "en": "Vs = Vp × Ns/Np",
+                  "ne": "Vs = Vp × Ns/Np"
+                },
+                {
+                  "en": "32,000 V",
+                  "ne": "32,000 V"
+                }
+              ],
+              [
+                {
+                  "en": "Type",
+                  "ne": "प्रकार"
+                },
+                {
+                  "en": "Step-up transformer (not suitable for domestic use)",
+                  "ne": "स्टेप-अप ट्रान्सफर्मर (गृहस्थ्य प्रयोगका लागि अनुपयुक्त)"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "q23",
+          "questionNumber": "23",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Madhesh Province",
+          "question": {
+            "en": "A part of the periodic table is shown below in which some hypothetical symbols are used to represent real elements. Study the table and answer the following questions. (Period n=2: Group IA=c, Group IIA=b, Group 0=Ne. Period n=3: Group VIIA=a, Group 0=d.) (i) Write the electronic configuration of element 'a' on the basis of sub-shell. (ii) Element c is more reactive than b, why? (iii) Atomic size of 'a' is greater than element 'd', why?",
+            "ne": "पेरियोडिक तालिकाको एउटा अंश दिइएको छ यसमा वास्तविक तत्त्वहरूलाई काल्पनिक सङ्केतले जनाइएको छ। यसलाई अध्ययन गरी तलका प्रश्नहरूको उत्तर दिनुहोस्। (पिरियड n=2: समूह IA=c, समूह IIA=b, समूह 0=Ne। पिरियड n=3: समूह VIIA=a, समूह 0=d।) (i) तत्त्व 'a' को उपसेलको आधारमा इलेक्ट्रोनिक विन्यास गर्नुहोस्। (ii) तत्त्व b भन्दा c बढी सक्रिय हुन्छ, किन ? (iii) तत्त्व a को पारमाणविक आकार तत्त्व d को भन्दा ठुलो हुन्छ, किन ?"
+          },
+          "questionTable": {
+            "headers": [
+              {
+                "en": "Period",
+                "ne": "पिरियड"
+              },
+              {
+                "en": "IA",
+                "ne": "IA"
+              },
+              {
+                "en": "IIA",
+                "ne": "IIA"
+              },
+              {
+                "en": "IIIA",
+                "ne": "IIIA"
+              },
+              {
+                "en": "IVA",
+                "ne": "IVA"
+              },
+              {
+                "en": "VA",
+                "ne": "VA"
+              },
+              {
+                "en": "VIA",
+                "ne": "VIA"
+              },
+              {
+                "en": "VIIA",
+                "ne": "VIIA"
+              },
+              {
+                "en": "0",
+                "ne": "0"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "n=2",
+                  "ne": "n=2"
+                },
+                {
+                  "en": "c",
+                  "ne": "c"
+                },
+                {
+                  "en": "b",
+                  "ne": "b"
+                },
+                {
+                  "en": "",
+                  "ne": ""
+                },
+                {
+                  "en": "",
+                  "ne": ""
+                },
+                {
+                  "en": "",
+                  "ne": ""
+                },
+                {
+                  "en": "",
+                  "ne": ""
+                },
+                {
+                  "en": "",
+                  "ne": ""
+                },
+                {
+                  "en": "Ne",
+                  "ne": "Ne"
+                }
+              ],
+              [
+                {
+                  "en": "n=3",
+                  "ne": "n=3"
+                },
+                {
+                  "en": "",
+                  "ne": ""
+                },
+                {
+                  "en": "",
+                  "ne": ""
+                },
+                {
+                  "en": "",
+                  "ne": ""
+                },
+                {
+                  "en": "",
+                  "ne": ""
+                },
+                {
+                  "en": "",
+                  "ne": ""
+                },
+                {
+                  "en": "",
+                  "ne": ""
+                },
+                {
+                  "en": "a",
+                  "ne": "a"
+                },
+                {
+                  "en": "d",
+                  "ne": "d"
+                }
+              ]
+            ]
+          },
+          "answer": {
+            "en": "(i) Electronic configuration of element 'a' (Chlorine, Cl — Period 3, Group VIIA): 1s² 2s²2p⁶ 3s²3p⁵. (ii) Element c (Lithium, Group IA/alkali metal) is more reactive than element b (Beryllium, Group IIA/alkaline earth metal) because c has only 1 valence electron, which is easier to lose (lower ionization energy) than the 2 valence electrons of b, which are held more tightly by the nucleus (higher ionization energy) — so c reacts more readily. (iii) Element 'a' (Chlorine, Group VIIA) has a larger atomic size than element 'd' (Argon, Group 0), because 'a' has one fewer proton (lower nuclear charge/atomic number) than 'd' while both are in the same period (same number of electron shells) — the comparatively weaker nuclear pull on 'a' means its electrons are held slightly less tightly, giving it a somewhat larger atomic radius than 'd', which is positioned further to the right in the same period.",
+            "ne": "(i) तत्त्व 'a' (क्लोरिन, Cl — पिरियड 3, समूह VIIA) को इलेक्ट्रोनिक विन्यास: 1s² 2s²2p⁶ 3s²3p⁵। (ii) तत्त्व c (लिथियम, समूह IA/क्षार धातु) तत्त्व b (बेरिलियम, समूह IIA/क्षारीय-मृदा धातु) भन्दा बढी सक्रिय हुन्छ किनभने c मा केवल 1 भ्यालेन्स इलेक्ट्रोन मात्र छ, जुन b को 2 भ्यालेन्स इलेक्ट्रोन (जुन न्युक्लियसले बढी बलपूर्वक बाँधेको हुन्छ, उच्च आयनीकरण ऊर्जा) भन्दा त्याग्न सजिलो (कम आयनीकरण ऊर्जा) हुन्छ — त्यसैले c सजिलै प्रतिक्रिया गर्छ। (iii) तत्त्व 'a' (क्लोरिन, समूह VIIA) को पारमाणविक आकार तत्त्व 'd' (आर्गन, समूह 0) भन्दा ठूलो हुन्छ, किनभने दुवै उही पिरियडमा (उही इलेक्ट्रोन सेल सङ्ख्या) भए पनि 'a' मा 'd' भन्दा एक कम प्रोटोन (कम न्युक्लियर चार्ज/परमाणु सङ्ख्या) हुन्छ — 'a' मा तुलनात्मक रूपमा कमजोर न्युक्लियर तानका कारण यसको इलेक्ट्रोन अलिक कम बलपूर्वक बाँधिएको हुन्छ, जसले यसलाई उही पिरियडमा दायाँतिर रहेको 'd' भन्दा अलि ठूलो पारमाणविक अर्धव्यास दिन्छ।"
+          }
+        }
+      ]
+    }
+  ]
+}

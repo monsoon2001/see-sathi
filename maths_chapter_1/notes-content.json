@@ -1,0 +1,1229 @@
+{
+  "chapter": {
+    "en": "Sets",
+    "ne": "सेट"
+  },
+  "sections": [
+    {
+      "sectionId": "sec-1-0",
+      "title": {
+        "en": "1.0 Review",
+        "ne": "१.० पुनरावलोकन"
+      },
+      "content": [
+        {
+          "blockId": "c-1-0-1",
+          "type": "context",
+          "text": {
+            "en": "Students from roll no. 1 to 15 in grade 10 are surveyed about whether they like Mathematics or Science. The result is shown in a Venn diagram: students $\\{1,3,4,11,13\\}$ like Mathematics only, students $\\{5,6,7,10,12\\}$ like Science only, students $\\{2,8,15\\}$ like both, and students $\\{9,14\\}$ like neither.",
+            "ne": "कक्षा १० का रोल नं. १ देखि १५ सम्मका विद्यार्थीहरूलाई गणित वा विज्ञान मनपर्छ कि पर्दैन भनी सर्वेक्षण गरिएको छ। नतिजा भेन चित्रमा देखाइएको छ: विद्यार्थी $\\{1,3,4,11,13\\}$ लाई गणित मात्र मनपर्छ, विद्यार्थी $\\{5,6,7,10,12\\}$ लाई विज्ञान मात्र मनपर्छ, विद्यार्थी $\\{2,8,15\\}$ लाई दुवै मनपर्छ, र विद्यार्थी $\\{9,14\\}$ लाई कुनै पनि मनपर्दैन।"
+          },
+          "referenceImageId": "img-review-venn"
+        },
+        {
+          "blockId": "c-1-0-2",
+          "type": "worked_discussion",
+          "text": {
+            "en": "Let $M$ = set of students who like Mathematics, $S$ = set of students who like Science. By listing method: $M = \\{1,2,3,4,8,11,13,15\\}$, so $n(M) = 8$. $M$ only $= \\{1,3,4,11,13\\}$, so $n_0(M) = 5$. $S = \\{2,5,6,7,8,10,12,15\\}$, so $n(S) = 8$. $S$ only $= \\{5,6,7,10,12\\}$, so $n_0(S) = 5$. Both Mathematics and Science: $M \\cap S = \\{2,8,15\\}$, so $n(M \\cap S) = 3$. Neither: $\\{9,14\\}$, so $n(\\overline{M \\cup S}) = 2$. Total students surveyed $= n(U) = 15$.",
+            "ne": "मानौं $M$ = गणित मनपर्ने विद्यार्थीहरूको सेट, $S$ = विज्ञान मनपर्ने विद्यार्थीहरूको सेट। सूची विधिबाट: $M = \\{1,2,3,4,8,11,13,15\\}$, त्यसैले $n(M) = 8$। $M$ मात्र $= \\{1,3,4,11,13\\}$, त्यसैले $n_0(M) = 5$। $S = \\{2,5,6,7,8,10,12,15\\}$, त्यसैले $n(S) = 8$। $S$ मात्र $= \\{5,6,7,10,12\\}$, त्यसैले $n_0(S) = 5$। गणित र विज्ञान दुवै: $M \\cap S = \\{2,8,15\\}$, त्यसैले $n(M \\cap S) = 3$। कुनै पनि मनपर्दैन: $\\{9,14\\}$, त्यसैले $n(\\overline{M \\cup S}) = 2$। सर्वेक्षण गरिएका कुल विद्यार्थी $= n(U) = 15$।"
+          }
+        }
+      ],
+      "examples": []
+    },
+    {
+      "sectionId": "sec-1-1",
+      "title": {
+        "en": "1.1 Cardinality of the Two Sets",
+        "ne": "१.१ दुई सेटको गणनसंख्या"
+      },
+      "content": [
+        {
+          "blockId": "c-1-1-1",
+          "type": "worked_discussion",
+          "text": {
+            "en": "Activity: among grade 10 students surveyed about coffee or tea — $n(C)=15$ like coffee, $n(T)=10$ like tea, $n(C \\cap T)=6$ like both, and $5$ dislike both. Here $n_0(C)$ and $n_0(T)$ denote coffee-only and tea-only. Since $n(C) = n_0(C) + n(C \\cap T)$, coffee only is $n_0(C) = n(C) - n(C \\cap T) = 15 - 6 = 9$. Likewise tea only $n_0(T) = n(T) - n(C \\cap T) = 10 - 6 = 4$. With $n(\\overline{C \\cup T}) = 5$ (dislike both), the total class size is $n(U) = 9 + 6 + 4 + 5 = 24$.",
+            "ne": "क्रियाकलाप: कफी वा चिया मनपर्छ कि पर्दैन भनी सर्वेक्षण गरिएका कक्षा १० का विद्यार्थीहरूमध्ये — $n(C)=15$ जनालाई कफी मनपर्छ, $n(T)=10$ जनालाई चिया मनपर्छ, $n(C \\cap T)=6$ जनालाई दुवै मनपर्छ, र $5$ जनालाई दुवै मनपर्दैन। यहाँ $n_0(C)$ र $n_0(T)$ ले क्रमशः कफी-मात्र र चिया-मात्र जनाउँछ। $n(C) = n_0(C) + n(C \\cap T)$ भएकोले, कफी मात्र $n_0(C) = n(C) - n(C \\cap T) = 15 - 6 = 9$ हुन्छ। त्यसैगरी चिया मात्र $n_0(T) = n(T) - n(C \\cap T) = 10 - 6 = 4$ हुन्छ। दुवै नमनपर्ने $n(\\overline{C \\cup T}) = 5$ सहित, कुल कक्षाको संख्या $n(U) = 9 + 6 + 4 + 5 = 24$ हुन्छ।"
+          },
+          "referenceImageId": "img-coffee-tea-venn"
+        },
+        {
+          "blockId": "c-1-1-2",
+          "type": "rule_box",
+          "text": {
+            "en": "If $A$ and $B$ are overlapping sets: (i) $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$. (ii) $n_0(A) = n(A) - n(A \\cap B)$. (iii) $n_0(B) = n(B) - n(A \\cap B)$. (iv) $n(A \\cup B) = n_0(A) + n_0(B) + n(A \\cap B)$. (v) If $A,B$ are disjoint, $n(A \\cup B) = n(A) + n(B)$. (vi) If $U$ has only elements of $A$ and $B$, then $n(U) = n(A \\cup B)$. (vii) Otherwise $n(U) = n(A \\cup B) + n(\\overline{A \\cup B})$. At least one: $n(A \\cup B) = n(A) + n(B) - n(A \\cap B) = n_0(A) + n_0(B) + n(A \\cap B)$. At most one: $n(\\overline{A \\cap B}) = n(U) - n(A \\cap B)$. Exactly one: $n_0(A) + n_0(B) = n(A) + n(B) - 2 \\times n(A \\cap B)$.",
+            "ne": "यदि $A$ र $B$ ओभरल्यापिङ सेटहरू हुन् भने: (i) $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$। (ii) $n_0(A) = n(A) - n(A \\cap B)$। (iii) $n_0(B) = n(B) - n(A \\cap B)$। (iv) $n(A \\cup B) = n_0(A) + n_0(B) + n(A \\cap B)$। (v) यदि $A,B$ असंयुक्त (disjoint) सेटहरू हुन् भने, $n(A \\cup B) = n(A) + n(B)$। (vi) यदि $U$ मा $A$ र $B$ का मात्र सदस्यहरू छन् भने, $n(U) = n(A \\cup B)$। (vii) अन्यथा $n(U) = n(A \\cup B) + n(\\overline{A \\cup B})$। कम्तीमा एक: $n(A \\cup B) = n(A) + n(B) - n(A \\cap B) = n_0(A) + n_0(B) + n(A \\cap B)$। बढीमा एक: $n(\\overline{A \\cap B}) = n(U) - n(A \\cap B)$। ठ्याक्कै एउटा: $n_0(A) + n_0(B) = n(A) + n(B) - 2 \\times n(A \\cap B)$।"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "exampleId": "ex-1-1-1",
+          "question": {
+            "en": "In a survey of 300 people of a community, it was found that 175 liked cricket and 150 liked football but 25 liked neither of them. Based on this, answer: a) Represent this in a Venn diagram. b) Find the number of people who like both games. c) Find the number of people who like exactly one game.",
+            "ne": "३०० जना समुदायका मानिसहरूको सर्वेक्षणमा, १७५ जनालाई क्रिकेट र १५० जनालाई फुटबल मनपर्छ तर २५ जनालाई कुनै पनि मनपर्दैन भन्ने पाइयो। यसको आधारमा उत्तर दिनुहोस्: क) यसलाई भेन चित्रमा देखाउनुहोस्। ख) दुवै खेल मनपर्ने मानिसको संख्या पत्ता लगाउनुहोस्। ग) ठ्याक्कै एउटा खेल मनपर्ने मानिसको संख्या पत्ता लगाउनुहोस्।"
+          },
+          "solution": {
+            "en": "Let $C$ and $F$ denote the sets of people who like cricket and football; $U$ is the total. $n(U)=300$, $n(C)=175$, $n(F)=150$, $n(\\overline{C \\cup F})=25$. Let $n(C \\cap F) = x$. Then $n(U) = n_0(C) + n(C\\cap F) + n_0(F) + n(\\overline{C\\cup F})$: $300 = (175-x) + x + (150-x) + 25$, so $300 = 350 - x$, giving $x = 50$. So $n(C\\cap F) = 50$ people like both games. Only cricket: $n_0(C) = 175 - 50 = 125$. Only football: $n_0(F) = 150 - 50 = 100$. Exactly one game: $n_0(C) + n_0(F) = 125 + 100 = 225$.",
+            "ne": "मानौं $C$ र $F$ ले क्रमशः क्रिकेट र फुटबल मनपर्ने मानिसको सेट जनाउँछ; $U$ कुल हो। $n(U)=300$, $n(C)=175$, $n(F)=150$, $n(\\overline{C \\cup F})=25$। मानौं $n(C \\cap F) = x$। त्यसपछि $n(U) = n_0(C) + n(C\\cap F) + n_0(F) + n(\\overline{C\\cup F})$: $300 = (175-x) + x + (150-x) + 25$, त्यसैले $300 = 350 - x$, जसबाट $x = 50$ आउँछ। त्यसैले $n(C\\cap F) = 50$ जनालाई दुवै खेल मनपर्छ। क्रिकेट मात्र: $n_0(C) = 175 - 50 = 125$। फुटबल मात्र: $n_0(F) = 150 - 50 = 100$। ठ्याक्कै एउटा खेल: $n_0(C) + n_0(F) = 125 + 100 = 225$।"
+          },
+          "referenceImageId": "img-ex1-1-1"
+        },
+        {
+          "exampleId": "ex-1-1-2",
+          "question": {
+            "en": "The result of a survey among 120 students of grade 10 is as follows: 30 like only Mathematics, 40 like only English, 10 like neither Mathematics nor English. a) Represent this in a Venn diagram. b) Find the number of students who like both subjects. c) Find the number of students who like at least one subject.",
+            "ne": "कक्षा १० का १२० जना विद्यार्थीको सर्वेक्षणको नतिजा यस्तो छ: ३० जनालाई गणित मात्र मनपर्छ, ४० जनालाई अंग्रेजी मात्र मनपर्छ, १० जनालाई गणित वा अंग्रेजी कुनै पनि मनपर्दैन। क) यसलाई भेन चित्रमा देखाउनुहोस्। ख) दुवै विषय मनपर्ने विद्यार्थीको संख्या पत्ता लगाउनुहोस्। ग) कम्तीमा एक विषय मनपर्ने विद्यार्थीको संख्या पत्ता लगाउनुहोस्।"
+          },
+          "solution": {
+            "en": "Let $M$ and $E$ denote sets of students who like Mathematics and English; $U$ is the total students. $n(U)=120$, $n_0(M)=30$, $n_0(E)=40$, $n(\\overline{M\\cup E})=10$. Let $n(M\\cap E)=x$. From the Venn diagram: $30 + x + 40 + 10 = 120$, so $80 + x = 120$, giving $x = 40$. So $n(M\\cap E) = 40$ students like both subjects. At least one subject: $n(M\\cup E) = 30 + 40 + 40 = 110$.",
+            "ne": "मानौं $M$ र $E$ ले क्रमशः गणित र अंग्रेजी मनपर्ने विद्यार्थीको सेट जनाउँछ; $U$ कुल विद्यार्थी हो। $n(U)=120$, $n_0(M)=30$, $n_0(E)=40$, $n(\\overline{M\\cup E})=10$। मानौं $n(M\\cap E)=x$। भेन चित्रबाट: $30 + x + 40 + 10 = 120$, त्यसैले $80 + x = 120$, जसबाट $x = 40$ आउँछ। त्यसैले $n(M\\cap E) = 40$ विद्यार्थीलाई दुवै विषय मनपर्छ। कम्तीमा एक विषय: $n(M\\cup E) = 30 + 40 + 40 = 110$।"
+          },
+          "referenceImageId": "img-ex1-1-2"
+        },
+        {
+          "exampleId": "ex-1-1-3",
+          "question": {
+            "en": "According to a survey among the SEE-appeared students from a school, 75% were interested in studying science and 55% were interested in studying staff nurse but 5% did not give any information whilst 21 students were interested in studying both science and staff nurse. Based on this, answer: a) Show this in a Venn diagram. b) Find the total number of students inquired in the survey. c) Find the number of students who were interested in studying only staff nurse.",
+            "ne": "स्कुलका SEE दिने विद्यार्थीहरूको सर्वेक्षण अनुसार, ७५% विज्ञान पढ्न र ५५% स्टाफ नर्स पढ्न इच्छुक थिए तर ५% ले जानकारी दिन अस्वीकार गरे भने २१ जना विद्यार्थी विज्ञान र स्टाफ नर्स दुवै पढ्न इच्छुक थिए। यसको आधारमा उत्तर दिनुहोस्: क) यसलाई भेन चित्रमा देखाउनुहोस्। ख) सर्वेक्षणमा सोधिएका कुल विद्यार्थीको संख्या पत्ता लगाउनुहोस्। ग) स्टाफ नर्स मात्र पढ्न इच्छुक विद्यार्थीको संख्या पत्ता लगाउनुहोस्।"
+          },
+          "solution": {
+            "en": "Let $S$ and $N$ denote sets of students interested in science and staff nurse; $U$ is the total. Let $n(U)=x$. Then $n(S)=0.75x$, $n(N)=0.55x$, $n(S\\cap N)=21$, $n(\\overline{S\\cup N})=0.05x$. From the Venn diagram: $(0.75x-21) + 21 + (0.55x-21) + 0.05x = x$, so $1.35x - 21 = x$, giving $0.35x = 21$, so $x = \\dfrac{21}{0.35} = 60$. The total number of students surveyed was $60$. Only staff nurse $= 0.55x - 21 = 0.55 \\times 60 - 21 = 33 - 21 = 12$.",
+            "ne": "मानौं $S$ र $N$ ले क्रमशः विज्ञान र स्टाफ नर्स पढ्न इच्छुक विद्यार्थीको सेट जनाउँछ; $U$ कुल हो। मानौं $n(U)=x$। त्यसपछि $n(S)=0.75x$, $n(N)=0.55x$, $n(S\\cap N)=21$, $n(\\overline{S\\cup N})=0.05x$। भेन चित्रबाट: $(0.75x-21) + 21 + (0.55x-21) + 0.05x = x$, त्यसैले $1.35x - 21 = x$, जसबाट $0.35x = 21$ हुन्छ, त्यसैले $x = \\dfrac{21}{0.35} = 60$। सर्वेक्षण गरिएका कुल विद्यार्थी संख्या ६० थियो। स्टाफ नर्स मात्र $= 0.55x - 21 = 0.55 \\times 60 - 21 = 33 - 21 = 12$।"
+          },
+          "referenceImageId": "img-ex1-1-3"
+        },
+        {
+          "exampleId": "ex-1-1-4",
+          "question": {
+            "en": "In a survey of 300 foreign tourists visiting Nepal, it was found that the ratio of the number of tourists who visited Pokhara and Lumbini was 2:3. Among them, 90 visited both places and 60 visited neither Pokhara nor Lumbini. Based on this, answer: a) Show this in a Venn diagram. b) Determine the number of tourists who visited only one place. c) Find the number of tourists who visited at least one of the places.",
+            "ne": "नेपाल भ्रमण गर्ने ३०० जना विदेशी पर्यटकको सर्वेक्षणमा, पोखरा र लुम्बिनी भ्रमण गर्नेको संख्याको अनुपात २:३ रहेको पाइयो। तीमध्ये ९० जनाले दुवै ठाउँ र ६० जनाले न पोखरा न लुम्बिनी भ्रमण गरे। यसको आधारमा उत्तर दिनुहोस्: क) यसलाई भेन चित्रमा देखाउनुहोस्। ख) एउटा मात्र ठाउँ भ्रमण गर्ने पर्यटकको संख्या पत्ता लगाउनुहोस्। ग) कम्तीमा एउटा ठाउँ भ्रमण गर्ने पर्यटकको संख्या पत्ता लगाउनुहोस्।"
+          },
+          "solution": {
+            "en": "Let $P$ and $L$ denote sets of tourists who visited Pokhara and Lumbini; $U$ is the total. $n(U)=300$, $n(P\\cap L)=90$, $n(\\overline{P\\cup L})=60$. Let $n(P)=2x$, $n(L)=3x$. From the Venn diagram: $(2x-90) + 90 + (3x-90) + 60 = 300$, so $5x - 30 = 300$, giving $5x = 330$, so $x = \\dfrac{330}{5} = 66$. Only Pokhara: $n_0(P) = 2(66) - 90 = 42$. Only Lumbini: $n_0(L) = 3(66) - 90 = 108$. Only one place $= 42 + 108 = 150$. At least one place $= 300 - 60 = 240$.",
+            "ne": "मानौं $P$ र $L$ ले क्रमशः पोखरा र लुम्बिनी भ्रमण गर्ने पर्यटकको सेट जनाउँछ; $U$ कुल हो। $n(U)=300$, $n(P\\cap L)=90$, $n(\\overline{P\\cup L})=60$। मानौं $n(P)=2x$, $n(L)=3x$। भेन चित्रबाट: $(2x-90) + 90 + (3x-90) + 60 = 300$, त्यसैले $5x - 30 = 300$, जसबाट $5x = 330$ हुन्छ, त्यसैले $x = \\dfrac{330}{5} = 66$। पोखरा मात्र: $n_0(P) = 2(66) - 90 = 42$। लुम्बिनी मात्र: $n_0(L) = 3(66) - 90 = 108$। एउटा मात्र ठाउँ $= 42 + 108 = 150$। कम्तीमा एउटा ठाउँ $= 300 - 60 = 240$।"
+          },
+          "referenceImageId": "img-ex1-1-4"
+        },
+        {
+          "exampleId": "ex-1-1-5",
+          "question": {
+            "en": "In a survey among 200 students studying in grade 10, it was found that the ratio of the number of students who like Mathematics and English was 2:3. Among them, 30% like both of them but 15% like neither Mathematics nor English. Based on this, answer: a) Represent this in a Venn diagram. b) What is the difference between the number of students who like Mathematics and the number of students who like English? Find it.",
+            "ne": "कक्षा १० मा अध्ययनरत २०० जना विद्यार्थीको सर्वेक्षणमा, गणित र अंग्रेजी मनपर्ने विद्यार्थीको संख्याको अनुपात २:३ रहेको पाइयो। तीमध्ये ३०% लाई दुवै मनपर्छ तर १५% लाई न गणित न अंग्रेजी मनपर्छ। यसको आधारमा उत्तर दिनुहोस्: क) यसलाई भेन चित्रमा देखाउनुहोस्। ख) गणित मनपर्ने र अंग्रेजी मनपर्ने विद्यार्थीको संख्याबीचको फरक कति हो? पत्ता लगाउनुहोस्।"
+          },
+          "solution": {
+            "en": "Let $M$ and $E$ denote sets of students who like Mathematics and English; $U$ is the total. $n(U)=200$, $n(M\\cap E)=30\\%$ of $200=60$, $n(\\overline{M\\cup E})=15\\%$ of $200=30$. Let $n_0(M)=2x$, $n_0(E)=3x$. From the Venn diagram: $2x + 60 + 3x + 30 = 200$, so $90 + 5x = 200$, giving $5x = 110$, so $x = \\dfrac{110}{5} = 22$. So $n(M) = 2x + 60 = 2(22) + 60 = 104$ and $n(E) = 3x + 60 = 3(22) + 60 = 126$. The difference is $n(E) - n(M) = 126 - 104 = 22$.",
+            "ne": "मानौं $M$ र $E$ ले क्रमशः गणित र अंग्रेजी मनपर्ने विद्यार्थीको सेट जनाउँछ; $U$ कुल हो। $n(U)=200$, $n(M\\cap E)=30\\%$ अफ $200=60$, $n(\\overline{M\\cup E})=15\\%$ अफ $200=30$। मानौं $n_0(M)=2x$, $n_0(E)=3x$। भेन चित्रबाट: $2x + 60 + 3x + 30 = 200$, त्यसैले $90 + 5x = 200$, जसबाट $5x = 110$ हुन्छ, त्यसैले $x = \\dfrac{110}{5} = 22$। त्यसैले $n(M) = 2x + 60 = 2(22) + 60 = 104$ र $n(E) = 3x + 60 = 3(22) + 60 = 126$। फरक $= n(E) - n(M) = 126 - 104 = 22$।"
+          },
+          "referenceImageId": "img-ex1-1-5"
+        }
+      ]
+    },
+    {
+      "sectionId": "sec-1-2",
+      "title": {
+        "en": "1.2 Cardinality of Three Sets",
+        "ne": "१.२ तीन सेटको गणनसंख्या"
+      },
+      "content": [
+        {
+          "blockId": "c-1-2-1",
+          "type": "worked_discussion",
+          "text": {
+            "en": "For three sets $A$, $B$, $C$ shown in a Venn diagram (Figure 1): $A=\\{1,3,4,6,9\\}$ so $n(A)=5$; $B=\\{5,6,7,8,9\\}$ so $n(B)=5$; $C=\\{2,4,6,8\\}$ so $n(C)=4$; $A\\cup B\\cup C=\\{1,2,3,4,5,6,7,8,9\\}$ so $n(A\\cup B\\cup C)=9$; and since $U$ has only these elements, $n(U)=9$, i.e. $n(A\\cup B\\cup C)=n(U)$. In a second diagram (Figure 2) where $U$ also contains element $10$ outside all three sets, $n(A\\cup B\\cup C)=8$ while $n(U)=10$, so $n(A\\cup B\\cup C) < n(U)$ because of elements outside all three sets.",
+            "ne": "एउटा भेन चित्रमा (चित्र १) देखाइएका तीन सेट $A$, $B$, $C$ का लागि: $A=\\{1,3,4,6,9\\}$ त्यसैले $n(A)=5$; $B=\\{5,6,7,8,9\\}$ त्यसैले $n(B)=5$; $C=\\{2,4,6,8\\}$ त्यसैले $n(C)=4$; $A\\cup B\\cup C=\\{1,2,3,4,5,6,7,8,9\\}$ त्यसैले $n(A\\cup B\\cup C)=9$; र $U$ मा यी सदस्य मात्र भएकोले, $n(U)=9$, अर्थात् $n(A\\cup B\\cup C)=n(U)$। दोस्रो चित्रमा (चित्र २) जहाँ $U$ मा तीनवटै सेटभन्दा बाहिर सदस्य $10$ पनि छ, त्यहाँ $n(A\\cup B\\cup C)=8$ हुन्छ जबकि $n(U)=10$, त्यसैले तीनवटै सेटभन्दा बाहिरका सदस्यहरूका कारण $n(A\\cup B\\cup C) < n(U)$ हुन्छ।"
+          },
+          "referenceImageId": "img-activity2-two-venns"
+        },
+        {
+          "blockId": "c-1-2-2",
+          "type": "worked_discussion",
+          "text": {
+            "en": "In a survey of a classroom, 40 students like orange, 35 like mango and 50 like banana. Among them, 15 like orange and mango, 20 like mango and banana, 25 like orange and banana, 5 like all three fruits, and 30 like none of the fruits. Let $O$, $M$, $B$ denote the sets. Insert $n(O\\cap M\\cap B)=5$ at the centre and $n(\\overline{O\\cup M\\cup B})=30$ outside. Since $n(O\\cap M)=15$ already includes the $5$ who like all three, orange-and-mango-only $n_0(O\\cap M)=15-5=10$. Similarly mango-and-banana-only $n_0(M\\cap B)=20-5=15$ and orange-and-banana-only $n_0(O\\cap B)=25-5=20$. Orange only $n_0(O)=40-(5+10+20)=5$; mango only $n_0(M)=35-(5+10+15)=5$; banana only $n_0(B)=50-(5+15+20)=10$. Total participants $n(U)=5+10+5+5+20+15+10+30=100$.",
+            "ne": "एउटा कक्षाकोठाका विद्यार्थीहरूको सर्वेक्षणमा, ४० जनालाई सुन्तला, ३५ जनालाई आँप र ५० जनालाई केरा मनपर्छ। तीमध्ये १५ जनालाई सुन्तला र आँप, २० जनालाई आँप र केरा, २५ जनालाई सुन्तला र केरा, ५ जनालाई तीनवटै फलफूल मनपर्छ, र ३० जनालाई कुनै पनि मनपर्दैन। मानौं $O$, $M$, $B$ ले सेटहरू जनाउँछ। केन्द्रमा $n(O\\cap M\\cap B)=5$ र बाहिर $n(\\overline{O\\cup M\\cup B})=30$ राखौं। $n(O\\cap M)=15$ मा पहिल्यै ५ जना (तीनवटै मनपर्ने) समावेश भएकोले, सुन्तला-र-आँप-मात्र $n_0(O\\cap M)=15-5=10$ हुन्छ। त्यसैगरी आँप-र-केरा-मात्र $n_0(M\\cap B)=20-5=15$ र सुन्तला-र-केरा-मात्र $n_0(O\\cap B)=25-5=20$ हुन्छ। सुन्तला मात्र $n_0(O)=40-(5+10+20)=5$; आँप मात्र $n_0(M)=35-(5+10+15)=5$; केरा मात्र $n_0(B)=50-(5+15+20)=10$। कुल सहभागी $n(U)=5+10+5+5+20+15+10+30=100$।"
+          },
+          "referenceImageId": "img-activity3-fruits"
+        },
+        {
+          "blockId": "c-1-2-3",
+          "type": "rule_box",
+          "text": {
+            "en": "If $A$, $B$, $C$ are overlapping sets, from the Venn diagram: (a) $n_0(A\\cap B) = n(A\\cap B) - n(A\\cap B\\cap C)$; (b) $n_0(A\\cap C) = n(A\\cap C) - n(A\\cap B\\cap C)$; (c) $n_0(B\\cap C) = n(B\\cap C) - n(A\\cap B\\cap C)$; (d) $n(A) = n_0(A) + n_0(A\\cap B) + n_0(A\\cap C) + n(A\\cap B\\cap C)$; (e) $n(B) = n_0(B) + n_0(A\\cap B) + n_0(B\\cap C) + n(A\\cap B\\cap C)$; (f) $n(C) = n_0(C) + n_0(A\\cap C) + n_0(B\\cap C) + n(A\\cap B\\cap C)$; (g) $n(U) = n_0(A)+n_0(B)+n_0(C)+n_0(A\\cap B)+n_0(B\\cap C)+n_0(A\\cap C)+n(A\\cap B\\cap C)+n(\\overline{A\\cup B\\cup C})$, i.e. $n(U)=n(A\\cup B\\cup C)+n(\\overline{A\\cup B\\cup C})$. Also, $n(A\\cup B\\cup C) = n(A)+n(B)+n(C)-n(A\\cap B)-n(B\\cap C)-n(A\\cap C)+n(A\\cap B\\cap C)$. If the sets are disjoint, $n(A\\cup B\\cup C) = n(A)+n(B)+n(C)$.",
+            "ne": "यदि $A$, $B$, $C$ ओभरल्यापिङ सेटहरू हुन् भने, भेन चित्रबाट: (क) $n_0(A\\cap B) = n(A\\cap B) - n(A\\cap B\\cap C)$; (ख) $n_0(A\\cap C) = n(A\\cap C) - n(A\\cap B\\cap C)$; (ग) $n_0(B\\cap C) = n(B\\cap C) - n(A\\cap B\\cap C)$; (घ) $n(A) = n_0(A) + n_0(A\\cap B) + n_0(A\\cap C) + n(A\\cap B\\cap C)$; (ङ) $n(B) = n_0(B) + n_0(A\\cap B) + n_0(B\\cap C) + n(A\\cap B\\cap C)$; (च) $n(C) = n_0(C) + n_0(A\\cap C) + n_0(B\\cap C) + n(A\\cap B\\cap C)$; (छ) $n(U) = n_0(A)+n_0(B)+n_0(C)+n_0(A\\cap B)+n_0(B\\cap C)+n_0(A\\cap C)+n(A\\cap B\\cap C)+n(\\overline{A\\cup B\\cup C})$, अर्थात् $n(U)=n(A\\cup B\\cup C)+n(\\overline{A\\cup B\\cup C})$। साथै, $n(A\\cup B\\cup C) = n(A)+n(B)+n(C)-n(A\\cap B)-n(B\\cap C)-n(A\\cap C)+n(A\\cap B\\cap C)$। यदि सेटहरू असंयुक्त (disjoint) छन् भने, $n(A\\cup B\\cup C) = n(A)+n(B)+n(C)$।"
+          }
+        }
+      ],
+      "examples": [
+        {
+          "exampleId": "ex-1-2-1",
+          "question": {
+            "en": "If $n(U) = 120$, $n(A) = 48$, $n(B) = 51$, $n(C) = 40$, $n(A\\cap B) = 11$, $n(B\\cap C) = 10$, $n(A\\cap C) = 9$, and $n(A\\cap B\\cap C) = 4$, then find $n(A\\cup B\\cup C)$ and $n(\\overline{A\\cup B\\cup C})$. Also show this in a Venn diagram.",
+            "ne": "यदि $n(U) = 120$, $n(A) = 48$, $n(B) = 51$, $n(C) = 40$, $n(A\\cap B) = 11$, $n(B\\cap C) = 10$, $n(A\\cap C) = 9$, र $n(A\\cap B\\cap C) = 4$ भए, $n(A\\cup B\\cup C)$ र $n(\\overline{A\\cup B\\cup C})$ पत्ता लगाउनुहोस्। यसलाई भेन चित्रमा पनि देखाउनुहोस्।"
+          },
+          "solution": {
+            "en": "We know $n(A\\cup B\\cup C) = n(A)+n(B)+n(C)-n(A\\cap B)-n(B\\cap C)-n(A\\cap C)+n(A\\cap B\\cap C) = 48+51+40-11-10-9+4 = 113$. Also $n(U) = n(A\\cup B\\cup C) + n(\\overline{A\\cup B\\cup C})$, so $120 = 113 + n(\\overline{A\\cup B\\cup C})$, giving $n(\\overline{A\\cup B\\cup C}) = 7$. In the Venn diagram: only $A=32$, $A\\cap B$ only $=7$, only $B=34$, all three $=4$, $A\\cap C$ only $=5$, $B\\cap C$ only $=6$, only $C=25$, outside $=7$.",
+            "ne": "हामीलाई थाहा छ $n(A\\cup B\\cup C) = n(A)+n(B)+n(C)-n(A\\cap B)-n(B\\cap C)-n(A\\cap C)+n(A\\cap B\\cap C) = 48+51+40-11-10-9+4 = 113$। साथै $n(U) = n(A\\cup B\\cup C) + n(\\overline{A\\cup B\\cup C})$, त्यसैले $120 = 113 + n(\\overline{A\\cup B\\cup C})$, जसबाट $n(\\overline{A\\cup B\\cup C}) = 7$ आउँछ। भेन चित्रमा: $A$ मात्र $=32$, $A\\cap B$ मात्र $=7$, $B$ मात्र $=34$, तीनवटै $=4$, $A\\cap C$ मात्र $=5$, $B\\cap C$ मात्र $=6$, $C$ मात्र $=25$, बाहिर $=7$।"
+          },
+          "referenceImageId": "img-ex1-2-1"
+        },
+        {
+          "exampleId": "ex-1-2-2",
+          "question": {
+            "en": "Among the 180 students who participated in the SLC examination in 2071 from Nepal Madhyamik Vidhyalaya, 86 passed in Science, 80 passed Maths, and 76 passed in Nepali. Out of them, 26 passed in Science and Maths, 36 passed in Maths and Nepali, and 32 passed in Science and Nepali, but 20 did not pass any subject. a) Show the given information in a Venn diagram. b) Find the number of students who passed in all three subjects.",
+            "ne": "नेपाल माध्यमिक विद्यालयबाट सन् २०७१ को SLC परीक्षामा सहभागी १८० जना विद्यार्थीमध्ये, ८६ जना विज्ञानमा, ८० जना गणितमा, र ७६ जना नेपालीमा उत्तीर्ण भए। तीमध्ये २६ जना विज्ञान र गणितमा, ३६ जना गणित र नेपालीमा, र ३२ जना विज्ञान र नेपालीमा उत्तीर्ण भए, तर २० जना कुनै पनि विषयमा उत्तीर्ण भएनन्। क) दिइएको जानकारीलाई भेन चित्रमा देखाउनुहोस्। ख) तीनवटै विषयमा उत्तीर्ण भएका विद्यार्थीको संख्या पत्ता लगाउनुहोस्।"
+          },
+          "solution": {
+            "en": "Let $n(U)=180$, $n(S)=86$ (Science), $n(M)=80$ (Maths), $n(N)=76$ (Nepali), $n(S\\cap M)=26$, $n(M\\cap N)=36$, $n(S\\cap N)=32$, $n(\\overline{M\\cup N\\cup S})=20$. We know $n(U) = n(S)+n(M)+n(N)-n(S\\cap M)-n(M\\cap N)-n(S\\cap N)+n(S\\cap M\\cap N)+n(\\overline{S\\cup M\\cup N})$: $180 = 86+80+76-26-36-32+n(S\\cap M\\cap N)+20$, so $180 = 168 + n(S\\cap M\\cap N)$, giving $n(S\\cap M\\cap N) = 12$. So 12 students passed in all three subjects. From the Venn diagram: only Science $=40$, $S\\cap M$ only $=14$, only Maths $=30$, all three $=12$, $S\\cap N$ only $=20$, $M\\cap N$ only $=24$, only Nepali $=20$, outside $=20$.",
+            "ne": "मानौं $n(U)=180$, $n(S)=86$ (विज्ञान), $n(M)=80$ (गणित), $n(N)=76$ (नेपाली), $n(S\\cap M)=26$, $n(M\\cap N)=36$, $n(S\\cap N)=32$, $n(\\overline{M\\cup N\\cup S})=20$। हामीलाई थाहा छ $n(U) = n(S)+n(M)+n(N)-n(S\\cap M)-n(M\\cap N)-n(S\\cap N)+n(S\\cap M\\cap N)+n(\\overline{S\\cup M\\cup N})$: $180 = 86+80+76-26-36-32+n(S\\cap M\\cap N)+20$, त्यसैले $180 = 168 + n(S\\cap M\\cap N)$, जसबाट $n(S\\cap M\\cap N) = 12$ आउँछ। त्यसैले १२ जना विद्यार्थी तीनवटै विषयमा उत्तीर्ण भए। भेन चित्रबाट: विज्ञान मात्र $=40$, $S\\cap M$ मात्र $=14$, गणित मात्र $=30$, तीनवटै $=12$, $S\\cap N$ मात्र $=20$, $M\\cap N$ मात्र $=24$, नेपाली मात्र $=20$, बाहिर $=20$।"
+          },
+          "referenceImageId": "img-ex1-2-2"
+        },
+        {
+          "exampleId": "ex-1-2-3",
+          "question": {
+            "en": "A school distributed medals for the students in different events of a competition. 36 got medals in dance, 12 in drama and 18 in music. If only 45 students got medals and 4 students got medals in all three events, then find the number of students who got medals in exactly two events.",
+            "ne": "एउटा विद्यालयले प्रतियोगिताका विभिन्न कार्यक्रममा विद्यार्थीहरूलाई पदक वितरण गर्यो। ३६ जनाले नृत्यमा, १२ जनाले नाटकमा र १८ जनाले संगीतमा पदक पाए। यदि जम्मा ४५ जना विद्यार्थीले मात्र पदक पाए र ४ जना विद्यार्थीले तीनवटै कार्यक्रममा पदक पाए भने, ठ्याक्कै दुई कार्यक्रममा पदक पाउने विद्यार्थीको संख्या पत्ता लगाउनुहोस्।"
+          },
+          "solution": {
+            "en": "Let $n(A)$, $n(B)$, $n(C)$ denote students who got medals in dance, drama, music: $n(A)=36$, $n(B)=12$, $n(C)=18$, $n(A\\cup B\\cup C)=45$, $n(A\\cap B\\cap C)=4$. We know $n(A\\cup B\\cup C) = n(A)+n(B)+n(C)-n(A\\cap B)-n(B\\cap C)-n(A\\cap C)+n(A\\cap B\\cap C)$: $45 = 36+12+18 - [n(A\\cap B)+n(B\\cap C)+n(A\\cap C)] + 4$, so $45 = 70 - [\\,n(A\\cap B)+n(B\\cap C)+n(A\\cap C)\\,]$, giving $n(A\\cap B)+n(B\\cap C)+n(A\\cap C) = 25$. Now, exactly two events $= n_0(A\\cap B)+n_0(B\\cap C)+n_0(A\\cap C) = [n(A\\cap B)-n(A\\cap B\\cap C)] + [n(B\\cap C)-n(A\\cap B\\cap C)] + [n(A\\cap C)-n(A\\cap B\\cap C)] = 25 - 3(4) = 25 - 12 = 13$. So 13 students got medals in exactly two events.",
+            "ne": "मानौं $n(A)$, $n(B)$, $n(C)$ ले क्रमशः नृत्य, नाटक, संगीतमा पदक पाउने विद्यार्थी जनाउँछ: $n(A)=36$, $n(B)=12$, $n(C)=18$, $n(A\\cup B\\cup C)=45$, $n(A\\cap B\\cap C)=4$। हामीलाई थाहा छ $n(A\\cup B\\cup C) = n(A)+n(B)+n(C)-n(A\\cap B)-n(B\\cap C)-n(A\\cap C)+n(A\\cap B\\cap C)$: $45 = 36+12+18 - [n(A\\cap B)+n(B\\cap C)+n(A\\cap C)] + 4$, त्यसैले $45 = 70 - [\\,n(A\\cap B)+n(B\\cap C)+n(A\\cap C)\\,]$, जसबाट $n(A\\cap B)+n(B\\cap C)+n(A\\cap C) = 25$ आउँछ। अब, ठ्याक्कै दुई कार्यक्रम $= n_0(A\\cap B)+n_0(B\\cap C)+n_0(A\\cap C) = [n(A\\cap B)-n(A\\cap B\\cap C)] + [n(B\\cap C)-n(A\\cap B\\cap C)] + [n(A\\cap C)-n(A\\cap B\\cap C)] = 25 - 3(4) = 25 - 12 = 13$। त्यसैले १३ जना विद्यार्थीले ठ्याक्कै दुई कार्यक्रममा पदक पाए।"
+          },
+          "referenceImageId": "img-ex1-2-3"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "exerciseId": "ex1.1-q1",
+      "text": {
+        "en": "Question 1",
+        "ne": "प्रश्न १"
+      },
+      "parts": [
+        {
+          "partId": "ex1.1-q1-a",
+          "text": {
+            "en": "Present the cardinality of sets with examples and show it to your teacher.",
+            "ne": "उदाहरणसहित सेटको गणनसंख्या प्रस्तुत गरी आफ्नो शिक्षकलाई देखाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "ex1.1-q1-b",
+          "text": {
+            "en": "For two sets $A$ and $B$, $A \\subset B$, find the values of $n(A \\cup B)$ and $n(A \\cap B)$.",
+            "ne": "दुई सेट $A$ र $B$ का लागि, $A \\subset B$ छ भने, $n(A \\cup B)$ र $n(A \\cap B)$ को मान पत्ता लगाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "ex1.1-q1-c",
+          "text": {
+            "en": "If $A$ and $B$ are overlapping sets, state the formula for $n(A \\cup B)$.",
+            "ne": "यदि $A$ र $B$ ओभरल्यापिङ सेटहरू हुन् भने, $n(A \\cup B)$ को सूत्र लेख्नुहोस्।"
+          }
+        },
+        {
+          "partId": "ex1.1-q1-d",
+          "text": {
+            "en": "There are 12 and 8 elements in the sets $A$ and $B$ respectively. Find the minimum number of elements that would be in the set $n(A \\cup B)$.",
+            "ne": "सेट $A$ र $B$ मा क्रमशः १२ र ८ वटा सदस्य छन्। $n(A \\cup B)$ मा हुन सक्ने न्यूनतम सदस्य संख्या पत्ता लगाउनुहोस्।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex1.1-q2",
+      "text": {
+        "en": "In the given Venn diagram, 80 people are in set $M$, 90 people are in set $E$, and 15 people are not in both the sets. Determine the cardinality of the following sets.",
+        "ne": "दिइएको भेन चित्रमा, सेट $M$ मा ८० जना र सेट $E$ मा ९० जना छन्, र १५ जना दुवै सेटमा छैनन्। निम्न सेटहरूको गणनसंख्या पत्ता लगाउनुहोस्।"
+      },
+      "referenceImageId": "img-ex1-1-q2",
+      "parts": [
+        {
+          "partId": "ex1.1-q2-a",
+          "text": {
+            "en": "$n_0(M)$",
+            "ne": "$n_0(M)$"
+          }
+        },
+        {
+          "partId": "ex1.1-q2-b",
+          "text": {
+            "en": "$n_0(E)$",
+            "ne": "$n_0(E)$"
+          }
+        },
+        {
+          "partId": "ex1.1-q2-c",
+          "text": {
+            "en": "$n(M)$",
+            "ne": "$n(M)$"
+          }
+        },
+        {
+          "partId": "ex1.1-q2-d",
+          "text": {
+            "en": "$n(E)$",
+            "ne": "$n(E)$"
+          }
+        },
+        {
+          "partId": "ex1.1-q2-e",
+          "text": {
+            "en": "$n(M \\cup E)$",
+            "ne": "$n(M \\cup E)$"
+          }
+        },
+        {
+          "partId": "ex1.1-q2-f",
+          "text": {
+            "en": "$n(M \\cap E)$",
+            "ne": "$n(M \\cap E)$"
+          }
+        },
+        {
+          "partId": "ex1.1-q2-g",
+          "text": {
+            "en": "$n(\\overline{M \\cup E})$",
+            "ne": "$n(\\overline{M \\cup E})$"
+          }
+        },
+        {
+          "partId": "ex1.1-q2-h",
+          "text": {
+            "en": "$n(U)$",
+            "ne": "$n(U)$"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex1.1-q3",
+      "text": {
+        "en": "Question 3",
+        "ne": "प्रश्न ३"
+      },
+      "parts": [
+        {
+          "partId": "ex1.1-q3-a",
+          "text": {
+            "en": "If $n(U) = 200$, $n_0(M) = 2x$, $n_0(E) = 3x$, $n(M\\cap E) = 60$ and $n(\\overline{M\\cup E}) = 40$, find the value of $x$.",
+            "ne": "यदि $n(U) = 200$, $n_0(M) = 2x$, $n_0(E) = 3x$, $n(M\\cap E) = 60$ र $n(\\overline{M\\cup E}) = 40$ भए, $x$ को मान पत्ता लगाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "ex1.1-q3-b",
+          "text": {
+            "en": "If $n(U) = 350$, $n(A) = 200$, $n(B) = 220$ and $n(A\\cap B) = 120$, then find $n(A\\cup B)$ and $n(\\overline{A\\cup B})$.",
+            "ne": "यदि $n(U) = 350$, $n(A) = 200$, $n(B) = 220$ र $n(A\\cap B) = 120$ भए, $n(A\\cup B)$ र $n(\\overline{A\\cup B})$ पत्ता लगाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "ex1.1-q3-c",
+          "text": {
+            "en": "If $n(A) = 35$ and $n(\\overline{A}) = 25$, then find the value of $n(U)$.",
+            "ne": "यदि $n(A) = 35$ र $n(\\overline{A}) = 25$ भए, $n(U)$ को मान पत्ता लगाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "ex1.1-q3-d",
+          "text": {
+            "en": "Out of two sets $P$ and $Q$, there are 40 elements in $P$, 60 elements in $(P\\cup Q)$ and 10 elements in $(P\\cap Q)$. How many elements are there in $Q$? Find it.",
+            "ne": "दुई सेट $P$ र $Q$ मध्ये, $P$ मा ४० वटा, $(P\\cup Q)$ मा ६० वटा र $(P\\cap Q)$ मा १० वटा सदस्य छन्। $Q$ मा कति सदस्य छन्? पत्ता लगाउनुहोस्।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex1.1-q4",
+      "text": {
+        "en": "Question 4",
+        "ne": "प्रश्न ४"
+      },
+      "parts": [
+        {
+          "partId": "ex1.1-q4-a",
+          "text": {
+            "en": "In a survey of 180 students of a school, 45 like Nepali only and 60 like English only but 15 like none of the subjects. Based on this information, answer: i) Show the above information in a Venn diagram. ii) Find the number of students who like both the subjects. iii) Find the number of students who like at least one subject.",
+            "ne": "एउटा विद्यालयका १८० जना विद्यार्थीको सर्वेक्षणमा, ४५ जनालाई नेपाली मात्र र ६० जनालाई अंग्रेजी मात्र मनपर्छ तर १५ जनालाई कुनै पनि विषय मनपर्दैन। यस जानकारीको आधारमा उत्तर दिनुहोस्: i) माथिको जानकारीलाई भेन चित्रमा देखाउनुहोस्। ii) दुवै विषय मनपर्ने विद्यार्थीको संख्या पत्ता लगाउनुहोस्। iii) कम्तीमा एक विषय मनपर्ने विद्यार्थीको संख्या पत्ता लगाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "ex1.1-q4-b",
+          "text": {
+            "en": "In a survey among 1200 students of a school, 100 like Mathematics only and 200 like Science only but 700 like neither of the subjects. Based on the information, answer: i) Show the above information in a Venn diagram. ii) Find the number of students who like both the subjects. iii) Find the number of students who like at least one subject.",
+            "ne": "एउटा विद्यालयका १२०० जना विद्यार्थीमध्येको सर्वेक्षणमा, १०० जनालाई गणित मात्र र २०० जनालाई विज्ञान मात्र मनपर्छ तर ७०० जनालाई कुनै पनि विषय मनपर्दैन। यस जानकारीको आधारमा उत्तर दिनुहोस्: i) माथिको जानकारीलाई भेन चित्रमा देखाउनुहोस्। ii) दुवै विषय मनपर्ने विद्यार्थीको संख्या पत्ता लगाउनुहोस्। iii) कम्तीमा एक विषय मनपर्ने विद्यार्थीको संख्या पत्ता लगाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "ex1.1-q4-c",
+          "text": {
+            "en": "In a survey among 60 students, 10 play football only and 20 play volleyball only but 12 play neither of the games. Based on the information, answer: i) Show the above information in a Venn diagram. ii) Find the number of students who play both the games. iii) Find the number of students who play at least one game.",
+            "ne": "६० जना विद्यार्थीमध्येको सर्वेक्षणमा, १० जनाले फुटबल मात्र र २० जनाले भलिबल मात्र खेल्छन् तर १२ जनाले कुनै पनि खेल्दैनन्। यस जानकारीको आधारमा उत्तर दिनुहोस्: i) माथिको जानकारीलाई भेन चित्रमा देखाउनुहोस्। ii) दुवै खेल खेल्ने विद्यार्थीको संख्या पत्ता लगाउनुहोस्। iii) कम्तीमा एक खेल खेल्ने विद्यार्थीको संख्या पत्ता लगाउनुहोस्।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex1.1-q5",
+      "text": {
+        "en": "Question 5",
+        "ne": "प्रश्न ५"
+      },
+      "parts": [
+        {
+          "partId": "ex1.1-q5-a",
+          "text": {
+            "en": "A survey was carried out among 900 people of a community. According to the survey, 525 read Madhupark, 450 read Yubamanch but 75 didn't read either of the newspapers. Using the information, answer: i) Show the information in a Venn diagram. ii) Find the number of people who read both the newspapers. iii) Find the number of people who read only one newspaper.",
+            "ne": "९०० जना समुदायका मानिसहरूमध्ये सर्वेक्षण गरियो। सर्वेक्षण अनुसार, ५२५ जनाले मधुपार्क पढ्छन्, ४५० जनाले युवामञ्च पढ्छन् तर ७५ जनाले दुवैमध्ये कुनै पनि पढ्दैनन्। यो जानकारी प्रयोग गरी उत्तर दिनुहोस्: i) जानकारीलाई भेन चित्रमा देखाउनुहोस्। ii) दुवै पत्रिका पढ्ने मानिसको संख्या पत्ता लगाउनुहोस्। iii) एउटा मात्र पत्रिका पढ्ने मानिसको संख्या पत्ता लगाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "ex1.1-q5-b",
+          "text": {
+            "en": "According to a survey among 150 people, 90 like modern songs, 70 like folk songs but 30 do not like either of the songs. Using the information, answer: i) Show the information in a Venn diagram. ii) Find the number of people who like both the songs. iii) Find the number of people who like only modern songs.",
+            "ne": "१५० जना मानिसमध्येको सर्वेक्षण अनुसार, ९० जनालाई आधुनिक गीत, ७० जनालाई लोकगीत मनपर्छ तर ३० जनालाई दुवैमध्ये कुनै पनि मनपर्दैन। यो जानकारी प्रयोग गरी उत्तर दिनुहोस्: i) जानकारीलाई भेन चित्रमा देखाउनुहोस्। ii) दुवै गीत मनपर्ने मानिसको संख्या पत्ता लगाउनुहोस्। iii) आधुनिक गीत मात्र मनपर्ने मानिसको संख्या पत्ता लगाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "ex1.1-q5-c",
+          "text": {
+            "en": "According to a survey among 360 players, 210 liked to play volleyball, 180 liked to play football but 30 liked to play neither of the games. Using the information, answer: i) Show the information in a Venn diagram. ii) Find the number of players who like to play both the games. iii) Find the number of people who like to play only one game.",
+            "ne": "३६० जना खेलाडीमध्येको सर्वेक्षण अनुसार, २१० जनालाई भलिबल र १८० जनालाई फुटबल खेल्न मनपर्छ तर ३० जनालाई दुवैमध्ये कुनै पनि खेल्न मनपर्दैन। यो जानकारी प्रयोग गरी उत्तर दिनुहोस्: i) जानकारीलाई भेन चित्रमा देखाउनुहोस्। ii) दुवै खेल खेल्न मनपर्ने खेलाडीको संख्या पत्ता लगाउनुहोस्। iii) एउटा मात्र खेल खेल्न मनपर्ने मानिसको संख्या पत्ता लगाउनुहोस्।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex1.1-q6",
+      "text": {
+        "en": "Question 6",
+        "ne": "प्रश्न ६"
+      },
+      "parts": [
+        {
+          "partId": "ex1.1-q6-a",
+          "text": {
+            "en": "Out of the students who participated in an examination, 70% passed English, 60% passed Mathematics but 20% failed both the subjects and 550 students passed both the subjects. Based on the information, answer: i) Show the above information in a Venn diagram. ii) Find the total number of students participated in the examination. iii) Find how many students passed English only.",
+            "ne": "परीक्षामा सहभागी विद्यार्थीहरूमध्ये, ७०% ले अंग्रेजी उत्तीर्ण गरे, ६०% ले गणित उत्तीर्ण गरे तर २०% दुवै विषयमा अनुत्तीर्ण भए र ५५० जना विद्यार्थी दुवै विषयमा उत्तीर्ण भए। यस जानकारीको आधारमा उत्तर दिनुहोस्: i) माथिको जानकारीलाई भेन चित्रमा देखाउनुहोस्। ii) परीक्षामा सहभागी कुल विद्यार्थीको संख्या पत्ता लगाउनुहोस्। iii) कति विद्यार्थी अंग्रेजी मात्र उत्तीर्ण भए पत्ता लगाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "ex1.1-q6-b",
+          "text": {
+            "en": "According to a survey of students who have appeared for the examination of grade 10, 60% are interested to study Science, 70% are interested to study Management but 10% rejected in the interest to study both Science and Management whilst 400 students are interested to study both Science and Management. Based on this information, answer: i) Show the above information in a Venn diagram. ii) Find how many students participated in the survey. iii) Find the number of students who are interested to study Science only.",
+            "ne": "कक्षा १० को परीक्षा दिने विद्यार्थीहरूको सर्वेक्षण अनुसार, ६०% विज्ञान पढ्न र ७०% व्यवस्थापन पढ्न इच्छुक थिए तर १०% ले विज्ञान र व्यवस्थापन दुवैमा रुचि अस्वीकार गरे जबकि ४०० जना विद्यार्थी विज्ञान र व्यवस्थापन दुवै पढ्न इच्छुक थिए। यस जानकारीको आधारमा उत्तर दिनुहोस्: i) माथिको जानकारीलाई भेन चित्रमा देखाउनुहोस्। ii) सर्वेक्षणमा कति विद्यार्थी सहभागी भए पत्ता लगाउनुहोस्। iii) विज्ञान मात्र पढ्न इच्छुक विद्यार्थीको संख्या पत्ता लगाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "ex1.1-q6-c",
+          "text": {
+            "en": "In a survey among people of a community, 65% ride motorcycle, 35% ride scooter but 20% ride both whereas 200 people ride both motorcycle and scooter. Using this information, answer: i) Show the above information in a Venn diagram. ii) Find how many people participated in the survey. iii) Find the number of people who ride motorcycles only.",
+            "ne": "एउटा समुदायका मानिसहरूको सर्वेक्षणमा, ६५% ले मोटरसाइकल चलाउँछन्, ३५% ले स्कुटर चलाउँछन् तर २०% ले दुवै चलाउँछन् जबकि २०० जनाले मोटरसाइकल र स्कुटर दुवै चलाउँछन्। यो जानकारी प्रयोग गरी उत्तर दिनुहोस्: i) माथिको जानकारीलाई भेन चित्रमा देखाउनुहोस्। ii) सर्वेक्षणमा कति मानिस सहभागी भए पत्ता लगाउनुहोस्। iii) मोटरसाइकल मात्र चलाउने मानिसको संख्या पत्ता लगाउनुहोस्।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex1.1-q7",
+      "text": {
+        "en": "Question 7",
+        "ne": "प्रश्न ७"
+      },
+      "parts": [
+        {
+          "partId": "ex1.1-q7-a",
+          "text": {
+            "en": "Among 95 people of a community, it was surveyed that the ratio of the number of people who drink tea and coffee is 4:5, whereas 10 people drink both tea and coffee but 15 do not drink either tea or coffee. Based on the information, answer: i) Show the information in a Venn diagram. ii) Find the number of people who drink exactly one of tea or coffee. iii) Find the number of people who drink at least one; either tea or coffee.",
+            "ne": "९५ जना समुदायका मानिसमध्ये सर्वेक्षण गरिएको थियो, चिया र कफी पिउनेको संख्याको अनुपात ४:५ रहेको थियो, जसमध्ये १० जनाले चिया र कफी दुवै पिउँछन् तर १५ जनाले चिया वा कफी कुनै पनि पिउँदैनन्। यस जानकारीको आधारमा उत्तर दिनुहोस्: i) जानकारीलाई भेन चित्रमा देखाउनुहोस्। ii) चिया वा कफीमध्ये ठ्याक्कै एउटा मात्र पिउने मानिसको संख्या पत्ता लगाउनुहोस्। iii) कम्तीमा एउटा; चिया वा कफी पिउने मानिसको संख्या पत्ता लगाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "ex1.1-q7-b",
+          "text": {
+            "en": "In a survey of 64 students of a class, the ratio of the number of students who like milk only and curd only is 2:1 whereas 16 like both. Based on this information, answer: i) Show the above information in a Venn diagram. ii) Find the number of students who like milk. iii) Find the number of students who like only one kind of drink.",
+            "ne": "एउटा कक्षाका ६४ जना विद्यार्थीको सर्वेक्षणमा, दूध मात्र र दही मात्र मनपर्ने विद्यार्थीको संख्याको अनुपात २:१ रहेको छ जबकि १६ जनालाई दुवै मनपर्छ। यस जानकारीको आधारमा उत्तर दिनुहोस्: i) माथिको जानकारीलाई भेन चित्रमा देखाउनुहोस्। ii) दूध मनपर्ने विद्यार्थीको संख्या पत्ता लगाउनुहोस्। iii) एक मात्र किसिमको पेय पदार्थ मनपर्ने विद्यार्थीको संख्या पत्ता लगाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "ex1.1-q7-c",
+          "text": {
+            "en": "In a conference of 320 participants, it was surveyed that 60 participants only sing and 100 only dance. If the number of people who do not do both is three times the number of people who do both, with the help of this information, answer: i) Show the above information in a Venn diagram. ii) Find how many people do not do both genres. iii) Find the number of people who do one genre at most.",
+            "ne": "३२० जना सहभागीको सम्मेलनमा, ६० जना मात्र गीत गाउने र १०० जना मात्र नाच्ने सर्वेक्षणमा पाइयो। यदि दुवै नगर्ने मानिसको संख्या दुवै गर्ने मानिसको संख्याको तीन गुणा छ भने, यो जानकारीको सहायताले उत्तर दिनुहोस्: i) माथिको जानकारीलाई भेन चित्रमा देखाउनुहोस्। ii) कति मानिसले दुवै विधा नगर्ने पत्ता लगाउनुहोस्। iii) बढीमा एउटा विधा गर्ने मानिसको संख्या पत्ता लगाउनुहोस्।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex1.1-q8",
+      "text": {
+        "en": "According to a survey of 200 people of a community, it was found that the ratio of the number of people who use laptop only and mobile only is 2:3, among them, 30% use both but 15% does not use both the gadgets. Based on this information, answer:",
+        "ne": "२०० जना समुदायका मानिसको सर्वेक्षण अनुसार, ल्यापटप मात्र र मोबाइल मात्र प्रयोग गर्नेको संख्याको अनुपात २:३ रहेको पाइयो, जसमध्ये ३०% ले दुवै प्रयोग गर्छन् तर १५% ले दुवैमध्ये कुनै पनि प्रयोग गर्दैनन्। यस जानकारीको आधारमा उत्तर दिनुहोस्:"
+      },
+      "parts": [
+        {
+          "partId": "ex1.1-q8-i",
+          "text": {
+            "en": "Show the above information in a Venn diagram.",
+            "ne": "माथिको जानकारीलाई भेन चित्रमा देखाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "ex1.1-q8-ii",
+          "text": {
+            "en": "Find the number of people who use laptop.",
+            "ne": "ल्यापटप प्रयोग गर्ने मानिसको संख्या पत्ता लगाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "ex1.1-q8-iii",
+          "text": {
+            "en": "Find how many people use one gadget at most.",
+            "ne": "बढीमा एउटा गजेट प्रयोग गर्ने मानिस कति छन् पत्ता लगाउनुहोस्।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex1.1-q9",
+      "text": {
+        "en": "Out of 300 players in a survey, one-third players play volleyball only. 60% of the remaining players play football only. But 60 players do not play both. Then, find the ratio of the number of players who play volleyball and football by using the Venn diagram.",
+        "ne": "३०० जना खेलाडीको सर्वेक्षणमध्ये, एक तिहाइ खेलाडीले भलिबल मात्र खेल्छन्। बाँकी खेलाडीमध्ये ६०% ले फुटबल मात्र खेल्छन्। तर ६० जना खेलाडीले दुवै खेल्दैनन्। भेन चित्र प्रयोग गरी, भलिबल र फुटबल खेल्ने खेलाडीको संख्याको अनुपात पत्ता लगाउनुहोस्।"
+      },
+      "parts": []
+    },
+    {
+      "exerciseId": "ex1.1-q10",
+      "text": {
+        "en": "Among 65 players participated in a survey, 11 play volleyball only and 33 play cricket only. If the number of players who play cricket is the double of the number of players who play volleyball, find the number of players who play both and the number of players who does not play both by using Venn diagram.",
+        "ne": "६५ जना खेलाडी सहभागी सर्वेक्षणमध्ये, ११ जनाले भलिबल मात्र र ३३ जनाले क्रिकेट मात्र खेल्छन्। यदि क्रिकेट खेल्ने खेलाडीको संख्या भलिबल खेल्ने खेलाडीको संख्याको दोब्बर छ भने, भेन चित्र प्रयोग गरी दुवै खेल्ने र दुवै नखेल्ने खेलाडीको संख्या पत्ता लगाउनुहोस्।"
+      },
+      "parts": []
+    },
+    {
+      "exerciseId": "ex1.1-q11",
+      "text": {
+        "en": "In a survey of 80 people, 60 like orange only and 10 like both orange and apple. The number of people who like orange is 5 times the number of people who like apple. By using the Venn diagram, find the number of people who like apples only and those who do not like both the fruits.",
+        "ne": "८० जना मानिसको सर्वेक्षणमा, ६० जनालाई सुन्तला मात्र मनपर्छ र १० जनालाई सुन्तला र स्याउ दुवै मनपर्छ। सुन्तला मनपर्ने मानिसको संख्या स्याउ मनपर्ने मानिसको संख्याको ५ गुणा छ। भेन चित्र प्रयोग गरी, स्याउ मात्र मनपर्ने र दुवै फलफूल नमनपर्ने मानिसको संख्या पत्ता लगाउनुहोस्।"
+      },
+      "parts": []
+    },
+    {
+      "exerciseId": "ex1.2-q1",
+      "text": {
+        "en": "In the given Venn diagram, the elements of sets $P$, $Q$ and $R$ are illustrated. Based on this, find the values of the following sets.",
+        "ne": "दिइएको भेन चित्रमा, सेट $P$, $Q$ र $R$ का सदस्यहरू देखाइएका छन्। यसको आधारमा, निम्न सेटहरूको मान पत्ता लगाउनुहोस्।"
+      },
+      "referenceImageId": "img-ex1-2-q1",
+      "parts": [
+        {
+          "partId": "ex1.2-q1-a",
+          "text": {
+            "en": "$n(P)$",
+            "ne": "$n(P)$"
+          }
+        },
+        {
+          "partId": "ex1.2-q1-b",
+          "text": {
+            "en": "$n(Q)$",
+            "ne": "$n(Q)$"
+          }
+        },
+        {
+          "partId": "ex1.2-q1-c",
+          "text": {
+            "en": "$n(P\\cup Q\\cup R)$",
+            "ne": "$n(P\\cup Q\\cup R)$"
+          }
+        },
+        {
+          "partId": "ex1.2-q1-d",
+          "text": {
+            "en": "$n_0(P)$",
+            "ne": "$n_0(P)$"
+          }
+        },
+        {
+          "partId": "ex1.2-q1-e",
+          "text": {
+            "en": "$n_0(R)$",
+            "ne": "$n_0(R)$"
+          }
+        },
+        {
+          "partId": "ex1.2-q1-f",
+          "text": {
+            "en": "$n(P\\cap R)$",
+            "ne": "$n(P\\cap R)$"
+          }
+        },
+        {
+          "partId": "ex1.2-q1-g",
+          "text": {
+            "en": "$n(\\overline{P\\cup Q\\cup R})$",
+            "ne": "$n(\\overline{P\\cup Q\\cup R})$"
+          }
+        },
+        {
+          "partId": "ex1.2-q1-h",
+          "text": {
+            "en": "$n_0(P\\cap Q)$",
+            "ne": "$n_0(P\\cap Q)$"
+          }
+        },
+        {
+          "partId": "ex1.2-q1-i",
+          "text": {
+            "en": "$n(P\\cap Q\\cap R)$",
+            "ne": "$n(P\\cap Q\\cap R)$"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex1.2-q2",
+      "text": {
+        "en": "If $U = \\{$positive integers less than 30$\\}$, $P = \\{$multiples of 2 less than 30$\\}$, $Q = \\{$multiples of 3 less than 30$\\}$ and $R = \\{$multiples of 5 less than 30$\\}$, show the relation between the sets $P$, $Q$ and $R$ in a Venn diagram and verify the following relations:",
+        "ne": "यदि $U = \\{$३० भन्दा साना धनात्मक पूर्णांकहरू$\\}$, $P = \\{$३० भन्दा साना २ का गुणजहरू$\\}$, $Q = \\{$३० भन्दा साना ३ का गुणजहरू$\\}$ र $R = \\{$३० भन्दा साना ५ का गुणजहरू$\\}$ भए, सेट $P$, $Q$ र $R$ बीचको सम्बन्धलाई भेन चित्रमा देखाई निम्न सम्बन्धहरू प्रमाणित गर्नुहोस्:"
+      },
+      "parts": [
+        {
+          "partId": "ex1.2-q2-a",
+          "text": {
+            "en": "$n(P\\cup Q) = n(P) + n(Q) - n(P\\cap Q)$",
+            "ne": "$n(P\\cup Q) = n(P) + n(Q) - n(P\\cap Q)$"
+          }
+        },
+        {
+          "partId": "ex1.2-q2-b",
+          "text": {
+            "en": "$n(P\\cup Q\\cup R) = n(P) + n(Q) + n(R) - n(P\\cap Q) - n(Q\\cap R) - n(R\\cap P) + n(P\\cap Q\\cap R)$",
+            "ne": "$n(P\\cup Q\\cup R) = n(P) + n(Q) + n(R) - n(P\\cap Q) - n(Q\\cap R) - n(R\\cap P) + n(P\\cap Q\\cap R)$"
+          }
+        },
+        {
+          "partId": "ex1.2-q2-c",
+          "text": {
+            "en": "$n(P\\cup Q\\cup R) = n(P-Q) + n(Q-R) + n(R-P) + n(P\\cap Q\\cap R)$",
+            "ne": "$n(P\\cup Q\\cup R) = n(P-Q) + n(Q-R) + n(R-P) + n(P\\cap Q\\cap R)$"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex1.2-q3",
+      "text": {
+        "en": "Question 3",
+        "ne": "प्रश्न ३"
+      },
+      "parts": [
+        {
+          "partId": "ex1.2-q3-a",
+          "text": {
+            "en": "If $n(U) = 100$, $n(M) = 45$, $n(E) = 50$, $n(S) = 35$, $n(M\\cap E) = 20$, $n(E\\cap S) = 20$, $n(S\\cap M) = 15$ and $n(M\\cap E\\cap S) = 5$, then find $n(\\overline{M\\cup E\\cup S})$.",
+            "ne": "यदि $n(U) = 100$, $n(M) = 45$, $n(E) = 50$, $n(S) = 35$, $n(M\\cap E) = 20$, $n(E\\cap S) = 20$, $n(S\\cap M) = 15$ र $n(M\\cap E\\cap S) = 5$ भए, $n(\\overline{M\\cup E\\cup S})$ पत्ता लगाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "ex1.2-q3-b",
+          "text": {
+            "en": "If $n(U) = 105$, $n(A) = 40$, $n(B) = 35$, $n(C) = 30$, $n(A\\cap B) = 15$, $n(B\\cap C) = 12$, $n(A\\cap B\\cap C) = 6$ and $n(\\overline{A\\cup B\\cup C})= 30$, then find $n(A\\cap C)$.",
+            "ne": "यदि $n(U) = 105$, $n(A) = 40$, $n(B) = 35$, $n(C) = 30$, $n(A\\cap B) = 15$, $n(B\\cap C) = 12$, $n(A\\cap B\\cap C) = 6$ र $n(\\overline{A\\cup B\\cup C})= 30$ भए, $n(A\\cap C)$ पत्ता लगाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "ex1.2-q3-c",
+          "text": {
+            "en": "If $n(U) = 120$, $n(M) = 50$, $n(E) = 40$, $n(S) = 45$, $n(M\\cap E) = 15$, $n(E\\cap S) = 15$, $n(S\\cap M) = 15$ and $n(\\overline{M\\cup E\\cup S}) = 15$, then find $n(M\\cap E\\cap S)$.",
+            "ne": "यदि $n(U) = 120$, $n(M) = 50$, $n(E) = 40$, $n(S) = 45$, $n(M\\cap E) = 15$, $n(E\\cap S) = 15$, $n(S\\cap M) = 15$ र $n(\\overline{M\\cup E\\cup S}) = 15$ भए, $n(M\\cap E\\cap S)$ पत्ता लगाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "ex1.2-q3-d",
+          "text": {
+            "en": "If $n(A\\cup B\\cup C) = 105$, $n_0(A) = 25$, $n_0(B) = 25$, $n_0(C) = 15$, $n_0(A\\cap B) = 15$, $n_0(A\\cap C) = 10$ and $n(A\\cap B\\cap C) = 10$, then find $n_0(B\\cap C)$.",
+            "ne": "यदि $n(A\\cup B\\cup C) = 105$, $n_0(A) = 25$, $n_0(B) = 25$, $n_0(C) = 15$, $n_0(A\\cap B) = 15$, $n_0(A\\cap C) = 10$ र $n(A\\cap B\\cap C) = 10$ भए, $n_0(B\\cap C)$ पत्ता लगाउनुहोस्।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex1.2-q4",
+      "text": {
+        "en": "Question 4",
+        "ne": "प्रश्न ४"
+      },
+      "parts": [
+        {
+          "partId": "ex1.2-q4-a",
+          "text": {
+            "en": "Out of 90 students who participated in an examination, 43 passed in Science, 40 in Mathematics and 38 in Nepali. Among them, 13 passed in Science and Mathematics, 18 in Mathematics and Nepali as well as 16 passed in Science and Nepali. Using the information, answer: i) Show the information in the Venn diagram. ii) Find the number of students who did not pass in any subject.",
+            "ne": "परीक्षामा सहभागी ९० जना विद्यार्थीमध्ये, ४३ जना विज्ञानमा, ४० जना गणितमा र ३८ जना नेपालीमा उत्तीर्ण भए। तीमध्ये १३ जना विज्ञान र गणितमा, १८ जना गणित र नेपालीमा, र १६ जना विज्ञान र नेपालीमा उत्तीर्ण भए। यो जानकारी प्रयोग गरी उत्तर दिनुहोस्: i) जानकारीलाई भेन चित्रमा देखाउनुहोस्। ii) कुनै पनि विषयमा उत्तीर्ण नभएका विद्यार्थीको संख्या पत्ता लगाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "ex1.2-q4-b",
+          "text": {
+            "en": "In a survey of a group, 60 like tea, 45 like coffee, 30 like milk, 25 like coffee and tea, 20 like milk and tea, 15 like coffee and milk and 10 like all three drinks. Based on the information, answer: i) Show the information in a Venn diagram. ii) Find how many people were surveyed.",
+            "ne": "एउटा समूहको सर्वेक्षणमा, ६० जनालाई चिया, ४५ जनालाई कफी, ३० जनालाई दूध मनपर्छ, २५ जनालाई कफी र चिया, २० जनालाई दूध र चिया, १५ जनालाई कफी र दूध र १० जनालाई तीनवटै पेय पदार्थ मनपर्छ। यस जानकारीको आधारमा उत्तर दिनुहोस्: i) जानकारीलाई भेन चित्रमा देखाउनुहोस्। ii) कति जना सर्वेक्षणमा सहभागी भए पत्ता लगाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "ex1.2-q4-c",
+          "text": {
+            "en": "In a survey among 60 students, 23 played volleyball, 15 played basketball and 20 played cricket. If 7 played volleyball and basketball, 5 played basketball and cricket, 4 played volleyball and cricket but 15 played neither of the games. Based on this information, answer: i) Show the information in a Venn diagram. ii) Find how many students played all the three games. iii) How many played only volleyball and cricket?",
+            "ne": "६० जना विद्यार्थीको सर्वेक्षणमा, २३ जनाले भलिबल, १५ जनाले बास्केटबल र २० जनाले क्रिकेट खेले। यदि ७ जनाले भलिबल र बास्केटबल, ५ जनाले बास्केटबल र क्रिकेट, ४ जनाले भलिबल र क्रिकेट खेले तर १५ जनाले कुनै पनि खेल खेलेनन्। यस जानकारीको आधारमा उत्तर दिनुहोस्: i) जानकारीलाई भेन चित्रमा देखाउनुहोस्। ii) कति जना विद्यार्थीले तीनवटै खेल खेले पत्ता लगाउनुहोस्। iii) कति जनाले भलिबल र क्रिकेट मात्र खेले?"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex1.2-q5",
+      "text": {
+        "en": "Out of total students who participated in an examination, 40% passed in Science, 45% in Mathematics and 50% in Nepali. Similarly, 10% passed in Science and Mathematics, 20% in Mathematics and Nepali as well as 15% in Science and Nepali but 5% failed in all the three subjects. Based on the information, answer the following questions:",
+        "ne": "परीक्षामा सहभागी कुल विद्यार्थीमध्ये, ४०% विज्ञानमा, ४५% गणितमा र ५०% नेपालीमा उत्तीर्ण भए। त्यसैगरी, १०% विज्ञान र गणितमा, २०% गणित र नेपालीमा र १५% विज्ञान र नेपालीमा उत्तीर्ण भए तर ५% तीनवटै विषयमा अनुत्तीर्ण भए। यस जानकारीको आधारमा निम्न प्रश्नहरूको उत्तर दिनुहोस्:"
+      },
+      "parts": [
+        {
+          "partId": "ex1.2-q5-i",
+          "text": {
+            "en": "Find the percentage of students who passed in all the three subjects.",
+            "ne": "तीनवटै विषयमा उत्तीर्ण हुने विद्यार्थीको प्रतिशत पत्ता लगाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "ex1.2-q5-ii",
+          "text": {
+            "en": "Find the percentage of students who passed in only one subject.",
+            "ne": "एक मात्र विषयमा उत्तीर्ण हुने विद्यार्थीको प्रतिशत पत्ता लगाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "ex1.2-q5-iii",
+          "text": {
+            "en": "Find the percentage of students who passed in only two subjects.",
+            "ne": "दुई मात्र विषयमा उत्तीर्ण हुने विद्यार्थीको प्रतिशत पत्ता लगाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "ex1.2-q5-iv",
+          "text": {
+            "en": "Find the percentage of students who passed in at least one subject.",
+            "ne": "कम्तीमा एक विषयमा उत्तीर्ण हुने विद्यार्थीको प्रतिशत पत्ता लगाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "ex1.2-q5-v",
+          "text": {
+            "en": "Show the information in a Venn diagram.",
+            "ne": "जानकारीलाई भेन चित्रमा देखाउनुहोस्।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex1.2-q6",
+      "text": {
+        "en": "The following information was obtained from a survey on a questionnaire whether they read Yubamanch or Madhupark or Muna conducted among some people in a community: 30 read Yubamanch, 25 read Madhupark, 15 read both Yubamanch and Muna, 9 read Madhupark only, 11 read Muna only, 5 read Yubamanch and Madhupark only but 10 read neither of the newspapers. Based on this information, answer the following questions:",
+        "ne": "एउटा समुदायका केही मानिसहरूमा युवामञ्च वा मधुपार्क वा मुना पढ्छन् कि पर्दैनन् भन्ने प्रश्नावलीमा गरिएको सर्वेक्षणबाट निम्न जानकारी प्राप्त भयो: ३० जनाले युवामञ्च, २५ जनाले मधुपार्क पढ्छन्, १५ जनाले युवामञ्च र मुना दुवै पढ्छन्, ९ जनाले मधुपार्क मात्र पढ्छन्, ११ जनाले मुना मात्र पढ्छन्, ५ जनाले युवामञ्च र मधुपार्क मात्र पढ्छन् तर १० जनाले दुवैमध्ये कुनै पनि पत्रिका पढ्दैनन्। यस जानकारीको आधारमा निम्न प्रश्नहरूको उत्तर दिनुहोस्:"
+      },
+      "parts": [
+        {
+          "partId": "ex1.2-q6-a",
+          "text": {
+            "en": "Show the information in a Venn diagram.",
+            "ne": "जानकारीलाई भेन चित्रमा देखाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "ex1.2-q6-b",
+          "text": {
+            "en": "Find the total number of people who participated in the survey.",
+            "ne": "सर्वेक्षणमा सहभागी कुल मानिसको संख्या पत्ता लगाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "ex1.2-q6-c",
+          "text": {
+            "en": "Find the number of people who read exactly two newspapers.",
+            "ne": "ठ्याक्कै दुई पत्रिका पढ्ने मानिसको संख्या पत्ता लगाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "ex1.2-q6-d",
+          "text": {
+            "en": "Find the number of people who read Muna.",
+            "ne": "मुना पढ्ने मानिसको संख्या पत्ता लगाउनुहोस्।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex1.2-q7",
+      "text": {
+        "en": "In a survey among 90 people, who were asked which language film they like, 48 like Nepali, 40 like English, 31 like Hindi, 24 like Nepali and English, 19 like Hindi and English, 6 like all the three languages and 21 did not like any. Then,",
+        "ne": "९० जना मानिसमा गरिएको सर्वेक्षणमा, कुन भाषाको फिल्म मनपर्छ भनी सोधिएको थियो, ४८ जनालाई नेपाली, ४० जनालाई अंग्रेजी, ३१ जनालाई हिन्दी मनपर्छ, २४ जनालाई नेपाली र अंग्रेजी, १९ जनालाई हिन्दी र अंग्रेजी, ६ जनालाई तीनवटै भाषा मनपर्छ र २१ जनालाई कुनै पनि मनपर्दैन। त्यसो भए,"
+      },
+      "parts": [
+        {
+          "partId": "ex1.2-q7-a",
+          "text": {
+            "en": "How many people did like both Nepali and Hindi films?",
+            "ne": "नेपाली र हिन्दी दुवै फिल्म मनपर्ने मानिस कति जना थिए?"
+          }
+        },
+        {
+          "partId": "ex1.2-q7-b",
+          "text": {
+            "en": "How many people did not like Hindi films?",
+            "ne": "कति जनालाई हिन्दी फिल्म मनपर्दैन थियो?"
+          }
+        },
+        {
+          "partId": "ex1.2-q7-c",
+          "text": {
+            "en": "How many people did not like both Nepali and Hindi films?",
+            "ne": "कति जनालाई नेपाली र हिन्दी दुवै फिल्म मनपर्दैन थियो?"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "mixed-q1",
+      "text": {
+        "en": "There are two overlapping sets $A$ and $B$ shown alongside in a Venn diagram where $n_0(A) = 16 + x$, $n_0(B) = 5x$, $n(A\\cap B) = y$ and $n(\\overline{A\\cup B}) = x$. Then, answer the following questions:",
+        "ne": "दिइएको भेन चित्रमा दुई ओभरल्यापिङ सेट $A$ र $B$ देखाइएका छन् जहाँ $n_0(A) = 16 + x$, $n_0(B) = 5x$, $n(A\\cap B) = y$ र $n(\\overline{A\\cup B}) = x$ छ। त्यसो भए, निम्न प्रश्नहरूको उत्तर दिनुहोस्:"
+      },
+      "referenceImageId": "img-mixed-q1",
+      "parts": [
+        {
+          "partId": "mixed-q1-a",
+          "text": {
+            "en": "Insert the above information by drawing a Venn diagram.",
+            "ne": "माथिको जानकारीलाई भेन चित्र कोरेर देखाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "mixed-q1-b",
+          "text": {
+            "en": "If $n(A) = n(B)$, find the value of $n(\\overline{A\\cup B})$.",
+            "ne": "यदि $n(A) = n(B)$ भए, $n(\\overline{A\\cup B})$ को मान पत्ता लगाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "mixed-q1-c",
+          "text": {
+            "en": "If $n(U) = 50$, find the ratio of $n(A\\cap B)$ and $n(\\overline{A\\cup B})$.",
+            "ne": "यदि $n(U) = 50$ भए, $n(A\\cap B)$ र $n(\\overline{A\\cup B})$ को अनुपात पत्ता लगाउनुहोस्।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "mixed-q2",
+      "text": {
+        "en": "$A$ and $B$ are the subsets of a universal set $U$ such that $n(U) = 100$, $n(A - B) = 32 + x$, $n(B - A) = 5x$, $n(A\\cap B) = x$ and $n(\\overline{A\\cup B}) = y$.",
+        "ne": "$A$ र $B$ एउटा सार्वत्रिक सेट $U$ का उपसेट हुन् यसरी कि $n(U) = 100$, $n(A - B) = 32 + x$, $n(B - A) = 5x$, $n(A\\cap B) = x$ र $n(\\overline{A\\cup B}) = y$ छ।"
+      },
+      "referenceImageId": "img-mixed-q2",
+      "parts": [
+        {
+          "partId": "mixed-q2-a",
+          "text": {
+            "en": "Show the above information in a Venn diagram.",
+            "ne": "माथिको जानकारीलाई भेन चित्रमा देखाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "mixed-q2-b",
+          "text": {
+            "en": "If $n(A) = n(B)$, find the value of $n(A\\cap B)$.",
+            "ne": "यदि $n(A) = n(B)$ भए, $n(A\\cap B)$ को मान पत्ता लगाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "mixed-q2-c",
+          "text": {
+            "en": "Find the value of $n(\\overline{A\\cup B})$. By what percent is $n(A\\cap B)$ more or less than $n(\\overline{A\\cup B})$? Find it.",
+            "ne": "$n(\\overline{A\\cup B})$ को मान पत्ता लगाउनुहोस्। $n(A\\cap B)$, $n(\\overline{A\\cup B})$ भन्दा कति प्रतिशत बढी वा कम छ? पत्ता लगाउनुहोस्।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "mixed-q3",
+      "text": {
+        "en": "According to a survey of 93 women of a community, the number of women engaged in agriculture is 80 and that in sewing is 71 but the number of women engaged in other jobs is 10.",
+        "ne": "एउटा समुदायका ९३ जना महिलाको सर्वेक्षण अनुसार, कृषिमा संलग्न महिलाको संख्या ८० र सिलाइमा संलग्नको संख्या ७१ छ तर अन्य पेशामा संलग्न महिलाको संख्या १० छ।"
+      },
+      "parts": [
+        {
+          "partId": "mixed-q3-a",
+          "text": {
+            "en": "Present the information in a Venn diagram by finding the cardinality of sets.",
+            "ne": "सेटहरूको गणनसंख्या पत्ता लगाई जानकारीलाई भेन चित्रमा प्रस्तुत गर्नुहोस्।"
+          }
+        },
+        {
+          "partId": "mixed-q3-b",
+          "text": {
+            "en": "Find how many women were engaged in both agriculture and sewing.",
+            "ne": "कति जना महिला कृषि र सिलाइ दुवैमा संलग्न थिए पत्ता लगाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "mixed-q3-c",
+          "text": {
+            "en": "By how many times the number of women engaged in agriculture only is more than the number of women engaged in sewing only? Calculate it.",
+            "ne": "कृषिमा मात्र संलग्न महिलाको संख्या सिलाइमा मात्र संलग्न महिलाको संख्याभन्दा कति गुणा बढी छ? गणना गर्नुहोस्।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "mixed-q4",
+      "text": {
+        "en": "According to a survey of 1000 farmers in a community, the number of farmers cultivating potatoes was 800 and the number of farmers cultivating tomatoes was 500 but 50 farmers cultivated crops other than these.",
+        "ne": "एउटा समुदायका १,००० जना किसानको सर्वेक्षण अनुसार, आलु खेती गर्ने किसानको संख्या ८०० र गोलभेडा खेती गर्नेको संख्या ५०० थियो तर ५० जना किसानले यीबाहेकका बालीहरू मात्र खेती गरे।"
+      },
+      "parts": [
+        {
+          "partId": "mixed-q4-a",
+          "text": {
+            "en": "Show the information in a Venn diagram by finding the cardinality of sets.",
+            "ne": "सेटहरूको गणनसंख्या पत्ता लगाई जानकारीलाई भेन चित्रमा देखाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "mixed-q4-b",
+          "text": {
+            "en": "Find the number of farmers who cultivate both.",
+            "ne": "दुवै खेती गर्ने किसानको संख्या पत्ता लगाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "mixed-q4-c",
+          "text": {
+            "en": "Write the number of farmers who cultivate potato only and that of tomato only in ratio.",
+            "ne": "आलु मात्र र गोलभेडा मात्र खेती गर्ने किसानको संख्यालाई अनुपातमा लेख्नुहोस्।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "mixed-q5",
+      "text": {
+        "en": "In a survey of 400 people of a community, it was found that the ratio of the people having motorcycle license only and car license only was 5:3. Among them, one-fourth of the people had license of both vehicles but 60 did not have any license.",
+        "ne": "एउटा समुदायका ४०० जना मानिसको सर्वेक्षणमा, मोटरसाइकल इजाजतपत्र मात्र र कार इजाजतपत्र मात्र भएका मानिसको संख्याको अनुपात ५:३ रहेको पाइयो। तीमध्ये एक चौथाइ मानिससँग दुवै सवारीको इजाजतपत्र थियो तर ६० जनासँग कुनै पनि इजाजतपत्र थिएन।"
+      },
+      "parts": [
+        {
+          "partId": "mixed-q5-a",
+          "text": {
+            "en": "Show the above information in a Venn diagram.",
+            "ne": "माथिको जानकारीलाई भेन चित्रमा देखाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "mixed-q5-b",
+          "text": {
+            "en": "From the above information, how many people had license of each vehicle?",
+            "ne": "माथिको जानकारीबाट, प्रत्येक सवारीको इजाजतपत्र कति जनासँग थियो?"
+          }
+        },
+        {
+          "partId": "mixed-q5-c",
+          "text": {
+            "en": "Find the number of people who had license of motorcycle.",
+            "ne": "मोटरसाइकलको इजाजतपत्र भएका मानिसको संख्या पत्ता लगाउनुहोस्।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "mixed-q6",
+      "text": {
+        "en": "The information of the students of a school whether they like volleyball, football or cricket is as follows: 30 like volleyball and football, 20 like volleyball and cricket as well as 35 like football and cricket. 10 like all the three games; football, volleyball and cricket but 5 like neither of the games.",
+        "ne": "एउटा विद्यालयका विद्यार्थीहरूलाई भलिबल, फुटबल वा क्रिकेट मनपर्छ कि पर्दैन भन्ने जानकारी यस्तो छ: ३० जनालाई भलिबल र फुटबल, २० जनालाई भलिबल र क्रिकेट र ३५ जनालाई फुटबल र क्रिकेट मनपर्छ। १० जनालाई तीनवटै खेल; फुटबल, भलिबल र क्रिकेट मनपर्छ तर ५ जनालाई कुनै पनि मनपर्दैन।"
+      },
+      "parts": [
+        {
+          "partId": "mixed-q6-a",
+          "text": {
+            "en": "Represent the given information in cardinality of sets.",
+            "ne": "दिइएको जानकारीलाई सेटको गणनसंख्यामा प्रस्तुत गर्नुहोस्।"
+          }
+        },
+        {
+          "partId": "mixed-q6-b",
+          "text": {
+            "en": "Show the information in a Venn diagram.",
+            "ne": "जानकारीलाई भेन चित्रमा देखाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "mixed-q6-c",
+          "text": {
+            "en": "Find the total number of students in the school.",
+            "ne": "विद्यालयका कुल विद्यार्थीको संख्या पत्ता लगाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "mixed-q6-d",
+          "text": {
+            "en": "What percentage of students like football only?",
+            "ne": "कति प्रतिशत विद्यार्थीलाई फुटबल मात्र मनपर्छ?"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "mixed-q7",
+      "text": {
+        "en": "The following information from a survey of 45 people of different lingual groups of a community is obtained: 25 speak Nepal Bhasa, 23 speak Tamang and 15 speak Maithili. 12 speak Nepal Bhasa and Tamang, 5 speak Nepal Bhasa and Maithili as well as 10 speak Tamang and Maithili. 4 speak all the three languages. Based on the information, answer the following questions:",
+        "ne": "एउटा समुदायका विभिन्न भाषिक समूहका ४५ जना मानिसको सर्वेक्षणबाट निम्न जानकारी प्राप्त भयो: २५ जनाले नेपाल भाषा, २३ जनाले तामाङ र १५ जनाले मैथिली बोल्छन्। १२ जनाले नेपाल भाषा र तामाङ, ५ जनाले नेपाल भाषा र मैथिली र १० जनाले तामाङ र मैथिली बोल्छन्। ४ जनाले तीनवटै भाषा बोल्छन्। यस जानकारीको आधारमा निम्न प्रश्नहरूको उत्तर दिनुहोस्:"
+      },
+      "parts": [
+        {
+          "partId": "mixed-q7-a",
+          "text": {
+            "en": "Show the above information in a Venn diagram.",
+            "ne": "माथिको जानकारीलाई भेन चित्रमा देखाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "mixed-q7-b",
+          "text": {
+            "en": "Find how many people speak the language other than these languages; Nepal Bhasa, Tamang and Maithili.",
+            "ne": "नेपाल भाषा, तामाङ र मैथिलीबाहेक अन्य भाषा बोल्ने कति जना छन् पत्ता लगाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "mixed-q7-c",
+          "text": {
+            "en": "How many people speak only one language? Find.",
+            "ne": "कति जनाले एक मात्र भाषा बोल्छन्? पत्ता लगाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "mixed-q7-d",
+          "text": {
+            "en": "How many people speak both Nepal Bhasa and Tamang but do not speak the Maithili language?",
+            "ne": "कति जनाले नेपाल भाषा र तामाङ दुवै बोल्छन् तर मैथिली भाषा बोल्दैनन्?"
+          }
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "imageId": "img-review-venn",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Venn diagram of Mathematics and Science with roll numbers 1-15",
+        "ne": "गणित र विज्ञानको भेन चित्र, रोल नं. १-१५ सहित"
+      },
+      "caption": {
+        "en": "Venn diagram: Mathematics and Science survey of 15 students",
+        "ne": "भेन चित्र: १५ विद्यार्थीको गणित र विज्ञान सर्वेक्षण"
+      }
+    },
+    {
+      "imageId": "img-coffee-tea-venn",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Venn diagram of Coffee and Tea with regions 9, 6, 4, 5",
+        "ne": "कफी र चियाको भेन चित्र, क्षेत्रहरू ९, ६, ४, ५ सहित"
+      },
+      "caption": {
+        "en": "Venn diagram: Coffee (C) only 9, both 6, Tea (T) only 4, neither 5",
+        "ne": "भेन चित्र: कफी मात्र ९, दुवै ६, चिया मात्र ४, दुवै नपर्ने ५"
+      }
+    },
+    {
+      "imageId": "img-ex1-1-1",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Venn diagram of Cricket and Football with regions 175-x, x, 150-x, 25",
+        "ne": "क्रिकेट र फुटबलको भेन चित्र, क्षेत्रहरू १७५-x, x, १५०-x, २५ सहित"
+      },
+      "caption": {
+        "en": "Venn diagram for Example 1: Cricket (C) and Football (F)",
+        "ne": "उदाहरण १ को भेन चित्र: क्रिकेट (C) र फुटबल (F)"
+      }
+    },
+    {
+      "imageId": "img-ex1-1-2",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Venn diagram of Mathematics and English with regions 30, x, 40, 10",
+        "ne": "गणित र अंग्रेजीको भेन चित्र, क्षेत्रहरू ३०, x, ४०, १० सहित"
+      },
+      "caption": {
+        "en": "Venn diagram for Example 2: Mathematics (M) and English (E)",
+        "ne": "उदाहरण २ को भेन चित्र: गणित (M) र अंग्रेजी (E)"
+      }
+    },
+    {
+      "imageId": "img-ex1-1-3",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Venn diagram of Science and Staff Nurse with regions 0.75x-21, 21, 0.55x-21, 0.05x",
+        "ne": "विज्ञान र स्टाफ नर्सको भेन चित्र, क्षेत्रहरू ०.७५x-२१, २१, ०.५५x-२१, ०.०५x सहित"
+      },
+      "caption": {
+        "en": "Venn diagram for Example 3: Science (S) and Staff Nurse (N)",
+        "ne": "उदाहरण ३ को भेन चित्र: विज्ञान (S) र स्टाफ नर्स (N)"
+      }
+    },
+    {
+      "imageId": "img-ex1-1-4",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Venn diagram of Pokhara and Lumbini with regions 2x-90, 90, 3x-90, 60",
+        "ne": "पोखरा र लुम्बिनीको भेन चित्र, क्षेत्रहरू २x-९०, ९०, ३x-९०, ६० सहित"
+      },
+      "caption": {
+        "en": "Venn diagram for Example 4: Pokhara (P) and Lumbini (L)",
+        "ne": "उदाहरण ४ को भेन चित्र: पोखरा (P) र लुम्बिनी (L)"
+      }
+    },
+    {
+      "imageId": "img-ex1-1-5",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Venn diagram of Mathematics and English with regions 2x, 60, 3x, 30",
+        "ne": "गणित र अंग्रेजीको भेन चित्र, क्षेत्रहरू २x, ६०, ३x, ३० सहित"
+      },
+      "caption": {
+        "en": "Venn diagram for Example 5: Mathematics (M) and English (E), grade 10",
+        "ne": "उदाहरण ५ को भेन चित्र: गणित (M) र अंग्रेजी (E), कक्षा १०"
+      }
+    },
+    {
+      "imageId": "img-activity2-two-venns",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Two three-circle Venn diagrams of sets A, B, C with numbered elements",
+        "ne": "A, B, C सेटका दुई तीन-वृत्त भेन चित्र, नम्बर भएका सदस्यहरू सहित"
+      },
+      "caption": {
+        "en": "Figure 1 and Figure 2: three-set Venn diagrams with listed elements",
+        "ne": "चित्र १ र चित्र २: सूचीबद्ध सदस्य सहितका तीन-सेट भेन चित्र"
+      }
+    },
+    {
+      "imageId": "img-activity3-fruits",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Three-circle Venn diagram of Orange, Mango, Banana with regions 5,10,5,20,5,15,10,30",
+        "ne": "सुन्तला, आँप, केराको तीन-वृत्त भेन चित्र, क्षेत्रहरू ५,१०,५,२०,५,१५,१०,३० सहित"
+      },
+      "caption": {
+        "en": "Venn diagram: Orange (O), Mango (M), Banana (B) fruit survey",
+        "ne": "भेन चित्र: सुन्तला (O), आँप (M), केरा (B) फलफूल सर्वेक्षण"
+      }
+    },
+    {
+      "imageId": "img-ex1-2-1",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Three-circle Venn diagram of A, B, C with regions 32,7,34,4,5,6,25,7",
+        "ne": "A, B, C को तीन-वृत्त भेन चित्र, क्षेत्रहरू ३२,७,३४,४,५,६,२५,७ सहित"
+      },
+      "caption": {
+        "en": "Venn diagram for Example 1 (three sets): A, B, C",
+        "ne": "उदाहरण १ (तीन सेट) को भेन चित्र: A, B, C"
+      }
+    },
+    {
+      "imageId": "img-ex1-2-2",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Three-circle Venn diagram of Science, Maths, Nepali with regions 40,14,30,12,20,24,20,20",
+        "ne": "विज्ञान, गणित, नेपालीको तीन-वृत्त भेन चित्र, क्षेत्रहरू ४०,१४,३०,१२,२०,२४,२०,२० सहित"
+      },
+      "caption": {
+        "en": "Venn diagram for Example 2: Science (S), Maths (M), Nepali (N)",
+        "ne": "उदाहरण २ को भेन चित्र: विज्ञान (S), गणित (M), नेपाली (N)"
+      }
+    },
+    {
+      "imageId": "img-ex1-2-3",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Three-circle Venn diagram of Dance, Drama, Music medal winners",
+        "ne": "नृत्य, नाटक, संगीत पदक विजेताहरूको तीन-वृत्त भेन चित्र"
+      },
+      "caption": {
+        "en": "Venn diagram for Example 3: Dance (A), Drama (B), Music (C) medals",
+        "ne": "उदाहरण ३ को भेन चित्र: नृत्य (A), नाटक (B), संगीत (C) पदक"
+      }
+    },
+    {
+      "imageId": "img-ex1-1-q2",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Venn diagram of M and E with regions 20, 60, 30, 15",
+        "ne": "M र E को भेन चित्र, क्षेत्रहरू २०, ६०, ३०, १५ सहित"
+      },
+      "caption": {
+        "en": "Given Venn diagram for Exercise 1.1, Question 2: M and E",
+        "ne": "अभ्यास १.१, प्रश्न २ को दिइएको भेन चित्र: M र E"
+      }
+    },
+    {
+      "imageId": "img-ex1-2-q1",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Three-circle Venn diagram of P, Q, R with numbered elements 1-18",
+        "ne": "P, Q, R को तीन-वृत्त भेन चित्र, नम्बर १-१८ भएका सदस्यहरू सहित"
+      },
+      "caption": {
+        "en": "Given Venn diagram for Exercise 1.2, Question 1: P, Q, R",
+        "ne": "अभ्यास १.२, प्रश्न १ को दिइएको भेन चित्र: P, Q, R"
+      }
+    },
+    {
+      "imageId": "img-mixed-q1",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Two overlapping circles A and B, generic (no numbers) Venn diagram",
+        "ne": "दुई ओभरल्यापिङ वृत्त A र B, सामान्य (नम्बर नभएको) भेन चित्र"
+      },
+      "caption": {
+        "en": "Given generic Venn diagram for Mixed Exercise, Question 1: A and B",
+        "ne": "मिश्रित अभ्यास, प्रश्न १ को दिइएको सामान्य भेन चित्र: A र B"
+      }
+    },
+    {
+      "imageId": "img-mixed-q2",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Two overlapping subsets A and B inside universal set U, generic diagram",
+        "ne": "सार्वत्रिक सेट U भित्र दुई ओभरल्यापिङ उपसेट A र B, सामान्य चित्र"
+      },
+      "caption": {
+        "en": "Given generic Venn diagram for Mixed Exercise, Question 2: A and B",
+        "ne": "मिश्रित अभ्यास, प्रश्न २ को दिइएको सामान्य भेन चित्र: A र B"
+      }
+    }
+  ]
+}

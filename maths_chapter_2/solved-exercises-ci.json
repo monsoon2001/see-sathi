@@ -1,0 +1,342 @@
+{
+  "chapter": {
+    "en": "Compound Interest",
+    "ne": "चक्रवृद्धि ब्याज"
+  },
+  "exercises": [
+    {
+      "exerciseId": "ex2.1-q1",
+      "parts": [
+        {
+          "partId": "ex2.1-q1-a",
+          "solution": {
+            "en": "Yearly compound interest is the interest calculated once a year on the principal, where the interest of each year is added to the principal to form the principal for the next year, so that interest is charged on interest. $CI = P\\left[\\left(1+\\dfrac{R}{100}\\right)^T-1\\right]$.",
+            "ne": "वार्षिक चक्रवृद्धि ब्याज भनेको सांचोमा वर्षको एक पटक गणना गरिने ब्याज हो, जहाँ हरेक वर्षको ब्याज अर्को वर्षको सांचो बनाउन सांचोमा जोडिन्छ, त्यसैले ब्याजमाथि नै ब्याज लाग्छ। $CI = P\\left[\\left(1+\\dfrac{R}{100}\\right)^T-1\\right]$।"
+          }
+        },
+        {
+          "partId": "ex2.1-q1-b",
+          "solution": {
+            "en": "Half yearly compound interest is the interest calculated twice a year (every 6 months), where each half-year's interest is added to the principal before the next half-year's interest is computed, using half the annual rate for double the number of periods: $CI = P\\left[\\left(1+\\dfrac{R}{200}\\right)^{2T}-1\\right]$.",
+            "ne": "अर्धवार्षिक चक्रवृद्धि ब्याज भनेको वर्षमा दुई पटक (प्रत्येक ६ महिनामा) गणना गरिने ब्याज हो, जहाँ अर्को ६ महिनाको ब्याज गणना गर्नुअघि हरेक अर्धवर्षको ब्याज सांचोमा जोडिन्छ, वार्षिक दरको आधा र दोब्बर अवधि प्रयोग गरी: $CI = P\\left[\\left(1+\\dfrac{R}{200}\\right)^{2T}-1\\right]$।"
+          }
+        },
+        {
+          "partId": "ex2.1-q1-c",
+          "solution": {
+            "en": "Quarterly (terminal) compound interest is the interest calculated four times a year (every 3 months), using a quarter of the annual rate for four times the number of periods: $CI = P\\left[\\left(1+\\dfrac{R}{400}\\right)^{4T}-1\\right]$.",
+            "ne": "त्रैमासिक चक्रवृद्धि ब्याज भनेको वर्षमा चार पटक (प्रत्येक ३ महिनामा) गणना गरिने ब्याज हो, वार्षिक दरको एक चौथाइ र चार गुणा अवधि प्रयोग गरी: $CI = P\\left[\\left(1+\\dfrac{R}{400}\\right)^{4T}-1\\right]$।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex2.1-q2",
+      "parts": [
+        {
+          "partId": "ex2.1-q2-a",
+          "solution": {
+            "en": "$CA = P\\left(1+\\dfrac{R}{100}\\right)^T$.",
+            "ne": "$CA = P\\left(1+\\dfrac{R}{100}\\right)^T$।"
+          }
+        },
+        {
+          "partId": "ex2.1-q2-b",
+          "solution": {
+            "en": "$CI = P\\left[\\left(1+\\dfrac{R}{100}\\right)^T-1\\right]$.",
+            "ne": "$CI = P\\left[\\left(1+\\dfrac{R}{100}\\right)^T-1\\right]$।"
+          }
+        },
+        {
+          "partId": "ex2.1-q2-c",
+          "solution": {
+            "en": "$CA = P\\left(1+\\dfrac{R_1}{100}\\right)\\left(1+\\dfrac{R_2}{100}\\right)\\left(1+\\dfrac{R_3}{100}\\right)$.",
+            "ne": "$CA = P\\left(1+\\dfrac{R_1}{100}\\right)\\left(1+\\dfrac{R_2}{100}\\right)\\left(1+\\dfrac{R_3}{100}\\right)$।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex2.1-q3",
+      "parts": [
+        {
+          "partId": "ex2.1-q3-a",
+          "solution": {
+            "en": "Year 1: $I_1 = \\dfrac{10000\\times1\\times6}{100} = \\text{Rs. }600$; $P_2 = 10000+600=\\text{Rs. }10,600$. Year 2: $I_2=\\dfrac{10600\\times1\\times6}{100}=\\text{Rs. }636$. $CI=I_1+I_2=600+636=\\text{Rs. }1,236$. $CA=P+CI=10000+1236=\\text{Rs. }11,236$.",
+            "ne": "वर्ष १: $I_1 = \\dfrac{10000\\times1\\times6}{100} = \\text{रु. }600$; $P_2 = 10000+600=\\text{रु. }10,600$। वर्ष २: $I_2=\\dfrac{10600\\times1\\times6}{100}=\\text{रु. }636$। $CI=I_1+I_2=600+636=\\text{रु. }1,236$। $CA=P+CI=10000+1236=\\text{रु. }11,236$।"
+          }
+        },
+        {
+          "partId": "ex2.1-q3-b",
+          "solution": {
+            "en": "Year 1: $I_1=\\dfrac{64000\\times1\\times6}{100}=\\text{Rs. }3,840$; $P_2=64000+3840=\\text{Rs. }67,840$. Year 2: $I_2=\\dfrac{67840\\times1\\times6}{100}=\\text{Rs. }4,070.40$; $P_3=67840+4070.40=\\text{Rs. }71,910.40$. Year 3: $I_3=\\dfrac{71910.40\\times1\\times6}{100}=\\text{Rs. }4,314.62$. $CI=3840+4070.40+4314.62=\\text{Rs. }12,225.02$. $CA=64000+12225.02=\\text{Rs. }76,225.02$.",
+            "ne": "वर्ष १: $I_1=\\dfrac{64000\\times1\\times6}{100}=\\text{रु. }3,840$; $P_2=64000+3840=\\text{रु. }67,840$। वर्ष २: $I_2=\\dfrac{67840\\times1\\times6}{100}=\\text{रु. }4,070.40$; $P_3=67840+4070.40=\\text{रु. }71,910.40$। वर्ष ३: $I_3=\\dfrac{71910.40\\times1\\times6}{100}=\\text{रु. }4,314.62$। $CI=3840+4070.40+4314.62=\\text{रु. }12,225.02$। $CA=64000+12225.02=\\text{रु. }76,225.02$।"
+          }
+        },
+        {
+          "partId": "ex2.1-q3-c",
+          "solution": {
+            "en": "Year 1 (rate $10\\%$): $I_1=\\dfrac{20000\\times1\\times10}{100}=\\text{Rs. }2,000$; $P_2=20000+2000=\\text{Rs. }22,000$. Year 2 (rate $12\\%$): $I_2=\\dfrac{22000\\times1\\times12}{100}=\\text{Rs. }2,640$. $CI=2000+2640=\\text{Rs. }4,640$. $CA=20000+4640=\\text{Rs. }24,640$.",
+            "ne": "वर्ष १ (दर $10\\%$): $I_1=\\dfrac{20000\\times1\\times10}{100}=\\text{रु. }2,000$; $P_2=20000+2000=\\text{रु. }22,000$। वर्ष २ (दर $12\\%$): $I_2=\\dfrac{22000\\times1\\times12}{100}=\\text{रु. }2,640$। $CI=2000+2640=\\text{रु. }4,640$। $CA=20000+4640=\\text{रु. }24,640$।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex2.1-q4",
+      "parts": [
+        {
+          "partId": "ex2.1-q4-a",
+          "solution": {
+            "en": "For $T=1$ year, compound interest equals simple interest: $CI = \\dfrac{PR}{100}$, so $12=\\dfrac{100\\times R}{100}=R$. Thus $R=12\\%$.",
+            "ne": "$T=1$ वर्षका लागि, चक्रवृद्धि ब्याज साधारण ब्याज बराबर हुन्छ: $CI = \\dfrac{PR}{100}$, त्यसैले $12=\\dfrac{100\\times R}{100}=R$। त्यसैले $R=12\\%$।"
+          }
+        },
+        {
+          "partId": "ex2.1-q4-b",
+          "solution": {
+            "en": "$CI = P\\left[\\left(1+\\dfrac{R}{100}\\right)^T-1\\right]$: $42 = 200\\left[\\left(1+\\dfrac{R}{100}\\right)^2-1\\right]$, so $\\dfrac{42}{200}=0.21=\\left(1+\\dfrac{R}{100}\\right)^2-1$, giving $\\left(1+\\dfrac{R}{100}\\right)^2=1.21$, so $1+\\dfrac{R}{100}=1.1$, i.e. $R=10\\%$.",
+            "ne": "$CI = P\\left[\\left(1+\\dfrac{R}{100}\\right)^T-1\\right]$: $42 = 200\\left[\\left(1+\\dfrac{R}{100}\\right)^2-1\\right]$, त्यसैले $\\dfrac{42}{200}=0.21=\\left(1+\\dfrac{R}{100}\\right)^2-1$, जसबाट $\\left(1+\\dfrac{R}{100}\\right)^2=1.21$, त्यसैले $1+\\dfrac{R}{100}=1.1$, अर्थात् $R=10\\%$।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex2.1-q5",
+      "parts": [
+        {
+          "partId": "ex2.1-q5-a",
+          "solution": {
+            "en": "$P=\\text{Rs. }20,000$, $R=15\\%$, $T=3$ years. $CI = P\\left[\\left(1+\\dfrac{R}{100}\\right)^T-1\\right] = 20,000\\left[(1.15)^3-1\\right] = 20,000[1.520875-1] = \\text{Rs. }10,417.50$. $CA = P+CI = 20,000+10,417.50 = \\text{Rs. }30,417.50$.",
+            "ne": "$P=\\text{रु. }20,000$, $R=15\\%$, $T=3$ वर्ष। $CI = P\\left[\\left(1+\\dfrac{R}{100}\\right)^T-1\\right] = 20,000\\left[(1.15)^3-1\\right] = 20,000[1.520875-1] = \\text{रु. }10,417.50$। $CA = P+CI = 20,000+10,417.50 = \\text{रु. }30,417.50$।"
+          }
+        },
+        {
+          "partId": "ex2.1-q5-b",
+          "solution": {
+            "en": "$P=\\text{Rs. }50,000$, $R=10\\%$, $T=3$ years. $CI = 50,000\\left[(1.10)^3-1\\right] = 50,000[1.331-1] = \\text{Rs. }16,550$. $CA = 50,000+16,550 = \\text{Rs. }66,550$.",
+            "ne": "$P=\\text{रु. }50,000$, $R=10\\%$, $T=3$ वर्ष। $CI = 50,000\\left[(1.10)^3-1\\right] = 50,000[1.331-1] = \\text{रु. }16,550$। $CA = 50,000+16,550 = \\text{रु. }66,550$।"
+          }
+        },
+        {
+          "partId": "ex2.1-q5-c",
+          "solution": {
+            "en": "Flag: applying the textbook's own formula $CA=P\\left(1+\\dfrac{R}{100}\\right)^T\\left(1+\\dfrac{MR}{1200}\\right)$ with $P=1,50,000$, $R=6\\%$, $T=2$, $M=6$ gives $CA = 1,50,000(1.06)^2\\left(1+\\dfrac{6\\times6}{1200}\\right) = 1,50,000(1.1236)(1.03) = \\text{Rs. }1,73,596.20$ and $CI=\\text{Rs. }23,596.20$ — this does not match the textbook's own printed answer (Rs. $1,72,753.50$ and Rs. $22,753.50$), which would instead require the 6-month adjustment factor to be $1.025$ rather than $1.03$ (equivalent to treating $M=5$ rather than $6$); this looks like an inconsistency in the source. (i) Using the formula as derived in this chapter: $CA \\approx \\text{Rs. }1,73,596.20$. (ii) $CI \\approx \\text{Rs. }23,596.20$.",
+            "ne": "फ्ल्याग: यस अध्यायको आफ्नै सूत्र $CA=P\\left(1+\\dfrac{R}{100}\\right)^T\\left(1+\\dfrac{MR}{1200}\\right)$ लाई $P=1,50,000$, $R=6\\%$, $T=2$, $M=6$ सहित लागू गर्दा $CA = 1,50,000(1.06)^2\\left(1+\\dfrac{6\\times6}{1200}\\right) = 1,50,000(1.1236)(1.03) = \\text{रु. }1,73,596.20$ र $CI=\\text{रु. }23,596.20$ आउँछ — यो पाठ्यपुस्तकको आफ्नै प्रकाशित उत्तर (रु. $1,72,753.50$ र रु. $22,753.50$) सँग मेल खाँदैन, जसका लागि ६-महिनाको समायोजन गुणक $1.03$ को सट्टा $1.025$ (अर्थात् $M=6$ को सट्टा $M=5$ मानेजस्तो) हुनुपर्छ; यो स्रोतमा भएको असंगति जस्तो देखिन्छ। (i) यस अध्यायमा व्युत्पन्न सूत्र प्रयोग गर्दा: $CA \\approx \\text{रु. }1,73,596.20$। (ii) $CI \\approx \\text{रु. }23,596.20$।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex2.1-q6",
+      "parts": [
+        {
+          "partId": "ex2.1-q6-a",
+          "solution": {
+            "en": "$P=\\text{Rs. }50,000$, $R=8\\%$, $T=2$ years, half yearly. $CI = P\\left[\\left(1+\\dfrac{R}{200}\\right)^{2T}-1\\right] = 50,000\\left[\\left(1+\\dfrac{8}{200}\\right)^{4}-1\\right] = 50,000\\left[(1.04)^4-1\\right] = \\text{Rs. }8,492.93$. $CA = 50,000+8,492.93 = \\text{Rs. }58,492.93$.",
+            "ne": "$P=\\text{रु. }50,000$, $R=8\\%$, $T=2$ वर्ष, अर्धवार्षिक। $CI = P\\left[\\left(1+\\dfrac{R}{200}\\right)^{2T}-1\\right] = 50,000\\left[\\left(1+\\dfrac{8}{200}\\right)^{4}-1\\right] = 50,000\\left[(1.04)^4-1\\right] = \\text{रु. }8,492.93$। $CA = 50,000+8,492.93 = \\text{रु. }58,492.93$।"
+          }
+        },
+        {
+          "partId": "ex2.1-q6-b",
+          "solution": {
+            "en": "$P=\\text{Rs. }50,00,000$, $R=12\\%$, $T=1$ year, quarterly. $CI = P\\left[\\left(1+\\dfrac{R}{400}\\right)^{4T}-1\\right] = 50,00,000\\left[\\left(1+\\dfrac{12}{400}\\right)^{4}-1\\right] = 50,00,000\\left[(1.03)^4-1\\right] = \\text{Rs. }6,27,544.05$. $CA = 50,00,000+6,27,544.05 = \\text{Rs. }56,27,544.05$.",
+            "ne": "$P=\\text{रु. }50,00,000$, $R=12\\%$, $T=1$ वर्ष, त्रैमासिक। $CI = P\\left[\\left(1+\\dfrac{R}{400}\\right)^{4T}-1\\right] = 50,00,000\\left[\\left(1+\\dfrac{12}{400}\\right)^{4}-1\\right] = 50,00,000\\left[(1.03)^4-1\\right] = \\text{रु. }6,27,544.05$। $CA = 50,00,000+6,27,544.05 = \\text{रु. }56,27,544.05$।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex2.1-q7",
+      "parts": [
+        {
+          "partId": "ex2.1-q7-a",
+          "solution": {
+            "en": "$P=\\text{Rs. }80,000$, $R=8\\%$, $T=2$ years. $SI = \\dfrac{PTR}{100} = \\dfrac{80000\\times2\\times8}{100} = \\text{Rs. }12,800$. $CI = P\\left[(1.08)^2-1\\right] = 80,000[1.1664-1] = \\text{Rs. }13,312$. Difference $= CI-SI = 13,312-12,800 = \\text{Rs. }512$.",
+            "ne": "$P=\\text{रु. }80,000$, $R=8\\%$, $T=2$ वर्ष। $SI = \\dfrac{PTR}{100} = \\dfrac{80000\\times2\\times8}{100} = \\text{रु. }12,800$। $CI = P\\left[(1.08)^2-1\\right] = 80,000[1.1664-1] = \\text{रु. }13,312$। फरक $= CI-SI = 13,312-12,800 = \\text{रु. }512$।"
+          }
+        },
+        {
+          "partId": "ex2.1-q7-b",
+          "solution": {
+            "en": "$P=\\text{Rs. }7,500$, $R=12\\%$, $T=3$ years. $SI = \\dfrac{7500\\times3\\times12}{100} = \\text{Rs. }2,700$. $CI = 7,500\\left[(1.12)^3-1\\right] = 7,500[1.404928-1] = \\text{Rs. }3,036.96$. Difference $= CI-SI = 3,036.96-2,700 = \\text{Rs. }336.96$.",
+            "ne": "$P=\\text{रु. }7,500$, $R=12\\%$, $T=3$ वर्ष। $SI = \\dfrac{7500\\times3\\times12}{100} = \\text{रु. }2,700$। $CI = 7,500\\left[(1.12)^3-1\\right] = 7,500[1.404928-1] = \\text{रु. }3,036.96$। फरक $= CI-SI = 3,036.96-2,700 = \\text{रु. }336.96$।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex2.1-q8",
+      "parts": [
+        {
+          "partId": "ex2.1-q8-a",
+          "solution": {
+            "en": "$P=\\text{Rs. }40,000$, $R=6\\%$, $T=2$ years. Yearly: $CI_y = 40,000\\left[(1.06)^2-1\\right] = 40,000[0.1236] = \\text{Rs. }4,944$. Half yearly: $CI_h = 40,000\\left[(1.03)^4-1\\right] = \\text{Rs. }5,020.35$. Difference $= CI_h-CI_y = 5,020.35-4,944 = \\text{Rs. }76.35$.",
+            "ne": "$P=\\text{रु. }40,000$, $R=6\\%$, $T=2$ वर्ष। वार्षिक: $CI_y = 40,000\\left[(1.06)^2-1\\right] = 40,000[0.1236] = \\text{रु. }4,944$। अर्धवार्षिक: $CI_h = 40,000\\left[(1.03)^4-1\\right] = \\text{रु. }5,020.35$। फरक $= CI_h-CI_y = 5,020.35-4,944 = \\text{रु. }76.35$।"
+          }
+        },
+        {
+          "partId": "ex2.1-q8-b",
+          "solution": {
+            "en": "$P=\\text{Rs. }18,000$, $R=12\\%$, $T=1$ year. Semi-annual: $CI_{semi} = 18,000\\left[(1.06)^2-1\\right] = \\text{Rs. }2,224.80$. Quarterly: $CI_{quarter} = 18,000\\left[(1.03)^4-1\\right] = \\text{Rs. }2,259.16$. Difference $= CI_{quarter}-CI_{semi} = 2,259.16-2,224.80 = \\text{Rs. }34.36$.",
+            "ne": "$P=\\text{रु. }18,000$, $R=12\\%$, $T=1$ वर्ष। अर्धवार्षिक: $CI_{semi} = 18,000\\left[(1.06)^2-1\\right] = \\text{रु. }2,224.80$। त्रैमासिक: $CI_{quarter} = 18,000\\left[(1.03)^4-1\\right] = \\text{रु. }2,259.16$। फरक $= CI_{quarter}-CI_{semi} = 2,259.16-2,224.80 = \\text{रु. }34.36$।"
+          }
+        },
+        {
+          "partId": "ex2.1-q8-c",
+          "solution": {
+            "en": "$P=\\text{Rs. }60,000$, $T=2$ years. (i) Account P (half yearly, $10\\%$): $CI_P = 60,000\\left[\\left(1+\\dfrac{10}{200}\\right)^4-1\\right] = 60,000\\left[(1.05)^4-1\\right] = \\text{Rs. }12,930.38$. (ii) Account Q (yearly, $12\\%$): $CI_Q = 60,000\\left[(1.12)^2-1\\right] = \\text{Rs. }15,264$. (iii) Since $CI_Q > CI_P$, account Q gives Rs. $15,264-12,930.38 = \\text{Rs. }2,333.62$ more interest, so I would deposit in account Q.",
+            "ne": "$P=\\text{रु. }60,000$, $T=2$ वर्ष। (i) खाता P (अर्धवार्षिक, $10\\%$): $CI_P = 60,000\\left[\\left(1+\\dfrac{10}{200}\\right)^4-1\\right] = 60,000\\left[(1.05)^4-1\\right] = \\text{रु. }12,930.38$। (ii) खाता Q (वार्षिक, $12\\%$): $CI_Q = 60,000\\left[(1.12)^2-1\\right] = \\text{रु. }15,264$। (iii) $CI_Q > CI_P$ भएकोले, खाता Q ले रु. $15,264-12,930.38 = \\text{रु. }2,333.62$ बढी ब्याज दिन्छ, त्यसैले म खाता Q मा जम्मा गर्नेछु।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex2.1-q9",
+      "parts": [
+        {
+          "partId": "ex2.1-q9-a",
+          "solution": {
+            "en": "Let principal $=P$. $R=15\\%$, $T=2$ years. $CI-SI = P\\left[(1.15)^2-1\\right] - \\dfrac{P\\times2\\times15}{100} = P[0.3225]-0.3P = 0.0225P$. Setting $0.0225P=180$: $P = \\dfrac{180}{0.0225} = \\text{Rs. }8,000$.",
+            "ne": "मानौं सांचो $=P$। $R=15\\%$, $T=2$ वर्ष। $CI-SI = P\\left[(1.15)^2-1\\right] - \\dfrac{P\\times2\\times15}{100} = P[0.3225]-0.3P = 0.0225P$। $0.0225P=180$ राख्दा: $P = \\dfrac{180}{0.0225} = \\text{रु. }8,000$।"
+          }
+        },
+        {
+          "partId": "ex2.1-q9-b",
+          "solution": {
+            "en": "Let principal $=P$. $R=10\\%$, $T=1$ year. Half yearly $CI_h = P\\left[(1.05)^2-1\\right]=0.1025P$. Yearly $CI_y = P\\times\\dfrac{10}{100}=0.1P$. Setting $CI_h-CI_y=40$: $0.1025P-0.1P=0.0025P=40$, so $P=\\dfrac{40}{0.0025}=\\text{Rs. }16,000$.",
+            "ne": "मानौं सांचो $=P$। $R=10\\%$, $T=1$ वर्ष। अर्धवार्षिक $CI_h = P\\left[(1.05)^2-1\\right]=0.1025P$। वार्षिक $CI_y = P\\times\\dfrac{10}{100}=0.1P$। $CI_h-CI_y=40$ राख्दा: $0.1025P-0.1P=0.0025P=40$, त्यसैले $P=\\dfrac{40}{0.0025}=\\text{रु. }16,000$।"
+          }
+        },
+        {
+          "partId": "ex2.1-q9-c",
+          "solution": {
+            "en": "Let the borrowed sum $=P$. Yearly CI paid (to the lender, $10\\%$, 2 years): $CI_y = P\\left[(1.10)^2-1\\right]=0.21P$. Half yearly CI received (from the borrower, $10\\%$, 2 years i.e. 4 periods at $5\\%$): $CI_h = P\\left[(1.05)^4-1\\right]=0.21550625P$. Gain $= CI_h-CI_y = 0.21550625P-0.21P = 0.00550625P$. Setting this equal to $2019.24$: $P = \\dfrac{2019.24}{0.00550625} \\approx \\text{Rs. }3,66,717.82$.",
+            "ne": "मानौं ऋण रकम $=P$। तिर्नुपर्ने वार्षिक CI ($10\\%$, २ वर्ष): $CI_y = P\\left[(1.10)^2-1\\right]=0.21P$। पाउने अर्धवार्षिक CI ($10\\%$, २ वर्ष अर्थात् $5\\%$ का ४ अवधि): $CI_h = P\\left[(1.05)^4-1\\right]=0.21550625P$। फाइदा $= CI_h-CI_y = 0.21550625P-0.21P = 0.00550625P$। यसलाई $2019.24$ बराबर राख्दा: $P = \\dfrac{2019.24}{0.00550625} \\approx \\text{रु. }3,66,717.82$।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex2.1-q10",
+      "parts": [
+        {
+          "partId": "ex2.1-q10-a",
+          "solution": {
+            "en": "$CA = P\\left(1+\\dfrac{R}{100}\\right)^T$: $1,21,000 = 1,00,000(1.10)^T$, so $(1.10)^T = 1.21 = (1.10)^2$, giving $T=2$ years.",
+            "ne": "$CA = P\\left(1+\\dfrac{R}{100}\\right)^T$: $1,21,000 = 1,00,000(1.10)^T$, त्यसैले $(1.10)^T = 1.21 = (1.10)^2$, जसबाट $T=2$ वर्ष आउँछ।"
+          }
+        },
+        {
+          "partId": "ex2.1-q10-b",
+          "solution": {
+            "en": "Flag: taking the figures exactly as given ($P=8,00,000$, $R=10\\%$, $CI=12,61,000$, i.e. $CA=21,61,000$) does not give a whole-number year — solving $8,00,000(1.10)^T=21,61,000$ gives $T\\approx9.93$ years, not the textbook's stated answer of 3 years. With $P=8,00,000$ and $R=10\\%$, $T=3$ years instead gives $CA=10,64,800$, i.e. $CI=\\text{Rs. }2,64,800$ — so the printed $CI$ figure of Rs. $12,61,000$ appears inconsistent with the book's own answer of $3$ years; the intended $CI$ was most likely Rs. $2,64,800$. Using $T=3$ years (matching the book's answer): $CI = 8,00,000\\left[(1.10)^3-1\\right] = 8,00,000[0.331] = \\text{Rs. }2,64,800$, confirming $T=3$ years.",
+            "ne": "फ्ल्याग: दिइएको अंकलाई ज्यूँका त्यूँ लिँदा ($P=8,00,000$, $R=10\\%$, $CI=12,61,000$, अर्थात् $CA=21,61,000$) पूर्ण वर्ष संख्या आउँदैन — $8,00,000(1.10)^T=21,61,000$ हल गर्दा $T\\approx9.93$ वर्ष आउँछ, पाठ्यपुस्तकको उत्तर ३ वर्ष होइन। $P=8,00,000$ र $R=10\\%$ मा $T=3$ वर्ष राख्दा $CA=10,64,800$, अर्थात् $CI=\\text{रु. }2,64,800$ आउँछ — त्यसैले छापिएको $CI$ रु. १२,६१,००० को अंक पाठ्यपुस्तकको आफ्नै उत्तर ३ वर्षसँग असंगत देखिन्छ; अभिप्रेत $CI$ सम्भवतः रु. २,६४,८०० थियो। $T=3$ वर्ष (पाठ्यपुस्तकको उत्तरसँग मिल्दो) प्रयोग गर्दा: $CI = 8,00,000\\left[(1.10)^3-1\\right] = 8,00,000[0.331] = \\text{रु. }2,64,800$, जसले $T=3$ वर्ष पुष्टि गर्छ।"
+          }
+        },
+        {
+          "partId": "ex2.1-q10-c",
+          "solution": {
+            "en": "$CA=P\\left(1+\\dfrac{R}{100}\\right)^T$: $847=700\\left(1+\\dfrac{R}{100}\\right)^2$, so $\\left(1+\\dfrac{R}{100}\\right)^2 = \\dfrac{847}{700}=1.21$, giving $1+\\dfrac{R}{100}=1.1$, so $R=10\\%$.",
+            "ne": "$CA=P\\left(1+\\dfrac{R}{100}\\right)^T$: $847=700\\left(1+\\dfrac{R}{100}\\right)^2$, त्यसैले $\\left(1+\\dfrac{R}{100}\\right)^2 = \\dfrac{847}{700}=1.21$, जसबाट $1+\\dfrac{R}{100}=1.1$, त्यसैले $R=10\\%$।"
+          }
+        },
+        {
+          "partId": "ex2.1-q10-d",
+          "solution": {
+            "en": "$CI = P\\left[\\left(1+\\dfrac{R}{100}\\right)^T-1\\right]$: $1,13,533 = 3,43,000\\left[\\left(1+\\dfrac{R}{100}\\right)^3-1\\right]$, so $\\left(1+\\dfrac{R}{100}\\right)^3-1 = \\dfrac{1,13,533}{3,43,000} = 0.331$, giving $\\left(1+\\dfrac{R}{100}\\right)^3=1.331=(1.10)^3$, so $R=10\\%$.",
+            "ne": "$CI = P\\left[\\left(1+\\dfrac{R}{100}\\right)^T-1\\right]$: $1,13,533 = 3,43,000\\left[\\left(1+\\dfrac{R}{100}\\right)^3-1\\right]$, त्यसैले $\\left(1+\\dfrac{R}{100}\\right)^3-1 = \\dfrac{1,13,533}{3,43,000} = 0.331$, जसबाट $\\left(1+\\dfrac{R}{100}\\right)^3=1.331=(1.10)^3$, त्यसैले $R=10\\%$।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex2.1-q11",
+      "parts": [
+        {
+          "partId": "ex2.1-q11-a",
+          "solution": {
+            "en": "Let principal $=x$, rate $=R\\%$. $x\\left(1+\\dfrac{R}{100}\\right)^2=6,050$ ...(i); $x\\left(1+\\dfrac{R}{100}\\right)^3=6,655$ ...(ii). Dividing (ii) by (i): $1+\\dfrac{R}{100}=\\dfrac{6,655}{6,050}=1.1$, so $R=10\\%$. From (i): $x=\\dfrac{6,050}{(1.10)^2}=\\dfrac{6,050}{1.21}=\\text{Rs. }5,000$.",
+            "ne": "मानौं सांचो $=x$, दर $=R\\%$। $x\\left(1+\\dfrac{R}{100}\\right)^2=6,050$ ...(i); $x\\left(1+\\dfrac{R}{100}\\right)^3=6,655$ ...(ii)। (ii) लाई (i) ले भाग गर्दा: $1+\\dfrac{R}{100}=\\dfrac{6,655}{6,050}=1.1$, त्यसैले $R=10\\%$। (i) बाट: $x=\\dfrac{6,050}{(1.10)^2}=\\dfrac{6,050}{1.21}=\\text{रु. }5,000$।"
+          }
+        },
+        {
+          "partId": "ex2.1-q11-b",
+          "solution": {
+            "en": "Let principal $=x$, rate $=R\\%$. $x\\left(1+\\dfrac{R}{100}\\right)^2=10,580$ ...(i); $x\\left(1+\\dfrac{R}{100}\\right)^3=12,167$ ...(ii). Dividing (ii) by (i): $1+\\dfrac{R}{100}=\\dfrac{12,167}{10,580}=1.15$, so $R=15\\%$. From (i): $x=\\dfrac{10,580}{(1.15)^2}=\\dfrac{10,580}{1.3225}=\\text{Rs. }8,000$.",
+            "ne": "मानौं सांचो $=x$, दर $=R\\%$। $x\\left(1+\\dfrac{R}{100}\\right)^2=10,580$ ...(i); $x\\left(1+\\dfrac{R}{100}\\right)^3=12,167$ ...(ii)। (ii) लाई (i) ले भाग गर्दा: $1+\\dfrac{R}{100}=\\dfrac{12,167}{10,580}=1.15$, त्यसैले $R=15\\%$। (i) बाट: $x=\\dfrac{10,580}{(1.15)^2}=\\dfrac{10,580}{1.3225}=\\text{रु. }8,000$।"
+          }
+        },
+        {
+          "partId": "ex2.1-q11-c",
+          "solution": {
+            "en": "Let principal $=P$, rate $=R\\%$. Interest of year 1: $\\dfrac{PR}{100}=1,800$ ...(i). Total CI in 2 years: $P\\left[\\left(1+\\dfrac{R}{100}\\right)^2-1\\right]=3,816$ ...(ii). From (i), $P=\\dfrac{1,80,000}{R}$. Substituting the identity $CI_2 = CI_1\\left(2+\\dfrac{R}{100}\\right)$ [since $P\\left(\\left(1+\\frac{R}{100}\\right)^2-1\\right) = PR/100 \\times (2+R/100)$]: $3,816 = 1,800\\left(2+\\dfrac{R}{100}\\right)$, so $2+\\dfrac{R}{100}=\\dfrac{3,816}{1,800}=2.12$, giving $\\dfrac{R}{100}=0.12$, so $R=12\\%$. Then $P = \\dfrac{1,80,000}{12} = \\text{Rs. }15,000$.",
+            "ne": "मानौं सांचो $=P$, दर $=R\\%$। वर्ष १ को ब्याज: $\\dfrac{PR}{100}=1,800$ ...(i)। २ वर्षको कुल CI: $P\\left[\\left(1+\\dfrac{R}{100}\\right)^2-1\\right]=3,816$ ...(ii)। (i) बाट, $P=\\dfrac{1,80,000}{R}$। पहिचान $CI_2 = CI_1\\left(2+\\dfrac{R}{100}\\right)$ [किनभने $P\\left(\\left(1+\\frac{R}{100}\\right)^2-1\\right) = PR/100 \\times (2+R/100)$] प्रयोग गर्दा: $3,816 = 1,800\\left(2+\\dfrac{R}{100}\\right)$, त्यसैले $2+\\dfrac{R}{100}=\\dfrac{3,816}{1,800}=2.12$, जसबाट $\\dfrac{R}{100}=0.12$, अतः $R=12\\%$। त्यसपछि $P = \\dfrac{1,80,000}{12} = \\text{रु. }15,000$।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex2.1-q12",
+      "parts": [
+        {
+          "partId": "ex2.1-q12-a",
+          "solution": {
+            "en": "$P=\\text{Rs. }5,00,000$, $R=10\\%$. (i) Half yearly $CI_1^{gross} = P\\left[(1.05)^2-1\\right] = 5,00,000\\times0.1025 = \\text{Rs. }51,250$. After $5\\%$ tax: $CI_1 = 51,250\\times0.95 = \\text{Rs. }48,687.50$. (ii) Principal for year 2: $5,00,000+48,687.50=\\text{Rs. }5,48,687.50$. Quarterly $CI_2^{gross} = 5,48,687.50\\left[(1.025)^4-1\\right] = \\text{Rs. }56,960.84$. After tax: $CI_2 = 56,960.84\\times0.95 = \\text{Rs. }54,112.79$. (iii) Difference $= CI_2-CI_1 = 54,112.79-48,687.50 = \\text{Rs. }5,425.29$. (iv) Percentage difference $=\\dfrac{5,425.29}{48,687.50}\\times100\\% = 11.14\\%$.",
+            "ne": "$P=\\text{रु. }5,00,000$, $R=10\\%$। (i) अर्धवार्षिक $CI_1^{gross} = P\\left[(1.05)^2-1\\right] = 5,00,000\\times0.1025 = \\text{रु. }51,250$। $5\\%$ कर पछि: $CI_1 = 51,250\\times0.95 = \\text{रु. }48,687.50$। (ii) दोस्रो वर्षको सांचो: $5,00,000+48,687.50=\\text{रु. }5,48,687.50$। त्रैमासिक $CI_2^{gross} = 5,48,687.50\\left[(1.025)^4-1\\right] = \\text{रु. }56,960.84$। कर पछि: $CI_2 = 56,960.84\\times0.95 = \\text{रु. }54,112.79$। (iii) फरक $= CI_2-CI_1 = 54,112.79-48,687.50 = \\text{रु. }5,425.29$। (iv) प्रतिशत फरक $=\\dfrac{5,425.29}{48,687.50}\\times100\\% = 11.14\\%$।"
+          }
+        },
+        {
+          "partId": "ex2.1-q12-b",
+          "solution": {
+            "en": "$P=\\text{Rs. }80,000$, $R=15\\%$. Year 1 (yearly): $CI_1^{gross} = P\\times\\dfrac{15}{100} = \\text{Rs. }12,000$. After $5\\%$ tax: $CI_1 = 12,000\\times0.95 = \\text{Rs. }11,400$. Principal for year 2: $80,000+11,400 = \\text{Rs. }91,400$. Half yearly $CI_2^{gross} = 91,400\\left[(1.075)^2-1\\right] = \\text{Rs. }14,224.12$. After tax: $CI_2 = 14,224.12\\times0.95 = \\text{Rs. }13,512.92$. Percentage difference $= \\dfrac{CI_2-CI_1}{CI_1}\\times100\\% = \\dfrac{13,512.92-11,400}{11,400}\\times100\\% = \\dfrac{2,112.92}{11,400}\\times100\\% \\approx 18.53\\%$.",
+            "ne": "$P=\\text{रु. }80,000$, $R=15\\%$। वर्ष १ (वार्षिक): $CI_1^{gross} = P\\times\\dfrac{15}{100} = \\text{रु. }12,000$। $5\\%$ कर पछि: $CI_1 = 12,000\\times0.95 = \\text{रु. }11,400$। दोस्रो वर्षको सांचो: $80,000+11,400 = \\text{रु. }91,400$। अर्धवार्षिक $CI_2^{gross} = 91,400\\left[(1.075)^2-1\\right] = \\text{रु. }14,224.12$। कर पछि: $CI_2 = 14,224.12\\times0.95 = \\text{रु. }13,512.92$। प्रतिशत फरक $= \\dfrac{CI_2-CI_1}{CI_1}\\times100\\% = \\dfrac{13,512.92-11,400}{11,400}\\times100\\% = \\dfrac{2,112.92}{11,400}\\times100\\% \\approx 18.53\\%$।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex2.1-q13",
+      "parts": [
+        {
+          "partId": "ex2.1-q13-a",
+          "solution": {
+            "en": "Let the 2-year daughter's share $=x$, so the 3-year daughter's share $=(41,000-x)$. $R=5\\%$. Setting the compound amounts equal: $x(1.05)^2 = (41,000-x)(1.05)^3$, so $x = (41,000-x)(1.05)$, giving $x = 43,050-1.05x$, so $2.05x=43,050$, thus $x=21,000$. So the 2-year share is Rs. $21,000$ and the 3-year share is Rs. $41,000-21,000=\\text{Rs. }20,000$.",
+            "ne": "मानौं २ वर्षे छोरीको भाग $=x$, त्यसैले ३ वर्षे छोरीको भाग $=(41,000-x)$। $R=5\\%$। चक्रवृद्धि रकम बराबर राख्दा: $x(1.05)^2 = (41,000-x)(1.05)^3$, त्यसैले $x = (41,000-x)(1.05)$, जसबाट $x = 43,050-1.05x$, त्यसैले $2.05x=43,050$, अतः $x=21,000$। त्यसैले २ वर्षे भाग रु. २१,००० र ३ वर्षे भाग रु. $41,000-21,000=\\text{रु. }20,000$ हो।"
+          }
+        },
+        {
+          "partId": "ex2.1-q13-b",
+          "solution": {
+            "en": "Let the first part (3 years) $=y$, so the second part (2 years) $=(21,000-y)$. $R=10\\%$. Setting compound amounts equal: $y(1.10)^3 = (21,000-y)(1.10)^2$, so $y(1.10) = 21,000-y$, giving $1.10y+y=21,000$, so $2.10y=21,000$, thus $y=10,000$. So the first part is Rs. $10,000$ and the second part is Rs. $21,000-10,000=\\text{Rs. }11,000$.",
+            "ne": "मानौं पहिलो भाग (३ वर्षे) $=y$, त्यसैले दोस्रो भाग (२ वर्षे) $=(21,000-y)$। $R=10\\%$। चक्रवृद्धि रकम बराबर राख्दा: $y(1.10)^3 = (21,000-y)(1.10)^2$, त्यसैले $y(1.10) = 21,000-y$, जसबाट $1.10y+y=21,000$, त्यसैले $2.10y=21,000$, अतः $y=10,000$। त्यसैले पहिलो भाग रु. १०,००० र दोस्रो भाग रु. $21,000-10,000=\\text{रु. }11,000$ हो।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex2.1-q14",
+      "note": {
+        "en": "Note: Q14(b) uses the same figures as Q11(c), so the method and result are identical to that part; the answer $R=12\\%$, sum $=$ Rs. 15,000 reproduces the working correctly. The textbook's printed answer key shows \"Rs.1,500\" for this part, which looks like a missing digit (a typo for Rs. 15,000), since it must match Q11(c)'s figures exactly.",
+        "ne": "टिप्पणी: प्रश्न १४(ख) मा प्रश्न ११(ग) कै अंकहरू प्रयोग भएकाले, विधि र नतिजा त्यही भागसँग मिल्दोजुल्दो छ; उत्तर $R=12\\%$, सांचो $=$ रु. १५,००० ले गणना सही रूपमा पुनरुत्पादन गर्छ। पाठ्यपुस्तकको प्रकाशित उत्तर कुञ्जीमा यस भागका लागि \"रु.१,५००\" देखाइएको छ, जुन एउटा अंक छुटेको (रु. १५,००० को टाइपो) जस्तो देखिन्छ, किनभने यो प्रश्न ११(ग) का अंकहरूसँग ठ्याक्कै मिल्नुपर्छ।"
+      },
+      "parts": [
+        {
+          "partId": "ex2.1-q14-a",
+          "solution": {
+            "en": "Let principal $=P$, rate $=R\\%$. Year 1: $\\dfrac{PR}{100}=450$ ...(i). Using the identity $CI_2 = CI_1\\left(2+\\dfrac{R}{100}\\right)$: $945 = 450\\left(2+\\dfrac{R}{100}\\right)$, so $2+\\dfrac{R}{100}=\\dfrac{945}{450}=2.1$, giving $\\dfrac{R}{100}=0.1$, so $R=10\\%$. From (i): $P=\\dfrac{45,000}{10}=\\text{Rs. }4,500$.",
+            "ne": "मानौं सांचो $=P$, दर $=R\\%$। वर्ष १: $\\dfrac{PR}{100}=450$ ...(i)। पहिचान $CI_2 = CI_1\\left(2+\\dfrac{R}{100}\\right)$ प्रयोग गर्दा: $945 = 450\\left(2+\\dfrac{R}{100}\\right)$, त्यसैले $2+\\dfrac{R}{100}=\\dfrac{945}{450}=2.1$, जसबाट $\\dfrac{R}{100}=0.1$, अतः $R=10\\%$। (i) बाट: $P=\\dfrac{45,000}{10}=\\text{रु. }4,500$।"
+          }
+        },
+        {
+          "partId": "ex2.1-q14-b",
+          "solution": {
+            "en": "Let principal $=P$, rate $=R\\%$. Year 1: $\\dfrac{PR}{100}=1,800$ ...(i). Using $CI_2=CI_1\\left(2+\\dfrac{R}{100}\\right)$: $3,816=1,800\\left(2+\\dfrac{R}{100}\\right)$, so $2+\\dfrac{R}{100}=\\dfrac{3,816}{1,800}=2.12$, giving $\\dfrac{R}{100}=0.12$, so $R=12\\%$. From (i): $P=\\dfrac{1,80,000}{12}=\\text{Rs. }15,000$.",
+            "ne": "मानौं सांचो $=P$, दर $=R\\%$। वर्ष १: $\\dfrac{PR}{100}=1,800$ ...(i)। $CI_2=CI_1\\left(2+\\dfrac{R}{100}\\right)$ प्रयोग गर्दा: $3,816=1,800\\left(2+\\dfrac{R}{100}\\right)$, त्यसैले $2+\\dfrac{R}{100}=\\dfrac{3,816}{1,800}=2.12$, जसबाट $\\dfrac{R}{100}=0.12$, अतः $R=12\\%$। (i) बाट: $P=\\dfrac{1,80,000}{12}=\\text{रु. }15,000$।"
+          }
+        }
+      ]
+    }
+  ],
+  "images": []
+}

@@ -1,0 +1,674 @@
+{
+  "chapterId": "see-2081-computer-science",
+  "subjectId": "computer-science",
+  "classLevel": "10",
+  "examBoard": "SEE (National Examinations Board, Nepal)",
+  "examYear": "2081 BS (2025 AD)",
+  "paperCode": "RE-3031",
+  "fullMarks": 50,
+  "timeAllowed": "2 hours",
+  "titleEn": "SEE 2081 (2025) Computer Science (Optional Second) - RE-3031 - Answers",
+  "titleNe": "SEE २०८१ (२०२५) कम्प्युटर विज्ञान (ऐच्छिक दोस्रो) - RE-3031 - उत्तर कुञ्जी",
+  "sourceNote": {
+    "en": "Answer key for the SEE 2081 (2025 AD) Optional Computer Science question paper, paper code RE-3031. Solutions are written at Class 10 / SEE level in the same QBASIC/C vocabulary the paper uses, keyed to each question number.",
+    "ne": "SEE 2081 (2025 AD) ऐच्छिक कम्प्युटर विज्ञान प्रश्नपत्र (कोड RE-3031) को उत्तर कुञ्जी। समाधानहरू कक्षा १० / SEE स्तरमा प्रश्नपत्रले प्रयोग गरेकै QBASIC/C शब्दावलीमा तयार गरिएका छन्।"
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "text": {
+        "en": "Answer Key - SEE 2081 (2025) Computer Science, Optional Second",
+        "ne": "Answer Key - SEE 2081 (2025) Computer Science, Optional Second"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "Full worked answers, step-by-step solutions and complete runnable code for the SEE 2081 (2025) Computer Science Optional Second paper (RE-3031), mirrored section-by-section and item-by-item against the questions file.",
+        "ne": "Full worked answers, step-by-step solutions and complete runnable code for the SEE 2081 (2025) Computer Science Optional Second paper (RE-3031), mirrored section-by-section and item-by-item against the questions file."
+      }
+    }
+  ],
+  "docType": "answerKey",
+  "questionSections": [
+    {
+      "title": {
+        "en": "Group A - Q1: Answer the following questions in one sentence",
+        "ne": "Group A - Q1: Answer the following questions in one sentence"
+      },
+      "items": [
+        {
+          "id": "cs-see-2081-re3031-q1a",
+          "questionNumber": "1(a)",
+          "section": "Group A",
+          "marks": 1,
+          "answer": {
+            "en": "Telecommunication is the exchange of information (voice, text, data, or images) over long distances using electronic means such as telephone, radio, or computer networks.",
+            "ne": "Telecommunication is the exchange of information (voice, text, data, or images) over long distances using electronic means such as telephone, radio, or computer networks."
+          }
+        },
+        {
+          "id": "cs-see-2081-re3031-q1b",
+          "questionNumber": "1(b)",
+          "section": "Group A",
+          "marks": 1,
+          "answer": {
+            "en": "Television broadcasting and radio broadcasting.",
+            "ne": "Television broadcasting and radio broadcasting."
+          }
+        },
+        {
+          "id": "cs-see-2081-re3031-q1c",
+          "questionNumber": "1(c)",
+          "section": "Group A",
+          "marks": 1,
+          "answer": {
+            "en": "Design View and Datasheet View.",
+            "ne": "Design View and Datasheet View."
+          }
+        },
+        {
+          "id": "cs-see-2081-re3031-q1d",
+          "questionNumber": "1(d)",
+          "section": "Group A",
+          "marks": 1,
+          "answer": {
+            "en": "64 characters.",
+            "ne": "64 characters."
+          }
+        },
+        {
+          "id": "cs-see-2081-re3031-q1e",
+          "questionNumber": "1(e)",
+          "section": "Group A",
+          "marks": 1,
+          "answer": {
+            "en": "KILL \"filename\"",
+            "ne": "KILL \"filename\""
+          },
+          "code": "KILL \"filename.ext\"",
+          "codeLanguage": "QBASIC"
+        },
+        {
+          "id": "cs-see-2081-re3031-q1f",
+          "questionNumber": "1(f)",
+          "section": "Group A",
+          "marks": 1,
+          "answer": {
+            "en": "int and return (any two C keywords such as if, while, for, int, float, return, void are acceptable).",
+            "ne": "int and return (any two C keywords such as if, while, for, int, float, return, void are acceptable)."
+          }
+        }
+      ],
+      "instructions": {
+        "en": "6x1=6",
+        "ne": "6x1=6"
+      }
+    },
+    {
+      "title": {
+        "en": "Group A - Q2: Write appropriate technical term for the following",
+        "ne": "Group A - Q2: Write appropriate technical term for the following"
+      },
+      "items": [
+        {
+          "id": "cs-see-2081-re3031-q2a",
+          "questionNumber": "2(a)",
+          "section": "Group A",
+          "marks": 1,
+          "answer": {
+            "en": "Search engine",
+            "ne": "Search engine"
+          }
+        },
+        {
+          "id": "cs-see-2081-re3031-q2b",
+          "questionNumber": "2(b)",
+          "section": "Group A",
+          "marks": 1,
+          "answer": {
+            "en": "Digital footprint",
+            "ne": "Digital footprint"
+          }
+        }
+      ],
+      "instructions": {
+        "en": "2x1=2",
+        "ne": "2x1=2"
+      }
+    },
+    {
+      "title": {
+        "en": "Group A - Q3: Write the full form of the following",
+        "ne": "Group A - Q3: Write the full form of the following"
+      },
+      "items": [
+        {
+          "id": "cs-see-2081-re3031-q3a",
+          "questionNumber": "3(a)",
+          "section": "Group A",
+          "marks": 1,
+          "answer": {
+            "en": "Uninterruptible Power Supply",
+            "ne": "Uninterruptible Power Supply"
+          }
+        },
+        {
+          "id": "cs-see-2081-re3031-q3b",
+          "questionNumber": "3(b)",
+          "section": "Group A",
+          "marks": 1,
+          "answer": {
+            "en": "Virtual Reality",
+            "ne": "Virtual Reality"
+          }
+        }
+      ],
+      "instructions": {
+        "en": "2x1=2",
+        "ne": "2x1=2"
+      }
+    },
+    {
+      "title": {
+        "en": "Group B - Q4: Answer the following questions",
+        "ne": "Group B - Q4: Answer the following questions"
+      },
+      "items": [
+        {
+          "id": "cs-see-2081-re3031-q4a",
+          "questionNumber": "4(a)",
+          "section": "Group B",
+          "marks": 2,
+          "answer": {
+            "en": "Guided media carries signals through a physical, enclosed medium, while unguided media carries signals through free space without any physical medium (wireless).",
+            "ne": "Guided media carries signals through a physical, enclosed medium, while unguided media carries signals through free space without any physical medium (wireless)."
+          },
+          "solution": {
+            "en": "Two differences: (1) Guided media uses a physical conductor such as twisted pair, coaxial or fibre optic cable, while unguided media uses radio waves, microwaves or infrared travelling through air/space. (2) Guided media is generally more secure and less prone to interference, while unguided media is easier to install over long distances/difficult terrain but more prone to interference and eavesdropping.",
+            "ne": "Two differences: (1) Guided media uses a physical conductor such as twisted pair, coaxial or fibre optic cable, while unguided media uses radio waves, microwaves or infrared travelling through air/space. (2) Guided media is generally more secure and less prone to interference, while unguided media is easier to install over long distances/difficult terrain but more prone to interference and eavesdropping."
+          }
+        },
+        {
+          "id": "cs-see-2081-re3031-q4b",
+          "questionNumber": "4(b)",
+          "section": "Group B",
+          "marks": 2,
+          "answer": {
+            "en": "Cyber law is the set of legal rules that govern activities carried out using computers, the internet, and cyberspace, and that address issues such as cybercrime, data protection, and online transactions.",
+            "ne": "Cyber law is the set of legal rules that govern activities carried out using computers, the internet, and cyberspace, and that address issues such as cybercrime, data protection, and online transactions."
+          },
+          "solution": {
+            "en": "Do: Respect the privacy of other people's data and accounts online. Don't: Do not share your password or personal login details with others.",
+            "ne": "Do: Respect the privacy of other people's data and accounts online. Don't: Do not share your password or personal login details with others."
+          }
+        },
+        {
+          "id": "cs-see-2081-re3031-q4c",
+          "questionNumber": "4(c)",
+          "section": "Group B",
+          "marks": 2,
+          "answer": {
+            "en": "Antivirus software is a program designed to detect, prevent, and remove malicious software such as viruses, worms, and trojans from a computer system.",
+            "ne": "Antivirus software is a program designed to detect, prevent, and remove malicious software such as viruses, worms, and trojans from a computer system."
+          },
+          "solution": {
+            "en": "Two examples: Avast Antivirus and Quick Heal Antivirus (Norton, McAfee, and Kaspersky are also acceptable examples).",
+            "ne": "Two examples: Avast Antivirus and Quick Heal Antivirus (Norton, McAfee, and Kaspersky are also acceptable examples)."
+          }
+        },
+        {
+          "id": "cs-see-2081-re3031-q4d",
+          "questionNumber": "4(d)",
+          "section": "Group B",
+          "marks": 2,
+          "answer": {
+            "en": "E-commerce is more popular than traditional commerce mainly because it is more convenient and cost-effective for both buyers and sellers.",
+            "ne": "E-commerce is more popular than traditional commerce mainly because it is more convenient and cost-effective for both buyers and sellers."
+          },
+          "solution": {
+            "en": "Two reasons: (1) It saves time, as customers can shop from anywhere at any time without travelling to a physical store. (2) It gives access to a wider range of products with easy price comparison, often at lower cost due to reduced overhead.",
+            "ne": "Two reasons: (1) It saves time, as customers can shop from anywhere at any time without travelling to a physical store. (2) It gives access to a wider range of products with easy price comparison, often at lower cost due to reduced overhead."
+          }
+        },
+        {
+          "id": "cs-see-2081-re3031-q4e",
+          "questionNumber": "4(e)",
+          "section": "Group B",
+          "marks": 2,
+          "answer": {
+            "en": "E-governance is the use of information and communication technology (ICT) to deliver government services and information to citizens electronically.",
+            "ne": "E-governance is the use of information and communication technology (ICT) to deliver government services and information to citizens electronically."
+          },
+          "solution": {
+            "en": "Two examples in Nepal: (1) Online passport application system. (2) The Nagarik App, used to access various government services digitally.",
+            "ne": "Two examples in Nepal: (1) Online passport application system. (2) The Nagarik App, used to access various government services digitally."
+          }
+        },
+        {
+          "id": "cs-see-2081-re3031-q4f",
+          "questionNumber": "4(f)",
+          "section": "Group B",
+          "marks": 2,
+          "answer": {
+            "en": "A database is an organized collection of related data stored systematically so that it can be easily accessed, managed, and updated.",
+            "ne": "A database is an organized collection of related data stored systematically so that it can be easily accessed, managed, and updated."
+          },
+          "solution": {
+            "en": "Two data types used in MS-Access: Text and Number (Date/Time, Currency, and AutoNumber are also acceptable).",
+            "ne": "Two data types used in MS-Access: Text and Number (Date/Time, Currency, and AutoNumber are also acceptable)."
+          }
+        },
+        {
+          "id": "cs-see-2081-re3031-q4g",
+          "questionNumber": "4(g)",
+          "section": "Group B",
+          "marks": 2,
+          "answer": {
+            "en": "A field is a single column representing one category/attribute of data, while a record is a complete row made up of related fields representing one full entry.",
+            "ne": "A field is a single column representing one category/attribute of data, while a record is a complete row made up of related fields representing one full entry."
+          },
+          "solutionTable": {
+            "headers": [
+              {
+                "en": "Field",
+                "ne": "Field"
+              },
+              {
+                "en": "Record",
+                "ne": "Record"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "Represents a single column/attribute of a table.",
+                  "ne": "Represents a single column/attribute of a table."
+                },
+                {
+                  "en": "Represents a single row made up of related fields.",
+                  "ne": "Represents a single row made up of related fields."
+                }
+              ],
+              [
+                {
+                  "en": "Example: 'Name' or 'Roll No.' column.",
+                  "ne": "Example: 'Name' or 'Roll No.' column."
+                },
+                {
+                  "en": "Example: one student's complete row of Name, Roll No., and Marks.",
+                  "ne": "Example: one student's complete row of Name, Roll No., and Marks."
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "cs-see-2081-re3031-q4h",
+          "questionNumber": "4(h)",
+          "section": "Group B",
+          "marks": 2,
+          "answer": {
+            "en": "A report is a database object used to present and print data from tables or queries in an organized, formatted layout.",
+            "ne": "A report is a database object used to present and print data from tables or queries in an organized, formatted layout."
+          },
+          "solution": {
+            "en": "It is necessary to create a report in DBMS because it allows data to be summarized, organized, and printed in a professional, readable format that supports analysis and decision-making.",
+            "ne": "It is necessary to create a report in DBMS because it allows data to be summarized, organized, and printed in a professional, readable format that supports analysis and decision-making."
+          }
+        },
+        {
+          "id": "cs-see-2081-re3031-q4i",
+          "questionNumber": "4(i)",
+          "section": "Group B",
+          "marks": 2,
+          "answer": {
+            "en": "A query is a database object used to retrieve, filter, or manipulate data stored in tables based on specified criteria.",
+            "ne": "A query is a database object used to retrieve, filter, or manipulate data stored in tables based on specified criteria."
+          },
+          "solution": {
+            "en": "Types of Action query: Update Query, Delete Query, Append Query, and Make-Table Query.",
+            "ne": "Types of Action query: Update Query, Delete Query, Append Query, and Make-Table Query."
+          }
+        }
+      ],
+      "instructions": {
+        "en": "9x2=18",
+        "ne": "9x2=18"
+      }
+    },
+    {
+      "title": {
+        "en": "Group B - Q5: Dry run the given program",
+        "ne": "Group B - Q5: Dry run the given program"
+      },
+      "items": [
+        {
+          "id": "cs-see-2081-re3031-q5",
+          "questionNumber": "5",
+          "section": "Group B",
+          "marks": 2,
+          "answer": {
+            "en": "Output: CMUE",
+            "ne": "Output: CMUE"
+          },
+          "solution": {
+            "en": "T$ = \"COMPUTER\" (length 8). The loop runs C = 1 to 8, STEP 2, so C takes the values 1, 3, 5, 7. Each time, D$ picks out a single character at position C using MID$(T$, C, 1), and PRINT D$; prints it without a line break. C=1 gives \"C\", C=3 gives \"M\", C=5 gives \"U\", C=7 gives \"E\", producing the final output CMUE.",
+            "ne": "T$ = \"COMPUTER\" (length 8). The loop runs C = 1 to 8, STEP 2, so C takes the values 1, 3, 5, 7. Each time, D$ picks out a single character at position C using MID$(T$, C, 1), and PRINT D$; prints it without a line break. C=1 gives \"C\", C=3 gives \"M\", C=5 gives \"U\", C=7 gives \"E\", producing the final output CMUE."
+          },
+          "solutionTable": {
+            "headers": [
+              {
+                "en": "C",
+                "ne": "C"
+              },
+              {
+                "en": "MID$(T$,C,1) -> D$",
+                "ne": "MID$(T$,C,1) -> D$"
+              },
+              {
+                "en": "Output so far",
+                "ne": "Output so far"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "1",
+                  "ne": "1"
+                },
+                {
+                  "en": "\"C\"",
+                  "ne": "\"C\""
+                },
+                {
+                  "en": "C",
+                  "ne": "C"
+                }
+              ],
+              [
+                {
+                  "en": "3",
+                  "ne": "3"
+                },
+                {
+                  "en": "\"M\"",
+                  "ne": "\"M\""
+                },
+                {
+                  "en": "CM",
+                  "ne": "CM"
+                }
+              ],
+              [
+                {
+                  "en": "5",
+                  "ne": "5"
+                },
+                {
+                  "en": "\"U\"",
+                  "ne": "\"U\""
+                },
+                {
+                  "en": "CMU",
+                  "ne": "CMU"
+                }
+              ],
+              [
+                {
+                  "en": "7",
+                  "ne": "7"
+                },
+                {
+                  "en": "\"E\"",
+                  "ne": "\"E\""
+                },
+                {
+                  "en": "CMUE",
+                  "ne": "CMUE"
+                }
+              ]
+            ]
+          },
+          "code": "DECLARE SUB Display (T$)\nT$=\"COMPUTER\"\nCALL Display (T$)\nEND\n\nSUB Display (T$)\n  FOR C=1 TO LEN (T$) STEP 2\n    D$=MID$ (T$,C,1)\n    PRINT D$;\n  NEXT C\nEND SUB",
+          "codeLanguage": "QBASIC"
+        }
+      ],
+      "instructions": {
+        "en": "2",
+        "ne": "2"
+      }
+    },
+    {
+      "title": {
+        "en": "Group B - Q6: Correct the bugs in the given program",
+        "ne": "Group B - Q6: Correct the bugs in the given program"
+      },
+      "items": [
+        {
+          "id": "cs-see-2081-re3031-q6",
+          "questionNumber": "6",
+          "section": "Group B",
+          "marks": 2,
+          "answer": {
+            "en": "The program has three bugs: the file open mode, a write statement wrongly written as a read statement, and a mismatched GOTO label.",
+            "ne": "The program has three bugs: the file open mode, a write statement wrongly written as a read statement, and a mismatched GOTO label."
+          },
+          "solution": {
+            "en": "(1) 'OPEN \"student.dat\" FOR OUT AS #2' is invalid QBASIC syntax and would also erase the existing file; since the comment says records should be added to an existing file, it must be 'FOR APPEND AS #2'. (2) 'INPUT#2, SNames$,C,RN' reads from the file instead of writing to it, and also misspells the variable SName$ as SNames$; to add a record it must be 'PRINT #2, SName$, C, RN'. (3) The label is defined as 'TOP:' but the loop jumps to 'GOTO POP', which does not exist; it must jump back to 'GOTO TOP' to repeat the input loop.",
+            "ne": "(1) 'OPEN \"student.dat\" FOR OUT AS #2' is invalid QBASIC syntax and would also erase the existing file; since the comment says records should be added to an existing file, it must be 'FOR APPEND AS #2'. (2) 'INPUT#2, SNames$,C,RN' reads from the file instead of writing to it, and also misspells the variable SName$ as SNames$; to add a record it must be 'PRINT #2, SName$, C, RN'. (3) The label is defined as 'TOP:' but the loop jumps to 'GOTO POP', which does not exist; it must jump back to 'GOTO TOP' to repeat the input loop."
+          },
+          "code": "REM to add record in an existing file.\nOPEN \"student.dat\" FOR APPEND AS #2\nTOP:\nINPUT \"Enter Name, Class and Roll No.\"; SName$, C, RN\nPRINT #2, SName$, C, RN\nINPUT \"More records\"; Y$\nIF UCASE$(Y$) = \"Y\" THEN GOTO TOP\nCLOSE #2\nSTOP",
+          "codeLanguage": "QBASIC"
+        }
+      ],
+      "instructions": {
+        "en": "2",
+        "ne": "2"
+      }
+    },
+    {
+      "title": {
+        "en": "Group B - Q7: Study the given program and answer the questions",
+        "ne": "Group B - Q7: Study the given program and answer the questions"
+      },
+      "items": [
+        {
+          "id": "cs-see-2081-re3031-q7a",
+          "questionNumber": "7(a)",
+          "section": "Group B",
+          "marks": 1,
+          "answer": {
+            "en": "PRINT COUNT(W$)",
+            "ne": "PRINT COUNT(W$)"
+          },
+          "solution": {
+            "en": "The FUNCTION COUNT(A$) is declared and defined but never called in the main module, and its result is never displayed. The missing statement, placed after the INPUT line, is 'PRINT COUNT(W$)', which calls the function with the entered word and prints the number of vowels it returns. Note: this answer also assumes the printed 'MID$(C$,i,1)' inside the function should read 'MID$(A$,i,1)', since C$ is never declared anywhere in the program - flagged as a likely OCR/print error.",
+            "ne": "The FUNCTION COUNT(A$) is declared and defined but never called in the main module, and its result is never displayed. The missing statement, placed after the INPUT line, is 'PRINT COUNT(W$)', which calls the function with the entered word and prints the number of vowels it returns. Note: this answer also assumes the printed 'MID$(C$,i,1)' inside the function should read 'MID$(A$,i,1)', since C$ is never declared anywhere in the program - flagged as a likely OCR/print error."
+          },
+          "code": "DECLARE FUNCTION COUNT (A$)\nCLS\nINPUT \"Enter any word\";W$\nPRINT COUNT(W$)\nEND\n\nFUNCTION COUNT (A$)\n  B=LEN(A$)\n  C=0\nFOR i=1 TO B\n  E$=MID$(A$,i,1)\n  IF E$=\"A\" OR E$=\"E\" OR E$=\"I\" OR E$=\"O\" OR E$=\"U\" THEN\n  C=C+1\n  END IF\nNEXT i\nCOUNT=C\nEND FUNCTION",
+          "codeLanguage": "QBASIC"
+        },
+        {
+          "id": "cs-see-2081-re3031-q7b",
+          "questionNumber": "7(b)",
+          "section": "Group B",
+          "marks": 1,
+          "answer": {
+            "en": "LEN and MID$",
+            "ne": "LEN and MID$"
+          },
+          "solution": {
+            "en": "LEN(A$) is used to find the length of the input string, and MID$(A$, i, 1) is used to extract each individual character from the string one at a time inside the loop.",
+            "ne": "LEN(A$) is used to find the length of the input string, and MID$(A$, i, 1) is used to extract each individual character from the string one at a time inside the loop."
+          }
+        }
+      ],
+      "instructions": {
+        "en": "2x1=2",
+        "ne": "2x1=2"
+      }
+    },
+    {
+      "title": {
+        "en": "Group C - Q8: Convert/Calculate as per the instruction",
+        "ne": "Group C - Q8: Convert/Calculate as per the instruction"
+      },
+      "items": [
+        {
+          "id": "cs-see-2081-re3031-q8i",
+          "questionNumber": "8(i)",
+          "section": "Group C",
+          "marks": 1,
+          "answer": {
+            "en": "(343)16",
+            "ne": "(343)16"
+          },
+          "solution": {
+            "en": "Convert octal to decimal first: (1503)8 = 1x8^3 + 5x8^2 + 0x8^1 + 3x8^0 = 512 + 320 + 0 + 3 = 835 in decimal. Then convert 835 to hexadecimal by dividing repeatedly by 16: 835/16 = 52 remainder 3; 52/16 = 3 remainder 4; 3/16 = 0 remainder 3. Reading the remainders bottom-up gives (343)16.",
+            "ne": "Convert octal to decimal first: (1503)8 = 1x8^3 + 5x8^2 + 0x8^1 + 3x8^0 = 512 + 320 + 0 + 3 = 835 in decimal. Then convert 835 to hexadecimal by dividing repeatedly by 16: 835/16 = 52 remainder 3; 52/16 = 3 remainder 4; 3/16 = 0 remainder 3. Reading the remainders bottom-up gives (343)16."
+          }
+        },
+        {
+          "id": "cs-see-2081-re3031-q8ii",
+          "questionNumber": "8(ii)",
+          "section": "Group C",
+          "marks": 1,
+          "answer": {
+            "en": "(505)8",
+            "ne": "(505)8"
+          },
+          "solution": {
+            "en": "Group the 9-bit binary number into sets of 3 bits from the right: 101 000 101. Convert each group: 101 = 5, 000 = 0, 101 = 5, giving the octal number (505)8.",
+            "ne": "Group the 9-bit binary number into sets of 3 bits from the right: 101 000 101. Convert each group: 101 = 5, 000 = 0, 101 = 5, giving the octal number (505)8."
+          }
+        },
+        {
+          "id": "cs-see-2081-re3031-q8iii",
+          "questionNumber": "8(iii)",
+          "section": "Group C",
+          "marks": 1,
+          "answer": {
+            "en": "(10001)2",
+            "ne": "(10001)2"
+          },
+          "solution": {
+            "en": "First add (1010)2 + (1101)2: in decimal this is 10 + 13 = 23 = (10111)2. Then subtract (110)2, which is 6 in decimal: 23 - 6 = 17 = (10001)2.",
+            "ne": "First add (1010)2 + (1101)2: in decimal this is 10 + 13 = 23 = (10111)2. Then subtract (110)2, which is 6 in decimal: 23 - 6 = 17 = (10001)2."
+          }
+        },
+        {
+          "id": "cs-see-2081-re3031-q8iv",
+          "questionNumber": "8(iv)",
+          "section": "Group C",
+          "marks": 1,
+          "answer": {
+            "en": "Quotient = (110)2, Remainder = (11)2",
+            "ne": "Quotient = (110)2, Remainder = (11)2"
+          },
+          "solution": {
+            "en": "(100111)2 in decimal is 32+4+2+1 = 39, and (110)2 in decimal is 6. 39 divided by 6 gives a quotient of 6 with a remainder of 3. Converting back: 6 = (110)2 and 3 = (11)2.",
+            "ne": "(100111)2 in decimal is 32+4+2+1 = 39, and (110)2 in decimal is 6. 39 divided by 6 gives a quotient of 6 with a remainder of 3. Converting back: 6 = (110)2 and 3 = (11)2."
+          }
+        }
+      ],
+      "instructions": {
+        "en": "4x1=4",
+        "ne": "4x1=4"
+      }
+    },
+    {
+      "title": {
+        "en": "Group C - Q9: Answer the following questions",
+        "ne": "Group C - Q9: Answer the following questions"
+      },
+      "items": [
+        {
+          "id": "cs-see-2081-re3031-q9a",
+          "questionNumber": "9(a)",
+          "section": "Group C",
+          "marks": 4,
+          "answer": {
+            "en": "A QBASIC program using a Function procedure for perimeter and a Sub procedure for volume, as shown in the code field.",
+            "ne": "A QBASIC program using a Function procedure for perimeter and a Sub procedure for volume, as shown in the code field."
+          },
+          "solution": {
+            "en": "The main module takes the room's length (L), breadth (B), and height (H) as input. It calls the Function procedure Perimeter(L, B), which returns 2*(L+B), and prints the result directly since a function returns a value. It then calls the Sub procedure Volume(L, B, H) using CALL, which computes L*B*H internally and prints it itself, since a sub does not return a value to the caller.",
+            "ne": "The main module takes the room's length (L), breadth (B), and height (H) as input. It calls the Function procedure Perimeter(L, B), which returns 2*(L+B), and prints the result directly since a function returns a value. It then calls the Sub procedure Volume(L, B, H) using CALL, which computes L*B*H internally and prints it itself, since a sub does not return a value to the caller."
+          },
+          "code": "DECLARE FUNCTION Perimeter (L, B)\nDECLARE SUB Volume (L, B, H)\n\nCLS\nINPUT \"Enter length of room: \", L\nINPUT \"Enter breadth of room: \", B\nINPUT \"Enter height of room: \", H\n\nPRINT \"Perimeter = \"; Perimeter(L, B)\nCALL Volume(L, B, H)\n\nEND\n\nFUNCTION Perimeter (L, B)\n    Perimeter = 2 * (L + B)\nEND FUNCTION\n\nSUB Volume (L, B, H)\n    V = L * B * H\n    PRINT \"Volume = \"; V\nEND SUB",
+          "codeLanguage": "QBASIC"
+        },
+        {
+          "id": "cs-see-2081-re3031-q9b",
+          "questionNumber": "9(b)",
+          "section": "Group C",
+          "marks": 4,
+          "answer": {
+            "en": "A QBASIC program that reads student records from \"std.dat\" and displays only those with Computer marks greater than 40, as shown in the code field.",
+            "ne": "A QBASIC program that reads student records from \"std.dat\" and displays only those with Computer marks greater than 40, as shown in the code field."
+          },
+          "solution": {
+            "en": "The file \"std.dat\" is opened FOR INPUT. A DO WHILE NOT EOF(1) loop reads one student's record at a time with INPUT #1 into the name, roll number, and the four subject marks. An IF condition checks whether the Computer marks (Comp) are greater than 40, and if so, prints that student's full record. The loop continues until the end of the file is reached, after which the file is closed. Assumption: the exact order and names of the fields stored in std.dat were not fully specified on the paper beyond 'name, roll no. and marks of English, Nepali, Maths, and Computer'; this order has been assumed - please verify against the original file layout if available.",
+            "ne": "The file \"std.dat\" is opened FOR INPUT. A DO WHILE NOT EOF(1) loop reads one student's record at a time with INPUT #1 into the name, roll number, and the four subject marks. An IF condition checks whether the Computer marks (Comp) are greater than 40, and if so, prints that student's full record. The loop continues until the end of the file is reached, after which the file is closed. Assumption: the exact order and names of the fields stored in std.dat were not fully specified on the paper beyond 'name, roll no. and marks of English, Nepali, Maths, and Computer'; this order has been assumed - please verify against the original file layout if available."
+          },
+          "code": "OPEN \"std.dat\" FOR INPUT AS #1\nCLS\nPRINT \"Students with marks in Computer > 40:\"\nDO WHILE NOT EOF(1)\n    INPUT #1, SName$, RollNo, Eng, Nep, Maths, Comp\n    IF Comp > 40 THEN\n        PRINT SName$, RollNo, Eng, Nep, Maths, Comp\n    END IF\nLOOP\nCLOSE #1\nEND",
+          "codeLanguage": "QBASIC"
+        }
+      ],
+      "instructions": {
+        "en": "4x2=8",
+        "ne": "4x2=8"
+      }
+    },
+    {
+      "title": {
+        "en": "Group C - Q10: Write a program (attempt either option)",
+        "ne": "Group C - Q10: Write a program (attempt either option)"
+      },
+      "items": [
+        {
+          "id": "cs-see-2081-re3031-q10a",
+          "questionNumber": "10(a)",
+          "section": "Group C",
+          "marks": 4,
+          "answer": {
+            "en": "A C program that reads two numbers and prints the greater one, as shown in the code field.",
+            "ne": "A C program that reads two numbers and prints the greater one, as shown in the code field."
+          },
+          "solution": {
+            "en": "Two integers a and b are read using scanf. An if-else statement compares them: if a is greater than b, a is printed as the greatest number; otherwise b is printed as the greatest number.",
+            "ne": "Two integers a and b are read using scanf. An if-else statement compares them: if a is greater than b, a is printed as the greatest number; otherwise b is printed as the greatest number."
+          },
+          "code": "#include <stdio.h>\n\nint main() {\n    int a, b;\n    printf(\"Enter two different numbers: \");\n    scanf(\"%d %d\", &a, &b);\n\n    if (a > b) {\n        printf(\"%d is the greatest number.\\n\", a);\n    } else {\n        printf(\"%d is the greatest number.\\n\", b);\n    }\n\n    return 0;\n}",
+          "codeLanguage": "C",
+          "alternativeGroup": "q10",
+          "altLabel": "Option 1"
+        },
+        {
+          "id": "cs-see-2081-re3031-q10b",
+          "questionNumber": "10(b) (OR)",
+          "section": "Group C",
+          "marks": 4,
+          "answer": {
+            "en": "A C program that displays the series 5, 10, 15, ... up to the 15th term, as shown in the code field.",
+            "ne": "A C program that displays the series 5, 10, 15, ... up to the 15th term, as shown in the code field."
+          },
+          "solution": {
+            "en": "A for loop runs from i = 1 to i = 15. In each iteration, the current term is calculated as i * 5 (since the series increases by 5 each time), and printed, producing the series 5, 10, 15, 20, ... up to the 15th term (75).",
+            "ne": "A for loop runs from i = 1 to i = 15. In each iteration, the current term is calculated as i * 5 (since the series increases by 5 each time), and printed, producing the series 5, 10, 15, 20, ... up to the 15th term (75)."
+          },
+          "code": "#include <stdio.h>\n\nint main() {\n    int i, term;\n    printf(\"Series: \");\n    for (i = 1; i <= 15; i++) {\n        term = i * 5;\n        printf(\"%d \", term);\n    }\n    printf(\"\\n\");\n    return 0;\n}",
+          "codeLanguage": "C",
+          "alternativeGroup": "q10",
+          "altLabel": "Option 2"
+        }
+      ],
+      "instructions": {
+        "en": "4 (attempt either (a) or (b) - not both)",
+        "ne": "4 (attempt either (a) or (b) - not both)"
+      }
+    }
+  ],
+  "linkedQuestionPaperId": "see-2081-computer-science"
+}

@@ -1,0 +1,369 @@
+{
+  "chapterId": "full-paper",
+  "subjectId": "computer-science",
+  "classLevel": "10",
+  "province": null,
+  "examBoard": "SEE",
+  "examYear": "2082 BS (2026 AD)",
+  "paperCode": "RE-3031'B'",
+  "fullMarks": 50,
+  "timeAllowed": "2 hours",
+  "title": "SEE 2082 (2026) Computer Science (Optional Second) - RE-3031'B' - Answers",
+  "linkedQuestionPaperId": "cs-see-2082-re3031b",
+  "sourceNote": "Answer key for the SEE 2082 (2026) Computer Science (Optional Second) question paper, code RE-3031'B'. Written at Class 10 / SEE level using the same QBASIC/C vocabulary the paper itself uses. No figures/diagrams appeared in this paper, so no image fields are used. Question 9(b) does not specify the exact order of fields to store in \"STUDENT.TXT\" beyond 'Roll No, Name, Class, Date of Birth and Address'; that order has been assumed in the code below - please verify.",
+  "blocks": [
+    {
+      "heading": "Answer Key - SEE 2082 (2026) Computer Science, Optional Second",
+      "paragraph": "Full worked answers, step-by-step solutions, and complete runnable code for the SEE 2082 (2026) Computer Science Optional Second paper (RE-3031'B'), mirrored section-by-section and item-by-item against the questions file."
+    }
+  ],
+  "questionSections": [
+    {
+      "title": "Group A - Q1: Answer the following questions in one sentence",
+      "instructions": "6x1=6",
+      "items": [
+        {
+          "id": "cs-see-2082-re3031b-q1a",
+          "questionNumber": "1(a)",
+          "section": "Group A",
+          "marks": 1,
+          "answer": "Transmission media is the physical or wireless path through which data signals travel from a sender to a receiver in a network."
+        },
+        {
+          "id": "cs-see-2082-re3031b-q1b",
+          "questionNumber": "1(b)",
+          "section": "Group A",
+          "marks": 1,
+          "answer": "Mobile commerce (m-commerce) is the buying and selling of goods and services through wireless handheld devices such as smartphones and tablets."
+        },
+        {
+          "id": "cs-see-2082-re3031b-q1c",
+          "questionNumber": "1(c)",
+          "section": "Group A",
+          "marks": 1,
+          "answer": "A Primary key is used in MS-Access to uniquely identify each record in a table and to prevent duplicate or blank entries in that field."
+        },
+        {
+          "id": "cs-see-2082-re3031b-q1d",
+          "questionNumber": "1(d)",
+          "section": "Group A",
+          "marks": 1,
+          "answer": "Date/Time data type."
+        },
+        {
+          "id": "cs-see-2082-re3031b-q1e",
+          "questionNumber": "1(e)",
+          "section": "Group A",
+          "marks": 1,
+          "answer": "Modular programming is a programming approach in which a large program is divided into smaller, independent, reusable modules (such as functions or subs), each performing a specific task."
+        },
+        {
+          "id": "cs-see-2082-re3031b-q1f",
+          "questionNumber": "1(f)",
+          "section": "Group A",
+          "marks": 1,
+          "answer": "&& (logical AND) and || (logical OR) (! for logical NOT is also acceptable)."
+        }
+      ]
+    },
+    {
+      "title": "Group A - Q2: Write appropriate technical term for the following",
+      "instructions": "2x1=2",
+      "items": [
+        {
+          "id": "cs-see-2082-re3031b-q2a",
+          "questionNumber": "2(a)",
+          "section": "Group A",
+          "marks": 1,
+          "answer": "Antivirus (software)"
+        },
+        {
+          "id": "cs-see-2082-re3031b-q2b",
+          "questionNumber": "2(b)",
+          "section": "Group A",
+          "marks": 1,
+          "answer": "Virtual Reality (VR)"
+        }
+      ]
+    },
+    {
+      "title": "Group A - Q3: Write the full form of the following",
+      "instructions": "2x1=2",
+      "items": [
+        {
+          "id": "cs-see-2082-re3031b-q3a",
+          "questionNumber": "3(a)",
+          "section": "Group A",
+          "marks": 1,
+          "answer": "Local Area Network"
+        },
+        {
+          "id": "cs-see-2082-re3031b-q3b",
+          "questionNumber": "3(b)",
+          "section": "Group A",
+          "marks": 1,
+          "answer": "Uniform Resource Locator"
+        }
+      ]
+    },
+    {
+      "title": "Group B - Q4: Answer the following questions",
+      "instructions": "9x2=18",
+      "items": [
+        {
+          "id": "cs-see-2082-re3031b-q4a",
+          "questionNumber": "4(a)",
+          "section": "Group B",
+          "marks": 2,
+          "answer": "In Client/Server architecture, one dedicated computer (the server) provides resources or services to other computers (clients), while in Peer to Peer architecture, all computers have equal status and can act as both client and server.",
+          "solution": "Two differences: (1) Client/Server has a centralized, dedicated server managing resources, whereas Peer to Peer has no central server - every computer shares its own resources directly. (2) Client/Server is generally more secure and easier to manage centrally, while Peer to Peer is simpler and cheaper to set up but harder to secure and manage as the network grows."
+        },
+        {
+          "id": "cs-see-2082-re3031b-q4b",
+          "questionNumber": "4(b)",
+          "section": "Group B",
+          "marks": 2,
+          "answer": "Social media offers opportunities such as easy communication and business promotion, but also carries threats such as privacy loss and misinformation.",
+          "solution": "Two opportunities: (1) It allows easy and instant communication/networking with people worldwide. (2) It provides a low-cost platform for businesses to market and promote their products. Two threats: (1) It can expose users to privacy violations and personal data misuse. (2) It can spread misinformation, cyberbullying, or scams quickly."
+        },
+        {
+          "id": "cs-see-2082-re3031b-q4c",
+          "questionNumber": "4(c)",
+          "section": "Group B",
+          "marks": 2,
+          "answer": "Backup is important in data and software security because it creates a copy of important data and programs that can be restored in case of accidental deletion, hardware failure, virus attack, or other data loss, preventing permanent loss of information."
+        },
+        {
+          "id": "cs-see-2082-re3031b-q4d",
+          "questionNumber": "4(d)",
+          "section": "Group B",
+          "marks": 2,
+          "answer": "E-banking is the process of conducting banking transactions such as fund transfers, bill payments, and balance checks electronically through the internet, without visiting a physical bank branch.",
+          "solution": "Two advantages: (1) It saves time, allowing customers to carry out transactions anytime, anywhere, without visiting the bank. (2) It reduces paperwork and provides instant access to account information and transaction history."
+        },
+        {
+          "id": "cs-see-2082-re3031b-q4e",
+          "questionNumber": "4(e)",
+          "section": "Group B",
+          "marks": 2,
+          "answer": "The Internet of Things (IoT) is a network of physical devices embedded with sensors and software that connect to the internet and exchange data with each other.",
+          "solution": "Two importances of IoT: (1) It automates everyday tasks, increasing efficiency and convenience in homes and workplaces. (2) It enables real-time data collection and monitoring, useful in fields like healthcare and agriculture."
+        },
+        {
+          "id": "cs-see-2082-re3031b-q4f",
+          "questionNumber": "4(f)",
+          "section": "Group B",
+          "marks": 2,
+          "answer": "Four advantages of DBMS: (1) It reduces data redundancy by storing data centrally. (2) It ensures data consistency and integrity. (3) It provides data security through access control. (4) It allows multiple users to access and share data simultaneously."
+        },
+        {
+          "id": "cs-see-2082-re3031b-q4g",
+          "questionNumber": "4(g)",
+          "section": "Group B",
+          "marks": 2,
+          "answer": "Text data type is suitable for Name and Address, AutoNumber or Number is suitable for Roll No., and Date/Time is suitable for Date of Birth."
+        },
+        {
+          "id": "cs-see-2082-re3031b-q4h",
+          "questionNumber": "4(h)",
+          "section": "Group B",
+          "marks": 2,
+          "answer": "A Select Query is a database object used to retrieve and display specific data from one or more tables based on given criteria, without modifying the underlying data.",
+          "solution": "Function of Action Query: an Action Query is used to make changes to the data itself, such as updating, deleting, appending, or creating a new table from existing data, rather than just displaying it."
+        },
+        {
+          "id": "cs-see-2082-re3031b-q4i",
+          "questionNumber": "4(i)",
+          "section": "Group B",
+          "marks": 2,
+          "answer": "A report is a database object used to present and print data from tables or queries in an organized, formatted layout.",
+          "solution": "It is necessary to create a report in DBMS because it allows data to be summarized, organized, and printed in a professional, readable format that supports analysis and decision-making."
+        }
+      ]
+    },
+    {
+      "title": "Group B - Q5: Dry run the given program",
+      "instructions": "2",
+      "items": [
+        {
+          "id": "cs-see-2082-re3031b-q5",
+          "questionNumber": "5",
+          "section": "Group B",
+          "marks": 2,
+          "answer": "Output: 5  10  20  40  80",
+          "solution": "A starts at 5 and is passed to SUB Series(A). The loop runs K = 1 to 5. In each pass, the current value of A is printed first (with a trailing semicolon, so all values print on the same line), and then A is doubled (A = A*2) before the next iteration. So: K=1 prints 5, A becomes 10; K=2 prints 10, A becomes 20; K=3 prints 20, A becomes 40; K=4 prints 40, A becomes 80; K=5 prints 80, A becomes 160 (this final 160 is never printed).",
+          "solutionTable": {
+            "headers": [
+              "K",
+              "Value printed",
+              "A after doubling"
+            ],
+            "rows": [
+              [
+                "1",
+                "5",
+                "10"
+              ],
+              [
+                "2",
+                "10",
+                "20"
+              ],
+              [
+                "3",
+                "20",
+                "40"
+              ],
+              [
+                "4",
+                "40",
+                "80"
+              ],
+              [
+                "5",
+                "80",
+                "160"
+              ]
+            ]
+          },
+          "code": "DECLARE SUB Series (A)\nCLS\nA = 5\nCALL Series (A)\nEND\n\nSUB Series (A)\n FOR K = 1 TO 5\n    PRINT A;\n    A = A*2\n NEXT K\nEND SUB",
+          "codeLanguage": "QBASIC"
+        }
+      ]
+    },
+    {
+      "title": "Group B - Q6: Correct the bugs in the given program",
+      "instructions": "2",
+      "items": [
+        {
+          "id": "cs-see-2082-re3031b-q6",
+          "questionNumber": "6",
+          "section": "Group B",
+          "marks": 2,
+          "answer": "The program has four bugs: the file open mode, a write statement wrongly written as a read statement, an invalid string-function call, and CLOSE using a filename instead of a file number.",
+          "solution": "(1) 'OPEN \"See.dat\" for OUTPUT AS #2' would erase the existing file; since the comment says a record should be added to an existing file, it must be 'FOR APPEND AS #2'. (2) 'INPUT #2, N$, A$, C' reads from the file instead of writing to it; to add a record it must be 'PRINT #2, N$, A$, C'. (3) 'UCASE (Y$)' is invalid QBASIC syntax for a string function - the correct form is 'UCASE$(Y$)' with the dollar sign. (4) 'CLOSE \"See.dat\"' is invalid, since CLOSE takes a file number, not a filename; it must be 'CLOSE #2' to match the file number used when opening.",
+          "code": "REM to add record in an existing file\nCLS\nOPEN \"See.dat\" FOR APPEND AS #2\nBB:\n  INPUT \"Enter the Name\"; N$\n  INPUT \"Enter the Address\"; A$\n  INPUT \"Enter the Class\"; C\n  PRINT #2, N$, A$, C\n  INPUT \"More record\"; Y$\n  IF UCASE$(Y$) = \"Y\" THEN GOTO BB\nCLOSE #2\nEND",
+          "codeLanguage": "QBASIC"
+        }
+      ]
+    },
+    {
+      "title": "Group B - Q7: Study the given program and answer the questions",
+      "instructions": "2x1=2",
+      "items": [
+        {
+          "id": "cs-see-2082-re3031b-q7a",
+          "questionNumber": "7(a)",
+          "section": "Group B",
+          "marks": 1,
+          "answer": "A$, B$, and C$",
+          "solution": "These three variables are declared with 'DIM SHARED A$, B$, C$' in the main module, which makes them Global variables - accessible both in the main module and inside FUNCTION LongestName$, without needing to be passed as parameters.",
+          "code": "DECLARE FUNCTION LongestName$ (Z$)\nDIM SHARED A$, B$, C$\nCLS\nREAD A$, B$, C$\nDATA \"NEPAL\", \"BANGLADESH\", \"BHUTAN\"\nPRINT LongestName$ (Z$)\nEND\n\nFUNCTION LongestName$ (Z$)\n  L$=A$\n  IF LEN(B$) > LEN(L$) THEN\n     L$ = B$\n  ELSEIF LEN (C$)>LEN(L$) THEN\n     L$=C$\n  END IF\n  LongestName$=L$\nEND FUNCTION",
+          "codeLanguage": "QBASIC"
+        },
+        {
+          "id": "cs-see-2082-re3031b-q7b",
+          "questionNumber": "7(b)",
+          "section": "Group B",
+          "marks": 1,
+          "answer": "The $ (dollar) sign after a function name declares that the function returns a string (text) value, instead of the default numeric value.",
+          "solution": "In QBASIC, a function name's data type is shown by a type-declaration suffix; $ specifically marks a string-returning function, so 'LongestName$' tells QBASIC that this function will return a string value (here, the longest of the three country names)."
+        }
+      ]
+    },
+    {
+      "title": "Group C - Q8: Convert/Calculate as per the instruction",
+      "instructions": "4x1=4",
+      "items": [
+        {
+          "id": "cs-see-2082-re3031b-q8i",
+          "questionNumber": "8(i)",
+          "section": "Group C",
+          "marks": 1,
+          "answer": "(135)8",
+          "solution": "Pad the 7-bit binary number to a multiple of 3 bits and group from the right: 001 011 101. Convert each group: 001 = 1, 011 = 3, 101 = 5, giving the octal number (135)8."
+        },
+        {
+          "id": "cs-see-2082-re3031b-q8ii",
+          "questionNumber": "8(ii)",
+          "section": "Group C",
+          "marks": 1,
+          "answer": "(BC)16",
+          "solution": "Convert 188 to hexadecimal by dividing repeatedly by 16: 188 / 16 = 11 remainder 12 (C in hex); 11 / 16 = 0 remainder 11 (B in hex). Reading the remainders bottom-up gives (BC)16."
+        },
+        {
+          "id": "cs-see-2082-re3031b-q8iii",
+          "questionNumber": "8(iii)",
+          "section": "Group C",
+          "marks": 1,
+          "answer": "(11110)2",
+          "solution": "In decimal: (101)2 = 5 and (110)2 = 6. Multiplying gives 5 x 6 = 30, which in binary is (11110)2."
+        },
+        {
+          "id": "cs-see-2082-re3031b-q8iv",
+          "questionNumber": "8(iv)",
+          "section": "Group C",
+          "marks": 1,
+          "answer": "Quotient = (1011)2, Remainder = (100)2",
+          "solution": "(111011)2 in decimal is 59, and (101)2 in decimal is 5. 59 divided by 5 gives a quotient of 11 with a remainder of 4. Converting back: 11 = (1011)2 and 4 = (100)2."
+        }
+      ]
+    },
+    {
+      "title": "Group C - Q9: Answer the following questions",
+      "instructions": "4x2=8",
+      "items": [
+        {
+          "id": "cs-see-2082-re3031b-q9a",
+          "questionNumber": "9(a)",
+          "section": "Group C",
+          "marks": 4,
+          "answer": "A QBASIC program using a Sub procedure for the sum and a Function procedure for the average, as shown in the code field.",
+          "solution": "The main module takes three numbers A, B, and C as input. It calls the Sub procedure Total(A, B, C) using CALL, which computes and prints A+B+C directly since a sub does not return a value to the caller. It then calls the Function procedure Average(A, B, C), which returns (A+B+C)/3, and the main module prints that returned value directly.",
+          "code": "DECLARE SUB Total (A, B, C)\nDECLARE FUNCTION Average (A, B, C)\n\nCLS\nINPUT \"Enter first number: \", A\nINPUT \"Enter second number: \", B\nINPUT \"Enter third number: \", C\n\nCALL Total(A, B, C)\nPRINT \"Average = \"; Average(A, B, C)\n\nEND\n\nSUB Total (A, B, C)\n    Sum = A + B + C\n    PRINT \"Sum = \"; Sum\nEND SUB\n\nFUNCTION Average (A, B, C)\n    Average = (A + B + C) / 3\nEND FUNCTION",
+          "codeLanguage": "QBASIC"
+        },
+        {
+          "id": "cs-see-2082-re3031b-q9b",
+          "questionNumber": "9(b)",
+          "section": "Group C",
+          "marks": 4,
+          "answer": "A QBASIC program that creates \"STUDENT.TXT\" and stores Roll No, Name, Class, Date of Birth, and Address for as many students as the user wants, as shown in the code field.",
+          "solution": "The file \"STUDENT.TXT\" is opened FOR OUTPUT, which creates it if it does not already exist. A DO...LOOP WHILE loop repeatedly asks the user for a student's Roll No, Name, Class, Date of Birth, and Address, and writes each record to the file using WRITE #1. After each record, the user is asked whether to add more data; the loop continues as long as the answer is \"Y\", letting the user input as many records as needed. Finally the file is closed.",
+          "code": "OPEN \"STUDENT.TXT\" FOR OUTPUT AS #1\nCLS\nDO\n    INPUT \"Enter Roll No: \", RollNo\n    INPUT \"Enter Name: \", Name$\n    INPUT \"Enter Class: \", Class$\n    INPUT \"Enter Date of Birth: \", DOB$\n    INPUT \"Enter Address: \", Address$\n    WRITE #1, RollNo, Name$, Class$, DOB$, Address$\n    INPUT \"Add more data (Y/N): \", Ans$\nLOOP WHILE UCASE$(Ans$) = \"Y\"\nCLOSE #1\nEND",
+          "codeLanguage": "QBASIC"
+        }
+      ]
+    },
+    {
+      "title": "Group C - Q10: Write a program (attempt either option)",
+      "instructions": "4 (attempt either (a) or (b) - not both)",
+      "items": [
+        {
+          "id": "cs-see-2082-re3031b-q10a",
+          "questionNumber": "10(a)",
+          "section": "Group C",
+          "marks": 4,
+          "answer": "A C program that reads a number and reports whether it is Positive or Negative, as shown in the code field.",
+          "solution": "An integer n is read using scanf. An if-else if-else chain checks: if n is greater than 0, it is Positive; if n is less than 0, it is Negative; otherwise (n equals 0) it is reported as zero.",
+          "code": "#include <stdio.h>\n\nint main() {\n    int n;\n    printf(\"Enter a number: \");\n    scanf(\"%d\", &n);\n\n    if (n > 0) {\n        printf(\"%d is Positive.\\n\", n);\n    } else if (n < 0) {\n        printf(\"%d is Negative.\\n\", n);\n    } else {\n        printf(\"The number is zero.\\n\");\n    }\n\n    return 0;\n}",
+          "codeLanguage": "C",
+          "alternativeGroup": "q10",
+          "altLabel": "Option 1"
+        },
+        {
+          "id": "cs-see-2082-re3031b-q10b",
+          "questionNumber": "10(b) (OR)",
+          "section": "Group C",
+          "marks": 4,
+          "answer": "A C program that displays the series 100, 95, 90, 85, 80, ... up to the 10th term, as shown in the code field.",
+          "solution": "A variable 'term' starts at 100. A for loop runs 10 times (i = 1 to 10); in each iteration, it prints the current value of 'term' and then decreases it by 5 (term = term - 5), producing the descending series 100, 95, 90, 85, 80, 75, 70, 65, 60, 55.",
+          "code": "#include <stdio.h>\n\nint main() {\n    int i, term;\n    printf(\"Series: \");\n    term = 100;\n    for (i = 1; i <= 10; i++) {\n        printf(\"%d \", term);\n        term = term - 5;\n    }\n    printf(\"\\n\");\n    return 0;\n}",
+          "codeLanguage": "C",
+          "alternativeGroup": "q10",
+          "altLabel": "Option 2"
+        }
+      ]
+    }
+  ]
+}

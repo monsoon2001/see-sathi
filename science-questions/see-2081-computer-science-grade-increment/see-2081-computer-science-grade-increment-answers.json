@@ -1,0 +1,700 @@
+{
+  "chapterId": "see-2081-computer-science-grade-increment",
+  "subjectId": "computer-science",
+  "classLevel": "10",
+  "examBoard": "SEE (National Examinations Board, Nepal)",
+  "examYear": "2081 BS (2025 AD) - Grade Increment",
+  "paperCode": "GI-3031",
+  "fullMarks": 50,
+  "timeAllowed": "2 hours",
+  "titleEn": "SEE (Grade Increment) 2081 (2025) Computer Science (Optional Second) - GI-3031 - Answers",
+  "titleNe": "SEE ग्रेड वृद्धि २०८१ (२०२५) कम्प्युटर विज्ञान (ऐच्छिक दोस्रो) - GI-3031 - उत्तर कुञ्जी",
+  "sourceNote": {
+    "en": "Answer key for the SEE 2081 (2025 AD) (Grade Increment) Optional Computer Science question paper, paper code GI-3031. Solutions are written at Class 10 / SEE level in the same QBASIC/C vocabulary the paper uses, keyed to each question number.",
+    "ne": "SEE 2081 (2025 AD) (Grade Increment) ऐच्छिक कम्प्युटर विज्ञान प्रश्नपत्र (कोड GI-3031) को उत्तर कुञ्जी। समाधानहरू कक्षा १० / SEE स्तरमा प्रश्नपत्रले प्रयोग गरेकै QBASIC/C शब्दावलीमा तयार गरिएका छन्।"
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "text": {
+        "en": "Answer Key - SEE (Grade Increment) 2081 (2025) Computer Science, Optional Second",
+        "ne": "Answer Key - SEE (Grade Increment) 2081 (2025) Computer Science, Optional Second"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "Full worked answers, step-by-step solutions, and complete runnable code for the SEE Grade Increment 2081 (2025) Computer Science Optional Second paper (GI-3031), mirrored section-by-section and item-by-item against the questions file.",
+        "ne": "Full worked answers, step-by-step solutions, and complete runnable code for the SEE Grade Increment 2081 (2025) Computer Science Optional Second paper (GI-3031), mirrored section-by-section and item-by-item against the questions file."
+      }
+    }
+  ],
+  "docType": "answerKey",
+  "questionSections": [
+    {
+      "title": {
+        "en": "Group A - Q1: Answer the following questions in one sentence",
+        "ne": "Group A - Q1: Answer the following questions in one sentence"
+      },
+      "items": [
+        {
+          "id": "cs-see-gi-2081-gi3031-q1a",
+          "questionNumber": "1(a)",
+          "section": "Group A",
+          "marks": 1,
+          "answer": {
+            "en": "Microwave and radio wave (infrared and satellite links are also acceptable).",
+            "ne": "Microwave and radio wave (infrared and satellite links are also acceptable)."
+          }
+        },
+        {
+          "id": "cs-see-gi-2081-gi3031-q1b",
+          "questionNumber": "1(b)",
+          "section": "Group A",
+          "marks": 1,
+          "answer": {
+            "en": "Online payment is the process of making or receiving payments electronically over the internet, without using physical cash.",
+            "ne": "Online payment is the process of making or receiving payments electronically over the internet, without using physical cash."
+          }
+        },
+        {
+          "id": "cs-see-gi-2081-gi3031-q1c",
+          "questionNumber": "1(c)",
+          "section": "Group A",
+          "marks": 1,
+          "answer": {
+            "en": "Table and Query (Form, Report, and Macro are also acceptable objects of MS-Access).",
+            "ne": "Table and Query (Form, Report, and Macro are also acceptable objects of MS-Access)."
+          }
+        },
+        {
+          "id": "cs-see-gi-2081-gi3031-q1d",
+          "questionNumber": "1(d)",
+          "section": "Group A",
+          "marks": 1,
+          "answer": {
+            "en": "A report is a database object used to present and print data from tables or queries in an organized, formatted layout.",
+            "ne": "A report is a database object used to present and print data from tables or queries in an organized, formatted layout."
+          }
+        },
+        {
+          "id": "cs-see-gi-2081-gi3031-q1e",
+          "questionNumber": "1(e)",
+          "section": "Group A",
+          "marks": 1,
+          "answer": {
+            "en": "The WRITE statement is used to write data to a sequential data file, automatically enclosing string values in quotation marks and separating items with commas.",
+            "ne": "The WRITE statement is used to write data to a sequential data file, automatically enclosing string values in quotation marks and separating items with commas."
+          }
+        },
+        {
+          "id": "cs-see-gi-2081-gi3031-q1f",
+          "questionNumber": "1(f)",
+          "section": "Group A",
+          "marks": 1,
+          "answer": {
+            "en": "int and float (char and double are also acceptable C-language data types).",
+            "ne": "int and float (char and double are also acceptable C-language data types)."
+          }
+        }
+      ],
+      "instructions": {
+        "en": "6x1=6",
+        "ne": "6x1=6"
+      }
+    },
+    {
+      "title": {
+        "en": "Group A - Q2: Write appropriate technical term for the following",
+        "ne": "Group A - Q2: Write appropriate technical term for the following"
+      },
+      "items": [
+        {
+          "id": "cs-see-gi-2081-gi3031-q2a",
+          "questionNumber": "2(a)",
+          "section": "Group A",
+          "marks": 1,
+          "answer": {
+            "en": "Cybercrime",
+            "ne": "Cybercrime"
+          }
+        },
+        {
+          "id": "cs-see-gi-2081-gi3031-q2b",
+          "questionNumber": "2(b)",
+          "section": "Group A",
+          "marks": 1,
+          "answer": {
+            "en": "Data transfer rate (bandwidth)",
+            "ne": "Data transfer rate (bandwidth)"
+          }
+        }
+      ],
+      "instructions": {
+        "en": "2x1=2",
+        "ne": "2x1=2"
+      }
+    },
+    {
+      "title": {
+        "en": "Group A - Q3: Write the full form of the following",
+        "ne": "Group A - Q3: Write the full form of the following"
+      },
+      "items": [
+        {
+          "id": "cs-see-gi-2081-gi3031-q3a",
+          "questionNumber": "3(a)",
+          "section": "Group A",
+          "marks": 1,
+          "answer": {
+            "en": "Internet Service Provider",
+            "ne": "Internet Service Provider"
+          }
+        },
+        {
+          "id": "cs-see-gi-2081-gi3031-q3b",
+          "questionNumber": "3(b)",
+          "section": "Group A",
+          "marks": 1,
+          "answer": {
+            "en": "Government to Government",
+            "ne": "Government to Government"
+          }
+        }
+      ],
+      "instructions": {
+        "en": "2x1=2",
+        "ne": "2x1=2"
+      }
+    },
+    {
+      "title": {
+        "en": "Group B - Q4: Answer the following questions",
+        "ne": "Group B - Q4: Answer the following questions"
+      },
+      "items": [
+        {
+          "id": "cs-see-gi-2081-gi3031-q4a",
+          "questionNumber": "4(a)",
+          "section": "Group B",
+          "marks": 2,
+          "answer": {
+            "en": "Data communication is the process of exchanging data or information between two or more devices through a transmission medium.",
+            "ne": "Data communication is the process of exchanging data or information between two or more devices through a transmission medium."
+          },
+          "solution": {
+            "en": "Two modes of data communication: Simplex mode (data flows in one direction only) and Half-duplex mode (data flows in both directions, but only one at a time). Full-duplex (both directions simultaneously) is also an acceptable third mode.",
+            "ne": "Two modes of data communication: Simplex mode (data flows in one direction only) and Half-duplex mode (data flows in both directions, but only one at a time). Full-duplex (both directions simultaneously) is also an acceptable third mode."
+          }
+        },
+        {
+          "id": "cs-see-gi-2081-gi3031-q4b",
+          "questionNumber": "4(b)",
+          "section": "Group B",
+          "marks": 2,
+          "answer": {
+            "en": "Antivirus software is a program designed to detect, prevent, and remove malicious software such as viruses, worms, and trojans from a computer system.",
+            "ne": "Antivirus software is a program designed to detect, prevent, and remove malicious software such as viruses, worms, and trojans from a computer system."
+          },
+          "solution": {
+            "en": "Two examples: Avast Antivirus and Quick Heal Antivirus (Norton, McAfee, and Kaspersky are also acceptable).",
+            "ne": "Two examples: Avast Antivirus and Quick Heal Antivirus (Norton, McAfee, and Kaspersky are also acceptable)."
+          }
+        },
+        {
+          "id": "cs-see-gi-2081-gi3031-q4c",
+          "questionNumber": "4(c)",
+          "section": "Group B",
+          "marks": 2,
+          "answer": {
+            "en": "Software security refers to the protection of software and the data it processes from unauthorized access, misuse, or damage, typically using measures such as antivirus programs, passwords, and firewalls.",
+            "ne": "Software security refers to the protection of software and the data it processes from unauthorized access, misuse, or damage, typically using measures such as antivirus programs, passwords, and firewalls."
+          },
+          "solution": {
+            "en": "Two measures of hardware security: (1) Keep computer hardware in a locked/secure room to prevent theft or unauthorized physical access. (2) Use an Uninterruptible Power Supply (UPS) and voltage stabilizers to protect hardware from power fluctuations and damage.",
+            "ne": "Two measures of hardware security: (1) Keep computer hardware in a locked/secure room to prevent theft or unauthorized physical access. (2) Use an Uninterruptible Power Supply (UPS) and voltage stabilizers to protect hardware from power fluctuations and damage."
+          }
+        },
+        {
+          "id": "cs-see-gi-2081-gi3031-q4d",
+          "questionNumber": "4(d)",
+          "section": "Group B",
+          "marks": 2,
+          "answer": {
+            "en": "The Internet of Things (IoT) is a network of physical devices, vehicles, appliances, and other objects embedded with sensors and software that lets them connect to the internet and exchange data with each other.",
+            "ne": "The Internet of Things (IoT) is a network of physical devices, vehicles, appliances, and other objects embedded with sensors and software that lets them connect to the internet and exchange data with each other."
+          },
+          "solution": {
+            "en": "Two importances of IoT: (1) It automates everyday tasks, making homes and workplaces more efficient and convenient (e.g. smart home devices). (2) It enables real-time monitoring and data collection, which is useful in fields like healthcare, agriculture, and traffic management.",
+            "ne": "Two importances of IoT: (1) It automates everyday tasks, making homes and workplaces more efficient and convenient (e.g. smart home devices). (2) It enables real-time monitoring and data collection, which is useful in fields like healthcare, agriculture, and traffic management."
+          }
+        },
+        {
+          "id": "cs-see-gi-2081-gi3031-q4e",
+          "questionNumber": "4(e)",
+          "section": "Group B",
+          "marks": 2,
+          "answer": {
+            "en": "E-commerce is the buying and selling of goods and services, or the transfer of funds or data, over an electronic network such as the internet.",
+            "ne": "E-commerce is the buying and selling of goods and services, or the transfer of funds or data, over an electronic network such as the internet."
+          },
+          "solution": {
+            "en": "Types of e-commerce: Business-to-Business (B2B), Business-to-Consumer (B2C), Consumer-to-Consumer (C2C), and Consumer-to-Business (C2B).",
+            "ne": "Types of e-commerce: Business-to-Business (B2B), Business-to-Consumer (B2C), Consumer-to-Consumer (C2C), and Consumer-to-Business (C2B)."
+          }
+        },
+        {
+          "id": "cs-see-gi-2081-gi3031-q4f",
+          "questionNumber": "4(f)",
+          "section": "Group B",
+          "marks": 2,
+          "answer": {
+            "en": "A table is a database object that stores data in an organized structure of rows (records) and columns (fields).",
+            "ne": "A table is a database object that stores data in an organized structure of rows (records) and columns (fields)."
+          },
+          "solution": {
+            "en": "Design View is used to modify a table (its field names, data types, and properties).",
+            "ne": "Design View is used to modify a table (its field names, data types, and properties)."
+          }
+        },
+        {
+          "id": "cs-see-gi-2081-gi3031-q4g",
+          "questionNumber": "4(g)",
+          "section": "Group B",
+          "marks": 2,
+          "answer": {
+            "en": "A query is a database object used to retrieve, filter, or manipulate data stored in tables based on specified criteria.",
+            "ne": "A query is a database object used to retrieve, filter, or manipulate data stored in tables based on specified criteria."
+          },
+          "solution": {
+            "en": "Two importances of query: (1) It allows quick retrieval of specific data from large tables based on given conditions. (2) It can be used to update, delete, or summarize data automatically, saving manual effort.",
+            "ne": "Two importances of query: (1) It allows quick retrieval of specific data from large tables based on given conditions. (2) It can be used to update, delete, or summarize data automatically, saving manual effort."
+          }
+        },
+        {
+          "id": "cs-see-gi-2081-gi3031-q4h",
+          "questionNumber": "4(h)",
+          "section": "Group B",
+          "marks": 2,
+          "answer": {
+            "en": "Validation Rule is a condition/expression set on a field that data must satisfy before it can be entered, while Validation Text is the custom error message displayed when entered data violates that Validation Rule.",
+            "ne": "Validation Rule is a condition/expression set on a field that data must satisfy before it can be entered, while Validation Text is the custom error message displayed when entered data violates that Validation Rule."
+          },
+          "solution": {
+            "en": "Example: a Validation Rule of '>0' on a marks field would only accept positive numbers, and its Validation Text might say 'Marks must be greater than 0' when an invalid value is entered.",
+            "ne": "Example: a Validation Rule of '>0' on a marks field would only accept positive numbers, and its Validation Text might say 'Marks must be greater than 0' when an invalid value is entered."
+          }
+        },
+        {
+          "id": "cs-see-gi-2081-gi3031-q4i",
+          "questionNumber": "4(i)",
+          "section": "Group B",
+          "marks": 2,
+          "answer": {
+            "en": "A Form is used for entering, viewing, and editing data conveniently, while a Report is used for presenting and printing data in a formatted, read-only layout.",
+            "ne": "A Form is used for entering, viewing, and editing data conveniently, while a Report is used for presenting and printing data in a formatted, read-only layout."
+          },
+          "solutionTable": {
+            "headers": [
+              {
+                "en": "Form",
+                "ne": "Form"
+              },
+              {
+                "en": "Report",
+                "ne": "Report"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "Mainly used for data entry and editing.",
+                  "ne": "Mainly used for data entry and editing."
+                },
+                {
+                  "en": "Mainly used for presenting/printing data.",
+                  "ne": "Mainly used for presenting/printing data."
+                }
+              ],
+              [
+                {
+                  "en": "Data displayed can usually be modified.",
+                  "ne": "Data displayed can usually be modified."
+                },
+                {
+                  "en": "Data displayed is typically read-only.",
+                  "ne": "Data displayed is typically read-only."
+                }
+              ]
+            ]
+          }
+        }
+      ],
+      "instructions": {
+        "en": "9x2=18",
+        "ne": "9x2=18"
+      }
+    },
+    {
+      "title": {
+        "en": "Group B - Q5: Dry run the given program",
+        "ne": "Group B - Q5: Dry run the given program"
+      },
+      "items": [
+        {
+          "id": "cs-see-gi-2081-gi3031-q5",
+          "questionNumber": "5",
+          "section": "Group B",
+          "marks": 2,
+          "answer": {
+            "en": "Output (each character printed on its own line):\nD\nv\nl\np\ne\nt",
+            "ne": "Output (each character printed on its own line):\nD\nv\nl\np\ne\nt"
+          },
+          "solution": {
+            "en": "A$ = \"Development\" (length 11: D-e-v-e-l-o-p-m-e-n-t at positions 1-11). The loop runs C = 1 to 11, STEP 2, so C takes the values 1, 3, 5, 7, 9, 11. Each time, X$ picks out the character at position C using MID$(A$, C, 1), and since PRINT X$ has no trailing semicolon, each character is printed on its own line. C=1 gives 'D', C=3 gives 'v', C=5 gives 'l', C=7 gives 'p', C=9 gives 'e', C=11 gives 't'.",
+            "ne": "A$ = \"Development\" (length 11: D-e-v-e-l-o-p-m-e-n-t at positions 1-11). The loop runs C = 1 to 11, STEP 2, so C takes the values 1, 3, 5, 7, 9, 11. Each time, X$ picks out the character at position C using MID$(A$, C, 1), and since PRINT X$ has no trailing semicolon, each character is printed on its own line. C=1 gives 'D', C=3 gives 'v', C=5 gives 'l', C=7 gives 'p', C=9 gives 'e', C=11 gives 't'."
+          },
+          "solutionTable": {
+            "headers": [
+              {
+                "en": "C",
+                "ne": "C"
+              },
+              {
+                "en": "MID$(A$,C,1) -> X$",
+                "ne": "MID$(A$,C,1) -> X$"
+              },
+              {
+                "en": "Printed line",
+                "ne": "Printed line"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "1",
+                  "ne": "1"
+                },
+                {
+                  "en": "\"D\"",
+                  "ne": "\"D\""
+                },
+                {
+                  "en": "D",
+                  "ne": "D"
+                }
+              ],
+              [
+                {
+                  "en": "3",
+                  "ne": "3"
+                },
+                {
+                  "en": "\"v\"",
+                  "ne": "\"v\""
+                },
+                {
+                  "en": "v",
+                  "ne": "v"
+                }
+              ],
+              [
+                {
+                  "en": "5",
+                  "ne": "5"
+                },
+                {
+                  "en": "\"l\"",
+                  "ne": "\"l\""
+                },
+                {
+                  "en": "l",
+                  "ne": "l"
+                }
+              ],
+              [
+                {
+                  "en": "7",
+                  "ne": "7"
+                },
+                {
+                  "en": "\"p\"",
+                  "ne": "\"p\""
+                },
+                {
+                  "en": "p",
+                  "ne": "p"
+                }
+              ],
+              [
+                {
+                  "en": "9",
+                  "ne": "9"
+                },
+                {
+                  "en": "\"e\"",
+                  "ne": "\"e\""
+                },
+                {
+                  "en": "e",
+                  "ne": "e"
+                }
+              ],
+              [
+                {
+                  "en": "11",
+                  "ne": "11"
+                },
+                {
+                  "en": "\"t\"",
+                  "ne": "\"t\""
+                },
+                {
+                  "en": "t",
+                  "ne": "t"
+                }
+              ]
+            ]
+          },
+          "code": "DECLARE SUB Result (A$)\nA$=\"Development\"\nCALL Result (A$)\nEND\n\nSUB Result (A$)\nFOR C=1 TO LEN(A$) STEP 2\n  X$=MID$(A$,C,1)\n  PRINT X$\nNEXT C\nEND SUB",
+          "codeLanguage": "QBASIC"
+        }
+      ],
+      "instructions": {
+        "en": "2",
+        "ne": "2"
+      }
+    },
+    {
+      "title": {
+        "en": "Group B - Q6: Correct the bugs in the given program",
+        "ne": "Group B - Q6: Correct the bugs in the given program"
+      },
+      "items": [
+        {
+          "id": "cs-see-gi-2081-gi3031-q6",
+          "questionNumber": "6",
+          "section": "Group B",
+          "marks": 2,
+          "answer": {
+            "en": "The program has three bugs: a missing file number in EOF(), an invalid DISPLAY statement, and a mismatched loop-closing keyword.",
+            "ne": "The program has three bugs: a missing file number in EOF(), an invalid DISPLAY statement, and a mismatched loop-closing keyword."
+          },
+          "solution": {
+            "en": "(1) 'DO WHILE NOT EOF( )' is missing the file number argument; it must be 'DO WHILE NOT EOF(1)' to check the end of file #1. (2) 'DISPLAY RN, N$, E, Ne' is not a valid QBASIC statement; it must be 'PRINT RN, N$, E, Ne' to output the record. (3) A loop opened with 'DO WHILE' must be closed with 'LOOP', not 'WEND' ('WEND' only pairs with a plain 'WHILE'); so the closing keyword must be changed to 'LOOP'. 'CLOSE' has also been made specific as 'CLOSE #1' to match the file opened with that number.",
+            "ne": "(1) 'DO WHILE NOT EOF( )' is missing the file number argument; it must be 'DO WHILE NOT EOF(1)' to check the end of file #1. (2) 'DISPLAY RN, N$, E, Ne' is not a valid QBASIC statement; it must be 'PRINT RN, N$, E, Ne' to output the record. (3) A loop opened with 'DO WHILE' must be closed with 'LOOP', not 'WEND' ('WEND' only pairs with a plain 'WHILE'); so the closing keyword must be changed to 'LOOP'. 'CLOSE' has also been made specific as 'CLOSE #1' to match the file opened with that number."
+          },
+          "code": "REM to display records\nOPEN \"marks.dat\" FOR INPUT AS #1\nCLS\nPRINT \"Roll Number\", \"Name\", \"English\", \"Nepali\"\nDO WHILE NOT EOF(1)\n  INPUT #1, RN, N$, E, Ne\n  PRINT RN, N$, E, Ne\nLOOP\nCLOSE #1\nEND",
+          "codeLanguage": "QBASIC"
+        }
+      ],
+      "instructions": {
+        "en": "2",
+        "ne": "2"
+      }
+    },
+    {
+      "title": {
+        "en": "Group B - Q7: Study the given program and answer the questions",
+        "ne": "Group B - Q7: Study the given program and answer the questions"
+      },
+      "items": [
+        {
+          "id": "cs-see-gi-2081-gi3031-q7a",
+          "questionNumber": "7(a)",
+          "section": "Group B",
+          "marks": 1,
+          "answer": {
+            "en": "A and B",
+            "ne": "A and B"
+          },
+          "solution": {
+            "en": "A and B are the formal parameters declared in FUNCTION MUL(A, B); they receive the values of M and N (the actual arguments) when the function is called as MUL(M, N).",
+            "ne": "A and B are the formal parameters declared in FUNCTION MUL(A, B); they receive the values of M and N (the actual arguments) when the function is called as MUL(M, N)."
+          },
+          "code": "DECLARE FUNCTION MUL (A, B)\nM=5\nN=3\nPRINT MUL (M,N)\nEND\n\nFUNCTION MUL (A, B)\n  MUL = A*B\nEND FUNCTION",
+          "codeLanguage": "QBASIC"
+        },
+        {
+          "id": "cs-see-gi-2081-gi3031-q7b",
+          "questionNumber": "7(b)",
+          "section": "Group B",
+          "marks": 1,
+          "answer": {
+            "en": "Function procedure",
+            "ne": "Function procedure"
+          },
+          "solution": {
+            "en": "The program defines and uses FUNCTION MUL(A, B) ... END FUNCTION, which is a Function procedure - it takes parameters, computes a value (A*B), and returns that value directly to the calling statement PRINT MUL(M,N).",
+            "ne": "The program defines and uses FUNCTION MUL(A, B) ... END FUNCTION, which is a Function procedure - it takes parameters, computes a value (A*B), and returns that value directly to the calling statement PRINT MUL(M,N)."
+          }
+        }
+      ],
+      "instructions": {
+        "en": "2x1=2",
+        "ne": "2x1=2"
+      }
+    },
+    {
+      "title": {
+        "en": "Group C - Q8: Convert/Calculate as per the instruction",
+        "ne": "Group C - Q8: Convert/Calculate as per the instruction"
+      },
+      "items": [
+        {
+          "id": "cs-see-gi-2081-gi3031-q8i",
+          "questionNumber": "8(i)",
+          "section": "Group C",
+          "marks": 1,
+          "answer": {
+            "en": "(29)16",
+            "ne": "(29)16"
+          },
+          "solution": {
+            "en": "Group the 8-bit binary number into sets of 4 bits from the right: 0010 1001. Convert each group: 0010 = 2, 1001 = 9, giving the hexadecimal number (29)16.",
+            "ne": "Group the 8-bit binary number into sets of 4 bits from the right: 0010 1001. Convert each group: 0010 = 2, 1001 = 9, giving the hexadecimal number (29)16."
+          }
+        },
+        {
+          "id": "cs-see-gi-2081-gi3031-q8ii",
+          "questionNumber": "8(ii)",
+          "section": "Group C",
+          "marks": 1,
+          "answer": {
+            "en": "(111)2",
+            "ne": "(111)2"
+          },
+          "solution": {
+            "en": "In decimal: (111)2 = 7 and (10)2 = 2. First multiply: 7 x 2 = 14 = (1110)2. Then subtract (111)2 = 7: 14 - 7 = 7 = (111)2.",
+            "ne": "In decimal: (111)2 = 7 and (10)2 = 2. First multiply: 7 x 2 = 14 = (1110)2. Then subtract (111)2 = 7: 14 - 7 = 7 = (111)2."
+          }
+        },
+        {
+          "id": "cs-see-gi-2081-gi3031-q8iii",
+          "questionNumber": "8(iii)",
+          "section": "Group C",
+          "marks": 1,
+          "answer": {
+            "en": "(1010110)2",
+            "ne": "(1010110)2"
+          },
+          "solution": {
+            "en": "Convert 86 to binary by repeated division by 2: 86=64+16+4+2, which corresponds to binary digits 1010110 (64+0+16+0+4+2+0=86).",
+            "ne": "Convert 86 to binary by repeated division by 2: 86=64+16+4+2, which corresponds to binary digits 1010110 (64+0+16+0+4+2+0=86)."
+          }
+        },
+        {
+          "id": "cs-see-gi-2081-gi3031-q8iv",
+          "questionNumber": "8(iv)",
+          "section": "Group C",
+          "marks": 1,
+          "answer": {
+            "en": "Quotient = (101)2, Remainder = (1)2",
+            "ne": "Quotient = (101)2, Remainder = (1)2"
+          },
+          "solution": {
+            "en": "(1011)2 in decimal is 11, and (10)2 in decimal is 2. 11 divided by 2 gives a quotient of 5 with a remainder of 1. Converting back: 5 = (101)2 and 1 = (1)2.",
+            "ne": "(1011)2 in decimal is 11, and (10)2 in decimal is 2. 11 divided by 2 gives a quotient of 5 with a remainder of 1. Converting back: 5 = (101)2 and 1 = (1)2."
+          }
+        }
+      ],
+      "instructions": {
+        "en": "4x1=4",
+        "ne": "4x1=4"
+      }
+    },
+    {
+      "title": {
+        "en": "Group C - Q9: Answer the following questions",
+        "ne": "Group C - Q9: Answer the following questions"
+      },
+      "items": [
+        {
+          "id": "cs-see-gi-2081-gi3031-q9a",
+          "questionNumber": "9(a)",
+          "section": "Group C",
+          "marks": 4,
+          "answer": {
+            "en": "A QBASIC program using a Function procedure for the sum and a Sub procedure for the average, as shown in the code field.",
+            "ne": "A QBASIC program using a Function procedure for the sum and a Sub procedure for the average, as shown in the code field."
+          },
+          "solution": {
+            "en": "The main module takes three numbers A, B, and C as input. It calls the Function procedure Total(A, B, C), which returns A+B+C, and prints the result directly since a function returns a value. It then calls the Sub procedure Average(A, B, C) using CALL, which computes (A+B+C)/3 internally and prints it itself, since a sub does not return a value to the caller.",
+            "ne": "The main module takes three numbers A, B, and C as input. It calls the Function procedure Total(A, B, C), which returns A+B+C, and prints the result directly since a function returns a value. It then calls the Sub procedure Average(A, B, C) using CALL, which computes (A+B+C)/3 internally and prints it itself, since a sub does not return a value to the caller."
+          },
+          "code": "DECLARE FUNCTION Total (A, B, C)\nDECLARE SUB Average (A, B, C)\n\nCLS\nINPUT \"Enter first number: \", A\nINPUT \"Enter second number: \", B\nINPUT \"Enter third number: \", C\n\nPRINT \"Sum = \"; Total(A, B, C)\nCALL Average(A, B, C)\n\nEND\n\nFUNCTION Total (A, B, C)\n    Total = A + B + C\nEND FUNCTION\n\nSUB Average (A, B, C)\n    Avg = (A + B + C) / 3\n    PRINT \"Average = \"; Avg\nEND SUB",
+          "codeLanguage": "QBASIC"
+        },
+        {
+          "id": "cs-see-gi-2081-gi3031-q9b",
+          "questionNumber": "9(b)",
+          "section": "Group C",
+          "marks": 4,
+          "answer": {
+            "en": "A QBASIC program that creates the sequential data file \"record.txt\" and stores Roll Number, Name, Address, and Class for multiple students, as shown in the code field.",
+            "ne": "A QBASIC program that creates the sequential data file \"record.txt\" and stores Roll Number, Name, Address, and Class for multiple students, as shown in the code field."
+          },
+          "solution": {
+            "en": "The file \"record.txt\" is opened FOR OUTPUT, which creates it if it does not already exist. A DO...LOOP WHILE loop repeatedly asks the user for a student's Roll Number, Name, Address, and Class, and writes each record to the file using WRITE #1 (which automatically adds quotes around string values and separates all items with commas). After each record, the user is asked whether to add another; the loop continues as long as the answer is \"Y\". Finally the file is closed.",
+            "ne": "The file \"record.txt\" is opened FOR OUTPUT, which creates it if it does not already exist. A DO...LOOP WHILE loop repeatedly asks the user for a student's Roll Number, Name, Address, and Class, and writes each record to the file using WRITE #1 (which automatically adds quotes around string values and separates all items with commas). After each record, the user is asked whether to add another; the loop continues as long as the answer is \"Y\". Finally the file is closed."
+          },
+          "code": "OPEN \"record.txt\" FOR OUTPUT AS #1\nCLS\nDO\n    INPUT \"Enter Roll Number: \", RollNumber\n    INPUT \"Enter Name: \", Name$\n    INPUT \"Enter Address: \", Address$\n    INPUT \"Enter Class: \", Class$\n    WRITE #1, RollNumber, Name$, Address$, Class$\n    INPUT \"Add another record (Y/N): \", Ans$\nLOOP WHILE UCASE$(Ans$) = \"Y\"\nCLOSE #1\nEND",
+          "codeLanguage": "QBASIC"
+        }
+      ],
+      "instructions": {
+        "en": "4x2=8",
+        "ne": "4x2=8"
+      }
+    },
+    {
+      "title": {
+        "en": "Group C - Q10: Write a program (attempt either option)",
+        "ne": "Group C - Q10: Write a program (attempt either option)"
+      },
+      "items": [
+        {
+          "id": "cs-see-gi-2081-gi3031-q10a",
+          "questionNumber": "10(a)",
+          "section": "Group C",
+          "marks": 4,
+          "answer": {
+            "en": "A C program that reads a number and reports whether it is odd or even, as shown in the code field.",
+            "ne": "A C program that reads a number and reports whether it is odd or even, as shown in the code field."
+          },
+          "solution": {
+            "en": "An integer n is read using scanf. The expression n % 2 gives the remainder when n is divided by 2; if this remainder is 0, n is even, otherwise n is odd. An if-else statement prints the appropriate message.",
+            "ne": "An integer n is read using scanf. The expression n % 2 gives the remainder when n is divided by 2; if this remainder is 0, n is even, otherwise n is odd. An if-else statement prints the appropriate message."
+          },
+          "code": "#include <stdio.h>\n\nint main() {\n    int n;\n    printf(\"Enter a number: \");\n    scanf(\"%d\", &n);\n\n    if (n % 2 == 0) {\n        printf(\"%d is even.\\n\", n);\n    } else {\n        printf(\"%d is odd.\\n\", n);\n    }\n\n    return 0;\n}",
+          "codeLanguage": "C",
+          "alternativeGroup": "q10",
+          "altLabel": "Option 1"
+        },
+        {
+          "id": "cs-see-gi-2081-gi3031-q10b",
+          "questionNumber": "10(b) (OR)",
+          "section": "Group C",
+          "marks": 4,
+          "answer": {
+            "en": "A C program that displays the series 2, 4, 6, 8, ... up to 100, as shown in the code field.",
+            "ne": "A C program that displays the series 2, 4, 6, 8, ... up to 100, as shown in the code field."
+          },
+          "solution": {
+            "en": "A for loop starts at i = 2 and runs while i <= 100, increasing i by 2 in each iteration (i = i + 2). Each value of i is printed, producing the series 2, 4, 6, 8, 10, ... up to 100.",
+            "ne": "A for loop starts at i = 2 and runs while i <= 100, increasing i by 2 in each iteration (i = i + 2). Each value of i is printed, producing the series 2, 4, 6, 8, 10, ... up to 100."
+          },
+          "code": "#include <stdio.h>\n\nint main() {\n    int i;\n    printf(\"Series: \");\n    for (i = 2; i <= 100; i = i + 2) {\n        printf(\"%d \", i);\n    }\n    printf(\"\\n\");\n    return 0;\n}",
+          "codeLanguage": "C",
+          "alternativeGroup": "q10",
+          "altLabel": "Option 2"
+        }
+      ],
+      "instructions": {
+        "en": "4 (attempt either (a) or (b) - not both)",
+        "ne": "4 (attempt either (a) or (b) - not both)"
+      }
+    }
+  ],
+  "linkedQuestionPaperId": "see-2081-computer-science-grade-increment"
+}

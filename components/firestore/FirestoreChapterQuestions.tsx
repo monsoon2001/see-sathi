@@ -172,7 +172,7 @@ export function FirestoreChapterQuestions({
               </div>
               <div className="space-y-4">
                 {s.items.map((q, qi) => (
-                  <QuestionCard key={q.id || qi} q={q} index={qi + 1} lang={lang} />
+                  <QuestionCard key={q.id || qi} q={q} index={qi + 1} lang={lang} math={subject.slug === "mathematics"} />
                 ))}
               </div>
             </section>

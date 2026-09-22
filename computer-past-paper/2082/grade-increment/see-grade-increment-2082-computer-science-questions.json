@@ -1,0 +1,342 @@
+{
+  "chapterId": "full-paper",
+  "subjectId": "computer-science",
+  "classLevel": "10",
+  "province": null,
+  "examBoard": "SEE",
+  "examYear": "2082 BS (2026 AD) - Grade Increment",
+  "paperCode": "GI-3031",
+  "fullMarks": 50,
+  "timeAllowed": "2 hours",
+  "title": "SEE (Grade Increment) 2082 (2026) Computer Science (Optional Second) - GI-3031",
+  "sourceNote": "Transcribed and translated in full to English from a scanned SEE (Grade Increment) 2082 (2026) Computer Science (Optional Second) question paper, code GI-3031 (note: this paper code is identical to the earlier SEE Grade Increment 2081 paper already converted - they are distinct papers for different exam cycles that happen to share the same printed code, so this file's internal id has been suffixed to avoid collision). Only the English wording printed on the paper is used here. The paper did not state which province issued it, so 'province' is left null - please confirm. 'examBoard' is set to the generic 'SEE' as no specific board name was printed. Page 3 has a visible watermark/overlay reading 'FB - Tuition Class of Rajan Shrestha' printed near question 7(a); this is not part of the original exam content and has been excluded from the transcription. Question 6's printed filename literal reads 'REC. DAT' with a space in it, which looks like a scan artifact (DOS/QBASIC-era filenames of this kind are not normally written with an internal space); it has been preserved exactly as scanned in this questions file (since this item is explicitly a 'find the bugs' exercise) but cleaned to 'REC.DAT' in the answers file, flagged there as an assumption. No other figures, flowcharts, or diagrams appear anywhere in this paper, so no items include an image field. Full marks (50) reconcile exactly against the printed section-wise marks breakdown (Group A = 10, Group B = 24, Group C = 16).",
+  "blocks": [
+    {
+      "heading": "SEE (Grade Increment) 2082 (2026) Computer Science - Optional Second",
+      "paragraph": "This is the SEE Grade Increment 2082 (2026 AD) question paper for Computer Science, Optional Second subject, paper code GI-3031. It carries full marks of 50 and an allotted time of 2 hours, divided into Group A (short, one-line answers and terminology), Group B (short/medium answers including QBASIC program tracing and debugging), and Group C (numerical conversions and full program-writing questions in QBASIC and C)."
+    }
+  ],
+  "questionSections": [
+    {
+      "title": "Group A - Q1: Answer the following questions in one sentence",
+      "instructions": "6x1=6",
+      "items": [
+        {
+          "id": "cs-see-gi-2082-gi3031b-q1a",
+          "questionNumber": "1(a)",
+          "section": "Group A",
+          "marks": 1,
+          "source": "SEE Grade Increment 2082 (2026) Computer Science Optional II",
+          "question": "Write the names of any two simplex data transmission modes."
+        },
+        {
+          "id": "cs-see-gi-2082-gi3031b-q1b",
+          "questionNumber": "1(b)",
+          "section": "Group A",
+          "marks": 1,
+          "source": "SEE Grade Increment 2082 (2026) Computer Science Optional II",
+          "question": "What is password?"
+        },
+        {
+          "id": "cs-see-gi-2082-gi3031b-q1c",
+          "questionNumber": "1(c)",
+          "section": "Group A",
+          "marks": 1,
+          "source": "SEE Grade Increment 2082 (2026) Computer Science Optional II",
+          "question": "Which data type is used to store a picture in MS-Access?"
+        },
+        {
+          "id": "cs-see-gi-2082-gi3031b-q1d",
+          "questionNumber": "1(d)",
+          "section": "Group A",
+          "marks": 1,
+          "source": "SEE Grade Increment 2082 (2026) Computer Science Optional II",
+          "question": "What is the function of the caption field property in MS-Access?"
+        },
+        {
+          "id": "cs-see-gi-2082-gi3031b-q1e",
+          "questionNumber": "1(e)",
+          "section": "Group A",
+          "marks": 1,
+          "source": "SEE Grade Increment 2082 (2026) Computer Science Optional II",
+          "question": "Write any two advantages of modular programming."
+        },
+        {
+          "id": "cs-see-gi-2082-gi3031b-q1f",
+          "questionNumber": "1(f)",
+          "section": "Group A",
+          "marks": 1,
+          "source": "SEE Grade Increment 2082 (2026) Computer Science Optional II",
+          "question": "Name any two keywords used in C language."
+        }
+      ]
+    },
+    {
+      "title": "Group A - Q2: Write appropriate technical term for the following",
+      "instructions": "2x1=2",
+      "items": [
+        {
+          "id": "cs-see-gi-2082-gi3031b-q2a",
+          "questionNumber": "2(a)",
+          "section": "Group A",
+          "marks": 1,
+          "source": "SEE Grade Increment 2082 (2026) Computer Science Optional II",
+          "question": "Name the business done through the Internet."
+        },
+        {
+          "id": "cs-see-gi-2082-gi3031b-q2b",
+          "questionNumber": "2(b)",
+          "section": "Group A",
+          "marks": 1,
+          "source": "SEE Grade Increment 2082 (2026) Computer Science Optional II",
+          "question": "Name the protocol used to receive e-mail from the mail server."
+        }
+      ]
+    },
+    {
+      "title": "Group A - Q3: Write the full form of the following",
+      "instructions": "2x1=2",
+      "items": [
+        {
+          "id": "cs-see-gi-2082-gi3031b-q3a",
+          "questionNumber": "3(a)",
+          "section": "Group A",
+          "marks": 1,
+          "source": "SEE Grade Increment 2082 (2026) Computer Science Optional II",
+          "question": "TCP/IP"
+        },
+        {
+          "id": "cs-see-gi-2082-gi3031b-q3b",
+          "questionNumber": "3(b)",
+          "section": "Group A",
+          "marks": 1,
+          "source": "SEE Grade Increment 2082 (2026) Computer Science Optional II",
+          "question": "B2C"
+        }
+      ]
+    },
+    {
+      "title": "Group B - Q4: Answer the following questions in short",
+      "instructions": "9x2=18",
+      "items": [
+        {
+          "id": "cs-see-gi-2082-gi3031b-q4a",
+          "questionNumber": "4(a)",
+          "section": "Group B",
+          "marks": 2,
+          "source": "SEE Grade Increment 2082 (2026) Computer Science Optional II",
+          "question": "What is computer network? Write any two advantages of computer network."
+        },
+        {
+          "id": "cs-see-gi-2082-gi3031b-q4b",
+          "questionNumber": "4(b)",
+          "section": "Group B",
+          "marks": 2,
+          "source": "SEE Grade Increment 2082 (2026) Computer Science Optional II",
+          "question": "What is Artificial Intelligence? Write any two areas where Artificial Intelligence is used."
+        },
+        {
+          "id": "cs-see-gi-2082-gi3031b-q4c",
+          "questionNumber": "4(c)",
+          "section": "Group B",
+          "marks": 2,
+          "source": "SEE Grade Increment 2082 (2026) Computer Science Optional II",
+          "question": "What is Data backup? How does it provide computer data security?"
+        },
+        {
+          "id": "cs-see-gi-2082-gi3031b-q4d",
+          "questionNumber": "4(d)",
+          "section": "Group B",
+          "marks": 2,
+          "source": "SEE Grade Increment 2082 (2026) Computer Science Optional II",
+          "question": "What is online payment? Write any two different forms of e-payment in Nepal."
+        },
+        {
+          "id": "cs-see-gi-2082-gi3031b-q4e",
+          "questionNumber": "4(e)",
+          "section": "Group B",
+          "marks": 2,
+          "source": "SEE Grade Increment 2082 (2026) Computer Science Optional II",
+          "question": "\"Internet is called the network of networks.\" Justify it."
+        },
+        {
+          "id": "cs-see-gi-2082-gi3031b-q4f",
+          "questionNumber": "4(f)",
+          "section": "Group B",
+          "marks": 2,
+          "source": "SEE Grade Increment 2082 (2026) Computer Science Optional II",
+          "question": "What is DBMS? Write any two examples of DBMS."
+        },
+        {
+          "id": "cs-see-gi-2082-gi3031b-q4g",
+          "questionNumber": "4(g)",
+          "section": "Group B",
+          "marks": 2,
+          "source": "SEE Grade Increment 2082 (2026) Computer Science Optional II",
+          "question": "What is Data redundancy? How can it be reduced in a database?"
+        },
+        {
+          "id": "cs-see-gi-2082-gi3031b-q4h",
+          "questionNumber": "4(h)",
+          "section": "Group B",
+          "marks": 2,
+          "source": "SEE Grade Increment 2082 (2026) Computer Science Optional II",
+          "question": "Define Query with its types."
+        },
+        {
+          "id": "cs-see-gi-2082-gi3031b-q4i",
+          "questionNumber": "4(i)",
+          "section": "Group B",
+          "marks": 2,
+          "source": "SEE Grade Increment 2082 (2026) Computer Science Optional II",
+          "question": "Write any two differences between Form and Report."
+        }
+      ]
+    },
+    {
+      "title": "Group B - Q5: Dry run the given program",
+      "instructions": "2",
+      "items": [
+        {
+          "id": "cs-see-gi-2082-gi3031b-q5",
+          "questionNumber": "5",
+          "section": "Group B",
+          "marks": 2,
+          "source": "SEE Grade Increment 2082 (2026) Computer Science Optional II",
+          "question": "Write down the output of the given program and show it in a dry run table.",
+          "code": "DECLARE SUB SERIES ()\nCLS\nCALL SERIES\nEND\n\nSUB SERIES\nFOR J = 5 TO 1 STEP -1\n    FOR I = 1 TO J\n        PRINT I;\n    NEXT I\n    PRINT\nNEXT J\nEND SUB",
+          "codeLanguage": "QBASIC"
+        }
+      ]
+    },
+    {
+      "title": "Group B - Q6: Correct the bugs in the given program",
+      "instructions": "2",
+      "items": [
+        {
+          "id": "cs-see-gi-2082-gi3031b-q6",
+          "questionNumber": "6",
+          "section": "Group B",
+          "marks": 2,
+          "source": "SEE Grade Increment 2082 (2026) Computer Science Optional II",
+          "question": "Rewrite the given program after correcting the bugs.",
+          "code": "REM to add more data in sequential data file\nOpen \"REC. DAT\" FOR OUTPUT AS #1\nDO\n    INPUT \"Enter Name\"; N$\n    INPUT \"Enter Address\"; A$\n    INPUT \"Enter class with section\"; C$\n    INPUT \"Enter Roll no.\"; RN\n    INPUT #2, N$, A$, C$, RN\n    INPUT \"Do you want to continue\"; CH$\nLOOP WHILE UCASE$(CH$) = \"Y\"\nCLOSE\nEND",
+          "codeLanguage": "QBASIC",
+          "ocrFlag": "The printed filename literal reads \"REC. DAT\" with a space, which looks like a scan artifact rather than an intended part of the exercise; preserved exactly as scanned here since this item is a find-the-bugs exercise, but cleaned up to \"REC.DAT\" in the answers file."
+        }
+      ]
+    },
+    {
+      "title": "Group B - Q7: Study the given program and answer the questions",
+      "instructions": "2x1=2",
+      "items": [
+        {
+          "id": "cs-see-gi-2082-gi3031b-q7a",
+          "questionNumber": "7(a)",
+          "section": "Group B",
+          "marks": 1,
+          "source": "SEE Grade Increment 2082 (2026) Computer Science Optional II",
+          "question": "Write the Real parameter and Formal parameter used in the above program.",
+          "code": "DECLARE FUNCTION SUM (N)\nCLS\nA = 1234\nY = SUM (A)\nPRINT \"Sum of individual digits\"; Y\nEND\n\nFUNCTION SUM (N)\n    WHILE N<>0\n        D = N MOD 10\n        S = S+D\n        N = INT (N/10)\n    WEND\n    SUM = S\nEND FUNCTION",
+          "codeLanguage": "QBASIC"
+        },
+        {
+          "id": "cs-see-gi-2082-gi3031b-q7b",
+          "questionNumber": "7(b)",
+          "section": "Group B",
+          "marks": 1,
+          "source": "SEE Grade Increment 2082 (2026) Computer Science Optional II",
+          "question": "Will the loop continue or terminate if the expression N = INT(N/10) is removed?",
+          "code": "DECLARE FUNCTION SUM (N)\nCLS\nA = 1234\nY = SUM (A)\nPRINT \"Sum of individual digits\"; Y\nEND\n\nFUNCTION SUM (N)\n    WHILE N<>0\n        D = N MOD 10\n        S = S+D\n        N = INT (N/10)\n    WEND\n    SUM = S\nEND FUNCTION",
+          "codeLanguage": "QBASIC"
+        }
+      ]
+    },
+    {
+      "title": "Group C - Q8: Convert/Calculate as per the instruction",
+      "instructions": "4x1=4",
+      "items": [
+        {
+          "id": "cs-see-gi-2082-gi3031b-q8i",
+          "questionNumber": "8(i)",
+          "section": "Group C",
+          "marks": 1,
+          "source": "SEE Grade Increment 2082 (2026) Computer Science Optional II",
+          "question": "(A6E)16 = (?)2"
+        },
+        {
+          "id": "cs-see-gi-2082-gi3031b-q8ii",
+          "questionNumber": "8(ii)",
+          "section": "Group C",
+          "marks": 1,
+          "source": "SEE Grade Increment 2082 (2026) Computer Science Optional II",
+          "question": "(11011)2 = (?)10"
+        },
+        {
+          "id": "cs-see-gi-2082-gi3031b-q8iii",
+          "questionNumber": "8(iii)",
+          "section": "Group C",
+          "marks": 1,
+          "source": "SEE Grade Increment 2082 (2026) Computer Science Optional II",
+          "question": "(1011)2 x (101)2"
+        },
+        {
+          "id": "cs-see-gi-2082-gi3031b-q8iv",
+          "questionNumber": "8(iv)",
+          "section": "Group C",
+          "marks": 1,
+          "source": "SEE Grade Increment 2082 (2026) Computer Science Optional II",
+          "question": "Divide (1110)2 by (10)2"
+        }
+      ]
+    },
+    {
+      "title": "Group C - Q9: Answer the following questions",
+      "instructions": "4x2=8",
+      "items": [
+        {
+          "id": "cs-see-gi-2082-gi3031b-q9a",
+          "questionNumber": "9(a)",
+          "section": "Group C",
+          "marks": 4,
+          "source": "SEE Grade Increment 2082 (2026) Computer Science Optional II",
+          "question": "Write a program that asks the length, breadth and height of a room and calculates its Total Surface Area (TSA) and Perimeter. Create a user-defined function to calculate TSA and a Sub procedure to calculate the Perimeter. [Hint: TSA = 2(LB+BH+HL); P = 2(L+B)]"
+        },
+        {
+          "id": "cs-see-gi-2082-gi3031b-q9b",
+          "questionNumber": "9(b)",
+          "section": "Group C",
+          "marks": 4,
+          "source": "SEE Grade Increment 2082 (2026) Computer Science Optional II",
+          "question": "A sequential data file \"mark.txt\" has the information of students' Roll number, Name, and GPA. Write a program to display all records whose GPA is greater than 2.8."
+        }
+      ]
+    },
+    {
+      "title": "Group C - Q10: Write a program (attempt either option)",
+      "instructions": "4 (attempt either (a) or (b) - not both)",
+      "items": [
+        {
+          "id": "cs-see-gi-2082-gi3031b-q10a",
+          "questionNumber": "10(a)",
+          "section": "Group C",
+          "marks": 4,
+          "source": "SEE Grade Increment 2082 (2026) Computer Science Optional II",
+          "question": "Write a program using 'C' language to ask for a number and check whether it is exactly divisible by 5 or not.",
+          "alternativeGroup": "q10",
+          "altLabel": "Option 1"
+        },
+        {
+          "id": "cs-see-gi-2082-gi3031b-q10b",
+          "questionNumber": "10(b) (OR)",
+          "section": "Group C",
+          "marks": 4,
+          "source": "SEE Grade Increment 2082 (2026) Computer Science Optional II",
+          "question": "OR: Write a program using 'C' language to calculate and display the sum of all numbers from 1 to 10.",
+          "alternativeGroup": "q10",
+          "altLabel": "Option 2"
+        }
+      ]
+    }
+  ]
+}

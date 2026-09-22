@@ -741,6 +741,7 @@ export async function getScienceChapter(number: number): Promise<{ en: FsChapter
  *  - social-studies: single Nepali docs `see-soc-u{n}-l{m}` (many lessons per
  *             unit), resolved by slug, parsed with the Social questionBlocks
  *             grammar (list-pairs and "प्रश्न १: …" heading+prose sections).
+ *  - mathematics: bilingual docs `see-math-ch{n}-{en|ne}` (same merged data).
  */
 export async function getSubjectChapter(
   subjectSlug: string,
@@ -774,6 +775,13 @@ export async function getSubjectChapter(
   if (subjectSlug === "nepali") {
     const doc = await getChapterDoc(`see-nep-ch${number}`, { nepali: true });
     return { en: doc, ne: doc };
+  }
+  if (subjectSlug === "mathematics") {
+    const [en, ne] = await Promise.all([
+      getChapterDoc(`see-math-ch${number}-en`),
+      getChapterDoc(`see-math-ch${number}-ne`),
+    ]);
+    return { en, ne };
   }
   return getScienceChapter(number);
 }

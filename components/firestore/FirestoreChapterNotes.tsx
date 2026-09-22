@@ -143,7 +143,7 @@ export function FirestoreChapterNotes({
 
         <article className="space-y-7" style={{ fontSize: `${fontSize}px` }}>
           {doc.blocks.map((block, i) => (
-            <BlockView key={i} block={block} lang={lang} />
+            <BlockView key={i} block={block} lang={lang} math={subject.slug === "mathematics"} />
           ))}
         </article>
 

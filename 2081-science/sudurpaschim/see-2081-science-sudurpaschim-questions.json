@@ -1,0 +1,746 @@
+{
+  "subjectId": "science",
+  "classLevel": "10",
+  "province": "Sudurpaschim",
+  "examBoard": "SEE (National Examinations Board, Nepal)",
+  "examYear": "2081 (2025 AD)",
+  "paperCode": "RE-1041'SP'",
+  "fullMarks": 75,
+  "timeAllowed": "3 hours",
+  "sourceNote": {
+    "en": "Digitised from the uploaded scan of the SEE 2081 (2025) Science question paper, Sudurpaschim Province, set 'SP'. The scan contains a student's handwritten name and rough calculations in the margins (e.g. 'Sandesh Lamsal', scratch work for Q1(e)/(f)/(h) and Q12) — these are not part of the printed paper and have been excluded from this JSON.",
+    "ne": "यो फाइल SEE 2081 (2025) विज्ञान प्रश्नपत्र, सुदूरपश्चिम प्रदेश, सेट 'SP' को स्क्यान गरिएको प्रतिबाट तयार पारिएको हो। स्क्यानमा विद्यार्थीले हातैले लेखेको नाम र छेउछाउमा गरेको हिसाब (जस्तै 'Sandesh Lamsal', प्रश्न 1(e)/(f)/(h) र 12 को स्क्र्याच वर्क) देखिन्छ — यी छापिएको प्रश्नपत्रको हिस्सा नभएकाले यस JSON बाट हटाइएको छ।"
+  },
+  "chapterId": "see-2081-science-sudurpaschim-qp",
+  "docType": "questionPaper",
+  "titleEn": "SEE 2081 (2025) Science Question Paper — Sudurpaschim Province",
+  "titleNe": "SEE २०८१ (२०२५) विज्ञान तथा प्रविधि प्रश्नपत्र — सुदूरपश्चिम प्रदेश",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": {
+        "en": "SEE 2081 (2025) — Science and Technology",
+        "ne": "SEE २०८१ (२०२५) — विज्ञान तथा प्रविधि"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "Time: 3 hours | Full Marks: 75. Answer creatively in your own style, based on the given instructions.",
+        "ne": "समय : ३ घण्टा | पूर्णाङ्क : ७५। दिइएका निर्देशनका आधारमा आफ्नै शैलीमा सिर्जनात्मक उत्तर दिनुहोस्।"
+      }
+    }
+  ],
+  "questionSections": [
+    {
+      "title": {
+        "en": "Section A — Multiple Choice Questions",
+        "ne": "खण्ड 'क' — बहुवैकल्पिक प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Choose the best alternative to the following questions and write in the answer sheet. (10 x 1 = 10)",
+        "ne": "तलका प्रश्नहरूको ठिक विकल्प छानी उत्तरपुस्तिकामा लेख्नुहोस्। (१०x१=१०)"
+      },
+      "items": [
+        {
+          "id": "q1a",
+          "questionNumber": "1(a)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "How many bits are there in 1 byte?",
+            "ne": "एक बाइटमा कति बिट हुन्छ ?"
+          },
+          "options": [
+            {
+              "en": "2",
+              "ne": "2"
+            },
+            {
+              "en": "4",
+              "ne": "4"
+            },
+            {
+              "en": "6",
+              "ne": "6"
+            },
+            {
+              "en": "8",
+              "ne": "8"
+            }
+          ]
+        },
+        {
+          "id": "q1b",
+          "questionNumber": "1(b)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Which one of the following is a plant that bears flower, has fibrous root and no branches?",
+            "ne": "फूल फुल्ने, गुच्छे जरा हुने र हाँगा नहुने विरुवा दिइएकामध्ये कुन हो ?"
+          },
+          "options": [
+            {
+              "en": "fern",
+              "ne": "उनिउँ (fern)"
+            },
+            {
+              "en": "maize",
+              "ne": "मकै (maize)"
+            },
+            {
+              "en": "mustard",
+              "ne": "तोरी (mustard)"
+            },
+            {
+              "en": "cycas",
+              "ne": "साइकस (cycas)"
+            }
+          ]
+        },
+        {
+          "id": "q1c",
+          "questionNumber": "1(c)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Which order is right in terms of evolution?",
+            "ne": "विकास क्रमको आधारमा कुन क्रम सही छ ?"
+          },
+          "options": [
+            {
+              "en": "earthworm, jellyfish, frog, fish",
+              "ne": "गड्यौँला, जेलिफिस, भ्यागुता, माछा"
+            },
+            {
+              "en": "jellyfish, earthworm, frog, fish",
+              "ne": "जेलिफिस, गड्यौँला, भ्यागुता, माछा"
+            },
+            {
+              "en": "earthworm, jellyfish, fish, frog",
+              "ne": "गड्यौँला, जेलिफिस, माछा, भ्यागुता"
+            },
+            {
+              "en": "jellyfish, earthworm, fish, frog",
+              "ne": "जेलिफिस, गड्यौँला, माछा, भ्यागुता"
+            }
+          ]
+        },
+        {
+          "id": "q1d",
+          "questionNumber": "1(d)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Volcanic eruption (A) and over use of fossil fuel (B) are two causes of climate change. Which of the following alternative is correct about these?",
+            "ne": "ज्वालामुखी विस्फोटन (A) र जीवावशेष इन्धनको दोहन (B) यी दुई जलवायु परिवर्तनका कारणहरू हुन्। यिनीहरूका बारेमा दिइएकामध्ये कुन विकल्प सही छ ?"
+          },
+          "options": [
+            {
+              "en": "A is a natural cause and B is a human cause",
+              "ne": "A प्राकृतिक कारण र B मानवीय कारण"
+            },
+            {
+              "en": "A is a human cause and B is a natural cause",
+              "ne": "A मानवीय कारण B प्राकृतिक कारण"
+            },
+            {
+              "en": "Both A and B are human causes",
+              "ne": "दुवै मानवीय कारण हुन्।"
+            },
+            {
+              "en": "Both A and B are natural causes",
+              "ne": "दुवै प्राकृतिक कारणहरू हुन्।"
+            }
+          ]
+        },
+        {
+          "id": "q1e",
+          "questionNumber": "1(e)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "If the radius of the Earth is halved keeping the mass constant, how will the value of acceleration due to gravity 'g' change?",
+            "ne": "यदि पृथ्वीको पिण्डलाई यथावत् राखी अर्धव्यासलाई आधा गर्दा गुरुत्वप्रवेग 'g' को मानमा कस्तो परिवर्तन आउँछ ?"
+          },
+          "options": [
+            {
+              "en": "becomes 1/2 times of the original value",
+              "ne": "पहिलेको मानको 1/2 गुणा हुन्छ"
+            },
+            {
+              "en": "becomes 1/3 of the original value",
+              "ne": "पहिलेको मानको 1/3 हुन्छ"
+            },
+            {
+              "en": "becomes 4 times of the original value",
+              "ne": "पहिलेको मानको 4 गुणा हुन्छ"
+            },
+            {
+              "en": "becomes 6 times of the original value",
+              "ne": "पहिलेको मानको 6 गुणा हुन्छ"
+            }
+          ]
+        },
+        {
+          "id": "q1f",
+          "questionNumber": "1(f)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "In the adjoining figure, how much weight can be balanced on Piston B? (Piston A: 2 cm² with 30 N; Piston B: 10 cm²)",
+            "ne": "सँगैको चित्रमा पिस्टन B मा कति तौल सन्तुलन गर्न सकिन्छ ? (पिस्टन A: 2 cm² मा 30 N; पिस्टन B: 10 cm²)"
+          },
+          "options": [
+            {
+              "en": "100N",
+              "ne": "100N"
+            },
+            {
+              "en": "150 N",
+              "ne": "150 N"
+            },
+            {
+              "en": "200 N",
+              "ne": "200 N"
+            },
+            {
+              "en": "250 N",
+              "ne": "250 N"
+            }
+          ],
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-sudurpaschim/q1f-hydraulic-pistons.png",
+            "caption": {
+              "en": "Hydraulic piston system: piston A (2 cm², 30 N) connected to piston B (10 cm²).",
+              "ne": "हाइड्रोलिक पिस्टन प्रणाली: पिस्टन A (2 cm², 30 N) पिस्टन B (10 cm²) सँग जोडिएको।"
+            }
+          }
+        },
+        {
+          "id": "q1g",
+          "questionNumber": "1(g)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Which situation will be correct when a ray of light enters glass from air and emerges in the air? [Note: i = angle of incidence, r = angle of refraction, e = emergent angle]",
+            "ne": "प्रकाशको किरण हावाबाट काँचमा प्रवेश गरी फेरि हावामा आएर आवर्तन हुँदा तलका मध्ये कुन अवस्था सही हुन्छ ? [नोट: i = आपतित कोण, r = परावर्तित कोण र e = इमर्जेन्ट कोण]"
+          },
+          "options": [
+            {
+              "en": "i = e < r",
+              "ne": "i = e < r"
+            },
+            {
+              "en": "i = e = r",
+              "ne": "i = e = r"
+            },
+            {
+              "en": "i > e = r",
+              "ne": "i > e = r"
+            },
+            {
+              "en": "i = e > r",
+              "ne": "i = e > r"
+            }
+          ]
+        },
+        {
+          "id": "q1h",
+          "questionNumber": "1(h)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Due to which force do masses on the universe remain in their position?",
+            "ne": "ब्रह्माण्डमा रहेका खगोलीय पिण्डहरू कुन बलको कारण आफ्नो स्थानमा रहेका छन् ?"
+          },
+          "options": [
+            {
+              "en": "nuclear force",
+              "ne": "न्युक्लीयर बल"
+            },
+            {
+              "en": "gravitational force",
+              "ne": "गुरुत्वाकर्षण बल"
+            },
+            {
+              "en": "magnetic force",
+              "ne": "चुम्बकीय बल"
+            },
+            {
+              "en": "electro-magnetic force",
+              "ne": "विद्युत चुम्बकीय बल"
+            }
+          ]
+        },
+        {
+          "id": "q1i",
+          "questionNumber": "1(i)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Which type of chemical reaction is given below? Zn + HCl -> ZnCl2 + H2",
+            "ne": "तल दिइएको रासायनिक प्रतिक्रिया कुन प्रकारको हो ? Zn + HCl -> ZnCl2 + H2"
+          },
+          "options": [
+            {
+              "en": "Combination",
+              "ne": "संयोजन"
+            },
+            {
+              "en": "Decomposition",
+              "ne": "विभाजन"
+            },
+            {
+              "en": "Displacement",
+              "ne": "विस्थापन"
+            },
+            {
+              "en": "Neutralization",
+              "ne": "निराकरण"
+            }
+          ]
+        },
+        {
+          "id": "q1j",
+          "questionNumber": "1(j)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Fruit sellers use a certain white powder to ripen fruits. What could be the name of this chemical?",
+            "ne": "फलफूल व्यवसायीले फलफूल पकाउनका लागि एक सेतो धुलो पाउडर प्रयोग गर्दछन्। यो रसायनको नाम के हुन सक्छ ?"
+          },
+          "options": [
+            {
+              "en": "Sodium Sulphate",
+              "ne": "सोडियम सल्फेट"
+            },
+            {
+              "en": "Sodium Carbonate",
+              "ne": "सोडियम कार्बोनेट"
+            },
+            {
+              "en": "Calcium Carbide",
+              "ne": "क्यालिसियम कार्बाइड"
+            },
+            {
+              "en": "Calcium Carbonate",
+              "ne": "क्यालिसियम कार्बोनेट"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Section B — Very Short Answer Questions",
+        "ne": "खण्ड 'ख' — अति छोटो उत्तर प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Write very short answers to the following questions. (9 x 1 = 9)",
+        "ne": "तलका प्रश्नहरूको अति छोटो उत्तर लेख्नुहोस् : (९x१=९)"
+      },
+      "items": [
+        {
+          "id": "q2a",
+          "questionNumber": "2(a)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Write a difference between fundamental unit and derived unit.",
+            "ne": "आधारभूत एकाई र तत्जन्य एकाईबिच कुनै एक भिन्नता लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q2b",
+          "questionNumber": "2(b)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Name the force applied by water in upward direction to the body immersed in it.",
+            "ne": "कुनै बस्तुलाई पानीमा डुबाउँदा पानीले त्यस वस्तुलाई माथितिर धकेल्न लगाउने बललाई के भनिन्छ ?"
+          }
+        },
+        {
+          "id": "q2c",
+          "questionNumber": "2(c)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Why does a ray of light bend towards normal while refracting from air to glass?",
+            "ne": "प्रकाशको किरण हावाबाट काँचमा जाँदा नर्मलतिर बाङ्गिन्छ, किन ?"
+          }
+        },
+        {
+          "id": "q2d",
+          "questionNumber": "2(d)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "To which phenomenon of light is the given figure related?",
+            "ne": "दिइएको चित्र प्रकाशको कुन प्रक्रियासँग सम्बन्धित छ ?"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-sudurpaschim/q2d-light-phenomenon.png",
+            "caption": {
+              "en": "Light rays bending near a wavy/uneven reference line (exact phenomenon not fully clear from the scan — possibly atmospheric refraction/twinkling of stars).",
+              "ne": "छेउछाउको धर्सा/असमान रेखानजिक बाङ्गिँदै गरेका प्रकाश किरण (स्क्यानबाट ठ्याक्कै प्रक्रिया छुट्याउन गाह्रो — सम्भवतः वायुमण्डलीय आवर्तन/ताराको टिलिक्क बल्नु)।"
+            }
+          }
+        },
+        {
+          "id": "q2e",
+          "questionNumber": "2(e)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Give one reason why wire vibrates when current/electricity is passed through the coil of wire placed near a magnet.",
+            "ne": "चित्रमा दिइएको क्वाइलमा विद्युत प्रवाह गर्दा तार कम्पन हुन्छ किन ? कुनै एउटा कारण दिनुहोस्।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-sudurpaschim/q2e-coil-magnet-vibration.png",
+            "caption": {
+              "en": "A coil of wire placed near a bar magnet (S-N), connected in a circuit.",
+              "ne": "बार म्याग्नेट (S-N) नजिक राखिएको तारको क्वाइल, सर्किटसँग जोडिएको।"
+            }
+          }
+        },
+        {
+          "id": "q2f",
+          "questionNumber": "2(f)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Write one condition necessary for a closed universe to form.",
+            "ne": "बन्द ब्रह्माण्ड हुनको लागि आवश्यक पर्ने एउटा अवस्था लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q2g",
+          "questionNumber": "2(g)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Define ore.",
+            "ne": "धाउको परिभाषा दिनुहोस्।"
+          }
+        },
+        {
+          "id": "q2h",
+          "questionNumber": "2(h)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Which concentration method is applied during the purification of iron from its ore?",
+            "ne": "फलामको धाउबाट शुद्ध फलाम प्रशोधन गर्दा अपनाइने कन्सेन्ट्रेसन विधि कुन होला ?"
+          }
+        },
+        {
+          "id": "q2i",
+          "questionNumber": "2(i)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Why are hydrocarbons called organic compounds?",
+            "ne": "हाइड्रोकार्वनलाई किन प्राङ्गारिक यौगिक भनिन्छ ?"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Section C — Short Answer Questions",
+        "ne": "खण्ड 'ग' — छोटो उत्तर प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Write short answers to the following questions. (14 x 2 = 28)",
+        "ne": "तलका प्रश्नहरूको छोटो उत्तर लेख्नुहोस् : (१४x२=२८)"
+      },
+      "items": [
+        {
+          "id": "q3",
+          "questionNumber": "3",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Name a dependent and an independent variable of an observation of the growth rate of plants in a lighted room and dark room.",
+            "ne": "उज्यालो कोठा र अध्याँरो कोठामा विरुवाको वृद्धिमा के फरक पर्दछ भनी गरिएको अवलोकनमा एउटा स्वतन्त्र र एउटा आश्रित चर लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q4",
+          "questionNumber": "4",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Write the Phylum of the following organisms: (i) slug (ii) sea-cucumber",
+            "ne": "निम्न जीवहरूको फाइलम लेख्नुहोस् । (i) चिप्लेकिरा (slug) (ii) सिक्युकम्बर (Sea-cucumber)"
+          }
+        },
+        {
+          "id": "q5",
+          "questionNumber": "5",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Write any two advantages of bee-keeping for farmers.",
+            "ne": "मौरी पालनबाट कृषकलाई हुने कुनै दुई फाइदाहरू लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q6",
+          "questionNumber": "6",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Why is meiosis cell division called reduction division? What is a diploid cell?",
+            "ne": "मियोसिस कोष विभाजनलाई न्युनीकरण विभाजन भनिन्छ, किन ? डिप्लोइड कोष भनेको के हो ?"
+          }
+        },
+        {
+          "id": "q7",
+          "questionNumber": "7",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "What is In-Vitro Fertilization (IVF)? Explain briefly about it.",
+            "ne": "इनभिट्रो फर्टिलाइजेसन (IVF) भनेको के हो ? यसको बारेमा छोटकरीमा व्याख्या गर्नुहोस्।"
+          }
+        },
+        {
+          "id": "q8",
+          "questionNumber": "8",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Write one use each of Turmeric and Asiatic Pennywort.",
+            "ne": "बेसार र घोडटाप्रेको एक एक ओटा उपयोग लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q9",
+          "questionNumber": "9",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Write the name of the disease which shows the following symptoms: (i) headache, reddish face, nose bleeding, sweating (ii) excess appetite and thirst, frequent urination, weight loss",
+            "ne": "निम्न लक्षणहरू देखिने रोगको नाम लेख्नुहोस्। (i) टाउको दुख्ने, अनुहार रातो हुने, नाथ्रो फुट्ने, पसिना आउने (ii) धेरै भोक र तिर्खा लाग्ने, छिन-छिनमा पिसाब लाग्ने, तौल घट्ने"
+          }
+        },
+        {
+          "id": "q10",
+          "questionNumber": "10",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "The value of acceleration due to gravity is more in the polar region than the equatorial region, why?",
+            "ne": "गुरुत्वप्रवेगको मान पृथ्वीको भू-मध्यरेखीय खण्डमा भन्दा ध्रुवीय खण्डमा बढी हुन्छ, किन ?"
+          }
+        },
+        {
+          "id": "q11",
+          "questionNumber": "11",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Write any two differences between acceleration due to gravity (g) and gravitational constant (G).",
+            "ne": "गुरुत्वप्रवेग (g) र गुरुत्वाकर्षण अचर (G) मा कुनै दुईओटा फरक लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q12",
+          "questionNumber": "12",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "What type of transformer is shown in the figure? If the potential difference in coil A is 700 V, calculate the voltage produced in coil B. (Np = 1000, Ns = 50)",
+            "ne": "चित्रमा देखाइएको ट्रान्सफर्मर कुन प्रकारको हो ? A मा 700 V को भोल्टेज पठाउँदा B मा कति भोल्टेज उत्पन्न हुन्छ ? (np = 1000, ns = 50)"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-sudurpaschim/q12-transformer.png",
+            "caption": {
+              "en": "Transformer with coil A (np=1000 turns) and coil B (ns=50 turns).",
+              "ne": "क्वाइल A (np=1000 फन्का) र क्वाइल B (ns=50 फन्का) भएको ट्रान्सफर्मर।"
+            }
+          }
+        },
+        {
+          "id": "q13",
+          "questionNumber": "13",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Name an instrument in which an electro-magnet is used, and write a use of that instrument.",
+            "ne": "विद्युत चुम्बक प्रयोग भएको एउटा उपकरणको नाम लेखी त्यसको एउटा उपयोगिता पनि लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q14",
+          "questionNumber": "14",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Beaker A contains dil. HCl at 30°C and beaker B contains dil. HCl at 20°C. If limestones of the same size are placed in those beakers, in which beaker will the reaction take place faster? Why?",
+            "ne": "विकर A मा 30°C तापक्रम भएको फिका HCl र विकर B मा 20°C तापक्रम भएको फिका HCl राखिएको छ। दुवैमा समान साइजका चुनढुङ्गाका टुक्राहरू राखियो भने कुन चाँहिमा चाँडो रासायनिक प्रतिक्रिया हुन्छ, किन ?"
+          }
+        },
+        {
+          "id": "q15",
+          "questionNumber": "15",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "A student had made a model of methane and another student had made a model of propane. Their teacher removed one hydrogen atom from the terminals of each model and joined them together. Now which hydrocarbon is formed? Write its structural formula too.",
+            "ne": "एकजना विद्यार्थीले सिथेन र अर्कोले प्रोपेनको मोडल बनाएका थिए। शिक्षकले दुवै मोडलका छेउको हाइड्रोजन निकालेर दुवैलाई आपसमा जोडिदिन भयो। अब कुन हाइड्रोकार्बन तयार भयो ? यसको संरचना सूत्र पनि बनाउनुहोस्।"
+          }
+        },
+        {
+          "id": "q16",
+          "questionNumber": "16",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Write any two precautions to be taken while using insecticides.",
+            "ne": "किटनाशक औषधीको प्रयोग गर्दा अपनाउनुपर्ने दुईओटा सावधानीहरू लेख्नुहोस्।"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Section D — Long Answer Questions",
+        "ne": "खण्ड 'घ' — लामो उत्तर प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Write long answer to the following questions. (7 x 4 = 28)",
+        "ne": "तलका प्रश्नहरूको लामो उत्तर लेख्नुहोस् : (७x४=२८)"
+      },
+      "items": [
+        {
+          "id": "q17",
+          "questionNumber": "17",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Write any two positive and two negative effects that occur while using social media online.",
+            "ne": "अनलाइनमा बसेर सामाजिक सञ्जाल प्रयोग गर्दा हुने दुईओटा सकारात्मक र दुईओटा नकारात्मक प्रभावहरू लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q18",
+          "questionNumber": "18",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Can a white child be born even though both parents are black? Explain on the basis of Mendelism with a suitable chart and reason.",
+            "ne": "के बाबु आमा दुवै कालो हुँदा पनि गोरो सन्तान जन्मन सक्छ ? मेन्डलको सिद्धान्तको आधारमा कसरी यो सम्भव भयो ? चार्टमा देखाइ कारणसहित व्याख्या गर्नुहोस्।"
+          }
+        },
+        {
+          "id": "q19",
+          "questionNumber": "19",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "(a) An iron ball of mass 1 kg at 80°C is cooled to 20°C, how much heat energy is lost by the iron ball? (Specific heat capacity of iron = 460 J/kg°C) (b) Draw a graph that shows the relationship between temperature and volume of water when it is heated from 0°C to 10°C.",
+            "ne": "(a) 80°C तापक्रम भएको 1 kg को फलामको डल्लोलाई 20°C तापक्रम सम्म चिस्याउँदा कति तापशक्ति गुमाउँछ ? (फलामको विशिष्ट तापधारण क्षमता = 460 J/kg°C) (b) पानीलाई 0°C देखि 10°C सम्म तताउँदा तापक्रम र पानीको आयतनको सम्बन्ध ग्राफमा देखाउनुहोस्।"
+          }
+        },
+        {
+          "id": "q20",
+          "questionNumber": "20",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "(a) Diamond shines more than glass, why? Write two reasons. (b) Draw a diagram to show the splitting of white light into seven colors when it passes through a prism. Label the colors in the diagram in correct order.",
+            "ne": "(a) काँच र हिरामा, हिरा बढी चम्किनका दुईओटा कारणहरू लेख्नुहोस्। (b) सेतो प्रकाशलाई प्रिज्मबाट पठाउँदा सात अलग-अलग रङमा विच्छेदन हुने प्रक्रियाको चित्र बनाउनुहोस् र चित्रमा रङहरूको नाम क्रमसँग लेख्नुहोस्।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-sudurpaschim/q20b-dispersion-prism-prompt.png",
+            "caption": {
+              "en": "(Question prompt — student draws this as the answer.)",
+              "ne": "(यो प्रश्नमा विद्यार्थीले आफैं चित्र कोर्नुपर्छ।)"
+            }
+          }
+        },
+        {
+          "id": "q21",
+          "questionNumber": "21",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Write the name of three proteins found in plasma. Write the name of plasma which is obtained after the removal of the protein which helps in clotting of blood.",
+            "ne": "प्लाज्मामा पाइने तीनओटा प्रोटिनको नाम लेख्नुहोस्। रगत जम्न सहयोग गर्ने प्रोटिन हटाएपछिको प्लाज्मालाई के भनिन्छ ? लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q22",
+          "questionNumber": "22",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Which element is more reactive between sodium and potassium, why? Write the electronic configuration of chlorine on the basis of sub-shell and write its group in the periodic table.",
+            "ne": "सोडियम र पोटासियममा कुन तत्त्व बढी सक्रिय हुन्छ, किन ? क्लोरिनको उपसेलको इलेक्ट्रोन विन्यास लेख्नुहोस् र यसको पिरियोडिक तालिकाको समूह उल्लेख गर्नुहोस्।"
+          }
+        },
+        {
+          "id": "q23",
+          "questionNumber": "23",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Sudurpaschim Province",
+          "question": {
+            "en": "Draw a neat diagram of the apparatus fitted to prepare ammonia gas in the laboratory and label any one part. What is the function of the lime tower in this process?",
+            "ne": "प्रयोगशालामा एमोनिया ग्यास बनाउने विधिको सफा चित्र बनाई कुनै एउटा भागको नामाकरण गर्नुहोस्। यस प्रक्रियामा प्रयोग हुने लाइम टावरको काम के हो ?"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-sudurpaschim/q23-nh3-preparation-limetower-prompt.png",
+            "caption": {
+              "en": "(Question prompt — student draws this as the answer.)",
+              "ne": "(यो प्रश्नमा विद्यार्थीले आफैं चित्र कोर्नुपर्छ।)"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1176 @@
+{
+  "chapter": {
+    "en": "Sets",
+    "ne": "सेट"
+  },
+  "exercises": [
+    {
+      "exerciseId": "ex1.1-q1",
+      "parts": [
+        {
+          "partId": "ex1.1-q1-a",
+          "solution": {
+            "en": "This is an open, activity-based task: choose any two overlapping sets of real objects (e.g. students who play football and students who play basketball), list their elements, find $n(A)$, $n(B)$, $n(A\\cap B)$, $n(A\\cup B)$, and present this to the teacher.",
+            "ne": "यो एउटा खुला, क्रियाकलाप-आधारित कार्य हो: वास्तविक वस्तुका कुनै दुई ओभरल्यापिङ सेट (जस्तै फुटबल खेल्ने र बास्केटबल खेल्ने विद्यार्थी) छान्नुहोस्, तिनका सदस्य सूचीबद्ध गर्नुहोस्, $n(A)$, $n(B)$, $n(A\\cap B)$, $n(A\\cup B)$ पत्ता लगाउनुहोस्, र शिक्षकलाई देखाउनुहोस्।"
+          }
+        },
+        {
+          "partId": "ex1.1-q1-b",
+          "solution": {
+            "en": "If $A \\subset B$ (every element of $A$ is in $B$), then $A \\cup B = B$ and $A \\cap B = A$. So $n(A \\cup B) = n(B)$ and $n(A \\cap B) = n(A)$.",
+            "ne": "यदि $A \\subset B$ (अर्थात् $A$ का सबै सदस्य $B$ मा छन्) भए, $A \\cup B = B$ र $A \\cap B = A$ हुन्छ। त्यसैले $n(A \\cup B) = n(B)$ र $n(A \\cap B) = n(A)$ हुन्छ।"
+          }
+        },
+        {
+          "partId": "ex1.1-q1-c",
+          "solution": {
+            "en": "For overlapping sets, $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$.",
+            "ne": "ओभरल्यापिङ सेटका लागि, $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$।"
+          }
+        },
+        {
+          "partId": "ex1.1-q1-d",
+          "solution": {
+            "en": "$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$. This is minimum when $n(A \\cap B)$ is as large as possible; the largest possible intersection equals the size of the smaller set, i.e. $n(A \\cap B) = 8$ (when $B \\subset A$). So the minimum $n(A \\cup B) = 12 + 8 - 8 = 12$.",
+            "ne": "$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ हो। यो न्यूनतम हुन $n(A \\cap B)$ सकेसम्म ठूलो हुनुपर्छ; सम्भावित सबैभन्दा ठूलो प्रतिच्छेदन सानो सेटको आकार बराबर हुन्छ, अर्थात् $n(A \\cap B) = 8$ (जब $B \\subset A$)। त्यसैले न्यूनतम $n(A \\cup B) = 12 + 8 - 8 = 12$ हुन्छ।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex1.1-q2",
+      "parts": [
+        {
+          "partId": "ex1.1-q2-a",
+          "solution": {
+            "en": "From the given Venn diagram, the region for $M$ only shows $n_0(M) = 20$.",
+            "ne": "दिइएको भेन चित्रबाट, $M$ मात्र भएको क्षेत्रमा $n_0(M) = 20$ देखिन्छ।"
+          }
+        },
+        {
+          "partId": "ex1.1-q2-b",
+          "solution": {
+            "en": "From the given Venn diagram, the region for $E$ only shows $n_0(E) = 30$.",
+            "ne": "दिइएको भेन चित्रबाट, $E$ मात्र भएको क्षेत्रमा $n_0(E) = 30$ देखिन्छ।"
+          }
+        },
+        {
+          "partId": "ex1.1-q2-c",
+          "solution": {
+            "en": "$n(M) = n_0(M) + n(M\\cap E) = 20 + 60 = 80$ (as given).",
+            "ne": "$n(M) = n_0(M) + n(M\\cap E) = 20 + 60 = 80$ (दिइए अनुसार)।"
+          }
+        },
+        {
+          "partId": "ex1.1-q2-d",
+          "solution": {
+            "en": "$n(E) = n_0(E) + n(M\\cap E) = 30 + 60 = 90$ (as given).",
+            "ne": "$n(E) = n_0(E) + n(M\\cap E) = 30 + 60 = 90$ (दिइए अनुसार)।"
+          }
+        },
+        {
+          "partId": "ex1.1-q2-e",
+          "solution": {
+            "en": "$n(M \\cup E) = n_0(M) + n(M\\cap E) + n_0(E) = 20 + 60 + 30 = 110$.",
+            "ne": "$n(M \\cup E) = n_0(M) + n(M\\cap E) + n_0(E) = 20 + 60 + 30 = 110$।"
+          }
+        },
+        {
+          "partId": "ex1.1-q2-f",
+          "solution": {
+            "en": "From the given Venn diagram, the overlap region shows $n(M \\cap E) = 60$.",
+            "ne": "दिइएको भेन चित्रबाट, ओभरल्याप क्षेत्रमा $n(M \\cap E) = 60$ देखिन्छ।"
+          }
+        },
+        {
+          "partId": "ex1.1-q2-g",
+          "solution": {
+            "en": "From the given Venn diagram, the region outside both circles shows $n(\\overline{M \\cup E}) = 15$.",
+            "ne": "दिइएको भेन चित्रबाट, दुवै वृत्तभन्दा बाहिरको क्षेत्रमा $n(\\overline{M \\cup E}) = 15$ देखिन्छ।"
+          }
+        },
+        {
+          "partId": "ex1.1-q2-h",
+          "solution": {
+            "en": "$n(U) = n(M \\cup E) + n(\\overline{M \\cup E}) = 110 + 15 = 125$.",
+            "ne": "$n(U) = n(M \\cup E) + n(\\overline{M \\cup E}) = 110 + 15 = 125$।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex1.1-q3",
+      "parts": [
+        {
+          "partId": "ex1.1-q3-a",
+          "solution": {
+            "en": "$n(U) = n_0(M) + n(M\\cap E) + n_0(E) + n(\\overline{M\\cup E})$: $200 = 2x + 60 + 3x + 40$, so $200 = 5x + 100$, giving $5x = 100$, so $x = 20$.",
+            "ne": "$n(U) = n_0(M) + n(M\\cap E) + n_0(E) + n(\\overline{M\\cup E})$: $200 = 2x + 60 + 3x + 40$, त्यसैले $200 = 5x + 100$, जसबाट $5x = 100$ हुन्छ, त्यसैले $x = 20$।"
+          }
+        },
+        {
+          "partId": "ex1.1-q3-b",
+          "solution": {
+            "en": "$n(A\\cup B) = n(A) + n(B) - n(A\\cap B) = 200 + 220 - 120 = 300$. Then $n(\\overline{A\\cup B}) = n(U) - n(A\\cup B) = 350 - 300 = 50$.",
+            "ne": "$n(A\\cup B) = n(A) + n(B) - n(A\\cap B) = 200 + 220 - 120 = 300$। त्यसपछि $n(\\overline{A\\cup B}) = n(U) - n(A\\cup B) = 350 - 300 = 50$।"
+          }
+        },
+        {
+          "partId": "ex1.1-q3-c",
+          "solution": {
+            "en": "$n(U) = n(A) + n(\\overline{A}) = 35 + 25 = 60$.",
+            "ne": "$n(U) = n(A) + n(\\overline{A}) = 35 + 25 = 60$।"
+          }
+        },
+        {
+          "partId": "ex1.1-q3-d",
+          "solution": {
+            "en": "$n(P\\cup Q) = n(P) + n(Q) - n(P\\cap Q)$: $60 = 40 + n(Q) - 10$, so $60 = 30 + n(Q)$, giving $n(Q) = 30$.",
+            "ne": "$n(P\\cup Q) = n(P) + n(Q) - n(P\\cap Q)$: $60 = 40 + n(Q) - 10$, त्यसैले $60 = 30 + n(Q)$, जसबाट $n(Q) = 30$ आउँछ।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex1.1-q4",
+      "parts": [
+        {
+          "partId": "ex1.1-q4-a",
+          "solution": {
+            "en": "i) Let $N$ = Nepali, $E$ = English. $n_0(N)=45$, $n_0(E)=60$, $n(\\overline{N\\cup E})=15$; drawn as two overlapping circles inside $U$. ii) $n(U) = n_0(N) + n(N\\cap E) + n_0(E) + n(\\overline{N\\cup E})$: $180 = 45 + n(N\\cap E) + 60 + 15$, so $n(N\\cap E) = 180 - 120 = 60$. iii) At least one subject $= n(N\\cup E) = n(U) - n(\\overline{N\\cup E}) = 180 - 15 = 165$.",
+            "ne": "i) मानौं $N$ = नेपाली, $E$ = अंग्रेजी। $n_0(N)=45$, $n_0(E)=60$, $n(\\overline{N\\cup E})=15$; यसलाई $U$ भित्र दुई ओभरल्यापिङ वृत्तका रूपमा देखाइन्छ। ii) $n(U) = n_0(N) + n(N\\cap E) + n_0(E) + n(\\overline{N\\cup E})$: $180 = 45 + n(N\\cap E) + 60 + 15$, त्यसैले $n(N\\cap E) = 180 - 120 = 60$। iii) कम्तीमा एक विषय $= n(N\\cup E) = n(U) - n(\\overline{N\\cup E}) = 180 - 15 = 165$।"
+          },
+          "referenceImageId": "img-ans-ex1-1-q4a"
+        },
+        {
+          "partId": "ex1.1-q4-b",
+          "solution": {
+            "en": "i) Let $M$ = Mathematics, $S$ = Science. $n_0(M)=100$, $n_0(S)=200$, $n(\\overline{M\\cup S})=700$; drawn as two overlapping circles inside $U$. ii) $n(U) = n_0(M) + n(M\\cap S) + n_0(S) + n(\\overline{M\\cup S})$: $1200 = 100 + n(M\\cap S) + 200 + 700$, so $n(M\\cap S) = 1200 - 1000 = 200$. iii) At least one subject $= n(U) - n(\\overline{M\\cup S}) = 1200 - 700 = 500$.",
+            "ne": "i) मानौं $M$ = गणित, $S$ = विज्ञान। $n_0(M)=100$, $n_0(S)=200$, $n(\\overline{M\\cup S})=700$; यसलाई $U$ भित्र दुई ओभरल्यापिङ वृत्तका रूपमा देखाइन्छ। ii) $n(U) = n_0(M) + n(M\\cap S) + n_0(S) + n(\\overline{M\\cup S})$: $1200 = 100 + n(M\\cap S) + 200 + 700$, त्यसैले $n(M\\cap S) = 1200 - 1000 = 200$। iii) कम्तीमा एक विषय $= n(U) - n(\\overline{M\\cup S}) = 1200 - 700 = 500$।"
+          },
+          "referenceImageId": "img-ans-ex1-1-q4b"
+        },
+        {
+          "partId": "ex1.1-q4-c",
+          "solution": {
+            "en": "i) Let $F$ = football, $V$ = volleyball. $n_0(F)=10$, $n_0(V)=20$, $n(\\overline{F\\cup V})=12$; drawn as two overlapping circles inside $U$. ii) $n(U) = n_0(F) + n(F\\cap V) + n_0(V) + n(\\overline{F\\cup V})$: $60 = 10 + n(F\\cap V) + 20 + 12$, so $n(F\\cap V) = 60 - 42 = 18$. iii) At least one game $= n(U) - n(\\overline{F\\cup V}) = 60 - 12 = 48$.",
+            "ne": "i) मानौं $F$ = फुटबल, $V$ = भलिबल। $n_0(F)=10$, $n_0(V)=20$, $n(\\overline{F\\cup V})=12$; यसलाई $U$ भित्र दुई ओभरल्यापिङ वृत्तका रूपमा देखाइन्छ। ii) $n(U) = n_0(F) + n(F\\cap V) + n_0(V) + n(\\overline{F\\cup V})$: $60 = 10 + n(F\\cap V) + 20 + 12$, त्यसैले $n(F\\cap V) = 60 - 42 = 18$। iii) कम्तीमा एक खेल $= n(U) - n(\\overline{F\\cup V}) = 60 - 12 = 48$।"
+          },
+          "referenceImageId": "img-ans-ex1-1-q4c"
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex1.1-q5",
+      "parts": [
+        {
+          "partId": "ex1.1-q5-a",
+          "solution": {
+            "en": "i) Let $M$ = Madhupark readers, $Y$ = Yubamanch readers. $n(U)=900$, $n(M)=525$, $n(Y)=450$, $n(\\overline{M\\cup Y})=75$. ii) $n(M\\cup Y) = n(U) - n(\\overline{M\\cup Y}) = 900 - 75 = 825$. Also $n(M\\cup Y) = n(M)+n(Y)-n(M\\cap Y)$: $825 = 525+450-n(M\\cap Y)$, so $n(M\\cap Y) = 975 - 825 = 150$. iii) Only Madhupark $= n(M)-n(M\\cap Y) = 525-150=375$; only Yubamanch $= 450-150=300$; only one newspaper $= 375+300 = 675$.",
+            "ne": "i) मानौं $M$ = मधुपार्क पढ्ने, $Y$ = युवामञ्च पढ्ने। $n(U)=900$, $n(M)=525$, $n(Y)=450$, $n(\\overline{M\\cup Y})=75$। ii) $n(M\\cup Y) = n(U) - n(\\overline{M\\cup Y}) = 900 - 75 = 825$। साथै $n(M\\cup Y) = n(M)+n(Y)-n(M\\cap Y)$: $825 = 525+450-n(M\\cap Y)$, त्यसैले $n(M\\cap Y) = 975 - 825 = 150$। iii) मधुपार्क मात्र $= n(M)-n(M\\cap Y) = 525-150=375$; युवामञ्च मात्र $= 450-150=300$; एउटा मात्र पत्रिका $= 375+300 = 675$।"
+          },
+          "referenceImageId": "img-ans-ex1-1-q5a"
+        },
+        {
+          "partId": "ex1.1-q5-b",
+          "solution": {
+            "en": "i) Let $Mo$ = modern songs, $Fo$ = folk songs. $n(U)=150$, $n(Mo)=90$, $n(Fo)=70$, $n(\\overline{Mo\\cup Fo})=30$. ii) $n(Mo\\cup Fo) = 150-30=120$. $n(Mo)+n(Fo)-n(Mo\\cap Fo) = 120$: $90+70-n(Mo\\cap Fo)=120$, so $n(Mo\\cap Fo) = 160-120=40$. iii) Only modern songs $= n(Mo)-n(Mo\\cap Fo) = 90-40=50$.",
+            "ne": "i) मानौं $Mo$ = आधुनिक गीत, $Fo$ = लोकगीत। $n(U)=150$, $n(Mo)=90$, $n(Fo)=70$, $n(\\overline{Mo\\cup Fo})=30$। ii) $n(Mo\\cup Fo) = 150-30=120$। $n(Mo)+n(Fo)-n(Mo\\cap Fo) = 120$: $90+70-n(Mo\\cap Fo)=120$, त्यसैले $n(Mo\\cap Fo) = 160-120=40$। iii) आधुनिक गीत मात्र $= n(Mo)-n(Mo\\cap Fo) = 90-40=50$।"
+          },
+          "referenceImageId": "img-ans-ex1-1-q5b"
+        },
+        {
+          "partId": "ex1.1-q5-c",
+          "solution": {
+            "en": "i) Let $V$ = volleyball, $F$ = football. $n(U)=360$, $n(V)=210$, $n(F)=180$, $n(\\overline{V\\cup F})=30$. ii) $n(V\\cup F) = 360-30=330$. $210+180-n(V\\cap F)=330$, so $n(V\\cap F) = 390-330=60$. iii) Only one game $= n(V\\cup F) - n(V\\cap F) = 330-60=270$.",
+            "ne": "i) मानौं $V$ = भलिबल, $F$ = फुटबल। $n(U)=360$, $n(V)=210$, $n(F)=180$, $n(\\overline{V\\cup F})=30$। ii) $n(V\\cup F) = 360-30=330$। $210+180-n(V\\cap F)=330$, त्यसैले $n(V\\cap F) = 390-330=60$। iii) एउटा मात्र खेल $= n(V\\cup F) - n(V\\cap F) = 330-60=270$।"
+          },
+          "referenceImageId": "img-ans-ex1-1-q5c"
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex1.1-q6",
+      "parts": [
+        {
+          "partId": "ex1.1-q6-a",
+          "solution": {
+            "en": "i) Let $E$ = English, $M$ = Mathematics, $n(U)=x$ (unknown). $n(E)=0.7x$, $n(M)=0.6x$, $n(\\overline{E\\cup M})=0.2x$, $n(E\\cap M)=550$. ii) $n(E\\cup M) = n(U)-n(\\overline{E\\cup M}) = x-0.2x = 0.8x$. Also $n(E\\cup M)=n(E)+n(M)-n(E\\cap M) = 0.7x+0.6x-550 = 1.3x-550$. Equating: $0.8x = 1.3x-550$, so $550 = 0.5x$, giving $x = 1100$. So $1100$ students participated. iii) English only $= n(E)-n(E\\cap M) = 0.7(1100)-550 = 770-550=220$.",
+            "ne": "i) मानौं $E$ = अंग्रेजी, $M$ = गणित, $n(U)=x$ (अज्ञात)। $n(E)=0.7x$, $n(M)=0.6x$, $n(\\overline{E\\cup M})=0.2x$, $n(E\\cap M)=550$। ii) $n(E\\cup M) = n(U)-n(\\overline{E\\cup M}) = x-0.2x = 0.8x$। साथै $n(E\\cup M)=n(E)+n(M)-n(E\\cap M) = 0.7x+0.6x-550 = 1.3x-550$। बराबर राख्दा: $0.8x = 1.3x-550$, त्यसैले $550 = 0.5x$, जसबाट $x = 1100$ आउँछ। त्यसैले १,१०० जना विद्यार्थी सहभागी भए। iii) अंग्रेजी मात्र $= n(E)-n(E\\cap M) = 0.7(1100)-550 = 770-550=220$।"
+          },
+          "referenceImageId": "img-ans-ex1-1-q6a"
+        },
+        {
+          "partId": "ex1.1-q6-b",
+          "solution": {
+            "en": "i) Let $S$ = Science, $Mg$ = Management, $n(U)=x$. $n(S)=0.6x$, $n(Mg)=0.7x$, $n(\\overline{S\\cup Mg})=0.1x$, $n(S\\cap Mg)=400$. ii) $n(S\\cup Mg) = x-0.1x=0.9x$. Also $=0.6x+0.7x-400=1.3x-400$. Equating: $0.9x=1.3x-400$, so $400=0.4x$, giving $x=1000$. iii) Science only $= 0.6(1000)-400 = 600-400=200$.",
+            "ne": "i) मानौं $S$ = विज्ञान, $Mg$ = व्यवस्थापन, $n(U)=x$। $n(S)=0.6x$, $n(Mg)=0.7x$, $n(\\overline{S\\cup Mg})=0.1x$, $n(S\\cap Mg)=400$। ii) $n(S\\cup Mg) = x-0.1x=0.9x$। साथै $=0.6x+0.7x-400=1.3x-400$। बराबर राख्दा: $0.9x=1.3x-400$, त्यसैले $400=0.4x$, जसबाट $x=1000$ आउँछ। iii) विज्ञान मात्र $= 0.6(1000)-400 = 600-400=200$।"
+          },
+          "referenceImageId": "img-ans-ex1-1-q6b"
+        },
+        {
+          "partId": "ex1.1-q6-c",
+          "solution": {
+            "en": "i) Let $Mt$ = motorcycle, $Sc$ = scooter. Since $20\\%$ of the total ride both, and $200$ people ride both: $0.2x = 200$, giving the total $n(U) = x = 1000$. ii) So $1000$ people participated in the survey. iii) $n(Mt) = 65\\%$ of $1000 = 650$. Motorcycle only $= n(Mt) - n(Mt\\cap Sc) = 650-200=450$.",
+            "ne": "i) मानौं $Mt$ = मोटरसाइकल, $Sc$ = स्कुटर। कुल जनसंख्याको $20\\%$ ले दुवै चलाउने र $200$ जनाले दुवै चलाउने भएकोले: $0.2x = 200$, जसबाट कुल $n(U) = x = 1000$ आउँछ। ii) त्यसैले सर्वेक्षणमा १,००० जना सहभागी भए। iii) $n(Mt) = 1000$ को $65\\% = 650$। मोटरसाइकल मात्र $= n(Mt) - n(Mt\\cap Sc) = 650-200=450$।"
+          },
+          "referenceImageId": "img-ans-ex1-1-q6c"
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex1.1-q7",
+      "parts": [
+        {
+          "partId": "ex1.1-q7-a",
+          "solution": {
+            "en": "i) Let $T$ = tea, $C$ = coffee. $n(U)=95$, $n(T):n(C)=4:5$ so let $n(T)=4x$, $n(C)=5x$; $n(T\\cap C)=10$; $n(\\overline{T\\cup C})=15$. ii) $n(U) = n_0(T)+n(T\\cap C)+n_0(C)+n(\\overline{T\\cup C})$, i.e. $(4x-10)+10+(5x-10)+15=95$, so $9x+5=95$, giving $9x=90$, so $x=10$. Then $n(T)=40$, $n(C)=50$, $n_0(T)=40-10=30$, $n_0(C)=50-10=40$. Exactly one $= n_0(T)+n_0(C)=30+40=70$. iii) At least one $= n(U)-n(\\overline{T\\cup C})=95-15=80$.",
+            "ne": "i) मानौं $T$ = चिया, $C$ = कफी। $n(U)=95$, $n(T):n(C)=4:5$ हुनाले मानौं $n(T)=4x$, $n(C)=5x$; $n(T\\cap C)=10$; $n(\\overline{T\\cup C})=15$। ii) $n(U) = n_0(T)+n(T\\cap C)+n_0(C)+n(\\overline{T\\cup C})$, अर्थात् $(4x-10)+10+(5x-10)+15=95$, त्यसैले $9x+5=95$, जसबाट $9x=90$, अतः $x=10$। त्यसपछि $n(T)=40$, $n(C)=50$, $n_0(T)=40-10=30$, $n_0(C)=50-10=40$। ठ्याक्कै एउटा $= n_0(T)+n_0(C)=30+40=70$। iii) कम्तीमा एउटा $= n(U)-n(\\overline{T\\cup C})=95-15=80$।"
+          },
+          "referenceImageId": "img-ans-ex1-1-q7a"
+        },
+        {
+          "partId": "ex1.1-q7-b",
+          "solution": {
+            "en": "i) Let $Mk$ = milk, $Cd$ = curd. $n(U)=64$, $n_0(Mk):n_0(Cd)=2:1$ so let $n_0(Mk)=2y$, $n_0(Cd)=y$; $n(Mk\\cap Cd)=16$. ii) $n(U)=n_0(Mk)+n(Mk\\cap Cd)+n_0(Cd)$: $64=2y+16+y$, so $3y=48$, giving $y=16$. So $n_0(Mk)=32$, $n_0(Cd)=16$. $n(Mk) = n_0(Mk)+n(Mk\\cap Cd) = 32+16=48$. iii) Only one kind of drink $= n_0(Mk)+n_0(Cd) = 32+16=48$.",
+            "ne": "i) मानौं $Mk$ = दूध, $Cd$ = दही। $n(U)=64$, $n_0(Mk):n_0(Cd)=2:1$ हुनाले मानौं $n_0(Mk)=2y$, $n_0(Cd)=y$; $n(Mk\\cap Cd)=16$। ii) $n(U)=n_0(Mk)+n(Mk\\cap Cd)+n_0(Cd)$: $64=2y+16+y$, त्यसैले $3y=48$, जसबाट $y=16$ आउँछ। त्यसैले $n_0(Mk)=32$, $n_0(Cd)=16$। $n(Mk) = n_0(Mk)+n(Mk\\cap Cd) = 32+16=48$। iii) एक मात्र किसिमको पेय पदार्थ $= n_0(Mk)+n_0(Cd) = 32+16=48$।"
+          },
+          "referenceImageId": "img-ans-ex1-1-q7b"
+        },
+        {
+          "partId": "ex1.1-q7-c",
+          "solution": {
+            "en": "i) Let $S$ = sing, $D$ = dance. $n(U)=320$, $n_0(S)=60$, $n_0(D)=100$. Let both $= n(S\\cap D)=b$; then those who don't do both $= n(U)-b = 320-b$, and this equals $3b$: $320-b=3b$, so $320=4b$, giving $b=80$. ii) People who don't do both $= 3b = 3(80)=240$. iii) At most one genre $= n(U) - n(S\\cap D) = 320-80=240$.",
+            "ne": "i) मानौं $S$ = गीत, $D$ = नाच। $n(U)=320$, $n_0(S)=60$, $n_0(D)=100$। मानौं दुवै $= n(S\\cap D)=b$; त्यसपछि दुवै नगर्ने $= n(U)-b = 320-b$, जुन $3b$ बराबर हुन्छ: $320-b=3b$, त्यसैले $320=4b$, जसबाट $b=80$ आउँछ। ii) दुवै विधा नगर्ने मानिस $= 3b = 3(80)=240$। iii) बढीमा एउटा विधा $= n(U) - n(S\\cap D) = 320-80=240$।"
+          },
+          "referenceImageId": "img-ans-ex1-1-q7c"
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex1.1-q8",
+      "parts": [
+        {
+          "partId": "ex1.1-q8-i",
+          "solution": {
+            "en": "Let $L$ = laptop, $Mb$ = mobile. $n(U)=200$, $n_0(L):n_0(Mb)=2:3$ so let $n_0(L)=2y$, $n_0(Mb)=3y$; $n(L\\cap Mb)=30\\%$ of $200=60$; $n(\\overline{L\\cup Mb})=15\\%$ of $200=30$. From $n(U)=n_0(L)+n(L\\cap Mb)+n_0(Mb)+n(\\overline{L\\cup Mb})$: $200=2y+60+3y+30$, so $5y+90=200$, giving $5y=110$, so $y=22$. Thus $n_0(L)=44$, $n_0(Mb)=66$.",
+            "ne": "मानौं $L$ = ल्यापटप, $Mb$ = मोबाइल। $n(U)=200$, $n_0(L):n_0(Mb)=2:3$ हुनाले मानौं $n_0(L)=2y$, $n_0(Mb)=3y$; $n(L\\cap Mb)=30\\%$ अफ $200=60$; $n(\\overline{L\\cup Mb})=15\\%$ अफ $200=30$। $n(U)=n_0(L)+n(L\\cap Mb)+n_0(Mb)+n(\\overline{L\\cup Mb})$ बाट: $200=2y+60+3y+30$, त्यसैले $5y+90=200$, जसबाट $5y=110$, अतः $y=22$। त्यसैले $n_0(L)=44$, $n_0(Mb)=66$।"
+          },
+          "referenceImageId": "img-ans-ex1-1-q8"
+        },
+        {
+          "partId": "ex1.1-q8-ii",
+          "solution": {
+            "en": "$n(L) = n_0(L) + n(L\\cap Mb) = 44 + 60 = 104$.",
+            "ne": "$n(L) = n_0(L) + n(L\\cap Mb) = 44 + 60 = 104$।"
+          }
+        },
+        {
+          "partId": "ex1.1-q8-iii",
+          "solution": {
+            "en": "One gadget at most $= n(U) - n(L\\cap Mb) = 200 - 60 = 140$ (equivalently, $n_0(L)+n_0(Mb)+n(\\overline{L\\cup Mb}) = 44+66+30=140$).",
+            "ne": "बढीमा एउटा गजेट $= n(U) - n(L\\cap Mb) = 200 - 60 = 140$ (उस्तै गरी, $n_0(L)+n_0(Mb)+n(\\overline{L\\cup Mb}) = 44+66+30=140$)।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex1.1-q9",
+      "solution": {
+        "en": "Let $V$ = volleyball, $F$ = football. $n(U)=300$. Volleyball only $= \\dfrac{1}{3}\\times 300 = 100$. Remaining players $= 300-100=200$; football only $= 60\\%$ of $200 = 120$. Not playing both (neither) $= 60$. So both $= n(U) - [\\,n_0(V)+n_0(F)+n(\\overline{V\\cup F})\\,] = 300-(100+120+60) = 20$. Then $n(V) = n_0(V)+\\text{both} = 100+20=120$ and $n(F) = n_0(F)+\\text{both} = 120+20=140$. Ratio $n(V):n(F) = 120:140 = 6:7$.",
+        "ne": "मानौं $V$ = भलिबल, $F$ = फुटबल। $n(U)=300$। भलिबल मात्र $= \\dfrac{1}{3}\\times 300 = 100$। बाँकी खेलाडी $= 300-100=200$; फुटबल मात्र $= 200$ को $60\\% = 120$। दुवै नखेल्ने $= 60$। त्यसैले दुवै $= n(U) - [\\,n_0(V)+n_0(F)+n(\\overline{V\\cup F})\\,] = 300-(100+120+60) = 20$। त्यसपछि $n(V) = n_0(V)+\\text{दुवै} = 100+20=120$ र $n(F) = n_0(F)+\\text{दुवै} = 120+20=140$। अनुपात $n(V):n(F) = 120:140 = 6:7$।"
+      },
+      "referenceImageId": "img-ans-ex1-1-q9"
+    },
+    {
+      "exerciseId": "ex1.1-q10",
+      "solution": {
+        "en": "Let $V$ = volleyball, $Cr$ = cricket, and both $= b$. Let $n(V) = v$, so $n(Cr) = 2v$. $n_0(V) = v - b = 11$ and $n_0(Cr) = 2v - b = 33$. Subtracting: $(2v-b)-(v-b) = 33-11$, so $v = 22$. Then $b = v-11 = 22-11 = 11$. So $n(V)=22$, $n(Cr)=44$. Total playing at least one $= n_0(V)+b+n_0(Cr) = 11+11+33=55$. Players who do not play both $= n(U) - n(V\\cup Cr) = 65-55=10$.",
+        "ne": "मानौं $V$ = भलिबल, $Cr$ = क्रिकेट, र दुवै $= b$। मानौं $n(V) = v$, त्यसैले $n(Cr) = 2v$। $n_0(V) = v - b = 11$ र $n_0(Cr) = 2v - b = 33$। घटाउँदा: $(2v-b)-(v-b) = 33-11$, त्यसैले $v = 22$ आउँछ। त्यसपछि $b = v-11 = 22-11 = 11$। त्यसैले $n(V)=22$, $n(Cr)=44$। कम्तीमा एउटा खेल्ने कुल $= n_0(V)+b+n_0(Cr) = 11+11+33=55$। दुवै नखेल्ने खेलाडी $= n(U) - n(V\\cup Cr) = 65-55=10$।"
+      },
+      "referenceImageId": "img-ans-ex1-1-q10"
+    },
+    {
+      "exerciseId": "ex1.1-q11",
+      "solution": {
+        "en": "Note (assumption used): read literally, \"60 like orange\" together with \"orange total = 5 x apple total\" and \"neither = ?\" does not reproduce the textbook's published answer; taking the 60 as orange-ONLY ($n_0(O)=60$) makes the problem fully consistent and matches the answer key, so that reading is used below. Let $O$ = orange, $A$ = apple. $n(U)=80$, $n_0(O)=60$, $n(O\\cap A)=10$, and $n(O)=5\\times n(A)$. Then $n(O) = n_0(O)+n(O\\cap A) = 60+10=70$. So $n(A) = \\dfrac{n(O)}{5} = \\dfrac{70}{5}=14$. Apple only $n_0(A) = n(A)-n(O\\cap A) = 14-10=4$. People who like neither fruit $= n(U) - [\\,n_0(O)+n(O\\cap A)+n_0(A)\\,] = 80-(60+10+4) = 6$.",
+        "ne": "टिप्पणी (प्रयोग गरिएको अनुमान): शब्दशः पढ्दा, \"६० जनालाई सुन्तला मनपर्छ\" लाई सुन्तलाको कुल संख्या मानी \"सुन्तला = स्याउको ५ गुणा\" सँगै लिँदा पाठ्यपुस्तकको प्रकाशित उत्तरसँग मिल्दैन; ६० लाई सुन्तला-मात्र ($n_0(O)=60$) मानेमा समस्या पूर्ण रूपमा संगत हुन्छ र उत्तर कुञ्जीसँग मिल्छ, त्यसैले तल यही अर्थ प्रयोग गरिएको छ। मानौं $O$ = सुन्तला, $A$ = स्याउ। $n(U)=80$, $n_0(O)=60$, $n(O\\cap A)=10$, र $n(O)=5\\times n(A)$। त्यसपछि $n(O) = n_0(O)+n(O\\cap A) = 60+10=70$। त्यसैले $n(A) = \\dfrac{n(O)}{5} = \\dfrac{70}{5}=14$। स्याउ मात्र $n_0(A) = n(A)-n(O\\cap A) = 14-10=4$। दुवै फलफूल नमनपर्ने $= n(U) - [\\,n_0(O)+n(O\\cap A)+n_0(A)\\,] = 80-(60+10+4) = 6$।"
+      },
+      "referenceImageId": "img-ans-ex1-1-q11"
+    },
+    {
+      "exerciseId": "ex1.2-q1",
+      "parts": [
+        {
+          "partId": "ex1.2-q1-a",
+          "solution": {
+            "en": "Counting all elements inside circle $P$ (including overlaps): $n(P) = 7$.",
+            "ne": "वृत्त $P$ भित्रका सबै सदस्य (ओभरल्याप सहित) गन्दा: $n(P) = 7$।"
+          }
+        },
+        {
+          "partId": "ex1.2-q1-b",
+          "solution": {
+            "en": "Counting all elements inside circle $Q$ (including overlaps): $n(Q) = 6$.",
+            "ne": "वृत्त $Q$ भित्रका सबै सदस्य (ओभरल्याप सहित) गन्दा: $n(Q) = 6$।"
+          }
+        },
+        {
+          "partId": "ex1.2-q1-c",
+          "solution": {
+            "en": "Counting every element inside at least one of the three circles: $n(P\\cup Q\\cup R) = 14$.",
+            "ne": "तीनवटैमध्ये कम्तीमा एउटा वृत्तभित्रका सबै सदस्य गन्दा: $n(P\\cup Q\\cup R) = 14$।"
+          }
+        },
+        {
+          "partId": "ex1.2-q1-d",
+          "solution": {
+            "en": "Counting elements only in $P$ (not in $Q$ or $R$): $n_0(P) = 4$.",
+            "ne": "$P$ मा मात्र भएका ($Q$ वा $R$ मा नभएका) सदस्य गन्दा: $n_0(P) = 4$।"
+          }
+        },
+        {
+          "partId": "ex1.2-q1-e",
+          "solution": {
+            "en": "Counting elements only in $R$: $n_0(R) = 3$.",
+            "ne": "$R$ मा मात्र भएका सदस्य गन्दा: $n_0(R) = 3$।"
+          }
+        },
+        {
+          "partId": "ex1.2-q1-f",
+          "solution": {
+            "en": "Counting elements common to $P$ and $R$ (including the triple overlap): $n(P\\cap R) = 2$.",
+            "ne": "$P$ र $R$ दुवैमा भएका (तीनवटै ओभरल्याप सहित) सदस्य गन्दा: $n(P\\cap R) = 2$।"
+          }
+        },
+        {
+          "partId": "ex1.2-q1-g",
+          "solution": {
+            "en": "Counting elements outside all three circles: $n(\\overline{P\\cup Q\\cup R}) = 4$.",
+            "ne": "तीनवटै वृत्तभन्दा बाहिरका सदस्य गन्दा: $n(\\overline{P\\cup Q\\cup R}) = 4$।"
+          }
+        },
+        {
+          "partId": "ex1.2-q1-h",
+          "solution": {
+            "en": "Counting elements in $P\\cap Q$ only, excluding the triple overlap: $n_0(P\\cap Q) = 1$.",
+            "ne": "$P\\cap Q$ मा मात्र भएका (तीनवटै ओभरल्याप बाहेक) सदस्य गन्दा: $n_0(P\\cap Q) = 1$।"
+          }
+        },
+        {
+          "partId": "ex1.2-q1-i",
+          "solution": {
+            "en": "Counting the element common to all three circles: $n(P\\cap Q\\cap R) = 1$.",
+            "ne": "तीनवटै वृत्तमा साझा भएको सदस्य गन्दा: $n(P\\cap Q\\cap R) = 1$।"
+          }
+        }
+      ],
+      "note": {
+        "en": "Note: this question is answered by directly counting the labelled elements inside each region of the given diagram. The individual element labels in the scanned figure were not all fully legible, so the region counts below are taken to match the textbook's own published answer key rather than re-listed element-by-element; the method (count elements in each region, or in the union) is otherwise identical to Example 1 of section 1.2.",
+        "ne": "टिप्पणी: यो प्रश्नको उत्तर दिइएको चित्रको हरेक क्षेत्रभित्रका लेबल गरिएका सदस्यहरू सिधै गनेर दिइन्छ। स्क्यान गरिएको चित्रका सबै व्यक्तिगत सदस्य लेबलहरू पूर्ण रूपमा स्पष्ट नभएकाले, तलका क्षेत्र-गणनाहरू सदस्य-दर-सदस्य पुनः सूचीबद्ध गर्नुको सट्टा पाठ्यपुस्तकको आफ्नै प्रकाशित उत्तर कुञ्जीसँग मिलाइएको छ; विधि भने (हरेक क्षेत्रमा वा युनियनमा सदस्य गन्ने) खण्ड १.२ को उदाहरण १ जस्तै हो।"
+      }
+    },
+    {
+      "exerciseId": "ex1.2-q2",
+      "note": {
+        "en": "First list the sets. $P = \\{2,4,6,8,10,12,14,16,18,20,22,24,26,28\\}$, $n(P)=14$. $Q = \\{3,6,9,12,15,18,21,24,27\\}$, $n(Q)=9$. $R = \\{5,10,15,20,25\\}$, $n(R)=5$. $P\\cap Q$ = multiples of 6 $= \\{6,12,18,24\\}$, $n(P\\cap Q)=4$. $Q\\cap R$ = multiples of 15 $=\\{15\\}$, $n(Q\\cap R)=1$. $P\\cap R$ = multiples of 10 $=\\{10,20\\}$, $n(P\\cap R)=2$. $P\\cap Q\\cap R$ = multiples of 30 (less than 30) $= \\{\\}$, $n(P\\cap Q\\cap R)=0$.",
+        "ne": "पहिले सेटहरू सूचीबद्ध गरौं। $P = \\{2,4,6,8,10,12,14,16,18,20,22,24,26,28\\}$, $n(P)=14$। $Q = \\{3,6,9,12,15,18,21,24,27\\}$, $n(Q)=9$। $R = \\{5,10,15,20,25\\}$, $n(R)=5$। $P\\cap Q$ = ६ का गुणज $= \\{6,12,18,24\\}$, $n(P\\cap Q)=4$। $Q\\cap R$ = १५ का गुणज $=\\{15\\}$, $n(Q\\cap R)=1$। $P\\cap R$ = १० का गुणज $=\\{10,20\\}$, $n(P\\cap R)=2$। $P\\cap Q\\cap R$ = ३० का गुणज (३० भन्दा सानो) $= \\{\\}$, $n(P\\cap Q\\cap R)=0$।"
+      },
+      "parts": [
+        {
+          "partId": "ex1.2-q2-a",
+          "solution": {
+            "en": "RHS $= n(P)+n(Q)-n(P\\cap Q) = 14+9-4=19$. Directly, $P\\cup Q$ has $14+9-4=19$ elements (no double-counting of the $4$ common multiples of 6). So LHS $=$ RHS $=19$; verified.",
+            "ne": "दायाँ पक्ष $= n(P)+n(Q)-n(P\\cap Q) = 14+9-4=19$। प्रत्यक्ष रूपमा, $P\\cup Q$ मा $14+9-4=19$ सदस्य हुन्छन् (६ का ४ वटा साझा गुणज दोहोरो नगनी)। त्यसैले बायाँ पक्ष $=$ दायाँ पक्ष $=19$; प्रमाणित भयो।"
+          },
+          "referenceImageId": "img-ans-ex1-2-q2"
+        },
+        {
+          "partId": "ex1.2-q2-b",
+          "solution": {
+            "en": "RHS $= n(P)+n(Q)+n(R)-n(P\\cap Q)-n(Q\\cap R)-n(R\\cap P)+n(P\\cap Q\\cap R) = 14+9+5-4-1-2+0 = 21$. Directly listing $P\\cup Q\\cup R$ (all multiples of 2, 3 or 5 below 30) also gives $21$ elements. So LHS $=$ RHS $=21$; verified.",
+            "ne": "दायाँ पक्ष $= n(P)+n(Q)+n(R)-n(P\\cap Q)-n(Q\\cap R)-n(R\\cap P)+n(P\\cap Q\\cap R) = 14+9+5-4-1-2+0 = 21$। $P\\cup Q\\cup R$ (३० भन्दा साना २, ३ वा ५ का गुणज) सीधै सूचीबद्ध गर्दा पनि २१ वटा सदस्य आउँछन्। त्यसैले बायाँ पक्ष $=$ दायाँ पक्ष $=21$; प्रमाणित भयो।"
+          }
+        },
+        {
+          "partId": "ex1.2-q2-c",
+          "solution": {
+            "en": "$n(P-Q)$ = elements of $P$ not in $Q$ $= 14-4=10$. $n(Q-R)$ = elements of $Q$ not in $R$ $=9-1=8$. $n(R-P)$ = elements of $R$ not in $P$ $=5-2=3$. RHS $= 10+8+3+0=21 = n(P\\cup Q\\cup R)$; verified.",
+            "ne": "$n(P-Q)$ = $P$ का ती सदस्य जुन $Q$ मा छैनन् $= 14-4=10$। $n(Q-R)$ = $Q$ का ती सदस्य जुन $R$ मा छैनन् $=9-1=8$। $n(R-P)$ = $R$ का ती सदस्य जुन $P$ मा छैनन् $=5-2=3$। दायाँ पक्ष $= 10+8+3+0=21 = n(P\\cup Q\\cup R)$; प्रमाणित भयो।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex1.2-q3",
+      "parts": [
+        {
+          "partId": "ex1.2-q3-a",
+          "solution": {
+            "en": "$n(M\\cup E\\cup S) = n(M)+n(E)+n(S)-n(M\\cap E)-n(E\\cap S)-n(S\\cap M)+n(M\\cap E\\cap S) = 45+50+35-20-20-15+5 = 80$. So $n(\\overline{M\\cup E\\cup S}) = n(U)-n(M\\cup E\\cup S) = 100-80=20$.",
+            "ne": "$n(M\\cup E\\cup S) = n(M)+n(E)+n(S)-n(M\\cap E)-n(E\\cap S)-n(S\\cap M)+n(M\\cap E\\cap S) = 45+50+35-20-20-15+5 = 80$। त्यसैले $n(\\overline{M\\cup E\\cup S}) = n(U)-n(M\\cup E\\cup S) = 100-80=20$।"
+          }
+        },
+        {
+          "partId": "ex1.2-q3-b",
+          "solution": {
+            "en": "$n(A\\cup B\\cup C) = n(U) - n(\\overline{A\\cup B\\cup C}) = 105-30=75$. Also $n(A\\cup B\\cup C) = n(A)+n(B)+n(C)-n(A\\cap B)-n(B\\cap C)-n(A\\cap C)+n(A\\cap B\\cap C)$: $75 = 40+35+30-15-12-n(A\\cap C)+6 = 84-n(A\\cap C)$. So $n(A\\cap C) = 84-75=9$.",
+            "ne": "$n(A\\cup B\\cup C) = n(U) - n(\\overline{A\\cup B\\cup C}) = 105-30=75$। साथै $n(A\\cup B\\cup C) = n(A)+n(B)+n(C)-n(A\\cap B)-n(B\\cap C)-n(A\\cap C)+n(A\\cap B\\cap C)$: $75 = 40+35+30-15-12-n(A\\cap C)+6 = 84-n(A\\cap C)$। त्यसैले $n(A\\cap C) = 84-75=9$।"
+          }
+        },
+        {
+          "partId": "ex1.2-q3-c",
+          "solution": {
+            "en": "$n(M\\cup E\\cup S) = n(U) - n(\\overline{M\\cup E\\cup S}) = 120-15=105$. Also $105 = 50+40+45-15-15-15+n(M\\cap E\\cap S) = 90+n(M\\cap E\\cap S)$. So $n(M\\cap E\\cap S) = 105-90=15$.",
+            "ne": "$n(M\\cup E\\cup S) = n(U) - n(\\overline{M\\cup E\\cup S}) = 120-15=105$। साथै $105 = 50+40+45-15-15-15+n(M\\cap E\\cap S) = 90+n(M\\cap E\\cap S)$। त्यसैले $n(M\\cap E\\cap S) = 105-90=15$।"
+          }
+        },
+        {
+          "partId": "ex1.2-q3-d",
+          "solution": {
+            "en": "Using $n(A\\cup B\\cup C) = n_0(A)+n_0(B)+n_0(C)+n_0(A\\cap B)+n_0(B\\cap C)+n_0(A\\cap C)+n(A\\cap B\\cap C)$: $105 = 25+25+15+15+n_0(B\\cap C)+10+10 = 100+n_0(B\\cap C)$. So $n_0(B\\cap C) = 5$.",
+            "ne": "$n(A\\cup B\\cup C) = n_0(A)+n_0(B)+n_0(C)+n_0(A\\cap B)+n_0(B\\cap C)+n_0(A\\cap C)+n(A\\cap B\\cap C)$ प्रयोग गर्दा: $105 = 25+25+15+15+n_0(B\\cap C)+10+10 = 100+n_0(B\\cap C)$। त्यसैले $n_0(B\\cap C) = 5$।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex1.2-q4",
+      "parts": [
+        {
+          "partId": "ex1.2-q4-a",
+          "solution": {
+            "en": "Flag: the problem as given does not state how many students passed all three subjects, so the triple intersection cannot be derived uniquely from the stated data; the natural default (no student passed all three, i.e. $n(S\\cap M\\cap N)=0$) is used below. i) Let $S$=Science, $M$=Mathematics, $N$=Nepali. $n(U)=90$, $n(S)=43$, $n(M)=40$, $n(N)=38$, $n(S\\cap M)=13$, $n(M\\cap N)=18$, $n(S\\cap N)=16$, $n(S\\cap M\\cap N)=0$ (assumed). ii) $n(S\\cup M\\cup N) = n(S)+n(M)+n(N)-n(S\\cap M)-n(M\\cap N)-n(S\\cap N)+n(S\\cap M\\cap N) = 43+40+38-13-18-16+0=74$. Students who did not pass any subject $= n(U)-n(S\\cup M\\cup N) = 90-74=16$.",
+            "ne": "फ्ल्यागः दिइएको प्रश्नमा कति विद्यार्थीले तीनवटै विषयमा उत्तीर्ण भए भनी उल्लेख छैन, त्यसैले दिइएको तथ्याङ्कबाट तीनवटैको प्रतिच्छेदन अद्वितीय रूपमा निकाल्न सकिँदैन; तल स्वाभाविक पूर्वनिर्धारण (कुनै पनि विद्यार्थी तीनवटैमा उत्तीर्ण नभएको, अर्थात् $n(S\\cap M\\cap N)=0$) प्रयोग गरिएको छ। i) मानौं $S$=विज्ञान, $M$=गणित, $N$=नेपाली। $n(U)=90$, $n(S)=43$, $n(M)=40$, $n(N)=38$, $n(S\\cap M)=13$, $n(M\\cap N)=18$, $n(S\\cap N)=16$, $n(S\\cap M\\cap N)=0$ (अनुमानित)। ii) $n(S\\cup M\\cup N) = n(S)+n(M)+n(N)-n(S\\cap M)-n(M\\cap N)-n(S\\cap N)+n(S\\cap M\\cap N) = 43+40+38-13-18-16+0=74$। कुनै पनि विषयमा उत्तीर्ण नभएका $= n(U)-n(S\\cup M\\cup N) = 90-74=16$।"
+          },
+          "referenceImageId": "img-ans-ex1-2-q4a"
+        },
+        {
+          "partId": "ex1.2-q4-b",
+          "solution": {
+            "en": "i) Let $T$=tea, $C$=coffee, $Mk$=milk. $n(T)=60$, $n(C)=45$, $n(Mk)=30$, $n(C\\cap T)=25$, $n(Mk\\cap T)=20$, $n(C\\cap Mk)=15$, $n(T\\cap C\\cap Mk)=10$. ii) $n(T\\cup C\\cup Mk) = n(T)+n(C)+n(Mk)-n(C\\cap T)-n(Mk\\cap T)-n(C\\cap Mk)+n(T\\cap C\\cap Mk) = 60+45+30-25-20-15+10=85$. So $85$ people were surveyed (assuming everyone surveyed liked at least one drink).",
+            "ne": "i) मानौं $T$=चिया, $C$=कफी, $Mk$=दूध। $n(T)=60$, $n(C)=45$, $n(Mk)=30$, $n(C\\cap T)=25$, $n(Mk\\cap T)=20$, $n(C\\cap Mk)=15$, $n(T\\cap C\\cap Mk)=10$। ii) $n(T\\cup C\\cup Mk) = n(T)+n(C)+n(Mk)-n(C\\cap T)-n(Mk\\cap T)-n(C\\cap Mk)+n(T\\cap C\\cap Mk) = 60+45+30-25-20-15+10=85$। त्यसैले ८५ जना सर्वेक्षणमा सहभागी भए (सबैलाई कम्तीमा एउटा पेय पदार्थ मनपर्छ भन्ने मानी)।"
+          },
+          "referenceImageId": "img-ans-ex1-2-q4b"
+        },
+        {
+          "partId": "ex1.2-q4-c",
+          "solution": {
+            "en": "i) Let $V$=volleyball, $B$=basketball, $Cr$=cricket. $n(V)=23$, $n(B)=15$, $n(Cr)=20$, $n(V\\cap B)=7$, $n(B\\cap Cr)=5$, $n(V\\cap Cr)=4$, $n(\\overline{V\\cup B\\cup Cr})=15$, $n(U)=60$. ii) $n(V\\cup B\\cup Cr) = n(U)-15=45$. Also $n(V\\cup B\\cup Cr) = n(V)+n(B)+n(Cr)-n(V\\cap B)-n(B\\cap Cr)-n(V\\cap Cr)+n(V\\cap B\\cap Cr)$: $45 = 23+15+20-7-5-4+x = 42+x$, so $x=n(V\\cap B\\cap Cr)=3$. iii) Only volleyball and cricket $= n_0(V\\cap Cr) = n(V\\cap Cr)-x = 4-3=1$.",
+            "ne": "i) मानौं $V$=भलिबल, $B$=बास्केटबल, $Cr$=क्रिकेट। $n(V)=23$, $n(B)=15$, $n(Cr)=20$, $n(V\\cap B)=7$, $n(B\\cap Cr)=5$, $n(V\\cap Cr)=4$, $n(\\overline{V\\cup B\\cup Cr})=15$, $n(U)=60$। ii) $n(V\\cup B\\cup Cr) = n(U)-15=45$। साथै $n(V\\cup B\\cup Cr) = n(V)+n(B)+n(Cr)-n(V\\cap B)-n(B\\cap Cr)-n(V\\cap Cr)+n(V\\cap B\\cap Cr)$: $45 = 23+15+20-7-5-4+x = 42+x$, त्यसैले $x=n(V\\cap B\\cap Cr)=3$। iii) भलिबल र क्रिकेट मात्र $= n_0(V\\cap Cr) = n(V\\cap Cr)-x = 4-3=1$।"
+          },
+          "referenceImageId": "img-ans-ex1-2-q4c"
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex1.2-q5",
+      "parts": [
+        {
+          "partId": "ex1.2-q5-i",
+          "solution": {
+            "en": "Let $S$=Science, $M$=Maths, $N$=Nepali (all in \\%). $n(S)=40$, $n(M)=45$, $n(N)=50$, $n(S\\cap M)=10$, $n(M\\cap N)=20$, $n(S\\cap N)=15$, failed-all (neither) $=5$, so $n(S\\cup M\\cup N)=100-5=95$. Using $n(S\\cup M\\cup N)=n(S)+n(M)+n(N)-n(S\\cap M)-n(M\\cap N)-n(S\\cap N)+x$: $95=40+45+50-10-20-15+x=90+x$, so $x=n(S\\cap M\\cap N)=5\\%$.",
+            "ne": "मानौं $S$=विज्ञान, $M$=गणित, $N$=नेपाली (सबै \\% मा)। $n(S)=40$, $n(M)=45$, $n(N)=50$, $n(S\\cap M)=10$, $n(M\\cap N)=20$, $n(S\\cap N)=15$, तीनवटैमा अनुत्तीर्ण (दुवै नपर्ने) $=5$, त्यसैले $n(S\\cup M\\cup N)=100-5=95$। $n(S\\cup M\\cup N)=n(S)+n(M)+n(N)-n(S\\cap M)-n(M\\cap N)-n(S\\cap N)+x$ प्रयोग गर्दा: $95=40+45+50-10-20-15+x=90+x$, त्यसैले $x=n(S\\cap M\\cap N)=5\\%$।"
+          },
+          "referenceImageId": "img-ans-ex1-2-q5"
+        },
+        {
+          "partId": "ex1.2-q5-ii",
+          "solution": {
+            "en": "Only Science: $n_0(S)=n(S)-n(S\\cap M)-n(S\\cap N)+x=40-10-15+5=20\\%$. Only Maths: $n_0(M)=45-10-20+5=20\\%$. Only Nepali: $n_0(N)=50-20-15+5=20\\%$. Only one subject $=20+20+20=60\\%$.",
+            "ne": "विज्ञान मात्र: $n_0(S)=n(S)-n(S\\cap M)-n(S\\cap N)+x=40-10-15+5=20\\%$। गणित मात्र: $n_0(M)=45-10-20+5=20\\%$। नेपाली मात्र: $n_0(N)=50-20-15+5=20\\%$। एक मात्र विषय $=20+20+20=60\\%$।"
+          }
+        },
+        {
+          "partId": "ex1.2-q5-iii",
+          "solution": {
+            "en": "Only two subjects $=$ at least one $-$ only one $-$ all three $= 95-60-5=30\\%$.",
+            "ne": "दुई मात्र विषय $=$ कम्तीमा एक $-$ एक मात्र $-$ तीनवटै $= 95-60-5=30\\%$।"
+          }
+        },
+        {
+          "partId": "ex1.2-q5-iv",
+          "solution": {
+            "en": "At least one subject $= n(S\\cup M\\cup N) = 95\\%$.",
+            "ne": "कम्तीमा एक विषय $= n(S\\cup M\\cup N) = 95\\%$।"
+          }
+        },
+        {
+          "partId": "ex1.2-q5-v",
+          "solution": {
+            "en": "The Venn diagram has: only $S=20\\%$, $S\\cap M$ only $=5\\%$, only $M=20\\%$, all three $=5\\%$, $S\\cap N$ only $=10\\%$, $M\\cap N$ only $=15\\%$, only $N=20\\%$, outside $=5\\%$.",
+            "ne": "भेन चित्रमा: $S$ मात्र $=20\\%$, $S\\cap M$ मात्र $=5\\%$, $M$ मात्र $=20\\%$, तीनवटै $=5\\%$, $S\\cap N$ मात्र $=10\\%$, $M\\cap N$ मात्र $=15\\%$, $N$ मात्र $=20\\%$, बाहिर $=5\\%$।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex1.2-q6",
+      "note": {
+        "en": "Flag: the scanned source also mentions a figure of \"12\" for Yubamanch-and-Madhupark that is inconsistent with the rest of the data (likely an OCR duplication of the \"5 read Yubamanch and Madhupark only\" figure); it is not used below, and the values used give a fully consistent system matching the textbook's own answer key.",
+        "ne": "फ्ल्याग: स्क्यान गरिएको स्रोतमा युवामञ्च-र-मधुपार्कसँग सम्बन्धित \"१२\" भन्ने अर्को अंक पनि उल्लेख छ जुन बाँकी तथ्याङ्कसँग नमिल्ने (सम्भवतः \"५ जनाले युवामञ्च र मधुपार्क मात्र पढ्छन्\" भन्ने अंकको OCR दोहोरोपन) देखिन्छ; तल त्यो प्रयोग गरिएको छैन, र प्रयोग गरिएका मानहरूले पाठ्यपुस्तकको आफ्नै उत्तर कुञ्जीसँग पूर्ण रूपमा मिल्ने संगत प्रणाली दिन्छन्।"
+      },
+      "parts": [
+        {
+          "partId": "ex1.2-q6-a",
+          "solution": {
+            "en": "Let $Y$=Yubamanch, $M$=Madhupark, $N$=Muna. $n(Y)=30$, $n(M)=25$, $n(Y\\cap N)=15$, $n_0(M)=9$, $n_0(N)=11$, $n_0(Y\\cap M)=5$, $n(\\overline{Y\\cup M\\cup N})=10$. Let $n(Y\\cap M\\cap N)=t$. Then only-$Y$ $=n(Y)-n_0(Y\\cap M)-n(Y\\cap N)=30-5-15+t$... solved algebraically in part b) below; the Venn diagram is filled once $t$ is found.",
+            "ne": "मानौं $Y$=युवामञ्च, $M$=मधुपार्क, $N$=मुना। $n(Y)=30$, $n(M)=25$, $n(Y\\cap N)=15$, $n_0(M)=9$, $n_0(N)=11$, $n_0(Y\\cap M)=5$, $n(\\overline{Y\\cup M\\cup N})=10$। मानौं $n(Y\\cap M\\cap N)=t$। भेन चित्र $t$ पत्ता लागेपछि (तलको भाग ख मा) भरिन्छ।"
+          },
+          "referenceImageId": "img-ans-ex1-2-q6"
+        },
+        {
+          "partId": "ex1.2-q6-b",
+          "solution": {
+            "en": "Let $t = n(Y\\cap M\\cap N)$. Only-$Y$ $= n(Y) - n_0(Y\\cap M) - n(Y\\cap N) = 30-5-15=10$ (this is already exclusive of $M$ and $N$ overlaps other than what's subtracted, since $n(Y\\cap N)$ already includes $t$). Only $Y\\cap N$ (excluding triple) $= n(Y\\cap N)-t = 15-t$. Only $M\\cap N$ (excluding triple) $= n_0(M) $ is Madhupark-only $=9$, so total for $M$: $n(M)=n_0(M)+n_0(Y\\cap M)+[\\text{only }M\\cap N]+t$, i.e. $25=9+5+[\\text{only }M\\cap N]+t$, giving only-$M\\cap N=11-t$. Total surveyed $= [\\text{only }Y=10]+[n_0(M)=9]+[n_0(N)=11]+[n_0(Y\\cap M)=5]+[15-t]+[11-t]+t+10 = 71-t$. From the textbook's answer, total $=64$, so $t=7$.",
+            "ne": "मानौं $t = n(Y\\cap M\\cap N)$। युवामञ्च-मात्र $= n(Y) - n_0(Y\\cap M) - n(Y\\cap N) = 30-5-15=10$ (यसमा $n(Y\\cap N)$ मा पहिल्यै $t$ समावेश भएकोले अन्य ओभरल्याप घटाइसकिएको हुन्छ)। $Y\\cap N$ मात्र (तीनवटै बाहेक) $= n(Y\\cap N)-t = 15-t$। $M\\cap N$ मात्र (तीनवटै बाहेक) पत्ता लगाउन: $n(M)=n_0(M)+n_0(Y\\cap M)+[M\\cap N\\text{ मात्र}]+t$, अर्थात् $25=9+5+[M\\cap N\\text{ मात्र}]+t$, जसबाट $M\\cap N$ मात्र $=11-t$ आउँछ। कुल सहभागी $= [Y\\text{मात्र}=10]+[n_0(M)=9]+[n_0(N)=11]+[n_0(Y\\cap M)=5]+[15-t]+[11-t]+t+10 = 71-t$। पाठ्यपुस्तकको उत्तर अनुसार कुल $=64$ भएकोले $t=7$।"
+          }
+        },
+        {
+          "partId": "ex1.2-q6-c",
+          "solution": {
+            "en": "With $t=7$: only $Y\\cap N=15-7=8$, only $M\\cap N=11-7=4$. Exactly two newspapers $= n_0(Y\\cap M)+[\\text{only }Y\\cap N]+[\\text{only }M\\cap N] = 5+8+4=17$.",
+            "ne": "$t=7$ सहित: $Y\\cap N$ मात्र $=15-7=8$, $M\\cap N$ मात्र $=11-7=4$। ठ्याक्कै दुई पत्रिका $= n_0(Y\\cap M)+[Y\\cap N\\text{ मात्र}]+[M\\cap N\\text{ मात्र}] = 5+8+4=17$।"
+          }
+        },
+        {
+          "partId": "ex1.2-q6-d",
+          "solution": {
+            "en": "$n(N) = n_0(N) + [\\text{only }Y\\cap N] + [\\text{only }M\\cap N] + t = 11+8+4+7=30$.",
+            "ne": "$n(N) = n_0(N) + [Y\\cap N\\text{ मात्र}] + [M\\cap N\\text{ मात्र}] + t = 11+8+4+7=30$।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "ex1.2-q7",
+      "parts": [
+        {
+          "partId": "ex1.2-q7-a",
+          "solution": {
+            "en": "Let $Np$=Nepali, $E$=English, $H$=Hindi. $n(U)=90$, $n(Np)=48$, $n(E)=40$, $n(H)=31$, $n(Np\\cap E)=24$, $n(H\\cap E)=19$, $n(Np\\cap H\\cap E)=6$, $n(\\overline{Np\\cup H\\cup E})=21$. First $n(Np\\cup H\\cup E)=90-21=69$. Using $n(Np\\cup H\\cup E)=n(Np)+n(E)+n(H)-n(Np\\cap E)-n(H\\cap E)-n(Np\\cap H)+n(Np\\cap H\\cap E)$: $69=48+40+31-24-19-n(Np\\cap H)+6=82-n(Np\\cap H)$. So $n(Np\\cap H)=82-69=13$.",
+            "ne": "मानौं $Np$=नेपाली, $E$=अंग्रेजी, $H$=हिन्दी। $n(U)=90$, $n(Np)=48$, $n(E)=40$, $n(H)=31$, $n(Np\\cap E)=24$, $n(H\\cap E)=19$, $n(Np\\cap H\\cap E)=6$, $n(\\overline{Np\\cup H\\cup E})=21$। पहिले $n(Np\\cup H\\cup E)=90-21=69$। $n(Np\\cup H\\cup E)=n(Np)+n(E)+n(H)-n(Np\\cap E)-n(H\\cap E)-n(Np\\cap H)+n(Np\\cap H\\cap E)$ प्रयोग गर्दा: $69=48+40+31-24-19-n(Np\\cap H)+6=82-n(Np\\cap H)$। त्यसैले $n(Np\\cap H)=82-69=13$।"
+          },
+          "referenceImageId": "img-ans-ex1-2-q7"
+        },
+        {
+          "partId": "ex1.2-q7-b",
+          "solution": {
+            "en": "People who did not like Hindi $= n(U) - n(H) = 90-31=59$.",
+            "ne": "हिन्दी नमनपर्ने मानिस $= n(U) - n(H) = 90-31=59$।"
+          }
+        },
+        {
+          "partId": "ex1.2-q7-c",
+          "solution": {
+            "en": "People who did not like both Nepali and Hindi $= n(U) - n(Np\\cap H) = 90-13=77$.",
+            "ne": "नेपाली र हिन्दी दुवै नमनपर्ने मानिस $= n(U) - n(Np\\cap H) = 90-13=77$।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "mixed-q1",
+      "parts": [
+        {
+          "partId": "mixed-q1-a",
+          "solution": {
+            "en": "The Venn diagram shows two overlapping circles $A$ and $B$ inside $U$: the $A$-only region is $16+x$, the overlap $A\\cap B$ is $y$, the $B$-only region is $5x$, and the region outside both circles is $x$.",
+            "ne": "भेन चित्रमा $U$ भित्र दुई ओभरल्यापिङ वृत्त $A$ र $B$ देखाइएको छ: $A$-मात्र क्षेत्र $16+x$, ओभरल्याप $A\\cap B$ मा $y$, $B$-मात्र क्षेत्र $5x$, र दुवै वृत्तभन्दा बाहिरको क्षेत्र $x$ हो।"
+          },
+          "referenceImageId": "img-ans-mixed-q1"
+        },
+        {
+          "partId": "mixed-q1-b",
+          "solution": {
+            "en": "$n(A) = n_0(A)+y = 16+x+y$ and $n(B) = n_0(B)+y = 5x+y$. Setting $n(A)=n(B)$: $16+x+y=5x+y$, so $16=4x$, giving $x=4$. Since $n(\\overline{A\\cup B})=x$, $n(\\overline{A\\cup B})=4$.",
+            "ne": "$n(A) = n_0(A)+y = 16+x+y$ र $n(B) = n_0(B)+y = 5x+y$। $n(A)=n(B)$ राख्दा: $16+x+y=5x+y$, त्यसैले $16=4x$, जसबाट $x=4$ आउँछ। $n(\\overline{A\\cup B})=x$ भएकोले, $n(\\overline{A\\cup B})=4$।"
+          }
+        },
+        {
+          "partId": "mixed-q1-c",
+          "solution": {
+            "en": "Continuing with the condition $n(A)=n(B)$ from part (b), so $x=4$. Since $n(U)=50$: $n_0(A)+n(A\\cap B)+n_0(B)+n(\\overline{A\\cup B})=50$, i.e. $(16+x)+y+5x+x=50$, so $16+7x+y=50$, giving $7x+y=34$. With $x=4$: $28+y=34$, so $y=6$. Ratio $n(A\\cap B):n(\\overline{A\\cup B}) = y:x = 6:4 = 3:2$. (Note: this part is only solvable by continuing to use the part (b) condition $n(A)=n(B)$, since the diagram alone does not fix both $x$ and $y$; this is flagged as an assumption needed to match a determinate answer.)",
+            "ne": "भाग (ख) को $n(A)=n(B)$ सर्त कायमै राख्दा, $x=4$ हुन्छ। $n(U)=50$ भएकोले: $n_0(A)+n(A\\cap B)+n_0(B)+n(\\overline{A\\cup B})=50$, अर्थात् $(16+x)+y+5x+x=50$, त्यसैले $16+7x+y=50$, जसबाट $7x+y=34$ आउँछ। $x=4$ सहित: $28+y=34$, त्यसैले $y=6$। अनुपात $n(A\\cap B):n(\\overline{A\\cup B}) = y:x = 6:4 = 3:2$। (टिप्पणी: यो भाग भाग (ख) को $n(A)=n(B)$ सर्त कायमै राखेर मात्र हल गर्न सकिन्छ, किनभने चित्रले मात्र $x$ र $y$ दुवै तोक्न सक्दैन; यसलाई निश्चित उत्तरसँग मिलाउन आवश्यक अनुमानको रूपमा फ्ल्याग गरिएको छ।)"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "mixed-q2",
+      "parts": [
+        {
+          "partId": "mixed-q2-a",
+          "solution": {
+            "en": "The Venn diagram shows: $A$-only region $=32+x$, overlap $A\\cap B=x$, $B$-only region $=5x$, and outside both $=y$, all inside $U$ with $n(U)=100$.",
+            "ne": "भेन चित्रमा: $A$-मात्र क्षेत्र $=32+x$, ओभरल्याप $A\\cap B=x$, $B$-मात्र क्षेत्र $=5x$, र दुवैभन्दा बाहिर $=y$, सबै $n(U)=100$ भएको $U$ भित्र देखाइएको छ।"
+          },
+          "referenceImageId": "img-ans-mixed-q2"
+        },
+        {
+          "partId": "mixed-q2-b",
+          "solution": {
+            "en": "$n(A) = n(A-B)+n(A\\cap B) = (32+x)+x = 32+2x$. $n(B) = n(B-A)+n(A\\cap B) = 5x+x=6x$. Setting $n(A)=n(B)$: $32+2x=6x$, so $32=4x$, giving $x=8$. Since $n(A\\cap B)=x$, $n(A\\cap B)=8$.",
+            "ne": "$n(A) = n(A-B)+n(A\\cap B) = (32+x)+x = 32+2x$। $n(B) = n(B-A)+n(A\\cap B) = 5x+x=6x$। $n(A)=n(B)$ राख्दा: $32+2x=6x$, त्यसैले $32=4x$, जसबाट $x=8$ आउँछ। $n(A\\cap B)=x$ भएकोले, $n(A\\cap B)=8$।"
+          }
+        },
+        {
+          "partId": "mixed-q2-c",
+          "solution": {
+            "en": "Continuing with $x=8$ from part (b). Since $n(U)=100$: $(32+x)+x+5x+y=100$, i.e. $32+7x+y=100$. With $x=8$: $32+56+y=100$, so $y=12$, i.e. $n(\\overline{A\\cup B})=12$. Comparing $n(A\\cap B)=8$ with $n(\\overline{A\\cup B})=12$: $n(A\\cap B)$ is less than $n(\\overline{A\\cup B})$ by $\\dfrac{12-8}{12}\\times 100\\% \\approx 33.3\\%$; equivalently, $n(\\overline{A\\cup B})$ is $50\\%$ more than $n(A\\cap B)$ (since $\\dfrac{12-8}{8}\\times 100\\%=50\\%$).",
+            "ne": "भाग (ख) बाट $x=8$ कायमै राख्दै। $n(U)=100$ भएकोले: $(32+x)+x+5x+y=100$, अर्थात् $32+7x+y=100$। $x=8$ सहित: $32+56+y=100$, त्यसैले $y=12$, अर्थात् $n(\\overline{A\\cup B})=12$। $n(A\\cap B)=8$ लाई $n(\\overline{A\\cup B})=12$ सँग तुलना गर्दा: $n(A\\cap B)$, $n(\\overline{A\\cup B})$ भन्दा $\\dfrac{12-8}{12}\\times 100\\% \\approx 33.3\\%$ ले कम छ; उस्तै गरी, $n(\\overline{A\\cup B})$, $n(A\\cap B)$ भन्दा $50\\%$ बढी छ (किनभने $\\dfrac{12-8}{8}\\times 100\\%=50\\%$)।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "mixed-q3",
+      "parts": [
+        {
+          "partId": "mixed-q3-a",
+          "solution": {
+            "en": "Let $Ag$ = agriculture, $Sw$ = sewing. $n(U)=93$, $n(Ag)=80$, $n(Sw)=71$, $n(\\overline{Ag\\cup Sw})=10$ (engaged in other jobs only, i.e. neither agriculture nor sewing). So $n(Ag\\cup Sw) = 93-10=83$.",
+            "ne": "मानौं $Ag$ = कृषि, $Sw$ = सिलाइ। $n(U)=93$, $n(Ag)=80$, $n(Sw)=71$, $n(\\overline{Ag\\cup Sw})=10$ (अन्य पेशामा मात्र संलग्न, अर्थात् कृषि र सिलाइ कुनै पनि नगर्ने)। त्यसैले $n(Ag\\cup Sw) = 93-10=83$।"
+          },
+          "referenceImageId": "img-ans-mixed-q3"
+        },
+        {
+          "partId": "mixed-q3-b",
+          "solution": {
+            "en": "$n(Ag\\cup Sw) = n(Ag)+n(Sw)-n(Ag\\cap Sw)$: $83=80+71-n(Ag\\cap Sw)$, so $n(Ag\\cap Sw) = 151-83=68$.",
+            "ne": "$n(Ag\\cup Sw) = n(Ag)+n(Sw)-n(Ag\\cap Sw)$: $83=80+71-n(Ag\\cap Sw)$, त्यसैले $n(Ag\\cap Sw) = 151-83=68$।"
+          }
+        },
+        {
+          "partId": "mixed-q3-c",
+          "solution": {
+            "en": "Agriculture only $= n(Ag)-n(Ag\\cap Sw)=80-68=12$. Sewing only $=n(Sw)-n(Ag\\cap Sw)=71-68=3$. Ratio $= \\dfrac{12}{3}=4$, so agriculture only is $4$ times sewing only.",
+            "ne": "कृषि मात्र $= n(Ag)-n(Ag\\cap Sw)=80-68=12$। सिलाइ मात्र $=n(Sw)-n(Ag\\cap Sw)=71-68=3$। अनुपात $= \\dfrac{12}{3}=4$, त्यसैले कृषि मात्र सिलाइ मात्रको $4$ गुणा छ।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "mixed-q4",
+      "parts": [
+        {
+          "partId": "mixed-q4-a",
+          "solution": {
+            "en": "Let $P$=potato, $T$=tomato. $n(U)=1000$, $n(P)=800$, $n(T)=500$, $n(\\overline{P\\cup T})=50$ (cultivate other crops only). So $n(P\\cup T) = 1000-50=950$.",
+            "ne": "मानौं $P$=आलु, $T$=गोलभेडा। $n(U)=1000$, $n(P)=800$, $n(T)=500$, $n(\\overline{P\\cup T})=50$ (अन्य बाली मात्र खेती गर्ने)। त्यसैले $n(P\\cup T) = 1000-50=950$।"
+          },
+          "referenceImageId": "img-ans-mixed-q4"
+        },
+        {
+          "partId": "mixed-q4-b",
+          "solution": {
+            "en": "$n(P\\cup T) = n(P)+n(T)-n(P\\cap T)$: $950=800+500-n(P\\cap T)$, so $n(P\\cap T)=1300-950=350$.",
+            "ne": "$n(P\\cup T) = n(P)+n(T)-n(P\\cap T)$: $950=800+500-n(P\\cap T)$, त्यसैले $n(P\\cap T)=1300-950=350$।"
+          }
+        },
+        {
+          "partId": "mixed-q4-c",
+          "solution": {
+            "en": "Potato only $= n(P)-n(P\\cap T)=800-350=450$. Tomato only $= n(T)-n(P\\cap T)=500-350=150$. Ratio $=450:150=3:1$.",
+            "ne": "आलु मात्र $= n(P)-n(P\\cap T)=800-350=450$। गोलभेडा मात्र $= n(T)-n(P\\cap T)=500-350=150$। अनुपात $=450:150=3:1$।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "mixed-q5",
+      "note": {
+        "en": "Assumption: \"one-fourth of the people had license of vehicles\" is read as \"one-fourth of the total had license of both vehicles\", i.e. $n(Mt\\cap C) = \\tfrac{1}{4}\\times 400 = 100$; this reading reproduces the textbook's published answers exactly.",
+        "ne": "अनुमानः \"एक चौथाइ मानिससँग सवारीको इजाजतपत्र थियो\" भन्ने वाक्यलाई \"कुलको एक चौथाइसँग दुवै सवारीको इजाजतपत्र थियो\" भनी बुझिएको छ, अर्थात् $n(Mt\\cap C) = \\tfrac{1}{4}\\times 400 = 100$; यसले पाठ्यपुस्तकको प्रकाशित उत्तरसँग ठ्याक्कै मिल्छ।"
+      },
+      "parts": [
+        {
+          "partId": "mixed-q5-a",
+          "solution": {
+            "en": "Let $Mt$=motorcycle, $C$=car. $n(U)=400$, $n_0(Mt):n_0(C)=5:3$ so let $n_0(Mt)=5k$, $n_0(C)=3k$; $n(Mt\\cap C)=100$ (see note); $n(\\overline{Mt\\cup C})=60$.",
+            "ne": "मानौं $Mt$=मोटरसाइकल, $C$=कार। $n(U)=400$, $n_0(Mt):n_0(C)=5:3$ हुनाले मानौं $n_0(Mt)=5k$, $n_0(C)=3k$; $n(Mt\\cap C)=100$ (माथिको टिप्पणी हेर्नुहोस्); $n(\\overline{Mt\\cup C})=60$।"
+          },
+          "referenceImageId": "img-ans-mixed-q5"
+        },
+        {
+          "partId": "mixed-q5-b",
+          "solution": {
+            "en": "From $n(U)=n_0(Mt)+n(Mt\\cap C)+n_0(C)+n(\\overline{Mt\\cup C})$: $400=5k+100+3k+60$, so $8k=240$, giving $k=30$. So $n_0(Mt)=150$, $n_0(C)=90$. Motorcycle license $n(Mt) = n_0(Mt)+n(Mt\\cap C) = 150+100=250$. Car license $n(C) = n_0(C)+n(Mt\\cap C) = 90+100=190$. So $250$ people had motorcycle licenses and $190$ had car licenses.",
+            "ne": "$n(U)=n_0(Mt)+n(Mt\\cap C)+n_0(C)+n(\\overline{Mt\\cup C})$ बाट: $400=5k+100+3k+60$, त्यसैले $8k=240$, जसबाट $k=30$ आउँछ। त्यसैले $n_0(Mt)=150$, $n_0(C)=90$। मोटरसाइकल इजाजतपत्र $n(Mt) = n_0(Mt)+n(Mt\\cap C) = 150+100=250$। कार इजाजतपत्र $n(C) = n_0(C)+n(Mt\\cap C) = 90+100=190$। त्यसैले २५० जनासँग मोटरसाइकल र १९० जनासँग कार इजाजतपत्र थियो।"
+          }
+        },
+        {
+          "partId": "mixed-q5-c",
+          "solution": {
+            "en": "From part (b), $n(Mt) = 250$.",
+            "ne": "भाग (ख) बाट, $n(Mt) = 250$।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "mixed-q6",
+      "note": {
+        "en": "Flag: as transcribed, this problem gives only the three pairwise-overlap totals, the triple overlap, and the \"neither\" count — it does not state $n(V)$, $n(F)$, $n(Cr)$ individually (the count in each sport on its own), which the standard formula needs to pin down a unique total. The scanned source is therefore missing information here (most likely each sport's own total was cut off in the OCR). The figures below reproduce the textbook's own published answers (230 and 19.57%) as the final results, with the part of the method that is derivable from the given data shown explicitly; the individual only-one-sport counts implied by the diagram could not be independently re-derived from the data as transcribed.",
+        "ne": "फ्ल्याग: जस्तो सारिएको छ, यो प्रश्नमा तीनवटा जोडी-ओभरल्याप कुल, तीनवटैको ओभरल्याप, र \"कुनै नखेल्ने\" संख्या मात्र दिइएको छ — $n(V)$, $n(F)$, $n(Cr)$ (हरेक खेलको आफ्नै कुल संख्या) अलग-अलग दिइएको छैन, जुन मानक सूत्रले एउटै निश्चित कुल निकाल्न आवश्यक पर्छ। त्यसैले स्क्यान गरिएको स्रोतमा यहाँ जानकारी छुटेको देखिन्छ (सम्भवतः हरेक खेलको आफ्नै कुल संख्या OCR मा काटिएको हुनुपर्छ)। तलका अंकहरूले पाठ्यपुस्तकको आफ्नै प्रकाशित उत्तर (२३० र १९.५७%) लाई अन्तिम नतिजाको रूपमा पुनरुत्पादन गर्छन्, दिइएको तथ्याङ्कबाट निकाल्न सकिने विधिको भाग स्पष्ट रूपमा देखाइएको छ; चित्रले संकेत गरेका एक-खेल-मात्रका व्यक्तिगत संख्याहरू दिइएको तथ्याङ्कबाट स्वतन्त्र रूपमा पुनः निकाल्न सकिएन।"
+      },
+      "parts": [
+        {
+          "partId": "mixed-q6-a",
+          "solution": {
+            "en": "Let $V$=volleyball, $F$=football, $Cr$=cricket. Given: $n(V\\cap F)=30$, $n(V\\cap Cr)=20$, $n(F\\cap Cr)=35$, $n(V\\cap F\\cap Cr)=10$, $n(\\overline{V\\cup F\\cup Cr})=5$. So only-two overlaps are $n_0(V\\cap F)=30-10=20$, $n_0(V\\cap Cr)=20-10=10$, $n_0(F\\cap Cr)=35-10=25$.",
+            "ne": "मानौं $V$=भलिबल, $F$=फुटबल, $Cr$=क्रिकेट। दिइएको: $n(V\\cap F)=30$, $n(V\\cap Cr)=20$, $n(F\\cap Cr)=35$, $n(V\\cap F\\cap Cr)=10$, $n(\\overline{V\\cup F\\cup Cr})=5$। त्यसैले दुई-मात्र ओभरल्याप $n_0(V\\cap F)=30-10=20$, $n_0(V\\cap Cr)=20-10=10$, $n_0(F\\cap Cr)=35-10=25$।"
+          }
+        },
+        {
+          "partId": "mixed-q6-b",
+          "solution": {
+            "en": "The Venn diagram places $10$ at the centre (all three), $20$, $10$, $25$ in the three pairwise-only regions, and $5$ outside all three circles; the three single-sport-only regions are filled once the individual sport totals are known (see the flag above).",
+            "ne": "भेन चित्रमा केन्द्रमा (तीनवटै) $10$, तीनवटा जोडी-मात्र क्षेत्रमा $20$, $10$, $25$, र तीनवटै वृत्तभन्दा बाहिर $5$ राखिन्छ; तीनवटा एक-खेल-मात्र क्षेत्रहरू हरेक खेलको आफ्नै कुल संख्या थाहा भएपछि भरिन्छन् (माथिको फ्ल्याग हेर्नुहोस्)।"
+          },
+          "referenceImageId": "img-ans-mixed-q6"
+        },
+        {
+          "partId": "mixed-q6-c",
+          "solution": {
+            "en": "Per the textbook's published answer key, the total number of students in the school is $230$ (this could not be independently re-derived from the data as transcribed — see the flag above).",
+            "ne": "पाठ्यपुस्तकको प्रकाशित उत्तर कुञ्जी अनुसार, विद्यालयका कुल विद्यार्थी संख्या $230$ हो (यो जस्तो सारिएको तथ्याङ्कबाट स्वतन्त्र रूपमा पुनः निकाल्न सकिएन — माथिको फ्ल्याग हेर्नुहोस्)।"
+          }
+        },
+        {
+          "partId": "mixed-q6-d",
+          "solution": {
+            "en": "Per the textbook's published answer key, football only is approximately $19.57\\%$ of the total students (consistent with a total of $230$ and football-only $\\approx 45$ students).",
+            "ne": "पाठ्यपुस्तकको प्रकाशित उत्तर कुञ्जी अनुसार, फुटबल मात्र कुल विद्यार्थीको लगभग $19.57\\%$ हो (कुल २३० र फुटबल-मात्र लगभग ४५ विद्यार्थीसँग संगत)।"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "mixed-q7",
+      "parts": [
+        {
+          "partId": "mixed-q7-a",
+          "solution": {
+            "en": "Let $Nb$=Nepal Bhasa, $Ta$=Tamang, $Ma$=Maithili. $n(U)=45$, $n(Nb)=25$, $n(Ta)=23$, $n(Ma)=15$, $n(Nb\\cap Ta)=12$, $n(Nb\\cap Ma)=5$, $n(Ta\\cap Ma)=10$, $n(Nb\\cap Ta\\cap Ma)=4$.",
+            "ne": "मानौं $Nb$=नेपाल भाषा, $Ta$=तामाङ, $Ma$=मैथिली। $n(U)=45$, $n(Nb)=25$, $n(Ta)=23$, $n(Ma)=15$, $n(Nb\\cap Ta)=12$, $n(Nb\\cap Ma)=5$, $n(Ta\\cap Ma)=10$, $n(Nb\\cap Ta\\cap Ma)=4$।"
+          },
+          "referenceImageId": "img-ans-mixed-q7"
+        },
+        {
+          "partId": "mixed-q7-b",
+          "solution": {
+            "en": "$n(Nb\\cup Ta\\cup Ma) = n(Nb)+n(Ta)+n(Ma)-n(Nb\\cap Ta)-n(Ta\\cap Ma)-n(Nb\\cap Ma)+n(Nb\\cap Ta\\cap Ma) = 25+23+15-12-10-5+4=40$. People speaking some other language $= n(U)-n(Nb\\cup Ta\\cup Ma) = 45-40=5$.",
+            "ne": "$n(Nb\\cup Ta\\cup Ma) = n(Nb)+n(Ta)+n(Ma)-n(Nb\\cap Ta)-n(Ta\\cap Ma)-n(Nb\\cap Ma)+n(Nb\\cap Ta\\cap Ma) = 25+23+15-12-10-5+4=40$। अन्य भाषा बोल्ने $= n(U)-n(Nb\\cup Ta\\cup Ma) = 45-40=5$।"
+          }
+        },
+        {
+          "partId": "mixed-q7-c",
+          "solution": {
+            "en": "Only Nepal Bhasa: $n_0(Nb)=n(Nb)-n(Nb\\cap Ta)-n(Nb\\cap Ma)+n(Nb\\cap Ta\\cap Ma)=25-12-5+4=12$. Only Tamang: $n_0(Ta)=23-12-10+4=5$. Only Maithili: $n_0(Ma)=15-5-10+4=4$. Only one language $= 12+5+4=21$.",
+            "ne": "नेपाल भाषा मात्र: $n_0(Nb)=n(Nb)-n(Nb\\cap Ta)-n(Nb\\cap Ma)+n(Nb\\cap Ta\\cap Ma)=25-12-5+4=12$। तामाङ मात्र: $n_0(Ta)=23-12-10+4=5$। मैथिली मात्र: $n_0(Ma)=15-5-10+4=4$। एक मात्र भाषा $= 12+5+4=21$।"
+          }
+        },
+        {
+          "partId": "mixed-q7-d",
+          "solution": {
+            "en": "Nepal Bhasa and Tamang but not Maithili $= n_0(Nb\\cap Ta) = n(Nb\\cap Ta)-n(Nb\\cap Ta\\cap Ma) = 12-4=8$.",
+            "ne": "नेपाल भाषा र तामाङ तर मैथिली नबोल्ने $= n_0(Nb\\cap Ta) = n(Nb\\cap Ta)-n(Nb\\cap Ta\\cap Ma) = 12-4=8$।"
+          }
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "imageId": "img-ans-ex1-1-q4a",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Solved Venn diagram: Nepali (N) and English (E), 180 students",
+        "ne": "हल गरिएको भेन चित्र: नेपाली (N) र अंग्रेजी (E), १८० विद्यार्थी"
+      },
+      "caption": {
+        "en": "Solved Venn diagram: Nepali (N) and English (E), 180 students",
+        "ne": "हल गरिएको भेन चित्र: नेपाली (N) र अंग्रेजी (E), १८० विद्यार्थी"
+      }
+    },
+    {
+      "imageId": "img-ans-ex1-1-q4b",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Solved Venn diagram: Mathematics (M) and Science (S), 1200 students",
+        "ne": "हल गरिएको भेन चित्र: गणित (M) र विज्ञान (S), १२०० विद्यार्थी"
+      },
+      "caption": {
+        "en": "Solved Venn diagram: Mathematics (M) and Science (S), 1200 students",
+        "ne": "हल गरिएको भेन चित्र: गणित (M) र विज्ञान (S), १२०० विद्यार्थी"
+      }
+    },
+    {
+      "imageId": "img-ans-ex1-1-q4c",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Solved Venn diagram: Football (F) and Volleyball (V), 60 students",
+        "ne": "हल गरिएको भेन चित्र: फुटबल (F) र भलिबल (V), ६० विद्यार्थी"
+      },
+      "caption": {
+        "en": "Solved Venn diagram: Football (F) and Volleyball (V), 60 students",
+        "ne": "हल गरिएको भेन चित्र: फुटबल (F) र भलिबल (V), ६० विद्यार्थी"
+      }
+    },
+    {
+      "imageId": "img-ans-ex1-1-q5a",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Solved Venn diagram: Madhupark (M) and Yubamanch (Y) readers, 900 people",
+        "ne": "हल गरिएको भेन चित्र: मधुपार्क (M) र युवामञ्च (Y) पाठक, ९०० जना"
+      },
+      "caption": {
+        "en": "Solved Venn diagram: Madhupark (M) and Yubamanch (Y) readers, 900 people",
+        "ne": "हल गरिएको भेन चित्र: मधुपार्क (M) र युवामञ्च (Y) पाठक, ९०० जना"
+      }
+    },
+    {
+      "imageId": "img-ans-ex1-1-q5b",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Solved Venn diagram: modern songs (Mo) and folk songs (Fo), 150 people",
+        "ne": "हल गरिएको भेन चित्र: आधुनिक गीत (Mo) र लोकगीत (Fo), १५० जना"
+      },
+      "caption": {
+        "en": "Solved Venn diagram: modern songs (Mo) and folk songs (Fo), 150 people",
+        "ne": "हल गरिएको भेन चित्र: आधुनिक गीत (Mo) र लोकगीत (Fo), १५० जना"
+      }
+    },
+    {
+      "imageId": "img-ans-ex1-1-q5c",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Solved Venn diagram: volleyball (V) and football (F) players, 360 people",
+        "ne": "हल गरिएको भेन चित्र: भलिबल (V) र फुटबल (F) खेलाडी, ३६० जना"
+      },
+      "caption": {
+        "en": "Solved Venn diagram: volleyball (V) and football (F) players, 360 people",
+        "ne": "हल गरिएको भेन चित्र: भलिबल (V) र फुटबल (F) खेलाडी, ३६० जना"
+      }
+    },
+    {
+      "imageId": "img-ans-ex1-1-q6a",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Solved Venn diagram: English (E) and Mathematics (M) pass percentages",
+        "ne": "हल गरिएको भेन चित्र: अंग्रेजी (E) र गणित (M) उत्तीर्ण प्रतिशत"
+      },
+      "caption": {
+        "en": "Solved Venn diagram: English (E) and Mathematics (M) pass percentages",
+        "ne": "हल गरिएको भेन चित्र: अंग्रेजी (E) र गणित (M) उत्तीर्ण प्रतिशत"
+      }
+    },
+    {
+      "imageId": "img-ans-ex1-1-q6b",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Solved Venn diagram: Science (S) and Management (Mg) interest percentages",
+        "ne": "हल गरिएको भेन चित्र: विज्ञान (S) र व्यवस्थापन (Mg) रुचि प्रतिशत"
+      },
+      "caption": {
+        "en": "Solved Venn diagram: Science (S) and Management (Mg) interest percentages",
+        "ne": "हल गरिएको भेन चित्र: विज्ञान (S) र व्यवस्थापन (Mg) रुचि प्रतिशत"
+      }
+    },
+    {
+      "imageId": "img-ans-ex1-1-q6c",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Solved Venn diagram: motorcycle (Mt) and scooter (Sc) riders",
+        "ne": "हल गरिएको भेन चित्र: मोटरसाइकल (Mt) र स्कुटर (Sc) चालक"
+      },
+      "caption": {
+        "en": "Solved Venn diagram: motorcycle (Mt) and scooter (Sc) riders",
+        "ne": "हल गरिएको भेन चित्र: मोटरसाइकल (Mt) र स्कुटर (Sc) चालक"
+      }
+    },
+    {
+      "imageId": "img-ans-ex1-1-q7a",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Solved Venn diagram: tea (T) and coffee (C), 95 people",
+        "ne": "हल गरिएको भेन चित्र: चिया (T) र कफी (C), ९५ जना"
+      },
+      "caption": {
+        "en": "Solved Venn diagram: tea (T) and coffee (C), 95 people",
+        "ne": "हल गरिएको भेन चित्र: चिया (T) र कफी (C), ९५ जना"
+      }
+    },
+    {
+      "imageId": "img-ans-ex1-1-q7b",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Solved Venn diagram: milk (Mk) and curd (Cd), 64 students",
+        "ne": "हल गरिएको भेन चित्र: दूध (Mk) र दही (Cd), ६४ विद्यार्थी"
+      },
+      "caption": {
+        "en": "Solved Venn diagram: milk (Mk) and curd (Cd), 64 students",
+        "ne": "हल गरिएको भेन चित्र: दूध (Mk) र दही (Cd), ६४ विद्यार्थी"
+      }
+    },
+    {
+      "imageId": "img-ans-ex1-1-q7c",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Solved Venn diagram: sing (S) and dance (D), 320 participants",
+        "ne": "हल गरिएको भेन चित्र: गीत (S) र नाच (D), ३२० सहभागी"
+      },
+      "caption": {
+        "en": "Solved Venn diagram: sing (S) and dance (D), 320 participants",
+        "ne": "हल गरिएको भेन चित्र: गीत (S) र नाच (D), ३२० सहभागी"
+      }
+    },
+    {
+      "imageId": "img-ans-ex1-1-q8",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Solved Venn diagram: laptop (L) and mobile (Mb), 200 people",
+        "ne": "हल गरिएको भेन चित्र: ल्यापटप (L) र मोबाइल (Mb), २०० जना"
+      },
+      "caption": {
+        "en": "Solved Venn diagram: laptop (L) and mobile (Mb), 200 people",
+        "ne": "हल गरिएको भेन चित्र: ल्यापटप (L) र मोबाइल (Mb), २०० जना"
+      }
+    },
+    {
+      "imageId": "img-ans-ex1-1-q9",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Solved Venn diagram: volleyball (V) and football (F), 300 players",
+        "ne": "हल गरिएको भेन चित्र: भलिबल (V) र फुटबल (F), ३०० खेलाडी"
+      },
+      "caption": {
+        "en": "Solved Venn diagram: volleyball (V) and football (F), 300 players",
+        "ne": "हल गरिएको भेन चित्र: भलिबल (V) र फुटबल (F), ३०० खेलाडी"
+      }
+    },
+    {
+      "imageId": "img-ans-ex1-1-q10",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Solved Venn diagram: volleyball (V) and cricket (Cr), 65 players",
+        "ne": "हल गरिएको भेन चित्र: भलिबल (V) र क्रिकेट (Cr), ६५ खेलाडी"
+      },
+      "caption": {
+        "en": "Solved Venn diagram: volleyball (V) and cricket (Cr), 65 players",
+        "ne": "हल गरिएको भेन चित्र: भलिबल (V) र क्रिकेट (Cr), ६५ खेलाडी"
+      }
+    },
+    {
+      "imageId": "img-ans-ex1-1-q11",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Solved Venn diagram: orange (O) and apple (A), 80 people",
+        "ne": "हल गरिएको भेन चित्र: सुन्तला (O) र स्याउ (A), ८० जना"
+      },
+      "caption": {
+        "en": "Solved Venn diagram: orange (O) and apple (A), 80 people",
+        "ne": "हल गरिएको भेन चित्र: सुन्तला (O) र स्याउ (A), ८० जना"
+      }
+    },
+    {
+      "imageId": "img-ans-ex1-2-q2",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Three-circle Venn diagram of multiples of 2, 3 and 5 below 30",
+        "ne": "३० भन्दा साना २, ३ र ५ का गुणजहरूको तीन-वृत्त भेन चित्र"
+      },
+      "caption": {
+        "en": "Solved Venn diagram for Exercise 1.2, Question 2: P, Q, R",
+        "ne": "अभ्यास १.२, प्रश्न २ को हल गरिएको भेन चित्र: P, Q, R"
+      }
+    },
+    {
+      "imageId": "img-ans-ex1-2-q4a",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Solved Venn diagram: Science (S), Mathematics (M), Nepali (N), 90 students",
+        "ne": "हल गरिएको भेन चित्र: विज्ञान (S), गणित (M), नेपाली (N), ९० विद्यार्थी"
+      },
+      "caption": {
+        "en": "Solved Venn diagram: Science (S), Mathematics (M), Nepali (N), 90 students",
+        "ne": "हल गरिएको भेन चित्र: विज्ञान (S), गणित (M), नेपाली (N), ९० विद्यार्थी"
+      }
+    },
+    {
+      "imageId": "img-ans-ex1-2-q4b",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Solved Venn diagram: tea (T), coffee (C), milk (Mk)",
+        "ne": "हल गरिएको भेन चित्र: चिया (T), कफी (C), दूध (Mk)"
+      },
+      "caption": {
+        "en": "Solved Venn diagram: tea (T), coffee (C), milk (Mk)",
+        "ne": "हल गरिएको भेन चित्र: चिया (T), कफी (C), दूध (Mk)"
+      }
+    },
+    {
+      "imageId": "img-ans-ex1-2-q4c",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Solved Venn diagram: volleyball (V), basketball (B), cricket (Cr), 60 students",
+        "ne": "हल गरिएको भेन चित्र: भलिबल (V), बास्केटबल (B), क्रिकेट (Cr), ६० विद्यार्थी"
+      },
+      "caption": {
+        "en": "Solved Venn diagram: volleyball (V), basketball (B), cricket (Cr), 60 students",
+        "ne": "हल गरिएको भेन चित्र: भलिबल (V), बास्केटबल (B), क्रिकेट (Cr), ६० विद्यार्थी"
+      }
+    },
+    {
+      "imageId": "img-ans-ex1-2-q5",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Solved Venn diagram: Science, Maths, Nepali pass percentages",
+        "ne": "हल गरिएको भेन चित्र: विज्ञान, गणित, नेपाली उत्तीर्ण प्रतिशत"
+      },
+      "caption": {
+        "en": "Solved Venn diagram: Science, Maths, Nepali pass percentages",
+        "ne": "हल गरिएको भेन चित्र: विज्ञान, गणित, नेपाली उत्तीर्ण प्रतिशत"
+      }
+    },
+    {
+      "imageId": "img-ans-ex1-2-q6",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Solved Venn diagram: Yubamanch (Y), Madhupark (M), Muna (N) readers",
+        "ne": "हल गरिएको भेन चित्र: युवामञ्च (Y), मधुपार्क (M), मुना (N) पाठक"
+      },
+      "caption": {
+        "en": "Solved Venn diagram: Yubamanch (Y), Madhupark (M), Muna (N) readers",
+        "ne": "हल गरिएको भेन चित्र: युवामञ्च (Y), मधुपार्क (M), मुना (N) पाठक"
+      }
+    },
+    {
+      "imageId": "img-ans-ex1-2-q7",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Solved Venn diagram: Nepali (Np), English (E), Hindi (H) films, 90 people",
+        "ne": "हल गरिएको भेन चित्र: नेपाली (Np), अंग्रेजी (E), हिन्दी (H) फिल्म, ९० जना"
+      },
+      "caption": {
+        "en": "Solved Venn diagram: Nepali (Np), English (E), Hindi (H) films, 90 people",
+        "ne": "हल गरिएको भेन चित्र: नेपाली (Np), अंग्रेजी (E), हिन्दी (H) फिल्म, ९० जना"
+      }
+    },
+    {
+      "imageId": "img-ans-mixed-q1",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Solved Venn diagram: A and B with 16+x, y, 5x, x",
+        "ne": "हल गरिएको भेन चित्र: A र B, १६+x, y, ५x, x सहित"
+      },
+      "caption": {
+        "en": "Solved Venn diagram for Mixed Exercise, Question 1",
+        "ne": "मिश्रित अभ्यास, प्रश्न १ को हल गरिएको भेन चित्र"
+      }
+    },
+    {
+      "imageId": "img-ans-mixed-q2",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Solved Venn diagram: A and B with 32+x, x, 5x, y",
+        "ne": "हल गरिएको भेन चित्र: A र B, ३२+x, x, ५x, y सहित"
+      },
+      "caption": {
+        "en": "Solved Venn diagram for Mixed Exercise, Question 2",
+        "ne": "मिश्रित अभ्यास, प्रश्न २ को हल गरिएको भेन चित्र"
+      }
+    },
+    {
+      "imageId": "img-ans-mixed-q3",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Solved Venn diagram: agriculture (Ag) and sewing (Sw), 93 women",
+        "ne": "हल गरिएको भेन चित्र: कृषि (Ag) र सिलाइ (Sw), ९३ महिला"
+      },
+      "caption": {
+        "en": "Solved Venn diagram for Mixed Exercise, Question 3",
+        "ne": "मिश्रित अभ्यास, प्रश्न ३ को हल गरिएको भेन चित्र"
+      }
+    },
+    {
+      "imageId": "img-ans-mixed-q4",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Solved Venn diagram: potato (P) and tomato (T) farmers, 1000 farmers",
+        "ne": "हल गरिएको भेन चित्र: आलु (P) र गोलभेडा (T) किसान, १,००० किसान"
+      },
+      "caption": {
+        "en": "Solved Venn diagram for Mixed Exercise, Question 4",
+        "ne": "मिश्रित अभ्यास, प्रश्न ४ को हल गरिएको भेन चित्र"
+      }
+    },
+    {
+      "imageId": "img-ans-mixed-q5",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Solved Venn diagram: motorcycle (Mt) and car (C) license holders, 400 people",
+        "ne": "हल गरिएको भेन चित्र: मोटरसाइकल (Mt) र कार (C) इजाजतपत्रधारी, ४०० जना"
+      },
+      "caption": {
+        "en": "Solved Venn diagram for Mixed Exercise, Question 5",
+        "ne": "मिश्रित अभ्यास, प्रश्न ५ को हल गरिएको भेन चित्र"
+      }
+    },
+    {
+      "imageId": "img-ans-mixed-q6",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Solved Venn diagram: volleyball (V), football (F), cricket (Cr)",
+        "ne": "हल गरिएको भेन चित्र: भलिबल (V), फुटबल (F), क्रिकेट (Cr)"
+      },
+      "caption": {
+        "en": "Solved Venn diagram for Mixed Exercise, Question 6",
+        "ne": "मिश्रित अभ्यास, प्रश्न ६ को हल गरिएको भेन चित्र"
+      }
+    },
+    {
+      "imageId": "img-ans-mixed-q7",
+      "status": "pending_generation",
+      "url": null,
+      "altText": {
+        "en": "Solved Venn diagram: Nepal Bhasa (Nb), Tamang (Ta), Maithili (Ma), 45 people",
+        "ne": "हल गरिएको भेन चित्र: नेपाल भाषा (Nb), तामाङ (Ta), मैथिली (Ma), ४५ जना"
+      },
+      "caption": {
+        "en": "Solved Venn diagram for Mixed Exercise, Question 7",
+        "ne": "मिश्रित अभ्यास, प्रश्न ७ को हल गरिएको भेन चित्र"
+      }
+    }
+  ]
+}

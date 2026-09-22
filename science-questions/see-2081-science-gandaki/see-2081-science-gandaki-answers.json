@@ -1,0 +1,1298 @@
+{
+  "chapterId": "see-2081-science-gandaki-ans",
+  "subjectId": "science",
+  "classLevel": "10",
+  "province": "Gandaki",
+  "examBoard": "SEE (National Examinations Board, Nepal)",
+  "examYear": "2081 (2025 AD)",
+  "paperCode": "RE-1041'GP'",
+  "fullMarks": 75,
+  "docType": "answerKey",
+  "linkedQuestionPaperId": "see-2081-science-gandaki-qp",
+  "titleEn": "SEE 2081 (2025) Science — Model Answers (Gandaki Province)",
+  "titleNe": "SEE २०८१ (२०२५) विज्ञान — नमूना उत्तर (गण्डकी प्रदेश)",
+  "sourceNote": {
+    "en": "Digitised from the uploaded scan of the SEE 2081 (2025) Science question paper, Gandaki Province, set 'GP'.",
+    "ne": "यो फाइल SEE 2081 (2025) विज्ञान प्रश्नपत्र, गण्डकी प्रदेश, सेट 'GP' को स्क्यान गरिएको प्रतिबाट तयार पारिएको हो।"
+  },
+  "answerLanguageLevelNote": {
+    "en": "Answers and step-by-step solutions are written at a Class 10 (SEE) level of understanding, in simple bilingual language matching the question paper.",
+    "ne": "उत्तर तथा चरणबद्ध हलहरू कक्षा १० (SEE) स्तरको सजिलो र प्रश्नपत्रसँग मिल्दो द्विभाषिक भाषामा लेखिएका छन्।"
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "text": {
+        "en": "Model Answers — Science and Technology, SEE 2081 (Gandaki)",
+        "ne": "नमूना उत्तर — विज्ञान तथा प्रविधि, SEE २०८१ (गण्डकी)"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "These are model/reference answers written for Class 10 students. For long-answer numerical questions, full step-by-step working is included. Q14's upthrust figure was only partially legible in the scan — please verify against the original before publishing.",
+        "ne": "यी कक्षा १० का विद्यार्थीका लागि तयार पारिएका नमूना/सन्दर्भ उत्तरहरू हुन्। लामो उत्तर र सङ्ख्यात्मक प्रश्नहरूमा पूर्ण चरणबद्ध हल समावेश गरिएको छ। प्रश्न १४ को उर्ध्वचाप मान स्क्यानमा पूर्ण स्पष्ट थिएन — प्रकाशित गर्नुअघि मूल चित्रसँग जाँच्नुहोस्।"
+      }
+    }
+  ],
+  "questionSections": [
+    {
+      "title": {
+        "en": "Section A — Multiple Choice Questions",
+        "ne": "खण्ड 'क' — बहुवैकल्पिक प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Choose the best alternative to the following questions and write in the answer sheet. (10 x 1 = 10)",
+        "ne": "तलका प्रश्नहरूको ठिक विकल्प छानी उत्तरपुस्तिकामा लेख्नुहोस्। (१०x१=१०)"
+      },
+      "items": [
+        {
+          "id": "q1a",
+          "questionNumber": "1(a)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Which one of the following is the correct relation between nibble and byte?",
+            "ne": "निब्बल (Nibble) र बाइट (Byte) बिचको सही सम्बन्ध तलकामध्ये कुन हो ?"
+          },
+          "options": [
+            {
+              "en": "1 nibble = 4 byte",
+              "ne": "1 nibble = 4 byte"
+            },
+            {
+              "en": "2 nibble = 1 byte",
+              "ne": "2 nibble = 1 byte"
+            },
+            {
+              "en": "4 nibble = 1 byte",
+              "ne": "4 nibble = 1 byte"
+            },
+            {
+              "en": "8 nibble = 1 byte",
+              "ne": "8 nibble = 1 byte"
+            }
+          ],
+          "answer": {
+            "en": "2 nibble = 1 byte",
+            "ne": "2 nibble = 1 byte"
+          },
+          "solution": {
+            "en": "1 nibble = 4 bits, and 1 byte = 8 bits. So 1 byte = 8 bits = 2 nibbles (2 × 4 bits).",
+            "ne": "1 nibble = 4 bits हुन्छ, र 1 byte = 8 bits हुन्छ। त्यसैले 1 byte = 8 bits = 2 nibble (2 × 4 bits) हुन्छ।"
+          },
+          "correctOption": "ii"
+        },
+        {
+          "id": "q1b",
+          "questionNumber": "1(b)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Identify the characteristics of the animal that belongs to phylum Coelenterata.",
+            "ne": "तलकामध्ये फाइलम सिलेन्टरेटा अन्तर्गत पर्ने जीवका विशेषताहरू पहिचान गर्नुहोस्।"
+          },
+          "options": [
+            {
+              "en": "Its body has numerous pores",
+              "ne": "यसको शरीरमा धेरै छिद्रहरू हुन्छन्"
+            },
+            {
+              "en": "It is found on land",
+              "ne": "यो जमीनमा पाइन्छ"
+            },
+            {
+              "en": "It moves with the help of tentacles",
+              "ne": "यसले टेन्टाकल्सको मद्दतले चाल देखाउँछ"
+            },
+            {
+              "en": "It is unicellular",
+              "ne": "एककोषीय हुन्छ"
+            }
+          ],
+          "answer": {
+            "en": "It moves with the help of tentacles",
+            "ne": "यसले टेन्टाकल्सको मद्दतले चाल देखाउँछ"
+          },
+          "solution": {
+            "en": "Animals of phylum Coelenterata (e.g. Hydra, jellyfish) have tentacles around their mouth which they use for movement and capturing food. Numerous body pores is a feature of Porifera, and coelenterates are aquatic (not land-dwelling) and multicellular.",
+            "ne": "फाइलम सिलेन्टरेटाका जीवहरू (जस्तै हाइड्रा, जेलिफिस) को मुखवरिपरि टेन्टाकल्स हुन्छन्, जसको प्रयोग तिनीहरूले चाल्न र आहारा समाउन गर्छन्। शरीरमा धेरै छिद्र हुनु पोरिफेराको विशेषता हो, र सिलेन्टरेटा जलचर (जमीनमा नबस्ने) र बहुकोषीय हुन्छन्।"
+          },
+          "correctOption": "iii"
+        },
+        {
+          "id": "q1c",
+          "questionNumber": "1(c)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Which one of the given genetic codes represents the body of a male human?",
+            "ne": "तलकामध्ये कुन वंशाणुगत सङ्केतले पुरुष मानवको शरीरलाई जनाउँछ ?"
+          },
+          "options": [
+            {
+              "en": "22 + y",
+              "ne": "22 + y"
+            },
+            {
+              "en": "44 + xy",
+              "ne": "44 + xy"
+            },
+            {
+              "en": "44 + xx",
+              "ne": "44 + xx"
+            },
+            {
+              "en": "22 + x",
+              "ne": "22 + x"
+            }
+          ],
+          "answer": {
+            "en": "44 + xy",
+            "ne": "44 + xy"
+          },
+          "solution": {
+            "en": "A human body cell has 46 chromosomes: 44 autosomes + 2 sex chromosomes. A male has XY sex chromosomes, so the genetic makeup is written as 44 + XY.",
+            "ne": "मानिसको शारीरिक कोषमा ४६ क्रोमोजोम हुन्छन्: ४४ अटोसोम + २ लिङ्ग क्रोमोजोम। पुरुषमा XY लिङ्ग क्रोमोजोम हुन्छ, त्यसैले यसलाई 44 + XY भनी लेखिन्छ।"
+          },
+          "correctOption": "ii"
+        },
+        {
+          "id": "q1d",
+          "questionNumber": "1(d)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "What is the relationship between the weight of an object (w) and acceleration due to gravity (g)?",
+            "ne": "वस्तुको तौल (w) र गुरुत्वप्रवेग (g) बिचको सम्बन्ध कुन सही छ ?"
+          },
+          "options": [
+            {
+              "en": "W = g",
+              "ne": "W = g"
+            },
+            {
+              "en": "W ∝ g",
+              "ne": "W ∝ g"
+            },
+            {
+              "en": "W ∝ 1/g",
+              "ne": "W ∝ 1/g"
+            },
+            {
+              "en": "W = 2g",
+              "ne": "W = 2g"
+            }
+          ],
+          "answer": {
+            "en": "W ∝ g",
+            "ne": "W ∝ g"
+          },
+          "solution": {
+            "en": "Weight W = mg. Since the mass m of an object stays constant, weight is directly proportional to the acceleration due to gravity g (W ∝ g).",
+            "ne": "तौल W = mg हुन्छ। वस्तुको पिण्ड m स्थिर रहने भएकाले, तौल गुरुत्वप्रवेग g सँग सोझो समानुपाती हुन्छ (W ∝ g)।"
+          },
+          "correctOption": "ii"
+        },
+        {
+          "id": "q1e",
+          "questionNumber": "1(e)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "What could be the gravitational force produced between object A and B in the given hypothetical condition shown in the figure? (A = 4 kg, B = 10 kg, distance = 2 m)",
+            "ne": "चित्रमा देखाइएको काल्पनिक अवस्थामा वस्तु A र B बिच उत्पन्न हुने गुरुत्वाकर्षण बल कति हुन्छ होला ? (A = 4 kg, B = 10 kg, दूरी = 2 m)"
+          },
+          "options": [
+            {
+              "en": "6.67 × 10⁻¹⁰ N",
+              "ne": "6.67 × 10⁻¹⁰ N"
+            },
+            {
+              "en": "6.67 × 10⁻¹¹ N",
+              "ne": "6.67 × 10⁻¹¹ N"
+            },
+            {
+              "en": "6.67 × 10⁻¹² N",
+              "ne": "6.67 × 10⁻¹² N"
+            },
+            {
+              "en": "6.67 × 10⁻¹³ N",
+              "ne": "6.67 × 10⁻¹³ N"
+            }
+          ],
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-gandaki/q1e-gravitation-A-B.png",
+            "caption": {
+              "en": "Two objects A (4 kg) and B (10 kg) separated by 2 m.",
+              "ne": "A (4 kg) र B (10 kg) वस्तुहरू 2 m दूरीमा।"
+            }
+          },
+          "answer": {
+            "en": "6.67 × 10⁻¹⁰ N",
+            "ne": "6.67 × 10⁻¹⁰ N"
+          },
+          "solution": {
+            "en": "F = Gm1m2/r² = (6.67×10⁻¹¹ × 4 × 10) / 2² = (6.67×10⁻¹¹ × 40) / 4 = 6.67×10⁻¹⁰ N.",
+            "ne": "F = Gm1m2/r² = (6.67×10⁻¹¹ × 4 × 10) / 2² = (6.67×10⁻¹¹ × 40) / 4 = 6.67×10⁻¹⁰ N।"
+          },
+          "correctOption": "i",
+          "solutionTable": {
+            "headers": [
+              {
+                "en": "Quantity",
+                "ne": "परिमाण"
+              },
+              {
+                "en": "Value",
+                "ne": "मान"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "m1 (A)",
+                  "ne": "m1 (A)"
+                },
+                {
+                  "en": "4 kg",
+                  "ne": "4 kg"
+                }
+              ],
+              [
+                {
+                  "en": "m2 (B)",
+                  "ne": "m2 (B)"
+                },
+                {
+                  "en": "10 kg",
+                  "ne": "10 kg"
+                }
+              ],
+              [
+                {
+                  "en": "r",
+                  "ne": "r"
+                },
+                {
+                  "en": "2 m",
+                  "ne": "2 m"
+                }
+              ],
+              [
+                {
+                  "en": "F = Gm1m2/r²",
+                  "ne": "F = Gm1m2/r²"
+                },
+                {
+                  "en": "6.67 × 10⁻¹⁰ N",
+                  "ne": "6.67 × 10⁻¹⁰ N"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "q1f",
+          "questionNumber": "1(f)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Which one of the following statements is correct about electromagnetic waves?",
+            "ne": "विद्युत चुम्बकीय तरङ्गको लागि तलकोमध्ये कुन तथ्य सही छ ?"
+          },
+          "options": [
+            {
+              "en": "Wavelength and frequency of violet ray are the highest.",
+              "ne": "वैजनी रङको किरणको तरङ्ग लम्बाइ र आवृति सबैभन्दा बढी हुन्छ।"
+            },
+            {
+              "en": "Wavelength of violet ray is less and frequency is high.",
+              "ne": "वैजनी रङको किरणको तरङ्ग लम्बाइ कम र आवृत्ति बढी हुन्छ।"
+            },
+            {
+              "en": "Wavelength and frequency of violet ray is the lowest.",
+              "ne": "वैजनी रङको किरणको तरङ्ग लम्बाइ र आवृत्ति सबैभन्दा थोरै हुन्छ।"
+            },
+            {
+              "en": "Wavelength of violet ray is max and frequency is less.",
+              "ne": "वैजनी रङको किरणको तरङ्ग लम्बाइ बढी र आवृत्ति कम छ।"
+            }
+          ],
+          "answer": {
+            "en": "Wavelength of violet ray is less and frequency is high.",
+            "ne": "वैजनी रङको किरणको तरङ्ग लम्बाइ कम र आवृत्ति बढी हुन्छ।"
+          },
+          "solution": {
+            "en": "In the visible spectrum (VIBGYOR), violet light has the shortest wavelength and, since wave speed is constant (c = fλ), the shortest wavelength corresponds to the highest frequency.",
+            "ne": "दृश्य स्पेक्ट्रम (VIBGYOR) मा वैजनी प्रकाशको तरङ्ग लम्बाइ सबैभन्दा छोटो हुन्छ, र तरङ्गको गति स्थिर (c = fλ) भएकाले सबैभन्दा छोटो तरङ्ग लम्बाइले सबैभन्दा बढी आवृत्ति जनाउँछ।"
+          },
+          "correctOption": "ii"
+        },
+        {
+          "id": "q1g",
+          "questionNumber": "1(g)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "As shown in the figure, if the magnet is inserted into the solenoid, the needle of the galvanometer is deflected. What could be the reason for this?",
+            "ne": "चित्रमा देखाइए जस्तो चुम्बकलाई सोलेन्वाइड भित्र छिराउँदा ग्याल्भानोमिटरको सुई घुम्दछ। यसको कारण के होला ?"
+          },
+          "options": [
+            {
+              "en": "Motor effect",
+              "ne": "मोटर असर"
+            },
+            {
+              "en": "Electromagnetic induction",
+              "ne": "विद्युत चुम्बकीय उत्पादन"
+            },
+            {
+              "en": "Mutual induction",
+              "ne": "म्युचुअल इन्डक्सन"
+            },
+            {
+              "en": "Magnetic effect of current",
+              "ne": "विद्युतको चुम्बकीय असर"
+            }
+          ],
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-gandaki/q1g-solenoid-magnet.png",
+            "caption": {
+              "en": "A bar magnet (N-S) being inserted into a solenoid connected to a galvanometer.",
+              "ne": "ग्याल्भानोमिटरसँग जोडिएको सोलेन्वाइडभित्र बार म्याग्नेट (N-S) छिराइँदै।"
+            }
+          },
+          "answer": {
+            "en": "Electromagnetic induction",
+            "ne": "विद्युत चुम्बकीय उत्पादन"
+          },
+          "solution": {
+            "en": "When a magnet is moved into (or out of) a coil, the magnetic flux linked with the coil changes. By Faraday's law of electromagnetic induction, this changing flux induces an e.m.f./current in the coil, which is detected as a deflection in the galvanometer.",
+            "ne": "चुम्बकलाई कोइलभित्र छिराउँदा (वा बाहिर निकाल्दा), कोइलसँग सम्बन्धित चुम्बकीय फ्लक्स परिवर्तन हुन्छ। फ्याराडेको विद्युत चुम्बकीय इन्डक्सनको नियमअनुसार, यो परिवर्तनशील फ्लक्सले कोइलमा e.m.f./करेन्ट उत्पन्न गर्छ, जुन ग्याल्भानोमिटरको सुई घुमेर देखिन्छ।"
+          },
+          "correctOption": "ii"
+        },
+        {
+          "id": "q1h",
+          "questionNumber": "1(h)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "A metal element has one electron in its valence shell. When this element reacts with a halogen of the third period, which compound is produced?",
+            "ne": "एउटा धातुको भ्यालेन्स सेलमा एउटा मात्र इलेक्ट्रोन छ। उक्त धातु तत्त्वले तेस्रो पिरियडमा भएको हेलोजनसँग रासायनिक प्रतिक्रिया गर्दा तलकामध्ये कुन यौगिक बनाउँछ ?"
+          },
+          "options": [
+            {
+              "en": "MgCl2",
+              "ne": "MgCl2"
+            },
+            {
+              "en": "CaCl2",
+              "ne": "CaCl2"
+            },
+            {
+              "en": "KCl",
+              "ne": "KCl"
+            },
+            {
+              "en": "NaBr",
+              "ne": "NaBr"
+            }
+          ],
+          "answer": {
+            "en": "KCl",
+            "ne": "KCl"
+          },
+          "solution": {
+            "en": "A metal with one valence electron is an alkali metal (Group 1), e.g. Potassium (K). A halogen of the third period is Chlorine (Cl). K reacts with Cl to form KCl. (MgCl2/CaCl2 involve metals with 2 valence electrons; NaBr involves Br, a period-4 halogen.)",
+            "ne": "एउटा मात्र भ्यालेन्स इलेक्ट्रोन भएको धातु क्षार धातु (समूह 1) हो, जस्तै पोटासियम (K)। तेस्रो पिरियडको हेलोजन क्लोरिन (Cl) हो। K र Cl मिलेर KCl बन्छ। (MgCl2/CaCl2 मा 2 भ्यालेन्स इलेक्ट्रोन भएका धातु पर्छन्; NaBr मा Br चौथो पिरियडको हेलोजन हो।)"
+          },
+          "correctOption": "iii"
+        },
+        {
+          "id": "q1i",
+          "questionNumber": "1(i)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Why is it important to know a person's blood type before blood transfusion?",
+            "ne": "रक्तदान गर्नुअघि व्यक्तिको रक्त समूह थाहा पाउनु किन महत्त्वपूर्ण छ ?"
+          },
+          "options": [
+            {
+              "en": "To know person's overall health",
+              "ne": "व्यक्तिको समग्र स्वास्थ्य थाहा पाउन"
+            },
+            {
+              "en": "To identify possible genetic disorder",
+              "ne": "सम्भावित वंशाणुगत डिसअर्डर पहिचान गर्न"
+            },
+            {
+              "en": "To prevent the possible fatal risk of the person",
+              "ne": "व्यक्तिको सम्भावित मृत्युको खतराबाट रोक्न"
+            },
+            {
+              "en": "To determine person's blood pressure",
+              "ne": "व्यक्तिको रक्तचाप निर्धारण गर्न"
+            }
+          ],
+          "answer": {
+            "en": "To prevent the possible fatal risk of the person",
+            "ne": "व्यक्तिको सम्भावित मृत्युको खतराबाट रोक्न"
+          },
+          "solution": {
+            "en": "If blood of an incompatible group is transfused, the recipient's immune system attacks the donated blood cells (agglutination/clumping), which can cause a severe, potentially fatal transfusion reaction. Knowing the blood group beforehand prevents this risk.",
+            "ne": "बेमेल समूहको रगत चढाइयो भने प्राप्तकर्ताको रोगप्रतिरोधी प्रणालीले दान गरिएको रक्तकोषलाई आक्रमण गर्छ (agglutination/जम्ने प्रक्रिया), जसले गम्भीर र ज्यानसमेत जोखिममा पार्ने प्रतिक्रिया निम्त्याउन सक्छ। रक्त समूह पहिल्यै थाहा पाउँदा यो जोखिम रोकिन्छ।"
+          },
+          "correctOption": "iii"
+        },
+        {
+          "id": "q1j",
+          "questionNumber": "1(j)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Which of the following group is a chemical insecticide?",
+            "ne": "तलकामध्ये कीटनापक रसायन समूह कुन हो ?"
+          },
+          "options": [
+            {
+              "en": "DDT, BHC, aldrin",
+              "ne": "डि.डि.टि., वि.एच.सी., एल्ड्रिन"
+            },
+            {
+              "en": "potassium chloride, benzene, benzoic acid",
+              "ne": "पोटासियम क्लोराइड, बेन्जिन, बेन्जोइक एसिड"
+            },
+            {
+              "en": "methoxy chloride, benzene, benzoic acid",
+              "ne": "मिथोक्सी क्लोराइड, बेन्जिन, बेन्जोइक एसिड"
+            },
+            {
+              "en": "potassium chloride, sodium lauryl sulphate, di-aldrin",
+              "ne": "पोटासियम क्लोराइड, सोडियम लरिल सल्फेट, डाइ एल्ड्रिन"
+            }
+          ],
+          "answer": {
+            "en": "DDT, BHC, aldrin",
+            "ne": "डि.डि.टि., वि.एच.सी., एल्ड्रिन"
+          },
+          "solution": {
+            "en": "DDT, BHC and Aldrin are well-known chemical insecticides used to kill insect pests. Benzoic acid, benzene, potassium chloride, and sodium lauryl sulphate are not insecticides (they are used as preservatives, industrial solvents/raw materials, or surfactants).",
+            "ne": "डि.डि.टि., वि.एच.सी. र एल्ड्रिन प्रख्यात रासायनिक कीटनाशक हुन्, जुन कीरा नाश गर्न प्रयोग हुन्छन्। बेन्जोइक एसिड, बेन्जिन, पोटासियम क्लोराइड र सोडियम लरिल सल्फेट कीटनाशक होइनन् (यी संरक्षक, औद्योगिक विलायक/कच्चा पदार्थ वा सर्फेक्टेन्टको रूपमा प्रयोग हुन्छन्)।"
+          },
+          "correctOption": "i"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Section B — Very Short Answer Questions",
+        "ne": "खण्ड 'ख' — अति छोटो उत्तर प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Write very short answers to the following questions. (9 x 1 = 9)",
+        "ne": "तलका प्रश्नहरूको अति छोटो उत्तर लेख्नुहोस् : (९x१=९)"
+      },
+      "items": [
+        {
+          "id": "q2a",
+          "questionNumber": "2(a)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Write a precaution to be taken for digital well being.",
+            "ne": "डिजिटल आरोग्यताको लागि अपनाइने एउटा सजगता लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "Take regular breaks from screens (follow the 20-20-20 rule) and avoid excessive/late-night use of digital devices to protect eyes, sleep and mental health.",
+            "ne": "आँखा, निद्रा र मानसिक स्वास्थ्य जोगाउन स्क्रिनबाट नियमित विश्राम लिनुहोस् (20-20-20 नियम पालना गर्नुहोस्) र डिजिटल उपकरणको अत्यधिक/ढिलो राति प्रयोगबाट जोगिनुहोस्।"
+          }
+        },
+        {
+          "id": "q2b",
+          "questionNumber": "2(b)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Write Archimedes' principle.",
+            "ne": "आर्किमिडिजको सिद्धान्त लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "Archimedes' principle states that when a body is partially or fully immersed in a fluid, it experiences an upward force (upthrust) equal to the weight of the fluid displaced by the body.",
+            "ne": "आर्किमिडिजको सिद्धान्तअनुसार, कुनै वस्तुलाई तरल पदार्थमा आंशिक वा पूर्ण रूपमा डुबाउँदा, त्यसले तरलद्वारा विस्थापित तरलको तौल बराबरको माथितिरको बल (उर्ध्वचाप) अनुभव गर्छ।"
+          }
+        },
+        {
+          "id": "q2c",
+          "questionNumber": "2(c)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Write a reason for using water as a cooling agent.",
+            "ne": "पानीलाई चिस्याउने कार्यमा प्रयोग गर्नुको एउटा कारण लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "Water has a high specific heat capacity, so it can absorb a large amount of heat with only a small rise in its own temperature, making it an effective cooling agent.",
+            "ne": "पानीको विशिष्ट ताप धारण क्षमता उच्च हुन्छ, त्यसैले यसले धेरै तापलाई आफ्नो तापक्रम थोरै मात्र बढाएर सोस्न सक्छ, जसले यसलाई प्रभावकारी शीतलक बनाउँछ।"
+          }
+        },
+        {
+          "id": "q2d",
+          "questionNumber": "2(d)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Draw a ray diagram to show total internal reflection when a ray of light passes from water to air.",
+            "ne": "पानीबाट हावामा प्रकाशको किरण जाँदा पूर्ण आन्तरिक परावर्तन भएको प्रक्रिया चित्रद्वारा देखाउनुहोस्।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-gandaki/q2d-tir-answer.png",
+            "caption": {
+              "en": "Model answer diagram: total internal reflection at the water-air boundary.",
+              "ne": "नमूना उत्तर चित्र: पानी-हावा सीमामा पूर्ण आन्तरिक परावर्तन।"
+            }
+          },
+          "answer": {
+            "en": "When light travels from water (denser medium) to air (rarer medium) and strikes the boundary at an angle greater than the critical angle, it does not refract out into the air but is completely reflected back into the water, obeying the laws of reflection. This is total internal reflection.",
+            "ne": "प्रकाश पानी (बढी घना माध्यम) बाट हावा (कम घना माध्यम) मा जाँदा, सीमामा क्रिटिकल कोणभन्दा बढी कोणमा ठोक्किँदा त्यो हावामा रिफ्र्याक्ट नभई परावर्तनको नियम पालना गर्दै पूरै पानीभित्रै फर्कन्छ। यसैलाई पूर्ण आन्तरिक परावर्तन भनिन्छ।"
+          }
+        },
+        {
+          "id": "q2e",
+          "questionNumber": "2(e)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Write any one way to increase the amount of induced electricity in a dynamo.",
+            "ne": "डाइनामोमा उत्पादन हुने विद्युतको मात्रा बढाउने कुनै एउटा उपाय लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "Increasing the speed of rotation of the coil/magnet, or increasing the number of turns in the coil, or using a stronger magnet, increases the amount of induced electricity in a dynamo.",
+            "ne": "कोइल/चुम्बक घुमाउने गति बढाउने, कोइलको फन्का सङ्ख्या बढाउने, वा बलियो चुम्बक प्रयोग गर्ने जस्ता उपायले डाइनामोमा उत्पन्न हुने विद्युतको मात्रा बढाउन सकिन्छ।"
+          }
+        },
+        {
+          "id": "q2f",
+          "questionNumber": "2(f)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Write a use of the organic compound given in the figure.",
+            "ne": "चित्रमा दिइएको कार्बोनिक यौगिकको एउटा उपयोगिता लेख्नुहोस्।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-gandaki/q2f-ethanol-structure.png",
+            "caption": {
+              "en": "Structural formula of ethanol (CH3-CH2-OH).",
+              "ne": "इथानोलको संरचना सूत्र (CH3-CH2-OH)।"
+            }
+          },
+          "answer": {
+            "en": "The compound shown is ethanol (C2H5OH). It is used as a solvent, as an antiseptic/disinfectant, and as an ingredient in alcoholic beverages and as a fuel additive.",
+            "ne": "चित्रमा देखाइएको यौगिक इथानोल (C2H5OH) हो। यो विलायकको रूपमा, एन्टिसेप्टिक/डिसइन्फेक्टेन्टको रूपमा, मदिराजन्य पेय पदार्थमा र इन्धनमा मिसाउने पदार्थको रूपमा प्रयोग हुन्छ।"
+          }
+        },
+        {
+          "id": "q2g",
+          "questionNumber": "2(g)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Draw a time-current graph of alternating current.",
+            "ne": "अल्टरनेटिड करेन्टको समय करेन्ट ग्राफ खिच्नुहोस्।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-gandaki/q2g-ac-graph-answer.png",
+            "caption": {
+              "en": "Model answer diagram: sine-wave time-current graph of AC.",
+              "ne": "नमूना उत्तर चित्र: AC को साइन-तरङ्ग समय-करेन्ट ग्राफ।"
+            }
+          },
+          "answer": {
+            "en": "An alternating-current time-current graph is a sine wave: the current rises from zero to a maximum positive value, falls back through zero to a maximum negative value, and returns to zero, repeating periodically — showing that the current periodically reverses direction.",
+            "ne": "अल्टरनेटिङ करेन्टको समय-करेन्ट ग्राफ साइन तरङ्गको आकारमा हुन्छ: करेन्ट शून्यबाट अधिकतम धनात्मक मानसम्म बढ्छ, फेरि शून्यहुँदै अधिकतम ऋणात्मक मानसम्म घट्छ, र फेरि शून्यमा फर्कन्छ, यो प्रक्रिया लगातार दोहोरिन्छ — जसले करेन्टको दिशा बारम्बार उल्टिने देखाउँछ।"
+          }
+        },
+        {
+          "id": "q2h",
+          "questionNumber": "2(h)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Write a general molecular formula of alkyne.",
+            "ne": "अल्काइनको सामान्य आणविक सूत्र लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "CnH2n-2",
+            "ne": "CnH2n-2"
+          },
+          "solution": {
+            "en": "Alkynes are hydrocarbons containing at least one carbon-carbon triple bond, and follow the general formula CnH2n-2 (e.g. ethyne C2H2).",
+            "ne": "अल्काइनहरू कम्तिमा एउटा कार्बन-कार्बन ट्रिपल बन्ड भएका हाइड्रोकार्बन हुन्, र यिनको सामान्य सूत्र CnH2n-2 हुन्छ (जस्तै इथाइन C2H2)।"
+          }
+        },
+        {
+          "id": "q2i",
+          "questionNumber": "2(i)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Write a difference between ethane and ethene.",
+            "ne": "इथेन र इथिनमा एउटा भिन्नता लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "Ethane (C2H6) is a saturated hydrocarbon with only single carbon-carbon bonds, whereas ethene (C2H4) is an unsaturated hydrocarbon containing one carbon-carbon double bond.",
+            "ne": "इथेन (C2H6) एक सतृप्त हाइड्रोकार्बन हो, जसमा कार्बन-कार्बनबिच केवल एकल बन्ड मात्र हुन्छ, जबकि इथिन (C2H4) एक असतृप्त हाइड्रोकार्बन हो, जसमा कार्बन-कार्बनबिच एउटा दोहोरो बन्ड हुन्छ।"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Section C — Short Answer Questions",
+        "ne": "खण्ड 'ग' — छोटो उत्तर प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Write short answers to the following questions. (14 x 2 = 28)",
+        "ne": "तलका प्रश्नहरूको छोटो उत्तर लेख्नुहोस् : (१४x२=२८)"
+      },
+      "items": [
+        {
+          "id": "q3",
+          "questionNumber": "3",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Test the validity of the equation given below by unit-wise analysis: v² = u² + 2as.",
+            "ne": "एकाइगत विश्लेषण गरी तल दिइएको समीकरणको मान्यता परीक्षण गर्नुहोस्। v² = u² + 2as।"
+          },
+          "answer": {
+            "en": "The equation v² = u² + 2as is valid, since both sides of the equation have the same unit, m²/s² (i.e. it is unit-wise/dimensionally consistent).",
+            "ne": "समीकरण v² = u² + 2as मान्य छ, किनकि समीकरणको दुवैतिर एउटै एकाइ, m²/s² छ (अर्थात् यो एकाइगत/आयामीय रूपमा सुसंगत छ)।"
+          },
+          "solution": {
+            "en": "LHS: v² has unit (m/s)² = m²/s². RHS: u² has unit m²/s², and 2as has unit (m/s²)×(m) = m²/s² (2 is a dimensionless number). Since both u² and 2as have the same unit m²/s², they can be added, and the unit of the whole RHS is m²/s², which matches the unit of LHS (v² = m²/s²). Hence the equation is unit-wise valid.",
+            "ne": "बायाँपट्टि (LHS): v² को एकाइ (m/s)² = m²/s² हुन्छ। दायाँपट्टि (RHS): u² को एकाइ m²/s² हो, र 2as को एकाइ (m/s²)×(m) = m²/s² हुन्छ (2 एउटा एकाइरहित सङ्ख्या हो)। u² र 2as दुवैको एकाइ m²/s² नै भएकाले तिनलाई जोड्न मिल्छ, र समग्र RHS को एकाइ पनि m²/s² नै हुन्छ, जुन LHS (v² = m²/s²) को एकाइसँग मेल खान्छ। त्यसैले यो समीकरण एकाइगत रूपमा मान्य छ।"
+          },
+          "solutionTable": {
+            "headers": [
+              {
+                "en": "Term",
+                "ne": "पद"
+              },
+              {
+                "en": "Unit",
+                "ne": "एकाइ"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "v² (LHS)",
+                  "ne": "v² (LHS)"
+                },
+                {
+                  "en": "m²/s²",
+                  "ne": "m²/s²"
+                }
+              ],
+              [
+                {
+                  "en": "u²",
+                  "ne": "u²"
+                },
+                {
+                  "en": "m²/s²",
+                  "ne": "m²/s²"
+                }
+              ],
+              [
+                {
+                  "en": "2as",
+                  "ne": "2as"
+                },
+                {
+                  "en": "m²/s²",
+                  "ne": "m²/s²"
+                }
+              ],
+              [
+                {
+                  "en": "u² + 2as (RHS)",
+                  "ne": "u² + 2as (RHS)"
+                },
+                {
+                  "en": "m²/s² — matches LHS ✓",
+                  "ne": "m²/s² — LHS सँग मिल्यो ✓"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "q4",
+          "questionNumber": "4",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "In which division are moss and banana kept?",
+            "ne": "मस र केरा कुन कुन डिभिजनमा राखिएको छ ? लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "Moss is kept in Division Bryophyta. Banana is kept in Division Angiospermae (flowering plants / Magnoliophyta).",
+            "ne": "मस डिभिजन ब्रायोफाइटामा राखिएको छ। केरा डिभिजन एन्जियोस्पर्मी (फुल फुल्ने बिरुवा / म्याग्नोलियोफाइटा) मा राखिएको छ।"
+          }
+        },
+        {
+          "id": "q5",
+          "questionNumber": "5",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Write the phylum of the animal whose body is bilaterally symmetrical and whose body is covered by chitin, and also write the name of an organism of this phylum.",
+            "ne": "शरीरलाई दुई बराबर भागमा बाँड्न सकिने र बाहिरी आवरण काइटिनले बनेको जीवको फाइलम लेख्नुहोस् र उक्त फाइलममा पर्ने एउटा जीवको नाम पनि लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "Phylum: Arthropoda. Example organism: cockroach (or prawn/grasshopper/spider — any arthropod).",
+            "ne": "फाइलम: आर्थ्रोपोडा। उदाहरण जीव: कमिला/झिँगा जस्तो सुगाकिरा — उदाहरणका लागि: कक्रोच (वा झिंगे माछा/सलह/माकुरा — कुनै पनि आर्थ्रोपोड)।"
+          }
+        },
+        {
+          "id": "q6",
+          "questionNumber": "6",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Write one function each of worker bees during 7-11 days and during 18-20 days.",
+            "ne": "कर्मी मौरीले 7-11 दिनमा र 18-20 दिनमा गर्ने एक एकओटा कार्य लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "During 7-11 days, a worker bee mainly works as a nurse bee — feeding and caring for the larvae inside the hive. During 18-20 days, a worker bee mainly works as a guard bee — guarding the entrance of the hive against enemies and intruders.",
+            "ne": "7-11 दिनमा कर्मी मौरीले मुख्यतया नर्स मौरीको काम गर्छ — घारभित्रका लार्भालाई खुवाउने र स्याहार्ने। 18-20 दिनमा कर्मी मौरीले मुख्यतया गार्ड मौरीको काम गर्छ — घारको प्रवेशद्वारलाई शत्रु र घुसपैठियाहरूबाट रक्षा गर्ने।"
+          }
+        },
+        {
+          "id": "q7",
+          "questionNumber": "7",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Identify the following figures and write any two differences between them. (Figure A: double-helix strand; Figure B: single zig-zag strand.)",
+            "ne": "दिइएका चित्रहरूको पहिचान गरि कुनै दुईओटा फरक लेख्नुहोस्। (चित्र A: डबल-हेलिक्स स्ट्र्यान्ड; चित्र B: एकल जिग-ज्याग स्ट्र्यान्ड।)"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-gandaki/q7-dna-rna-figures.png",
+            "caption": {
+              "en": "Figure A: a double-helix strand. Figure B: a single zig-zag strand.",
+              "ne": "चित्र A: डबल-हेलिक्स स्ट्र्यान्ड। चित्र B: एकल जिग-ज्याग स्ट्र्यान्ड।"
+            }
+          },
+          "answer": {
+            "en": "Figure A is DNA (a double-stranded, double-helix molecule); Figure B is RNA (a single-stranded molecule). Two differences: 1) DNA is double-stranded, while RNA is single-stranded. 2) DNA contains the sugar deoxyribose and the base thymine, while RNA contains the sugar ribose and the base uracil (in place of thymine).",
+            "ne": "चित्र A DNA हो (डबल-स्ट्यान्डेड, डबल-हेलिक्स अणु); चित्र B RNA हो (सिंगल-स्ट्यान्डेड अणु)। दुईओटा भिन्नता: १) DNA डबल-स्ट्यान्डेड हुन्छ, जबकि RNA सिंगल-स्ट्यान्डेड हुन्छ। २) DNA मा डिअक्सिराइबोज सुगर र थाइमिन बेस हुन्छ, जबकि RNA मा राइबोज सुगर र (थाइमिनको सट्टा) युरासिल बेस हुन्छ।"
+          }
+        },
+        {
+          "id": "q8",
+          "questionNumber": "8",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Climate change is one cause of the extinction of animals. Give two other possible causes.",
+            "ne": "जनावरहरू लोप हुनुको एउटा कारण जलवायु परिवर्तन हो भने अन्य दुईओटा कारण लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "Two other possible causes of animal extinction: 1) Habitat destruction/deforestation (loss of natural habitat). 2) Overhunting/poaching and illegal wildlife trade. (Pollution and invasive species are also acceptable alternative answers.)",
+            "ne": "जनावर लोप हुनुका अन्य दुईओटा सम्भावित कारण: १) वासस्थान विनाश/वन फडानी (प्राकृतिक बासस्थान गुम्नु)। २) अत्यधिक शिकार/अवैध शिकार र वन्यजन्तु ओसारपसार। (प्रदूषण र आक्रामक प्रजातिको प्रवेश पनि स्वीकार्य वैकल्पिक उत्तर हुन्।)"
+          }
+        },
+        {
+          "id": "q9",
+          "questionNumber": "9",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "\"There are plenty of possibilities of medicinal plants in Nepal. It is essential to make the local people aware in order to protect and use such medicinal plants.\" Give any two arguments to support this statement.",
+            "ne": "\"नेपालमा जडिबुटीजन्य औषधीको प्रचुर सम्भावना छ। यसको संरक्षण र प्रयोगका लागि स्थानीय जनतालाई सचेत गराउन आवश्यक छ।\" यस कथनको पक्षमा दुईओटा तर्क पेश गर्नुहोस्।"
+          },
+          "answer": {
+            "en": "1) Nepal's varied climate and geography (from lowlands to high Himalayas) support a huge diversity of medicinal plants, which, if sustainably harvested and processed, can boost local income and the national economy through herbal products and exports. 2) Without proper awareness, local people may over-harvest or destroy medicinal plants through unsustainable practices, pushing valuable species toward extinction and causing loss of traditional knowledge — so educating and involving local communities ensures these plants are conserved and used sustainably for future generations.",
+            "ne": "१) नेपालको विविध हावापानी र भूगोल (तराईदेखि हिमाली क्षेत्रसम्म) ले धेरै किसिमका जडीबुटी उब्जाउन मद्दत गर्छ, जसलाई दिगो रूपमा सङ्कलन र प्रशोधन गरी हर्बल उत्पादन र निर्यातमार्फत स्थानीय आम्दानी र राष्ट्रिय अर्थतन्त्र बढाउन सकिन्छ। २) उचित सचेतना नभएमा स्थानीयवासीले अदिगो तरिकाले अत्यधिक सङ्कलन गरी जडीबुटी विनाश गर्न सक्छन्, जसले मूल्यवान प्रजातिलाई लोपोन्मुख बनाउन सक्छ र परम्परागत ज्ञान पनि हराउन सक्छ — त्यसैले स्थानीय समुदायलाई सचेत र संलग्न गराउँदा यी जडीबुटी भावी पुस्ताका लागि संरक्षित र दिगो रूपमा प्रयोग हुन सक्छन्।"
+          }
+        },
+        {
+          "id": "q10",
+          "questionNumber": "10",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "What is free fall? Write the value of acceleration due to gravity when a body falls freely towards the surface of the Earth.",
+            "ne": "स्वतन्त्र खसाइ भनेको के हो ? कुनै वस्तु पृथ्वीको सतहतिर स्वतन्त्र खसाइमा रहँदा गुरुत्व प्रवेगको मान कति हुन्छ ?"
+          },
+          "answer": {
+            "en": "Free fall is the motion of a body falling freely under the influence of gravity alone, with no other force (such as air resistance) acting on it. The value of acceleration due to gravity for a body in free fall near the Earth's surface is approximately 9.8 m/s².",
+            "ne": "स्वतन्त्र खसाइ भनेको कुनै वस्तु अन्य कुनै बल (जस्तै हावाको प्रतिरोध) बिना, केवल गुरुत्वाकर्षणको प्रभावमा मात्र खस्ने गति हो। पृथ्वीको सतहनजिक स्वतन्त्र खसाइमा रहेको वस्तुको गुरुत्व प्रवेगको मान लगभग 9.8 m/s² हुन्छ।"
+          }
+        },
+        {
+          "id": "q11",
+          "questionNumber": "11",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Write any two differences between a closed universe and an open universe.",
+            "ne": "बन्द ब्रह्माण्ड र खुल्ला ब्रह्माण्डबिच पाइने दुईओटा भिन्नता लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "1) A closed universe has positive curvature and a finite size/volume, whereas an open universe has negative curvature and is infinite in size. 2) A closed universe has average density greater than the critical density and will eventually stop expanding and start contracting (leading to a 'Big Crunch'), whereas an open universe has density less than the critical density and will expand forever, at an ever-increasing rate.",
+            "ne": "१) बन्द ब्रह्माण्डको वक्रता धनात्मक हुन्छ र यसको आकार/आयतन सीमित हुन्छ, जबकि खुल्ला ब्रह्माण्डको वक्रता ऋणात्मक हुन्छ र यो असीमित आकारको हुन्छ। २) बन्द ब्रह्माण्डको औसत घनत्व क्रिटिकल घनत्वभन्दा बढी हुन्छ र यो अन्ततः विस्तार रोकिएर खुम्चिन थाल्छ ('बिग क्रन्च'), जबकि खुल्ला ब्रह्माण्डको घनत्व क्रिटिकल घनत्वभन्दा कम हुन्छ र यो सधैँ बढ्दो दरमा सधैँ विस्तार भइरहन्छ।"
+          }
+        },
+        {
+          "id": "q12",
+          "questionNumber": "12",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Write the valency of the most reactive metal and the most reactive non-metal from the given table (Period 3 elements: Na, Mg, Al, Si, P, S, Cl, Ar).",
+            "ne": "दिइएका तालिकामा अति सक्रिय धातु र अति सक्रिय अधातुको संयुज्यता कति कति हुन्छ ? लेख्नुहोस्। (तेस्रो पिरियडका तत्त्वहरू: Na, Mg, Al, Si, P, S, Cl, Ar)"
+          },
+          "answer": {
+            "en": "Valency of the most reactive metal (Sodium, Na) = 1. Valency of the most reactive non-metal (Chlorine, Cl) = 1.",
+            "ne": "अति सक्रिय धातु (सोडियम, Na) को संयुज्यता = 1। अति सक्रिय अधातु (क्लोरिन, Cl) को संयुज्यता = 1।"
+          },
+          "solution": {
+            "en": "Among period-3 elements (Na, Mg, Al, Si, P, S, Cl, Ar), reactivity of metals decreases left to right, so Na (leftmost metal, Group 1) is the most reactive metal, with valency 1 (it has 1 valence electron to lose). Among non-metals, reactivity increases left to right (excluding the noble gas Ar), so Cl (Group 17) is the most reactive non-metal, with valency 1 (it needs 1 electron to complete its octet).",
+            "ne": "तेस्रो पिरियडका तत्त्वहरू (Na, Mg, Al, Si, P, S, Cl, Ar) मध्ये धातुहरूको क्रियाशीलता देब्रेबाट दायाँ घट्दै जान्छ, त्यसैले Na (सबैभन्दा देब्रेतिरको धातु, समूह 1) सबैभन्दा क्रियाशील धातु हो, जसको संयुज्यता 1 हुन्छ (यसले 1 इलेक्ट्रोन त्याग्छ)। अधातुहरूमा क्रियाशीलता देब्रेबाट दायाँ बढ्दै जान्छ (उत्कृष्ट ग्यास Ar बाहेक), त्यसैले Cl (समूह 17) सबैभन्दा क्रियाशील अधातु हो, जसको संयुज्यता 1 हुन्छ (यसलाई अक्टेट पूरा गर्न 1 इलेक्ट्रोन चाहिन्छ)।"
+          }
+        },
+        {
+          "id": "q13",
+          "questionNumber": "13",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Draw a necessary diagram of obtaining pure silver metal from impure silver by the electro-refining method, and label any one part of it.",
+            "ne": "अशुद्ध चाँदीको धाउबाट शुद्ध चाँदीको धातु प्राप्त गर्न अपनाउने इलेक्ट्रोरिफाइनिङ विधिको सफा चित्र बनाउनुहोस् र आवश्यक पर्ने सामग्री मध्ये कुनै एकको नाम लेख्नुहोस्।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-gandaki/q13-electrorefining-answer.png",
+            "caption": {
+              "en": "Model answer diagram: electro-refining of silver.",
+              "ne": "नमूना उत्तर चित्र: चाँदीको इलेक्ट्रो-रिफाइनिङ।"
+            }
+          },
+          "answer": {
+            "en": "The impure silver is placed at the anode (positive electrode), a strip of pure silver is used as the cathode (negative electrode), and both are dipped in a solution of a soluble silver salt (e.g. silver nitrate, AgNO3) as the electrolyte, connected to a battery.",
+            "ne": "अशुद्ध चाँदीलाई एनोड (धनात्मक इलेक्ट्रोड) मा राखिन्छ, शुद्ध चाँदीको पट्टीलाई क्याथोड (ऋणात्मक इलेक्ट्रोड) को रूपमा प्रयोग गरिन्छ, र दुवैलाई घुलनशील चाँदीको लवण (जस्तै सिल्भर नाइट्रेट, AgNO3) को घोलमा इलेक्ट्रोलाइटको रूपमा डुबाई ब्याट्रीसँग जोडिन्छ।"
+          }
+        },
+        {
+          "id": "q14",
+          "questionNumber": "14",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Study the given diagram and answer the questions: (i) How much upthrust is experienced by the stone? (ii) What is the mass of the stone if its weight in air is 7.35 N?",
+            "ne": "चित्रमा अध्ययन गरी निम्न प्रश्नहरूको उत्तर दिनुहोस्। (i) ढुङ्गामा पर्ने उर्ध्वचाप कति हुन्छ ? (ii) यदि हावामा ढुङ्गाको तौल 7.35 N छ भने ढुङ्गाको पिण्ड कति छ ?"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-gandaki/q14-eureka-can-stone.png",
+            "caption": {
+              "en": "A stone hangs from a spring balance, submerged in a Eureka can; displaced water overflows into a small container.",
+              "ne": "स्प्रिङ ब्यालेन्समा झुण्ड्याइएको ढुङ्गा युरेका क्यानमा डुबेको; ओभरफ्लो भएको पानी सानो भाँडोमा जम्मा।"
+            }
+          },
+          "answer": {
+            "en": "(i) Upthrust ≈ 5 N (taken as the weight of the water displaced/collected, as read from the figure). (ii) Mass of the stone ≈ 0.75 kg (750 g).",
+            "ne": "(i) उर्ध्वचाप ≈ 5 N (चित्रमा देखाइएको विस्थापित/जम्मा भएको पानीको तौलअनुसार लिइएको)। (ii) ढुङ्गाको पिण्ड ≈ 0.75 kg (750 g)।"
+          },
+          "solution": {
+            "en": "(i) By Archimedes' principle, the upthrust on the stone equals the weight of water it displaces. Based on the reading visible in the figure (the small container collecting the overflowed water), this weight is taken as approximately 5 N. Note: the exact figure value was only partially legible in the scanned image — please double-check this reading against the original figure before publishing, and adjust the numeric answer if the actual displayed value differs. (ii) Mass m = Weight/g = 7.35 N / 9.8 m/s² = 0.75 kg = 750 g.",
+            "ne": "(i) आर्किमिडिजको सिद्धान्तअनुसार, ढुङ्गामा पर्ने उर्ध्वचाप त्यसले विस्थापित गरेको पानीको तौल बराबर हुन्छ। चित्रमा देखिने रिडिङ (ओभरफ्लो भएको पानी जम्मा हुने सानो भाँडोको आधारमा), यो तौल लगभग 5 N लिइएको छ। नोट: स्क्यान गरिएको चित्रमा ठ्याक्कै मान पूर्ण रूपमा स्पष्ट देखिएन — प्रकाशित गर्नुअघि यो मान मूल चित्रसँग जाँच्नुहोस् र वास्तविक मान फरक भए संख्यात्मक उत्तर समायोजन गर्नुहोस्। (ii) पिण्ड m = तौल/g = 7.35 N / 9.8 m/s² = 0.75 kg = 750 g।"
+          },
+          "solutionTable": {
+            "headers": [
+              {
+                "en": "Quantity",
+                "ne": "परिमाण"
+              },
+              {
+                "en": "Value",
+                "ne": "मान"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "Weight of stone in air",
+                  "ne": "हावामा ढुङ्गाको तौल"
+                },
+                {
+                  "en": "7.35 N",
+                  "ne": "7.35 N"
+                }
+              ],
+              [
+                {
+                  "en": "g",
+                  "ne": "g"
+                },
+                {
+                  "en": "9.8 m/s²",
+                  "ne": "9.8 m/s²"
+                }
+              ],
+              [
+                {
+                  "en": "Mass = Weight/g",
+                  "ne": "पिण्ड = तौल/g"
+                },
+                {
+                  "en": "0.75 kg (750 g)",
+                  "ne": "0.75 kg (750 g)"
+                }
+              ],
+              [
+                {
+                  "en": "Upthrust (≈ weight of displaced water, per figure)",
+                  "ne": "उर्ध्वचाप (≈ विस्थापित पानीको तौल, चित्रअनुसार)"
+                },
+                {
+                  "en": "≈ 5 N",
+                  "ne": "≈ 5 N"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "q15",
+          "questionNumber": "15",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "To avoid the negative effect of chemicals like calcium carbide on health, write two methods of ripening bananas grown on a farm using materials available at home.",
+            "ne": "क्याल्सियम कार्बाइड जस्ता रसायनले स्वास्थ्यमा पार्ने नकारात्मक असरबाट बच्न बारीमा फलेको केरालाई घरमै उपलब्ध सामग्रीहरूको प्रयोग गरेर पकाउने दुईओटा विधिहरू लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "1) Keep the bananas together with other already-ripe fruits (like apples) inside a closed paper bag or basket — the ethylene gas released by the ripe fruits speeds up the ripening of the bananas naturally. 2) Wrap the bunch of bananas in newspaper, or keep it inside a closed container/rice bin in a warm, dark place — this traps the small amount of natural ethylene gas released by the bananas themselves, helping them ripen faster without any added chemicals.",
+            "ne": "१) केरालाई पहिल्यै पाकेका अन्य फलफूल (जस्तै स्याउ) सँगै बन्द कागजको झोला वा डालोमा राख्नुहोस् — पाकेका फलले निकाल्ने इथिलिन ग्यासले केरालाई प्राकृतिक रूपमा चाँडो पाक्न मद्दत गर्छ। २) केराको झुप्पालाई पत्रिकामा बेर्नुहोस्, वा न्यानो र अँध्यारो ठाउँमा बन्द भाँडो/धानको डब्बाभित्र राख्नुहोस् — यसले केराले आफैं निकाल्ने थोरै इथिलिन ग्यासलाई भित्रै रोकेर कुनै रसायन नथपी छिटो पाक्न मद्दत गर्छ।"
+          }
+        },
+        {
+          "id": "q16",
+          "questionNumber": "16",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "If the number of primary turns is 300, calculate the number of turns in the secondary coil in the given figure (Input 220 V AC mains, Output 44 V AC).",
+            "ne": "दिइएको चित्रमा प्राइमरी फन्काको सङ्ख्या 300 छ भने सेकेण्डरी क्वाइलमा फन्का फेराको सङ्ख्या पत्ता लगाउनुहोस्। (Input 220 V AC mains, Output 44 V AC)"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-gandaki/q16-transformer.png",
+            "caption": {
+              "en": "Transformer with core, primary winding (input 220V AC) and secondary winding (output 44V AC).",
+              "ne": "कोर, प्राइमरी वाइन्डिङ (इनपुट 220V AC) र सेकेण्डरी वाइन्डिङ (आउटपुट 44V AC) भएको ट्रान्सफर्मर।"
+            }
+          },
+          "answer": {
+            "en": "60 turns.",
+            "ne": "60 फन्का।"
+          },
+          "solution": {
+            "en": "Transformer relation: Vp/Vs = Np/Ns, so Ns = Np × (Vs/Vp) = 300 × (44/220) = 300 × 0.2 = 60 turns.",
+            "ne": "ट्रान्सफर्मर सम्बन्ध: Vp/Vs = Np/Ns, त्यसैले Ns = Np × (Vs/Vp) = 300 × (44/220) = 300 × 0.2 = 60 फन्का।"
+          },
+          "solutionTable": {
+            "headers": [
+              {
+                "en": "Quantity",
+                "ne": "परिमाण"
+              },
+              {
+                "en": "Value",
+                "ne": "मान"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "Vp (input)",
+                  "ne": "Vp (इनपुट)"
+                },
+                {
+                  "en": "220 V",
+                  "ne": "220 V"
+                }
+              ],
+              [
+                {
+                  "en": "Vs (output)",
+                  "ne": "Vs (आउटपुट)"
+                },
+                {
+                  "en": "44 V",
+                  "ne": "44 V"
+                }
+              ],
+              [
+                {
+                  "en": "Np",
+                  "ne": "Np"
+                },
+                {
+                  "en": "300",
+                  "ne": "300"
+                }
+              ],
+              [
+                {
+                  "en": "Ns = Np × Vs/Vp",
+                  "ne": "Ns = Np × Vs/Vp"
+                },
+                {
+                  "en": "60 turns",
+                  "ne": "60 फन्का"
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Section D — Long Answer Questions",
+        "ne": "खण्ड 'घ' — लामो उत्तर प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Write long answer of the following questions. (7 x 4 = 28)",
+        "ne": "तलका प्रश्नको लामो उत्तर लेख्नुहोस् : (७x४=२८)"
+      },
+      "items": [
+        {
+          "id": "q17",
+          "questionNumber": "17",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Write any four advantages of using digital communication in daily life.",
+            "ne": "डिजिटल सञ्चारबाट दैनिक जीवनमा हुनसक्ने चारओटा फाइदाहरू लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "Any four advantages: 1) Enables instant communication over long distances (calls, messages, video calls). 2) Cheaper and faster than traditional postal/physical communication. 3) Allows easy sharing of documents, images, audio and video. 4) Enables remote work, online education, online banking and access to information anytime, anywhere.",
+            "ne": "कुनै चारओटा फाइदा: १) लामो दूरीमा तत्काल सञ्चार (कल, म्यासेज, भिडियो कल) सम्भव बनाउँछ। २) परम्परागत हुलाक/भौतिक सञ्चारभन्दा सस्तो र छिटो हुन्छ। ३) कागजात, तस्बिर, अडियो र भिडियो सजिलै आदानप्रदान गर्न सकिन्छ। ४) टाढैबाट काम, अनलाइन शिक्षा, अनलाइन बैंकिङ र जुनसुकै बेला-ठाउँबाट जानकारी प्राप्त गर्न सकिन्छ।"
+          }
+        },
+        {
+          "id": "q18",
+          "questionNumber": "18",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Write any two causes of high blood pressure and two preventive measures of it.",
+            "ne": "उच्च रक्तचाप हुनुका दुई कारणहरू र यसका रोकथामका दुई उपायहरू लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "Two causes of high blood pressure: 1) Excessive intake of salt/sodium in the diet. 2) Obesity and lack of regular physical exercise (stress and heredity are also acceptable). Two preventive measures: 1) Reduce salt intake and eat a balanced, low-fat diet. 2) Exercise regularly, maintain a healthy body weight, and avoid smoking/alcohol.",
+            "ne": "उच्च रक्तचापका दुई कारण: १) खानामा अत्यधिक नुन/सोडियमको सेवन। २) मोटोपन र नियमित शारीरिक व्यायामको कमी (तनाव र वंशाणुगत कारण पनि स्वीकार्य)। दुई रोकथाम उपाय: १) नुनको सेवन घटाउने र सन्तुलित, कम बोसो भएको खाना खाने। २) नियमित व्यायाम गर्ने, स्वस्थ शरीरको तौल कायम राख्ने, र धूम्रपान/मद्यपानबाट टाढा रहने।"
+          }
+        },
+        {
+          "id": "q19",
+          "questionNumber": "19",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "According to Mendel's experiment, make a chart to show the offspring formed up to the F2 generation when a red flower (RR) pea plant is cross-pollinated with a white flower (rr) pea plant. Also state the phenotypic and genotypic ratio.",
+            "ne": "मेन्डलको प्रयोग अनुसार, एउटा रातो फूल फुल्ने केराउ (RR) र सेतो फूल फुल्ने केराउ (rr) बिच परपरागसेचन गराउँदा उत्पादन हुने F2 वंशसम्मको प्रक्रियालाई चार्टद्वारा देखाउनुहोस् र यसको फिनोटाइपिक र जिनोटाइपिक अनुपात पनि लेख्नुहोस्।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-gandaki/q19-mendel-cross-answer.png",
+            "caption": {
+              "en": "Model answer chart: Punnett square for RR × rr cross through F1 and F2.",
+              "ne": "नमूना उत्तर चार्ट: RR × rr क्रसको F1 र F2 सम्मको पनेट-वर्ग।"
+            }
+          },
+          "answer": {
+            "en": "Cross: RR (red) × rr (white). F1 generation: all Rr (red) — since red (R) is dominant over white (r). F1 × F1 self-cross (Rr × Rr) gives the F2 generation: genotypes RR : Rr : rR : rr in the ratio 1 : 2 : 1 (1 RR, 2 Rr, 1 rr). Genotypic ratio (F2): RR : Rr : rr = 1 : 2 : 1. Phenotypic ratio (F2): Red : White = 3 : 1.",
+            "ne": "क्रस: RR (रातो) × rr (सेतो)। F1 पुस्ता: सबै Rr (रातो) — किनभने रातो (R) सेतो (r) माथि प्रभावी हुन्छ। F1 × F1 स्व-परागसेचन (Rr × Rr) ले F2 पुस्ता दिन्छ: जिनोटाइप RR : Rr : rR : rr अनुपातमा 1 : 2 : 1 (1 RR, 2 Rr, 1 rr) बन्छ। जिनोटाइपिक अनुपात (F2): RR : Rr : rr = 1 : 2 : 1। फिनोटाइपिक अनुपात (F2): रातो : सेतो = 3 : 1।"
+          },
+          "solutionTable": {
+            "headers": [
+              {
+                "en": "Generation",
+                "ne": "पुस्ता"
+              },
+              {
+                "en": "Genotype(s)",
+                "ne": "जिनोटाइप"
+              },
+              {
+                "en": "Phenotype(s)",
+                "ne": "फिनोटाइप"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "P",
+                  "ne": "P"
+                },
+                {
+                  "en": "RR × rr",
+                  "ne": "RR × rr"
+                },
+                {
+                  "en": "Red × White",
+                  "ne": "रातो × सेतो"
+                }
+              ],
+              [
+                {
+                  "en": "F1",
+                  "ne": "F1"
+                },
+                {
+                  "en": "All Rr",
+                  "ne": "सबै Rr"
+                },
+                {
+                  "en": "All Red",
+                  "ne": "सबै रातो"
+                }
+              ],
+              [
+                {
+                  "en": "F2",
+                  "ne": "F2"
+                },
+                {
+                  "en": "1 RR : 2 Rr : 1 rr",
+                  "ne": "1 RR : 2 Rr : 1 rr"
+                },
+                {
+                  "en": "3 Red : 1 White",
+                  "ne": "3 रातो : 1 सेतो"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "q20",
+          "questionNumber": "20",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Study the given graph (density of water vs. temperature, 0°C to 10°C, showing a peak near 4°C). (i) Which special character of water is shown in the graph? (ii) How are the density and volume of water affected when it is heated from 0°C to 10°C? (iii) How are aquatic animals benefited from this phenomenon?",
+            "ne": "दिइएको ग्राफको अध्ययन गर्नुहोस् (पानीको घनत्व र तापक्रम, 0°C देखि 10°C सम्म, 4°C नजिकै उच्चतम बिन्दु देखाउँदै)। (i) ग्राफले पानीको कुन विशेष गुण देखाउन खोजेको छ ? (ii) पानीलाई 0°C बाट 10°C सम्म तताउँदा यसको घनत्व र आयतनमा के फरक परेको छ ? (iii) यस प्रक्रियाले जलचरहरूलाई कसरी फाइदा पुगेको छ ?"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-gandaki/q20-water-density-graph.png",
+            "caption": {
+              "en": "Graph of density of water (y-axis) vs. temperature in °C (x-axis), 0-10°C, peaking near 4°C.",
+              "ne": "पानीको घनत्व (y-अक्ष) र तापक्रम °C (x-अक्ष) को ग्राफ, 0-10°C, 4°C नजिकै उच्चतम।"
+            }
+          },
+          "answer": {
+            "en": "(i) The graph shows the anomalous expansion of water — water has its maximum density at 4°C, not at 0°C. (ii) As water is heated from 0°C to 4°C, its density increases (and its volume decreases/contracts); as it is heated further from 4°C to 10°C, its density decreases (and its volume increases/expands) as normal thermal expansion resumes. (iii) Because water is densest at 4°C, in very cold weather the top layer of a lake/pond freezes into ice (which floats, being less dense), while the denser water at about 4°C sinks and remains liquid at the bottom. This layer of liquid water at the bottom allows fish and other aquatic animals to survive even when the surface is frozen.",
+            "ne": "(i) ग्राफले पानीको असामान्य फैलावट (anomalous expansion) देखाउँछ — पानीको घनत्व 0°C मा होइन, 4°C मा अधिकतम हुन्छ। (ii) पानीलाई 0°C बाट 4°C सम्म तताउँदा यसको घनत्व बढ्छ (र आयतन घट्छ/खुम्चिन्छ); त्यसपछि 4°C बाट 10°C सम्म तताउँदा सामान्य तापीय फैलावट सुरु भई घनत्व घट्छ (र आयतन बढ्छ/फैलिन्छ)। (iii) पानीको घनत्व 4°C मा सबैभन्दा बढी हुने भएकाले, धेरै जाडोमा तलाउ/पोखरीको माथिल्लो सतह बरफ बन्छ (जुन कम घना भएकाले पानीमाथि तैरिन्छ), जबकि करिब 4°C तापक्रमको बढी घना पानी तल बस्छ र तरल नै रहन्छ। यसरी तलको तरल पानीको तहले सतह जमेको बेला पनि माछा र अन्य जलचरहरूलाई बाँच्न मद्दत गर्छ।"
+          }
+        },
+        {
+          "id": "q21",
+          "questionNumber": "21",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Two chemical equations are given: (i) 2KClO3 --(MnO2/Δ)--> 2KCl + 3O2 ; (ii) 2Na + Cl2 --(Sunlight/Δ)--> 2NaCl. (a) Write any two differences between equation (i) and equation (ii). (b) What are the factors that affect the rate of chemical reaction in the given chemical equations?",
+            "ne": "दुईओटा रासायनिक समीकरणहरू दिइएको छ। (i) 2KClO3 --(MnO2/Δ)--> 2KCl + 3O2 ; (ii) 2Na + Cl2 --(Sunlight/Δ)--> 2NaCl (a) समीकरण (i) र समीकरण (ii) मा कुनै दुईओटा फरक लेख्नुहोस्। (b) दिइएका रासायनिक प्रतिक्रियाहरूमा रासायनिक प्रतिक्रियाको दरलाई प्रभाव पार्ने तत्त्वहरू के के हुन् ?"
+          },
+          "answer": {
+            "en": "(a) Two differences: 1) Equation (i) is a decomposition reaction (one compound, KClO3, breaks down into two products), whereas equation (ii) is a combination/synthesis reaction (two elements, Na and Cl2, combine to form one compound). 2) Equation (i) requires a catalyst (MnO2) along with heat, whereas equation (ii) requires sunlight (and/or heat) but no catalyst. (b) Factors affecting the rate of these reactions: presence of a catalyst (MnO2 in equation i), temperature/heat (Δ in both equations), light (sunlight in equation ii), and the concentration/nature of the reactants.",
+            "ne": "(a) दुईओटा भिन्नता: १) समीकरण (i) विघटन प्रतिक्रिया हो (एउटा यौगिक, KClO3, दुई उत्पादनमा टुक्रिन्छ), जबकि समीकरण (ii) सयोजन प्रतिक्रिया हो (दुई तत्त्व, Na र Cl2, मिलेर एउटा यौगिक बन्छ)। २) समीकरण (i) मा तापसँगै उत्प्रेरक (MnO2) चाहिन्छ, जबकि समीकरण (ii) मा सूर्यको प्रकाश (र/वा ताप) चाहिन्छ तर उत्प्रेरक चाहिँदैन। (b) यी प्रतिक्रियाहरूको दरलाई प्रभाव पार्ने तत्त्व: उत्प्रेरकको उपस्थिति (समीकरण i मा MnO2), तापक्रम/ताप (दुवै समीकरणमा Δ), प्रकाश (समीकरण ii मा सूर्यको प्रकाश), र अभिकारकहरूको सांद्रता/प्रकृति।"
+          }
+        },
+        {
+          "id": "q22",
+          "questionNumber": "22",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "One person saw water on the road while walking on a coal-tarred road in an extremely high temperature. But he did not find water when he reached the place. (i) What is this condition called? (ii) What is the main cause of this condition? (iii) Write any two conditions required for this process to occur.",
+            "ne": "एक जना व्यक्तिले अत्यधिक तापक्रम भएको ठाउँमा कालोपत्र सडकमा हिँड्दा अगाडि पानी रहेको देखे। तर उनी त्यहाँ पुग्दा पानी पाइएनन्। (i) यो अवस्थालाई के भनिन्छ ? (ii) यो अवस्थाको मुख्य कारण के हो ? (iii) यस प्रक्रियाका लागि आवश्यक पर्ने दुई अवस्थाहरू लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "(i) This condition is called a mirage. (ii) The main cause is total internal reflection of light due to the difference in refractive index between layers of air at different temperatures near the hot road surface (hot air near the ground is less dense, with a lower refractive index, than the cooler air above it). (iii) Two conditions required: 1) There must be a large temperature difference between successive layers of air close to the ground (creating a gradient in air density/refractive index). 2) The light ray must strike the boundary between these layers at an angle greater than the critical angle, so that total internal reflection occurs instead of refraction.",
+            "ne": "(i) यो अवस्थालाई मृगमरीचिका (मिराज) भनिन्छ। (ii) यसको मुख्य कारण तातो सडकको सतहनजिकका फरक-फरक तापक्रमका हावाका तहहरूबिच रिफ्र्याक्टिभ इन्डेक्सको भिन्नताले हुने प्रकाशको पूर्ण आन्तरिक परावर्तन हो (जमिननजिकको तातो हावा माथिको चिसो हावाभन्दा कम घना र कम रिफ्र्याक्टिभ इन्डेक्स भएको हुन्छ)। (iii) आवश्यक दुई अवस्था: १) जमिननजिकका हावाका तहहरूबिच ठूलो तापक्रम भिन्नता हुनुपर्छ (जसले हावाको घनत्व/रिफ्र्याक्टिभ इन्डेक्समा क्रमिक भिन्नता ल्याउँछ)। २) प्रकाश किरण यी तहहरूबिचको सीमामा क्रिटिकल कोणभन्दा बढी कोणमा ठोक्किनुपर्छ, ताकि रिफ्र्याक्सनको सट्टा पूर्ण आन्तरिक परावर्तन होस्।"
+          }
+        },
+        {
+          "id": "q23",
+          "questionNumber": "23",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Observe the given figure and answer the following questions. (Ammonia gas preparation setup: NH4Cl + Ca(OH)2 heated, passed through a CaO drying tube into a gas jar.) (i) Which gas is collected in the gas jar? (ii) Write a use of the gas formed in this process. (iii) Why is CaO used while preparing this gas? (iv) If a wet red litmus paper is inserted inside the gas jar, what change will be seen in the litmus paper?",
+            "ne": "दिइएको चित्र अध्ययन गरी सोधिएको प्रश्नहरूको उत्तर लेख्नुहोस्। (अमोनिया ग्यास तयार पार्ने उपकरण: NH4Cl + Ca(OH)2 तताउँदा निस्कने ग्यास CaO भएको ट्यूबबाट सुकाइएर ग्यास जारमा सङ्कलन।) (i) ग्यास जारमा कुन ग्यास जम्मा भएको छ। (ii) यसरी बन्ने ग्यासको एउटा उपयोगिता लेख्नुहोस्। (iii) उक्त ग्यास तयार पार्ने क्रममा CaO को प्रयोग किन गरिन्छ ? (iv) ग्यास जारमा भिजेको रातो लिटमस पेपर राख्दा कस्तो परिवर्तन देखिन्छ ?"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-gandaki/q23-nh3-preparation.png",
+            "caption": {
+              "en": "Lab preparation of ammonia gas: NH4Cl + Ca(OH)2 heated, gas dried through CaO, collected in an upright gas jar.",
+              "ne": "अमोनिया ग्यास प्रयोगशाला निर्माण: NH4Cl + Ca(OH)2 तताउँदा, CaO ले सुकाएर सुल्टो ग्यास जारमा सङ्कलन।"
+            }
+          },
+          "answer": {
+            "en": "(i) Ammonia gas (NH3) is collected in the gas jar. (ii) Use: Ammonia gas is used in the manufacture of nitrogenous fertilizers (like urea, ammonium sulphate) and as a refrigerant. (iii) CaO (quicklime) is used because it is a good drying agent that absorbs moisture/water vapour from the ammonia gas without reacting with it — since CaO is basic, it does not react with the basic ammonia gas (unlike an acidic drying agent such as concentrated H2SO4, which would react with and absorb the ammonia itself). (iv) The wet red litmus paper turns blue, because ammonia gas is basic/alkaline in nature.",
+            "ne": "(i) ग्यास जारमा अमोनिया ग्यास (NH3) जम्मा हुन्छ। (ii) उपयोगिता: अमोनिया ग्यास नाइट्रोजनयुक्त मल (जस्तै युरिया, अमोनियम सल्फेट) बनाउनमा र रेफ्रिजेरेन्टको रूपमा प्रयोग हुन्छ। (iii) CaO (क्वीकलाइम) प्रयोग गरिन्छ किनभने यो राम्रो सुकाउने पदार्थ (ड्राइङ एजेन्ट) हो, जसले अमोनिया ग्यासबाट चिस्यान/वाष्प सोस्छ तर त्योसँग प्रतिक्रिया गर्दैन — CaO क्षारीय भएकाले क्षारीय अमोनिया ग्याससँग प्रतिक्रिया गर्दैन (तर सांद्र H2SO4 जस्तो अम्लीय सुकाउने पदार्थ प्रयोग गरेमा त्यसले अमोनियासँगै प्रतिक्रिया गरी सोस्ने थियो)। (iv) भिजेको रातो लिटमस पेपर निलो हुन्छ, किनभने अमोनिया ग्यास प्रकृतिमा क्षारीय (basic/alkaline) हुन्छ।"
+          }
+        }
+      ]
+    }
+  ]
+}

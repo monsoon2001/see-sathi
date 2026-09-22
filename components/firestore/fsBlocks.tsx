@@ -2,6 +2,8 @@
 
 import { useEffect, useState } from "react";
 import { BadgeCheck, CircleCheck, X } from "lucide-react";
+import "katex/dist/katex.min.css";
+import katex from "katex";
 import { cn } from "@/lib/utils";
 import type { Bilingual, FsBlock, FsQuestion, FsTable, Lang } from "@/lib/firebase/chapterDoc";
 
@@ -39,6 +41,72 @@ export function splitEnumeratedPoints(text: string): string[] | null {
 
 export function langFont(lang: Lang): string {
   return lang === "ne" ? "font-devanagari" : "font-body";
+}
+
+const MATH_TEXT_RE = /(\$\$[\s\S]+?\$\$|\$[^$]+\$)/g;
+
+type MathPart =
+  | { kind: "text"; value: string }
+  | { kind: "inline"; value: string }
+  | { kind: "display"; value: string };
+
+function splitMathText(text: string): MathPart[] {
+  const parts: MathPart[] = [];
+  let last = 0;
+  let m: RegExpExecArray | null;
+  MATH_TEXT_RE.lastIndex = 0;
+  while ((m = MATH_TEXT_RE.exec(text))) {
+    if (m.index > last) parts.push({ kind: "text", value: text.slice(last, m.index) });
+    const raw = m[0];
+    if (raw.startsWith("$$")) parts.push({ kind: "display", value: raw.slice(2, -2) });
+    else parts.push({ kind: "inline", value: raw.slice(1, -1) });
+    last = m.index + raw.length;
+  }
+  if (last < text.length) parts.push({ kind: "text", value: text.slice(last) });
+  return parts;
+}
+
+/** Renders `$…$` / `$$…$$` LaTeX with KaTeX for maths chapters. */
+export function MathInline({ text, lang }: { text: string; lang: Lang }) {
+  const parts = splitMathText(text);
+  if (parts.length === 1 && parts[0].kind === "text") return <span className={cn(langFont(lang))}>{text}</span>;
+  return (
+    <>
+      {parts.map((part, i) => {
+        if (part.kind === "text") {
+          return (
+            <span key={i} className={cn(langFont(lang))}>
+              {part.value}
+            </span>
+          );
+        }
+        const html = katex.renderToString(part.value, {
+          displayMode: part.kind === "display",
+          throwOnError: false,
+          strict: false,
+          output: "html",
+        });
+        if (part.kind === "display") {
+          return (
+            <span
+              key={i}
+              className="my-2 block overflow-x-auto py-1 text-center"
+              // eslint-disable-next-line react/no-danger
+              dangerouslySetInnerHTML={{ __html: html }}
+            />
+          );
+        }
+        return (
+          <span
+            key={i}
+            className="mx-0.5 inline-block align-middle"
+            // eslint-disable-next-line react/no-danger
+            dangerouslySetInnerHTML={{ __html: html }}
+          />
+        );
+      })}
+    </>
+  );
 }
 
 export function LangToggle({ lang, onChange }: { lang: Lang; onChange: (l: Lang) => void }) {
@@ -164,7 +232,7 @@ export function ImageBox({ src, alt }: { src: string; alt?: string }) {
   );
 }
 
-export function BlockView({ block, lang }: { block: FsBlock; lang: Lang }) {
+export function BlockView({ block, lang, math }: { block: FsBlock; lang: Lang; math?: boolean }) {
 switch (block.type) {
     case "image": {
       const caption = block.caption && (block.caption.en || block.caption.ne) ? block.caption : undefined;
@@ -233,16 +301,19 @@ switch (block.type) {
       );
     default:
       return (
-        <p className={cn("whitespace-pre-line font-body-lg text-[1.03em] leading-[1.88em] text-on-surface", langFont(lang))}>
-          {pickText(block.text, lang)}
-        </p>
+        <>
+          <p className={cn("whitespace-pre-line font-body-lg text-[1.03em] leading-[1.88em] text-on-surface", langFont(lang))}>
+            {math ? <MathInline text={pickText(block.text, lang)} lang={lang} /> : pickText(block.text, lang)}
+          </p>
+          {block.image && <ImageBox src={block.image} />}
+        </>
       );
   }
 }
 
 const SOURCE_LABELS: Record<string, string> = { textbook: "Textbook", see: "SEE Board", cdc: "CDC Model" };
 
-export function QuestionCard({ q, index, lang }: { q: FsQuestion; index: number; lang: Lang }) {
+export function QuestionCard({ q, index, lang, math }: { q: FsQuestion; index: number; lang: Lang; math?: boolean }) {
   const answerText = pickText(q.answer, lang);
   const answerPoints = splitEnumeratedPoints(answerText);
   const showOptions = q.options && q.options.length > 0;
@@ -262,7 +333,7 @@ export function QuestionCard({ q, index, lang }: { q: FsQuestion; index: number;
       </div>
 
       <p className={cn("whitespace-pre-line font-title text-[18px] leading-[30px] text-on-surface", langFont(lang))}>
-        {pickText(q.question, lang)}
+        {math ? <MathInline text={pickText(q.question, lang)} lang={lang} /> : pickText(q.question, lang)}
       </p>
 
       {q.image && <ImageBox src={q.image} />}
@@ -283,7 +354,7 @@ export function QuestionCard({ q, index, lang }: { q: FsQuestion; index: number;
                 )}
               >
                 <span className="font-title text-label-md">{String.fromCharCode(65 + i)}.</span>
-                <span className={cn(langFont(lang))}>{text}</span>
+                <span className={cn(langFont(lang))}>{math ? <MathInline text={text} lang={lang} /> : text}</span>
                 {correct && <CircleCheck className="ml-auto h-4 w-4 shrink-0" aria-hidden="true" />}
               </div>
             );
@@ -302,18 +373,20 @@ export function QuestionCard({ q, index, lang }: { q: FsQuestion; index: number;
                 <ol className="mt-1.5 space-y-1.5">
                   {answerPoints.map((p, i) => (
                     <li key={i} className={cn("whitespace-pre-line font-title text-[16px] font-semibold text-on-surface", langFont(lang))}>
-                      {p}
+                      {math ? <MathInline text={p} lang={lang} /> : p}
                     </li>
                   ))}
                 </ol>
               ) : (
-                <span className={cn("font-title text-[16px] font-semibold text-on-surface", langFont(lang))}>{answerText}</span>
+                <span className={cn("font-title text-[16px] font-semibold text-on-surface", langFont(lang))}>
+                  {math ? <MathInline text={answerText} lang={lang} /> : answerText}
+                </span>
               )}
             </div>
           )}
           {q.solution && (
             <p className={cn("whitespace-pre-line font-body-md text-[15.5px] leading-[26px] text-on-surface-variant", langFont(lang))}>
-              {pickText(q.solution, lang)}
+              {math ? <MathInline text={pickText(q.solution, lang)} lang={lang} /> : pickText(q.solution, lang)}
             </p>
           )}
           {q.solutionTable && (

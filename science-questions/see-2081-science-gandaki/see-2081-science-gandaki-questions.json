@@ -1,0 +1,760 @@
+{
+  "subjectId": "science",
+  "classLevel": "10",
+  "province": "Gandaki",
+  "examBoard": "SEE (National Examinations Board, Nepal)",
+  "examYear": "2081 (2025 AD)",
+  "paperCode": "RE-1041'GP'",
+  "fullMarks": 75,
+  "timeAllowed": "3 hours",
+  "sourceNote": {
+    "en": "Digitised from the uploaded scan of the SEE 2081 (2025) Science question paper, Gandaki Province, set 'GP'.",
+    "ne": "यो फाइल SEE 2081 (2025) विज्ञान प्रश्नपत्र, गण्डकी प्रदेश, सेट 'GP' को स्क्यान गरिएको प्रतिबाट तयार पारिएको हो।"
+  },
+  "chapterId": "see-2081-science-gandaki-qp",
+  "docType": "questionPaper",
+  "titleEn": "SEE 2081 (2025) Science Question Paper — Gandaki Province",
+  "titleNe": "SEE २०८१ (२०२५) विज्ञान तथा प्रविधि प्रश्नपत्र — गण्डकी प्रदेश",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": {
+        "en": "SEE 2081 (2025) — Science and Technology",
+        "ne": "SEE २०८१ (२०२५) — विज्ञान तथा प्रविधि"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "Time: 3 hours | Full Marks: 75. Answer creatively in your own style, based on the given instructions.",
+        "ne": "समय : ३ घण्टा | पूर्णाङ्क : ७५। दिइएका निर्देशनका आधारमा आफ्नै शैलीमा सिर्जनात्मक उत्तर दिनुहोस्।"
+      }
+    }
+  ],
+  "questionSections": [
+    {
+      "title": {
+        "en": "Section A — Multiple Choice Questions",
+        "ne": "खण्ड 'क' — बहुवैकल्पिक प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Choose the best alternative to the following questions and write in the answer sheet. (10 x 1 = 10)",
+        "ne": "तलका प्रश्नहरूको ठिक विकल्प छानी उत्तरपुस्तिकामा लेख्नुहोस्। (१०x१=१०)"
+      },
+      "items": [
+        {
+          "id": "q1a",
+          "questionNumber": "1(a)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Which one of the following is the correct relation between nibble and byte?",
+            "ne": "निब्बल (Nibble) र बाइट (Byte) बिचको सही सम्बन्ध तलकामध्ये कुन हो ?"
+          },
+          "options": [
+            {
+              "en": "1 nibble = 4 byte",
+              "ne": "1 nibble = 4 byte"
+            },
+            {
+              "en": "2 nibble = 1 byte",
+              "ne": "2 nibble = 1 byte"
+            },
+            {
+              "en": "4 nibble = 1 byte",
+              "ne": "4 nibble = 1 byte"
+            },
+            {
+              "en": "8 nibble = 1 byte",
+              "ne": "8 nibble = 1 byte"
+            }
+          ]
+        },
+        {
+          "id": "q1b",
+          "questionNumber": "1(b)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Identify the characteristics of the animal that belongs to phylum Coelenterata.",
+            "ne": "तलकामध्ये फाइलम सिलेन्टरेटा अन्तर्गत पर्ने जीवका विशेषताहरू पहिचान गर्नुहोस्।"
+          },
+          "options": [
+            {
+              "en": "Its body has numerous pores",
+              "ne": "यसको शरीरमा धेरै छिद्रहरू हुन्छन्"
+            },
+            {
+              "en": "It is found on land",
+              "ne": "यो जमीनमा पाइन्छ"
+            },
+            {
+              "en": "It moves with the help of tentacles",
+              "ne": "यसले टेन्टाकल्सको मद्दतले चाल देखाउँछ"
+            },
+            {
+              "en": "It is unicellular",
+              "ne": "एककोषीय हुन्छ"
+            }
+          ]
+        },
+        {
+          "id": "q1c",
+          "questionNumber": "1(c)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Which one of the given genetic codes represents the body of a male human?",
+            "ne": "तलकामध्ये कुन वंशाणुगत सङ्केतले पुरुष मानवको शरीरलाई जनाउँछ ?"
+          },
+          "options": [
+            {
+              "en": "22 + y",
+              "ne": "22 + y"
+            },
+            {
+              "en": "44 + xy",
+              "ne": "44 + xy"
+            },
+            {
+              "en": "44 + xx",
+              "ne": "44 + xx"
+            },
+            {
+              "en": "22 + x",
+              "ne": "22 + x"
+            }
+          ]
+        },
+        {
+          "id": "q1d",
+          "questionNumber": "1(d)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "What is the relationship between the weight of an object (w) and acceleration due to gravity (g)?",
+            "ne": "वस्तुको तौल (w) र गुरुत्वप्रवेग (g) बिचको सम्बन्ध कुन सही छ ?"
+          },
+          "options": [
+            {
+              "en": "W = g",
+              "ne": "W = g"
+            },
+            {
+              "en": "W ∝ g",
+              "ne": "W ∝ g"
+            },
+            {
+              "en": "W ∝ 1/g",
+              "ne": "W ∝ 1/g"
+            },
+            {
+              "en": "W = 2g",
+              "ne": "W = 2g"
+            }
+          ]
+        },
+        {
+          "id": "q1e",
+          "questionNumber": "1(e)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "What could be the gravitational force produced between object A and B in the given hypothetical condition shown in the figure? (A = 4 kg, B = 10 kg, distance = 2 m)",
+            "ne": "चित्रमा देखाइएको काल्पनिक अवस्थामा वस्तु A र B बिच उत्पन्न हुने गुरुत्वाकर्षण बल कति हुन्छ होला ? (A = 4 kg, B = 10 kg, दूरी = 2 m)"
+          },
+          "options": [
+            {
+              "en": "6.67 × 10⁻¹⁰ N",
+              "ne": "6.67 × 10⁻¹⁰ N"
+            },
+            {
+              "en": "6.67 × 10⁻¹¹ N",
+              "ne": "6.67 × 10⁻¹¹ N"
+            },
+            {
+              "en": "6.67 × 10⁻¹² N",
+              "ne": "6.67 × 10⁻¹² N"
+            },
+            {
+              "en": "6.67 × 10⁻¹³ N",
+              "ne": "6.67 × 10⁻¹³ N"
+            }
+          ],
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-gandaki/q1e-gravitation-A-B.png",
+            "caption": {
+              "en": "Two objects A (4 kg) and B (10 kg) separated by 2 m.",
+              "ne": "A (4 kg) र B (10 kg) वस्तुहरू 2 m दूरीमा।"
+            }
+          }
+        },
+        {
+          "id": "q1f",
+          "questionNumber": "1(f)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Which one of the following statements is correct about electromagnetic waves?",
+            "ne": "विद्युत चुम्बकीय तरङ्गको लागि तलकोमध्ये कुन तथ्य सही छ ?"
+          },
+          "options": [
+            {
+              "en": "Wavelength and frequency of violet ray are the highest.",
+              "ne": "वैजनी रङको किरणको तरङ्ग लम्बाइ र आवृति सबैभन्दा बढी हुन्छ।"
+            },
+            {
+              "en": "Wavelength of violet ray is less and frequency is high.",
+              "ne": "वैजनी रङको किरणको तरङ्ग लम्बाइ कम र आवृत्ति बढी हुन्छ।"
+            },
+            {
+              "en": "Wavelength and frequency of violet ray is the lowest.",
+              "ne": "वैजनी रङको किरणको तरङ्ग लम्बाइ र आवृत्ति सबैभन्दा थोरै हुन्छ।"
+            },
+            {
+              "en": "Wavelength of violet ray is max and frequency is less.",
+              "ne": "वैजनी रङको किरणको तरङ्ग लम्बाइ बढी र आवृत्ति कम छ।"
+            }
+          ]
+        },
+        {
+          "id": "q1g",
+          "questionNumber": "1(g)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "As shown in the figure, if the magnet is inserted into the solenoid, the needle of the galvanometer is deflected. What could be the reason for this?",
+            "ne": "चित्रमा देखाइए जस्तो चुम्बकलाई सोलेन्वाइड भित्र छिराउँदा ग्याल्भानोमिटरको सुई घुम्दछ। यसको कारण के होला ?"
+          },
+          "options": [
+            {
+              "en": "Motor effect",
+              "ne": "मोटर असर"
+            },
+            {
+              "en": "Electromagnetic induction",
+              "ne": "विद्युत चुम्बकीय उत्पादन"
+            },
+            {
+              "en": "Mutual induction",
+              "ne": "म्युचुअल इन्डक्सन"
+            },
+            {
+              "en": "Magnetic effect of current",
+              "ne": "विद्युतको चुम्बकीय असर"
+            }
+          ],
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-gandaki/q1g-solenoid-magnet.png",
+            "caption": {
+              "en": "A bar magnet (N-S) being inserted into a solenoid connected to a galvanometer.",
+              "ne": "ग्याल्भानोमिटरसँग जोडिएको सोलेन्वाइडभित्र बार म्याग्नेट (N-S) छिराइँदै।"
+            }
+          }
+        },
+        {
+          "id": "q1h",
+          "questionNumber": "1(h)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "A metal element has one electron in its valence shell. When this element reacts with a halogen of the third period, which compound is produced?",
+            "ne": "एउटा धातुको भ्यालेन्स सेलमा एउटा मात्र इलेक्ट्रोन छ। उक्त धातु तत्त्वले तेस्रो पिरियडमा भएको हेलोजनसँग रासायनिक प्रतिक्रिया गर्दा तलकामध्ये कुन यौगिक बनाउँछ ?"
+          },
+          "options": [
+            {
+              "en": "MgCl2",
+              "ne": "MgCl2"
+            },
+            {
+              "en": "CaCl2",
+              "ne": "CaCl2"
+            },
+            {
+              "en": "KCl",
+              "ne": "KCl"
+            },
+            {
+              "en": "NaBr",
+              "ne": "NaBr"
+            }
+          ]
+        },
+        {
+          "id": "q1i",
+          "questionNumber": "1(i)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Why is it important to know a person's blood type before blood transfusion?",
+            "ne": "रक्तदान गर्नुअघि व्यक्तिको रक्त समूह थाहा पाउनु किन महत्त्वपूर्ण छ ?"
+          },
+          "options": [
+            {
+              "en": "To know person's overall health",
+              "ne": "व्यक्तिको समग्र स्वास्थ्य थाहा पाउन"
+            },
+            {
+              "en": "To identify possible genetic disorder",
+              "ne": "सम्भावित वंशाणुगत डिसअर्डर पहिचान गर्न"
+            },
+            {
+              "en": "To prevent the possible fatal risk of the person",
+              "ne": "व्यक्तिको सम्भावित मृत्युको खतराबाट रोक्न"
+            },
+            {
+              "en": "To determine person's blood pressure",
+              "ne": "व्यक्तिको रक्तचाप निर्धारण गर्न"
+            }
+          ]
+        },
+        {
+          "id": "q1j",
+          "questionNumber": "1(j)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Which of the following group is a chemical insecticide?",
+            "ne": "तलकामध्ये कीटनापक रसायन समूह कुन हो ?"
+          },
+          "options": [
+            {
+              "en": "DDT, BHC, aldrin",
+              "ne": "डि.डि.टि., वि.एच.सी., एल्ड्रिन"
+            },
+            {
+              "en": "potassium chloride, benzene, benzoic acid",
+              "ne": "पोटासियम क्लोराइड, बेन्जिन, बेन्जोइक एसिड"
+            },
+            {
+              "en": "methoxy chloride, benzene, benzoic acid",
+              "ne": "मिथोक्सी क्लोराइड, बेन्जिन, बेन्जोइक एसिड"
+            },
+            {
+              "en": "potassium chloride, sodium lauryl sulphate, di-aldrin",
+              "ne": "पोटासियम क्लोराइड, सोडियम लरिल सल्फेट, डाइ एल्ड्रिन"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Section B — Very Short Answer Questions",
+        "ne": "खण्ड 'ख' — अति छोटो उत्तर प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Write very short answers to the following questions. (9 x 1 = 9)",
+        "ne": "तलका प्रश्नहरूको अति छोटो उत्तर लेख्नुहोस् : (९x१=९)"
+      },
+      "items": [
+        {
+          "id": "q2a",
+          "questionNumber": "2(a)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Write a precaution to be taken for digital well being.",
+            "ne": "डिजिटल आरोग्यताको लागि अपनाइने एउटा सजगता लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q2b",
+          "questionNumber": "2(b)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Write Archimedes' principle.",
+            "ne": "आर्किमिडिजको सिद्धान्त लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q2c",
+          "questionNumber": "2(c)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Write a reason for using water as a cooling agent.",
+            "ne": "पानीलाई चिस्याउने कार्यमा प्रयोग गर्नुको एउटा कारण लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q2d",
+          "questionNumber": "2(d)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Draw a ray diagram to show total internal reflection when a ray of light passes from water to air.",
+            "ne": "पानीबाट हावामा प्रकाशको किरण जाँदा पूर्ण आन्तरिक परावर्तन भएको प्रक्रिया चित्रद्वारा देखाउनुहोस्।"
+          }
+        },
+        {
+          "id": "q2e",
+          "questionNumber": "2(e)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Write any one way to increase the amount of induced electricity in a dynamo.",
+            "ne": "डाइनामोमा उत्पादन हुने विद्युतको मात्रा बढाउने कुनै एउटा उपाय लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q2f",
+          "questionNumber": "2(f)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Write a use of the organic compound given in the figure.",
+            "ne": "चित्रमा दिइएको कार्बोनिक यौगिकको एउटा उपयोगिता लेख्नुहोस्।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-gandaki/q2f-ethanol-structure.png",
+            "caption": {
+              "en": "Structural formula of ethanol (CH3-CH2-OH).",
+              "ne": "इथानोलको संरचना सूत्र (CH3-CH2-OH)।"
+            }
+          }
+        },
+        {
+          "id": "q2g",
+          "questionNumber": "2(g)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Draw a time-current graph of alternating current.",
+            "ne": "अल्टरनेटिड करेन्टको समय करेन्ट ग्राफ खिच्नुहोस्।"
+          }
+        },
+        {
+          "id": "q2h",
+          "questionNumber": "2(h)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Write a general molecular formula of alkyne.",
+            "ne": "अल्काइनको सामान्य आणविक सूत्र लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q2i",
+          "questionNumber": "2(i)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Write a difference between ethane and ethene.",
+            "ne": "इथेन र इथिनमा एउटा भिन्नता लेख्नुहोस्।"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Section C — Short Answer Questions",
+        "ne": "खण्ड 'ग' — छोटो उत्तर प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Write short answers to the following questions. (14 x 2 = 28)",
+        "ne": "तलका प्रश्नहरूको छोटो उत्तर लेख्नुहोस् : (१४x२=२८)"
+      },
+      "items": [
+        {
+          "id": "q3",
+          "questionNumber": "3",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Test the validity of the equation given below by unit-wise analysis: v² = u² + 2as.",
+            "ne": "एकाइगत विश्लेषण गरी तल दिइएको समीकरणको मान्यता परीक्षण गर्नुहोस्। v² = u² + 2as।"
+          }
+        },
+        {
+          "id": "q4",
+          "questionNumber": "4",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "In which division are moss and banana kept?",
+            "ne": "मस र केरा कुन कुन डिभिजनमा राखिएको छ ? लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q5",
+          "questionNumber": "5",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Write the phylum of the animal whose body is bilaterally symmetrical and whose body is covered by chitin, and also write the name of an organism of this phylum.",
+            "ne": "शरीरलाई दुई बराबर भागमा बाँड्न सकिने र बाहिरी आवरण काइटिनले बनेको जीवको फाइलम लेख्नुहोस् र उक्त फाइलममा पर्ने एउटा जीवको नाम पनि लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q6",
+          "questionNumber": "6",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Write one function each of worker bees during 7-11 days and during 18-20 days.",
+            "ne": "कर्मी मौरीले 7-11 दिनमा र 18-20 दिनमा गर्ने एक एकओटा कार्य लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q7",
+          "questionNumber": "7",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Identify the following figures and write any two differences between them. (Figure A: double-helix strand; Figure B: single zig-zag strand.)",
+            "ne": "दिइएका चित्रहरूको पहिचान गरि कुनै दुईओटा फरक लेख्नुहोस्। (चित्र A: डबल-हेलिक्स स्ट्र्यान्ड; चित्र B: एकल जिग-ज्याग स्ट्र्यान्ड।)"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-gandaki/q7-dna-rna-figures.png",
+            "caption": {
+              "en": "Figure A: a double-helix strand. Figure B: a single zig-zag strand.",
+              "ne": "चित्र A: डबल-हेलिक्स स्ट्र्यान्ड। चित्र B: एकल जिग-ज्याग स्ट्र्यान्ड।"
+            }
+          }
+        },
+        {
+          "id": "q8",
+          "questionNumber": "8",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Climate change is one cause of the extinction of animals. Give two other possible causes.",
+            "ne": "जनावरहरू लोप हुनुको एउटा कारण जलवायु परिवर्तन हो भने अन्य दुईओटा कारण लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q9",
+          "questionNumber": "9",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "\"There are plenty of possibilities of medicinal plants in Nepal. It is essential to make the local people aware in order to protect and use such medicinal plants.\" Give any two arguments to support this statement.",
+            "ne": "\"नेपालमा जडिबुटीजन्य औषधीको प्रचुर सम्भावना छ। यसको संरक्षण र प्रयोगका लागि स्थानीय जनतालाई सचेत गराउन आवश्यक छ।\" यस कथनको पक्षमा दुईओटा तर्क पेश गर्नुहोस्।"
+          }
+        },
+        {
+          "id": "q10",
+          "questionNumber": "10",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "What is free fall? Write the value of acceleration due to gravity when a body falls freely towards the surface of the Earth.",
+            "ne": "स्वतन्त्र खसाइ भनेको के हो ? कुनै वस्तु पृथ्वीको सतहतिर स्वतन्त्र खसाइमा रहँदा गुरुत्व प्रवेगको मान कति हुन्छ ?"
+          }
+        },
+        {
+          "id": "q11",
+          "questionNumber": "11",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Write any two differences between a closed universe and an open universe.",
+            "ne": "बन्द ब्रह्माण्ड र खुल्ला ब्रह्माण्डबिच पाइने दुईओटा भिन्नता लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q12",
+          "questionNumber": "12",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Write the valency of the most reactive metal and the most reactive non-metal from the given table (Period 3 elements: Na, Mg, Al, Si, P, S, Cl, Ar).",
+            "ne": "दिइएका तालिकामा अति सक्रिय धातु र अति सक्रिय अधातुको संयुज्यता कति कति हुन्छ ? लेख्नुहोस्। (तेस्रो पिरियडका तत्त्वहरू: Na, Mg, Al, Si, P, S, Cl, Ar)"
+          }
+        },
+        {
+          "id": "q13",
+          "questionNumber": "13",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Draw a necessary diagram of obtaining pure silver metal from impure silver by the electro-refining method, and label any one part of it.",
+            "ne": "अशुद्ध चाँदीको धाउबाट शुद्ध चाँदीको धातु प्राप्त गर्न अपनाउने इलेक्ट्रोरिफाइनिङ विधिको सफा चित्र बनाउनुहोस् र आवश्यक पर्ने सामग्री मध्ये कुनै एकको नाम लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q14",
+          "questionNumber": "14",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Study the given diagram and answer the questions: (i) How much upthrust is experienced by the stone? (ii) What is the mass of the stone if its weight in air is 7.35 N?",
+            "ne": "चित्रमा अध्ययन गरी निम्न प्रश्नहरूको उत्तर दिनुहोस्। (i) ढुङ्गामा पर्ने उर्ध्वचाप कति हुन्छ ? (ii) यदि हावामा ढुङ्गाको तौल 7.35 N छ भने ढुङ्गाको पिण्ड कति छ ?"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-gandaki/q14-eureka-can-stone.png",
+            "caption": {
+              "en": "A stone hangs from a spring balance, submerged in a Eureka can; displaced water overflows into a small container.",
+              "ne": "स्प्रिङ ब्यालेन्समा झुण्ड्याइएको ढुङ्गा युरेका क्यानमा डुबेको; ओभरफ्लो भएको पानी सानो भाँडोमा जम्मा।"
+            }
+          }
+        },
+        {
+          "id": "q15",
+          "questionNumber": "15",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "To avoid the negative effect of chemicals like calcium carbide on health, write two methods of ripening bananas grown on a farm using materials available at home.",
+            "ne": "क्याल्सियम कार्बाइड जस्ता रसायनले स्वास्थ्यमा पार्ने नकारात्मक असरबाट बच्न बारीमा फलेको केरालाई घरमै उपलब्ध सामग्रीहरूको प्रयोग गरेर पकाउने दुईओटा विधिहरू लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q16",
+          "questionNumber": "16",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "If the number of primary turns is 300, calculate the number of turns in the secondary coil in the given figure (Input 220 V AC mains, Output 44 V AC).",
+            "ne": "दिइएको चित्रमा प्राइमरी फन्काको सङ्ख्या 300 छ भने सेकेण्डरी क्वाइलमा फन्का फेराको सङ्ख्या पत्ता लगाउनुहोस्। (Input 220 V AC mains, Output 44 V AC)"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-gandaki/q16-transformer.png",
+            "caption": {
+              "en": "Transformer with core, primary winding (input 220V AC) and secondary winding (output 44V AC).",
+              "ne": "कोर, प्राइमरी वाइन्डिङ (इनपुट 220V AC) र सेकेण्डरी वाइन्डिङ (आउटपुट 44V AC) भएको ट्रान्सफर्मर।"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Section D — Long Answer Questions",
+        "ne": "खण्ड 'घ' — लामो उत्तर प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Write long answer of the following questions. (7 x 4 = 28)",
+        "ne": "तलका प्रश्नको लामो उत्तर लेख्नुहोस् : (७x४=२८)"
+      },
+      "items": [
+        {
+          "id": "q17",
+          "questionNumber": "17",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Write any four advantages of using digital communication in daily life.",
+            "ne": "डिजिटल सञ्चारबाट दैनिक जीवनमा हुनसक्ने चारओटा फाइदाहरू लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q18",
+          "questionNumber": "18",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Write any two causes of high blood pressure and two preventive measures of it.",
+            "ne": "उच्च रक्तचाप हुनुका दुई कारणहरू र यसका रोकथामका दुई उपायहरू लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q19",
+          "questionNumber": "19",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "According to Mendel's experiment, make a chart to show the offspring formed up to the F2 generation when a red flower (RR) pea plant is cross-pollinated with a white flower (rr) pea plant. Also state the phenotypic and genotypic ratio.",
+            "ne": "मेन्डलको प्रयोग अनुसार, एउटा रातो फूल फुल्ने केराउ (RR) र सेतो फूल फुल्ने केराउ (rr) बिच परपरागसेचन गराउँदा उत्पादन हुने F2 वंशसम्मको प्रक्रियालाई चार्टद्वारा देखाउनुहोस् र यसको फिनोटाइपिक र जिनोटाइपिक अनुपात पनि लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q20",
+          "questionNumber": "20",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Study the given graph (density of water vs. temperature, 0°C to 10°C, showing a peak near 4°C). (i) Which special character of water is shown in the graph? (ii) How are the density and volume of water affected when it is heated from 0°C to 10°C? (iii) How are aquatic animals benefited from this phenomenon?",
+            "ne": "दिइएको ग्राफको अध्ययन गर्नुहोस् (पानीको घनत्व र तापक्रम, 0°C देखि 10°C सम्म, 4°C नजिकै उच्चतम बिन्दु देखाउँदै)। (i) ग्राफले पानीको कुन विशेष गुण देखाउन खोजेको छ ? (ii) पानीलाई 0°C बाट 10°C सम्म तताउँदा यसको घनत्व र आयतनमा के फरक परेको छ ? (iii) यस प्रक्रियाले जलचरहरूलाई कसरी फाइदा पुगेको छ ?"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-gandaki/q20-water-density-graph.png",
+            "caption": {
+              "en": "Graph of density of water (y-axis) vs. temperature in °C (x-axis), 0-10°C, peaking near 4°C.",
+              "ne": "पानीको घनत्व (y-अक्ष) र तापक्रम °C (x-अक्ष) को ग्राफ, 0-10°C, 4°C नजिकै उच्चतम।"
+            }
+          }
+        },
+        {
+          "id": "q21",
+          "questionNumber": "21",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Two chemical equations are given: (i) 2KClO3 --(MnO2/Δ)--> 2KCl + 3O2 ; (ii) 2Na + Cl2 --(Sunlight/Δ)--> 2NaCl. (a) Write any two differences between equation (i) and equation (ii). (b) What are the factors that affect the rate of chemical reaction in the given chemical equations?",
+            "ne": "दुईओटा रासायनिक समीकरणहरू दिइएको छ। (i) 2KClO3 --(MnO2/Δ)--> 2KCl + 3O2 ; (ii) 2Na + Cl2 --(Sunlight/Δ)--> 2NaCl (a) समीकरण (i) र समीकरण (ii) मा कुनै दुईओटा फरक लेख्नुहोस्। (b) दिइएका रासायनिक प्रतिक्रियाहरूमा रासायनिक प्रतिक्रियाको दरलाई प्रभाव पार्ने तत्त्वहरू के के हुन् ?"
+          }
+        },
+        {
+          "id": "q22",
+          "questionNumber": "22",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "One person saw water on the road while walking on a coal-tarred road in an extremely high temperature. But he did not find water when he reached the place. (i) What is this condition called? (ii) What is the main cause of this condition? (iii) Write any two conditions required for this process to occur.",
+            "ne": "एक जना व्यक्तिले अत्यधिक तापक्रम भएको ठाउँमा कालोपत्र सडकमा हिँड्दा अगाडि पानी रहेको देखे। तर उनी त्यहाँ पुग्दा पानी पाइएनन्। (i) यो अवस्थालाई के भनिन्छ ? (ii) यो अवस्थाको मुख्य कारण के हो ? (iii) यस प्रक्रियाका लागि आवश्यक पर्ने दुई अवस्थाहरू लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q23",
+          "questionNumber": "23",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Gandaki Province",
+          "question": {
+            "en": "Observe the given figure and answer the following questions. (Ammonia gas preparation setup: NH4Cl + Ca(OH)2 heated, passed through a CaO drying tube into a gas jar.) (i) Which gas is collected in the gas jar? (ii) Write a use of the gas formed in this process. (iii) Why is CaO used while preparing this gas? (iv) If a wet red litmus paper is inserted inside the gas jar, what change will be seen in the litmus paper?",
+            "ne": "दिइएको चित्र अध्ययन गरी सोधिएको प्रश्नहरूको उत्तर लेख्नुहोस्। (अमोनिया ग्यास तयार पार्ने उपकरण: NH4Cl + Ca(OH)2 तताउँदा निस्कने ग्यास CaO भएको ट्यूबबाट सुकाइएर ग्यास जारमा सङ्कलन।) (i) ग्यास जारमा कुन ग्यास जम्मा भएको छ। (ii) यसरी बन्ने ग्यासको एउटा उपयोगिता लेख्नुहोस्। (iii) उक्त ग्यास तयार पार्ने क्रममा CaO को प्रयोग किन गरिन्छ ? (iv) ग्यास जारमा भिजेको रातो लिटमस पेपर राख्दा कस्तो परिवर्तन देखिन्छ ?"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-gandaki/q23-nh3-preparation.png",
+            "caption": {
+              "en": "Lab preparation of ammonia gas: NH4Cl + Ca(OH)2 heated, gas dried through CaO, collected in an upright gas jar.",
+              "ne": "अमोनिया ग्यास प्रयोगशाला निर्माण: NH4Cl + Ca(OH)2 तताउँदा, CaO ले सुकाएर सुल्टो ग्यास जारमा सङ्कलन।"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

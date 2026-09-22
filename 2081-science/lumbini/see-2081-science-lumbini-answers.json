@@ -1,0 +1,1383 @@
+{
+  "chapterId": "see-2081-science-lumbini-ans",
+  "subjectId": "science",
+  "classLevel": "10",
+  "province": "Lumbini",
+  "examBoard": "SEE (National Examinations Board, Nepal)",
+  "examYear": "2081 (2025 AD)",
+  "paperCode": "RE-1041'LP'",
+  "fullMarks": 75,
+  "docType": "answerKey",
+  "linkedQuestionPaperId": "see-2081-science-lumbini-qp",
+  "titleEn": "SEE 2081 (2025) Science — Model Answers (Set LP / Lumbini Province)",
+  "titleNe": "SEE २०८१ (२०२५) विज्ञान — नमूना उत्तर (सेट LP / लुम्बिनी प्रदेश)",
+  "sourceNote": {
+    "en": "Digitised from the uploaded scan of the SEE 2081 (2025) Science question paper, set 'LP'. Note: following the same naming pattern as the earlier 'BP' (Bagmati) and 'GP' (Gandaki) papers, 'LP' most likely stands for Lumbini Province rather than Lalitpur district (Lalitpur is a district within Bagmati Province, and would not get its own separate province-level paper code) — please double check this against the original paper/cover page if you have it.",
+    "ne": "यो फाइल SEE 2081 (2025) विज्ञान प्रश्नपत्र, सेट 'LP' को स्क्यान गरिएको प्रतिबाट तयार पारिएको हो। नोट: अघिका 'BP' (बागमती) र 'GP' (गण्डकी) प्रश्नपत्रहरूको नामकरण ढाँचा हेर्दा 'LP' ले ललितपुर जिल्लालाई होइन, लुम्बिनी प्रदेशलाई जनाउने सम्भावना बढी देखिन्छ (ललितपुर बागमती प्रदेशभित्रको जिल्ला भएकाले यसको छुट्टै प्रदेश-स्तरको प्रश्नपत्र कोड हुने सम्भावना कम छ) — मूल प्रश्नपत्रको कभर पृष्ठसँग यो कुरा जाँच्नुहोस्।"
+  },
+  "answerLanguageLevelNote": {
+    "en": "Answers and step-by-step solutions are written at a Class 10 (SEE) level of understanding, in simple bilingual language matching the question paper. Q1(d)'s numeric values and Q1(e)'s duplicated option were only partially legible/consistent in the scan — please verify against the original before publishing.",
+    "ne": "उत्तर तथा चरणबद्ध हलहरू कक्षा १० (SEE) स्तरको सजिलो र प्रश्नपत्रसँग मिल्दो द्विभाषिक भाषामा लेखिएका छन्। प्रश्न 1(d) का सङ्ख्यात्मक मान र प्रश्न 1(e) को दोहोरिएको विकल्प स्क्यानमा पूर्ण स्पष्ट/सुसंगत थिएनन् — प्रकाशित गर्नुअघि मूल प्रतिसँग जाँच्नुहोस्।"
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "text": {
+        "en": "Model Answers — Science and Technology, SEE 2081 (Set LP)",
+        "ne": "नमूना उत्तर — विज्ञान तथा प्रविधि, SEE २०८१ (सेट LP)"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "These are model/reference answers written for Class 10 students. For long-answer numerical questions, full step-by-step working is included.",
+        "ne": "यी कक्षा १० का विद्यार्थीका लागि तयार पारिएका नमूना/सन्दर्भ उत्तरहरू हुन्। लामो उत्तर र सङ्ख्यात्मक प्रश्नहरूमा पूर्ण चरणबद्ध हल समावेश गरिएको छ।"
+      }
+    }
+  ],
+  "questionSections": [
+    {
+      "title": {
+        "en": "Section A — Multiple Choice Questions",
+        "ne": "खण्ड 'क' — बहुवैकल्पिक प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Choose the best alternative to the following questions and write in the answer sheet. (10 x 1 = 10)",
+        "ne": "तलका प्रश्नहरूको ठिक विकल्प छानी उत्तरपुस्तिकामा लेख्नुहोस्। (१०x१=१०)"
+      },
+      "items": [
+        {
+          "id": "q1a",
+          "questionNumber": "1(a)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Lalitpur",
+          "question": {
+            "en": "Which of the following is an audio file format?",
+            "ne": "तलका मध्ये अडियो फाइल फर्मेट कुन हो ?"
+          },
+          "options": [
+            {
+              "en": "SVI",
+              "ne": "SVI"
+            },
+            {
+              "en": "WAV",
+              "ne": "WAV"
+            },
+            {
+              "en": "MOV",
+              "ne": "MOV"
+            },
+            {
+              "en": "3GP",
+              "ne": "3GP"
+            }
+          ],
+          "answer": {
+            "en": "WAV",
+            "ne": "WAV"
+          },
+          "solution": {
+            "en": "WAV (Waveform Audio File Format) is a standard audio file format. MOV and 3GP are video file formats, and SVI is not a standard file format.",
+            "ne": "WAV (Waveform Audio File Format) एक मानक अडियो फाइल ढाँचा हो। MOV र 3GP भिडियो फाइल ढाँचा हुन्, र SVI कुनै मानक फाइल ढाँचा होइन।"
+          },
+          "correctOption": "ii"
+        },
+        {
+          "id": "q1b",
+          "questionNumber": "1(b)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Lalitpur",
+          "question": {
+            "en": "Which Nitrogen base is found only in the given figure?",
+            "ne": "चित्रमा दिइएको न्युक्लिक एसिडमा मात्र पाइने नाइट्रोजन वेस कुन हो ?"
+          },
+          "options": [
+            {
+              "en": "Adenine",
+              "ne": "एडिनिन"
+            },
+            {
+              "en": "Guanine",
+              "ne": "ग्वानिन"
+            },
+            {
+              "en": "Cytosine",
+              "ne": "साइटोसिन"
+            },
+            {
+              "en": "Thymine",
+              "ne": "थाएमिन"
+            }
+          ],
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-lalitpur/q1b-dna-double-helix.png",
+            "caption": {
+              "en": "DNA double helix.",
+              "ne": "DNA डबल हेलिक्स।"
+            }
+          },
+          "answer": {
+            "en": "Thymine",
+            "ne": "थाएमिन"
+          },
+          "solution": {
+            "en": "The figure shows a DNA double helix. Thymine is a nitrogenous base found only in DNA; in RNA, Thymine is replaced by Uracil. Adenine, Guanine and Cytosine are common to both DNA and RNA.",
+            "ne": "चित्रमा DNA को डबल हेलिक्स देखाइएको छ। थाएमिन DNA मा मात्र पाइने नाइट्रोजन वेस हो; RNA मा थाएमिनको सट्टा युरासिल हुन्छ। एडिनिन, ग्वानिन र साइटोसिन DNA र RNA दुवैमा पाइन्छन्।"
+          },
+          "correctOption": "iv"
+        },
+        {
+          "id": "q1c",
+          "questionNumber": "1(c)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Lalitpur",
+          "question": {
+            "en": "Which of the following is a feature of Aves (birds)?",
+            "ne": "पंक्षीहरूलाई पहिचान गर्ने गुण कुन हो ?"
+          },
+          "options": [
+            {
+              "en": "Respire through gills",
+              "ne": "गिल्सले सास फेर्ने"
+            },
+            {
+              "en": "Poikilothermic",
+              "ne": "विषमतापी"
+            },
+            {
+              "en": "Viviparous",
+              "ne": "सिधै बच्चा जन्माउने"
+            },
+            {
+              "en": "Have beak and feathers",
+              "ne": "मुखमा चुच्चो र शरीरमा प्वाँख"
+            }
+          ],
+          "answer": {
+            "en": "Have beak and feathers",
+            "ne": "मुखमा चुच्चो र शरीरमा प्वाँख"
+          },
+          "solution": {
+            "en": "Aves (birds) are characterised by having a beak and feathers, breathing through lungs (not gills), being warm-blooded (homeothermic, not poikilothermic), and being oviparous (egg-laying, not viviparous).",
+            "ne": "एभिज (चराहरू) मा मुखमा चुच्चो र शरीरमा प्वाँख हुनु मुख्य विशेषता हो; तिनीहरूले फोक्सोले सास फेर्छन् (गिल्सले होइन), तातो रगत (होमियोथर्मिक, विषमतापी होइन) भएका र अण्डा पार्ने (सिधै बच्चा जन्माउने होइन) हुन्छन्।"
+          },
+          "correctOption": "iv"
+        },
+        {
+          "id": "q1d",
+          "questionNumber": "1(d)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Lalitpur",
+          "question": {
+            "en": "In the given figure, what is the upthrust given by the liquid on the immersed body?",
+            "ne": "दिइएको चित्रमा तरल पदार्थले वस्तुमा लगाउने उर्ध्वचाप कति हुन्छ ?"
+          },
+          "options": [
+            {
+              "en": "65 N",
+              "ne": "65 N"
+            },
+            {
+              "en": "50 N",
+              "ne": "50 N"
+            },
+            {
+              "en": "35 N",
+              "ne": "35 N"
+            },
+            {
+              "en": "15 N",
+              "ne": "15 N"
+            }
+          ],
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-lalitpur/q1d-upthrust-spring-balance.png",
+            "caption": {
+              "en": "Two spring balances: one holding the body in air, one with the body submerged in liquid.",
+              "ne": "दुईओटा स्प्रिङ ब्यालेन्स: एउटा हावामा वस्तु झुण्ड्याइएको, अर्को तरलमा वस्तु डुबाइएको।"
+            }
+          },
+          "answer": {
+            "en": "35 N",
+            "ne": "35 N"
+          },
+          "solution": {
+            "en": "Upthrust = true weight in air − apparent weight when immersed in liquid. Based on the standard version of this classic problem, the weight in air is 50 N and the apparent weight when submerged is 15 N, giving upthrust = 50 − 15 = 35 N. (Note: the scanned figure shows a value that looks like '60N' for the weight in air, which does not give any of the listed options when combined with 15 N — this is very likely a scanning/printing artefact where '50N' was misread as '60N'. The value 35 N is the only option consistent with a clean Archimedes'-principle calculation, so it is used here; please verify the exact figure values against the original paper.)",
+            "ne": "उर्ध्वचाप = हावामा वस्तुको वास्तविक तौल − तरलमा डुबाउँदा देखिने आभासी तौल। यस प्रकारको मानक प्रश्नमा सामान्यतया हावामा तौल 50 N र डुबाउँदाको आभासी तौल 15 N हुन्छ, जसबाट उर्ध्वचाप = 50 − 15 = 35 N हुन्छ। (नोट: स्क्यान गरिएको चित्रमा हावामा तौल '60N' जस्तो देखिन्छ, तर यसलाई 15 N सँग जोड्दा दिइएका कुनै पनि उत्तरसँग मेल खाँदैन — यो सम्भवतः स्क्यानिङ/छपाइको त्रुटि हो जहाँ '50N' लाई '60N' भनी गलत पढियो। 35 N मात्र आर्किमिडिजको सिद्धान्तअनुसार सफा हिसाबसँग मेल खाने विकल्प भएकाले यहाँ प्रयोग गरिएको छ; कृपया मूल प्रश्नपत्रसँग वास्तविक मान जाँच्नुहोस्।)"
+          },
+          "correctOption": "iii",
+          "solutionTable": {
+            "headers": [
+              {
+                "en": "Quantity",
+                "ne": "परिमाण"
+              },
+              {
+                "en": "Value (assumed)",
+                "ne": "मान (अनुमानित)"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "Weight in air",
+                  "ne": "हावामा तौल"
+                },
+                {
+                  "en": "50 N",
+                  "ne": "50 N"
+                }
+              ],
+              [
+                {
+                  "en": "Apparent weight in liquid",
+                  "ne": "तरलमा आभासी तौल"
+                },
+                {
+                  "en": "15 N",
+                  "ne": "15 N"
+                }
+              ],
+              [
+                {
+                  "en": "Upthrust = difference",
+                  "ne": "उर्ध्वचाप = फरक"
+                },
+                {
+                  "en": "35 N",
+                  "ne": "35 N"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "q1e",
+          "questionNumber": "1(e)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Lalitpur",
+          "question": {
+            "en": "What is the speed of light in diamond?",
+            "ne": "हिरामा प्रकाशको वेग कति हुन्छ ?"
+          },
+          "options": [
+            {
+              "en": "2.5 × 10⁸ m/s",
+              "ne": "2.5 × 10⁸ m/s"
+            },
+            {
+              "en": "1.24 × 10⁸ m/s",
+              "ne": "1.24 × 10⁸ m/s"
+            },
+            {
+              "en": "2.5 × 10⁸ m/s",
+              "ne": "2.5 × 10⁸ m/s"
+            },
+            {
+              "en": "3 × 10⁸ m/s",
+              "ne": "3 × 10⁸ m/s"
+            }
+          ],
+          "answer": {
+            "en": "1.24 × 10⁸ m/s",
+            "ne": "1.24 × 10⁸ m/s"
+          },
+          "solution": {
+            "en": "Speed of light in a medium v = c/n, where n is the refractive index. Diamond has a refractive index of about 2.42, so v = 3×10⁸/2.42 ≈ 1.24×10⁸ m/s. (Note: options (i) and (iii) are both printed as '2.5×10⁸ m/s' in the scanned paper — likely a printing duplication — but this does not affect the correct answer, option (ii).)",
+            "ne": "माध्यममा प्रकाशको वेग v = c/n, जहाँ n रिफ्र्याक्टिभ इन्डेक्स हो। हिराको रिफ्र्याक्टिभ इन्डेक्स लगभग 2.42 हुन्छ, त्यसैले v = 3×10⁸/2.42 ≈ 1.24×10⁸ m/s हुन्छ। (नोट: स्क्यान गरिएको प्रश्नपत्रमा विकल्प (i) र (iii) दुवैमा '2.5×10⁸ m/s' नै छापिएको छ — सम्भवतः छपाइको त्रुटि — तर यसले सही उत्तर, विकल्प (ii), लाई असर गर्दैन।)"
+          },
+          "correctOption": "ii"
+        },
+        {
+          "id": "q1f",
+          "questionNumber": "1(f)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Lalitpur",
+          "question": {
+            "en": "For how long does a stone remain in air when it is thrown upward with an initial velocity of 20 m/s?",
+            "ne": "20 m/s को गतिमा आकाशतिर फालिएको ढुङ्गा कति समयसम्म हावामा रहन्छ ?"
+          },
+          "options": [
+            {
+              "en": "2 s",
+              "ne": "2 s"
+            },
+            {
+              "en": "4 s",
+              "ne": "4 s"
+            },
+            {
+              "en": "10 s",
+              "ne": "10 s"
+            },
+            {
+              "en": "20 s",
+              "ne": "20 s"
+            }
+          ],
+          "answer": {
+            "en": "4 s",
+            "ne": "4 s"
+          },
+          "solution": {
+            "en": "Time of flight for a body thrown upward and returning to the same point: T = 2u/g. Using u = 20 m/s and g ≈ 10 m/s² (standard approximation), T = 2×20/10 = 4 s.",
+            "ne": "माथितिर फालिएको वस्तु उही बिन्दुमा फर्किन लाग्ने समय: T = 2u/g। u = 20 m/s र g ≈ 10 m/s² (मानक अनुमानित मान) प्रयोग गर्दा, T = 2×20/10 = 4 s हुन्छ।"
+          },
+          "correctOption": "ii"
+        },
+        {
+          "id": "q1g",
+          "questionNumber": "1(g)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Lalitpur",
+          "question": {
+            "en": "If equal heat is supplied to equal mass of water and kerosene, which of the following facts is correct?",
+            "ne": "समान पिण्ड भएको पानी र मट्टितेललाई बराबर ताप दिई तताइएको छ भने, तलको मध्ये कुन तर्क सही छ ?"
+          },
+          "options": [
+            {
+              "en": "Kerosene has higher temperature than water",
+              "ne": "पानीको भन्दा मट्टितेलको तापक्रम बढी हुन्छ"
+            },
+            {
+              "en": "Both of them have the same temperature",
+              "ne": "दुवैको तापक्रम समान हुन्छ"
+            },
+            {
+              "en": "Kerosene has lower temperature than water",
+              "ne": "पानीको भन्दा मट्टितेलको तापक्रम कम हुन्छ"
+            },
+            {
+              "en": "Heat does not affect temperature",
+              "ne": "तापले तापक्रमलाई कुनै असर गर्दैन"
+            }
+          ],
+          "answer": {
+            "en": "Kerosene has higher temperature than water",
+            "ne": "पानीको भन्दा मट्टितेलको तापक्रम बढी हुन्छ"
+          },
+          "solution": {
+            "en": "Temperature rise ΔT = Q/(mc). For equal heat Q and equal mass m, ΔT is inversely proportional to specific heat capacity c. Since kerosene has a lower specific heat capacity than water, its temperature rises more for the same heat input, so kerosene ends up at a higher temperature than water.",
+            "ne": "तापक्रम वृद्धि ΔT = Q/(mc) हुन्छ। बराबर ताप Q र बराबर पिण्ड m का लागि, ΔT विशिष्ट तापधारण क्षमता c सँग व्युत्क्रमानुपाती हुन्छ। मट्टितेलको विशिष्ट तापधारण क्षमता पानीभन्दा कम भएकाले, उस्तै तापमा मट्टितेलको तापक्रम बढी बढ्छ, त्यसैले मट्टितेल पानीभन्दा बढी तातो हुन्छ।"
+          },
+          "correctOption": "i"
+        },
+        {
+          "id": "q1h",
+          "questionNumber": "1(h)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Lalitpur",
+          "question": {
+            "en": "If a current carrying conductor is placed in a permanent magnetic field, the conductor vibrates. What is such effect called?",
+            "ne": "यदि धाराविद्युत प्रवाह भएको सुचालकलाई स्थायी चुम्बकीय क्षेत्रमा राख्दा सुचालक हल्लिन्छ भने त्यो असरलाई के भनिन्छ ?"
+          },
+          "options": [
+            {
+              "en": "Magnetic effect",
+              "ne": "चुम्बकीय असर"
+            },
+            {
+              "en": "Effect of electromagnetic induction",
+              "ne": "विद्युत चुम्बकीय उत्पादनको असर"
+            },
+            {
+              "en": "Mutual induction effect",
+              "ne": "म्युचुअल इन्डक्सन असर"
+            },
+            {
+              "en": "Motor effect",
+              "ne": "मोटर असर"
+            }
+          ],
+          "answer": {
+            "en": "Motor effect",
+            "ne": "मोटर असर"
+          },
+          "solution": {
+            "en": "The motor effect describes the force (and resulting motion/vibration) experienced by a current-carrying conductor placed in a magnetic field, given by F = BIL. This is the working principle of electric motors.",
+            "ne": "मोटर असरले चुम्बकीय क्षेत्रमा राखिएको धाराप्रवाह भएको सुचालकमा लाग्ने बल (र त्यसबाट हुने चाल/कम्पन) लाई जनाउँछ, जसलाई F = BIL सूत्रले दिन्छ। यो नै विद्युत मोटरको काम गर्ने सिद्धान्त हो।"
+          },
+          "correctOption": "iv"
+        },
+        {
+          "id": "q1i",
+          "questionNumber": "1(i)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Lalitpur",
+          "question": {
+            "en": "Which of the following is an ore of copper?",
+            "ne": "तलका मध्ये तामाको धाउ कुन हो ?"
+          },
+          "options": [
+            {
+              "en": "Chalcopyrite (CuFeS2)",
+              "ne": "चाल्कोपाइराइट (CuFeS2)"
+            },
+            {
+              "en": "Argentite (Ag2S)",
+              "ne": "अर्जेन्टाइट (Ag2S)"
+            },
+            {
+              "en": "Hematite (Fe2O3)",
+              "ne": "हेमाटाइट (Fe2O3)"
+            },
+            {
+              "en": "Bauxite (Al2O3)",
+              "ne": "बक्साइट (Al2O3)"
+            }
+          ],
+          "answer": {
+            "en": "Chalcopyrite (CuFeS2)",
+            "ne": "चाल्कोपाइराइट (CuFeS2)"
+          },
+          "solution": {
+            "en": "Chalcopyrite (CuFeS2) is a major ore of copper. Argentite (Ag2S) is an ore of silver, Hematite (Fe2O3) is an ore of iron, and Bauxite (Al2O3) is an ore of aluminium.",
+            "ne": "चाल्कोपाइराइट (CuFeS2) तामाको एक प्रमुख धाउ हो। अर्जेन्टाइट (Ag2S) चाँदीको धाउ हो, हेमाटाइट (Fe2O3) फलामको धाउ हो, र बक्साइट (Al2O3) एल्युमिनियमको धाउ हो।"
+          },
+          "correctOption": "i"
+        },
+        {
+          "id": "q1j",
+          "questionNumber": "1(j)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Lalitpur",
+          "question": {
+            "en": "A statement and two arguments are given below. Statement: Insecticide accumulating/persisting in the environment is a type of (non-biodegradable) insecticide. Argument 1: The insecticide does not degrade quickly in the environment. Argument 2: It degrades gradually when it comes in contact with air and water. Which of the following is correct?",
+            "ne": "तल एउटा कथन र दुईओटा तर्क दिइएको छ । कथन : \"वातावरणमा थुप्रिँदै जाने विपादी (नकारात्मक रूपले नष्ट नहुने) विपादीको एउटा प्रकार हो।\" तर्क १ : विपादी वातावरणमा छिट्टै क्षय नहुनु। तर्क २ : हावा र पानीको सम्पर्कपछि विस्तारै क्षय हुँदै जानु। तलका मध्ये कुन सही छ ?"
+          },
+          "options": [
+            {
+              "en": "Statement and argument 2 are correct but argument 1 is incorrect",
+              "ne": "कथन र तर्क २ सही तर तर्क १ गलत"
+            },
+            {
+              "en": "Statement and argument 2 are incorrect but argument 1 is correct",
+              "ne": "कथन र तर्क २ गलत तर तर्क १ सही"
+            },
+            {
+              "en": "Statement and both arguments are correct",
+              "ne": "कथन र दुवै तर्क सही छन्"
+            },
+            {
+              "en": "Statement and both arguments are incorrect",
+              "ne": "कथन र दुवै तर्क गलत छन्"
+            }
+          ],
+          "answer": {
+            "en": "Statement and both arguments are correct",
+            "ne": "कथन र दुवै तर्क सही छन्"
+          },
+          "solution": {
+            "en": "Non-biodegradable/persistent insecticides (like DDT) do not break down quickly in the environment (Argument 1) — this is exactly why they are considered a concerning, persistent type of insecticide, matching the statement. At the same time, such insecticides do very slowly degrade when repeatedly exposed to air, water and sunlight over a long period (Argument 2), which is also a true description of their behaviour rather than a contradiction. So both arguments support/are consistent with the statement.",
+            "ne": "गैर-जैविकरूपान्तरणीय/लामो समयसम्म रहने विषादीहरू (जस्तै DDT) वातावरणमा छिट्टै क्षय हुँदैनन् (तर्क १) — यही कारणले तिनीहरूलाई चिन्ताजनक, लामो समय टिक्ने प्रकारको विषादी मानिन्छ, जुन कथनसँग मेल खान्छ। साथै, यस्ता विषादीहरू लामो समयसम्म हावा, पानी र सूर्यको प्रकाशको सम्पर्कमा रहँदा विस्तारै क्षय हुँदै जान्छन् पनि (तर्क २), जुन विरोधाभासी नभई तिनीहरूको वास्तविक व्यवहारको सही वर्णन हो। त्यसैले दुवै तर्क कथनसँग मेल खान्छन्/समर्थन गर्छन्।"
+          },
+          "correctOption": "iii"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Section B — Very Short Answer Questions",
+        "ne": "खण्ड 'ख' — अति छोटो उत्तर प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Write very short answers to the following questions. (9 x 1 = 9)",
+        "ne": "तलका प्रश्नहरूको अति छोटो उत्तर लेख्नुहोस् : (९x१=९)"
+      },
+      "items": [
+        {
+          "id": "q2a",
+          "questionNumber": "2(a)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Lalitpur",
+          "question": {
+            "en": "Write the fundamental units included in the unit of force.",
+            "ne": "बलको एकाइमा संलग्न आधारभूत एकाईहरू लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "Force = mass × acceleration; its SI unit is the Newton, made up of the fundamental units kilogram (mass), metre (length) and second (time) — i.e. kg·m·s⁻².",
+            "ne": "बल = पिण्ड × त्वरण; यसको SI एकाई न्युटन हो, जुन आधारभूत एकाइहरू किलोग्राम (पिण्ड), मिटर (लम्बाइ) र सेकेन्ड (समय) बाट बनेको हुन्छ — अर्थात् kg·m·s⁻²।"
+          }
+        },
+        {
+          "id": "q2b",
+          "questionNumber": "2(b)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Lalitpur",
+          "question": {
+            "en": "Write a similarity found in aves and mammals.",
+            "ne": "पंक्षी र स्तनधारी जनावरमा पाइने एउटा समानता लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "Both aves (birds) and mammals are warm-blooded (homeothermic) animals — they maintain a constant body temperature regardless of the surrounding environment.",
+            "ne": "एभिज (चराहरू) र स्तनधारी दुवै तातो रगत (होमियोथर्मिक) जनावर हुन् — वरपरको वातावरण जस्तोसुकै भए पनि तिनीहरूले आफ्नो शरीरको तापक्रम स्थिर राख्छन्।"
+          }
+        },
+        {
+          "id": "q2c",
+          "questionNumber": "2(c)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Lalitpur",
+          "question": {
+            "en": "Which hybrid animal is produced by the cross between zebra and horse?",
+            "ne": "जेब्रा र घोडाबिच क्रस प्रजनन गराएर उत्पादन हुने ठिमाहा जनावर कुन हो ?"
+          },
+          "answer": {
+            "en": "Zorse (also called a Zebroid).",
+            "ne": "जोर्स (Zorse, जसलाई जेब्रोइड पनि भनिन्छ)।"
+          }
+        },
+        {
+          "id": "q2d",
+          "questionNumber": "2(d)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Lalitpur",
+          "question": {
+            "en": "Mention any one suggestion to preserve endangered animals.",
+            "ne": "दुर्लभ जनावरहरू संरक्षण गर्नको लागि कुनै एक महत्त्वपूर्ण सुझाव दिनुहोस्।"
+          },
+          "answer": {
+            "en": "One key suggestion is to establish and effectively manage protected areas (national parks, wildlife reserves) and strictly enforce anti-poaching laws to protect endangered animals and their habitat.",
+            "ne": "एउटा महत्त्वपूर्ण सुझाव भनेको संरक्षित क्षेत्रहरू (राष्ट्रिय निकुञ्ज, वन्यजन्तु आरक्ष) स्थापना गरी प्रभावकारी रूपमा व्यवस्थापन गर्नु र दुर्लभ जनावर तथा तिनका बासस्थान जोगाउन अवैध शिकारविरुद्ध कडाइका साथ कानुन लागू गर्नु हो।"
+          }
+        },
+        {
+          "id": "q2e",
+          "questionNumber": "2(e)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Lalitpur",
+          "question": {
+            "en": "Write an instrument based on Pascal's law.",
+            "ne": "पास्कलको नियममा आधारित एउटा उपकरणको नाम लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "Hydraulic press (or hydraulic jack/hydraulic brake) is an instrument based on Pascal's law.",
+            "ne": "हाइड्रोलिक प्रेस (वा हाइड्रोलिक ज्याक/हाइड्रोलिक ब्रेक) पास्कलको नियममा आधारित उपकरण हो।"
+          }
+        },
+        {
+          "id": "q2f",
+          "questionNumber": "2(f)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Lalitpur",
+          "question": {
+            "en": "Mention one benefit of the anomalous expansion of water.",
+            "ne": "पानीको असाधारण प्रसारले हुने एउटा फाइदा लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "Because water has its maximum density at 4°C, the bottom layer of a frozen lake or pond stays liquid at about 4°C even while the surface freezes into ice — this allows fish and other aquatic animals to survive through winter.",
+            "ne": "पानीको घनत्व 4°C मा सबैभन्दा बढी हुने भएकाले, जमेको तलाउ वा पोखरीको सतह बरफ बने पनि तलको तह करिब 4°C मा तरल नै रहन्छ — यसले माछा र अन्य जलचरहरूलाई जाडो याममा पनि बाँच्न मद्दत गर्छ।"
+          }
+        },
+        {
+          "id": "q2g",
+          "questionNumber": "2(g)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Lalitpur",
+          "question": {
+            "en": "Write a balanced chemical equation of the formation of white powder after burning a magnesium ribbon.",
+            "ne": "म्याग्नेसियम रिवनलाई जलाउँदा सेतो धुलो बन्ने प्रक्रियाको सन्तुलित रासायनिक समीकरण लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "2Mg + O2 -> 2MgO",
+            "ne": "2Mg + O2 -> 2MgO"
+          },
+          "solution": {
+            "en": "Magnesium ribbon burns in the oxygen of air to form magnesium oxide, a white powder. The equation is already balanced: 2 atoms of Mg react with 1 molecule of O2 to give 2 formula units of MgO.",
+            "ne": "म्याग्नेसियम रिवन हावाको अक्सिजनमा जलेर म्याग्नेसियम अक्साइड, एक सेतो धुलो, बनाउँछ। यो समीकरण पहिल्यै सन्तुलित छ: 2 ओटा Mg परमाणु 1 ओटा O2 अणुसँग प्रतिक्रिया गरी 2 ओटा MgO बनाउँछ।"
+          }
+        },
+        {
+          "id": "q2h",
+          "questionNumber": "2(h)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Lalitpur",
+          "question": {
+            "en": "Write a difference between roasting and calcination.",
+            "ne": "रोस्टिङ र क्याल्सिनेशन बिचमा एउटा फरक लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "Roasting is heating an ore strongly in the presence of excess air/oxygen, whereas calcination is heating an ore strongly in the absence (or very limited supply) of air.",
+            "ne": "रोस्टिङ भनेको धाउलाई प्रशस्त हावा/अक्सिजनको उपस्थितिमा तीव्र रूपमा तताउनु हो, जबकि क्याल्सिनेशन भनेको धाउलाई हावाको अनुपस्थिति (वा एकदमै सीमित आपूर्ति) मा तीव्र रूपमा तताउनु हो।"
+          }
+        },
+        {
+          "id": "q2i",
+          "questionNumber": "2(i)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Lalitpur",
+          "question": {
+            "en": "Write the IUPAC name of the given structural formula.",
+            "ne": "दिइएको आणविक संरचनाको IUPAC नाम लेख्नुहोस्।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-lalitpur/q2i-ethanol-structure.png",
+            "caption": {
+              "en": "Structural formula of ethanol (CH3-CH2-OH).",
+              "ne": "इथानोलको संरचना सूत्र (CH3-CH2-OH)।"
+            }
+          },
+          "answer": {
+            "en": "Ethanol (ethan-1-ol)",
+            "ne": "इथानोल (Ethan-1-ol)"
+          },
+          "solution": {
+            "en": "The structure shown (CH3-CH2-OH) is a two-carbon alcohol with the -OH group on the terminal carbon; its IUPAC name is ethanol (systematically, ethan-1-ol).",
+            "ne": "देखाइएको संरचना (CH3-CH2-OH) दुई कार्बन भएको अल्कोहल हो, जसमा -OH समूह अन्तिम कार्बनमा जोडिएको छ; यसको IUPAC नाम इथानोल (व्यवस्थित रूपमा, इथान-1-ओल) हो।"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Section C — Short Answer Questions",
+        "ne": "खण्ड 'ग' — छोटो उत्तर प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Write short answers to the following questions. (14 x 2 = 28)",
+        "ne": "तलका प्रश्नहरूको छोटो उत्तर लेख्नुहोस् : (१४x२=२८)"
+      },
+      "items": [
+        {
+          "id": "q3",
+          "questionNumber": "3",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Lalitpur",
+          "question": {
+            "en": "What are the dependent variable and independent variable included when a piece of paper is thrown with stretched rubber?",
+            "ne": "एउटा रबर व्याण्ड तन्काएर कागजको टुक्रा फाल्दा संलग्न आश्रित चर र स्वतन्त्र चरहरू के के हुन्छन् ?"
+          },
+          "answer": {
+            "en": "Independent variable: the stretch/extension of the rubber band (how far it is pulled back). Dependent variable: the distance travelled (or speed) of the piece of paper after release.",
+            "ne": "स्वतन्त्र चर: रबर व्याण्डको तन्काइ (कति तानिएको छ)। आश्रित चर: छोडेपछि कागजको टुक्राले पार गरेको दूरी (वा गति)।"
+          }
+        },
+        {
+          "id": "q4",
+          "questionNumber": "4",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Lalitpur",
+          "question": {
+            "en": "Write any two differences between rat and snake on the basis of structure of heart and reproduction.",
+            "ne": "मुदुको संरचना र प्रजननका आधारमा मुसो र सर्पको विचमा कुनै दुई फरक लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "1) Heart structure: A rat (mammal) has a four-chambered heart (2 atria + 2 ventricles) with complete separation of oxygenated and deoxygenated blood, whereas a snake (reptile) has a three-chambered heart (2 atria + 1 ventricle) with incomplete separation of the two types of blood. 2) Reproduction: A rat is viviparous — it gives birth to live young that develop inside the mother's body — whereas a snake is (mostly) oviparous — it lays eggs which hatch outside the mother's body.",
+            "ne": "१) मुटुको संरचना: मुसो (स्तनधारी) को मुटु चार-कक्षीय हुन्छ (2 एट्रियम + 2 भेन्ट्रिकल) जहाँ अक्सिजनयुक्त र अक्सिजनरहित रगत पूर्ण रूपमा छुट्टिएको हुन्छ, जबकि सर्प (सरीसृप) को मुटु तीन-कक्षीय हुन्छ (2 एट्रियम + 1 भेन्ट्रिकल) जहाँ दुई किसिमको रगत पूर्ण रूपमा छुट्टिएको हुँदैन। २) प्रजनन: मुसो सिधै बच्चा जन्माउने (viviparous) हो — यसको बच्चा आमाको शरीरभित्रै विकसित भई जन्मन्छ — जबकि सर्प (प्रायः) अण्डा पार्ने (oviparous) हो — यसको अण्डा आमाको शरीर बाहिर फुट्छ।"
+          }
+        },
+        {
+          "id": "q5",
+          "questionNumber": "5",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Lalitpur",
+          "question": {
+            "en": "\"Honey Bee is a useful insect.\" Justify the statement with two points.",
+            "ne": "\"मौरी उपयोगी कीरा हो।\" यस कथनलाई कुनै दुई बुँदामा पुष्टि गर्नुहोस्।"
+          },
+          "answer": {
+            "en": "1) Honey bees pollinate flowers as they collect nectar and pollen, which is essential for the reproduction of many plants and significantly increases the yield of fruits and crops. 2) Honey bees produce honey and beeswax, both of which have nutritional, medicinal and commercial value for humans.",
+            "ne": "१) मौरीले मह र पराग सङ्कलन गर्दा फूलमा परागसेचन गराउँछ, जुन धेरै बिरुवाको प्रजननका लागि आवश्यक हुन्छ र फलफूल तथा बालीको उत्पादन उल्लेखनीय रूपमा बढाउँछ। २) मौरीले मह र मौरीको मैन (beeswax) उत्पादन गर्छ, जुन दुवैको मानिसका लागि पोषणात्मक, औषधीय र व्यावसायिक महत्त्व हुन्छ।"
+          }
+        },
+        {
+          "id": "q6",
+          "questionNumber": "6",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Lalitpur",
+          "question": {
+            "en": "What type of offspring are born by the cross of hybrid tall (Tt) and pure tall (TT) parents? Show in a chart.",
+            "ne": "ठिमाहा अग्लो (Tt) र शुद्ध अग्लो (TT) बिरुवाको विचमा क्रस गर्दा पहिलो वंशमा कस्ता सन्तान जन्मन्छन् ? चार्टद्वारा देखाउनुहोस्।"
+          },
+          "answer": {
+            "en": "Cross Tt (hybrid tall) × TT (pure tall): gametes from Tt are T and t; gametes from TT are only T. Offspring genotypes: TT and Tt in equal proportion (1 TT : 1 Tt). Since T (tall) is dominant, all offspring are phenotypically tall.",
+            "ne": "क्रस Tt (ठिमाहा अग्लो) × TT (शुद्ध अग्लो): Tt बाट T र t ग्यामिट बन्छन्; TT बाट केवल T मात्र बन्छ। सन्तानको जिनोटाइप: TT र Tt बराबर अनुपातमा (1 TT : 1 Tt)। T (अग्लो) प्रभावी भएकाले, सबै सन्तान फिनोटाइपमा अग्लो नै हुन्छन्।"
+          },
+          "solutionTable": {
+            "headers": [
+              {
+                "en": "Gametes",
+                "ne": "ग्यामिट"
+              },
+              {
+                "en": "T (from TT)",
+                "ne": "T (TT बाट)"
+              },
+              {
+                "en": "T (from TT)",
+                "ne": "T (TT बाट)"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "T (from Tt)",
+                  "ne": "T (Tt बाट)"
+                },
+                {
+                  "en": "TT",
+                  "ne": "TT"
+                },
+                {
+                  "en": "TT",
+                  "ne": "TT"
+                }
+              ],
+              [
+                {
+                  "en": "t (from Tt)",
+                  "ne": "t (Tt बाट)"
+                },
+                {
+                  "en": "Tt",
+                  "ne": "Tt"
+                },
+                {
+                  "en": "Tt",
+                  "ne": "Tt"
+                }
+              ]
+            ]
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-lumbini/q6-Tt-TT-cross-answer.png",
+            "caption": {
+              "en": "Model answer chart: cross between Tt and TT.",
+              "ne": "नमूना उत्तर चार्ट: Tt र TT बिचको क्रस।"
+            }
+          }
+        },
+        {
+          "id": "q7",
+          "questionNumber": "7",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Lalitpur",
+          "question": {
+            "en": "Write any two examples of non-granular leucocytes.",
+            "ne": "नन ग्रानुलर ल्युकोसाइटका दुईओटा उदाहरण लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "Lymphocytes and Monocytes are the two types of non-granular leucocytes (agranulocytes).",
+            "ne": "लिम्फोसाइट र मोनोसाइट नन-ग्रानुलर ल्युकोसाइट (एग्रानुलोसाइट) का दुई प्रकार हुन्।"
+          }
+        },
+        {
+          "id": "q8",
+          "questionNumber": "8",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Lalitpur",
+          "question": {
+            "en": "Mention any two suggestions for maximum use of medicinal plants at local level.",
+            "ne": "स्थानीयस्तरमा जडीबुटीको अधिकतम सदुपयोग गर्नका लागि कुनै दुई सुझाव उल्लेख गर्नुहोस्।"
+          },
+          "answer": {
+            "en": "1) Train and support local farmers/communities in the scientific cultivation, sustainable harvesting and post-harvest processing of medicinal plants for commercial use. 2) Establish local collection/processing centres and connect growers with markets (buyers/industries), so that medicinal plants generate proper income while encouraging their conservation rather than over-exploitation.",
+            "ne": "१) स्थानीय किसान/समुदायलाई जडीबुटीको वैज्ञानिक खेती, दिगो सङ्कलन र व्यावसायिक प्रयोगका लागि प्रशोधन प्रविधिमा तालिम तथा सहयोग प्रदान गर्नु। २) स्थानीय सङ्कलन/प्रशोधन केन्द्र स्थापना गरी उत्पादकलाई बजार (खरिदकर्ता/उद्योग) सँग जोड्नु, ताकि जडीबुटीबाट उचित आम्दानी हुनुका साथै अत्यधिक दोहनको सट्टा संरक्षणलाई प्रोत्साहन मिलोस्।"
+          }
+        },
+        {
+          "id": "q9",
+          "questionNumber": "9",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Lalitpur",
+          "question": {
+            "en": "What mass can be lifted by a person on the Moon if he can lift 100 kg mass on the Earth? Calculate.",
+            "ne": "पृथ्वीमा 100 kg पिण्ड उठाउन सक्ने व्यक्तिले चन्द्रमामा कति पिण्ड उठाउन सक्छ ? हिसाब गरी देखाउनुहोस्।"
+          },
+          "answer": {
+            "en": "About 600 kg.",
+            "ne": "लगभग 600 kg।"
+          },
+          "solution": {
+            "en": "A person's lifting ability is limited by the maximum force (F) their muscles can exert, not directly by mass. On Earth, F = m_earth × g_earth = 100 kg × 9.8 m/s² ≈ 980 N. The Moon's gravity is about 1/6th of Earth's (g_moon ≈ 1.63 m/s²). Using the same maximum force F on the Moon: m_moon = F/g_moon ≈ 980/1.63 ≈ 600 kg. (Equivalently, since g_moon ≈ g_earth/6, the liftable mass on the Moon is about 6 times the liftable mass on Earth: 100 kg × 6 = 600 kg.)",
+            "ne": "व्यक्तिको उठाउने क्षमता उसको मांसपेशीले लगाउन सक्ने अधिकतम बल (F) ले सीमित हुन्छ, पिण्डले सिधै होइन। पृथ्वीमा, F = m_पृथ्वी × g_पृथ्वी = 100 kg × 9.8 m/s² ≈ 980 N। चन्द्रमाको गुरुत्वाकर्षण पृथ्वीको लगभग 1/6 हुन्छ (g_चन्द्र ≈ 1.63 m/s²)। चन्द्रमामा उही अधिकतम बल F प्रयोग गर्दा: m_चन्द्र = F/g_चन्द्र ≈ 980/1.63 ≈ 600 kg। (अर्को तरिकाले, g_चन्द्र ≈ g_पृथ्वी/6 भएकाले, चन्द्रमामा उठाउन सकिने पिण्ड पृथ्वीमा उठाउन सकिने पिण्डको लगभग 6 गुणा हुन्छ: 100 kg × 6 = 600 kg।)"
+          },
+          "solutionTable": {
+            "headers": [
+              {
+                "en": "Quantity",
+                "ne": "परिमाण"
+              },
+              {
+                "en": "Value",
+                "ne": "मान"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "Mass liftable on Earth",
+                  "ne": "पृथ्वीमा उठाउन सकिने पिण्ड"
+                },
+                {
+                  "en": "100 kg",
+                  "ne": "100 kg"
+                }
+              ],
+              [
+                {
+                  "en": "g_earth",
+                  "ne": "g_पृथ्वी"
+                },
+                {
+                  "en": "9.8 m/s²",
+                  "ne": "9.8 m/s²"
+                }
+              ],
+              [
+                {
+                  "en": "g_moon (≈ g_earth/6)",
+                  "ne": "g_चन्द्र (≈ g_पृथ्वी/6)"
+                },
+                {
+                  "en": "1.63 m/s²",
+                  "ne": "1.63 m/s²"
+                }
+              ],
+              [
+                {
+                  "en": "Mass liftable on Moon",
+                  "ne": "चन्द्रमामा उठाउन सकिने पिण्ड"
+                },
+                {
+                  "en": "≈ 600 kg",
+                  "ne": "≈ 600 kg"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "q10",
+          "questionNumber": "10",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Lalitpur",
+          "question": {
+            "en": "Write any two effects of gravity.",
+            "ne": "गुरुत्वबलका दुईओटा असरहरू लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "1) Gravity gives objects weight and causes them to fall towards the Earth's surface when unsupported. 2) Gravity governs the motion of celestial bodies — it keeps planets in orbit around the Sun and moons in orbit around planets, and also causes ocean tides on Earth.",
+            "ne": "१) गुरुत्वबलले वस्तुहरूलाई तौल दिन्छ र आधार नभएमा तिनलाई पृथ्वीको सतहतिर खस्न बाध्य पार्छ। २) गुरुत्वबलले आकाशीय पिण्डहरूको गति नियन्त्रण गर्छ — यसले ग्रहहरूलाई सूर्यको परिक्रमामा र चन्द्रमाहरूलाई ग्रहको परिक्रमामा राख्छ, र पृथ्वीमा समुद्री ज्वारभाटा पनि निम्त्याउँछ।"
+          }
+        },
+        {
+          "id": "q11",
+          "questionNumber": "11",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Lalitpur",
+          "question": {
+            "en": "Find the amount of heat needed to increase the temperature of 8 kg water from 30°C to 48°C. (The specific heat capacity of water is 4200 J/kg°C.)",
+            "ne": "8 kg पिण्ड भएको पानीको तापक्रम 30°C बाट तताएर 48°C सम्म पुऱ्याउन कति ताप चाहिन्छ ? (पानीको विशिष्ट तापधारण क्षमता 4200 J/kg°C छ।)"
+          },
+          "answer": {
+            "en": "604,800 J (= 604.8 kJ)",
+            "ne": "६,०४,८०० J (= ६०४.८ kJ)"
+          },
+          "solution": {
+            "en": "Q = mcΔT, where m = 8 kg, c = 4200 J/kg°C, ΔT = 48°C − 30°C = 18°C. Q = 8 × 4200 × 18 = 604,800 J.",
+            "ne": "Q = mcΔT, जहाँ m = 8 kg, c = 4200 J/kg°C, ΔT = 48°C − 30°C = 18°C। Q = 8 × 4200 × 18 = ६,०४,८०० J।"
+          },
+          "solutionTable": {
+            "headers": [
+              {
+                "en": "Quantity",
+                "ne": "परिमाण"
+              },
+              {
+                "en": "Value",
+                "ne": "मान"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "Mass (m)",
+                  "ne": "पिण्ड (m)"
+                },
+                {
+                  "en": "8 kg",
+                  "ne": "8 kg"
+                }
+              ],
+              [
+                {
+                  "en": "Specific heat (c)",
+                  "ne": "विशिष्ट ताप (c)"
+                },
+                {
+                  "en": "4200 J/kg°C",
+                  "ne": "4200 J/kg°C"
+                }
+              ],
+              [
+                {
+                  "en": "ΔT",
+                  "ne": "ΔT"
+                },
+                {
+                  "en": "18°C",
+                  "ne": "18°C"
+                }
+              ],
+              [
+                {
+                  "en": "Q = mcΔT",
+                  "ne": "Q = mcΔT"
+                },
+                {
+                  "en": "604,800 J",
+                  "ne": "६,०४,८०० J"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "q12",
+          "questionNumber": "12",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Lalitpur",
+          "question": {
+            "en": "Write any two conditions for total internal reflection of light.",
+            "ne": "प्रकाशको पूर्ण आन्तरिक परावर्तन हुन आवश्यक दुई अवस्थाहरू लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "1) Light must travel from a denser (optically) medium to a rarer medium. 2) The angle of incidence in the denser medium must be greater than the critical angle for that pair of media.",
+            "ne": "१) प्रकाश बढी घना माध्यमबाट कम घना माध्यमतिर जानुपर्छ। २) बढी घना माध्यममा आपतन कोण ती दुई माध्यमको लागि क्रिटिकल कोणभन्दा ठूलो हुनुपर्छ।"
+          }
+        },
+        {
+          "id": "q13",
+          "questionNumber": "13",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Lalitpur",
+          "question": {
+            "en": "Write any two differences between closed universe and open universe.",
+            "ne": "बन्द ब्रह्माण्ड र खुला ब्रह्माण्डका विचमा दुईओटा फरक लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "1) A closed universe has positive curvature and a finite size, whereas an open universe has negative curvature and is infinite in size. 2) A closed universe has average density greater than the critical density and will eventually stop expanding and contract (a 'Big Crunch'), whereas an open universe has density less than the critical density and expands forever at an ever-increasing rate.",
+            "ne": "१) बन्द ब्रह्माण्डको वक्रता धनात्मक हुन्छ र यसको आकार सीमित हुन्छ, जबकि खुला ब्रह्माण्डको वक्रता ऋणात्मक हुन्छ र यो असीमित आकारको हुन्छ। २) बन्द ब्रह्माण्डको औसत घनत्व क्रिटिकल घनत्वभन्दा बढी हुन्छ र यो अन्ततः विस्तार रोकिएर खुम्चिन्छ ('बिग क्रन्च'), जबकि खुला ब्रह्माण्डको घनत्व क्रिटिकल घनत्वभन्दा कम हुन्छ र यो सधैँ बढ्दो दरमा सधैँ विस्तार हुन्छ।"
+          }
+        },
+        {
+          "id": "q14",
+          "questionNumber": "14",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Lalitpur",
+          "question": {
+            "en": "Write the chemical reaction that occurs between ammonium chloride and calcium hydroxide and balance it.",
+            "ne": "एमोनियम क्लोराइड र क्यालिसियम हाइड्रोक्साइड मिसाउँदा हुने रासायनिक प्रतिक्रियाको समीकरण लेखी यसलाई सन्तुलन पनि गर्नुहोस्।"
+          },
+          "answer": {
+            "en": "2NH4Cl + Ca(OH)2 -> CaCl2 + 2NH3 + 2H2O",
+            "ne": "2NH4Cl + Ca(OH)2 -> CaCl2 + 2NH3 + 2H2O"
+          },
+          "solution": {
+            "en": "Ammonium chloride reacts with calcium hydroxide to release ammonia gas, calcium chloride and water. Balancing: 2 NH4Cl react with 1 Ca(OH)2 to give 1 CaCl2, 2 NH3 and 2 H2O — this balances Ca, Cl, N and H/O atoms on both sides.",
+            "ne": "एमोनियम क्लोराइडले क्यालिसियम हाइड्रोक्साइडसँग प्रतिक्रिया गरी अमोनिया ग्यास, क्यालिसियम क्लोराइड र पानी उत्पादन गर्छ। सन्तुलन गर्दा: 2 NH4Cl ले 1 Ca(OH)2 सँग प्रतिक्रिया गरी 1 CaCl2, 2 NH3 र 2 H2O दिन्छ — यसले दुवैतिर Ca, Cl, N र H/O परमाणुहरू सन्तुलित गर्छ।"
+          }
+        },
+        {
+          "id": "q15",
+          "questionNumber": "15",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Lalitpur",
+          "question": {
+            "en": "Write the IUPAC name and structural formula of a compound formed by substituting one hydrogen atom of each carbon atom of ethane by an -OH group.",
+            "ne": "इथेनका दुईओटा कार्बनसँग भएका एक-एक ओटा हाइड्रोजनलाई (-OH) ले विस्थापन गर्दा बन्ने यौगिकको IUPAC नाम र संरचना सूत्र लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "IUPAC name: Ethane-1,2-diol (common name: ethylene glycol). Structural formula: CH2(OH)-CH2(OH).",
+            "ne": "IUPAC नाम: इथेन-1,2-डाइओल (साधारण नाम: इथिलिन ग्लाइकोल)। संरचना सूत्र: CH2(OH)-CH2(OH)।"
+          },
+          "solution": {
+            "en": "Ethane is CH3-CH3. Replacing one hydrogen atom on each of the two carbons with an -OH group gives CH2(OH)-CH2(OH), a compound with two -OH groups (a diol). Its IUPAC name is ethane-1,2-diol, commonly known as ethylene glycol.",
+            "ne": "इथेन CH3-CH3 हो। दुवै कार्बनको एक-एक हाइड्रोजन परमाणुलाई -OH समूहले विस्थापन गर्दा CH2(OH)-CH2(OH) बन्छ, जसमा दुईओटा -OH समूह (डाइओल) हुन्छन्। यसको IUPAC नाम इथेन-1,2-डाइओल हो, जसलाई सामान्यतया इथिलिन ग्लाइकोल भनिन्छ।"
+          }
+        },
+        {
+          "id": "q16",
+          "questionNumber": "16",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Lalitpur",
+          "question": {
+            "en": "Write any two precautions that should be taken while using pesticides on the farm.",
+            "ne": "खेतवारीमा विषाधी प्रयोग गर्दा अपनाउनुपर्ने दुईओटा सावधानीहरू लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "1) Wear proper protective gear (gloves, mask, full-sleeve clothing) while handling and spraying pesticides to avoid direct skin contact and inhalation. 2) Use only the recommended dose at the recommended time, and avoid spraying pesticides close to the harvest period, to minimise chemical residue on the crop and in the environment.",
+            "ne": "१) विषादी ह्यान्डल र स्प्रे गर्दा उचित सुरक्षा साधन (पन्जा, मास्क, पूरा बाहुला भएको लुगा) लगाउने, ताकि छालामा सिधै सम्पर्क र सास फेर्दा शरीरभित्र जानबाट बचिन्छ। २) सिफारिस गरिएको मात्रा र समयमा मात्र प्रयोग गर्ने, र बाली टिप्ने समयनजिक विषादी नछर्कने, ताकि बाली र वातावरणमा रासायनिक अवशेष न्यून हुन्छ।"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Section D — Long Answer Questions",
+        "ne": "खण्ड 'घ' — लामो उत्तर प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Write long answer to the following questions. (7 x 4 = 28)",
+        "ne": "तलका प्रश्नहरूको लामो उत्तर लेख्नुहोस् : (७x४=२८)"
+      },
+      "items": [
+        {
+          "id": "q17",
+          "questionNumber": "17",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Lalitpur",
+          "question": {
+            "en": "Write any two positive and two negative impacts of digital technology.",
+            "ne": "डिजिटल प्रविधिका कुनै दुईओटा सकारात्मक र दुईओटा नकारात्मक प्रभावहरू लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "Two positive impacts: 1) Provides quick and easy access to information, education and global communication. 2) Enables convenient online services — banking, shopping, remote work and business. Two negative impacts: 1) Excessive use can cause health problems (eye strain, poor posture, disturbed sleep) and reduced physical activity. 2) Raises risks of cyberbullying, privacy/data breaches, and digital addiction.",
+            "ne": "दुई सकारात्मक प्रभाव: १) जानकारी, शिक्षा र विश्वव्यापी सञ्चारमा छिटो र सजिलो पहुँच दिन्छ। २) अनलाइन बैंकिङ, किनमेल, टाढाबाटको काम र व्यवसाय जस्ता सुविधाजनक सेवाहरू सम्भव बनाउँछ। दुई नकारात्मक प्रभाव: १) अत्यधिक प्रयोगले स्वास्थ्य समस्या (आँखामा तनाव, खराब बसाइ, निद्रामा खलल) र शारीरिक गतिविधि घटाउन सक्छ। २) साइबरबुलिङ, गोपनीयता/डेटा चुहावट र डिजिटल लत जस्ता जोखिम बढाउँछ।"
+          }
+        },
+        {
+          "id": "q18",
+          "questionNumber": "18",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Lalitpur",
+          "question": {
+            "en": "Study the electronic configuration of two elements A and B and answer the asked questions. A = 1s² 2s²2p⁶ 3s²3p⁶ 4s¹ ; B = 1s² 2s²2p⁶ 3s²3p⁵ (i) Which one of the given elements is metal? (ii) Write the period of element B on the basis of the modern periodic table. (iii) Write the balanced chemical equation that occurs when element A combines with element B.",
+            "ne": "दिइएका तत्वहरू A र B को इलेक्ट्रोन विन्यासको अध्ययन गरी सोधिएका प्रश्नहरूको उत्तर लेख्नुहोस्। A = 1s² 2s²2p⁶ 3s²3p⁶ 4s¹ ; B = 1s² 2s²2p⁶ 3s²3p⁵ (i) दिइएको मध्ये कुन तत्व धातु हो। (ii) आधुनिक पेरियोडिक तालिकाको आधारमा B को पिरियड लेख्नुहोस्। (iii) A र B को बिचमा रासायनिक प्रतिक्रिया हुँदा बन्ने सन्तुलित रासायनिक समीकरण लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "(i) Element A is metal (Potassium, K — it has 1 electron in its outermost shell, characteristic of an alkali metal). (ii) Element B (Chlorine, Cl) is in Period 3 (its outermost electrons are in the n=3 shell, 3s²3p⁵). (iii) 2K + Cl2 -> 2KCl.",
+            "ne": "(i) तत्व A धातु हो (पोटासियम, K — यसको बाहिरी सेलमा 1 इलेक्ट्रोन छ, जुन क्षार धातुको विशेषता हो)। (ii) तत्व B (क्लोरिन, Cl) पिरियड 3 मा पर्छ (यसको बाहिरी इलेक्ट्रोन n=3 सेलमा छन्, 3s²3p⁵)। (iii) 2K + Cl2 -> 2KCl।"
+          },
+          "solution": {
+            "en": "A's configuration (1s² 2s²2p⁶ 3s²3p⁶ 4s¹) has 19 electrons — this is Potassium (K), atomic number 19, with 1 valence electron in the 4s subshell, making it a highly reactive alkali metal. B's configuration (1s² 2s²2p⁶ 3s²3p⁵) has 17 electrons — this is Chlorine (Cl), atomic number 17, a halogen non-metal with 7 valence electrons in shell n=3, i.e. Period 3. K (1 valence electron to lose) reacts with Cl2 (each Cl needs 1 electron) to form the ionic compound KCl: 2K + Cl2 -> 2KCl.",
+            "ne": "A को बनावट (1s² 2s²2p⁶ 3s²3p⁶ 4s¹) मा 19 इलेक्ट्रोन छन् — यो पोटासियम (K) हो, परमाणु सङ्ख्या 19, जसको 4s सबशेलमा 1 भ्यालेन्स इलेक्ट्रोन छ, जसले यसलाई अत्यधिक क्रियाशील क्षार धातु बनाउँछ। B को बनावट (1s² 2s²2p⁶ 3s²3p⁵) मा 17 इलेक्ट्रोन छन् — यो क्लोरिन (Cl) हो, परमाणु सङ्ख्या 17, हेलोजन अधातु जसको n=3 सेलमा 7 भ्यालेन्स इलेक्ट्रोन छन्, अर्थात् पिरियड 3। K (1 इलेक्ट्रोन त्याग्ने) ले Cl2 (हरेक Clलाई 1 इलेक्ट्रोन चाहिने) सँग प्रतिक्रिया गरी आयोनिक यौगिक KCl बनाउँछ: 2K + Cl2 -> 2KCl।"
+          }
+        },
+        {
+          "id": "q19",
+          "questionNumber": "19",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Lalitpur",
+          "question": {
+            "en": "A student prepared a gas by using egg shells due to lack of calcium carbonate in the laboratory. (i) Write a balanced chemical equation of the reaction when the gas is passed into lime water. (ii) Write an application of the gas in the medical field. (iii) Write the molecular formula of the compound formed when the gas is reacted with the gas having molecular mass 17 a.m.u. (iv) How is the gas tested?",
+            "ne": "प्रयोगशालामा क्याल्सियम कार्बोनेट नभएको अवस्थामा एक जना विद्यार्थीले अण्डाको खोल प्रयोग गरी ग्यास तयार गरे। (i) उक्त ग्यासलाई चुनपानीको घोलमा पठाउँदा हुने रासायनिक प्रतिक्रियाको सन्तुलित रासायनिक समीकरण लेख्नुहोस्। (ii) उक्त ग्यासको चिकित्सा क्षेत्रमा हुने एउटा उपयोगिता लेख्नुहोस्। (iii) उक्त ग्यासलाई पारमाणविक भार 17 a.m.u. भएको ग्याससँग रासायनिक प्रतिक्रिया गराउँदा बन्ने यौगिकको अणुसूत्र लेख्नुहोस्। (iv) उक्त ग्यासको परीक्षण कसरी गरिन्छ ?"
+          },
+          "answer": {
+            "en": "(i) CO2 + Ca(OH)2 -> CaCO3 (white precipitate) + H2O. (ii) In the medical field, CO2 gas is used to inflate the abdominal cavity during laparoscopic surgery, and controlled CO2-oxygen mixtures are used to stimulate breathing in certain respiratory treatments. (iii) The gas with molecular mass 17 a.m.u. is ammonia (NH3). Reacting CO2 with NH3 forms urea: CO2 + 2NH3 -> CO(NH2)2 + H2O — molecular formula of the compound formed: CO(NH2)2. (iv) The gas (CO2) is tested by passing it through lime water — if the lime water turns milky/cloudy, it confirms the presence of carbon dioxide.",
+            "ne": "(i) CO2 + Ca(OH)2 -> CaCO3 (सेतो अवक्षेप) + H2O। (ii) चिकित्सा क्षेत्रमा, CO2 ग्यास ल्यापारोस्कोपिक शल्यक्रियाको क्रममा पेटको खोक्रो फुलाउन प्रयोग गरिन्छ, र नियन्त्रित CO2-अक्सिजन मिश्रण केही श्वासप्रश्वास सम्बन्धी उपचारमा सास फेर्न उत्प्रेरित गर्न प्रयोग गरिन्छ। (iii) पारमाणविक भार 17 a.m.u. भएको ग्यास अमोनिया (NH3) हो। CO2 लाई NH3 सँग प्रतिक्रिया गराउँदा युरिया बन्छ: CO2 + 2NH3 -> CO(NH2)2 + H2O — बनेको यौगिकको अणुसूत्र: CO(NH2)2। (iv) ग्यास (CO2) को परीक्षण चुनपानीको घोलबाट गराइन्छ — यदि चुनपानी दुधिलो/धमिलो भयो भने त्यसले कार्बन डाइअक्साइडको उपस्थिति पुष्टि गर्छ।"
+          },
+          "solutionTable": {
+            "headers": [
+              {
+                "en": "Step",
+                "ne": "चरण"
+              },
+              {
+                "en": "Detail",
+                "ne": "विवरण"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "Gas prepared",
+                  "ne": "तयार गरिएको ग्यास"
+                },
+                {
+                  "en": "CO2 (from egg shells, CaCO3, + dilute acid)",
+                  "ne": "CO2 (अण्डाको खोल, CaCO3, + तनुकृत एसिडबाट)"
+                }
+              ],
+              [
+                {
+                  "en": "Test with lime water",
+                  "ne": "चुनपानीसँग परीक्षण"
+                },
+                {
+                  "en": "Turns milky (CaCO3 precipitate)",
+                  "ne": "दुधिलो हुन्छ (CaCO3 अवक्षेप)"
+                }
+              ],
+              [
+                {
+                  "en": "Reacted with 17 a.m.u. gas (NH3)",
+                  "ne": "17 a.m.u. ग्यास (NH3) सँग प्रतिक्रिया"
+                },
+                {
+                  "en": "Forms urea, CO(NH2)2",
+                  "ne": "युरिया, CO(NH2)2, बन्छ"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "q20",
+          "questionNumber": "20",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Lalitpur",
+          "question": {
+            "en": "A couple begets only four sons. In such case, is there absence of 'X' chromosome in the semen? Describe with a chart, the role of chromosomes for the determination of sex.",
+            "ne": "एउटा दम्पत्तिले चारओटा छोराहरू मात्र जन्माए। उक्त अवस्थामा पुरुषको शुक्रकिटमा 'X' क्रोमोजोम नभएको होला त ? मानिसमा हुने लिङ्ग निर्धारण प्रक्रियाको चार्ट बनाई लिङ्ग निर्धारणमा क्रोमोजोमको भूमिका व्याख्या गर्नुहोस्।"
+          },
+          "answer": {
+            "en": "No, there is no absence of X chromosome in the semen. Sex determination in humans depends on which type of sperm (X-bearing or Y-bearing) fertilises the egg. A father produces both X-bearing and Y-bearing sperm in roughly equal (50:50) proportion; the mother (who is XX) can only contribute an X chromosome via the egg. If a Y-bearing sperm fertilises the egg, the child is male (XY); if an X-bearing sperm fertilises the egg, the child is female (XX). Getting four sons in a row simply means a Y-bearing sperm happened to fertilise the egg all four times — a matter of random chance, not because the father lacks X-bearing sperm.",
+            "ne": "होइन, शुक्रकिटमा X क्रोमोजोमको अनुपस्थिति छैन। मानिसमा लिङ्ग निर्धारण कुन प्रकारको शुक्रकिट (X-युक्त वा Y-युक्त) ले अण्डालाई निषेचन गर्छ भन्नेमा भर पर्छ। बुबाले X-युक्त र Y-युक्त दुवै किसिमका शुक्रकिट लगभग बराबर (50:50) अनुपातमा उत्पादन गर्छन्; आमा (जो XX हुन्छिन्) ले अण्डामार्फत सधैं X क्रोमोजोम मात्र दिन्छिन्। यदि Y-युक्त शुक्रकिटले अण्डालाई निषेचन गऱ्यो भने सन्तान पुरुष (XY) हुन्छ; यदि X-युक्त शुक्रकिटले निषेचन गऱ्यो भने सन्तान महिला (XX) हुन्छ। लगातार चारओटा छोरा जन्मनु भनेको संयोगवश चारैपटक Y-युक्त शुक्रकिटले नै निषेचन गरेको मात्र हो — यो संयोगको कुरा हो, बुबामा X-युक्त शुक्रकिट नभएकाले होइन।"
+          },
+          "solutionTable": {
+            "headers": [
+              {
+                "en": "Parent",
+                "ne": "अभिभावक"
+              },
+              {
+                "en": "Chromosomes / Gametes",
+                "ne": "क्रोमोजोम / ग्यामिट"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "Mother",
+                  "ne": "आमा"
+                },
+                {
+                  "en": "XX -> eggs: all X",
+                  "ne": "XX -> अण्डा: सबै X"
+                }
+              ],
+              [
+                {
+                  "en": "Father",
+                  "ne": "बुबा"
+                },
+                {
+                  "en": "XY -> sperm: 50% X, 50% Y",
+                  "ne": "XY -> शुक्रकिट: 50% X, 50% Y"
+                }
+              ],
+              [
+                {
+                  "en": "X-egg + X-sperm",
+                  "ne": "X-अण्डा + X-शुक्रकिट"
+                },
+                {
+                  "en": "XX = daughter",
+                  "ne": "XX = छोरी"
+                }
+              ],
+              [
+                {
+                  "en": "X-egg + Y-sperm",
+                  "ne": "X-अण्डा + Y-शुक्रकिट"
+                },
+                {
+                  "en": "XY = son",
+                  "ne": "XY = छोरा"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "q21",
+          "questionNumber": "21",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Lalitpur",
+          "question": {
+            "en": "A lens used by a student has power of -8 D. Find its focal length and its type, and mention two causes of this defect of vision.",
+            "ne": "एक जना विद्यार्थीको चस्मामा प्रयोग भएको लेन्सको सामर्थ्य -8 D छ। उक्त लेन्सको केन्द्रीकरण दूरी पत्ता लगाई लेन्सको प्रकार लेख्नुहोस् र उक्त दृष्टि कमजोरी हुनका दुईओटा कारणहरू उल्लेख गर्नुहोस्।"
+          },
+          "answer": {
+            "en": "Focal length = -12.5 cm (= -0.125 m). Since the power is negative, the lens is a concave (diverging) lens, used to correct myopia (short-sightedness). Two causes of myopia: 1) Elongation of the eyeball (increased axial length), which causes the image to form in front of the retina. 2) Excessive curvature (too much converging power) of the cornea or eye lens.",
+            "ne": "केन्द्रीकरण दूरी = -12.5 cm (= -0.125 m)। पावर ऋणात्मक भएकाले, यो अवतल (डाइभर्जिङ) लेन्स हो, जुन मायोपिया (नजिकको दृष्टिदोष) सच्याउन प्रयोग गरिन्छ। मायोपियाका दुई कारण: १) आँखाको गेडाको लम्बाइ बढ्नु (एक्सियल लम्बाइ बढ्नु), जसले गर्दा प्रतिबिम्ब रेटिनाभन्दा अगाडि बन्छ। २) कर्निया वा आँखाको लेन्सको वक्रता (कन्भर्जिङ पावर) अत्यधिक हुनु।"
+          },
+          "solution": {
+            "en": "Power P = 1/f (f in metres), so f = 1/P = 1/(-8) = -0.125 m = -12.5 cm. A negative focal length/power indicates a diverging (concave) lens, which is prescribed for myopia.",
+            "ne": "पावर P = 1/f (f मिटरमा), त्यसैले f = 1/P = 1/(-8) = -0.125 m = -12.5 cm। ऋणात्मक केन्द्रीकरण दूरी/पावरले डाइभर्जिङ (अवतल) लेन्स जनाउँछ, जुन मायोपियाका लागि प्रयोग गरिन्छ।"
+          },
+          "solutionTable": {
+            "headers": [
+              {
+                "en": "Quantity",
+                "ne": "परिमाण"
+              },
+              {
+                "en": "Value",
+                "ne": "मान"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "Power (P)",
+                  "ne": "पावर (P)"
+                },
+                {
+                  "en": "-8 D",
+                  "ne": "-8 D"
+                }
+              ],
+              [
+                {
+                  "en": "f = 1/P",
+                  "ne": "f = 1/P"
+                },
+                {
+                  "en": "-0.125 m = -12.5 cm",
+                  "ne": "-0.125 m = -12.5 cm"
+                }
+              ],
+              [
+                {
+                  "en": "Lens type",
+                  "ne": "लेन्सको प्रकार"
+                },
+                {
+                  "en": "Concave (diverging)",
+                  "ne": "अवतल (डाइभर्जिङ)"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "q22",
+          "questionNumber": "22",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Lalitpur",
+          "question": {
+            "en": "Sketch a diagram of the internal structure of the heart and name the pulmonary valve and bicuspid valve.",
+            "ne": "मुदुको भित्री बनोटको सफा चित्र कोर्नुहोस् र वाइकस्पिड भल्भ र पल्मोनरी भल्भ देखाउनुहोस्।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-lumbini/q22-heart-internal-structure-answer.png",
+            "caption": {
+              "en": "Model answer diagram: internal structure of the human heart with pulmonary and bicuspid valves labelled.",
+              "ne": "नमूना उत्तर चित्र: पल्मोनरी र बाइकस्पिड भल्भ लेबल गरिएको मानव मुटुको भित्री संरचना।"
+            }
+          },
+          "answer": {
+            "en": "The pulmonary valve lies between the right ventricle and the pulmonary artery. The bicuspid (mitral) valve lies between the left auricle (atrium) and the left ventricle.",
+            "ne": "पल्मोनरी भल्भ दायाँ भेन्ट्रिकल र पल्मोनरी आर्टरीको बिचमा हुन्छ। बाइकस्पिड (माइट्रल) भल्भ देब्रे अरिकल (एट्रियम) र देब्रे भेन्ट्रिकलको बिचमा हुन्छ।"
+          }
+        },
+        {
+          "id": "q23",
+          "questionNumber": "23",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Lalitpur",
+          "question": {
+            "en": "The number of secondary coil turns is 10 times the primary coil turns in a transformer. If the transformer is connected to 230 V main line, how much secondary voltage is obtained? What type of transformer is this? Write a use of such transformer.",
+            "ne": "एउटा ट्रान्सफर्मरको सेकेन्डरी क्वाइलको फन्का प्राइमरी क्वाइलको फन्काको 10 गुणा रहेको छ। उक्त ट्रान्सफर्मरलाई 230 V मुख्य लाइनमा जडान गर्दा सेकेन्डरी भोल्टेज कति प्राप्त हुन्छ ? यो कुन प्रकारको ट्रान्सफर्मर हो ? यस प्रकारको ट्रान्सफर्मरको एउटा उपयोग पनि लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "Secondary voltage = 2300 V. This is a step-up transformer. Use: step-up transformers are used at power stations/substations to increase voltage for efficient long-distance transmission of electricity (higher voltage reduces current and hence reduces power loss in the transmission lines).",
+            "ne": "सेकेन्डरी भोल्टेज = 2300 V। यो स्टेप-अप ट्रान्सफर्मर हो। उपयोग: स्टेप-अप ट्रान्सफर्मर पावर स्टेसन/सबस्टेसनमा विद्युतको भोल्टेज बढाई लामो दूरीमा प्रभावकारी रूपमा प्रसारण गर्न प्रयोग गरिन्छ (बढी भोल्टेजले करेन्ट घटाउँछ, जसले प्रसारण लाइनमा हुने शक्ति क्षय पनि घटाउँछ)।"
+          },
+          "solution": {
+            "en": "Transformer relation: Vs/Vp = Ns/Np. Given Ns = 10 × Np, so Ns/Np = 10, meaning Vs/Vp = 10, i.e. Vs = 10 × Vp = 10 × 230 V = 2300 V. Since Vs > Vp (voltage increased), it is a step-up transformer.",
+            "ne": "ट्रान्सफर्मर सम्बन्ध: Vs/Vp = Ns/Np। दिइएको Ns = 10 × Np, त्यसैले Ns/Np = 10, अर्थात् Vs/Vp = 10, अर्थात् Vs = 10 × Vp = 10 × 230 V = 2300 V। Vs > Vp (भोल्टेज बढेको) भएकाले, यो स्टेप-अप ट्रान्सफर्मर हो।"
+          },
+          "solutionTable": {
+            "headers": [
+              {
+                "en": "Quantity",
+                "ne": "परिमाण"
+              },
+              {
+                "en": "Value",
+                "ne": "मान"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "Vp",
+                  "ne": "Vp"
+                },
+                {
+                  "en": "230 V",
+                  "ne": "230 V"
+                }
+              ],
+              [
+                {
+                  "en": "Ns/Np",
+                  "ne": "Ns/Np"
+                },
+                {
+                  "en": "10",
+                  "ne": "10"
+                }
+              ],
+              [
+                {
+                  "en": "Vs = Vp × (Ns/Np)",
+                  "ne": "Vs = Vp × (Ns/Np)"
+                },
+                {
+                  "en": "2300 V",
+                  "ne": "2300 V"
+                }
+              ],
+              [
+                {
+                  "en": "Type",
+                  "ne": "प्रकार"
+                },
+                {
+                  "en": "Step-up transformer",
+                  "ne": "स्टेप-अप ट्रान्सफर्मर"
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

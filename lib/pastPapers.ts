@@ -75,6 +75,19 @@ export interface PastPaperItem {
   solutionTable?: FsTable;
   /** Table given in the question stem (e.g. a statistics frequency table). */
   table?: FsTable;
+  /** Program listing printed in the question stem (Computer Science). */
+  code?: string;
+  /** Language of `code` (e.g. "QBASIC", "C"). */
+  codeLanguage?: string;
+  /** Solution program from the answer key (Computer Science). Kept separate from
+   *  `code` so a printed program in the question is never overwritten by the worked one. */
+  answerCode?: string;
+  /** Choice label when an item is one alternative of a grouped question. */
+  altLabel?: string;
+  /** Group id linking alternative items (e.g. "q10"). */
+  alternativeGroup?: string;
+  /** Transcription/OCR caveat attached to a printed excerpt. */
+  ocrFlag?: string;
 }
 
 export interface PastPaperSection {
@@ -226,6 +239,12 @@ function normalizeLegacy(doc: LegacyAny, isAnswer: boolean): PastPaperDoc {
     solution: it.solution ? toBi(it.solution) : undefined,
     modelAnswer: it.modelAnswer ? toBi(it.modelAnswer) : undefined,
     solutionTable: it.solutionTable ? toFsTable(it.solutionTable) : undefined,
+    code: it.code ? String(it.code) : undefined,
+    codeLanguage: it.codeLanguage ? String(it.codeLanguage) : undefined,
+    answerCode: it.answerCode ? String(it.answerCode) : undefined,
+    altLabel: it.altLabel ? String(it.altLabel) : undefined,
+    alternativeGroup: it.alternativeGroup ? String(it.alternativeGroup) : undefined,
+    ocrFlag: it.ocrFlag ? String(it.ocrFlag) : undefined,
   });
   const questionSections: PastPaperSection[] = (Array.isArray(rawSections) ? rawSections : []).map((s: LegacyAny) => ({
     title: toBi(s.title ?? ""),
@@ -304,7 +323,7 @@ export function getPastPaperSearchResults(): SearchResult[] {
       id: `paper-${folderId}`,
       type: "pastpaper",
       title,
-      snippet: [subjectName(d.subjectId), ["Province: ", d.province].filter(Boolean).join(""), d.examYear ? `SEE ${d.examYear}` : ""].filter(Boolean).join(" · "),
+      snippet: [subjectName(d.subjectId), d.province ? `Province: ${d.province}` : "", d.examYear ? `SEE ${d.examYear}` : ""].filter(Boolean).join(" · "),
       subjectSlug: d.subjectId,
       href: `/past-papers/${folderId}`,
       keywords: wordsOf(title).concat(d.titleNe ? wordsOf(d.titleNe) : [], wordsOf(d.subjectId), wordsOf(d.chapterId), wordsOf(d.province), ["see", "past paper", "board exam", "question paper"]),

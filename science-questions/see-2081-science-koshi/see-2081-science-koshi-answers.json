@@ -1,0 +1,1167 @@
+{
+  "chapterId": "see-2081-science-koshi-ans",
+  "subjectId": "science",
+  "classLevel": "10",
+  "province": "Koshi",
+  "examBoard": "SEE (National Examinations Board, Nepal)",
+  "examYear": "2081 (2025 AD)",
+  "paperCode": "RE-1041'KoP'",
+  "fullMarks": 75,
+  "docType": "answerKey",
+  "linkedQuestionPaperId": "see-2081-science-koshi-qp",
+  "titleEn": "SEE 2081 (2025) Science — Model Answers (Koshi Province)",
+  "titleNe": "SEE २०८१ (२०२५) विज्ञान — नमूना उत्तर (कोशी प्रदेश)",
+  "sourceNote": {
+    "en": "Digitised from the uploaded scan of the SEE 2081 (2025) Science question paper, Koshi Province, set 'KoP'.",
+    "ne": "यो फाइल SEE 2081 (2025) विज्ञान प्रश्नपत्र, कोशी प्रदेश, सेट 'KoP' को स्क्यान गरिएको प्रतिबाट तयार पारिएको हो।"
+  },
+  "answerLanguageLevelNote": {
+    "en": "Answers and step-by-step solutions are written at a Class 10 (SEE) level of understanding, in simple bilingual language matching the question paper. Q9's medicinal plant could not be confidently identified from the scanned photo — please verify against the original before publishing.",
+    "ne": "उत्तर तथा चरणबद्ध हलहरू कक्षा १० (SEE) स्तरको सजिलो र प्रश्नपत्रसँग मिल्दो द्विभाषिक भाषामा लेखिएका छन्। प्रश्न ९ को जडीबुटी स्क्यान गरिएको फोटोबाट पक्का पहिचान गर्न सकिएन — प्रकाशित गर्नुअघि मूल प्रतिसँग जाँच्नुहोस्।"
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "text": {
+        "en": "Model Answers — Science and Technology, SEE 2081 (Koshi)",
+        "ne": "नमूना उत्तर — विज्ञान तथा प्रविधि, SEE २०८१ (कोशी)"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "These are model/reference answers written for Class 10 students. For long-answer numerical questions, full step-by-step working is included.",
+        "ne": "यी कक्षा १० का विद्यार्थीका लागि तयार पारिएका नमूना/सन्दर्भ उत्तरहरू हुन्। लामो उत्तर र सङ्ख्यात्मक प्रश्नहरूमा पूर्ण चरणबद्ध हल समावेश गरिएको छ।"
+      }
+    }
+  ],
+  "questionSections": [
+    {
+      "title": {
+        "en": "Section A — Multiple Choice Questions",
+        "ne": "खण्ड 'क' — बहुवैकल्पिक प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Choose the best alternative to the following questions and write in the answer sheet. (10 x 1 = 10)",
+        "ne": "तलका प्रश्नहरूको ठिक विकल्प छानी उत्तरपुस्तिकामा लेख्नुहोस्। (१०x१=१०)"
+      },
+      "items": [
+        {
+          "id": "q1a",
+          "questionNumber": "1(a)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Which of the following units is used for measuring the capacity of computer memory?",
+            "ne": "निम्नमध्ये कम्प्युटर मेमोरीको क्षमता नाप्ने एकाई कुन हो ?"
+          },
+          "options": [
+            {
+              "en": "Hz",
+              "ne": "हर्ज (Hz)"
+            },
+            {
+              "en": "KHz",
+              "ne": "किलो हर्ज (KHz)"
+            },
+            {
+              "en": "MHz",
+              "ne": "मेगा हर्ज (MHz)"
+            },
+            {
+              "en": "GB",
+              "ne": "गिगा बाइट्स (GB)"
+            }
+          ],
+          "answer": {
+            "en": "GB (Gigabytes)",
+            "ne": "गिगा बाइट्स (GB)"
+          },
+          "solution": {
+            "en": "Computer memory capacity is measured in bytes and its multiples (KB, MB, GB, TB). Hz, KHz and MHz are units of frequency, not memory capacity.",
+            "ne": "कम्प्युटर मेमोरीको क्षमता बाइट र यसका गुणकहरू (KB, MB, GB, TB) मा नापिन्छ। Hz, KHz र MHz आवृत्ति नाप्ने एकाई हुन्, मेमोरी क्षमता नाप्ने होइन।"
+          },
+          "correctOption": "iv"
+        },
+        {
+          "id": "q1b",
+          "questionNumber": "1(b)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Which of the following is the phenotypic ratio of a monohybrid cross in the F2 generation on the basis of recessive and dominant character?",
+            "ne": "मोनोहाइब्रिड क्रसको दोस्रो वंशमा देखिने सन्तानहरूको लुप्त गुण र प्रवल गुणको आधारमा फिनोटाइपिक अनुपात कुन हुन सक्छ ?"
+          },
+          "options": [
+            {
+              "en": "1:3",
+              "ne": "1:3"
+            },
+            {
+              "en": "3:1",
+              "ne": "3:1"
+            },
+            {
+              "en": "1:2:1",
+              "ne": "1:2:1"
+            },
+            {
+              "en": "1:1:2",
+              "ne": "1:1:2"
+            }
+          ],
+          "answer": {
+            "en": "3:1",
+            "ne": "3:1"
+          },
+          "solution": {
+            "en": "In a monohybrid cross, when a heterozygous F1 (Aa) self-pollinates, the F2 generation shows a phenotypic ratio of 3 (dominant) : 1 (recessive), since AA, Aa and Aa show the dominant trait while only aa shows the recessive trait.",
+            "ne": "मोनोहाइब्रिड क्रसमा, हेटेरोजाइगस F1 (Aa) स्व-परागसेचन हुँदा, F2 वंशमा फिनोटाइपिक अनुपात 3 (प्रवल) : 1 (लुप्त) देखिन्छ, किनभने AA, Aa र Aa ले प्रवल गुण देखाउँछन् भने केवल aa ले मात्र लुप्त गुण देखाउँछ।"
+          },
+          "correctOption": "ii"
+        },
+        {
+          "id": "q1c",
+          "questionNumber": "1(c)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Which of the following organ produces male gamete in fern?",
+            "ne": "ऊनिउमा भाले ग्यामेट उत्पादन गर्ने अङ्ग तलकामध्ये कुन हो ?"
+          },
+          "options": [
+            {
+              "en": "Antheridium",
+              "ne": "एन्थेरिडियम"
+            },
+            {
+              "en": "Archegonium",
+              "ne": "आर्किगोनियम"
+            },
+            {
+              "en": "Sorus",
+              "ne": "सोरस"
+            },
+            {
+              "en": "Gemma cup",
+              "ne": "गेम्मा कप"
+            }
+          ],
+          "answer": {
+            "en": "Antheridium",
+            "ne": "एन्थेरिडियम"
+          },
+          "solution": {
+            "en": "In ferns, the antheridium is the male reproductive organ that produces male gametes (antherozoids/sperm), while the archegonium is the female organ that produces the female gamete (egg).",
+            "ne": "ऊनिउ (फर्न) मा एन्थेरिडियम भाले प्रजनन अङ्ग हो जसले भाले ग्यामेट (एन्थेरोजोइड/शुक्राणु) उत्पादन गर्छ, जबकि आर्किगोनियम पोथी अङ्ग हो जसले पोथी ग्यामेट (डिम्ब) उत्पादन गर्छ।"
+          },
+          "correctOption": "i"
+        },
+        {
+          "id": "q1d",
+          "questionNumber": "1(d)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Which of the following plant is used for curing stomach and skin diseases?",
+            "ne": "पेट र छाला सम्बन्धी रोगहरूको उपचार गर्न निम्न मध्ये कुन विरुवालाई परम्परागत रूपमा प्रयोग गरिन्छ ?"
+          },
+          "options": [
+            {
+              "en": "Aloe-vera",
+              "ne": "घ्युकुमारी"
+            },
+            {
+              "en": "Yarsagumba",
+              "ne": "यार्सागुम्वा"
+            },
+            {
+              "en": "Bojo",
+              "ne": "बोजो"
+            },
+            {
+              "en": "Tulasi",
+              "ne": "तुलसी"
+            }
+          ],
+          "answer": {
+            "en": "Aloe-vera",
+            "ne": "घ्युकुमारी"
+          },
+          "solution": {
+            "en": "Aloe-vera gel is traditionally used to treat skin conditions (burns, wounds, irritation) and is also used to help soothe stomach/digestive issues, making it a well-known plant for both stomach and skin ailments.",
+            "ne": "घ्युकुमारीको रस परम्परागत रूपमा छालासम्बन्धी समस्या (पोलेको घाउ, चोट, जलन) उपचारका लागि प्रयोग हुन्छ र पेट/पाचनसम्बन्धी समस्यामा पनि शान्त पार्न सहयोग गर्छ, जसले यसलाई पेट र छाला दुवैका लागि प्रख्यात जडीबुटी बनाउँछ।"
+          },
+          "correctOption": "i"
+        },
+        {
+          "id": "q1e",
+          "questionNumber": "1(e)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "If the weight of a person on the surface of the Earth is 294 N, what might be the weight of the person on the moon?",
+            "ne": "यदि पृथ्वीको सतहमा एउटा वस्तुको तौल 294 N छ भने, चन्द्रमाको सतहमा उक्त वस्तुको तौल कति होला ?"
+          },
+          "options": [
+            {
+              "en": "6 N",
+              "ne": "6 N"
+            },
+            {
+              "en": "9.8 N",
+              "ne": "9.8 N"
+            },
+            {
+              "en": "49 N",
+              "ne": "49 N"
+            },
+            {
+              "en": "60 N",
+              "ne": "60 N"
+            }
+          ],
+          "answer": {
+            "en": "49 N",
+            "ne": "49 N"
+          },
+          "solution": {
+            "en": "Gravity on the Moon is about 1/6th of Earth's gravity, so weight on the Moon = weight on Earth ÷ 6 = 294 N ÷ 6 = 49 N.",
+            "ne": "चन्द्रमाको गुरुत्वाकर्षण पृथ्वीको लगभग 1/6 हुन्छ, त्यसैले चन्द्रमामा तौल = पृथ्वीमा तौल ÷ 6 = 294 N ÷ 6 = 49 N।"
+          },
+          "correctOption": "iii",
+          "solutionTable": {
+            "headers": [
+              {
+                "en": "Quantity",
+                "ne": "परिमाण"
+              },
+              {
+                "en": "Value",
+                "ne": "मान"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "Weight on Earth",
+                  "ne": "पृथ्वीमा तौल"
+                },
+                {
+                  "en": "294 N",
+                  "ne": "294 N"
+                }
+              ],
+              [
+                {
+                  "en": "Weight on Moon = Weight on Earth ÷ 6",
+                  "ne": "चन्द्रमामा तौल = पृथ्वीमा तौल ÷ 6"
+                },
+                {
+                  "en": "49 N",
+                  "ne": "49 N"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "q1f",
+          "questionNumber": "1(f)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "When a ship enters a river from a sea, it is found to sink more than before. What is the reason for this?",
+            "ne": "जब पानी जहाज समुन्द्रबाट नदीमा पस्छ, त्यो पहिलेभन्दा धेरै डुबेको पाइन्छ। यसको कारण के होला ?"
+          },
+          "options": [
+            {
+              "en": "Due to the temperature of the sea water being more than that of river.",
+              "ne": "समुन्द्रको पानीको तापक्रम नदीको पानीभन्दा बढी भएर।"
+            },
+            {
+              "en": "Due to the density of sea water being more than that of river water.",
+              "ne": "नदीको पानीभन्दा समुन्द्रको पानीको घनत्व बढी भएर।"
+            },
+            {
+              "en": "Due to the temperature of sea water being less than that of river water.",
+              "ne": "समुन्द्रको पानीको तापक्रम नदीको पानीभन्दा कम भएर।"
+            },
+            {
+              "en": "Due to the density of sea water being less than that of river water.",
+              "ne": "समुन्द्रको पानीको घनत्व नदीको पानीको भन्दा कम भएर।"
+            }
+          ],
+          "answer": {
+            "en": "Due to the density of sea water being more than that of river water.",
+            "ne": "नदीको पानीभन्दा समुन्द्रको पानीको घनत्व बढी भएर।"
+          },
+          "solution": {
+            "en": "By Archimedes' principle, a floating body displaces a weight of liquid equal to its own weight. Since sea water is denser (saltier) than river water, a smaller volume of sea water needs to be displaced to support the ship's weight (so it floats higher/sinks less). In the less dense river water, a larger volume must be displaced to generate the same supporting force, so the ship sinks deeper (more) in the river.",
+            "ne": "आर्किमिडिजको सिद्धान्तअनुसार, तैरिरहेको वस्तुले आफ्नो तौल बराबरको तरल विस्थापन गर्छ। समुन्द्रको पानी नदीको पानीभन्दा बढी घना (नुनिलो) भएकाले, जहाजको तौल थेग्न थोरै आयतनको समुन्द्री पानी विस्थापन गर्दा पुग्छ (त्यसैले जहाज माथि तैरिन्छ/कम डुब्छ)। कम घना नदीको पानीमा, उही सहायक बल उत्पन्न गर्न बढी आयतन विस्थापन गर्नुपर्छ, त्यसैले जहाज नदीमा बढी डुब्छ।"
+          },
+          "correctOption": "ii"
+        },
+        {
+          "id": "q1g",
+          "questionNumber": "1(g)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Figure shows refraction of a ray of light (30° in medium-1, 52° in medium-2). Which of the following statements is correct for this situation?",
+            "ne": "चित्रमा प्रकाशको किरणको आवर्तन देखाइएको छ (माध्यम-1 मा 30°, माध्यम-2 मा 52°)। यो अवस्थामा तलकामध्ये कुन तथ्य सही हो ?"
+          },
+          "options": [
+            {
+              "en": "Medium 1 is denser and medium 2 rarer.",
+              "ne": "माध्यम 1 सघन र माध्यम 2 विरल हो।"
+            },
+            {
+              "en": "Medium 1 is rarer and medium 2 denser.",
+              "ne": "माध्यम 1 विरल र माध्यम 2 सघन हो।"
+            },
+            {
+              "en": "Speed of light is same in both media.",
+              "ne": "प्रकाशको गति दुवै माध्यममा बराबर हुन्छ।"
+            },
+            {
+              "en": "Speed of light in medium 1 is greater than medium 2.",
+              "ne": "प्रकाशको गति माध्यम 2 मा भन्दा माध्यम 1 मा बढी हुन्छ।"
+            }
+          ],
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-koshi/q1g-refraction-diagram.png",
+            "caption": {
+              "en": "Ray of light refracting from medium-1 (30° from normal) to medium-2 (52° from normal).",
+              "ne": "प्रकाशको किरण माध्यम-1 (सामान्यबाट 30°) बाट माध्यम-2 (सामान्यबाट 52°) मा आवर्तन।"
+            }
+          },
+          "answer": {
+            "en": "Medium 1 is denser and medium 2 rarer.",
+            "ne": "माध्यम 1 सघन र माध्यम 2 विरल हो।"
+          },
+          "solution": {
+            "en": "The ray bends away from the normal (angle increases from 30° to 52°) as it goes from medium 1 to medium 2. Light bends away from the normal when passing from a denser medium to a rarer medium, so medium 1 is denser and medium 2 is rarer.",
+            "ne": "किरण माध्यम 1 बाट माध्यम 2 मा जाँदा सामान्यबाट टाढा झुक्छ (कोण 30° बाट 52° मा बढ्छ)। प्रकाश सघन माध्यमबाट विरल माध्यममा जाँदा सामान्यबाट टाढा झुक्छ, त्यसैले माध्यम 1 सघन र माध्यम 2 विरल हो।"
+          },
+          "correctOption": "i"
+        },
+        {
+          "id": "q1h",
+          "questionNumber": "1(h)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "What is the value of H in Hubble's law, v = Hd?",
+            "ne": "हव्बलको नियम v = Hd मा H को मान कति हुन्छ ?"
+          },
+          "options": [
+            {
+              "en": "65 km/s/Mpc",
+              "ne": "65 km/s/Mpc"
+            },
+            {
+              "en": "68 km/s/Mpc",
+              "ne": "68 km/s/Mpc"
+            },
+            {
+              "en": "70 km/s/Mpc",
+              "ne": "70 km/s/Mpc"
+            },
+            {
+              "en": "73 km/s/Mpc",
+              "ne": "73 km/s/Mpc"
+            }
+          ],
+          "answer": {
+            "en": "70 km/s/Mpc",
+            "ne": "70 km/s/Mpc"
+          },
+          "solution": {
+            "en": "Hubble's constant (H) is commonly taught with a standard rounded value of approximately 70 km/s/Mpc, relating a galaxy's recession velocity to its distance (v = Hd). (Note: precise measured values vary slightly by method, roughly 67-73 km/s/Mpc, but 70 is the standard curriculum value.)",
+            "ne": "हव्बलको स्थिरांक (H) लाई सामान्यतया करिब 70 km/s/Mpc को मानक गोलाई गरिएको मानको रूपमा पढाइन्छ, जसले ग्यालेक्सीको दूर जाने वेग र दूरीबिचको सम्बन्ध (v = Hd) देखाउँछ। (नोट: नापिएको ठ्याक्कै मान विधिअनुसार करिब 67-73 km/s/Mpc सम्म फरक पर्न सक्छ, तर पाठ्यक्रमको मानक मान 70 हो।)"
+          },
+          "correctOption": "iii"
+        },
+        {
+          "id": "q1i",
+          "questionNumber": "1(i)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "What is the valency of 'Y' in the following chemical equation? 2Y + 6HCl -> 2YCl3 + 3H2",
+            "ne": "तलको रासायनिक समीकरणमा 'Y' को संयुज्यता कति हुन्छ ? 2Y + 6HCl -> 2YCl3 + 3H2"
+          },
+          "options": [
+            {
+              "en": "1",
+              "ne": "1"
+            },
+            {
+              "en": "2",
+              "ne": "2"
+            },
+            {
+              "en": "3",
+              "ne": "3"
+            },
+            {
+              "en": "4",
+              "ne": "4"
+            }
+          ],
+          "answer": {
+            "en": "3",
+            "ne": "3"
+          },
+          "solution": {
+            "en": "In the equation 2Y + 6HCl -> 2YCl3 + 3H2, each Y combines with 3 chlorine atoms to form YCl3, so the valency of Y is 3.",
+            "ne": "समीकरण 2Y + 6HCl -> 2YCl3 + 3H2 मा, प्रत्येक Y ले 3 ओटा क्लोरिन परमाणुसँग मिलेर YCl3 बनाउँछ, त्यसैले Y को संयुज्यता 3 हो।"
+          },
+          "correctOption": "iii"
+        },
+        {
+          "id": "q1j",
+          "questionNumber": "1(j)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Why is detergent considered better than soap for washing clothes?",
+            "ne": "कपडा धुन साबुनभन्दा डिटर्जेन्ट राम्रो मानिन्छ, किन ?"
+          },
+          "options": [
+            {
+              "en": "Detergents work well in both hard and soft water, whereas soap is less effective in hard water.",
+              "ne": "डिटर्जेन्टहरू कडा र नरम दुवै पानीमा राम्रोसँग काम गर्छन्, जबकि साबुनहरू कडा पानीमा कम प्रभावकारी हुन्छन्।"
+            },
+            {
+              "en": "Detergents are biodegradable, whereas soap is not.",
+              "ne": "डिटर्जेन्टहरू बायोडिग्रेडेबल हुन्छन्, जबकि साबुन हुँदैन।"
+            },
+            {
+              "en": "Detergents are cheaper and easier to manufacture than soaps.",
+              "ne": "साबुनभन्दा डिटर्जेन्ट सस्तो र उत्पादन गर्न सजिलो हुन्छ।"
+            },
+            {
+              "en": "Detergents produce less pollution than soaps.",
+              "ne": "डिटर्जेन्टहरूले साबुनभन्दा कम प्रदूषण उत्पादन गर्दछ।"
+            }
+          ],
+          "answer": {
+            "en": "Detergents work well in both hard and soft water, whereas soap is less effective in hard water.",
+            "ne": "डिटर्जेन्टहरू कडा र नरम दुवै पानीमा राम्रोसँग काम गर्छन्, जबकि साबुनहरू कडा पानीमा कम प्रभावकारी हुन्छन्।"
+          },
+          "solution": {
+            "en": "Soap reacts with the calcium and magnesium ions present in hard water to form an insoluble scum, reducing its cleaning effectiveness. Detergents, however, do not form this scum with hard water ions and continue to clean effectively in both hard and soft water, which is why they are generally preferred over soap for washing clothes.",
+            "ne": "साबुनले कडा पानीमा भएको क्याल्सियम र म्याग्नेसियम आयनसँग प्रतिक्रिया गरी अघुलनशील झाग (स्कम) बनाउँछ, जसले यसको सफा गर्ने क्षमता घटाउँछ। तर डिटर्जेन्टले कडा पानीका आयनसँग यस्तो झाग बनाउँदैन र कडा तथा नरम दुवै पानीमा प्रभावकारी रूपमा सफा गर्न सक्छ, यही कारणले कपडा धुनका लागि साबुनभन्दा डिटर्जेन्टलाई प्राथमिकता दिइन्छ।"
+          },
+          "correctOption": "i"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Section B — Very Short Answer Questions",
+        "ne": "खण्ड 'ख' — अति छोटो उत्तर प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Write very short answer to the following questions. (9 x 1 = 9)",
+        "ne": "तलका प्रश्नहरूको अति छोटो उत्तर लेख्नुहोस् : (९x१=९)"
+      },
+      "items": [
+        {
+          "id": "q2a",
+          "questionNumber": "2(a)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Which is the dependent variable in the experiment where solubility of salt is measured at different temperatures?",
+            "ne": "विभिन्न तापक्रममा नुनको घुलनशीलता मापन गरिएको प्रयोगमा आश्रित चर कुन हो ?"
+          },
+          "answer": {
+            "en": "The solubility of the salt (the amount of salt that dissolves) is the dependent variable; temperature is the independent variable.",
+            "ne": "नुनको घुलनशीलता (घुल्ने नुनको मात्रा) आश्रित चर हो; तापक्रम स्वतन्त्र चर हो।"
+          }
+        },
+        {
+          "id": "q2b",
+          "questionNumber": "2(b)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Write the relation between up-thrust and the density of liquid.",
+            "ne": "तरल पदार्थको उर्ध्वचाप र यसको घनत्व बिचको सम्बन्ध लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "Upthrust is directly proportional to the density of the liquid (for a body of given submerged volume): Upthrust ∝ density of liquid.",
+            "ne": "उर्ध्वचाप तरल पदार्थको घनत्वसँग सोझो समानुपाती हुन्छ (दिइएको डुबेको आयतनको वस्तुका लागि): उर्ध्वचाप ∝ तरलको घनत्व।"
+          }
+        },
+        {
+          "id": "q2c",
+          "questionNumber": "2(c)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Write an application of total internal reflection of light in daily life.",
+            "ne": "प्रकाशको पूर्ण आन्तरिक परावर्तनको दैनिक जीवनमा एउटा उपयोग लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "Total internal reflection is used in optical fibres, which carry light signals over long distances for high-speed internet and telecommunication.",
+            "ne": "प्रकाशको पूर्ण आन्तरिक परावर्तन अप्टिकल फाइबरमा प्रयोग हुन्छ, जसले उच्च गतिको इन्टरनेट र दूरसञ्चारका लागि लामो दूरीसम्म प्रकाश सिग्नल बोक्छ।"
+          }
+        },
+        {
+          "id": "q2d",
+          "questionNumber": "2(d)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Write any one way for the correction of defect of vision without using spectacles.",
+            "ne": "चस्माको प्रयोग नगरी दृष्टिदोष सुधार्ने कुनै एक उपाय लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "A defect of vision can be corrected without spectacles through refractive/laser eye surgery (e.g. LASIK), which reshapes the cornea to correctly focus light onto the retina.",
+            "ne": "दृष्टिदोषलाई चस्मा प्रयोग नगरी रिफ्र्याक्टिभ/लेजर आँखा शल्यक्रिया (जस्तै LASIK) मार्फत सुधार गर्न सकिन्छ, जसले कर्नियाको आकार परिवर्तन गरी प्रकाशलाई सही रूपमा रेटिनामा केन्द्रित गराउँछ।"
+          }
+        },
+        {
+          "id": "q2e",
+          "questionNumber": "2(e)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "When an alternating current of 60 Hz frequency is connected to the primary coil of a transformer, what will be the frequency of alternating current in the secondary coil?",
+            "ne": "60Hz आवृति भएको अल्टरनेटिड करेन्ट ट्रान्सफर्मरको प्राइमरी क्वाइलमा जोड्दा, सेकेन्डरी क्वाइलमा अल्टरनेटिड करेन्टको आवृति कति हुन्छ ?"
+          },
+          "answer": {
+            "en": "60 Hz (the frequency remains the same in both the primary and secondary coils of a transformer).",
+            "ne": "60 Hz (ट्रान्सफर्मरको प्राइमरी र सेकेन्डरी क्वाइल दुवैमा आवृत्ति उस्तै रहन्छ)।"
+          }
+        },
+        {
+          "id": "q2f",
+          "questionNumber": "2(f)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Write the definition of flat universe.",
+            "ne": "समतल ब्रह्माण्डको परिभाषा लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "A flat universe is one with zero overall spatial curvature (following ordinary Euclidean geometry), whose average density equals the critical density, and which expands forever with the rate of expansion gradually approaching (but never quite reaching) zero.",
+            "ne": "समतल ब्रह्माण्ड भनेको शून्य समग्र वक्रता (सामान्य युक्लिडियन ज्यामिति पालना गर्ने) भएको, जसको औसत घनत्व क्रिटिकल घनत्वसँग बराबर हुने, र विस्तारको दर बिस्तारै शून्यनजिक पुग्दै (तर कहिल्यै शून्य नहुने) गरी सधैँ विस्तार भइरहने ब्रह्माण्ड हो।"
+          }
+        },
+        {
+          "id": "q2g",
+          "questionNumber": "2(g)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Write the name of an ore of copper.",
+            "ne": "तामाको एउटा धाउको नाम लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "Chalcopyrite (CuFeS2) is an ore of copper.",
+            "ne": "चाल्कोपाइराइट (CuFeS2) तामाको एउटा धाउ हो।"
+          }
+        },
+        {
+          "id": "q2h",
+          "questionNumber": "2(h)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Gold is found in a pure state in nature, why?",
+            "ne": "प्रकृतिमा सुन शुद्ध अवस्थामा पाइन्छ, किन ?"
+          },
+          "answer": {
+            "en": "Gold is found in a pure/native state in nature because it is highly unreactive (chemically inert) — it does not readily combine with oxygen, water, or other substances in the environment, so it remains uncombined in its metallic form.",
+            "ne": "सुन प्रकृतिमा शुद्ध/मौलिक अवस्थामा पाइन्छ किनभने यो अत्यन्त कम क्रियाशील (रासायनिक रूपमा निष्क्रिय) हुन्छ — यो वातावरणमा रहेको अक्सिजन, पानी वा अन्य पदार्थसँग सजिलै मिश्रित हुँदैन, त्यसैले यो आफ्नो धातु रूपमै नै रहन्छ।"
+          }
+        },
+        {
+          "id": "q2i",
+          "questionNumber": "2(i)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Write the structural formula of glycerol.",
+            "ne": "ग्लिसेरोलको संरचना सूत्र लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "CH2(OH)-CH(OH)-CH2(OH) (propane-1,2,3-triol).",
+            "ne": "CH2(OH)-CH(OH)-CH2(OH) (प्रोपेन-1,2,3-ट्राइओल)।"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Section C — Short Answer Questions",
+        "ne": "खण्ड 'ग' — छोटो उत्तर प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Write short answer to the following questions. (14 x 2 = 28)",
+        "ne": "तलका प्रश्नहरूको छोटो उत्तर लेख्नुहोस् : (१४x२=२८)"
+      },
+      "items": [
+        {
+          "id": "q3",
+          "questionNumber": "3",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Check the correctness of the equation s = ut + (1/2)at² by using unit-wise analysis.",
+            "ne": "एकाइगत विश्लेषण प्रयोग गरी s = ut + (1/2)at² समीकरण ठिक छ वा छैन परीक्षण गर्नुहोस्।"
+          },
+          "answer": {
+            "en": "The equation s = ut + (1/2)at² is valid, since both terms on the right-hand side have the same unit as the left-hand side, metre (m).",
+            "ne": "समीकरण s = ut + (1/2)at² मान्य छ, किनभने दायाँपट्टिका दुवै पद बायाँपट्टि (m) एकाइसँगै मिल्छन्।"
+          },
+          "solution": {
+            "en": "LHS: s has unit metre (m). RHS: ut has unit (m/s)×(s) = m; (1/2)at² has unit (m/s²)×(s²) = m (the factor 1/2 is dimensionless). Since both ut and (1/2)at² have unit m, they can be added, and their sum also has unit m — matching the unit of s on the LHS. Hence the equation is unit-wise valid.",
+            "ne": "बायाँपट्टि (LHS): s को एकाइ मिटर (m) हो। दायाँपट्टि (RHS): ut को एकाइ (m/s)×(s) = m हुन्छ; (1/2)at² को एकाइ (m/s²)×(s²) = m हुन्छ (1/2 एकाइरहित सङ्ख्या हो)। ut र (1/2)at² दुवैको एकाइ m नै भएकाले तिनलाई जोड्न मिल्छ, र तिनको योगफलको एकाइ पनि m नै हुन्छ — जुन LHS मा s को एकाइसँग मेल खान्छ। त्यसैले यो समीकरण एकाइगत रूपमा मान्य छ।"
+          },
+          "solutionTable": {
+            "headers": [
+              {
+                "en": "Term",
+                "ne": "पद"
+              },
+              {
+                "en": "Unit",
+                "ne": "एकाइ"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "s (LHS)",
+                  "ne": "s (LHS)"
+                },
+                {
+                  "en": "m",
+                  "ne": "m"
+                }
+              ],
+              [
+                {
+                  "en": "ut",
+                  "ne": "ut"
+                },
+                {
+                  "en": "m",
+                  "ne": "m"
+                }
+              ],
+              [
+                {
+                  "en": "(1/2)at²",
+                  "ne": "(1/2)at²"
+                },
+                {
+                  "en": "m",
+                  "ne": "m"
+                }
+              ],
+              [
+                {
+                  "en": "ut + (1/2)at² (RHS)",
+                  "ne": "ut + (1/2)at² (RHS)"
+                },
+                {
+                  "en": "m — matches LHS ✓",
+                  "ne": "m — LHS सँग मिल्यो ✓"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "q4",
+          "questionNumber": "4",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Write the name of an animal having a two-chambered heart, write one characteristic of this animal.",
+            "ne": "मुटुमा दुई कोठा हुने कुनै एक जीवको नाम लेखी कुनै एक विशेषता लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "Fish have a two-chambered heart (1 atrium + 1 ventricle). Characteristic: fish are aquatic, cold-blooded (poikilothermic) vertebrates that breathe through gills.",
+            "ne": "माछाको मुटु दुई कोठा भएको हुन्छ (1 एट्रियम + 1 भेन्ट्रिकल)। विशेषता: माछा जलचर, चिसो रगत (विषमतापी) कशेरुकी हो जसले गिल्सले सास फेर्छ।"
+          }
+        },
+        {
+          "id": "q5",
+          "questionNumber": "5",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Write any two characteristics which distinguish queen bee and drone bee.",
+            "ne": "रानी मौरी र भाले मौरी छुट्याउने कुनै दुईओटा विशेषता लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "1) The queen bee is a fertile female responsible for laying eggs and is the only reproductive female in the colony, whereas the drone bee is a fertile male whose sole role is to mate with a queen. 2) The queen bee has a longer body and a much longer lifespan (can live for years), whereas the drone bee is comparatively smaller-bodied (though bigger than a worker) and has a short lifespan, often dying soon after mating.",
+            "ne": "१) रानी मौरी उर्वर पोथी हो जुन अण्डा पार्ने काम गर्छ र घारमा प्रजनन गर्ने एक्लो पोथी हो, जबकि भाले मौरी उर्वर पुरुष हो जसको एकमात्र काम रानीसँग सहवास गर्नु हो। २) रानी मौरीको शरीर लामो हुन्छ र आयु धेरै लामो हुन्छ (वर्षौंसम्म बाँच्न सक्छ), जबकि भाले मौरी (कर्मी मौरीभन्दा ठूलो भए पनि) रानीको तुलनामा साना शरीरको हुन्छ र आयु छोटो हुन्छ, प्रायः सहवासपछि चाँडै मर्छ।"
+          }
+        },
+        {
+          "id": "q6",
+          "questionNumber": "6",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Write any two differences between DNA and RNA.",
+            "ne": "DNA र RNA को बिचमा दुईओटा भिन्नता लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "1) DNA is double-stranded (double helix), while RNA is single-stranded. 2) DNA contains the sugar deoxyribose and the base thymine, while RNA contains the sugar ribose and the base uracil (in place of thymine).",
+            "ne": "१) DNA डबल-स्ट्यान्डेड (डबल हेलिक्स) हुन्छ, जबकि RNA सिंगल-स्ट्यान्डेड हुन्छ। २) DNA मा डिअक्सिराइबोज सुगर र थाइमिन बेस हुन्छ, जबकि RNA मा राइबोज सुगर र (थाइमिनको सट्टा) युरासिल बेस हुन्छ।"
+          }
+        },
+        {
+          "id": "q7",
+          "questionNumber": "7",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "How is sex determined in human? Show by chart.",
+            "ne": "मानिसमा लिङ्ग निर्धारण कसरी हुन्छ ? चार्टद्वारा देखाउनुहोस्।"
+          },
+          "answer": {
+            "en": "Sex is determined by which type of sperm fertilises the egg: the mother (XX) always contributes an X chromosome, while the father (XY) may contribute either an X or a Y chromosome. If an X-carrying sperm fertilises the egg, the child is female (XX); if a Y-carrying sperm fertilises the egg, the child is male (XY).",
+            "ne": "शुक्रकिटको कुन प्रकारले अण्डालाई निषेचन गर्छ भन्नेमा लिङ्ग निर्धारण भर पर्छ: आमा (XX) ले सधैँ X क्रोमोजोम दिन्छिन्, जबकि बुबा (XY) ले X वा Y मध्ये कुनै एक क्रोमोजोम दिन सक्छन्। यदि X-युक्त शुक्रकिटले अण्डालाई निषेचन गऱ्यो भने सन्तान महिला (XX) हुन्छ; यदि Y-युक्त शुक्रकिटले निषेचन गऱ्यो भने सन्तान पुरुष (XY) हुन्छ।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-koshi/q7-sex-determination-chart-answer.png",
+            "caption": {
+              "en": "Model answer chart: sex determination in humans.",
+              "ne": "नमूना उत्तर चार्ट: मानिसमा लिङ्ग निर्धारण।"
+            }
+          }
+        },
+        {
+          "id": "q8",
+          "questionNumber": "8",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "(i) Which chamber of the human heart receives pure blood? (ii) Write the name of the main artery that takes pure blood from heart to different parts of the body.",
+            "ne": "(i) मानव मुटुको कुन कोठाले शुद्ध रगत प्राप्त गर्दछ ? (ii) मुटुबाट शरीरका विभिन्न भागमा शुद्ध रगत लैजाने मुख्य धमनीको नाम उल्लेख गर्नुहोस्।"
+          },
+          "answer": {
+            "en": "(i) The left atrium (left auricle) receives pure (oxygenated) blood from the lungs via the pulmonary veins. (ii) The aorta is the main artery that carries pure blood from the heart to different parts of the body.",
+            "ne": "(i) देब्रे अरिकल (एट्रियम) ले फोक्सोबाट पल्मोनरी नसामार्फत शुद्ध (अक्सिजनयुक्त) रगत प्राप्त गर्छ। (ii) एओर्टा मुटुबाट शरीरका विभिन्न भागमा शुद्ध रगत लैजाने मुख्य धमनी हो।"
+          }
+        },
+        {
+          "id": "q9",
+          "questionNumber": "9",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Write any two uses of the medicinal plant shown in the figure.",
+            "ne": "चित्रमा दिइएको जडीबुटीको दुई ओटा उपयोगिताहरू लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "The plant's exact species is not clearly identifiable from the scanned photo. Based on similar medicinal-plant questions in the SEE Science curriculum, common answers for such plants include: 1) treating fever, cough or cold symptoms, and 2) treating skin conditions or wounds (antiseptic use). Please compare the original photo with your textbook's list of locally-featured medicinal plants (e.g. Tulsi, Neem, Asuro, Bojo) to confirm the exact species and its uses before publishing this answer.",
+            "ne": "स्क्यान गरिएको फोटोबाट यो बिरुवाको ठ्याक्कै प्रजाति स्पष्ट पहिचान गर्न सकिएन। SEE विज्ञान पाठ्यक्रमका उस्तै जडीबुटी प्रश्नहरूको आधारमा, सामान्य उत्तरमा प्रायः यी पर्छन्: १) ज्वरो, खोकी वा रुघाको उपचारमा प्रयोग, र २) छालासम्बन्धी समस्या वा घाउको उपचार (एन्टिसेप्टिकको रूपमा प्रयोग)। यो उत्तर प्रकाशित गर्नुअघि कृपया मूल फोटोलाई आफ्नो पाठ्यपुस्तकमा दिइएका स्थानीय जडीबुटीहरू (जस्तै तुलसी, नीम, असुरो, बोजो) को सूचीसँग तुलना गरी ठ्याक्कै प्रजाति र यसको उपयोगिता पुष्टि गर्नुहोस्।"
+          }
+        },
+        {
+          "id": "q10",
+          "questionNumber": "10",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "How does this fall differ from an object falling on the moon? Write any two.",
+            "ne": "चित्रमा देखाइएको वस्तुको खसाइ र चन्द्रमामा वस्तुको खसाइबिच कुनै दुई अन्तर लेख्नुहोस्।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-koshi/q10-object-falling-earth.png",
+            "caption": {
+              "en": "An object (coconut) falling freely from a tree toward the ground on Earth, marked X to Y.",
+              "ne": "पृथ्वीमा रुखबाट नरिवल खस्दै गरेको, X देखि Y सम्म चिह्नित।"
+            }
+          },
+          "answer": {
+            "en": "1) Acceleration due to gravity on the Moon (≈1.63 m/s²) is much smaller than on Earth (≈9.8 m/s²), so an object falling on the Moon accelerates and gains speed much more slowly, taking longer to fall the same distance. 2) Earth has an atmosphere, so falling objects can experience air resistance (which affects light or oddly-shaped objects); the Moon has essentially no atmosphere, so there is no air resistance and all objects — regardless of mass or shape — fall at exactly the same rate.",
+            "ne": "१) चन्द्रमाको गुरुत्व प्रवेग (≈1.63 m/s²) पृथ्वी (≈9.8 m/s²) भन्दा धेरै कम हुन्छ, त्यसैले चन्द्रमामा खस्ने वस्तुको गति धेरै बिस्तारै बढ्छ, र उही दूरी खस्न बढी समय लाग्छ। २) पृथ्वीमा वायुमण्डल हुन्छ, त्यसैले खस्ने वस्तुले हावाको अवरोध अनुभव गर्न सक्छ (हल्का वा असामान्य आकारका वस्तुमा असर पर्छ); चन्द्रमामा लगभग कुनै वायुमण्डल हुँदैन, त्यसैले हावाको अवरोध हुँदैन र पिण्ड वा आकार जेसुकै भए पनि सबै वस्तु ठ्याक्कै उही दरमा खस्छन्।"
+          }
+        },
+        {
+          "id": "q11",
+          "questionNumber": "11",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "If a cricket ball is thrown vertically upward into the sky with velocity of 18 m/s, calculate the maximum height attained by the ball. (Neglect air resistance.)",
+            "ne": "यदि क्रिकेट बललाई 18 m/s को गतिमा सिधै माथि आकाशमा फ्याँकियो भने उक्त बल कति उचाइसम्म पुग्छ ? हिसाब गर्नुहोस्। (नोट: हावाको अवरोधलाई नगन्य मान्नुहोस्।)"
+          },
+          "answer": {
+            "en": "≈ 16.53 m.",
+            "ne": "≈ 16.53 m।"
+          },
+          "solution": {
+            "en": "Using v² = u² − 2gh, at maximum height v = 0, so h = u²/(2g) = (18)²/(2×9.8) = 324/19.6 ≈ 16.53 m.",
+            "ne": "v² = u² − 2gh प्रयोग गर्दा, अधिकतम उचाइमा v = 0 हुन्छ, त्यसैले h = u²/(2g) = (18)²/(2×9.8) = 324/19.6 ≈ 16.53 m।"
+          },
+          "solutionTable": {
+            "headers": [
+              {
+                "en": "Quantity",
+                "ne": "परिमाण"
+              },
+              {
+                "en": "Value",
+                "ne": "मान"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "Initial velocity (u)",
+                  "ne": "प्रारम्भिक वेग (u)"
+                },
+                {
+                  "en": "18 m/s",
+                  "ne": "18 m/s"
+                }
+              ],
+              [
+                {
+                  "en": "g",
+                  "ne": "g"
+                },
+                {
+                  "en": "9.8 m/s²",
+                  "ne": "9.8 m/s²"
+                }
+              ],
+              [
+                {
+                  "en": "h = u²/2g",
+                  "ne": "h = u²/2g"
+                },
+                {
+                  "en": "≈ 16.53 m",
+                  "ne": "≈ 16.53 m"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "q12",
+          "questionNumber": "12",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Draw a neat diagram of the process of electric current production by using a magnet and a coil.",
+            "ne": "चुम्बक र क्वाइल प्रयोग गरी करेन्ट उत्पादन गर्न सकिने प्रक्रियाको सफा चित्र कोर्नुहोस्।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-koshi/q12-emf-induction-answer.png",
+            "caption": {
+              "en": "Model answer diagram: inducing current by moving a bar magnet in/out of a coil connected to a galvanometer.",
+              "ne": "नमूना उत्तर चित्र: ग्याल्भानोमिटरसँग जोडिएको कोइलभित्र बार म्याग्नेट चलाई करेन्ट उत्पन्न गर्ने।"
+            }
+          },
+          "answer": {
+            "en": "Moving a bar magnet in and out of a coil of wire connected to a galvanometer produces a deflection in the galvanometer, showing that an electric current is induced in the coil whenever the magnetic flux linked with it changes (electromagnetic induction).",
+            "ne": "ग्याल्भानोमिटरसँग जोडिएको तारको कोइलभित्र बार म्याग्नेट भित्र-बाहिर चलाउँदा ग्याल्भानोमिटरको सुई घुम्छ, जसले कोइलसँग सम्बन्धित चुम्बकीय फ्लक्स परिवर्तन हुँदा त्यसमा विद्युत करेन्ट उत्पन्न हुने (विद्युत चुम्बकीय इन्डक्सन) देखाउँछ।"
+          }
+        },
+        {
+          "id": "q13",
+          "questionNumber": "13",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Write any two differences between alternating current and direct current.",
+            "ne": "अल्टरनेटिड करेन्ट र डाइरेक्ट करेन्ट बिचमा कुनै दुई भिन्नता लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "1) Alternating current (AC) periodically reverses its direction and magnitude (sinusoidal variation with time), whereas direct current (DC) flows only in one direction with constant magnitude. 2) AC can be easily stepped up or down in voltage using a transformer, whereas DC cannot be transformed this way using a simple transformer.",
+            "ne": "१) अल्टरनेटिङ करेन्ट (AC) आफ्नो दिशा र परिमाण नियमित रूपमा उल्टाउँछ (समयसँगै साइनको आकारमा परिवर्तन हुन्छ), जबकि डाइरेक्ट करेन्ट (DC) स्थिर परिमाणमा एउटै दिशामा मात्र बग्छ। २) AC लाई ट्रान्सफर्मर प्रयोग गरी सजिलै भोल्टेज बढाउन वा घटाउन सकिन्छ, जबकि सामान्य ट्रान्सफर्मरले DC लाई यसरी रूपान्तरण गर्न सकिँदैन।"
+          }
+        },
+        {
+          "id": "q14",
+          "questionNumber": "14",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Identify the compound X in the given chemical equation and balance the equation. X + HCl -> ZnCl2 + H2O",
+            "ne": "दिइएको रासायनिक समीकरणमा यौगिक X लाई पहिचान गरी समीकरणलाई सन्तुलन गर्नुहोस्। X + HCl -> ZnCl2 + H2O"
+          },
+          "answer": {
+            "en": "X = ZnO (Zinc oxide). Balanced equation: ZnO + 2HCl -> ZnCl2 + H2O.",
+            "ne": "X = ZnO (जिङ्क अक्साइड)। सन्तुलित समीकरण: ZnO + 2HCl -> ZnCl2 + H2O।"
+          },
+          "solution": {
+            "en": "Since the products are a salt (ZnCl2) and water (H2O) with no hydrogen gas evolved, this is a neutralisation-type reaction between a basic oxide and an acid, not a metal-acid reaction. Zinc oxide (ZnO) reacting with hydrochloric acid gives this exact product pattern: ZnO + 2HCl -> ZnCl2 + H2O, which is balanced with 1 Zn, 2 Cl, 2 H and matching O atoms on both sides.",
+            "ne": "उत्पादनमा लवण (ZnCl2) र पानी (H2O) मात्र भई हाइड्रोजन ग्यास नबनेको हुनाले, यो धातु-एसिड प्रतिक्रिया नभई आधारीय अक्साइड र एसिडबिचको न्युट्रलाइजेसन प्रकारको प्रतिक्रिया हो। जिङ्क अक्साइड (ZnO) ले हाइड्रोक्लोरिक एसिडसँग प्रतिक्रिया गर्दा ठ्याक्कै यही उत्पादन ढाँचा दिन्छ: ZnO + 2HCl -> ZnCl2 + H2O, जुन दुवैतिर 1 Zn, 2 Cl, 2 H र बराबर O परमाणुसहित सन्तुलित छ।"
+          }
+        },
+        {
+          "id": "q15",
+          "questionNumber": "15",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Write the general molecular formula of the compound given, H-C≡C-H. Also write the IUPAC name of the compound.",
+            "ne": "दिइएको यौगिकको संरचनात्मक सूत्रको आधारमा सामान्य आणविक सूत्र लेख्नुहोस्। यस यौगिकको IUPAC नाम पनि लेख्नुहोस्। H-C≡C-H"
+          },
+          "answer": {
+            "en": "General molecular formula: CnH2n-2 (this is the general formula for alkynes). IUPAC name of H-C≡C-H: Ethyne.",
+            "ne": "सामान्य आणविक सूत्र: CnH2n-2 (यो अल्काइनको सामान्य सूत्र हो)। H-C≡C-H को IUPAC नाम: इथाइन (Ethyne)।"
+          },
+          "solution": {
+            "en": "The given compound H-C≡C-H has a triple bond between the two carbon atoms, which is the defining feature of alkynes. Alkynes follow the general formula CnH2n-2. With n=2, this specific compound (C2H2) is named ethyne (common name: acetylene).",
+            "ne": "दिइएको यौगिक H-C≡C-H मा दुई कार्बन परमाणुबिच ट्रिपल बन्ड छ, जुन अल्काइनको मुख्य विशेषता हो। अल्काइनको सामान्य सूत्र CnH2n-2 हुन्छ। n=2 राख्दा, यो विशेष यौगिक (C2H2) लाई इथाइन (साधारण नाम: एसेटिलिन) भनिन्छ।"
+          }
+        },
+        {
+          "id": "q16",
+          "questionNumber": "16",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Which food preservative is better between the natural food preservative and the chemical food preservative? Why?",
+            "ne": "प्राकृतिक खाद्य परिरक्षी र रासायनिक खाद्य परिरक्षीमा कुन परिरक्षी राम्रो हुन्छ ? किन ?"
+          },
+          "answer": {
+            "en": "Natural food preservatives are generally considered better, because they are safer for health (do not usually cause harmful side effects or allergic reactions), are biodegradable/eco-friendly, and do not leave behind toxic chemical residues — unlike many chemical preservatives, which can pose health risks (such as allergies or long-term toxicity) if consumed in excess and can be more harmful to the environment.",
+            "ne": "प्राकृतिक खाद्य परिरक्षी सामान्यतया राम्रो मानिन्छ, किनभने यी स्वास्थ्यका लागि सुरक्षित हुन्छन् (हानिकारक साइड इफेक्ट वा एलर्जीजन्य प्रतिक्रिया सामान्यतया गर्दैनन्), बायोडिग्रेडेबल/वातावरणमैत्री हुन्छन्, र विषाक्त रासायनिक अवशेष छोड्दैनन् — जबकि धेरै रासायनिक परिरक्षीले बढी मात्रामा सेवन गर्दा स्वास्थ्य जोखिम (एलर्जी वा दीर्घकालीन विषाक्तता) निम्त्याउन सक्छन् र वातावरणका लागि पनि बढी हानिकारक हुन सक्छन्।"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Section D — Long Answer Questions",
+        "ne": "खण्ड 'घ' — लामो उत्तर प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Write long answer to the following questions. (7 x 4 = 28)",
+        "ne": "तलका प्रश्नहरूको लामो उत्तर लेख्नुहोस् : (७x४=२८)"
+      },
+      "items": [
+        {
+          "id": "q17",
+          "questionNumber": "17",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "(i) Identify the transmission channel of communication shown in the given figure. (ii) Write any two characteristics of the transmission channel shown in the figure. (iii) Give one example of the use of this transmission channel.",
+            "ne": "(i) चित्रमा दिइएको सञ्चारको प्रसारण च्यानल पहिचान गर्नुहोस्। (ii) चित्रमा दिइएको प्रसारण च्यानलका कुनै दुई विशेषताहरू लेख्नुहोस्। (iii) यस प्रसारण च्यानलको उपयोग भएको एउटा उदाहरण दिनुहोस्।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-koshi/q17-transmission-channel.png",
+            "caption": {
+              "en": "Digital signal transmitted between two devices via satellite/wireless channel.",
+              "ne": "डिजिटल सिग्नल स्याटेलाइट/वायरलेस च्यानलमार्फत दुई उपकरणबिच प्रसारण भइरहेको।"
+            }
+          },
+          "answer": {
+            "en": "(i) This shows a wireless (unguided) transmission channel — specifically a satellite/microwave communication channel, carrying the digital signal between two devices without a physical wire. (ii) Two characteristics: 1) It does not require a physical cable — signals travel through open space/air. 2) It can transmit data over very long distances and reach multiple receivers simultaneously (broadcast capability), though it can be affected by weather conditions and obstacles. (iii) Example use: Satellite television broadcasting (or GPS navigation, or long-distance mobile/internet communication).",
+            "ne": "(i) यसले एउटा वायरलेस (अनगाइडेड) प्रसारण च्यानल देखाउँछ — विशेषतः स्याटेलाइट/माइक्रोवेभ सञ्चार च्यानल, जसले भौतिक तारबिना दुई उपकरणबिच डिजिटल सिग्नल बोक्छ। (ii) दुई विशेषता: १) यसलाई भौतिक तार आवश्यक पर्दैन — सिग्नल खुला ठाउँ/हावामार्फत यात्रा गर्छ। २) यसले धेरै लामो दूरीमा डाटा प्रसारण गर्न सक्छ र एकैसाथ धेरै प्राप्तकर्तासम्म पुग्न सक्छ (ब्रोडकास्ट क्षमता), तर मौसम र अवरोधले यसलाई असर गर्न सक्छ। (iii) उदाहरण: स्याटेलाइट टेलिभिजन प्रसारण (वा GPS नेभिगेसन, वा लामो दूरीको मोबाइल/इन्टरनेट सञ्चार)।"
+          }
+        },
+        {
+          "id": "q18",
+          "questionNumber": "18",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Write two advantages and two disadvantages of cross-breeding between local buffaloes with a high quality he-buffalo (ranga).",
+            "ne": "स्थानीय भैंसीसँग उन्नत जातका राँगाहरूको क्रस ब्रीडिङ गराउँदा हुने दुईओटा फाइदा र दुईओटा बेफाइदाहरू लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "Two advantages: 1) Cross-breeding with a high-quality he-buffalo improves genetic quality, producing offspring with higher milk yield and better productivity traits. 2) It increases farmers' income and the overall economic value of the herd due to improved breed characteristics. Two disadvantages: 1) Cross-bred offspring may lose some of the local breed's natural adaptability to local climate and diseases, becoming more vulnerable to local conditions. 2) It requires additional investment (better feed, care, veterinary support) which may not be affordable for all farmers, and can reduce genetic diversity in the local population over time.",
+            "ne": "दुई फाइदा: १) उन्नत जातको राँगासँग क्रस ब्रीडिङ गराउँदा आनुवंशिक गुणस्तर सुधार भई, बढी दूध उत्पादन र राम्रो उत्पादकत्व भएका सन्तान जन्मन्छन्। २) उन्नत नस्लका विशेषताका कारण किसानको आम्दानी र गाईवस्तुको समग्र आर्थिक मूल्य बढ्छ। दुई बेफाइदा: १) क्रस-ब्रिड सन्तानले स्थानीय नस्लको स्थानीय हावापानी र रोगप्रतिको प्राकृतिक अनुकूलन क्षमता गुमाउन सक्छ, जसले तिनलाई स्थानीय अवस्थाप्रति बढी संवेदनशील बनाउँछ। २) यसका लागि थप लगानी (राम्रो दाना, स्याहार, पशु चिकित्सा सेवा) चाहिन्छ, जुन सबै किसानले धान्न नसक्न सक्छन्, र समयक्रममा स्थानीय जनसङ्ख्यामा आनुवंशिक विविधता घट्न सक्छ।"
+          }
+        },
+        {
+          "id": "q19",
+          "questionNumber": "19",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Write any two causes and two preventive measures of heart-attack.",
+            "ne": "हृदयघात हुनाको कुनै दुईओटा कारणहरू र दुईओटा रोकथामका उपायहरू लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "Two causes: 1) High blood pressure and high cholesterol leading to narrowing/blocking of the coronary arteries (atherosclerosis). 2) Unhealthy lifestyle factors such as smoking, obesity, lack of physical exercise, and excessive stress. Two preventive measures: 1) Maintain a healthy, low-fat, low-salt diet and exercise regularly. 2) Avoid smoking and excessive alcohol, manage stress, and get regular health checkups to monitor blood pressure and cholesterol.",
+            "ne": "दुई कारण: १) उच्च रक्तचाप र उच्च कोलेस्ट्रोलले कोरोनरी धमनी साँघुरिने/बन्द हुने (एथेरोस्क्लेरोसिस) समस्या ल्याउनु। २) धूम्रपान, मोटोपन, शारीरिक व्यायामको कमी, र अत्यधिक तनाव जस्ता अस्वस्थ जीवनशैलीका कारकहरू। दुई रोकथाम उपाय: १) स्वस्थ, कम बोसो, कम नुन भएको खाना खाने र नियमित व्यायाम गर्ने। २) धूम्रपान र अत्यधिक मद्यपानबाट टाढा रहने, तनाव व्यवस्थापन गर्ने, र रक्तचाप तथा कोलेस्ट्रोल अनुगमनका लागि नियमित स्वास्थ्य जाँच गराउने।"
+          }
+        },
+        {
+          "id": "q20",
+          "questionNumber": "20",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "(i) Due to which property of water is the organism living in the condition given in the figure? (ii) Why is the water at 0°C floating at the top? (iii) Write the biological significance of this characteristic of water. (iv) Mention one problem caused by this property of water in daily life.",
+            "ne": "(i) चित्रमा देखाइएको अवस्थामा पानीको कुन गुणको कारणले दिइएको जीव बाँच्न सफल छ ? (ii) 0°C को पानी सबैभन्दा माथि तैरिएको छ, किन ? (iii) पानीको यस गुणको जैविक महत्व लेख्नुहोस्। (iv) दैनिक जीवनमा पानीको यस गुणले निम्त्याउने एउटा समस्या उल्लेख गर्नुहोस्।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-koshi/q20-fish-under-ice.png",
+            "caption": {
+              "en": "A pond frozen at the top (-6°C ice), with temperature layers down to 4°C at the bottom where a fish lives.",
+              "ne": "माथि जमेको (-6°C बरफ) पोखरी, तल 4°C सम्मको तापक्रम तह, जहाँ माछा बाँचेको छ।"
+            }
+          },
+          "answer": {
+            "en": "(i) The organism (fish) survives due to the anomalous expansion of water — water has its maximum density at 4°C, so the bottom layer of the frozen pond remains liquid at about 4°C even though the surface has frozen into ice. (ii) Ice at 0°C floats at the top because ice is less dense than liquid water at higher temperatures (like the 4°C water at the bottom) — being lighter per unit volume, it rises to and stays on the surface. (iii) Biological significance: because the bottom layer of a frozen lake/pond stays liquid at around 4°C, fish and other aquatic organisms can survive through cold winters even when the surface is completely frozen. (iv) One problem in daily life: water pipes and containers can crack or burst in very cold weather, because water expands (rather than contracting further) as it freezes near and below 4°C, and the resulting ice takes up more volume than the liquid water did.",
+            "ne": "(i) जीव (माछा) पानीको असाधारण फैलावटको कारणले बाँचेको छ — पानीको घनत्व 4°C मा सबैभन्दा बढी हुन्छ, त्यसैले सतह जमेको भए पनि जमेको पोखरीको तल्लो तह करिब 4°C मा तरल नै रहन्छ। (ii) 0°C को बरफ माथि तैरिन्छ किनभने बरफ बढी तापक्रमको तरल पानी (जस्तै तलको 4°C पानी) भन्दा कम घना हुन्छ — प्रति एकाइ आयतन हल्का भएकाले यो माथि उठेर सतहमा रहन्छ। (iii) जैविक महत्व: जमेको तलाउ/पोखरीको तल्लो तह करिब 4°C मा तरल नै रहने भएकाले, सतह पूर्णतया जमे पनि माछा र अन्य जलचरहरूले चिसो जाडो याम टिक्न सक्छन्। (iv) दैनिक जीवनमा एउटा समस्या: अत्यधिक जाडोमा पानीका पाइप र भाँडाहरू फुट्न सक्छन्, किनभने पानी 4°C नजिक र त्योभन्दा तल जम्दा (अरू खुम्चिनुको सट्टा) फैलिन्छ, र बनेको बरफले तरल पानीले ओगटेकोभन्दा बढी ठाउँ ओगट्छ।"
+          }
+        },
+        {
+          "id": "q21",
+          "questionNumber": "21",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "(i) Write any two differences between convex and concave lens. (ii) The power of the lens used in the spectacles worn by a student is 4 D. Calculate the focal length of the lens. Also mention the type of the lens.",
+            "ne": "(i) कन्भेक्स र कन्केभ लेन्स बिचमा कुनै दुई भिन्नता लेख्नुहोस्। (ii) एकजना विद्यार्थीले लगाउने चस्मामा प्रयोग हुने लेन्सको सामर्थ्य 4 D छ। यस लेन्सको केन्द्रीकरण दूरी निकाल्नुहोस्। यस लेन्सको प्रकार पनि उल्लेख गर्नुहोस्।"
+          },
+          "answer": {
+            "en": "(i) Two differences: 1) A convex lens converges light rays and is thicker at the middle than at the edges, whereas a concave lens diverges light rays and is thinner at the middle than at the edges. 2) A convex lens has a positive focal length/power and is used to correct hypermetropia (long-sightedness), whereas a concave lens has a negative focal length/power and is used to correct myopia (short-sightedness). (ii) Focal length = 25 cm (0.25 m). Since the power is positive, this is a convex (converging) lens.",
+            "ne": "(i) दुई भिन्नता: १) कन्भेक्स लेन्सले प्रकाश किरण अभिसरण (कन्भर्ज) गराउँछ र यो बिचमा किनाराभन्दा बाक्लो हुन्छ, जबकि कन्केभ लेन्सले प्रकाश किरण अपसरण (डाइभर्ज) गराउँछ र यो बिचमा किनाराभन्दा पातलो हुन्छ। २) कन्भेक्स लेन्सको सामर्थ्य/केन्द्रीकरण दूरी धनात्मक हुन्छ र यो हाइपरमेट्रोपिया (टाढाको दृष्टिदोष) सच्याउन प्रयोग गरिन्छ, जबकि कन्केभ लेन्सको सामर्थ्य/केन्द्रीकरण दूरी ऋणात्मक हुन्छ र यो मायोपिया (नजिकको दृष्टिदोष) सच्याउन प्रयोग गरिन्छ। (ii) केन्द्रीकरण दूरी = 25 cm (0.25 m)। सामर्थ्य धनात्मक भएकाले, यो कन्भेक्स (कन्भर्जिङ) लेन्स हो।"
+          },
+          "solution": {
+            "en": "Power P = 1/f (f in metres), so f = 1/P = 1/4 = 0.25 m = 25 cm. A positive power/focal length indicates a converging (convex) lens.",
+            "ne": "सामर्थ्य P = 1/f (f मिटरमा), त्यसैले f = 1/P = 1/4 = 0.25 m = 25 cm। धनात्मक सामर्थ्य/केन्द्रीकरण दूरीले कन्भर्जिङ (कन्भेक्स) लेन्स जनाउँछ।"
+          },
+          "solutionTable": {
+            "headers": [
+              {
+                "en": "Quantity",
+                "ne": "परिमाण"
+              },
+              {
+                "en": "Value",
+                "ne": "मान"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "Power (P)",
+                  "ne": "सामर्थ्य (P)"
+                },
+                {
+                  "en": "4 D",
+                  "ne": "4 D"
+                }
+              ],
+              [
+                {
+                  "en": "f = 1/P",
+                  "ne": "f = 1/P"
+                },
+                {
+                  "en": "0.25 m = 25 cm",
+                  "ne": "0.25 m = 25 cm"
+                }
+              ],
+              [
+                {
+                  "en": "Lens type",
+                  "ne": "लेन्सको प्रकार"
+                },
+                {
+                  "en": "Convex (converging)",
+                  "ne": "कन्भेक्स (कन्भर्जिङ)"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "q22",
+          "questionNumber": "22",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "Study the given table and answer the following questions. Element P = 1s² 2s²2p⁵ ; Element Q = 1s² 2s²2p⁶ 3s² ; Element R = 1s² 2s²2p⁶ 3s²3p⁵ (i) Write the valency of element Q. (ii) Between P and R which one is more reactive? Why? (iii) Write the balanced chemical equation of the chemical reaction between elements Q and R.",
+            "ne": "दिइएको तालिका अध्ययन गर्नुहोस् र निम्न प्रश्नहरूको उत्तर दिनुहोस्। तत्व P = 1s² 2s²2p⁵ ; तत्व Q = 1s² 2s²2p⁶ 3s² ; तत्व R = 1s² 2s²2p⁶ 3s²3p⁵ (i) तत्व Q को संयुज्यता लेख्नुहोस्। (ii) P र R मध्ये कुन बढी सक्रिय छ ? किन ? (iii) तत्वहरू Q र R को बीचमा रासायनिक प्रतिक्रिया हुँदा बन्ने सन्तुलित रासायनिक समीकरण लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "(i) Valency of Q (Magnesium) = 2. (ii) P (Fluorine) is more reactive than R (Chlorine), because Fluorine is a smaller atom (fewer electron shells), so its nucleus attracts an incoming electron more strongly, making it more reactive; halogen reactivity decreases going down the group, so period-2 Fluorine is more reactive than period-3 Chlorine. (iii) Mg + Cl2 -> MgCl2.",
+            "ne": "(i) Q (म्याग्नेसियम) को संयुज्यता = 2। (ii) P (फ्लोरिन) R (क्लोरिन) भन्दा बढी सक्रिय छ, किनभने फ्लोरिन सानो परमाणु हो (कम इलेक्ट्रोन सेल), त्यसैले यसको न्युक्लियसले आउने इलेक्ट्रोनलाई बढी बलपूर्वक तान्छ, जसले यसलाई बढी सक्रिय बनाउँछ; हेलोजनको सक्रियता समूहमा तल जाँदा घट्दै जान्छ, त्यसैले पिरियड-2 को फ्लोरिन पिरियड-3 को क्लोरिनभन्दा बढी सक्रिय हुन्छ। (iii) Mg + Cl2 -> MgCl2।"
+          },
+          "solution": {
+            "en": "P's configuration (1s² 2s²2p⁵) has 9 electrons — Fluorine (F), atomic number 9. Q's configuration (1s² 2s²2p⁶ 3s²) has 12 electrons — Magnesium (Mg), atomic number 12, with 2 valence electrons in 3s², giving it a valency of 2. R's configuration (1s² 2s²2p⁶ 3s²3p⁵) has 17 electrons — Chlorine (Cl), atomic number 17. Mg (which loses 2 electrons) reacts with Cl2 (each Cl needs 1 electron) to form MgCl2: Mg + Cl2 -> MgCl2.",
+            "ne": "P को बनावट (1s² 2s²2p⁵) मा 9 इलेक्ट्रोन छन् — फ्लोरिन (F), परमाणु सङ्ख्या 9। Q को बनावट (1s² 2s²2p⁶ 3s²) मा 12 इलेक्ट्रोन छन् — म्याग्नेसियम (Mg), परमाणु सङ्ख्या 12, जसको 3s² मा 2 भ्यालेन्स इलेक्ट्रोन छन्, जसले यसलाई संयुज्यता 2 दिन्छ। R को बनावट (1s² 2s²2p⁶ 3s²3p⁵) मा 17 इलेक्ट्रोन छन् — क्लोरिन (Cl), परमाणु सङ्ख्या 17। Mg (जसले 2 इलेक्ट्रोन त्याग्छ) ले Cl2 (हरेक Clलाई 1 इलेक्ट्रोन चाहिने) सँग प्रतिक्रिया गरी MgCl2 बनाउँछ: Mg + Cl2 -> MgCl2।"
+          }
+        },
+        {
+          "id": "q23",
+          "questionNumber": "23",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Koshi Province",
+          "question": {
+            "en": "(i) Write the balanced chemical equation involved in the process shown in the vessel of the given diagram (CaCO3 + dil. HCl in a Woulfe's bottle). (ii) Can dilute sulphuric acid be used instead of dilute hydrochloric acid? Why? (iii) What is the reason of collecting this gas in an erect (upright) gas jar?",
+            "ne": "(i) देखाइएको चित्रको भाँडामा हुने रासायनिक प्रतिक्रियाको सन्तुलित रासायनिक समीकरण लेख्नुहोस् (CaCO3 + dil. HCl, Woulfe's Bottle मा)। (ii) के हाइड्रोक्लोरिक एसिडको सट्टा तनुकृत सल्फ्युरिक एसिड प्रयोग गर्न सकिन्छ ? किन ? (iii) यसलाई ठाडो ग्यास जारमा जम्मा गरिनुको कारण के हो ?"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-koshi/q23-co2-woulfe-bottle.png",
+            "caption": {
+              "en": "CaCO3 reacting with dilute HCl in a Woulfe's bottle, gas collected in an upright gas jar.",
+              "ne": "Woulfe's Bottle मा CaCO3 ले तनुकृत HCl सँग प्रतिक्रिया गर्दै, ग्यास ठाडो ग्यास जारमा सङ्कलन।"
+            }
+          },
+          "answer": {
+            "en": "(i) CaCO3 + 2HCl -> CaCl2 + H2O + CO2. (ii) No, dilute sulphuric acid should not be used instead of dilute hydrochloric acid. When CaCO3 reacts with dilute H2SO4, it forms calcium sulphate (CaSO4), which is only sparingly soluble and forms an insoluble coating on the surface of the marble/CaCO3 chips. This coating stops the acid from reaching the remaining CaCO3, so the reaction stops prematurely (before producing much gas). (iii) This gas (CO2) is collected in an erect (upright) gas jar because CO2 is heavier (denser) than air, so it settles at the bottom of the jar and does not easily escape, allowing it to be collected efficiently by the upward-displacement-of-air method.",
+            "ne": "(i) CaCO3 + 2HCl -> CaCl2 + H2O + CO2। (ii) होइन, हाइड्रोक्लोरिक एसिडको सट्टा तनुकृत सल्फ्युरिक एसिड प्रयोग गर्नु हुँदैन। CaCO3 ले तनुकृत H2SO4 सँग प्रतिक्रिया गर्दा क्यालिसियम सल्फेट (CaSO4) बन्छ, जुन थोरै मात्र घुलनशील हुन्छ र मार्बल/CaCO3 चिप्सको सतहमा अघुलनशील तह बनाउँछ। यो तहले एसिडलाई बाँकी CaCO3 सम्म पुग्नबाट रोक्छ, त्यसैले प्रतिक्रिया (धेरै ग्यास नबन्दै) समयअघि नै रोकिन्छ। (iii) यो ग्यास (CO2) लाई ठाडो ग्यास जारमा जम्मा गरिन्छ किनभने CO2 हावाभन्दा भारी (बढी घना) हुन्छ, त्यसैले यो जारको फेदमा जम्छ र सजिलै भाग्दैन, जसले गर्दा यसलाई हावा विस्थापन विधिद्वारा प्रभावकारी रूपमा सङ्कलन गर्न सकिन्छ।"
+          }
+        }
+      ]
+    }
+  ]
+}

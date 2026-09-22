@@ -1,0 +1,342 @@
+{
+  "chapterId": "full-paper",
+  "subjectId": "computer-science",
+  "classLevel": "10",
+  "province": null,
+  "examBoard": "SEE",
+  "examYear": "2082 BS (2026 AD)",
+  "paperCode": "RE-3031'B'",
+  "fullMarks": 50,
+  "timeAllowed": "2 hours",
+  "title": "SEE 2082 (2026) Computer Science (Optional Second) - RE-3031'B'",
+  "sourceNote": "Transcribed and translated in full to English from a scanned SEE 2082 (2026) Computer Science (Optional Second) question paper, code RE-3031'B'. Only the English wording printed on the paper is used here. The paper's own margin notes confirm the section-wise marks split of Group A = 10, Group B = 24, Group C = 16, which matches the printed sub-question breakdown and the full marks of 50 exactly, so no marks discrepancy is flagged. The paper did not state which province issued it, so 'province' is left null - please confirm. 'examBoard' is set to the generic 'SEE' as no specific board name was printed. Question 7's printed main module calls PRINT LongestName$ (Z$) even though Z$ is never assigned a value anywhere in the main module (only A$, B$, C$ are read via DATA/READ and shared via DIM SHARED); the FUNCTION LongestName$ itself never actually uses its Z$ parameter internally either (it works entirely off the shared A$/B$/C$), so this does not affect the two questions actually asked about this program (identifying the global variables and explaining the $ suffix) - preserved exactly as printed, flagged here for awareness. No figures, flowcharts, or diagrams appear anywhere in this paper, so no items include an image field.",
+  "blocks": [
+    {
+      "heading": "SEE 2082 (2026) Computer Science - Optional Second",
+      "paragraph": "This is the Secondary Education Examination (SEE) 2082 (2026 AD) question paper for Computer Science, Optional Second subject, paper code RE-3031'B'. It carries full marks of 50 and an allotted time of 2 hours, divided into Group A (short, one-line answers and terminology), Group B (short/medium answers including QBASIC program tracing and debugging), and Group C (numerical conversions and full program-writing questions in QBASIC and C)."
+    }
+  ],
+  "questionSections": [
+    {
+      "title": "Group A - Q1: Answer the following questions in one sentence",
+      "instructions": "6x1=6",
+      "items": [
+        {
+          "id": "cs-see-2082-re3031b-q1a",
+          "questionNumber": "1(a)",
+          "section": "Group A",
+          "marks": 1,
+          "source": "SEE 2082 (2026) Computer Science Optional II",
+          "question": "What is transmission media?"
+        },
+        {
+          "id": "cs-see-2082-re3031b-q1b",
+          "questionNumber": "1(b)",
+          "section": "Group A",
+          "marks": 1,
+          "source": "SEE 2082 (2026) Computer Science Optional II",
+          "question": "What is mobile commerce?"
+        },
+        {
+          "id": "cs-see-2082-re3031b-q1c",
+          "questionNumber": "1(c)",
+          "section": "Group A",
+          "marks": 1,
+          "source": "SEE 2082 (2026) Computer Science Optional II",
+          "question": "Why is Primary key used in MS-Access?"
+        },
+        {
+          "id": "cs-see-2082-re3031b-q1d",
+          "questionNumber": "1(d)",
+          "section": "Group A",
+          "marks": 1,
+          "source": "SEE 2082 (2026) Computer Science Optional II",
+          "question": "Which data type is suitable to store the date of admission of a student while designing a table structure in MS-Access?"
+        },
+        {
+          "id": "cs-see-2082-re3031b-q1e",
+          "questionNumber": "1(e)",
+          "section": "Group A",
+          "marks": 1,
+          "source": "SEE 2082 (2026) Computer Science Optional II",
+          "question": "What is modular programming?"
+        },
+        {
+          "id": "cs-see-2082-re3031b-q1f",
+          "questionNumber": "1(f)",
+          "section": "Group A",
+          "marks": 1,
+          "source": "SEE 2082 (2026) Computer Science Optional II",
+          "question": "Write any two logical operators of 'C' language."
+        }
+      ]
+    },
+    {
+      "title": "Group A - Q2: Write appropriate technical term for the following",
+      "instructions": "2x1=2",
+      "items": [
+        {
+          "id": "cs-see-2082-re3031b-q2a",
+          "questionNumber": "2(a)",
+          "section": "Group A",
+          "marks": 1,
+          "source": "SEE 2082 (2026) Computer Science Optional II",
+          "question": "Name the program that can disinfect a virus from a file."
+        },
+        {
+          "id": "cs-see-2082-re3031b-q2b",
+          "questionNumber": "2(b)",
+          "section": "Group A",
+          "marks": 1,
+          "source": "SEE 2082 (2026) Computer Science Optional II",
+          "question": "Name the artificial environment created by a computer system that appears real."
+        }
+      ]
+    },
+    {
+      "title": "Group A - Q3: Write the full form of the following",
+      "instructions": "2x1=2",
+      "items": [
+        {
+          "id": "cs-see-2082-re3031b-q3a",
+          "questionNumber": "3(a)",
+          "section": "Group A",
+          "marks": 1,
+          "source": "SEE 2082 (2026) Computer Science Optional II",
+          "question": "LAN"
+        },
+        {
+          "id": "cs-see-2082-re3031b-q3b",
+          "questionNumber": "3(b)",
+          "section": "Group A",
+          "marks": 1,
+          "source": "SEE 2082 (2026) Computer Science Optional II",
+          "question": "URL"
+        }
+      ]
+    },
+    {
+      "title": "Group B - Q4: Answer the following questions",
+      "instructions": "9x2=18",
+      "items": [
+        {
+          "id": "cs-see-2082-re3031b-q4a",
+          "questionNumber": "4(a)",
+          "section": "Group B",
+          "marks": 2,
+          "source": "SEE 2082 (2026) Computer Science Optional II",
+          "question": "Mention any two differences between Client/Server architecture and Peer to Peer architecture of the computer network."
+        },
+        {
+          "id": "cs-see-2082-re3031b-q4b",
+          "questionNumber": "4(b)",
+          "section": "Group B",
+          "marks": 2,
+          "source": "SEE 2082 (2026) Computer Science Optional II",
+          "question": "Write any two opportunities and two threats of social media."
+        },
+        {
+          "id": "cs-see-2082-re3031b-q4c",
+          "questionNumber": "4(c)",
+          "section": "Group B",
+          "marks": 2,
+          "source": "SEE 2082 (2026) Computer Science Optional II",
+          "question": "Write the importance of backup in data and software security."
+        },
+        {
+          "id": "cs-see-2082-re3031b-q4d",
+          "questionNumber": "4(d)",
+          "section": "Group B",
+          "marks": 2,
+          "source": "SEE 2082 (2026) Computer Science Optional II",
+          "question": "What is e-banking? Write its two advantages."
+        },
+        {
+          "id": "cs-see-2082-re3031b-q4e",
+          "questionNumber": "4(e)",
+          "section": "Group B",
+          "marks": 2,
+          "source": "SEE 2082 (2026) Computer Science Optional II",
+          "question": "What is IoT? Write any two importance of it."
+        },
+        {
+          "id": "cs-see-2082-re3031b-q4f",
+          "questionNumber": "4(f)",
+          "section": "Group B",
+          "marks": 2,
+          "source": "SEE 2082 (2026) Computer Science Optional II",
+          "question": "Write any four advantages of DBMS."
+        },
+        {
+          "id": "cs-see-2082-re3031b-q4g",
+          "questionNumber": "4(g)",
+          "section": "Group B",
+          "marks": 2,
+          "source": "SEE 2082 (2026) Computer Science Optional II",
+          "question": "Which data types are suitable while designing a table structure to store information about a student's Name, Roll No., Address and Date of Birth in MS-Access?"
+        },
+        {
+          "id": "cs-see-2082-re3031b-q4h",
+          "questionNumber": "4(h)",
+          "section": "Group B",
+          "marks": 2,
+          "source": "SEE 2082 (2026) Computer Science Optional II",
+          "question": "What is a Select Query? Write the function of Action Query."
+        },
+        {
+          "id": "cs-see-2082-re3031b-q4i",
+          "questionNumber": "4(i)",
+          "section": "Group B",
+          "marks": 2,
+          "source": "SEE 2082 (2026) Computer Science Optional II",
+          "question": "Define Report. Why is it necessary to create a Report in DBMS?"
+        }
+      ]
+    },
+    {
+      "title": "Group B - Q5: Dry run the given program",
+      "instructions": "2",
+      "items": [
+        {
+          "id": "cs-see-2082-re3031b-q5",
+          "questionNumber": "5",
+          "section": "Group B",
+          "marks": 2,
+          "source": "SEE 2082 (2026) Computer Science Optional II",
+          "question": "Write the output of the given program. Show it in a dry run table.",
+          "code": "DECLARE SUB Series (A)\nCLS\nA = 5\nCALL Series (A)\nEND\n\nSUB Series (A)\n FOR K = 1 TO 5\n    PRINT A;\n    A = A*2\n NEXT K\nEND SUB",
+          "codeLanguage": "QBASIC"
+        }
+      ]
+    },
+    {
+      "title": "Group B - Q6: Correct the bugs in the given program",
+      "instructions": "2",
+      "items": [
+        {
+          "id": "cs-see-2082-re3031b-q6",
+          "questionNumber": "6",
+          "section": "Group B",
+          "marks": 2,
+          "source": "SEE 2082 (2026) Computer Science Optional II",
+          "question": "Rewrite the given program after correcting the bugs.",
+          "code": "REM to add record in a existing file\nCLS\nOPEN \"See.dat\" for OUTPUT AS #2\nBB:\n  INPUT \"Enter the Name\"; N$\n  INPUT \"Enter the Address\"; A$\n  INPUT \"Enter the Class\"; C\n  INPUT #2, N$, A$, C\n  INPUT \"More record\"; Y$\n  IF UCASE (Y$) = \"Y\" THEN GOTO BB\nCLOSE \"See.dat\"\nEND",
+          "codeLanguage": "QBASIC"
+        }
+      ]
+    },
+    {
+      "title": "Group B - Q7: Study the given program and answer the questions",
+      "instructions": "2x1=2",
+      "items": [
+        {
+          "id": "cs-see-2082-re3031b-q7a",
+          "questionNumber": "7(a)",
+          "section": "Group B",
+          "marks": 1,
+          "source": "SEE 2082 (2026) Computer Science Optional II",
+          "question": "Write the Global variables used in the above program.",
+          "code": "DECLARE FUNCTION LongestName$ (Z$)\nDIM SHARED A$, B$, C$\nCLS\nREAD A$, B$, C$\nDATA \"NEPAL\", \"BANGLADESH\", \"BHUTAN\"\nPRINT LongestName$ (Z$)\nEND\n\nFUNCTION LongestName$ (Z$)\n  L$=A$\n  IF LEN(B$) > LEN(L$) THEN\n     L$ = B$\n  ELSEIF LEN (C$)>LEN(L$) THEN\n     L$=C$\n  END IF\n  LongestName$=L$\nEND FUNCTION",
+          "codeLanguage": "QBASIC",
+          "ocrFlag": "The main module calls PRINT LongestName$ (Z$), but Z$ is never assigned a value anywhere in the main module, and the function itself never actually uses its Z$ parameter (it only compares the shared A$, B$, C$). Preserved exactly as printed since it doesn't affect this question."
+        },
+        {
+          "id": "cs-see-2082-re3031b-q7b",
+          "questionNumber": "7(b)",
+          "section": "Group B",
+          "marks": 1,
+          "source": "SEE 2082 (2026) Computer Science Optional II",
+          "question": "Why is the $ (dollar) sign used after the function name?",
+          "code": "DECLARE FUNCTION LongestName$ (Z$)\nDIM SHARED A$, B$, C$\nCLS\nREAD A$, B$, C$\nDATA \"NEPAL\", \"BANGLADESH\", \"BHUTAN\"\nPRINT LongestName$ (Z$)\nEND\n\nFUNCTION LongestName$ (Z$)\n  L$=A$\n  IF LEN(B$) > LEN(L$) THEN\n     L$ = B$\n  ELSEIF LEN (C$)>LEN(L$) THEN\n     L$=C$\n  END IF\n  LongestName$=L$\nEND FUNCTION",
+          "codeLanguage": "QBASIC"
+        }
+      ]
+    },
+    {
+      "title": "Group C - Q8: Convert/Calculate as per the instruction",
+      "instructions": "4x1=4",
+      "items": [
+        {
+          "id": "cs-see-2082-re3031b-q8i",
+          "questionNumber": "8(i)",
+          "section": "Group C",
+          "marks": 1,
+          "source": "SEE 2082 (2026) Computer Science Optional II",
+          "question": "(1011101)2 = (?)8"
+        },
+        {
+          "id": "cs-see-2082-re3031b-q8ii",
+          "questionNumber": "8(ii)",
+          "section": "Group C",
+          "marks": 1,
+          "source": "SEE 2082 (2026) Computer Science Optional II",
+          "question": "(188)10 = (?)16"
+        },
+        {
+          "id": "cs-see-2082-re3031b-q8iii",
+          "questionNumber": "8(iii)",
+          "section": "Group C",
+          "marks": 1,
+          "source": "SEE 2082 (2026) Computer Science Optional II",
+          "question": "(101)2 x (110)2 = (?)2"
+        },
+        {
+          "id": "cs-see-2082-re3031b-q8iv",
+          "questionNumber": "8(iv)",
+          "section": "Group C",
+          "marks": 1,
+          "source": "SEE 2082 (2026) Computer Science Optional II",
+          "question": "(111011)2 / (101)2"
+        }
+      ]
+    },
+    {
+      "title": "Group C - Q9: Answer the following questions",
+      "instructions": "4x2=8",
+      "items": [
+        {
+          "id": "cs-see-2082-re3031b-q9a",
+          "questionNumber": "9(a)",
+          "section": "Group C",
+          "marks": 4,
+          "source": "SEE 2082 (2026) Computer Science Optional II",
+          "question": "Write a program to ask three numbers from a user and find their sum using a Sub procedure, and find the average of those numbers using a Function procedure."
+        },
+        {
+          "id": "cs-see-2082-re3031b-q9b",
+          "questionNumber": "9(b)",
+          "section": "Group C",
+          "marks": 4,
+          "source": "SEE 2082 (2026) Computer Science Optional II",
+          "question": "Write a program to store the Roll No, Name, Class, Date of Birth, and Address of students in a data file \"STUDENT.TXT\". The program should allow the user to input more data as many times as they need."
+        }
+      ]
+    },
+    {
+      "title": "Group C - Q10: Write a program (attempt either option)",
+      "instructions": "4 (attempt either (a) or (b) - not both)",
+      "items": [
+        {
+          "id": "cs-see-2082-re3031b-q10a",
+          "questionNumber": "10(a)",
+          "section": "Group C",
+          "marks": 4,
+          "source": "SEE 2082 (2026) Computer Science Optional II",
+          "question": "Write a program in 'C' language that checks whether the given number is Positive or Negative.",
+          "alternativeGroup": "q10",
+          "altLabel": "Option 1"
+        },
+        {
+          "id": "cs-see-2082-re3031b-q10b",
+          "questionNumber": "10(b) (OR)",
+          "section": "Group C",
+          "marks": 4,
+          "source": "SEE 2082 (2026) Computer Science Optional II",
+          "question": "OR: Write a program using 'C' language to display the series 100, 95, 90, 85, 80, ... up to the 10th term.",
+          "alternativeGroup": "q10",
+          "altLabel": "Option 2"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "chapterId": "full-paper",
+  "subjectId": "computer-science",
+  "classLevel": "10",
+  "province": null,
+  "examBoard": "SEE",
+  "examYear": "2081 BS (2025 AD)",
+  "paperCode": "RE-3031",
+  "fullMarks": 50,
+  "timeAllowed": "2 hours",
+  "title": "SEE 2081 (2025) Computer Science (Optional Second) - RE-3031",
+  "sourceNote": "Transcribed and translated in full to English from a scanned SEE 2081 (2025) Computer Science (Optional Second) question paper, code RE-3031. The paper itself printed both Nepali and English versions of each question; only the English wording is used here. The paper did not state which province issued it, so the 'province' field is left null - please confirm and fill it in. The 'examBoard' field is set to the generic 'SEE' as no specific board name was printed. No figures, flowcharts, or diagrams appeared anywhere in this paper, so no items include an image field. Question 7's printed code uses the variable C$ inside FUNCTION COUNT(A$), which does not match the declared parameter A$ - this looks like an OCR/printing error and has been preserved as printed (not silently corrected); see the corresponding answer item and the chat message for the suggested fix. Full marks (50) reconcile exactly against the printed section-wise marks breakdown (Group A = 10, Group B = 24, Group C = 16).",
+  "blocks": [
+    {
+      "heading": "SEE 2081 (2025) Computer Science - Optional Second",
+      "paragraph": "This is the Secondary Education Examination (SEE) 2081 (2025 AD) question paper for Computer Science, Optional Second subject, paper code RE-3031. The paper carries full marks of 50 and an allotted time of 2 hours, and is divided into three groups: Group A (short, one-line answers and terminology), Group B (short/medium answer questions including QBASIC program tracing and debugging), and Group C (numerical conversions and full program-writing questions in QBASIC and C)."
+    }
+  ],
+  "questionSections": [
+    {
+      "title": "Group A - Q1: Answer the following questions in one sentence",
+      "instructions": "6x1=6",
+      "items": [
+        {
+          "id": "cs-see-2081-re3031-q1a",
+          "questionNumber": "1(a)",
+          "section": "Group A",
+          "marks": 1,
+          "source": "SEE 2081 (2025) Computer Science Optional II",
+          "question": "What is telecommunication?"
+        },
+        {
+          "id": "cs-see-2081-re3031-q1b",
+          "questionNumber": "1(b)",
+          "section": "Group A",
+          "marks": 1,
+          "source": "SEE 2081 (2025) Computer Science Optional II",
+          "question": "Give any two examples of simplex mode."
+        },
+        {
+          "id": "cs-see-2081-re3031-q1c",
+          "questionNumber": "1(c)",
+          "section": "Group A",
+          "marks": 1,
+          "source": "SEE 2081 (2025) Computer Science Optional II",
+          "question": "Write any two methods of creating table in MS-Access."
+        },
+        {
+          "id": "cs-see-2081-re3031-q1d",
+          "questionNumber": "1(d)",
+          "section": "Group A",
+          "marks": 1,
+          "source": "SEE 2081 (2025) Computer Science Optional II",
+          "question": "What is the maximum character you can use for creating a field name in MS-Access?"
+        },
+        {
+          "id": "cs-see-2081-re3031-q1e",
+          "questionNumber": "1(e)",
+          "section": "Group A",
+          "marks": 1,
+          "source": "SEE 2081 (2025) Computer Science Optional II",
+          "question": "Write the syntax of KILL statement."
+        },
+        {
+          "id": "cs-see-2081-re3031-q1f",
+          "questionNumber": "1(f)",
+          "section": "Group A",
+          "marks": 1,
+          "source": "SEE 2081 (2025) Computer Science Optional II",
+          "question": "Write any two keywords used in C-language."
+        }
+      ]
+    },
+    {
+      "title": "Group A - Q2: Write appropriate technical term for the following",
+      "instructions": "2x1=2",
+      "items": [
+        {
+          "id": "cs-see-2081-re3031-q2a",
+          "questionNumber": "2(a)",
+          "section": "Group A",
+          "marks": 1,
+          "source": "SEE 2081 (2025) Computer Science Optional II",
+          "question": "Name the websites that search documents based on specified keywords in the WWW."
+        },
+        {
+          "id": "cs-see-2081-re3031-q2b",
+          "questionNumber": "2(b)",
+          "section": "Group A",
+          "marks": 1,
+          "source": "SEE 2081 (2025) Computer Science Optional II",
+          "question": "Name the recording of interaction with the digital world."
+        }
+      ]
+    },
+    {
+      "title": "Group A - Q3: Write the full form of the following",
+      "instructions": "2x1=2",
+      "items": [
+        {
+          "id": "cs-see-2081-re3031-q3a",
+          "questionNumber": "3(a)",
+          "section": "Group A",
+          "marks": 1,
+          "source": "SEE 2081 (2025) Computer Science Optional II",
+          "question": "UPS"
+        },
+        {
+          "id": "cs-see-2081-re3031-q3b",
+          "questionNumber": "3(b)",
+          "section": "Group A",
+          "marks": 1,
+          "source": "SEE 2081 (2025) Computer Science Optional II",
+          "question": "VR"
+        }
+      ]
+    },
+    {
+      "title": "Group B - Q4: Answer the following questions",
+      "instructions": "9x2=18",
+      "items": [
+        {
+          "id": "cs-see-2081-re3031-q4a",
+          "questionNumber": "4(a)",
+          "section": "Group B",
+          "marks": 2,
+          "source": "SEE 2081 (2025) Computer Science Optional II",
+          "question": "Differentiate between guided and unguided media. (Any two)"
+        },
+        {
+          "id": "cs-see-2081-re3031-q4b",
+          "questionNumber": "4(b)",
+          "section": "Group B",
+          "marks": 2,
+          "source": "SEE 2081 (2025) Computer Science Optional II",
+          "question": "Define cyber law. List one do and one don't of cyber ethics."
+        },
+        {
+          "id": "cs-see-2081-re3031-q4c",
+          "questionNumber": "4(c)",
+          "section": "Group B",
+          "marks": 2,
+          "source": "SEE 2081 (2025) Computer Science Optional II",
+          "question": "Define Antivirus software with two examples."
+        },
+        {
+          "id": "cs-see-2081-re3031-q4d",
+          "questionNumber": "4(d)",
+          "section": "Group B",
+          "marks": 2,
+          "source": "SEE 2081 (2025) Computer Science Optional II",
+          "question": "Why is e-commerce more popular than traditional commerce nowadays? Give any two reasons."
+        },
+        {
+          "id": "cs-see-2081-re3031-q4e",
+          "questionNumber": "4(e)",
+          "section": "Group B",
+          "marks": 2,
+          "source": "SEE 2081 (2025) Computer Science Optional II",
+          "question": "What is e-governance? Provide any two examples of e-governance services that exist in Nepal."
+        },
+        {
+          "id": "cs-see-2081-re3031-q4f",
+          "questionNumber": "4(f)",
+          "section": "Group B",
+          "marks": 2,
+          "source": "SEE 2081 (2025) Computer Science Optional II",
+          "question": "What is database? Name any two data types used in MS-Access."
+        },
+        {
+          "id": "cs-see-2081-re3031-q4g",
+          "questionNumber": "4(g)",
+          "section": "Group B",
+          "marks": 2,
+          "source": "SEE 2081 (2025) Computer Science Optional II",
+          "question": "Write the difference between field and record. (Any two)"
+        },
+        {
+          "id": "cs-see-2081-re3031-q4h",
+          "questionNumber": "4(h)",
+          "section": "Group B",
+          "marks": 2,
+          "source": "SEE 2081 (2025) Computer Science Optional II",
+          "question": "Define a report. Why is it necessary to create a report in DBMS?"
+        },
+        {
+          "id": "cs-see-2081-re3031-q4i",
+          "questionNumber": "4(i)",
+          "section": "Group B",
+          "marks": 2,
+          "source": "SEE 2081 (2025) Computer Science Optional II",
+          "question": "What is query? Mention the different types of Action query."
+        }
+      ]
+    },
+    {
+      "title": "Group B - Q5: Dry run the given program",
+      "instructions": "2",
+      "items": [
+        {
+          "id": "cs-see-2081-re3031-q5",
+          "questionNumber": "5",
+          "section": "Group B",
+          "marks": 2,
+          "source": "SEE 2081 (2025) Computer Science Optional II",
+          "question": "Write down the output of the given program and show it in a dry run table.",
+          "code": "DECLARE SUB Display (T$)\nT$=\"COMPUTER\"\nCALL Display (T$)\nEND\n\nSUB Display (T$)\n  FOR C=1 TO LEN (T$) STEP 2\n    D$=MID$ (T$,C,1)\n    PRINT D$;\n  NEXT C\nEND SUB",
+          "codeLanguage": "QBASIC"
+        }
+      ]
+    },
+    {
+      "title": "Group B - Q6: Correct the bugs in the given program",
+      "instructions": "2",
+      "items": [
+        {
+          "id": "cs-see-2081-re3031-q6",
+          "questionNumber": "6",
+          "section": "Group B",
+          "marks": 2,
+          "source": "SEE 2081 (2025) Computer Science Optional II",
+          "question": "Rewrite the given program after correcting the bugs.",
+          "code": "REM to add record in an existing file.\nOPEN \"student.dat\" FOR OUT AS #2\nTOP:\nINPUT \"Enter Name, Class and Roll No.\"; SName$, C, RN\nINPUT#2, SNames$,C,RN\nINPUT \"More records\"; Y$\nIF UCASE$(Y$)=\"Y\" THEN GOTO POP\nCLOSE #2\nSTOP",
+          "codeLanguage": "QBASIC"
+        }
+      ]
+    },
+    {
+      "title": "Group B - Q7: Study the given program and answer the questions",
+      "instructions": "2x1=2",
+      "items": [
+        {
+          "id": "cs-see-2081-re3031-q7a",
+          "questionNumber": "7(a)",
+          "section": "Group B",
+          "marks": 1,
+          "source": "SEE 2081 (2025) Computer Science Optional II",
+          "question": "Write down the missing statement in the main module needed to execute the program.",
+          "code": "DECLARE FUNCTION COUNT (A$)\nCLS\nINPUT \"Enter any word\";W$\nEND\n\nFUNCTION COUNT (A$)\n  B=LEN(A$)\n  C=0\nFOR i=1 TO B\n  E$=MID$(C$,i,1)\n  IF E$=\"A\" OR E$=\"E\" OR E$=\"I\" OR E$=\"O\" OR E$=\"U\" THEN\n  C=C+1\n  END IF\nNEXT i\nCOUNT=C\nEND FUNCTION",
+          "codeLanguage": "QBASIC",
+          "ocrFlag": "The printed line 'E$=MID$(C$,i,1)' uses C$, which is not declared anywhere (the function parameter is A$). This looks like an OCR/print error for A$; preserved here exactly as scanned rather than silently corrected - please check the original paper. See the answers file for the suggested correction."
+        },
+        {
+          "id": "cs-see-2081-re3031-q7b",
+          "questionNumber": "7(b)",
+          "section": "Group B",
+          "marks": 1,
+          "source": "SEE 2081 (2025) Computer Science Optional II",
+          "question": "List any two string functions used in the above program.",
+          "code": "DECLARE FUNCTION COUNT (A$)\nCLS\nINPUT \"Enter any word\";W$\nEND\n\nFUNCTION COUNT (A$)\n  B=LEN(A$)\n  C=0\nFOR i=1 TO B\n  E$=MID$(C$,i,1)\n  IF E$=\"A\" OR E$=\"E\" OR E$=\"I\" OR E$=\"O\" OR E$=\"U\" THEN\n  C=C+1\n  END IF\nNEXT i\nCOUNT=C\nEND FUNCTION",
+          "codeLanguage": "QBASIC",
+          "ocrFlag": "Same possible C$/A$ OCR issue as item 7(a); see that item's note."
+        }
+      ]
+    },
+    {
+      "title": "Group C - Q8: Convert/Calculate as per the instruction",
+      "instructions": "4x1=4",
+      "items": [
+        {
+          "id": "cs-see-2081-re3031-q8i",
+          "questionNumber": "8(i)",
+          "section": "Group C",
+          "marks": 1,
+          "source": "SEE 2081 (2025) Computer Science Optional II",
+          "question": "(1503)8 = (?)16"
+        },
+        {
+          "id": "cs-see-2081-re3031-q8ii",
+          "questionNumber": "8(ii)",
+          "section": "Group C",
+          "marks": 1,
+          "source": "SEE 2081 (2025) Computer Science Optional II",
+          "question": "(101000101)2 = (?)8"
+        },
+        {
+          "id": "cs-see-2081-re3031-q8iii",
+          "questionNumber": "8(iii)",
+          "section": "Group C",
+          "marks": 1,
+          "source": "SEE 2081 (2025) Computer Science Optional II",
+          "question": "(1010)2 + (1101)2 - (110)2"
+        },
+        {
+          "id": "cs-see-2081-re3031-q8iv",
+          "questionNumber": "8(iv)",
+          "section": "Group C",
+          "marks": 1,
+          "source": "SEE 2081 (2025) Computer Science Optional II",
+          "question": "(100111)2 / (110)2"
+        }
+      ]
+    },
+    {
+      "title": "Group C - Q9: Answer the following questions",
+      "instructions": "4x2=8",
+      "items": [
+        {
+          "id": "cs-see-2081-re3031-q9a",
+          "questionNumber": "9(a)",
+          "section": "Group C",
+          "marks": 4,
+          "source": "SEE 2081 (2025) Computer Science Optional II",
+          "question": "Write a program in QBASIC that asks the length, breadth and height of a room and calculates its perimeter and volume. Create a Function procedure to calculate the perimeter and a Sub procedure to calculate the volume. [HINT: Volume = L x B x H and Perimeter = 2(L+B)]"
+        },
+        {
+          "id": "cs-see-2081-re3031-q9b",
+          "questionNumber": "9(b)",
+          "section": "Group C",
+          "marks": 4,
+          "source": "SEE 2081 (2025) Computer Science Optional II",
+          "question": "A sequential data file \"std.dat\" stores some students' name, roll number, and marks in English, Nepali, Maths and Computer. Write a program to read data from the sequential data file named \"std.dat\" and display all the information of those students whose marks in Computer is more than 40."
+        }
+      ]
+    },
+    {
+      "title": "Group C - Q10: Write a program (attempt either option)",
+      "instructions": "4 (attempt either (a) or (b) - not both)",
+      "items": [
+        {
+          "id": "cs-see-2081-re3031-q10a",
+          "questionNumber": "10(a)",
+          "section": "Group C",
+          "marks": 4,
+          "source": "SEE 2081 (2025) Computer Science Optional II",
+          "question": "Write a program in C-language to find the greatest number among any two different input numbers.",
+          "alternativeGroup": "q10",
+          "altLabel": "Option 1"
+        },
+        {
+          "id": "cs-see-2081-re3031-q10b",
+          "questionNumber": "10(b) (OR)",
+          "section": "Group C",
+          "marks": 4,
+          "source": "SEE 2081 (2025) Computer Science Optional II",
+          "question": "OR: Write a program in C-language to display the series 5, 10, 15, 20, ... up to the 15th term.",
+          "alternativeGroup": "q10",
+          "altLabel": "Option 2"
+        }
+      ]
+    }
+  ]
+}
