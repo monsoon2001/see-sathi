@@ -10,9 +10,9 @@
 import fs from "node:fs";
 import path from "node:path";
 
+import { patchChapterDoc } from "./firebaseAdmin.mjs";
+
 export const REPO = path.resolve(new URL("../../", import.meta.url).pathname);
-export const FIRESTORE = "https://firestore.googleapis.com/v1/projects/learning-832c9/databases/(default)/documents";
-export const API_KEY = "AIzaSyAx_o_15KKSZGSyNFF3R6PcTayXViH2UvM";
 
 const manifest = JSON.parse(fs.readFileSync(path.join(REPO, "scripts/cloudinary-manifest.json"), "utf8"));
 
@@ -150,14 +150,8 @@ export function buildQuestionSections(notes, solved, imgUrl, exerciseGroups) {
  * Firestore write
  * ---------------------------------------------------------------- */
 export async function patchDoc(docId, fields) {
-  const res = await fetch(`${FIRESTORE}/chapters/${docId}?key=${API_KEY}`, {
-    method: "PATCH",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ fields }),
-  });
-  const json = await res.json();
-  if (!res.ok) throw new Error(`PATCH ${docId} failed: ${json?.error?.message ?? res.statusText}`);
-  return json;
+  await patchChapterDoc(docId, fields);
+  return { name: `chapters/${docId}` };
 }
 
 export function docFields(cfg, blocks, questionSections) {

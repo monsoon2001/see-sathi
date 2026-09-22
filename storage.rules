@@ -1,0 +1,11 @@
+rules_version = '2';
+
+// Firebase Storage is not used by the app (images are served from Cloudinary),
+// so deny all access until a real use case exists.
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}

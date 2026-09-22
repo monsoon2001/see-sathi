@@ -69,6 +69,8 @@ export async function GET(request: Request) {
     headers: {
       "Content-Type": EXT_MIME[ext] ?? "application/octet-stream",
       "Cache-Control": "public, max-age=86400, s-maxage=86400, stale-while-revalidate=86400",
+      "X-Content-Type-Options": "nosniff",
+      "Cross-Origin-Resource-Policy": "cross-origin",
     },
   });
 }

@@ -1,0 +1,25 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ---- Public content tree -------------------------------------------
+    // The Next.js server reads chapter docs via the Firestore REST API
+    // (lib/firebase/chapterDoc.ts) as an unauthenticated caller, so reads
+    // must be public. Content is curated by admins only.
+    match /chapters/{docId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    // ---- Per-user data ---------------------------------------------------
+    // Users may only read/write documents under their own uid subtree.
+    // Populate subcollections (profile, bookmarks, progress) as the app
+    // grows; anything outside this subtree is denied by default.
+    match /users/{userId}/{document=**} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // Everything else is denied by default.
+  }
+}

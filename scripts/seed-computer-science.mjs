@@ -13,11 +13,10 @@
  */
 import fs from "node:fs";
 import path from "node:path";
+import { patchChapterDoc } from "./lib/firebaseAdmin.mjs";
 
 const SOURCE = "/Users/monsoonparajuli/Downloads/all_chapters_computer_science";
 const MANIFEST = "scripts/cloudinary-manifest.json";
-const FIRESTORE = "https://firestore.googleapis.com/v1/projects/learning-832c9/databases/(default)/documents";
-const API_KEY = "AIzaSyAx_o_15KKSZGSyNFF3R6PcTayXViH2UvM";
 
 const repo = path.resolve(new URL("..", import.meta.url).pathname);
 const manifest = JSON.parse(fs.readFileSync(path.join(repo, MANIFEST), "utf8"));
@@ -278,16 +277,8 @@ function buildCh4Notes() {
  * Firestore write
  * ---------------------------------------------------------------- */
 async function patchDoc(docId, fields) {
-  const res = await fetch(`${FIRESTORE}/chapters/${docId}?key=${API_KEY}`, {
-    method: "PATCH",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ fields }),
-  });
-  const json = await res.json();
-  if (!res.ok) {
-    throw new Error(`PATCH ${docId} failed: ${json?.error?.message ?? res.statusText}`);
-  }
-  return json;
+  await patchChapterDoc(docId, fields);
+  return { name: `chapters/${docId}` };
 }
 
 function docFields({ docId, num, titleEn, titleNe, blocks, questionSections }) {

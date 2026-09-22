@@ -16,8 +16,13 @@ import path from "node:path";
 import crypto from "node:crypto";
 
 const CLOUD_NAME = "q5f7r5xt";
-const API_KEY = "155836861554592";
-const API_SECRET = process.env.CLOUDINARY_API_SECRET || "sGfCYxj6SGnm3QYQ2RshlelVMVk";
+const API_KEY = process.env.CLOUDINARY_API_KEY;
+const API_SECRET = process.env.CLOUDINARY_API_SECRET;
+
+if (!API_KEY || !API_SECRET) {
+  console.error("Missing Cloudinary credentials. Set CLOUDINARY_API_KEY and CLOUDINARY_API_SECRET (never commit them).");
+  process.exit(1);
+}
 
 const CS_SRC = "/Users/monsoonparajuli/Downloads/all_chapters_computer_science";
 const REPO = path.resolve(new URL("..", import.meta.url).pathname);

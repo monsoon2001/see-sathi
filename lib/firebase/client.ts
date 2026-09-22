@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { getApp, getApps, initializeApp } from "firebase/app";
+import { initializeAppCheck, ReCaptchaV3Provider } from "firebase/app-check";
 import { getAuth, GoogleAuthProvider, onAuthStateChanged, type User } from "firebase/auth";
 import { firebaseConfig } from "@/lib/firebase/config";
 
@@ -10,6 +11,13 @@ export const auth = getAuth(app);
 export const googleProvider = new GoogleAuthProvider();
 
 googleProvider.setCustomParameters({ prompt: "select_account" });
+
+if (typeof window !== "undefined" && process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY) {
+  initializeAppCheck(app, {
+    provider: new ReCaptchaV3Provider(process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY as string),
+    isTokenAutoRefreshEnabled: true,
+  });
+}
 
 if (typeof window !== "undefined") {
   import("firebase/analytics")

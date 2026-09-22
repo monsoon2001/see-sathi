@@ -48,9 +48,8 @@ function parseAuthError(err: unknown): string {
       return "Please enter your password.";
     case "auth/invalid-credential":
     case "auth/wrong-password":
-      return "Incorrect email or password.";
     case "auth/user-not-found":
-      return "No account found with this email.";
+      return "Incorrect email or password.";
     case "auth/too-many-requests":
       return "Too many attempts. Try again in a few minutes.";
     case "auth/popup-closed-by-user":
