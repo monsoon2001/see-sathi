@@ -1,0 +1,780 @@
+{
+  "subjectId": "science",
+  "classLevel": "10",
+  "province": "Karnali",
+  "examBoard": "SEE (National Examinations Board, Nepal)",
+  "examYear": "2081 (2025 AD)",
+  "paperCode": "RE-1041'KaP'",
+  "fullMarks": 75,
+  "timeAllowed": "3 hours",
+  "sourceNote": {
+    "en": "Digitised from the uploaded scan of the SEE 2081 (2025) Science question paper, Karnali Province, set 'KaP'. Two issues in the original printed paper are flagged here rather than silently corrected: (1) Q1(h)'s Nepali text asks about Nitric acid + Sodium hydroxide, but the paper's own English translation says 'hydrochloric acid' — the two language versions of the same question disagree in the original. (2) Q4's premise (that fern, cycas and banana are 'kept in the same division') is botanically imprecise, since they actually belong to different taxonomic Divisions (Pteridophyta, Gymnospermae, Angiospermae) — the question was answered assuming it means the broader Kingdom Plantae.",
+    "ne": "यो फाइल SEE 2081 (2025) विज्ञान प्रश्नपत्र, कर्णाली प्रदेश, सेट 'KaP' को स्क्यान गरिएको प्रतिबाट तयार पारिएको हो। मूल छापिएको प्रश्नपत्रका दुईओटा समस्या यहाँ नचुपाई स्पष्ट उल्लेख गरिएको छ: (१) प्रश्न 1(h) को नेपाली पाठमा नाइट्रिक एसिड र सोडियम हाइड्रोअक्साइडको बारेमा सोधिएको छ, तर सोही प्रश्नको अङ्ग्रेजी अनुवादमा 'hydrochloric acid' भनिएको छ — उही प्रश्नका दुई भाषा संस्करण मूल प्रतिमै बेमेल छन्। (२) प्रश्न ४ को आधार (उनिउँ, साइकस र केरा 'एउटै डिभिजनमा' राखिन्छन् भन्ने) वनस्पतिशास्त्रीय दृष्टिले ठ्याक्कै मिल्दैन, किनकि तिनीहरू वास्तवमा फरक-फरक डिभिजन (टेरिडोफाइटा, जिम्नोस्पर्मी, एन्जियोस्पर्मी) मा पर्छन् — यो प्रश्नको उत्तर व्यापक अर्थमा 'प्लान्टी जगत' भन्ने बुझी दिइएको छ।"
+  },
+  "chapterId": "see-2081-science-karnali-qp",
+  "docType": "questionPaper",
+  "titleEn": "SEE 2081 (2025) Science Question Paper — Karnali Province",
+  "titleNe": "SEE २०८१ (२०२५) विज्ञान तथा प्रविधि प्रश्नपत्र — कर्णाली प्रदेश",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": {
+        "en": "SEE 2081 (2025) — Science and Technology",
+        "ne": "SEE २०८१ (२०२५) — विज्ञान तथा प्रविधि"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "Time: 3 hours | Full Marks: 75. Answer creatively in your own style, based on the given instructions.",
+        "ne": "समय : ३ घण्टा | पूर्णाङ्क : ७५। दिइएका निर्देशनका आधारमा आफ्नै शैलीमा सिर्जनात्मक उत्तर दिनुहोस्।"
+      }
+    }
+  ],
+  "questionSections": [
+    {
+      "title": {
+        "en": "Section A — Multiple Choice Questions",
+        "ne": "खण्ड 'क' — बहुवैकल्पिक प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Choose the best alternative to the following questions and write in the answer sheet. (10 x 1 = 10)",
+        "ne": "तलका प्रश्नहरूको ठिक विकल्प छानी उत्तरपुस्तिकामा लेख्नुहोस्। (१०x१=१०)"
+      },
+      "items": [
+        {
+          "id": "q1a",
+          "questionNumber": "1(a)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Which one of the following is a derived unit?",
+            "ne": "तलका मध्ये कुनचाहिँ तत्जन्य एकाइ हो ?"
+          },
+          "options": [
+            {
+              "en": "Candela",
+              "ne": "क्याण्डेला"
+            },
+            {
+              "en": "Ampere",
+              "ne": "एम्पियर"
+            },
+            {
+              "en": "Newton",
+              "ne": "न्युटन"
+            },
+            {
+              "en": "Mole",
+              "ne": "मोल"
+            }
+          ]
+        },
+        {
+          "id": "q1b",
+          "questionNumber": "1(b)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "What is the reason for keeping sea-urchin in phylum Echinodermata?",
+            "ne": "सिअर्चिनलाई इकाइनोडर्माटा फाइलममा राखिनुको कारण के हो ?"
+          },
+          "options": [
+            {
+              "en": "Due to body being divided into head, thorax and abdomen",
+              "ne": "शरीर, टाउको, छाती र पेटमा विभाजित भएकोले"
+            },
+            {
+              "en": "Due to locomotion with the help of tube-feet",
+              "ne": "ट्युव फिटको सहायताले चाल देखाउने भएकोले"
+            },
+            {
+              "en": "Due to body being flat and thin like a tape",
+              "ne": "शरीर टेपजस्तै पातलो, लामो र चेप्टो भएकोले"
+            },
+            {
+              "en": "Due to them being found in moist soil and water",
+              "ne": "यिनीहरू ओसिलो माटो र पानीमा पाइने भएकोले"
+            }
+          ]
+        },
+        {
+          "id": "q1c",
+          "questionNumber": "1(c)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Which disease is caused due to a sudden deficiency of white blood cells in blood?",
+            "ne": "रगतमा एक्कासी सेता रक्तकोषको कमि भएमा कुन रोग लाग्छ ?"
+          },
+          "options": [
+            {
+              "en": "leukopenia",
+              "ne": "ल्युकोपेनिया"
+            },
+            {
+              "en": "haemophilia",
+              "ne": "हेमोफिलिया"
+            },
+            {
+              "en": "anemia",
+              "ne": "रक्तअल्पता"
+            },
+            {
+              "en": "leukemia",
+              "ne": "ल्युकेमिया"
+            }
+          ]
+        },
+        {
+          "id": "q1d",
+          "questionNumber": "1(d)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "In the given organism, what is the relationship between the caterpillar and the fungi?",
+            "ne": "दिइएको जीवमा, भुसिलकिरा र फन्जाइको सम्बन्ध कस्तो हुन्छ ?"
+          },
+          "options": [
+            {
+              "en": "saprotrophic",
+              "ne": "स्याप्रोट्रोपिक"
+            },
+            {
+              "en": "parasitic",
+              "ne": "परजीवि"
+            },
+            {
+              "en": "predator",
+              "ne": "परभक्षी"
+            },
+            {
+              "en": "symbiotic",
+              "ne": "सिम्बायोटिक"
+            }
+          ],
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-karnali/q1d-caterpillar-fungus.png",
+            "caption": {
+              "en": "A caterpillar with fungal fruiting bodies growing out of it (Cordyceps-type fungus on a host caterpillar, as in Yarsagumba).",
+              "ne": "किरा (भुसिलकिरा) बाट फन्जाइको फलनकारी भाग उम्रिएको (यार्सागुम्बाजस्तै कर्डिसेप्स प्रकारको फन्जाइ)।"
+            }
+          }
+        },
+        {
+          "id": "q1e",
+          "questionNumber": "1(e)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "If the weight of a body on the surface of the Moon is 5 N, what could be the weight of that body on the surface of the Earth?",
+            "ne": "यदि चन्द्रमाको सतहमा वस्तुको तौल 5 N छ भने पृथ्वीको सतहमा उक्त वस्तुको तौल कति होला ?"
+          },
+          "options": [
+            {
+              "en": "5/6 N",
+              "ne": "5/6 N"
+            },
+            {
+              "en": "5 N",
+              "ne": "5 N"
+            },
+            {
+              "en": "30 N",
+              "ne": "30 N"
+            },
+            {
+              "en": "50 N",
+              "ne": "50 N"
+            }
+          ]
+        },
+        {
+          "id": "q1f",
+          "questionNumber": "1(f)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Which type of lens is thicker at the middle and thinner at the edges?",
+            "ne": "कुन प्रकारको लेन्सको बिचको भाग मोटो र छेउको भाग पातलो हुन्छ ?"
+          },
+          "options": [
+            {
+              "en": "concave lens",
+              "ne": "कन्केभ लेन्स"
+            },
+            {
+              "en": "convex lens",
+              "ne": "कन्भेक्स लेन्स"
+            },
+            {
+              "en": "plano convex",
+              "ne": "प्लेनो कन्भेक्स"
+            },
+            {
+              "en": "plano concave",
+              "ne": "प्लेनो कन्केभ"
+            }
+          ]
+        },
+        {
+          "id": "q1g",
+          "questionNumber": "1(g)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Under what condition can a flat universe be hypothesized?",
+            "ne": "कुन अवस्थामा समतल ब्रह्माण्डको परिकल्पना गर्न सकिन्छ ?"
+          },
+          "options": [
+            {
+              "en": "when the average density is greater than the critical density",
+              "ne": "औसत घनत्व चरम घनत्व भन्दा बढी भएको अवस्थामा"
+            },
+            {
+              "en": "when the average density is less than the critical density",
+              "ne": "औसत घनत्व चरम घनत्व भन्दा कम भएको अवस्थामा"
+            },
+            {
+              "en": "when the average density and critical density are equal",
+              "ne": "औसत घनत्व र चरम घनत्व बराबर भएको अवस्थामा"
+            },
+            {
+              "en": "when the average density and critical density are not comparable",
+              "ne": "औसत घनत्व र चरम घनत्व तुलना गर्न नसकिने अवस्थामा"
+            }
+          ]
+        },
+        {
+          "id": "q1h",
+          "questionNumber": "1(h)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "What are the products obtained in a reaction between nitric acid and sodium hydroxide? (Note: the paper's printed English translation says 'hydrochloric acid' instead of 'nitric acid' — see sourceNote.)",
+            "ne": "नाइट्रिक एसिड र सोडियम हाइड्रोअक्साइड बिच रासायनिक प्रतिक्रिया हुँदा तलकामध्ये के उत्पादन हुन्छ ?"
+          },
+          "options": [
+            {
+              "en": "NaNO3 + H2",
+              "ne": "NaNO3 + H2"
+            },
+            {
+              "en": "NaCl + H2O",
+              "ne": "NaCl + H2O"
+            },
+            {
+              "en": "NaNO3 + H2O",
+              "ne": "NaNO3 + H2O"
+            },
+            {
+              "en": "NaNO3 + O2",
+              "ne": "NaNO3 + O2"
+            }
+          ]
+        },
+        {
+          "id": "q1i",
+          "questionNumber": "1(i)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "What does carbogen indicate?",
+            "ne": "कार्बोजिन भन्नाले के जनाउँछ ?"
+          },
+          "options": [
+            {
+              "en": "Mixture of carbon dioxide and nitrogen",
+              "ne": "कार्वनडाइअक्साइड र नाइट्रोजनको मिश्रण"
+            },
+            {
+              "en": "Mixture of carbon dioxide and hydrogen",
+              "ne": "कार्वनडाइअक्साइड र हाइड्रोजनको मिश्रण"
+            },
+            {
+              "en": "Mixture of carbon dioxide and water",
+              "ne": "कार्वनडाइअक्साइड र पानीको मिश्रण"
+            },
+            {
+              "en": "Mixture of carbon dioxide and oxygen",
+              "ne": "कार्वनडाइअक्साइड र अक्सिजनको मिश्रण"
+            }
+          ]
+        },
+        {
+          "id": "q1j",
+          "questionNumber": "1(j)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Which of the following hydrocarbon group belongs to alkyne? A: H-C≡C-H. B: H2C=CH2 (ethene-type structure). C: H3C-CH3 (ethane-type, fully saturated). D: CH3-C≡C-CH3 (a chain with a C≡C triple bond in the middle).",
+            "ne": "तल दिएका हाइड्रोकार्बनमध्ये अल्काइन अन्तर्गत कुन यौगिक समूह पर्दछ ? A: H-C≡C-H। B: H2C=CH2 (इथिन प्रकारको संरचना)। C: H3C-CH3 (इथेन प्रकारको, पूर्ण सतृप्त)। D: CH3-C≡C-CH3 (बिचमा C≡C ट्रिपल बन्ड भएको चेन)।"
+          },
+          "options": [
+            {
+              "en": "A and C",
+              "ne": "A र C"
+            },
+            {
+              "en": "A and B",
+              "ne": "A र B"
+            },
+            {
+              "en": "A and D",
+              "ne": "A र D"
+            },
+            {
+              "en": "B and C",
+              "ne": "B र C"
+            }
+          ],
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-karnali/q1j-hydrocarbon-structures.png",
+            "caption": {
+              "en": "Four hydrocarbon structures labelled A, B, C, D.",
+              "ne": "A, B, C, D लेबल गरिएका चारओटा हाइड्रोकार्बन संरचना।"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Section B — Very Short Answer Questions",
+        "ne": "खण्ड 'ख' — अति छोटो उत्तर प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Write very short answers to the following questions. (9 x 1 = 9)",
+        "ne": "तलका प्रश्नहरूको अति छोटो उत्तर लेख्नुहोस् : (९x१=९)"
+      },
+      "items": [
+        {
+          "id": "q2a",
+          "questionNumber": "2(a)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "What is online reputation?",
+            "ne": "अनलाइन रेप्युटेसन भनेको के हो ?"
+          }
+        },
+        {
+          "id": "q2b",
+          "questionNumber": "2(b)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "On the basis of their features, which of these two is the less developed animal?",
+            "ne": "विशेषताका आधारमा यी दुईमध्ये कुन चाहिँ कम विकसित जनावर हो ?"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-karnali/q2b-whale-shark.png",
+            "caption": {
+              "en": "Animal A: a whale. Animal B: a shark.",
+              "ne": "जनावर A: ह्वेल। जनावर B: शार्क।"
+            }
+          }
+        },
+        {
+          "id": "q2c",
+          "questionNumber": "2(c)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "What is the name of the blood vessel that brings pure blood to the heart?",
+            "ne": "शुद्ध रगत मुटुमा ल्याउने रक्तनलीको नाम के हो ?"
+          }
+        },
+        {
+          "id": "q2d",
+          "questionNumber": "2(d)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "What is magnetic field?",
+            "ne": "चुम्बकीय क्षेत्र भनेको के हो ?"
+          }
+        },
+        {
+          "id": "q2e",
+          "questionNumber": "2(e)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Why is Big-Bang theory considered the most reliable theory among all the theories related to the origin of the universe?",
+            "ne": "बिग व्याङ्ग सिद्धान्तलाई ब्रह्माण्डको उत्पत्ति सम्बन्धी सबैभन्दा विश्वसनीय मानिन्छ, किन ?"
+          }
+        },
+        {
+          "id": "q2f",
+          "questionNumber": "2(f)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Give an example of combination reaction.",
+            "ne": "संयोजन प्रतिक्रियाको एउटा उदाहरण दिनुहोस्।"
+          }
+        },
+        {
+          "id": "q2g",
+          "questionNumber": "2(g)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Write the molecular formula of the compound 'X' in the given chemical equation. X + H2SO4 -> Na2SO4 + H2O",
+            "ne": "दिइएको रासायनिक समीकरणमा यौगिक 'X' को अणुसूत्र लेख्नुहोस्। X + H2SO4 -> Na2SO4 + H2O"
+          }
+        },
+        {
+          "id": "q2h",
+          "questionNumber": "2(h)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Write the molecular formula of the acid formed when carbon dioxide gas is dissolved in water.",
+            "ne": "कार्वनडाइअक्साइड ग्यासलाई पानीमा घोल्दा बन्ने अम्लको आणविक सूत्र लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q2i",
+          "questionNumber": "2(i)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Which element acts as a foaming agent in Reetha?",
+            "ne": "रिठामा कुन तत्त्व हुन्छ जसले रिठामा फिँज पैदा गर्दछ ?"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Section C — Short Answer Questions",
+        "ne": "खण्ड 'ग' — छोटो उत्तर प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Write short answers to the following questions. (14 x 2 = 28)",
+        "ne": "तलका प्रश्नहरूको छोटो उत्तर लेख्नुहोस् : (१४x२=२८)"
+      },
+      "items": [
+        {
+          "id": "q3",
+          "questionNumber": "3",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Define fundamental unit and give one example.",
+            "ne": "आधारभूत एकाइको परिभाषा लेखी एउटा उदाहरण दिनुहोस्।"
+          }
+        },
+        {
+          "id": "q4",
+          "questionNumber": "4",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Fern is not a flowering plant; cycas bears flowers but no fruit; banana bears flowers as well as fruits. However all these plants are kept in the same division. Give any two reasons why they are all kept in the same division.",
+            "ne": "उनिउँमा फूल फुल्दैन, साइकसमा फूल फुल्छ तर फल फल्दैन, केरामा फूल पनि फुल्छ र फल पनि फल्छ, तर यी सबै विरुवाहरू एउटै डिभिजनमा पर्छन्। यी सबै वनस्पतिहरू एउटै डिभिजनमा पर्नुका दुई कारणहरू लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q5",
+          "questionNumber": "5",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Write any two differences between drone bee and worker bee.",
+            "ne": "भाले र कर्मी मौरी बिच कुनै दुईओटा फरकहरू लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q6",
+          "questionNumber": "6",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Why did Mendel choose the pea plant for his experiment? Give any two reasons.",
+            "ne": "मेन्डलले आफ्नो प्रयोगका लागि केराउको बिरुवालाई किन रोजे ? कुनै दुईओटा कारणहरू दिनुहोस्।"
+          }
+        },
+        {
+          "id": "q7",
+          "questionNumber": "7",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Two types of cell division are shown below: A: Cell division -> reproductive cell -> gamete formation (process P). Another: 2n -> somatic cell -> growth (process Q). (i) What type of cell division does A represent? (ii) Write any one difference between these two types of cell division.",
+            "ne": "तल दुईप्रकारका कोष विभाजन प्रक्रिया देखाइएको छ: A: कोष विभाजन -> प्रजनन कोष -> ग्यामेट निर्माण प्रक्रिया (P)। अर्को: 2n -> सोमाटिक कोष -> वृद्धि प्रक्रिया (Q)। (i) A ले कुन प्रकारको कोष विभाजन जनाउँछ ? (ii) यी दुई प्रकारका कोष विभाजनको कुनै एक फरक लेख्नुहोस्।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-karnali/q7-cell-division-chart.png",
+            "caption": {
+              "en": "Flowchart: Cell division -> reproductive cell -> gamete formation (P); 2n -> somatic cell -> growth (Q).",
+              "ne": "फ्लोचार्ट: कोष विभाजन -> प्रजनन कोष -> ग्यामेट निर्माण (P); 2n -> सोमाटिक कोष -> वृद्धि (Q)।"
+            }
+          }
+        },
+        {
+          "id": "q8",
+          "questionNumber": "8",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Write the name of the plant which is used in the treatment of burns. Write one other use of this plant.",
+            "ne": "पोलेको ठाउँमा उपचार गर्न प्रयोग हुने बिरुवाको नाम लेख्नुहोस्। उक्त बिरुवाको थप एक उपयोगिता लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q9",
+          "questionNumber": "9",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "If the weight of a cricket ball in water is 2 N and the weight of the water displaced by it is 1 N, (i) What is the actual weight of the cricket ball? (ii) On which principle is this experiment based?",
+            "ne": "एउटा क्रिकेट बललाई पानीमा डुबाइ जोख्दा 2 N र त्यसले विस्थापित गरेको पानीको तौल 1 N छ भने, (i) बलको वास्तविक तौल कति हुन्छ ? (ii) यो प्रयोग कुन सिद्धान्तमा आधारित हुन्छ ?"
+          }
+        },
+        {
+          "id": "q10",
+          "questionNumber": "10",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Water pipes burst in very cold places in winter. Write any two reasons for this.",
+            "ne": "धेरै चिसो स्थानमा रहेका पानीका पाइपहरू हिउँदमा फुट्छन्। यसका कुनै दुई कारणहरू लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q11",
+          "questionNumber": "11",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "If a substance of mass 500 g needs 5980 J of heat to increase its temperature from 100°C to 226°C, calculate its specific heat capacity.",
+            "ne": "एउटा 500 g पिण्ड भएको पदार्थलाई 100°C बाट 226°C सम्म तताउन 5980 J तापशक्ति आवश्यक पर्छ भने उक्त पदार्थको विशिष्ट तापधारण क्षमता हिसाब गर्नुहोस्।"
+          }
+        },
+        {
+          "id": "q12",
+          "questionNumber": "12",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "State two reasons why a rainbow always appears semicircular and of the same thickness from the surface of the Earth.",
+            "ne": "पृथ्वीको सतहबाट इन्द्रेणी सधैँ अर्ध वृत्ताकार र एउटै मोटाइमा देखिनुका दुईओटा कारणहरु लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q13",
+          "questionNumber": "13",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "A student inserted a burning matchstick into a gas jar nearby and it extinguished. Write the balanced chemical equation of the reaction that takes place when a burning magnesium ribbon is inserted into the same gas jar (containing carbon dioxide gas).",
+            "ne": "एक विद्यार्थीले ग्यास जारमा रहेको ग्यास नजिकै बलिरहेको सलाइको काँटी राख्दा उक्त काँटी निभ्यो। उक्त ग्यासमा (कार्वनडाइअक्साइड ग्यासमा) बलिरहेको म्याग्नेसियम रिवन घुसाउँदा हुने रासायनिक प्रतिक्रियाको सन्तुलित समीकरण लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q14",
+          "questionNumber": "14",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Write any two differences between mineral and ore.",
+            "ne": "खनिज र धाउमा कुनै दुईओटा फरक लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q15",
+          "questionNumber": "15",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Write the name and structural formula of the alcohol having two carbon atoms.",
+            "ne": "कार्बन सङ्ख्या दुई भएको अल्कोहलको नाम र संरचना सूत्र लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q16",
+          "questionNumber": "16",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "The use of detergent is harmful from an environmental perspective. Give any two reasons for this.",
+            "ne": "डिटरजेन्ट प्रयोग गर्नु वातावरणीय दृष्टिकोणले हानिकारक हुनुका कुनै दुईओटा कारणहरू लेख्नुहोस्।"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Section D — Long Answer Questions",
+        "ne": "खण्ड 'घ' — लामो उत्तर प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Write long answer to the following questions. (7 x 4 = 28)",
+        "ne": "तलका प्रश्नहरूको लामो उत्तर लेख्नुहोस् : (७x४=२८)"
+      },
+      "items": [
+        {
+          "id": "q17",
+          "questionNumber": "17",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Write any two positive and any two negative effects of digital technology in daily life.",
+            "ne": "दैनिक जीवनमा डिजिटल प्रविधिका दुईओटा सकारात्मक र दुईओटा नकारात्मक प्रभावहरू लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q18",
+          "questionNumber": "18",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Draw a chart to show both phenotype and genotype of offsprings produced from black (BB) and white (bb) dogs in the 1st and 2nd filial generation according to Mendel's experiment. Write the ratio of phenotype and genotype of the second filial generation.",
+            "ne": "कालो (BB) र सेतो (bb) कुकुरहरूबाट जन्मेका सन्तानहरू पहिलो र दोस्रो वंशमा देखापर्ने नतिजा मेन्डलले गरेको प्रयोग अनुसार फिनोटाइप र जिनोटाइप दुवै देखिने गरी चार्टमा देखाउनुहोस् र दोस्रो वंशको फिनोटाइप र जिनोटाइप अनुपात पनि लेख्नुहोस्।"
+          }
+        },
+        {
+          "id": "q19",
+          "questionNumber": "19",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Following results were obtained when the blood samples of four people were tested: A - RBC count is low. B - WBC count is high. C - Platelets count is low. D - amount of sugar is high. (i) The person with which blood sample bleeds more during injuries? (ii) The person with which blood sample becomes tired even after a short walk? (iii) The person with which blood sample needs to take antibiotic? (iv) The person with which blood sample could have problems in kidney?",
+            "ne": "चार जना व्यक्तिको रगतको नमुना परीक्षण गर्दा निम्न नतिजा प्राप्त भयो। A - RBC को मात्रा न्यून। B - WBC को मात्रा बढी। C - प्लेटलेट्सको मात्रा न्यून। D - चिनीको मात्रा बढी। (i) कुन नमुना भएको व्यक्तिलाई चोटपटक लाग्दा धेरै रगत बग्छ ? (ii) कुन नमुना भएको व्यक्ति एकैछिन हिंड्दा पनि थाक्छ ? (iii) कुन नमुना भएको व्यक्तिलाई एन्टिवायोटिकको आवश्यकता पर्दछ ? (iv) कुन नमुना भएको व्यक्तिको मृगौलामा समस्या हुन सक्छ ?"
+          }
+        },
+        {
+          "id": "q20",
+          "questionNumber": "20",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "State Newton's Universal Law of Gravitation and prove that F = Gm1m2/d² with the help of an appropriate diagram.",
+            "ne": "न्युटनको गुरुत्वाकर्षण सम्बन्धी विश्वव्यापी नियम लेख्नुहोस् र F = Gm1m2/d² हुन्छ भनी उपयुक्त चित्रसहित प्रमाणित गर्नुहोस्।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-karnali/q20-gravitation-proof-prompt.png",
+            "caption": {
+              "en": "(Question prompt — student draws the supporting diagram as part of the answer.)",
+              "ne": "(यो प्रश्नमा विद्यार्थीले आफैं सहयोगी चित्र कोर्नुपर्छ।)"
+            }
+          }
+        },
+        {
+          "id": "q21",
+          "questionNumber": "21",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Two lenses are given (Lens A: focal length +20 cm; Lens B: focal length -25 cm). Mention the types of these two lenses. Out of these two lenses, which one forms a virtual and magnified image when an object is kept 15 cm away from the lens? Draw an appropriate ray diagram of this.",
+            "ne": "दिइएका दुई लेन्सको प्रकार उल्लेख गर्नुहोस् (लेन्स A: केन्द्रीकरण दूरी +20 cm; लेन्स B: केन्द्रीकरण दूरी -25 cm)। तिमध्ये कुन लेन्सले वस्तुलाई उक्त लेन्सबाट 15 cm मा राख्दा अवास्तविक र वस्तुभन्दा ठूलो आकृति बनाउँछ ? उपयुक्त किरण रेखाचित्र कोर्नुहोस्।"
+          },
+          "questionTable": {
+            "headers": [
+              {
+                "en": "Lenses",
+                "ne": "लेन्सहरू"
+              },
+              {
+                "en": "Focal Length",
+                "ne": "केन्द्रीकरण दूरी"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "A",
+                  "ne": "A"
+                },
+                {
+                  "en": "+20 cm",
+                  "ne": "+20 cm"
+                }
+              ],
+              [
+                {
+                  "en": "B",
+                  "ne": "B"
+                },
+                {
+                  "en": "-25 cm",
+                  "ne": "-25 cm"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "q22",
+          "questionNumber": "22",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Study the given figure. Figure A shows electricity being transmitted directly from an electric power station to a house without any transformer shown along the line. Figure B shows the same transmission line with a transformer 'X' near the power station and a transformer 'Y' near the house. (i) Name the type of transformers X and Y. (iii) Write any two problems of transmitting electricity the way shown in figure A.",
+            "ne": "दिइएको चित्र अध्ययन गर्नुहोस्। चित्र A मा विद्युत पावर स्टेसनबाट घरसम्म कुनै ट्रान्सफर्मर नदेखाई सिधै प्रसारण गरिएको देखाइएको छ। चित्र B मा उही प्रसारण लाइनमा पावर स्टेसननजिक ट्रान्सफर्मर 'X' र घरनजिक ट्रान्सफर्मर 'Y' देखाइएको छ। (i) चित्रमा X र Y ट्रान्सफर्मरको प्रकार लेख्नुहोस्। (iii) चित्र A मा जस्तै गरी विद्युत प्रसारण गर्दा हुने दुईओटा समस्याहरु लेख्नुहोस्।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-karnali/q22-power-transmission-figures.png",
+            "caption": {
+              "en": "Figure A: power station to house with no transformer shown. Figure B: same line with transformer X near the station and transformer Y near the house.",
+              "ne": "चित्र A: पावर स्टेसनबाट घरसम्म कुनै ट्रान्सफर्मर नदेखाई। चित्र B: उही लाइनमा स्टेसननजिक ट्रान्सफर्मर X र घरनजिक ट्रान्सफर्मर Y।"
+            }
+          }
+        },
+        {
+          "id": "q23",
+          "questionNumber": "23",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "(i) State the modern periodic law. (ii) Element A = 1s² 2s²2p⁶ 3s² and Element B = 1s² 2s²2p⁴. (a) In which group of the periodic table does element B lie? (b) Write the balanced chemical equation obtained in the reaction between A and B.",
+            "ne": "(i) आधुनिक पेरियोडिक नियम लेख्नुहोस्। (ii) तत्त्व A = 1s² 2s²2p⁶ 3s² र तत्त्व B = 1s² 2s²2p⁴ भए। (a) तत्त्व B पेरियोडिक तालिकाको कुन ग्रुपमा पर्दछ ? (b) A र B का बिच हुने रासायनिक प्रतिक्रियाको सन्तुलित रासायनिक समीकरण लेख्नुहोस्।"
+          }
+        }
+      ]
+    }
+  ]
+}

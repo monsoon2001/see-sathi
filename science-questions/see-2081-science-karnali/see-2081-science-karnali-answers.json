@@ -1,0 +1,1224 @@
+{
+  "chapterId": "see-2081-science-karnali-ans",
+  "subjectId": "science",
+  "classLevel": "10",
+  "province": "Karnali",
+  "examBoard": "SEE (National Examinations Board, Nepal)",
+  "examYear": "2081 (2025 AD)",
+  "paperCode": "RE-1041'KaP'",
+  "fullMarks": 75,
+  "docType": "answerKey",
+  "linkedQuestionPaperId": "see-2081-science-karnali-qp",
+  "titleEn": "SEE 2081 (2025) Science — Model Answers (Karnali Province)",
+  "titleNe": "SEE २०८१ (२०२५) विज्ञान — नमूना उत्तर (कर्णाली प्रदेश)",
+  "sourceNote": {
+    "en": "Digitised from the uploaded scan of the SEE 2081 (2025) Science question paper, Karnali Province, set 'KaP'. Two issues in the original printed paper are flagged here rather than silently corrected: (1) Q1(h)'s Nepali text asks about Nitric acid + Sodium hydroxide, but the paper's own English translation says 'hydrochloric acid' — the two language versions of the same question disagree in the original. (2) Q4's premise (that fern, cycas and banana are 'kept in the same division') is botanically imprecise, since they actually belong to different taxonomic Divisions (Pteridophyta, Gymnospermae, Angiospermae) — the question was answered assuming it means the broader Kingdom Plantae.",
+    "ne": "यो फाइल SEE 2081 (2025) विज्ञान प्रश्नपत्र, कर्णाली प्रदेश, सेट 'KaP' को स्क्यान गरिएको प्रतिबाट तयार पारिएको हो। मूल छापिएको प्रश्नपत्रका दुईओटा समस्या यहाँ नचुपाई स्पष्ट उल्लेख गरिएको छ: (१) प्रश्न 1(h) को नेपाली पाठमा नाइट्रिक एसिड र सोडियम हाइड्रोअक्साइडको बारेमा सोधिएको छ, तर सोही प्रश्नको अङ्ग्रेजी अनुवादमा 'hydrochloric acid' भनिएको छ — उही प्रश्नका दुई भाषा संस्करण मूल प्रतिमै बेमेल छन्। (२) प्रश्न ४ को आधार (उनिउँ, साइकस र केरा 'एउटै डिभिजनमा' राखिन्छन् भन्ने) वनस्पतिशास्त्रीय दृष्टिले ठ्याक्कै मिल्दैन, किनकि तिनीहरू वास्तवमा फरक-फरक डिभिजन (टेरिडोफाइटा, जिम्नोस्पर्मी, एन्जियोस्पर्मी) मा पर्छन् — यो प्रश्नको उत्तर व्यापक अर्थमा 'प्लान्टी जगत' भन्ने बुझी दिइएको छ।"
+  },
+  "answerLanguageLevelNote": {
+    "en": "Answers and step-by-step solutions are written at a Class 10 (SEE) level of understanding, in simple bilingual language matching the question paper. Q1(h) and Q4 carry flagged assumptions due to inconsistencies/imprecision in the original printed paper — see sourceNote and the individual answer text.",
+    "ne": "उत्तर तथा चरणबद्ध हलहरू कक्षा १० (SEE) स्तरको सजिलो र प्रश्नपत्रसँग मिल्दो द्विभाषिक भाषामा लेखिएका छन्। प्रश्न 1(h) र प्रश्न ४ मा मूल छापिएको प्रश्नपत्रको बेमेल/अस्पष्टताका कारण अनुमान लगाइएको छ — sourceNote र सम्बन्धित उत्तरको पाठ हेर्नुहोस्।"
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "text": {
+        "en": "Model Answers — Science and Technology, SEE 2081 (Karnali)",
+        "ne": "नमूना उत्तर — विज्ञान तथा प्रविधि, SEE २०८१ (कर्णाली)"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "These are model/reference answers written for Class 10 students. For long-answer numerical questions, full step-by-step working is included.",
+        "ne": "यी कक्षा १० का विद्यार्थीका लागि तयार पारिएका नमूना/सन्दर्भ उत्तरहरू हुन्। लामो उत्तर र सङ्ख्यात्मक प्रश्नहरूमा पूर्ण चरणबद्ध हल समावेश गरिएको छ।"
+      }
+    }
+  ],
+  "questionSections": [
+    {
+      "title": {
+        "en": "Section A — Multiple Choice Questions",
+        "ne": "खण्ड 'क' — बहुवैकल्पिक प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Choose the best alternative to the following questions and write in the answer sheet. (10 x 1 = 10)",
+        "ne": "तलका प्रश्नहरूको ठिक विकल्प छानी उत्तरपुस्तिकामा लेख्नुहोस्। (१०x१=१०)"
+      },
+      "items": [
+        {
+          "id": "q1a",
+          "questionNumber": "1(a)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Which one of the following is a derived unit?",
+            "ne": "तलका मध्ये कुनचाहिँ तत्जन्य एकाइ हो ?"
+          },
+          "options": [
+            {
+              "en": "Candela",
+              "ne": "क्याण्डेला"
+            },
+            {
+              "en": "Ampere",
+              "ne": "एम्पियर"
+            },
+            {
+              "en": "Newton",
+              "ne": "न्युटन"
+            },
+            {
+              "en": "Mole",
+              "ne": "मोल"
+            }
+          ],
+          "answer": {
+            "en": "Newton",
+            "ne": "न्युटन"
+          },
+          "solution": {
+            "en": "Newton (the SI unit of force, kg·m/s²) is a derived unit, obtained by combining the fundamental units of mass, length and time. Candela, Ampere and Mole are all fundamental (base) SI units.",
+            "ne": "न्युटन (बलको SI एकाइ, kg·m/s²) तत्जन्य एकाइ हो, जुन पिण्ड, लम्बाइ र समयका आधारभूत एकाइहरू मिलाएर बनेको हुन्छ। क्याण्डेला, एम्पियर र मोल सबै आधारभूत (मूल) SI एकाइहरू हुन्।"
+          },
+          "correctOption": "iii"
+        },
+        {
+          "id": "q1b",
+          "questionNumber": "1(b)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "What is the reason for keeping sea-urchin in phylum Echinodermata?",
+            "ne": "सिअर्चिनलाई इकाइनोडर्माटा फाइलममा राखिनुको कारण के हो ?"
+          },
+          "options": [
+            {
+              "en": "Due to body being divided into head, thorax and abdomen",
+              "ne": "शरीर, टाउको, छाती र पेटमा विभाजित भएकोले"
+            },
+            {
+              "en": "Due to locomotion with the help of tube-feet",
+              "ne": "ट्युव फिटको सहायताले चाल देखाउने भएकोले"
+            },
+            {
+              "en": "Due to body being flat and thin like a tape",
+              "ne": "शरीर टेपजस्तै पातलो, लामो र चेप्टो भएकोले"
+            },
+            {
+              "en": "Due to them being found in moist soil and water",
+              "ne": "यिनीहरू ओसिलो माटो र पानीमा पाइने भएकोले"
+            }
+          ],
+          "answer": {
+            "en": "Due to locomotion with the help of tube-feet",
+            "ne": "ट्युव फिटको सहायताले चाल देखाउने भएकोले"
+          },
+          "solution": {
+            "en": "Echinoderms (like sea-urchins, starfish) have a unique water vascular system with tube feet, which they use for movement, feeding and respiration — this is the defining feature of phylum Echinodermata.",
+            "ne": "इकाइनोडर्म (जस्तै सिअर्चिन, तारा माछा) मा अनौठो जल-संवहनी प्रणाली हुन्छ जसमा ट्युव फिट हुन्छन्, जसको प्रयोग तिनीहरूले चाल्न, आहारा लिन र सास फेर्न गर्छन् — यही फाइलम इकाइनोडर्माटाको मुख्य पहिचान हो।"
+          },
+          "correctOption": "ii"
+        },
+        {
+          "id": "q1c",
+          "questionNumber": "1(c)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Which disease is caused due to a sudden deficiency of white blood cells in blood?",
+            "ne": "रगतमा एक्कासी सेता रक्तकोषको कमि भएमा कुन रोग लाग्छ ?"
+          },
+          "options": [
+            {
+              "en": "leukopenia",
+              "ne": "ल्युकोपेनिया"
+            },
+            {
+              "en": "haemophilia",
+              "ne": "हेमोफिलिया"
+            },
+            {
+              "en": "anemia",
+              "ne": "रक्तअल्पता"
+            },
+            {
+              "en": "leukemia",
+              "ne": "ल्युकेमिया"
+            }
+          ],
+          "answer": {
+            "en": "leukopenia",
+            "ne": "ल्युकोपेनिया"
+          },
+          "solution": {
+            "en": "Leukopenia is the medical term for an abnormally low white blood cell count. (Leukemia is excessive/cancerous WBC production, haemophilia is a blood-clotting disorder, and anemia relates to low RBC/haemoglobin.)",
+            "ne": "ल्युकोपेनिया भनेको सेता रक्तकोषको सङ्ख्या असामान्य रूपमा कम हुने अवस्थाको चिकित्सकीय नाम हो। (ल्युकेमिया भनेको WBC को अत्यधिक/क्यान्सरजन्य उत्पादन हो, हेमोफिलिया रगत जम्ने सम्बन्धी विकार हो, र रक्तअल्पता कम RBC/हिमोग्लोबिनसँग सम्बन्धित हुन्छ।)"
+          },
+          "correctOption": "i"
+        },
+        {
+          "id": "q1d",
+          "questionNumber": "1(d)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "In the given organism, what is the relationship between the caterpillar and the fungi?",
+            "ne": "दिइएको जीवमा, भुसिलकिरा र फन्जाइको सम्बन्ध कस्तो हुन्छ ?"
+          },
+          "options": [
+            {
+              "en": "saprotrophic",
+              "ne": "स्याप्रोट्रोपिक"
+            },
+            {
+              "en": "parasitic",
+              "ne": "परजीवि"
+            },
+            {
+              "en": "predator",
+              "ne": "परभक्षी"
+            },
+            {
+              "en": "symbiotic",
+              "ne": "सिम्बायोटिक"
+            }
+          ],
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-karnali/q1d-caterpillar-fungus.png",
+            "caption": {
+              "en": "A caterpillar with fungal fruiting bodies growing out of it (Cordyceps-type fungus on a host caterpillar, as in Yarsagumba).",
+              "ne": "किरा (भुसिलकिरा) बाट फन्जाइको फलनकारी भाग उम्रिएको (यार्सागुम्बाजस्तै कर्डिसेप्स प्रकारको फन्जाइ)।"
+            }
+          },
+          "answer": {
+            "en": "parasitic",
+            "ne": "परजीवि"
+          },
+          "solution": {
+            "en": "The figure shows a Cordyceps-type fungus (as in Yarsagumba) growing out of a caterpillar's body — the fungus infects and ultimately kills the caterpillar host while deriving nutrients from it, which is a parasitic relationship.",
+            "ne": "चित्रमा भुसिलकिराको शरीरबाट उम्रिएको कर्डिसेप्स प्रकारको फन्जाइ (यार्सागुम्बामा जस्तै) देखाइएको छ — यो फन्जाइले भुसिलकिरालाई सङ्क्रमित गरी अन्ततः मार्छ र त्यसबाटै पोषण लिन्छ, जुन परजीवि सम्बन्ध हो।"
+          },
+          "correctOption": "ii"
+        },
+        {
+          "id": "q1e",
+          "questionNumber": "1(e)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "If the weight of a body on the surface of the Moon is 5 N, what could be the weight of that body on the surface of the Earth?",
+            "ne": "यदि चन्द्रमाको सतहमा वस्तुको तौल 5 N छ भने पृथ्वीको सतहमा उक्त वस्तुको तौल कति होला ?"
+          },
+          "options": [
+            {
+              "en": "5/6 N",
+              "ne": "5/6 N"
+            },
+            {
+              "en": "5 N",
+              "ne": "5 N"
+            },
+            {
+              "en": "30 N",
+              "ne": "30 N"
+            },
+            {
+              "en": "50 N",
+              "ne": "50 N"
+            }
+          ],
+          "answer": {
+            "en": "30 N",
+            "ne": "30 N"
+          },
+          "solution": {
+            "en": "Gravity on the Moon is about 1/6th of Earth's gravity, so weight on Earth = weight on Moon × 6 = 5 N × 6 = 30 N.",
+            "ne": "चन्द्रमाको गुरुत्वाकर्षण पृथ्वीको लगभग 1/6 हुन्छ, त्यसैले पृथ्वीमा तौल = चन्द्रमामा तौल × 6 = 5 N × 6 = 30 N।"
+          },
+          "correctOption": "iii",
+          "solutionTable": {
+            "headers": [
+              {
+                "en": "Quantity",
+                "ne": "परिमाण"
+              },
+              {
+                "en": "Value",
+                "ne": "मान"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "Weight on Moon",
+                  "ne": "चन्द्रमामा तौल"
+                },
+                {
+                  "en": "5 N",
+                  "ne": "5 N"
+                }
+              ],
+              [
+                {
+                  "en": "Weight on Earth = Weight on Moon × 6",
+                  "ne": "पृथ्वीमा तौल = चन्द्रमामा तौल × 6"
+                },
+                {
+                  "en": "30 N",
+                  "ne": "30 N"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "q1f",
+          "questionNumber": "1(f)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Which type of lens is thicker at the middle and thinner at the edges?",
+            "ne": "कुन प्रकारको लेन्सको बिचको भाग मोटो र छेउको भाग पातलो हुन्छ ?"
+          },
+          "options": [
+            {
+              "en": "concave lens",
+              "ne": "कन्केभ लेन्स"
+            },
+            {
+              "en": "convex lens",
+              "ne": "कन्भेक्स लेन्स"
+            },
+            {
+              "en": "plano convex",
+              "ne": "प्लेनो कन्भेक्स"
+            },
+            {
+              "en": "plano concave",
+              "ne": "प्लेनो कन्केभ"
+            }
+          ],
+          "answer": {
+            "en": "convex lens",
+            "ne": "कन्भेक्स लेन्स"
+          },
+          "solution": {
+            "en": "A convex (converging) lens bulges outward and is thicker at the centre/middle than at the edges. A concave lens is the opposite (thinner in the middle), while plano-convex and plano-concave lenses have one flat side.",
+            "ne": "कन्भेक्स (कन्भर्जिङ) लेन्स बाहिरतिर फुलेको हुन्छ र यसको बिचको भाग छेउभन्दा मोटो हुन्छ। कन्केभ लेन्स यसको ठीक उल्टो हुन्छ (बिचको भाग पातलो), जबकि प्लेनो-कन्भेक्स र प्लेनो-कन्केभ लेन्सको एउटा सतह सम्म हुन्छ।"
+          },
+          "correctOption": "ii"
+        },
+        {
+          "id": "q1g",
+          "questionNumber": "1(g)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Under what condition can a flat universe be hypothesized?",
+            "ne": "कुन अवस्थामा समतल ब्रह्माण्डको परिकल्पना गर्न सकिन्छ ?"
+          },
+          "options": [
+            {
+              "en": "when the average density is greater than the critical density",
+              "ne": "औसत घनत्व चरम घनत्व भन्दा बढी भएको अवस्थामा"
+            },
+            {
+              "en": "when the average density is less than the critical density",
+              "ne": "औसत घनत्व चरम घनत्व भन्दा कम भएको अवस्थामा"
+            },
+            {
+              "en": "when the average density and critical density are equal",
+              "ne": "औसत घनत्व र चरम घनत्व बराबर भएको अवस्थामा"
+            },
+            {
+              "en": "when the average density and critical density are not comparable",
+              "ne": "औसत घनत्व र चरम घनत्व तुलना गर्न नसकिने अवस्थामा"
+            }
+          ],
+          "answer": {
+            "en": "when the average density and critical density are equal",
+            "ne": "औसत घनत्व र चरम घनत्व बराबर भएको अवस्थामा"
+          },
+          "solution": {
+            "en": "A flat universe is hypothesized when the universe's average density exactly equals the critical density — in this case, the universe has zero overall curvature and expands forever, with the rate of expansion approaching (but never quite reaching) zero.",
+            "ne": "समतल ब्रह्माण्डको परिकल्पना तब गरिन्छ जब ब्रह्माण्डको औसत घनत्व ठ्याक्कै चरम घनत्वसँग बराबर हुन्छ — यस्तो अवस्थामा, ब्रह्माण्डको समग्र वक्रता शून्य हुन्छ र यो सधैँ विस्तार भइरहन्छ, विस्तारको दर शून्यनजिक पुग्दै (तर कहिल्यै शून्य नहुँदै) जान्छ।"
+          },
+          "correctOption": "iii"
+        },
+        {
+          "id": "q1h",
+          "questionNumber": "1(h)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "What are the products obtained in a reaction between nitric acid and sodium hydroxide? (Note: the paper's printed English translation says 'hydrochloric acid' instead of 'nitric acid' — see sourceNote.)",
+            "ne": "नाइट्रिक एसिड र सोडियम हाइड्रोअक्साइड बिच रासायनिक प्रतिक्रिया हुँदा तलकामध्ये के उत्पादन हुन्छ ?"
+          },
+          "options": [
+            {
+              "en": "NaNO3 + H2",
+              "ne": "NaNO3 + H2"
+            },
+            {
+              "en": "NaCl + H2O",
+              "ne": "NaCl + H2O"
+            },
+            {
+              "en": "NaNO3 + H2O",
+              "ne": "NaNO3 + H2O"
+            },
+            {
+              "en": "NaNO3 + O2",
+              "ne": "NaNO3 + O2"
+            }
+          ],
+          "answer": {
+            "en": "NaNO3 + H2O",
+            "ne": "NaNO3 + H2O"
+          },
+          "solution": {
+            "en": "As stated in the question, this is a neutralisation reaction between Nitric acid (HNO3) and Sodium hydroxide (NaOH): HNO3 + NaOH -> NaNO3 + H2O, producing sodium nitrate and water. (Important note: the paper's own printed English translation of this question says 'hydrochloric acid' instead of 'nitric acid', which does not match the Nepali original. If the question is actually about hydrochloric acid, the correct products would instead be NaCl + H2O, i.e. option (ii) — please confirm which acid was intended against the original paper before using this answer key.)",
+            "ne": "प्रश्नमा उल्लेख भएअनुसार, यो नाइट्रिक एसिड (HNO3) र सोडियम हाइड्रोअक्साइड (NaOH) बिचको निराकरण (न्युट्रलाइजेसन) प्रतिक्रिया हो: HNO3 + NaOH -> NaNO3 + H2O, जसले सोडियम नाइट्रेट र पानी बनाउँछ। (महत्त्वपूर्ण नोट: यसै प्रश्नको प्रश्नपत्रमा छापिएको अङ्ग्रेजी अनुवादमा 'नाइट्रिक एसिड' को सट्टा 'hydrochloric acid' भनिएको छ, जुन नेपाली मूल पाठसँग मिल्दैन। यदि प्रश्न वास्तवमा हाइड्रोक्लोरिक एसिडको बारेमा हो भने, सही उत्पादन NaCl + H2O हुनेछ, अर्थात् विकल्प (ii) — यो उत्तर प्रयोग गर्नुअघि कृपया मूल प्रश्नपत्रसँग कुन एसिड हो भनी पुष्टि गर्नुहोस्।)"
+          },
+          "correctOption": "iii"
+        },
+        {
+          "id": "q1i",
+          "questionNumber": "1(i)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "What does carbogen indicate?",
+            "ne": "कार्बोजिन भन्नाले के जनाउँछ ?"
+          },
+          "options": [
+            {
+              "en": "Mixture of carbon dioxide and nitrogen",
+              "ne": "कार्वनडाइअक्साइड र नाइट्रोजनको मिश्रण"
+            },
+            {
+              "en": "Mixture of carbon dioxide and hydrogen",
+              "ne": "कार्वनडाइअक्साइड र हाइड्रोजनको मिश्रण"
+            },
+            {
+              "en": "Mixture of carbon dioxide and water",
+              "ne": "कार्वनडाइअक्साइड र पानीको मिश्रण"
+            },
+            {
+              "en": "Mixture of carbon dioxide and oxygen",
+              "ne": "कार्वनडाइअक्साइड र अक्सिजनको मिश्रण"
+            }
+          ],
+          "answer": {
+            "en": "Mixture of carbon dioxide and oxygen",
+            "ne": "कार्वनडाइअक्साइड र अक्सिजनको मिश्रण"
+          },
+          "solution": {
+            "en": "Carbogen is a medical gas mixture typically containing about 5-10% carbon dioxide with the remainder oxygen, used to stimulate breathing/respiration in certain medical treatments.",
+            "ne": "कार्बोजिन एउटा चिकित्सकीय ग्यास मिश्रण हो, जसमा सामान्यतया करिब 5-10% कार्वनडाइअक्साइड र बाँकी अक्सिजन हुन्छ, जुन केही चिकित्सकीय उपचारमा सास फेर्ने प्रक्रियालाई उत्प्रेरित गर्न प्रयोग गरिन्छ।"
+          },
+          "correctOption": "iv"
+        },
+        {
+          "id": "q1j",
+          "questionNumber": "1(j)",
+          "section": "A",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Which of the following hydrocarbon group belongs to alkyne? A: H-C≡C-H. B: H2C=CH2 (ethene-type structure). C: H3C-CH3 (ethane-type, fully saturated). D: CH3-C≡C-CH3 (a chain with a C≡C triple bond in the middle).",
+            "ne": "तल दिएका हाइड्रोकार्बनमध्ये अल्काइन अन्तर्गत कुन यौगिक समूह पर्दछ ? A: H-C≡C-H। B: H2C=CH2 (इथिन प्रकारको संरचना)। C: H3C-CH3 (इथेन प्रकारको, पूर्ण सतृप्त)। D: CH3-C≡C-CH3 (बिचमा C≡C ट्रिपल बन्ड भएको चेन)।"
+          },
+          "options": [
+            {
+              "en": "A and C",
+              "ne": "A र C"
+            },
+            {
+              "en": "A and B",
+              "ne": "A र B"
+            },
+            {
+              "en": "A and D",
+              "ne": "A र D"
+            },
+            {
+              "en": "B and C",
+              "ne": "B र C"
+            }
+          ],
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-karnali/q1j-hydrocarbon-structures.png",
+            "caption": {
+              "en": "Four hydrocarbon structures labelled A, B, C, D.",
+              "ne": "A, B, C, D लेबल गरिएका चारओटा हाइड्रोकार्बन संरचना।"
+            }
+          },
+          "answer": {
+            "en": "A and D",
+            "ne": "A र D"
+          },
+          "solution": {
+            "en": "Structure A (H-C≡C-H) and structure D (CH3-C≡C-CH3) both contain a carbon-carbon triple bond, which is the defining feature of alkynes. Structure B has a C=C double bond (an alkene, ethene), and structure C has only single bonds (an alkane, ethane).",
+            "ne": "संरचना A (H-C≡C-H) र संरचना D (CH3-C≡C-CH3) दुवैमा कार्बन-कार्बन ट्रिपल बन्ड छ, जुन अल्काइनको मुख्य पहिचान हो। संरचना B मा C=C डबल बन्ड छ (एल्कीन, इथिन), र संरचना C मा केवल एकल बन्ड मात्र छन् (एल्केन, इथेन)।"
+          },
+          "correctOption": "iii"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Section B — Very Short Answer Questions",
+        "ne": "खण्ड 'ख' — अति छोटो उत्तर प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Write very short answers to the following questions. (9 x 1 = 9)",
+        "ne": "तलका प्रश्नहरूको अति छोटो उत्तर लेख्नुहोस् : (९x१=९)"
+      },
+      "items": [
+        {
+          "id": "q2a",
+          "questionNumber": "2(a)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "What is online reputation?",
+            "ne": "अनलाइन रेप्युटेसन भनेको के हो ?"
+          },
+          "answer": {
+            "en": "Online reputation refers to how a person, brand, or organisation is perceived by others based on their activities, behaviour, and content shared/found on the internet and social media.",
+            "ne": "अनलाइन रेप्युटेसन भनेको कुनै व्यक्ति, ब्रान्ड, वा संस्थालाई इन्टरनेट र सामाजिक सञ्जालमा भएका गतिविधि, व्यवहार, र सामग्रीको आधारमा अरूले कस्तो रूपमा हेर्छन् भन्ने कुरा हो।"
+          }
+        },
+        {
+          "id": "q2b",
+          "questionNumber": "2(b)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "On the basis of their features, which of these two is the less developed animal?",
+            "ne": "विशेषताका आधारमा यी दुईमध्ये कुन चाहिँ कम विकसित जनावर हो ?"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-karnali/q2b-whale-shark.png",
+            "caption": {
+              "en": "Animal A: a whale. Animal B: a shark.",
+              "ne": "जनावर A: ह्वेल। जनावर B: शार्क।"
+            }
+          },
+          "answer": {
+            "en": "B (the shark) is the less developed animal — sharks are cartilaginous fish, an evolutionarily older and comparatively simpler vertebrate group, whereas whales (A) are mammals, a more highly evolved and complex group.",
+            "ne": "B (शार्क) कम विकसित जनावर हो — शार्क कार्टिलेजिनस माछा हुन्, जुन विकासात्मक रूपमा पुरानो र तुलनात्मक रूपमा सरल कशेरुकी समूह हो, जबकि ह्वेल (A) स्तनधारी हुन्, जुन बढी विकसित र जटिल समूह हो।"
+          }
+        },
+        {
+          "id": "q2c",
+          "questionNumber": "2(c)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "What is the name of the blood vessel that brings pure blood to the heart?",
+            "ne": "शुद्ध रगत मुटुमा ल्याउने रक्तनलीको नाम के हो ?"
+          },
+          "answer": {
+            "en": "Pulmonary vein.",
+            "ne": "पल्मोनरी नस (पल्मोनरी भेन)।"
+          }
+        },
+        {
+          "id": "q2d",
+          "questionNumber": "2(d)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "What is magnetic field?",
+            "ne": "चुम्बकीय क्षेत्र भनेको के हो ?"
+          },
+          "answer": {
+            "en": "A magnetic field is the region or space around a magnet (or a current-carrying conductor) within which its magnetic force/influence can be detected or experienced.",
+            "ne": "चुम्बकीय क्षेत्र भनेको चुम्बक (वा धाराप्रवाह भएको सुचालक) वरपरको त्यो क्षेत्र/ठाउँ हो जसभित्र त्यसको चुम्बकीय बल/प्रभाव महसुस/पत्ता लगाउन सकिन्छ।"
+          }
+        },
+        {
+          "id": "q2e",
+          "questionNumber": "2(e)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Why is Big-Bang theory considered the most reliable theory among all the theories related to the origin of the universe?",
+            "ne": "बिग व्याङ्ग सिद्धान्तलाई ब्रह्माण्डको उत्पत्ति सम्बन्धी सबैभन्दा विश्वसनीय मानिन्छ, किन ?"
+          },
+          "answer": {
+            "en": "The Big-Bang theory is considered the most reliable because it is supported by strong observational evidence — including the discovery of cosmic microwave background radiation, the observed expansion of the universe (redshift of distant galaxies), and the relative abundance of light elements like hydrogen and helium in the universe — all of which align closely with what the theory predicts.",
+            "ne": "बिग व्याङ्ग सिद्धान्तलाई सबैभन्दा विश्वसनीय मानिनुको कारण यसलाई बलियो अवलोकनात्मक प्रमाणले समर्थन गर्छ — जस्तै कस्मिक माइक्रोवेभ ब्याकग्राउन्ड विकिरणको खोज, ब्रह्माण्डको अवलोकन गरिएको विस्तार (टाढाका ग्यालेक्सीको रेडसिफ्ट), र ब्रह्माण्डमा हाइड्रोजन र हिलियम जस्ता हल्का तत्त्वको सापेक्षिक प्रचुरता — यी सबै सिद्धान्तले गरेको भविष्यवाणीसँग नजिकबाट मेल खान्छन्।"
+          }
+        },
+        {
+          "id": "q2f",
+          "questionNumber": "2(f)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Give an example of combination reaction.",
+            "ne": "संयोजन प्रतिक्रियाको एउटा उदाहरण दिनुहोस्।"
+          },
+          "answer": {
+            "en": "2Mg + O2 -> 2MgO is an example of a combination reaction (two substances combine to form a single product).",
+            "ne": "2Mg + O2 -> 2MgO संयोजन प्रतिक्रियाको एउटा उदाहरण हो (दुई पदार्थ मिलेर एउटै उत्पादन बनाउँछन्)।"
+          }
+        },
+        {
+          "id": "q2g",
+          "questionNumber": "2(g)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Write the molecular formula of the compound 'X' in the given chemical equation. X + H2SO4 -> Na2SO4 + H2O",
+            "ne": "दिइएको रासायनिक समीकरणमा यौगिक 'X' को अणुसूत्र लेख्नुहोस्। X + H2SO4 -> Na2SO4 + H2O"
+          },
+          "answer": {
+            "en": "X = NaOH (Sodium hydroxide).",
+            "ne": "X = NaOH (सोडियम हाइड्रोअक्साइड)।"
+          },
+          "solution": {
+            "en": "The balanced equation is 2NaOH + H2SO4 -> Na2SO4 + 2H2O — a neutralisation reaction between a base (NaOH) and an acid (H2SO4), so X = NaOH.",
+            "ne": "सन्तुलित समीकरण 2NaOH + H2SO4 -> Na2SO4 + 2H2O हो — यो आधार (NaOH) र एसिड (H2SO4) बिचको निराकरण प्रतिक्रिया हो, त्यसैले X = NaOH हो।"
+          }
+        },
+        {
+          "id": "q2h",
+          "questionNumber": "2(h)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Write the molecular formula of the acid formed when carbon dioxide gas is dissolved in water.",
+            "ne": "कार्वनडाइअक्साइड ग्यासलाई पानीमा घोल्दा बन्ने अम्लको आणविक सूत्र लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "H2CO3 (Carbonic acid).",
+            "ne": "H2CO3 (कार्बोनिक एसिड)।"
+          }
+        },
+        {
+          "id": "q2i",
+          "questionNumber": "2(i)",
+          "section": "B",
+          "marks": 1,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Which element acts as a foaming agent in Reetha?",
+            "ne": "रिठामा कुन तत्त्व हुन्छ जसले रिठामा फिँज पैदा गर्दछ ?"
+          },
+          "answer": {
+            "en": "Saponin is the compound in Reetha (soap nut) that produces foam/lather when mixed with water.",
+            "ne": "रिठामा भएको साबोनिन नामक तत्त्वले पानीसँग मिसाउँदा फिँज उत्पन्न गर्छ।"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Section C — Short Answer Questions",
+        "ne": "खण्ड 'ग' — छोटो उत्तर प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Write short answers to the following questions. (14 x 2 = 28)",
+        "ne": "तलका प्रश्नहरूको छोटो उत्तर लेख्नुहोस् : (१४x२=२८)"
+      },
+      "items": [
+        {
+          "id": "q3",
+          "questionNumber": "3",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Define fundamental unit and give one example.",
+            "ne": "आधारभूत एकाइको परिभाषा लेखी एउटा उदाहरण दिनुहोस्।"
+          },
+          "answer": {
+            "en": "A fundamental unit is a unit of measurement that is not derived from any other unit and serves as the basic building block for all other (derived) units — for example, the metre, used to measure length.",
+            "ne": "आधारभूत एकाइ भनेको त्यस्तो नाप्ने एकाइ हो जुन अरू कुनै एकाइबाट व्युत्पन्न गरिएको हुँदैन र यो अन्य सबै (तत्जन्य) एकाइको आधारभूत निर्माण खण्डको रूपमा काम गर्छ — उदाहरणका लागि, लम्बाइ नाप्न प्रयोग हुने मिटर।"
+          }
+        },
+        {
+          "id": "q4",
+          "questionNumber": "4",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Fern is not a flowering plant; cycas bears flowers but no fruit; banana bears flowers as well as fruits. However all these plants are kept in the same division. Give any two reasons why they are all kept in the same division.",
+            "ne": "उनिउँमा फूल फुल्दैन, साइकसमा फूल फुल्छ तर फल फल्दैन, केरामा फूल पनि फुल्छ र फल पनि फल्छ, तर यी सबै विरुवाहरू एउटै डिभिजनमा पर्छन्। यी सबै वनस्पतिहरू एउटै डिभिजनमा पर्नुका दुई कारणहरू लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "(Note: taking 'division' here in the broader sense of Kingdom Plantae, since fern, cycas and banana actually belong to different taxonomic Divisions — see the file's sourceNote.) 1) All three are multicellular, autotrophic (self-feeding), photosynthetic organisms containing chlorophyll, with true plant cells having cellulose cell walls — the core defining features of the plant kingdom. 2) Despite differences in how they reproduce (spores in fern, naked seeds/cones in cycas, flowers and fruit in banana), all three have a differentiated plant body (roots, stem, and leaves) and a broadly similar overall life cycle pattern, which is why they are grouped together under the same overarching plant classification.",
+            "ne": "(नोट: यहाँ 'डिभिजन' शब्दलाई व्यापक अर्थमा प्लान्टी जगत भनी बुझिएको छ, किनकि उनिउँ, साइकस र केरा वास्तवमा फरक-फरक टेक्सोनोमिक डिभिजनमा पर्छन् — फाइलको sourceNote हेर्नुहोस्।) १) यी तीनओटै बहुकोषीय, स्वपोषी (आफैं खाना बनाउने), प्रकाश संश्लेषण गर्ने र क्लोरोफिल भएका जीव हुन्, जसमा सेल्युलोज कोषभित्ता भएको साँचो बिरुवा कोष हुन्छ — यिनै प्लान्टी जगतको मुख्य पहिचान हुन्। २) प्रजनन गर्ने तरिकामा भिन्नता भए पनि (उनिउँमा स्पोर, साइकसमा नाङ्गो बीउ/कोन, केरामा फूल र फल), तीनओटैमा भिन्न-भिन्न बिरुवाको भाग (जरा, डाँठ, पात) हुन्छन् र समग्रमा उस्तै किसिमको जीवनचक्र हुन्छ, यही कारणले तिनीहरूलाई एउटै व्यापक बिरुवा वर्गीकरणमा राखिन्छ।"
+          }
+        },
+        {
+          "id": "q5",
+          "questionNumber": "5",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Write any two differences between drone bee and worker bee.",
+            "ne": "भाले र कर्मी मौरी बिच कुनै दुईओटा फरकहरू लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "1) Drone bees are male, and their only role is to mate with the queen bee, whereas worker bees are sterile females that perform all other duties in the hive (foraging, building, guarding, feeding larvae). 2) Drone bees do not have a stinger, whereas worker bees have a stinger which they use to defend the hive.",
+            "ne": "१) भाले मौरी नर हुन्, र तिनको एकमात्र काम रानी मौरीसँग सहवास गर्नु हो, जबकि कर्मी मौरी बाँझी पोथी हुन् जसले घारका अन्य सबै काम (आहारा सङ्कलन, घार बनाउने, रक्षा गर्ने, लार्भा खुवाउने) गर्छन्। २) भाले मौरीमा डङ्क हुँदैन, जबकि कर्मी मौरीमा डङ्क हुन्छ जुन तिनले घारको रक्षा गर्न प्रयोग गर्छन्।"
+          }
+        },
+        {
+          "id": "q6",
+          "questionNumber": "6",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Why did Mendel choose the pea plant for his experiment? Give any two reasons.",
+            "ne": "मेन्डलले आफ्नो प्रयोगका लागि केराउको बिरुवालाई किन रोजे ? कुनै दुईओटा कारणहरू दिनुहोस्।"
+          },
+          "answer": {
+            "en": "1) Pea plants have several easily distinguishable contrasting traits (e.g. tall/short stem, round/wrinkled seeds), making it simple to track how traits are inherited across generations. 2) Pea plants can both self-pollinate naturally and be easily cross-pollinated by hand, giving Mendel full control over which plants were crossed, and they have a relatively short generation time, allowing him to study several generations quickly.",
+            "ne": "१) केराउको बिरुवामा सजिलै छुट्याउन सकिने विपरीत गुणहरू (जस्तै अग्लो/होचो डाँठ, गोलो/चाउरी बीउ) धेरै हुन्छन्, जसले पुस्तान्तरणमा गुण कसरी सर्छ भनी पत्ता लगाउन सजिलो बनाउँछ। २) केराउको बिरुवामा प्राकृतिक स्व-परागसेचन हुन्छ र हातैले क्रस-परागसेचन गराउन पनि सजिलो हुन्छ, जसले मेन्डललाई कुन बिरुवा क्रस गराउने भन्नेमा पूर्ण नियन्त्रण दियो, र यसको जीवनचक्र छोटो भएकाले धेरै पुस्ता छिट्टै अध्ययन गर्न सकिन्थ्यो।"
+          }
+        },
+        {
+          "id": "q7",
+          "questionNumber": "7",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Two types of cell division are shown below: A: Cell division -> reproductive cell -> gamete formation (process P). Another: 2n -> somatic cell -> growth (process Q). (i) What type of cell division does A represent? (ii) Write any one difference between these two types of cell division.",
+            "ne": "तल दुईप्रकारका कोष विभाजन प्रक्रिया देखाइएको छ: A: कोष विभाजन -> प्रजनन कोष -> ग्यामेट निर्माण प्रक्रिया (P)। अर्को: 2n -> सोमाटिक कोष -> वृद्धि प्रक्रिया (Q)। (i) A ले कुन प्रकारको कोष विभाजन जनाउँछ ? (ii) यी दुई प्रकारका कोष विभाजनको कुनै एक फरक लेख्नुहोस्।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-karnali/q7-cell-division-chart.png",
+            "caption": {
+              "en": "Flowchart: Cell division -> reproductive cell -> gamete formation (P); 2n -> somatic cell -> growth (Q).",
+              "ne": "फ्लोचार्ट: कोष विभाजन -> प्रजनन कोष -> ग्यामेट निर्माण (P); 2n -> सोमाटिक कोष -> वृद्धि (Q)।"
+            }
+          },
+          "answer": {
+            "en": "(i) A represents Meiosis (reduction division), since it leads to the formation of reproductive cells and gametes. (ii) One difference: Meiosis (process P) produces four gametes with half the chromosome number (haploid) and occurs in reproductive/germ cells, whereas mitosis (process Q) produces two daughter cells with the same chromosome number as the parent (diploid) and occurs in somatic (body) cells for growth.",
+            "ne": "(i) A ले मियोसिस (न्युनीकरण विभाजन) जनाउँछ, किनभने यसले प्रजनन कोष र ग्यामेट निर्माण गर्छ। (ii) एउटा फरक: मियोसिस (प्रक्रिया P) ले क्रोमोजोम सङ्ख्या आधा भएका (हेप्लोइड) चारओटा ग्यामेट उत्पादन गर्छ र यो प्रजनन/जर्म कोषमा हुन्छ, जबकि माइटोसिस (प्रक्रिया Q) ले अभिभावकसँगै बराबर क्रोमोजोम सङ्ख्या (डिप्लोइड) भएका दुईओटा सन्तान कोष उत्पादन गर्छ र यो वृद्धिका लागि सोमाटिक (शारीरिक) कोषमा हुन्छ।"
+          }
+        },
+        {
+          "id": "q8",
+          "questionNumber": "8",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Write the name of the plant which is used in the treatment of burns. Write one other use of this plant.",
+            "ne": "पोलेको ठाउँमा उपचार गर्न प्रयोग हुने बिरुवाको नाम लेख्नुहोस्। उक्त बिरुवाको थप एक उपयोगिता लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "Aloe vera (Ghiukumari) is the plant commonly used in the treatment of burns. Other use: its gel is also used to treat skin conditions and wounds, and in cosmetic/skincare products as a moisturiser.",
+            "ne": "घ्युकुमारी (एलोभेरा) पोलेको ठाउँको उपचारमा सामान्यतया प्रयोग हुने बिरुवा हो। थप उपयोग: यसको रस छालासम्बन्धी समस्या र घाउको उपचारमा, र कस्मेटिक/स्किनकेयर उत्पादनमा मोइस्चराइजरको रूपमा पनि प्रयोग हुन्छ।"
+          }
+        },
+        {
+          "id": "q9",
+          "questionNumber": "9",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "If the weight of a cricket ball in water is 2 N and the weight of the water displaced by it is 1 N, (i) What is the actual weight of the cricket ball? (ii) On which principle is this experiment based?",
+            "ne": "एउटा क्रिकेट बललाई पानीमा डुबाइ जोख्दा 2 N र त्यसले विस्थापित गरेको पानीको तौल 1 N छ भने, (i) बलको वास्तविक तौल कति हुन्छ ? (ii) यो प्रयोग कुन सिद्धान्तमा आधारित हुन्छ ?"
+          },
+          "answer": {
+            "en": "(i) The actual (true) weight of the cricket ball is 3 N. (ii) This experiment is based on Archimedes' principle.",
+            "ne": "(i) क्रिकेट बलको वास्तविक तौल 3 N हो। (ii) यो प्रयोग आर्किमिडिजको सिद्धान्तमा आधारित छ।"
+          },
+          "solution": {
+            "en": "By Archimedes' principle, the upthrust (buoyant force) on a body equals the weight of the liquid it displaces. Actual weight = apparent weight in water + upthrust = 2 N + 1 N = 3 N.",
+            "ne": "आर्किमिडिजको सिद्धान्तअनुसार, वस्तुमा पर्ने उर्ध्वचाप (बोएन्ट फोर्स) त्यसले विस्थापन गरेको तरलको तौल बराबर हुन्छ। वास्तविक तौल = पानीमा आभासी तौल + उर्ध्वचाप = 2 N + 1 N = 3 N।"
+          },
+          "solutionTable": {
+            "headers": [
+              {
+                "en": "Quantity",
+                "ne": "परिमाण"
+              },
+              {
+                "en": "Value",
+                "ne": "मान"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "Apparent weight in water",
+                  "ne": "पानीमा आभासी तौल"
+                },
+                {
+                  "en": "2 N",
+                  "ne": "2 N"
+                }
+              ],
+              [
+                {
+                  "en": "Upthrust (weight of water displaced)",
+                  "ne": "उर्ध्वचाप (विस्थापित पानीको तौल)"
+                },
+                {
+                  "en": "1 N",
+                  "ne": "1 N"
+                }
+              ],
+              [
+                {
+                  "en": "Actual weight = apparent weight + upthrust",
+                  "ne": "वास्तविक तौल = आभासी तौल + उर्ध्वचाप"
+                },
+                {
+                  "en": "3 N",
+                  "ne": "3 N"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "q10",
+          "questionNumber": "10",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Water pipes burst in very cold places in winter. Write any two reasons for this.",
+            "ne": "धेरै चिसो स्थानमा रहेका पानीका पाइपहरू हिउँदमा फुट्छन्। यसका कुनै दुई कारणहरू लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "1) Water expands (rather than contracting) when it freezes into ice — this is the anomalous expansion of water near 0°C — and this expansion pushes outward against the inner walls of the pipe. 2) Pipes are made of relatively rigid materials that cannot accommodate this sudden increase in volume, so the pressure built up by the expanding ice cracks or bursts the pipe.",
+            "ne": "१) पानी जम्दा (खुम्चिनुको साटो) फैलिन्छ — यो 0°C नजिकको पानीको असाधारण फैलावट हो — र यो फैलावटले पाइपको भित्री भित्तामा बाहिरतिर धकेल्छ। २) पाइप अपेक्षाकृत कडा पदार्थबाट बनेको हुन्छ, जसले यो अचानक आयतन वृद्धिलाई थेग्न सक्दैन, त्यसैले फैलिँदै गरेको बरफले उत्पन्न गरेको दबाबले पाइप फुटाउँछ।"
+          }
+        },
+        {
+          "id": "q11",
+          "questionNumber": "11",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "If a substance of mass 500 g needs 5980 J of heat to increase its temperature from 100°C to 226°C, calculate its specific heat capacity.",
+            "ne": "एउटा 500 g पिण्ड भएको पदार्थलाई 100°C बाट 226°C सम्म तताउन 5980 J तापशक्ति आवश्यक पर्छ भने उक्त पदार्थको विशिष्ट तापधारण क्षमता हिसाब गर्नुहोस्।"
+          },
+          "answer": {
+            "en": "94.92 J/kg°C (approximately 95 J/kg°C).",
+            "ne": "94.92 J/kg°C (लगभग 95 J/kg°C)।"
+          },
+          "solution": {
+            "en": "c = Q/(mΔT), where Q = 5980 J, m = 500 g = 0.5 kg, ΔT = 226°C − 100°C = 126°C. c = 5980/(0.5×126) = 5980/63 ≈ 94.92 J/kg°C.",
+            "ne": "c = Q/(mΔT), जहाँ Q = 5980 J, m = 500 g = 0.5 kg, ΔT = 226°C − 100°C = 126°C। c = 5980/(0.5×126) = 5980/63 ≈ 94.92 J/kg°C।"
+          },
+          "solutionTable": {
+            "headers": [
+              {
+                "en": "Quantity",
+                "ne": "परिमाण"
+              },
+              {
+                "en": "Value",
+                "ne": "मान"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "Heat (Q)",
+                  "ne": "ताप (Q)"
+                },
+                {
+                  "en": "5980 J",
+                  "ne": "5980 J"
+                }
+              ],
+              [
+                {
+                  "en": "Mass (m)",
+                  "ne": "पिण्ड (m)"
+                },
+                {
+                  "en": "0.5 kg",
+                  "ne": "0.5 kg"
+                }
+              ],
+              [
+                {
+                  "en": "ΔT",
+                  "ne": "ΔT"
+                },
+                {
+                  "en": "126°C",
+                  "ne": "126°C"
+                }
+              ],
+              [
+                {
+                  "en": "c = Q/(mΔT)",
+                  "ne": "c = Q/(mΔT)"
+                },
+                {
+                  "en": "≈ 94.92 J/kg°C",
+                  "ne": "≈ 94.92 J/kg°C"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "q12",
+          "questionNumber": "12",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "State two reasons why a rainbow always appears semicircular and of the same thickness from the surface of the Earth.",
+            "ne": "पृथ्वीको सतहबाट इन्द्रेणी सधैँ अर्ध वृत्ताकार र एउटै मोटाइमा देखिनुका दुईओटा कारणहरु लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "1) A rainbow forms when sunlight is refracted, internally reflected, and dispersed inside countless raindrops; each colour emerges at its own fixed angle relative to the direction of the sunlight (about 42° for red, slightly less for violet), and since this angle is the same for every raindrop contributing to the rainbow, the set of all such points forms a circular arc — this fixed-angle property is why the rainbow's shape and thickness stay consistent. 2) Since the ground blocks the lower half of what would otherwise be a complete circle (centred on the point directly opposite the Sun from the observer's view), only the upper portion is visible, so the rainbow always appears as a semicircle (or arc) from the surface of the Earth, with the same thickness because the narrow range of angles across which the different colours disperse is the same for every rainbow.",
+            "ne": "१) इन्द्रेणी सूर्यको प्रकाश असंख्य वर्षाका थोपाभित्र रिफ्र्याक्ट, आन्तरिक परावर्तन, र विच्छेदन हुँदा बन्छ; प्रत्येक रङ सूर्यको दिशाको सापेक्षमा आफ्नै निश्चित कोणमा निस्कन्छ (रातोका लागि करिब 42°, वैजनीका लागि अलि कम), र इन्द्रेणी बनाउने हरेक वर्षाको थोपाका लागि यो कोण उस्तै भएकाले, यस्ता सबै बिन्दुको समूहले एउटा वृत्ताकार चाप बनाउँछ — यही निश्चित-कोण गुणले इन्द्रेणीको आकार र मोटाइ स्थिर राख्छ। २) जमिनले (अवलोकनकर्ताको दृष्टिकोणबाट सूर्यको ठीक विपरीत बिन्दुमा केन्द्रित हुने) पूर्ण वृत्तको तल्लो आधा भाग छेकिदिने भएकाले, माथिल्लो भाग मात्र देखिन्छ, त्यसैले इन्द्रेणी सधैँ पृथ्वीको सतहबाट अर्धवृत्त (वा चाप) को रूपमा देखिन्छ, र मोटाइ उस्तै हुन्छ किनभने फरक-फरक रङ विच्छेदन हुने कोणको साँघुरो दायरा हरेक इन्द्रेणीका लागि उस्तै हुन्छ।"
+          }
+        },
+        {
+          "id": "q13",
+          "questionNumber": "13",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "A student inserted a burning matchstick into a gas jar nearby and it extinguished. Write the balanced chemical equation of the reaction that takes place when a burning magnesium ribbon is inserted into the same gas jar (containing carbon dioxide gas).",
+            "ne": "एक विद्यार्थीले ग्यास जारमा रहेको ग्यास नजिकै बलिरहेको सलाइको काँटी राख्दा उक्त काँटी निभ्यो। उक्त ग्यासमा (कार्वनडाइअक्साइड ग्यासमा) बलिरहेको म्याग्नेसियम रिवन घुसाउँदा हुने रासायनिक प्रतिक्रियाको सन्तुलित समीकरण लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "2Mg + CO2 -> 2MgO + C",
+            "ne": "2Mg + CO2 -> 2MgO + C"
+          },
+          "solution": {
+            "en": "The gas jar contains carbon dioxide (CO2), which does not support ordinary combustion, so the burning matchstick extinguished. However, magnesium is reactive enough to continue burning even in a CO2 atmosphere — it takes oxygen from CO2 to form magnesium oxide, releasing solid carbon: 2Mg + CO2 -> 2MgO + C.",
+            "ne": "ग्यास जारमा कार्वनडाइअक्साइड (CO2) रहेको छ, जसले सामान्य दहनलाई सहयोग गर्दैन, त्यसैले बलिरहेको सलाइको काँटी निभ्यो। तर म्याग्नेसियम यति क्रियाशील हुन्छ कि यो CO2 वातावरणमा पनि बलिरहन्छ — यसले CO2 बाट अक्सिजन लिएर म्याग्नेसियम अक्साइड बनाउँछ, र ठोस कार्बन निस्कन्छ: 2Mg + CO2 -> 2MgO + C।"
+          }
+        },
+        {
+          "id": "q14",
+          "questionNumber": "14",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Write any two differences between mineral and ore.",
+            "ne": "खनिज र धाउमा कुनै दुईओटा फरक लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "1) A mineral is a naturally occurring inorganic substance with a definite chemical composition, which may or may not contain a usefully extractable amount of metal; an ore is specifically a mineral from which a metal can be extracted profitably/economically. 2) All ores are minerals, but not all minerals are ores — only those minerals from which metal extraction is technically and economically viable are classified as ores.",
+            "ne": "१) खनिज भनेको निश्चित रासायनिक संरचना भएको प्राकृतिक रूपमा पाइने अकार्बनिक पदार्थ हो, जसमा उपयोगी मात्रामा निकाल्न सकिने धातु होस् वा नहोस्; धाउ भनेको विशेष गरी त्यस्तो खनिज हो जसबाट धातुलाई नाफामूलक/आर्थिक रूपमा निकाल्न सकिन्छ। २) सबै धाउ खनिज हुन्, तर सबै खनिज धाउ हुँदैनन् — जुन खनिजबाट धातु निकाल्नु प्राविधिक र आर्थिक रूपमा सम्भव छ, तिनैलाई मात्र धाउ भनिन्छ।"
+          }
+        },
+        {
+          "id": "q15",
+          "questionNumber": "15",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Write the name and structural formula of the alcohol having two carbon atoms.",
+            "ne": "कार्बन सङ्ख्या दुई भएको अल्कोहलको नाम र संरचना सूत्र लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "Ethanol (C2H5OH). Structural formula: CH3-CH2-OH.",
+            "ne": "इथानोल (C2H5OH)। संरचना सूत्र: CH3-CH2-OH।"
+          }
+        },
+        {
+          "id": "q16",
+          "questionNumber": "16",
+          "section": "C",
+          "marks": 2,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "The use of detergent is harmful from an environmental perspective. Give any two reasons for this.",
+            "ne": "डिटरजेन्ट प्रयोग गर्नु वातावरणीय दृष्टिकोणले हानिकारक हुनुका कुनै दुईओटा कारणहरू लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "1) Most detergents are non-biodegradable or only very slowly biodegradable, so they persist in rivers and lakes for a long time, causing water pollution and harming aquatic organisms. 2) Many detergents contain phosphates and other chemicals that, when they enter water bodies, can cause excessive growth of algae (eutrophication), which depletes dissolved oxygen in the water and harms fish and other aquatic life.",
+            "ne": "१) धेरैजसो डिटर्जेन्ट सजिलै विघटन नहुने वा एकदमै ढिलो विघटन हुने हुन्छन्, त्यसैले तिनीहरू नदी र तलाउमा लामो समय रहेर पानी प्रदूषित गर्छन् र जलचरलाई हानि पुऱ्याउँछन्। २) धेरै डिटर्जेन्टमा फस्फेट र अन्य रसायन हुन्छन्, जुन पानीमा पुगेपछि शैवालको अत्यधिक वृद्धि (यूट्रोफिकेसन) निम्त्याउन सक्छ, जसले पानीमा घुलेको अक्सिजन घटाउँछ र माछा तथा अन्य जलचरलाई हानि पुऱ्याउँछ।"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Section D — Long Answer Questions",
+        "ne": "खण्ड 'घ' — लामो उत्तर प्रश्नहरू"
+      },
+      "instructions": {
+        "en": "Write long answer to the following questions. (7 x 4 = 28)",
+        "ne": "तलका प्रश्नहरूको लामो उत्तर लेख्नुहोस् : (७x४=२८)"
+      },
+      "items": [
+        {
+          "id": "q17",
+          "questionNumber": "17",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Write any two positive and any two negative effects of digital technology in daily life.",
+            "ne": "दैनिक जीवनमा डिजिटल प्रविधिका दुईओटा सकारात्मक र दुईओटा नकारात्मक प्रभावहरू लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "Two positive effects: 1) Enables quick access to information and easy, instant communication over long distances. 2) Facilitates online education, remote work, and convenient access to services such as banking and shopping. Two negative effects: 1) Excessive use can lead to health issues (eye strain, poor sleep, reduced physical activity) and digital addiction. 2) Raises risks of cyberbullying, privacy breaches, and the spread of misinformation.",
+            "ne": "दुई सकारात्मक प्रभाव: १) जानकारीमा छिटो पहुँच र लामो दूरीमा सजिलो, तत्काल सञ्चार सम्भव बनाउँछ। २) अनलाइन शिक्षा, टाढैबाट काम, र बैंकिङ/किनमेल जस्ता सेवामा सजिलो पहुँच दिन्छ। दुई नकारात्मक प्रभाव: १) अत्यधिक प्रयोगले स्वास्थ्य समस्या (आँखामा तनाव, निद्रामा खलल, शारीरिक गतिविधिमा कमी) र डिजिटल लत निम्त्याउन सक्छ। २) साइबरबुलिङ, गोपनीयता उल्लङ्घन, र गलत सूचनाको प्रसारको जोखिम बढाउँछ।"
+          }
+        },
+        {
+          "id": "q18",
+          "questionNumber": "18",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Draw a chart to show both phenotype and genotype of offsprings produced from black (BB) and white (bb) dogs in the 1st and 2nd filial generation according to Mendel's experiment. Write the ratio of phenotype and genotype of the second filial generation.",
+            "ne": "कालो (BB) र सेतो (bb) कुकुरहरूबाट जन्मेका सन्तानहरू पहिलो र दोस्रो वंशमा देखापर्ने नतिजा मेन्डलले गरेको प्रयोग अनुसार फिनोटाइप र जिनोटाइप दुवै देखिने गरी चार्टमा देखाउनुहोस् र दोस्रो वंशको फिनोटाइप र जिनोटाइप अनुपात पनि लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "Cross: BB (black) × bb (white). F1: all Bb (black, since B is dominant). F1 self-cross (Bb × Bb) gives F2: genotypes BB : Bb : bb in ratio 1:2:1, phenotypes 3 black : 1 white. F2 genotypic ratio: 1:2:1 (BB:Bb:bb). F2 phenotypic ratio: 3:1 (black:white).",
+            "ne": "क्रस: BB (कालो) × bb (सेतो)। F1: सबै Bb (कालो, किनभने B प्रवल हो)। F1 स्व-क्रस (Bb × Bb) ले F2 दिन्छ: जिनोटाइप BB : Bb : bb अनुपातमा 1:2:1, फिनोटाइप 3 कालो : 1 सेतो। F2 जिनोटाइपिक अनुपात: 1:2:1 (BB:Bb:bb)। F2 फिनोटाइपिक अनुपात: 3:1 (कालो:सेतो)।"
+          },
+          "solutionTable": {
+            "headers": [
+              {
+                "en": "Generation",
+                "ne": "पुस्ता"
+              },
+              {
+                "en": "Genotype(s)",
+                "ne": "जिनोटाइप"
+              },
+              {
+                "en": "Phenotype(s)",
+                "ne": "फिनोटाइप"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "P",
+                  "ne": "P"
+                },
+                {
+                  "en": "BB × bb",
+                  "ne": "BB × bb"
+                },
+                {
+                  "en": "Black × White",
+                  "ne": "कालो × सेतो"
+                }
+              ],
+              [
+                {
+                  "en": "F1",
+                  "ne": "F1"
+                },
+                {
+                  "en": "All Bb",
+                  "ne": "सबै Bb"
+                },
+                {
+                  "en": "All Black",
+                  "ne": "सबै कालो"
+                }
+              ],
+              [
+                {
+                  "en": "F2",
+                  "ne": "F2"
+                },
+                {
+                  "en": "1 BB : 2 Bb : 1 bb",
+                  "ne": "1 BB : 2 Bb : 1 bb"
+                },
+                {
+                  "en": "3 Black : 1 White",
+                  "ne": "3 कालो : 1 सेतो"
+                }
+              ]
+            ]
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-karnali/q18-Bb-cross-chart-answer.png",
+            "caption": {
+              "en": "Model answer chart: BB × bb cross through F1 and F2.",
+              "ne": "नमूना उत्तर चार्ट: BB × bb क्रसको F1 र F2 सम्म।"
+            }
+          }
+        },
+        {
+          "id": "q19",
+          "questionNumber": "19",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Following results were obtained when the blood samples of four people were tested: A - RBC count is low. B - WBC count is high. C - Platelets count is low. D - amount of sugar is high. (i) The person with which blood sample bleeds more during injuries? (ii) The person with which blood sample becomes tired even after a short walk? (iii) The person with which blood sample needs to take antibiotic? (iv) The person with which blood sample could have problems in kidney?",
+            "ne": "चार जना व्यक्तिको रगतको नमुना परीक्षण गर्दा निम्न नतिजा प्राप्त भयो। A - RBC को मात्रा न्यून। B - WBC को मात्रा बढी। C - प्लेटलेट्सको मात्रा न्यून। D - चिनीको मात्रा बढी। (i) कुन नमुना भएको व्यक्तिलाई चोटपटक लाग्दा धेरै रगत बग्छ ? (ii) कुन नमुना भएको व्यक्ति एकैछिन हिंड्दा पनि थाक्छ ? (iii) कुन नमुना भएको व्यक्तिलाई एन्टिवायोटिकको आवश्यकता पर्दछ ? (iv) कुन नमुना भएको व्यक्तिको मृगौलामा समस्या हुन सक्छ ?"
+          },
+          "answer": {
+            "en": "(i) C (low platelets) — platelets are essential for blood clotting, so a person with low platelet count bleeds more and for longer during injuries. (ii) A (low RBC) — RBCs carry oxygen throughout the body; a low RBC count (anaemia) reduces the oxygen supply to tissues, causing the person to feel tired/fatigued even after light activity like a short walk. (iii) B (high WBC) — an elevated white blood cell count usually indicates the body is fighting an infection, so this person is likely to need antibiotics to treat the underlying infection. (iv) D (high sugar) — persistently high blood sugar indicates diabetes, which is a major risk factor for kidney damage (diabetic nephropathy) over time.",
+            "ne": "(i) C (न्यून प्लेटलेट्स) — प्लेटलेट्स रगत जम्नका लागि आवश्यक हुन्छन्, त्यसैले न्यून प्लेटलेट्स भएको व्यक्तिलाई चोटपटक लाग्दा बढी र लामो समय रगत बग्छ। (ii) A (न्यून RBC) — RBC ले शरीरभरि अक्सिजन बोक्छ; न्यून RBC (रक्तअल्पता) ले तन्तुहरूमा अक्सिजनको आपूर्ति घटाउँछ, जसले गर्दा व्यक्ति एकैछिन हिंड्ने जस्तो हलुका गतिविधिपछि पनि थकित महसुस गर्छ। (iii) B (बढी WBC) — बढेको सेता रक्तकोष सङ्ख्याले सामान्यतया शरीरले सङ्क्रमणसँग लडिरहेको जनाउँछ, त्यसैले यस्तो व्यक्तिलाई मूल सङ्क्रमण उपचार गर्न एन्टिवायोटिक आवश्यक पर्न सक्छ। (iv) D (बढी चिनी) — निरन्तर बढी रगतको चिनीले मधुमेह जनाउँछ, जुन समयक्रममा मृगौला क्षति (डायबेटिक नेफ्रोपाथी) को प्रमुख जोखिम कारक हो।"
+          }
+        },
+        {
+          "id": "q20",
+          "questionNumber": "20",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "State Newton's Universal Law of Gravitation and prove that F = Gm1m2/d² with the help of an appropriate diagram.",
+            "ne": "न्युटनको गुरुत्वाकर्षण सम्बन्धी विश्वव्यापी नियम लेख्नुहोस् र F = Gm1m2/d² हुन्छ भनी उपयुक्त चित्रसहित प्रमाणित गर्नुहोस्।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-karnali/q20-gravitation-proof-answer.png",
+            "caption": {
+              "en": "Model answer diagram: two masses m1 and m2 separated by distance d, with equal and opposite gravitational forces F.",
+              "ne": "नमूना उत्तर चित्र: d दूरीमा रहेका m1 र m2 पिण्ड, बराबर र विपरीत गुरुत्वाकर्षण बल F सहित।"
+            }
+          },
+          "answer": {
+            "en": "Newton's Universal Law of Gravitation states that every object in the universe attracts every other object with a force that is directly proportional to the product of their masses and inversely proportional to the square of the distance between their centres.",
+            "ne": "न्युटनको गुरुत्वाकर्षण सम्बन्धी विश्वव्यापी नियमअनुसार, ब्रह्माण्डमा रहेको प्रत्येक वस्तुले अर्को प्रत्येक वस्तुलाई तिनीहरूको पिण्डको गुणनफलसँग सोझो समानुपाती र तिनीहरूको केन्द्रबिचको दूरीको वर्गसँग व्युत्क्रमानुपाती हुने बलले आकर्षित गर्छ।"
+          },
+          "solution": {
+            "en": "Let two bodies of mass m1 and m2 be separated by distance d (draw them as two points/circles connected by a line of length d, with equal and opposite arrows labelled F pointing toward each other along that line). Step 1: The gravitational force F is directly proportional to the product of the masses: F ∝ m1 × m2. Step 2: The force is inversely proportional to the square of the distance between them: F ∝ 1/d². Step 3: Combining these two proportionalities: F ∝ (m1 × m2)/d². Step 4: Introducing a constant of proportionality, the universal gravitational constant G, this becomes an equation: F = G(m1 × m2)/d². Hence proved.",
+            "ne": "दुई पिण्ड m1 र m2 भएका वस्तुहरू d दूरीमा रहेका छन् भनी मान्नुहोस् (तिनलाई दुई बिन्दु/वृत्तको रूपमा d लम्बाइको रेखाले जोडिएको कोर्नुहोस्, र त्यही रेखामा एक-अर्कातिर सोझिएको बराबर र विपरीत दिशाका F लेबल गरिएका बाणहरू देखाउनुहोस्)। चरण १: गुरुत्वाकर्षण बल F पिण्डहरूको गुणनफलसँग सोझो समानुपाती हुन्छ: F ∝ m1 × m2। चरण २: बल तिनीहरूबिचको दूरीको वर्गसँग व्युत्क्रमानुपाती हुन्छ: F ∝ 1/d²। चरण ३: यी दुई समानुपातलाई मिलाउँदा: F ∝ (m1 × m2)/d²। चरण ४: समानुपातको अचर, विश्वव्यापी गुरुत्वाकर्षण अचर G, राख्दा यो समीकरण बन्छ: F = G(m1 × m2)/d²। यसरी प्रमाणित भयो।"
+          }
+        },
+        {
+          "id": "q21",
+          "questionNumber": "21",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Two lenses are given (Lens A: focal length +20 cm; Lens B: focal length -25 cm). Mention the types of these two lenses. Out of these two lenses, which one forms a virtual and magnified image when an object is kept 15 cm away from the lens? Draw an appropriate ray diagram of this.",
+            "ne": "दिइएका दुई लेन्सको प्रकार उल्लेख गर्नुहोस् (लेन्स A: केन्द्रीकरण दूरी +20 cm; लेन्स B: केन्द्रीकरण दूरी -25 cm)। तिमध्ये कुन लेन्सले वस्तुलाई उक्त लेन्सबाट 15 cm मा राख्दा अवास्तविक र वस्तुभन्दा ठूलो आकृति बनाउँछ ? उपयुक्त किरण रेखाचित्र कोर्नुहोस्।"
+          },
+          "questionTable": {
+            "headers": [
+              {
+                "en": "Lenses",
+                "ne": "लेन्सहरू"
+              },
+              {
+                "en": "Focal Length",
+                "ne": "केन्द्रीकरण दूरी"
+              }
+            ],
+            "rows": [
+              [
+                {
+                  "en": "A",
+                  "ne": "A"
+                },
+                {
+                  "en": "+20 cm",
+                  "ne": "+20 cm"
+                }
+              ],
+              [
+                {
+                  "en": "B",
+                  "ne": "B"
+                },
+                {
+                  "en": "-25 cm",
+                  "ne": "-25 cm"
+                }
+              ]
+            ]
+          },
+          "answer": {
+            "en": "Lens A (+20 cm) is a convex (converging) lens; Lens B (-25 cm) is a concave (diverging) lens. Lens A is the one that forms a virtual and magnified image when the object is placed 15 cm from the lens — since the object distance (15 cm) is less than A's focal length (20 cm), the object lies inside the focal length of the convex lens, which produces a virtual, erect, and magnified image (the same principle used in a simple magnifying glass). A concave lens (B) always produces a virtual, erect, but diminished (smaller) image, regardless of object distance, so it cannot give a magnified image.",
+            "ne": "लेन्स A (+20 cm) कन्भेक्स (कन्भर्जिङ) लेन्स हो; लेन्स B (-25 cm) कन्केभ (डाइभर्जिङ) लेन्स हो। वस्तुलाई लेन्सबाट 15 cm मा राख्दा अवास्तविक र ठूलो आकृति बनाउने लेन्स A हो — किनभने वस्तुको दूरी (15 cm) A को केन्द्रीकरण दूरी (20 cm) भन्दा कम भएकाले, वस्तु कन्भेक्स लेन्सको फोकस लम्बाइभित्रै पर्छ, जसले अवास्तविक, सिधा, र ठूलो आकृति बनाउँछ (साधारण म्याग्निफाइङ ग्लासमा प्रयोग हुने उस्तै सिद्धान्त)। कन्केभ लेन्स (B) ले वस्तुको दूरी जेसुकै भए पनि सधैँ अवास्तविक, सिधा, तर सानो आकृति बनाउँछ, त्यसैले यसले ठूलो आकृति दिन सक्दैन।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-karnali/q21-convex-lens-virtual-image-answer.png",
+            "caption": {
+              "en": "Model answer ray diagram: object between F and the convex lens (Lens A), forming a virtual, magnified image.",
+              "ne": "नमूना उत्तर किरण रेखाचित्र: कन्भेक्स लेन्स (लेन्स A) र F बिच रहेको वस्तु, अवास्तविक र ठूलो आकृति बनाउँदै।"
+            }
+          }
+        },
+        {
+          "id": "q22",
+          "questionNumber": "22",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "Study the given figure. Figure A shows electricity being transmitted directly from an electric power station to a house without any transformer shown along the line. Figure B shows the same transmission line with a transformer 'X' near the power station and a transformer 'Y' near the house. (i) Name the type of transformers X and Y. (iii) Write any two problems of transmitting electricity the way shown in figure A.",
+            "ne": "दिइएको चित्र अध्ययन गर्नुहोस्। चित्र A मा विद्युत पावर स्टेसनबाट घरसम्म कुनै ट्रान्सफर्मर नदेखाई सिधै प्रसारण गरिएको देखाइएको छ। चित्र B मा उही प्रसारण लाइनमा पावर स्टेसननजिक ट्रान्सफर्मर 'X' र घरनजिक ट्रान्सफर्मर 'Y' देखाइएको छ। (i) चित्रमा X र Y ट्रान्सफर्मरको प्रकार लेख्नुहोस्। (iii) चित्र A मा जस्तै गरी विद्युत प्रसारण गर्दा हुने दुईओटा समस्याहरु लेख्नुहोस्।"
+          },
+          "image": {
+            "url": "https://YOUR_STORAGE_BUCKET/see2081-sci-karnali/q22-power-transmission-figures.png",
+            "caption": {
+              "en": "Figure A: power station to house with no transformer shown. Figure B: same line with transformer X near the station and transformer Y near the house.",
+              "ne": "चित्र A: पावर स्टेसनबाट घरसम्म कुनै ट्रान्सफर्मर नदेखाई। चित्र B: उही लाइनमा स्टेसननजिक ट्रान्सफर्मर X र घरनजिक ट्रान्सफर्मर Y।"
+            }
+          },
+          "answer": {
+            "en": "(i) X (near the power station) is a step-up transformer, and Y (near the house) is a step-down transformer. (iii) Two problems of transmitting electricity as shown in figure A (i.e. directly, without stepping the voltage up for transmission and back down for consumer use): 1) Transmitting power at the (comparatively low) generation voltage over long distances requires much higher current for the same power, leading to significant energy loss as heat in the transmission wires (I²R losses). 2) Carrying this higher current would require thicker, more expensive cables, and the voltage delivered to homes would either be unsuitably high (unsafe for domestic appliances) or, if kept low for safety, would suffer very large transmission losses — making the whole system inefficient and unsafe compared to the transformer-based system in figure B.",
+            "ne": "(i) X (पावर स्टेसननजिक) स्टेप-अप ट्रान्सफर्मर हो, र Y (घरनजिक) स्टेप-डाउन ट्रान्सफर्मर हो। (iii) चित्र A मा जस्तै (अर्थात् भोल्टेज प्रसारणका लागि नबढाई र उपभोक्ताका लागि नघटाई सिधै) विद्युत प्रसारण गर्दा हुने दुई समस्या: १) (तुलनात्मक रूपमा कम) उत्पादन भोल्टेजमै लामो दूरीमा विद्युत प्रसारण गर्दा उही शक्तिका लागि धेरै बढी करेन्ट चाहिन्छ, जसले प्रसारण तारमा ताप (I²R क्षति) को रूपमा ठूलो ऊर्जा क्षति निम्त्याउँछ। २) यो बढी करेन्ट बोक्न मोटो, बढी महँगो केबल चाहिन्छ, र घरसम्म पुग्ने भोल्टेज या त धेरै उच्च (घरायसी उपकरणका लागि असुरक्षित) हुन्छ, वा सुरक्षाका लागि कम राखियो भने धेरै ठूलो प्रसारण क्षति हुन्छ — जसले चित्र B मा देखाइएको ट्रान्सफर्मर-आधारित प्रणालीको तुलनामा समग्र प्रणालीलाई अकुशल र असुरक्षित बनाउँछ।"
+          }
+        },
+        {
+          "id": "q23",
+          "questionNumber": "23",
+          "section": "D",
+          "marks": 4,
+          "source": "SEE 2081 (2025), Karnali Province",
+          "question": {
+            "en": "(i) State the modern periodic law. (ii) Element A = 1s² 2s²2p⁶ 3s² and Element B = 1s² 2s²2p⁴. (a) In which group of the periodic table does element B lie? (b) Write the balanced chemical equation obtained in the reaction between A and B.",
+            "ne": "(i) आधुनिक पेरियोडिक नियम लेख्नुहोस्। (ii) तत्त्व A = 1s² 2s²2p⁶ 3s² र तत्त्व B = 1s² 2s²2p⁴ भए। (a) तत्त्व B पेरियोडिक तालिकाको कुन ग्रुपमा पर्दछ ? (b) A र B का बिच हुने रासायनिक प्रतिक्रियाको सन्तुलित रासायनिक समीकरण लेख्नुहोस्।"
+          },
+          "answer": {
+            "en": "(i) The modern periodic law states that the physical and chemical properties of elements are periodic functions of their atomic numbers. (ii)(a) Element B (1s² 2s²2p⁴, 8 electrons — Oxygen) has 6 valence electrons, so it lies in Group VIA (Group 16) of the periodic table. (ii)(b) 2Mg + O2 -> 2MgO.",
+            "ne": "(i) आधुनिक पेरियोडिक नियमअनुसार, तत्त्वहरूको भौतिक र रासायनिक गुणहरू तिनीहरूको परमाणु सङ्ख्याको आवधिक (पेरियोडिक) प्रकार्य हुन्छन्। (ii)(a) तत्त्व B (1s² 2s²2p⁴, 8 इलेक्ट्रोन — अक्सिजन) मा 6 भ्यालेन्स इलेक्ट्रोन छन्, त्यसैले यो पेरियोडिक तालिकाको ग्रुप VIA (ग्रुप 16) मा पर्छ। (ii)(b) 2Mg + O2 -> 2MgO।"
+          },
+          "solution": {
+            "en": "Element A's configuration (1s² 2s²2p⁶ 3s²) has 12 electrons — Magnesium (Mg), atomic number 12, with 2 valence electrons. Element B's configuration (1s² 2s²2p⁴) has 8 electrons — Oxygen (O), atomic number 8, with 6 valence electrons (Group VIA). Magnesium (which loses 2 electrons) reacts with oxygen (which gains 2 electrons per atom) to form the ionic compound magnesium oxide: 2Mg + O2 -> 2MgO.",
+            "ne": "तत्त्व A को बनावट (1s² 2s²2p⁶ 3s²) मा 12 इलेक्ट्रोन छन् — म्याग्नेसियम (Mg), परमाणु सङ्ख्या 12, जसमा 2 भ्यालेन्स इलेक्ट्रोन छन्। तत्त्व B को बनावट (1s² 2s²2p⁴) मा 8 इलेक्ट्रोन छन् — अक्सिजन (O), परमाणु सङ्ख्या 8, जसमा 6 भ्यालेन्स इलेक्ट्रोन छन् (ग्रुप VIA)। म्याग्नेसियम (जसले 2 इलेक्ट्रोन त्याग्छ) ले अक्सिजन (प्रत्येक परमाणुले 2 इलेक्ट्रोन ग्रहण गर्ने) सँग प्रतिक्रिया गरी आयोनिक यौगिक म्याग्नेसियम अक्साइड बनाउँछ: 2Mg + O2 -> 2MgO।"
+          }
+        }
+      ]
+    }
+  ]
+}

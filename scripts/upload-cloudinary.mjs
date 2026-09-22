@@ -85,6 +85,7 @@ function collect() {
     { cloud: "see2081-sci-lumbini", dir: path.join(REPO, "science-questions/see-2081-science-lumbini/lumbini-science-diagrams") },
     { cloud: "see2081-sci-madhesh", dir: path.join(REPO, "science-questions/see-2081-science-madhesh/textbook-diagrams") },
     { cloud: "see2081-sci-sudurpaschim", dir: path.join(REPO, "science-questions/see-2081-science-sudurpaschim/sudurpaschim-diagrams") },
+    { cloud: "see2081-sci-karnali", dir: path.join(REPO, "science-questions/see-2081-science-karnali/karnali-diagrams") },
     { cloud: "see2081-compulsory-maths-koshi", dir: path.join(REPO, "science-questions/see-2081-compulsory-maths-koshi/maths-diagrams") },
     { cloud: "quadratic-equations", dir: path.join(REPO, "science-questions/quadratic-equations/math-diagrams") },
     { cloud: "see-math-ch1", dir: path.join(REPO, "maths_chapter_1/lesson1-venn-diagrams") },
