@@ -163,3 +163,15 @@
     -webkit-line-clamp: 2;
   }
 }
+
+/*
+ * In the dark palette the `tertiary` role stays a very dark green, so any
+ * `text-tertiary` sitting on the dark canvas (or on a *tinted* tertiary
+ * surface) becomes unreadable. Paint that text with the light tertiary tone
+ * inside reader subtrees — the `.dark` class is scoped to ReaderShell only,
+ * so the app chrome and marketing pages keep their intended (light) design.
+ * Declared unlayered so it always beats the Tailwind utility in `utilities`.
+ */
+.dark .text-tertiary {
+  color: rgb(163 255 210);
+}

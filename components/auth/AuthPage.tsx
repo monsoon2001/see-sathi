@@ -1,15 +1,17 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import {
   createUserWithEmailAndPassword,
+  getRedirectResult,
   reload,
   sendEmailVerification,
   sendPasswordResetEmail,
   signInWithEmailAndPassword,
   signInWithPopup,
+  signInWithRedirect,
   updateProfile,
 } from "firebase/auth";
 import { ArrowRight, BookOpen, Check, Circle, CircleHelp, Eye, EyeOff, Loader2, MailCheck, ShieldCheck, Star } from "lucide-react";
@@ -54,6 +56,9 @@ function parseAuthError(err: unknown): string {
       return "Too many attempts. Try again in a few minutes.";
     case "auth/popup-closed-by-user":
       return "";
+    case "auth/account-exists-with-different-credential":
+    case "auth/email-already-in-use":
+      return "An account with this email already exists. Choose Sign In instead.";
     default:
       return "Something went wrong. Please try again.";
   }
@@ -135,17 +140,57 @@ export function AuthPage({ mode: initialMode }: { mode: "signin" | "signup" }) {
   async function handleGoogle() {
     setError("");
     setInfo("");
+    setLoading(true);
     try {
-      setLoading(true);
-      await signInWithPopup(auth, googleProvider);
-      router.push(safeNext("/profile"));
+      // Popup first: it does not depend on the auth-domain handoff that the
+      // redirect flow uses, so it keeps working even if the app and Firebase
+      // disagree about the origin. Falls back to redirect automatically.
+      try {
+        const cred = await signInWithPopup(auth, googleProvider);
+        router.push(safeNext("/profile"));
+        return;
+      } catch (err) {
+        const code = (err as { code?: string })?.code;
+        if (code !== "auth/popup-blocked" && code !== "auth/popup-closed-by-user" && code !== "auth/cancelled-popup-request") throw err;
+        const msg = parseAuthError(err);
+        if (msg) setError(msg);
+        await signInWithRedirect(auth, googleProvider);
+      }
     } catch (err) {
+      // eslint-disable-next-line no-console
+      console.error("[AuthPage] Google sign-in failed:", err);
       const msg = parseAuthError(err);
       if (msg) setError(msg);
+      else setError((err as { code?: string })?.code ?? "Something went wrong. Please try again.");
     } finally {
       setLoading(false);
     }
   }
+
+
+
+  // Completes a Google sign-in that came back from the redirect flow. The
+  // redirect leg navigates away to the OAuth provider and returns to this same
+  // page, at which point Firebase has already signed the user in — this just
+  // catches errors and forwards them to the profile.
+  useEffect(() => {
+    let active = true;
+    getRedirectResult(auth)
+      .then((result) => {
+        if (active && result && result.user) {
+          router.push(safeNext("/profile"));
+        }
+      })
+      .catch((err) => {
+        // eslint-disable-next-line no-console
+        console.error("[AuthPage] redirect result:", (err as { code?: string })?.code, err);
+        const msg = parseAuthError(err);
+        if (active && msg) setError(msg);
+      });
+    return () => {
+      active = false;
+    };
+  }, []);
 
   async function forgotPassword() {
     setError("");

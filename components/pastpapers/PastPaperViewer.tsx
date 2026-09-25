@@ -1,15 +1,20 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import {
   ArrowLeft,
   BadgeCheck,
   BookCheck,
   CalendarDays,
+  CheckCircle2,
   CircleCheck,
+  CircleStop,
+  Flag,
+  Hourglass,
   Landmark,
   ListChecks,
+  Lock,
   MapPin,
   MessageSquareQuote,
   NotebookPen,
@@ -23,6 +28,7 @@ import { BlockView, BilingualTable, ImageBox, LangToggle, langFont, pickText, sp
 import { RichText } from "@/components/math/RichText";
 import { ScrollProgressBar } from "@/components/layout/ScrollProgressBar";
 import { FontSizeControl, useFontSize } from "@/components/ui/FontSizeControl";
+import { ConfirmDialog } from "@/components/ui/ConfirmDialog";
 import { ReaderShell } from "@/components/reader/ReaderShell";
 import { ReaderThemeToggle } from "@/components/theme/ReaderThemeToggle";
 
@@ -42,6 +48,17 @@ const SECTION_COLORS = [
 function fmtMarks(marks?: number) {
   if (marks == null) return "";
   return Number.isInteger(marks) ? String(marks) : "½";
+}
+
+/** Pretty clock: "59:03" under an hour, "2:59:03" at an hour or more. */
+function fmtClock(totalSeconds: number): string {
+  const s = Math.max(0, totalSeconds);
+  const h = Math.floor(s / 3600);
+  const m = Math.floor((s % 3600) / 60);
+  const sec = s % 60;
+  const mm = String(m).padStart(2, "0");
+  const ss = String(sec).padStart(2, "0");
+  return h > 0 ? `${h}:${mm}:${ss}` : `${mm}:${ss}`;
 }
 
 function hasText(b?: Bilingual): boolean {
@@ -102,7 +119,7 @@ function CodeBlock({ code, language }: { code: string; language?: string }) {
     <div className="mt-3 overflow-hidden rounded-DEFAULT border border-surface-container bg-surface-container-low">
       {language && (
         <div className="flex items-center gap-2 border-b border-surface-container bg-surface-container-lowest/70 px-4 py-1.5">
-          <span className="font-mono text-[11px] font-semibold uppercase tracking-wider text-tertiary">{language}</span>
+          <span className="font-mono text-[11px] font-semibold uppercase tracking-wider text-tertiary dark:text-tertiary-fixed">{language}</span>
         </div>
       )}
       <pre className="overflow-x-auto whitespace-pre px-4 py-3 font-mono text-[0.82em] leading-[1.6em] text-on-surface">{code}</pre>
@@ -278,11 +295,48 @@ function PaperQuestionCard({
   );
 }
 
-export function PastPaperViewer({ paper }: { paper: PastPaper }) {
+export function PastPaperViewer({
+  paper,
+  exam,
+  onTimeUp,
+  onCancelExam,
+  onFinishExam,
+  backHref = "/past-papers",
+  backLabel = "Past Papers",
+}: {
+  paper: PastPaper;
+  /** When "running", the answer key is locked and a countdown timer is shown.
+   *  "finished" (or no prop) unlocks the paper exactly like a normal read. */
+  exam?: { status: "running"; deadline: number } | { status: "finished" };
+  /** Fired once the countdown reaches zero while running. */
+  onTimeUp?: () => void;
+  /** Fired when the student confirms cancelling the mock test. */
+  onCancelExam?: () => void;
+  /** Fired when the student confirms finishing the mock test early. */
+  onFinishExam?: () => void;
+  /** Where the "back to the list" links point. */
+  backHref?: string;
+  backLabel?: string;
+}) {
   const q = paper.question;
   const [lang, setLang] = useState<Lang>(() => (q.subjectId === "nepali" ? "ne" : "en"));
   const [mode, setMode] = useState<Mode>("questions");
   const [fontSize, setFontSize] = useFontSize(17);
+  const [confirmAction, setConfirmAction] = useState<"cancel" | "finish" | null>(null);
+
+  const running = exam?.status === "running";
+  const [now, setNow] = useState(() => Date.now());
+  useEffect(() => {
+    if (!running) return;
+    const id = window.setInterval(() => setNow(Date.now()), 1000);
+    return () => window.clearInterval(id);
+  }, [running]);
+  const remainingSecs = running ? Math.max(0, Math.ceil((exam.deadline - now) / 1000)) : 0;
+  const timeUp = running && remainingSecs <= 0;
+  useEffect(() => {
+    if (timeUp) onTimeUp?.();
+  }, [timeUp, onTimeUp]);
+  const answersLocked = running && !timeUp;
 
   const NO_TOGGLE_SUBJECTS = ["english", "nepali", "computer-science", "social-studies"];
   const showLangToggle = !NO_TOGGLE_SUBJECTS.includes(q.subjectId);
@@ -301,34 +355,80 @@ export function PastPaperViewer({ paper }: { paper: PastPaper }) {
           <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-3 px-4 py-3 lg:px-8">
             <nav aria-label="Breadcrumb" className="flex items-center gap-1.5 text-on-surface-variant">
               <Link
-                href="/past-papers"
+                href={backHref}
                 className="flex items-center gap-1 rounded-full bg-surface-container-lowest px-4 py-1.5 font-title text-body-sm text-on-surface shadow-sm transition-colors hover:text-primary"
               >
                 <ArrowLeft className="h-4 w-4" aria-hidden="true" />
-                Past Papers
+                {backLabel}
               </Link>
-              <span className="rounded-full bg-primary-fixed px-3 py-1.5 font-label-caps text-label-caps text-primary">
-                {lang === "ne" ? `${q.examYear} वैकल्पिक` : `SEE ${q.examYear}`}
+              <span className="rounded-full bg-primary-fixed px-3 py-1.5 font-label-caps text-label-caps text-on-primary-fixed">
+                {running
+                  ? lang === "ne"
+                    ? "मोक टेस्ट चलिरहेको छ"
+                    : "Mock test in progress"
+                  : lang === "ne"
+                    ? `${q.examYear} वैकल्पिक`
+                    : `SEE ${q.examYear}`}
               </span>
-              <span className="hidden font-label-caps text-label-caps uppercase tracking-wider text-tertiary sm:inline">
+              <span className="hidden font-label-caps text-label-caps uppercase tracking-wider text-tertiary dark:text-tertiary-fixed sm:inline">
                 {"·"} {q.paperCode}
               </span>
             </nav>
 
             <div className="flex flex-wrap items-center gap-2">
+              {running && (
+                <span
+                  title="Time remaining"
+                  className={cn(
+                    "inline-flex items-center gap-1.5 rounded-full px-4 py-2 font-mono text-title font-bold tabular-nums",
+                    remainingSecs < 600
+                      ? "animate-pulse bg-error-container/70 text-on-error-container"
+                      : "bg-primary-fixed/40 text-primary dark:bg-primary-fixed/25 dark:text-primary-fixed",
+                  )}
+                >
+                  <Hourglass className="h-4 w-4" aria-hidden="true" />
+                  {fmtClock(remainingSecs)}
+                </span>
+              )}
+              {running && (
+                <button
+                  type="button"
+                  onClick={() => setConfirmAction("finish")}
+                  className="inline-flex items-center gap-1.5 rounded-full bg-primary-container px-4 py-2 font-title text-title font-semibold text-on-primary shadow-[0_4px_14px_rgba(75,79,242,0.3)] transition-all hover:-translate-y-0.5 hover:shadow-[0_6px_18px_rgba(75,79,242,0.4)]"
+                >
+                  <CheckCircle2 className="h-4 w-4" aria-hidden="true" />
+                  Finish Mock Test
+                </button>
+              )}
+              {running && (
+                <button
+                  type="button"
+                  onClick={() => setConfirmAction("cancel")}
+                  className="inline-flex items-center gap-1.5 rounded-full bg-error-container px-4 py-2 font-title text-title font-semibold text-on-error-container transition-colors hover:opacity-90"
+                >
+                  <CircleStop className="h-4 w-4" aria-hidden="true" />
+                  Cancel Mock Test
+                </button>
+              )}
               <ReaderThemeToggle />
               <div className="inline-flex items-center gap-1 rounded-full bg-surface-container p-1">
                 {(["questions", "answers"] as const).map((m) => {
-                  const disabled = m === "answers" && !hasAnswers;
+                  const disabled = m === "answers" && (!hasAnswers || answersLocked);
                   return (
                     <button
                       key={m}
                       type="button"
                       disabled={disabled}
                       onClick={() => setMode(m)}
-                      title={disabled ? "No answer key published yet" : undefined}
+                      title={
+                        m === "answers" && answersLocked
+                          ? "Answers are locked while the mock test is running. They unlock when the timer ends, you finish, or you cancel the test."
+                          : m === "answers" && !hasAnswers
+                            ? "No answer key published yet"
+                            : undefined
+                      }
                       className={cn(
-                        "rounded-full px-4 py-1.5 font-title text-body-sm transition-all",
+                        "inline-flex items-center gap-1.5 rounded-full px-4 py-1.5 font-title text-body-sm transition-all",
                         mode === m
                           ? "bg-surface-container-lowest text-on-surface shadow-sm"
                           : disabled
@@ -336,6 +436,7 @@ export function PastPaperViewer({ paper }: { paper: PastPaper }) {
                             : "font-medium text-on-surface-variant hover:text-on-surface",
                       )}
                     >
+                      {m === "answers" && answersLocked && <Lock className="h-3.5 w-3.5" aria-hidden="true" />}
                       {m === "questions" ? "Question Paper" : "Answer Key"}
                     </button>
                   );
@@ -350,11 +451,11 @@ export function PastPaperViewer({ paper }: { paper: PastPaper }) {
 
       <div className="mx-auto max-w-4xl px-4 lg:px-0" style={{ fontSize: `${fontSize}px` }}>
         <div className="mb-2 inline-flex flex-wrap items-center gap-2 pt-8">
-          <span className="inline-flex items-center gap-1 rounded-full bg-primary/10 px-4 py-1 font-bold text-label-caps uppercase tracking-wider text-primary">
+          <span className="inline-flex items-center gap-1 rounded-full bg-primary/10 px-4 py-1 font-bold text-label-caps uppercase tracking-wider text-primary dark:bg-primary-fixed/15 dark:text-primary-fixed">
             <School className="h-[14px] w-[14px]" aria-hidden="true" />
             {q.subjectId}
           </span>
-          <span className="inline-flex items-center gap-1 rounded-full bg-tertiary-fixed/50 px-3 py-1 font-label-caps text-label-caps text-tertiary">
+          <span className="inline-flex items-center gap-1 rounded-full bg-tertiary-fixed/50 px-3 py-1 font-label-caps text-label-caps text-tertiary dark:bg-tertiary-fixed/15 dark:text-tertiary-fixed">
             <ListChecks className="h-3.5 w-3.5" aria-hidden="true" />
             {q.questionSections.reduce((n, s) => n + s.items.length, 0)} questions
           </span>
@@ -368,13 +469,13 @@ export function PastPaperViewer({ paper }: { paper: PastPaper }) {
         <div className="mb-6 flex flex-wrap items-center gap-2">
           {q.examYear && (
             <span className="inline-flex items-center gap-1 rounded-full bg-surface-container px-3 py-1 font-body-sm text-on-surface-variant">
-              <CalendarDays className="h-3.5 w-3.5 text-tertiary" aria-hidden="true" />
+              <CalendarDays className="h-3.5 w-3.5 text-tertiary dark:text-tertiary-fixed" aria-hidden="true" />
               {q.examYear}
             </span>
           )}
           {q.province && (
             <span className="inline-flex items-center gap-1 rounded-full bg-surface-container px-3 py-1 font-body-sm text-on-surface-variant">
-              <MapPin className="h-3.5 w-3.5 text-tertiary" aria-hidden="true" />
+              <MapPin className="h-3.5 w-3.5 text-tertiary dark:text-tertiary-fixed" aria-hidden="true" />
               {q.province} Province
             </span>
           )}
@@ -382,13 +483,13 @@ export function PastPaperViewer({ paper }: { paper: PastPaper }) {
             <span className="rounded-full bg-surface-container px-3 py-1 font-mono text-[11px] text-on-surface-variant">{q.paperCode}</span>
           )}
           {q.fullMarks != null && (
-            <span className="inline-flex items-center gap-1 rounded-full bg-primary/10 px-3 py-1 font-body-sm font-semibold text-primary">
+            <span className="inline-flex items-center gap-1 rounded-full bg-primary/10 px-3 py-1 font-body-sm font-semibold text-primary dark:bg-primary-fixed/15 dark:text-primary-fixed">
               <Landmark className="h-3.5 w-3.5" aria-hidden="true" />
               FM {q.fullMarks}
             </span>
           )}
           {q.timeAllowed && (
-            <span className="inline-flex items-center gap-1 rounded-full bg-primary/10 px-3 py-1 font-body-sm font-semibold text-primary">
+            <span className="inline-flex items-center gap-1 rounded-full bg-primary/10 px-3 py-1 font-body-sm font-semibold text-primary dark:bg-primary-fixed/15 dark:text-primary-fixed">
               <Timer className="h-3.5 w-3.5" aria-hidden="true" />
               {q.timeAllowed}
             </span>
@@ -506,13 +607,13 @@ export function PastPaperViewer({ paper }: { paper: PastPaper }) {
 
         <div className="mt-12 flex flex-col items-center justify-between gap-3 border-t border-surface-container pt-6 sm:flex-row">
           <Link
-            href="/past-papers"
+            href={backHref}
             className="inline-flex w-full items-center justify-center gap-1 rounded-full bg-surface-container px-6 py-2 font-title text-title text-on-surface transition-colors hover:bg-surface-container-high sm:w-auto"
           >
             <ArrowLeft className="h-5 w-5" aria-hidden="true" />
-            All Past Papers
+            {backLabel === "Past Papers" ? "All Past Papers" : `All ${backLabel}`}
           </Link>
-          {hasAnswers && (
+          {hasAnswers && !running && (
             <button
               type="button"
               onClick={() => setMode(mode === "answers" ? "questions" : "answers")}
@@ -525,6 +626,32 @@ export function PastPaperViewer({ paper }: { paper: PastPaper }) {
         </div>
       </div>
       </div>
+      <ConfirmDialog
+        open={confirmAction != null}
+        tone={confirmAction === "cancel" ? "danger" : "primary"}
+        title={confirmAction === "cancel" ? "Cancel this mock test?" : "Finish this mock test?"}
+        description={
+          confirmAction === "cancel"
+            ? "Your attempt closes early and nothing is recorded. You can still read the paper and check the answer key afterwards."
+            : "Your timer stops here and the Answer Key unlocks immediately — just like submitting your paper in the SEE hall. You can review everything afterwards."
+        }
+        confirmLabel={confirmAction === "cancel" ? "Cancel Mock Test" : "Finish Mock Test"}
+        confirmIcon={
+          confirmAction === "cancel" ? (
+            <CircleStop className="h-6 w-6" aria-hidden="true" />
+          ) : (
+            <CheckCircle2 className="h-6 w-6" aria-hidden="true" />
+          )
+        }
+        cancelLabel="Keep going"
+        onConfirm={() => {
+          setConfirmAction(null);
+          if (confirmAction === "cancel") onCancelExam?.();
+          else onFinishExam?.();
+        }}
+        onCancel={() => setConfirmAction(null)}
+        onClose={() => setConfirmAction(null)}
+      />
     </ReaderShell>
   );
 }

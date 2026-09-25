@@ -8,3 +8,4 @@ node_modules/
 tsconfig.tsbuildinfo
 service-account*.json
 firebase-adminsdk*.json
+.firebase/

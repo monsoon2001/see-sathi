@@ -6,6 +6,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import {
   ArrowRight,
   Bookmark,
+  BadgeCheck,
   BookOpen,
   Braces,
   Check,
@@ -441,8 +442,8 @@ function NoteResult({ r, query, showVenn }: { r: SearchResult; query: string; sh
           </div>
           <div className="flex items-center justify-between pt-2">
             <span className="flex items-center gap-2 text-label-md text-outline">
-              <Eye className="h-[14px] w-[14px]" aria-hidden="true" /> 1.4k students read
-            </span>
+                <BadgeCheck className="h-[14px] w-[14px]" aria-hidden="true" /> Free &amp; open-access
+              </span>
             <Link href={`/subjects/${r.subjectSlug}/${r.chapterSlug}/notes`} className="inline-flex items-center gap-1 rounded-full bg-primary-fixed px-4 py-1 text-body-sm text-on-primary-fixed transition-all hover:bg-primary hover:text-on-primary">
               Open →
             </Link>

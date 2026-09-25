@@ -13,6 +13,7 @@ const navItems = [
   { label: "Home", path: "/", match: "exact" },
   { label: "Subjects", path: "/subjects", match: "prefix" },
   { label: "Past Papers", path: "/past-papers", match: "prefix" },
+  { label: "Mock Test", path: "/exam-simulator", match: "prefix" },
   { label: "Saved", path: "/saved", match: "prefix" },
   { label: "Search", path: "/search", match: "prefix" },
 ];

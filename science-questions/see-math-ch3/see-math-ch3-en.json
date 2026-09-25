@@ -1,0 +1,2526 @@
+{
+  "chapterId": {
+    "stringValue": "see-math-ch3"
+  },
+  "subjectId": {
+    "stringValue": "see-math"
+  },
+  "number": {
+    "integerValue": "3"
+  },
+  "classLevel": {
+    "stringValue": "10"
+  },
+  "titleEn": {
+    "stringValue": "Chapter 3: Growth and Depreciation"
+  },
+  "titleNe": {
+    "stringValue": "एकाइ ३: वृद्धि र ह्रास"
+  },
+  "version": {
+    "integerValue": "1"
+  },
+  "questions": {
+    "arrayValue": {
+      "values": []
+    }
+  },
+  "questionBlocks": {
+    "arrayValue": {
+      "values": []
+    }
+  },
+  "blocks": {
+    "arrayValue": {
+      "values": [
+        {
+          "mapValue": {
+            "fields": {
+              "type": {
+                "stringValue": "heading"
+              },
+              "en": {
+                "stringValue": "3.0 Review"
+              },
+              "ne": {
+                "stringValue": "३.० पुनरावलोकन"
+              }
+            }
+          }
+        },
+        {
+          "mapValue": {
+            "fields": {
+              "type": {
+                "stringValue": "paragraph"
+              },
+              "en": {
+                "stringValue": "In Nepal, the census began in 1968 B.S. (1911 A.D.) and since then it has been conducted almost every 10 years. The bar chart shows total population (in lakhs) by census year: 1968: 56, 1977: 56, 1987: 55, 1998: 63, 2009/11: 82, 2018: 94, 2028: 116, 2038: 150, 2048: 185, 2058: 232, 2068: 265, 2078 (preliminary): 292."
+              },
+              "ne": {
+                "stringValue": "नेपालमा जनगणना १९६८ सालमा (सन् १९११) सुरु भई तबदेखि लगभग प्रत्येक १० वर्षमा गरिँदै आएको छ। दण्ड चित्रले जनगणना वर्षअनुसार कुल जनसंख्या (लाखमा) देखाउँछ: १९६८: ५६, १९७७: ५६, १९८७: ५५, १९९८: ६३, २००९/११: ८२, २०१८: ९४, २०२८: ११६, २०३८: १५०, २०४८: १८५, २०५८: २३२, २०६८: २६५, २०७८ (प्रारम्भिक): २९२।"
+              }
+            }
+          }
+        },
+        {
+          "mapValue": {
+            "fields": {
+              "type": {
+                "stringValue": "paragraph"
+              },
+              "en": {
+                "stringValue": "a) Population of Nepal in 1968 B.S. $= 56$ lakhs. b) The initial report of the 2078 B.S. census showed the population reached $292$ lakhs. c) Comparing successive census years: population stayed the same from 1968 to 1977 ($56\\to56$), decreased from 1977 to 1987 ($56\\to55$), and increased in every census from 1987 onward. d) Percentage increase of 2078 B.S. relative to 2068 B.S.: $\\dfrac{292-265}{265}\\times100\\% \\approx 10.19\\%$. e) Percentage decrease of 1987 B.S. relative to 1977 B.S.: $\\dfrac{56-55}{56}\\times100\\% \\approx 1.79\\%$. f) Change in population compared to the previous census (in lakhs): $1977-1968=0$; $1987-1977=-1$; $1998-1987=8$; $2009/11-1998=19$; $2018-2009/11=12$; $2028-2018=22$; $2038-2028=34$; $2048-2038=35$; $2058-2048=47$; $2068-2058=33$; $2078-2068=27$. g) Other everyday examples of such increment include bank savings growing with interest, prices rising with inflation, the height of a growing plant, and the number of users of an app or service over time."
+              },
+              "ne": {
+                "stringValue": "क) १९६८ सालमा नेपालको जनसंख्या $= 56$ लाख। ख) २०७८ सालको जनगणनाको प्रारम्भिक प्रतिवेदनमा जनसंख्या $292$ लाख पुगेको देखियो। ग) क्रमिक जनगणना वर्षहरू तुलना गर्दा: १९६८ देखि १९७७ सम्म जनसंख्या उस्तै रह्यो ($56\\to56$), १९७७ देखि १९८७ सम्म घट्यो ($56\\to55$), र १९८७ पछि हरेक जनगणनामा बढ्यो। घ) २०६८ सालको तुलनामा २०७८ सालको प्रतिशत वृद्धि: $\\dfrac{292-265}{265}\\times100\\% \\approx 10.19\\%$। ङ) १९७७ सालको तुलनामा १९८७ सालको प्रतिशत ह्रास: $\\dfrac{56-55}{56}\\times100\\% \\approx 1.79\\%$। च) अघिल्लो जनगणनाको तुलनामा जनसंख्यामा परिवर्तन (लाखमा): $1977-1968=0$; $1987-1977=-1$; $1998-1987=8$; $2009/11-1998=19$; $2018-2009/11=12$; $2028-2018=22$; $2038-2028=34$; $2048-2038=35$; $2058-2048=47$; $2068-2058=33$; $2078-2068=27$। छ) यस्तो वृद्धिका दैनिक जीवनका अन्य उदाहरणहरूमा बैंक बचतमा ब्याजले हुने वृद्धि, महँगीले हुने मूल्य वृद्धि, बढ्दो बिरुवाको उचाइ, र कुनै एपको प्रयोगकर्ता संख्यामा समयसँगै हुने वृद्धि पर्दछन्।"
+              }
+            }
+          }
+        },
+        {
+          "mapValue": {
+            "fields": {
+              "type": {
+                "stringValue": "heading"
+              },
+              "en": {
+                "stringValue": "3.1.1 Growth"
+              },
+              "ne": {
+                "stringValue": "३.१.१ वृद्धि"
+              }
+            }
+          }
+        },
+        {
+          "mapValue": {
+            "fields": {
+              "type": {
+                "stringValue": "paragraph"
+              },
+              "en": {
+                "stringValue": "Activity 1: According to the census 2078, the population of a municipality was $25,000$. If the population increases by $2\\%$ every year: a) The population in 2079 B.S. $= 25,000 + 2\\%$ of $25,000 = 25,000+25,000\\times\\dfrac{2}{100} = 25,500$. b) The population in 2080 B.S. $= 25,500+2\\%$ of $25,500 = 25,500+25,500\\times\\dfrac{2}{100} = 26,010$. c) Yes — this population growth can be computed the same way as compound interest: with $P=25,000$, growth rate $R=2\\%$, time $T=2$ years, $P_T = P\\left(1+\\dfrac{R}{100}\\right)^T = 25000\\left(1+\\dfrac{2}{100}\\right)^2 = 25000\\left(\\dfrac{51}{50}\\right)^2 = 26,010$, matching the year-by-year calculation."
+              },
+              "ne": {
+                "stringValue": "क्रियाकलाप १: जनगणना २०७८ अनुसार, एउटा नगरपालिकाको जनसंख्या $25,000$ थियो। यदि जनसंख्या प्रत्येक वर्ष $2\\%$ ले बढ्छ भने: क) २०७९ सालको जनसंख्या $= 25,000 + 25,000$ को $2\\% = 25,000+25,000\\times\\dfrac{2}{100} = 25,500$। ख) २०८० सालको जनसंख्या $= 25,500+25,500$ को $2\\% = 25,500+25,500\\times\\dfrac{2}{100} = 26,010$। ग) हो — यो जनसंख्या वृद्धि चक्रवृद्धि ब्याज जस्तै गणना गर्न सकिन्छ: $P=25,000$, वृद्धि दर $R=2\\%$, समय $T=2$ वर्ष सहित, $P_T = P\\left(1+\\dfrac{R}{100}\\right)^T = 25000\\left(1+\\dfrac{2}{100}\\right)^2 = 25000\\left(\\dfrac{51}{50}\\right)^2 = 26,010$, जुन वर्ष-दर-वर्ष गणनासँग मिल्छ।"
+              }
+            }
+          }
+        },
+        {
+          "mapValue": {
+            "fields": {
+              "type": {
+                "stringValue": "paragraph"
+              },
+              "en": {
+                "stringValue": "If external setup does not affect it, the population of a place increases at a certain rate. This is called population growth rate, and the increased population is called growth population. Problems related to growth population can be solved by comparing with the compound interest system. Population after $T$ years: $P_T = P\\left(1+\\dfrac{R}{100}\\right)^T$. Increased population after $T$ years $= P\\left[\\left(1+\\dfrac{R}{100}\\right)^T-1\\right]$. Here, $P$ = population of the initial year, $R$ = population growth rate, $T$ = time. (Compare: in compound interest, $P$ denotes principal, $R$ denotes rate, $T$ denotes time.) Population growth is affected by migration and death. If the population growth rate differs year by year, then the population after $T$ years: $P_T = P\\left(1+\\dfrac{R_1}{100}\\right)\\left(1+\\dfrac{R_2}{100}\\right)\\left(1+\\dfrac{R_3}{100}\\right)\\cdots\\left(1+\\dfrac{R_T}{100}\\right)$, where $R_1, R_2, R_3, \\ldots, R_T$ respectively represent the population growth rates of the first, second, third, ..., $T^{\\text{th}}$ year."
+              },
+              "ne": {
+                "stringValue": "यदि बाह्य परिस्थितिले असर गर्दैन भने, कुनै ठाउँको जनसंख्या निश्चित दरमा बढ्छ। यसलाई जनसंख्या वृद्धि दर भनिन्छ, र बढेको जनसंख्यालाई वृद्धि जनसंख्या भनिन्छ। वृद्धि जनसंख्यासँग सम्बन्धित समस्या चक्रवृद्धि ब्याज प्रणालीसँग तुलना गरी हल गर्न सकिन्छ। $T$ वर्षपछिको जनसंख्या: $P_T = P\\left(1+\\dfrac{R}{100}\\right)^T$। $T$ वर्षपछि बढेको जनसंख्या $= P\\left[\\left(1+\\dfrac{R}{100}\\right)^T-1\\right]$। यहाँ, $P$ = प्रारम्भिक वर्षको जनसंख्या, $R$ = जनसंख्या वृद्धि दर, $T$ = समय। (तुलना: चक्रवृद्धि ब्याजमा, $P$ ले सांचो, $R$ ले दर, र $T$ ले समय जनाउँछ।) जनसंख्या वृद्धि उतारवास (माइग्रेसन) र मृत्युबाट प्रभावित हुन्छ। यदि जनसंख्या वृद्धि दर वर्षअनुसार फरक छ भने, $T$ वर्षपछिको जनसंख्या: $P_T = P\\left(1+\\dfrac{R_1}{100}\\right)\\left(1+\\dfrac{R_2}{100}\\right)\\left(1+\\dfrac{R_3}{100}\\right)\\cdots\\left(1+\\dfrac{R_T}{100}\\right)$, जहाँ $R_1, R_2, R_3, \\ldots, R_T$ ले क्रमशः पहिलो, दोस्रो, तेस्रो, ..., $T^{\\text{औं}}$ वर्षको जनसंख्या वृद्धि दर जनाउँछ।"
+              }
+            }
+          }
+        },
+        {
+          "mapValue": {
+            "fields": {
+              "type": {
+                "stringValue": "paragraph"
+              },
+              "en": {
+                "stringValue": "The population of a city in 2078 B.S. was 50,000. If the annual population growth rate was 2%, what will be the population in 2080 B.S.? Calculate it."
+              },
+              "ne": {
+                "stringValue": "एउटा सहरको २०७८ सालको जनसंख्या ५०,००० थियो। यदि वार्षिक जनसंख्या वृद्धि दर $2\\%$ थियो भने, २०८० सालको जनसंख्या कति हुन्छ? गणना गर्नुहोस्।"
+              }
+            }
+          }
+        },
+        {
+          "mapValue": {
+            "fields": {
+              "type": {
+                "stringValue": "paragraph"
+              },
+              "en": {
+                "stringValue": "Solution: Initial population of the city $P=50,000$. Population growth rate $R=2\\%$ p.a. Time $T = 2080-2078=2$ years. $P_T = P\\left(1+\\dfrac{R}{100}\\right)^T = 50,000\\left(1+\\dfrac{2}{100}\\right)^2 = 50,000\\left(\\dfrac{102}{100}\\right)^2 = 50,000\\times1.0404 = 52,020$. Thus, the population in 2080 B.S. will be $52,020$."
+              },
+              "ne": {
+                "stringValue": "हल: सहरको प्रारम्भिक जनसंख्या $P=50,000$। जनसंख्या वृद्धि दर $R=2\\%$ वार्षिक। समय $T = 2080-2078=2$ वर्ष। $P_T = P\\left(1+\\dfrac{R}{100}\\right)^T = 50,000\\left(1+\\dfrac{2}{100}\\right)^2 = 50,000\\left(\\dfrac{102}{100}\\right)^2 = 50,000\\times1.0404 = 52,020$। त्यसैले, २०८० सालको जनसंख्या $52,020$ हुनेछ।"
+              }
+            }
+          }
+        },
+        {
+          "mapValue": {
+            "fields": {
+              "type": {
+                "stringValue": "paragraph"
+              },
+              "en": {
+                "stringValue": "Two years ago, the price of a sack of 25 kg jeera masino rice was Rs. 1,300. If the inflation rate was 5% p.a., by how much is the price increased now? Find it."
+              },
+              "ne": {
+                "stringValue": "दुई वर्षअघि २५ के.जी. जीरा मसिनो चामलको एक बोराको मूल्य रु. १,३०० थियो। यदि मुद्रास्फीति दर $5\\%$ वार्षिक थियो भने, अहिले मूल्य कति बढेको छ? पत्ता लगाउनुहोस्।"
+              }
+            }
+          }
+        },
+        {
+          "mapValue": {
+            "fields": {
+              "type": {
+                "stringValue": "paragraph"
+              },
+              "en": {
+                "stringValue": "Solution: Initial price of jeera masino rice $P=\\text{Rs. }1,300$. Increased rate of price $R=5\\%$ p.a. Time $T=2$ years. Increased price $= P\\left[\\left(1+\\dfrac{R}{100}\\right)^T-1\\right] = 1,300\\left[\\left(1+\\dfrac{5}{100}\\right)^2-1\\right] = 1,300\\left[\\left(\\dfrac{105}{100}\\right)^2-1\\right] = 1,300\\times0.1025 = \\text{Rs. }133.25$. Therefore, the increased price of jeera masino rice is Rs. $133.25$."
+              },
+              "ne": {
+                "stringValue": "हल: जीरा मसिनो चामलको प्रारम्भिक मूल्य $P=\\text{रु. }1,300$। मूल्य वृद्धि दर $R=5\\%$ वार्षिक। समय $T=2$ वर्ष। बढेको मूल्य $= P\\left[\\left(1+\\dfrac{R}{100}\\right)^T-1\\right] = 1,300\\left[\\left(1+\\dfrac{5}{100}\\right)^2-1\\right] = 1,300\\left[\\left(\\dfrac{105}{100}\\right)^2-1\\right] = 1,300\\times0.1025 = \\text{रु. }133.25$। त्यसैले, जीरा मसिनो चामलको बढेको मूल्य रु. १३३.२५ हो।"
+              }
+            }
+          }
+        },
+        {
+          "mapValue": {
+            "fields": {
+              "type": {
+                "stringValue": "paragraph"
+              },
+              "en": {
+                "stringValue": "If the price of a photocopy machine increases from Rs. 1,00,000 to Rs. 1,21,000 in 2 years, find the rate of yearly increment."
+              },
+              "ne": {
+                "stringValue": "यदि फोटोकपी मेसिनको मूल्य २ वर्षमा रु. १,००,००० बाट रु. १,२१,००० हुन्छ भने, वार्षिक वृद्धि दर पत्ता लगाउनुहोस्।"
+              }
+            }
+          }
+        },
+        {
+          "mapValue": {
+            "fields": {
+              "type": {
+                "stringValue": "paragraph"
+              },
+              "en": {
+                "stringValue": "Solution: Initial price of the photocopy machine $P=\\text{Rs. }1,00,000$. Time $T=2$ years. Present price $P_T=\\text{Rs. }1,21,000$. $P_T=P\\left(1+\\dfrac{R}{100}\\right)^T$: $1,21,000=1,00,000\\left(1+\\dfrac{R}{100}\\right)^2$, so $\\dfrac{1,21,000}{1,00,000}=\\left(1+\\dfrac{R}{100}\\right)^2$, giving $\\left(\\dfrac{11}{10}\\right)^2=\\left(1+\\dfrac{R}{100}\\right)^2$, so $\\dfrac{11}{10}=1+\\dfrac{R}{100}$, giving $\\dfrac{11}{10}-1=\\dfrac{R}{100}$, i.e. $\\dfrac{1}{10}=\\dfrac{R}{100}$, so $R=\\dfrac{1}{10}\\times100=10\\%$."
+              },
+              "ne": {
+                "stringValue": "हल: फोटोकपी मेसिनको प्रारम्भिक मूल्य $P=\\text{रु. }1,00,000$। समय $T=2$ वर्ष। हालको मूल्य $P_T=\\text{रु. }1,21,000$। $P_T=P\\left(1+\\dfrac{R}{100}\\right)^T$: $1,21,000=1,00,000\\left(1+\\dfrac{R}{100}\\right)^2$, त्यसैले $\\dfrac{1,21,000}{1,00,000}=\\left(1+\\dfrac{R}{100}\\right)^2$, जसबाट $\\left(\\dfrac{11}{10}\\right)^2=\\left(1+\\dfrac{R}{100}\\right)^2$ आउँछ, त्यसैले $\\dfrac{11}{10}=1+\\dfrac{R}{100}$, जसबाट $\\dfrac{11}{10}-1=\\dfrac{R}{100}$, अर्थात् $\\dfrac{1}{10}=\\dfrac{R}{100}$, त्यसैले $R=\\dfrac{1}{10}\\times100=10\\%$।"
+              }
+            }
+          }
+        },
+        {
+          "mapValue": {
+            "fields": {
+              "type": {
+                "stringValue": "paragraph"
+              },
+              "en": {
+                "stringValue": "The number of students of a basic school is 500 now. In how many years will the number be 720 if the number of students increases by 20% p.a. every year?"
+              },
+              "ne": {
+                "stringValue": "एउटा आधारभूत विद्यालयका विद्यार्थीको संख्या अहिले ५०० छ। यदि विद्यार्थीको संख्या प्रत्येक वर्ष $20\\%$ वार्षिक दरले बढ्छ भने, कति वर्षमा संख्या ७२० हुन्छ?"
+              }
+            }
+          }
+        },
+        {
+          "mapValue": {
+            "fields": {
+              "type": {
+                "stringValue": "paragraph"
+              },
+              "en": {
+                "stringValue": "Solution: Initial number of students $P=500$. Increase rate $R=20\\%$ p.a. Time $T=T$ years. Number of students after $T$ years $P_T=720$. $P_T=P\\left(1+\\dfrac{R}{100}\\right)^T$: $720=500\\left(1+\\dfrac{20}{100}\\right)^T$, so $\\dfrac{720}{500}=\\left(1+\\dfrac{20}{100}\\right)^T$, giving $\\dfrac{720}{500}=\\left(\\dfrac{120}{100}\\right)^T$, i.e. $\\dfrac{36}{25}=\\left(\\dfrac{6}{5}\\right)^T$, so $\\left(\\dfrac{6}{5}\\right)^2=\\left(\\dfrac{6}{5}\\right)^T$. Since the bases are the same, the exponents must be equal: $T=2$. Therefore, after 2 years, the number of students will be 720."
+              },
+              "ne": {
+                "stringValue": "हल: विद्यार्थीको प्रारम्भिक संख्या $P=500$। वृद्धि दर $R=20\\%$ वार्षिक। समय $T=T$ वर्ष। $T$ वर्षपछि विद्यार्थी संख्या $P_T=720$। $P_T=P\\left(1+\\dfrac{R}{100}\\right)^T$: $720=500\\left(1+\\dfrac{20}{100}\\right)^T$, त्यसैले $\\dfrac{720}{500}=\\left(1+\\dfrac{20}{100}\\right)^T$, जसबाट $\\dfrac{720}{500}=\\left(\\dfrac{120}{100}\\right)^T$, अर्थात् $\\dfrac{36}{25}=\\left(\\dfrac{6}{5}\\right)^T$ आउँछ, त्यसैले $\\left(\\dfrac{6}{5}\\right)^2=\\left(\\dfrac{6}{5}\\right)^T$। आधार उस्तै भएकोले, घातांक पनि बराबर हुनुपर्छ: $T=2$। त्यसैले, २ वर्षपछि विद्यार्थी संख्या ७२० हुनेछ।"
+              }
+            }
+          }
+        },
+        {
+          "mapValue": {
+            "fields": {
+              "type": {
+                "stringValue": "paragraph"
+              },
+              "en": {
+                "stringValue": "The price of a plot of land is Rs. 15,97,200 per aana. If the rate of increase in price is 10% p.a., what was the price of the land per ropani before 3 years? Find it. (1 ropani = 16 aana)"
+              },
+              "ne": {
+                "stringValue": "एउटा जग्गाको मूल्य प्रति आना रु. १५,९७,२०० छ। यदि मूल्य वृद्धि दर $10\\%$ वार्षिक हो भने, ३ वर्षअघि प्रति रोपनी जग्गाको मूल्य कति थियो? पत्ता लगाउनुहोस्। (१ रोपनी = १६ आना)"
+              }
+            }
+          }
+        },
+        {
+          "mapValue": {
+            "fields": {
+              "type": {
+                "stringValue": "paragraph"
+              },
+              "en": {
+                "stringValue": "Solution: Present price of the plot of land per aana $P_T=\\text{Rs. }15,97,200$. Time $T=3$ years. Rate of increase in price $R=10\\%$ p.a. $P_T=P\\left(1+\\dfrac{R}{100}\\right)^T$: $15,97,200=P\\left(1+\\dfrac{10}{100}\\right)^3 = P\\left(\\dfrac{110}{100}\\right)^3 = P\\times1.331$, so $P=\\dfrac{15,97,200}{1.331}=\\text{Rs. }12,00,000$. Thus, the price of land per aana before 3 years $P=\\text{Rs. }12,00,000$. Since $16$ aana $=1$ ropani, the price of land per ropani $= 16\\times\\text{Rs. }12,00,000 = \\text{Rs. }1,92,00,000$."
+              },
+              "ne": {
+                "stringValue": "हल: जग्गाको हालको प्रति आना मूल्य $P_T=\\text{रु. }15,97,200$। समय $T=3$ वर्ष। मूल्य वृद्धि दर $R=10\\%$ वार्षिक। $P_T=P\\left(1+\\dfrac{R}{100}\\right)^T$: $15,97,200=P\\left(1+\\dfrac{10}{100}\\right)^3 = P\\left(\\dfrac{110}{100}\\right)^3 = P\\times1.331$, त्यसैले $P=\\dfrac{15,97,200}{1.331}=\\text{रु. }12,00,000$। त्यसैले, ३ वर्षअघि प्रति आना जग्गाको मूल्य $P=\\text{रु. }12,00,000$ थियो। १६ आना $=1$ रोपनी भएकोले, प्रति रोपनी जग्गाको मूल्य $= 16\\times\\text{रु. }12,00,000 = \\text{रु. }1,92,00,000$।"
+              }
+            }
+          }
+        },
+        {
+          "mapValue": {
+            "fields": {
+              "type": {
+                "stringValue": "paragraph"
+              },
+              "en": {
+                "stringValue": "The number of SEE appeared students from a district in 2076 B.S. was 50,000. If in the coming 3 years, the number increased by 5%, 6% and 4% respectively, find how many students will appear in the SEE in 2079 B.S."
+              },
+              "ne": {
+                "stringValue": "एउटा जिल्लाबाट २०७६ सालमा SEE दिने विद्यार्थीको संख्या ५०,००० थियो। यदि आगामी ३ वर्षमा संख्या क्रमशः $5\\%$, $6\\%$ र $4\\%$ ले बढ्छ भने, २०७९ सालमा कति विद्यार्थीले SEE दिनेछन् पत्ता लगाउनुहोस्।"
+              }
+            }
+          }
+        },
+        {
+          "mapValue": {
+            "fields": {
+              "type": {
+                "stringValue": "paragraph"
+              },
+              "en": {
+                "stringValue": "Solution: Number of SEE-appeared students 3 years before $P=50,000$. Time $T=3$ years. Rate of increase in the first year $R_1=5\\%$ p.a., second year $R_2=6\\%$ p.a., third year $R_3=4\\%$ p.a. $P_3 = P\\left(1+\\dfrac{R_1}{100}\\right)\\left(1+\\dfrac{R_2}{100}\\right)\\left(1+\\dfrac{R_3}{100}\\right) = 50,000\\left(1+\\dfrac{5}{100}\\right)\\left(1+\\dfrac{6}{100}\\right)\\left(1+\\dfrac{4}{100}\\right) = 50,000\\left(\\dfrac{105}{100}\\right)\\left(\\dfrac{106}{100}\\right)\\left(\\dfrac{104}{100}\\right) = 57,876$. Therefore, $57,876$ students will appear in the SEE in 2079 B.S."
+              },
+              "ne": {
+                "stringValue": "हल: ३ वर्षअघि SEE दिने विद्यार्थीको संख्या $P=50,000$। समय $T=3$ वर्ष। पहिलो वर्षको वृद्धि दर $R_1=5\\%$ वार्षिक, दोस्रो वर्ष $R_2=6\\%$ वार्षिक, तेस्रो वर्ष $R_3=4\\%$ वार्षिक। $P_3 = P\\left(1+\\dfrac{R_1}{100}\\right)\\left(1+\\dfrac{R_2}{100}\\right)\\left(1+\\dfrac{R_3}{100}\\right) = 50,000\\left(1+\\dfrac{5}{100}\\right)\\left(1+\\dfrac{6}{100}\\right)\\left(1+\\dfrac{4}{100}\\right) = 50,000\\left(\\dfrac{105}{100}\\right)\\left(\\dfrac{106}{100}\\right)\\left(\\dfrac{104}{100}\\right) = 57,876$। त्यसैले, २०७९ सालमा $57,876$ विद्यार्थीले SEE दिनेछन्।"
+              }
+            }
+          }
+        },
+        {
+          "mapValue": {
+            "fields": {
+              "type": {
+                "stringValue": "paragraph"
+              },
+              "en": {
+                "stringValue": "The population of a municipality in 2078 B.S. was 1,00,000. In 2079 B.S., 8000 migrated there from other places and 500 died due to several circumstances. If the population increase rate is 2% p.a. every year, what will be the population in 2081 B.S.? Find it."
+              },
+              "ne": {
+                "stringValue": "एउटा नगरपालिकाको २०७८ सालको जनसंख्या १,००,००० थियो। २०७९ सालमा, ८००० जना अन्य ठाउँबाट आई बसे र ५०० जना विभिन्न कारणले मृत्यु भए। यदि जनसंख्या वृद्धि दर प्रत्येक वर्ष $2\\%$ वार्षिक हो भने, २०८१ सालमा जनसंख्या कति हुन्छ? पत्ता लगाउनुहोस्।"
+              }
+            }
+          }
+        },
+        {
+          "mapValue": {
+            "fields": {
+              "type": {
+                "stringValue": "paragraph"
+              },
+              "en": {
+                "stringValue": "Solution: Case I: Population in 2078 B.S. $P=1,00,000$. Population increase rate $R=2\\%$ p.a. Time $T=1$ year (2078 to 2079). In-migration population $M_{in}=8,000$. Death population $D=500$. Since the population increases by $2\\%$ every year, $P_T = P\\left(1+\\dfrac{R}{100}\\right)^T = 1,00,000\\left(1+\\dfrac{2}{100}\\right)^1 = 1,00,000\\left(\\dfrac{102}{100}\\right)^1 = 1,02,000$. The final population in 2079 B.S., accounting for migration in and deaths, $= 1,02,000+8,000-500 = 1,09,500$. Case II: Population in 2079 B.S. $P=1,09,500$. Time $T=2$ years (2079 to 2081). Population growth rate $R=2\\%$ p.a. $P_T = P\\left(1+\\dfrac{R}{100}\\right)^T = 1,09,500\\left(1+\\dfrac{2}{100}\\right)^2 = 1,09,500\\left(\\dfrac{102}{100}\\right)^2 = 1,13,924$. Therefore, the population of the municipality in 2081 B.S. will be $1,13,924$."
+              },
+              "ne": {
+                "stringValue": "हल: अवस्था I: २०७८ सालको जनसंख्या $P=1,00,000$। जनसंख्या वृद्धि दर $R=2\\%$ वार्षिक। समय $T=1$ वर्ष (२०७८ देखि २०७९)। भित्री-उतारवास जनसंख्या $M_{in}=8,000$। मृत्यु जनसंख्या $D=500$। जनसंख्या प्रत्येक वर्ष $2\\%$ ले बढ्ने भएकोले, $P_T = P\\left(1+\\dfrac{R}{100}\\right)^T = 1,00,000\\left(1+\\dfrac{2}{100}\\right)^1 = 1,00,000\\left(\\dfrac{102}{100}\\right)^1 = 1,02,000$। उतारवास र मृत्युलाई ध्यानमा राखी, २०७९ सालको अन्तिम जनसंख्या $= 1,02,000+8,000-500 = 1,09,500$। अवस्था II: २०७९ सालको जनसंख्या $P=1,09,500$। समय $T=2$ वर्ष (२०७९ देखि २०८१)। जनसंख्या वृद्धि दर $R=2\\%$ वार्षिक। $P_T = P\\left(1+\\dfrac{R}{100}\\right)^T = 1,09,500\\left(1+\\dfrac{2}{100}\\right)^2 = 1,09,500\\left(\\dfrac{102}{100}\\right)^2 = 1,13,924$। त्यसैले, नगरपालिकाको २०८१ सालको जनसंख्या $1,13,924$ हुनेछ।"
+              }
+            }
+          }
+        },
+        {
+          "mapValue": {
+            "fields": {
+              "type": {
+                "stringValue": "heading"
+              },
+              "en": {
+                "stringValue": "3.2 Depreciation"
+              },
+              "ne": {
+                "stringValue": "३.२ ह्रास"
+              }
+            }
+          }
+        },
+        {
+          "mapValue": {
+            "fields": {
+              "type": {
+                "stringValue": "paragraph"
+              },
+              "en": {
+                "stringValue": "Activity 1: a) A farmer sells a tractor for Rs. $3,60,000$ which was purchased for Rs. $5,50,000$ before 2 years — the price has decreased because the tractor has been used and has lost some of its efficiency over time. b) A cupboard can be bought for Rs. $15,000$ less than the price of a new one from a second-hand shop, because a used cupboard is worth less than a new one. c) A photocopy machine bought for Rs. $2,10,000$ some years ago now costs only Rs. $1,00,000$, because after using machinery for some time its price depreciates. From these situations: the price of the tractor diminishes by Rs. $1,90,000$ in (a); in (b), second-hand goods are cheaper than new ones; in (c), after using machinery goods, the price depreciates."
+              },
+              "ne": {
+                "stringValue": "क्रियाकलाप १: क) एक किसानले २ वर्षअघि रु. ५,५०,००० मा किनेको ट्र्याक्टर रु. ३,६०,००० मा बेच्छन् — मूल्य घट्नुको कारण ट्र्याक्टर प्रयोगमा आई समयसँगै केही क्षमता गुमाएकोले हो। ख) दोस्रो हात पसलबाट नयाँको भन्दा रु. १५,००० कम मूल्यमा एउटा दराज किन्न पाइन्छ, किनभने प्रयोग गरिएको दराजको मूल्य नयाँको भन्दा कम हुन्छ। ग) केही वर्षअघि रु. २,१०,००० मा किनिएको फोटोकपी मेसिन अहिले जम्मा रु. १,००,००० को मात्र हुन्छ, किनभने केही समय मेसिनरी प्रयोग गरेपछि यसको मूल्य ह्रास हुन्छ। यी अवस्थाबाट: (क) मा ट्र्याक्टरको मूल्य रु. १,९०,००० ले घट्छ; (ख) मा, दोस्रो हातका सामान नयाँको भन्दा सस्ता हुन्छन्; (ग) मा, मेसिनरी सामान प्रयोग गरेपछि मूल्य ह्रास हुन्छ।"
+              }
+            }
+          }
+        },
+        {
+          "mapValue": {
+            "fields": {
+              "type": {
+                "stringValue": "paragraph"
+              },
+              "en": {
+                "stringValue": "A product is prepared for a certain period. Its efficiency decreases in accordance with its increased use. Thus, after using some machinery items for a certain period of time, their cost diminishes at a certain rate. This is called depreciation. The price that diminishes at a certain rate during a certain period of time is called compound depreciation."
+              },
+              "ne": {
+                "stringValue": "कुनै उत्पादन निश्चित अवधिका लागि बनाइन्छ। यसको प्रयोग बढ्दै जाँदा यसको क्षमता घट्दै जान्छ। त्यसैले, केही मेसिनरी सामान निश्चित अवधि प्रयोग गरेपछि, तिनको मूल्य निश्चित दरमा घट्छ। यसलाई ह्रास भनिन्छ। निश्चित अवधिभर निश्चित दरमा घट्ने मूल्यलाई चक्रवृद्धि ह्रास भनिन्छ।"
+              }
+            }
+          }
+        },
+        {
+          "mapValue": {
+            "fields": {
+              "type": {
+                "stringValue": "paragraph"
+              },
+              "en": {
+                "stringValue": "Activity 2 (general derivation): Let the initial price of a good $= V_0$, yearly depreciation rate $=R\\%$, time duration $=T$, and price of the good after $T$ years $=V_T$. Price after 1 year: $V_1 = V_0 - V_0$ of $R\\% = V_0 - V_0\\times\\dfrac{R}{100} = V_0\\left(1-\\dfrac{R}{100}\\right)$. Price after 2 years: $V_2 = V_0\\left(1-\\dfrac{R}{100}\\right) - R\\%$ of $V_0\\left(1-\\dfrac{R}{100}\\right) = V_0\\left(1-\\dfrac{R}{100}\\right) - V_0\\left(1-\\dfrac{R}{100}\\right)\\times\\dfrac{R}{100} = V_0\\left(1-\\dfrac{R}{100}\\right)\\left(1-\\dfrac{R}{100}\\right) = V_0\\left(1-\\dfrac{R}{100}\\right)^2$. Similarly, price after 3 years $V_3 = V_0\\left(1-\\dfrac{R}{100}\\right)^3$. In general: a) Price after $T$ years, $V_T = V_0\\left(1-\\dfrac{R}{100}\\right)^T$. b) The depreciated price $= V_0-V_T = V_0-V_0\\left(1-\\dfrac{R}{100}\\right)^T = V_0\\left[1-\\left(1-\\dfrac{R}{100}\\right)^T\\right]$. c) The price of a good need not depreciate at the same rate every year. If $R_1\\%, R_2\\%, R_3\\%, \\ldots, R_T\\%$ are respectively the depreciating rates for the first, second, third, ..., $T^{\\text{th}}$ year, then the price after $T$ years, $V_T = V_0\\left(1-\\dfrac{R_1}{100}\\right)\\left(1-\\dfrac{R_2}{100}\\right)\\left(1-\\dfrac{R_3}{100}\\right)\\cdots\\left(1-\\dfrac{R_T}{100}\\right)$."
+              },
+              "ne": {
+                "stringValue": "क्रियाकलाप २ (सामान्य व्युत्पत्ति): मानौं कुनै सामानको प्रारम्भिक मूल्य $= V_0$, वार्षिक ह्रास दर $=R\\%$, समय अवधि $=T$, र $T$ वर्षपछि सामानको मूल्य $=V_T$। १ वर्षपछिको मूल्य: $V_1 = V_0 - V_0$ को $R\\% = V_0 - V_0\\times\\dfrac{R}{100} = V_0\\left(1-\\dfrac{R}{100}\\right)$। २ वर्षपछिको मूल्य: $V_2 = V_0\\left(1-\\dfrac{R}{100}\\right) - R\\%$ अफ $V_0\\left(1-\\dfrac{R}{100}\\right) = V_0\\left(1-\\dfrac{R}{100}\\right) - V_0\\left(1-\\dfrac{R}{100}\\right)\\times\\dfrac{R}{100} = V_0\\left(1-\\dfrac{R}{100}\\right)\\left(1-\\dfrac{R}{100}\\right) = V_0\\left(1-\\dfrac{R}{100}\\right)^2$। त्यसैगरी, ३ वर्षपछिको मूल्य $V_3 = V_0\\left(1-\\dfrac{R}{100}\\right)^3$। सामान्यतया: क) $T$ वर्षपछिको मूल्य, $V_T = V_0\\left(1-\\dfrac{R}{100}\\right)^T$। ख) ह्रास भएको मूल्य $= V_0-V_T = V_0-V_0\\left(1-\\dfrac{R}{100}\\right)^T = V_0\\left[1-\\left(1-\\dfrac{R}{100}\\right)^T\\right]$। ग) कुनै सामानको मूल्य हरेक वर्ष उही दरमा ह्रास हुनुपर्छ भन्ने छैन। यदि $R_1\\%, R_2\\%, R_3\\%, \\ldots, R_T\\%$ ले क्रमशः पहिलो, दोस्रो, तेस्रो, ..., $T^{\\text{औं}}$ वर्षको ह्रास दर जनाउँछ भने, $T$ वर्षपछिको मूल्य, $V_T = V_0\\left(1-\\dfrac{R_1}{100}\\right)\\left(1-\\dfrac{R_2}{100}\\right)\\left(1-\\dfrac{R_3}{100}\\right)\\cdots\\left(1-\\dfrac{R_T}{100}\\right)$।"
+              }
+            }
+          }
+        },
+        {
+          "mapValue": {
+            "fields": {
+              "type": {
+                "stringValue": "paragraph"
+              },
+              "en": {
+                "stringValue": "In short: growth increases a quantity, while depreciation decreases it — both follow the same compound-style formula, with $+$ for growth and $-$ for depreciation."
+              },
+              "ne": {
+                "stringValue": "छोटकरीमा: वृद्धिले कुनै मात्रा बढाउँछ, जबकि ह्रासले घटाउँछ — दुवैले उस्तै चक्रवृद्धि-शैलीको सूत्र पछ्याउँछन्, वृद्धिका लागि $+$ र ह्रासका लागि $-$ चिन्ह प्रयोग गरी।"
+              }
+            }
+          }
+        },
+        {
+          "mapValue": {
+            "fields": {
+              "type": {
+                "stringValue": "paragraph"
+              },
+              "en": {
+                "stringValue": "3 years ago a book was published costing Rs. 200, and is being sold in an exhibition at 5% rate of yearly depreciation. What is the price of the book this year?"
+              },
+              "ne": {
+                "stringValue": "३ वर्षअघि रु. २०० लागतमा प्रकाशित भएको एउटा किताब वार्षिक $5\\%$ ह्रास दरमा एउटा प्रदर्शनीमा बेचिँदैछ। यस वर्ष किताबको मूल्य कति हो?"
+              }
+            }
+          }
+        },
+        {
+          "mapValue": {
+            "fields": {
+              "type": {
+                "stringValue": "paragraph"
+              },
+              "en": {
+                "stringValue": "Solution: Initial price of the book $V_0=\\text{Rs. }200$. Rate of depreciation $R=5\\%$ p.a. Time $T=3$ years. $V_T = V_0\\left(1-\\dfrac{R}{100}\\right)^T = 200\\left(1-\\dfrac{5}{100}\\right)^3 = 200\\left(\\dfrac{95}{100}\\right)^3 = 200\\times0.857375 = \\text{Rs. }171.47$. Therefore, the book costs Rs. $171.47$ this year."
+              },
+              "ne": {
+                "stringValue": "हल: किताबको प्रारम्भिक मूल्य $V_0=\\text{रु. }200$। ह्रास दर $R=5\\%$ वार्षिक। समय $T=3$ वर्ष। $V_T = V_0\\left(1-\\dfrac{R}{100}\\right)^T = 200\\left(1-\\dfrac{5}{100}\\right)^3 = 200\\left(\\dfrac{95}{100}\\right)^3 = 200\\times0.857375 = \\text{रु. }171.47$। त्यसैले, यस वर्ष किताबको मूल्य रु. १७१.४७ हो।"
+              }
+            }
+          }
+        },
+        {
+          "mapValue": {
+            "fields": {
+              "type": {
+                "stringValue": "paragraph"
+              },
+              "en": {
+                "stringValue": "Seema admitted in BBA. She purchased a computer for Rs. 40,000 for her study. After using it for 2 years, if the price of the computer depreciates by Rs. 7,600, then find the rate of depreciation."
+              },
+              "ne": {
+                "stringValue": "सीमाले BBA मा भर्ना भइन्। उनले पढाइका लागि रु. ४०,००० मा एउटा कम्प्युटर किनिन्। २ वर्ष प्रयोग गरेपछि, यदि कम्प्युटरको मूल्य रु. ७,६०० ले ह्रास भएको छ भने, ह्रास दर पत्ता लगाउनुहोस्।"
+              }
+            }
+          }
+        },
+        {
+          "mapValue": {
+            "fields": {
+              "type": {
+                "stringValue": "paragraph"
+              },
+              "en": {
+                "stringValue": "Solution: Initial price of the computer $V_0=\\text{Rs. }40,000$. Time $T=2$ years. Depreciated price (amount lost) $=\\text{Rs. }7,600$. So the price after 2 years $V_T = V_0-7,600 = 40,000-7,600 = \\text{Rs. }32,400$. $V_T=V_0\\left(1-\\dfrac{R}{100}\\right)^T$: $32,400=40,000\\left(1-\\dfrac{R}{100}\\right)^2$, so $\\dfrac{32,400}{40,000}=\\left(1-\\dfrac{R}{100}\\right)^2$, giving $\\left(\\dfrac{18}{20}\\right)^2=\\left(1-\\dfrac{R}{100}\\right)^2$, so $\\dfrac{18}{20}=1-\\dfrac{R}{100}$, giving $\\dfrac{R}{100}=1-\\dfrac{18}{20}=\\dfrac{2}{20}$, so $R=\\dfrac{2}{20}\\times100=10\\%$. Therefore, the rate of depreciation of the computer is $10\\%$ p.a."
+              },
+              "ne": {
+                "stringValue": "हल: कम्प्युटरको प्रारम्भिक मूल्य $V_0=\\text{रु. }40,000$। समय $T=2$ वर्ष। ह्रास भएको मूल्य (गुमेको रकम) $=\\text{रु. }7,600$। त्यसैले २ वर्षपछिको मूल्य $V_T = V_0-7,600 = 40,000-7,600 = \\text{रु. }32,400$। $V_T=V_0\\left(1-\\dfrac{R}{100}\\right)^T$: $32,400=40,000\\left(1-\\dfrac{R}{100}\\right)^2$, त्यसैले $\\dfrac{32,400}{40,000}=\\left(1-\\dfrac{R}{100}\\right)^2$, जसबाट $\\left(\\dfrac{18}{20}\\right)^2=\\left(1-\\dfrac{R}{100}\\right)^2$ आउँछ, त्यसैले $\\dfrac{18}{20}=1-\\dfrac{R}{100}$, जसबाट $\\dfrac{R}{100}=1-\\dfrac{18}{20}=\\dfrac{2}{20}$, त्यसैले $R=\\dfrac{2}{20}\\times100=10\\%$। त्यसैले, कम्प्युटरको ह्रास दर $10\\%$ वार्षिक हो।"
+              }
+            }
+          }
+        },
+        {
+          "mapValue": {
+            "fields": {
+              "type": {
+                "stringValue": "paragraph"
+              },
+              "en": {
+                "stringValue": "The price of a house is Rs. 20,00,000 now. If its price decreases by 10% every year, then in how many years will its price be Rs. 14,58,000?"
+              },
+              "ne": {
+                "stringValue": "एउटा घरको मूल्य अहिले रु. २०,००,००० छ। यदि यसको मूल्य प्रत्येक वर्ष $10\\%$ ले घट्छ भने, कति वर्षमा यसको मूल्य रु. १४,५८,००० हुन्छ?"
+              }
+            }
+          }
+        },
+        {
+          "mapValue": {
+            "fields": {
+              "type": {
+                "stringValue": "paragraph"
+              },
+              "en": {
+                "stringValue": "Solution: Present price of the house $V_0=\\text{Rs. }20,00,000$. Rate of depreciation $R=10\\%$. Price after $T$ years $V_T=\\text{Rs. }14,58,000$. $V_T=V_0\\left(1-\\dfrac{R}{100}\\right)^T$: $14,58,000=20,00,000\\left(1-\\dfrac{10}{100}\\right)^T$, so $\\dfrac{14,58,000}{20,00,000}=\\left(\\dfrac{90}{100}\\right)^T$, giving $0.729=(0.9)^T$. Since $(0.9)^3=0.729$, we get $(0.9)^3=(0.9)^T$, so $T=3$ years. Thus, 3 years later, the price of the house will be Rs. $14,58,000$."
+              },
+              "ne": {
+                "stringValue": "हल: घरको हालको मूल्य $V_0=\\text{रु. }20,00,000$। ह्रास दर $R=10\\%$। $T$ वर्षपछिको मूल्य $V_T=\\text{रु. }14,58,000$। $V_T=V_0\\left(1-\\dfrac{R}{100}\\right)^T$: $14,58,000=20,00,000\\left(1-\\dfrac{10}{100}\\right)^T$, त्यसैले $\\dfrac{14,58,000}{20,00,000}=\\left(\\dfrac{90}{100}\\right)^T$, जसबाट $0.729=(0.9)^T$ आउँछ। $(0.9)^3=0.729$ भएकोले, $(0.9)^3=(0.9)^T$, त्यसैले $T=3$ वर्ष। त्यसैले, ३ वर्षपछि घरको मूल्य रु. १४,५८,००० हुनेछ।"
+              }
+            }
+          }
+        },
+        {
+          "mapValue": {
+            "fields": {
+              "type": {
+                "stringValue": "paragraph"
+              },
+              "en": {
+                "stringValue": "A factory established with the capital of Rs. 4 crore gained Rs. 75 lakhs in 3 years but its cost depreciated by 2.5% p.a. Then the company was sold after 3 years. Now, calculate whether the factory is in profit or loss."
+              },
+              "ne": {
+                "stringValue": "रु. ४ करोड पुँजीले स्थापना भएको एउटा कारखानाले ३ वर्षमा रु. ७५ लाख कमायो तर यसको मूल्य वार्षिक $2.5\\%$ ले ह्रास भयो। त्यसपछि कम्पनी ३ वर्षपछि बेचियो। कारखाना नाफामा छ कि नोक्सानमा गणना गर्नुहोस्।"
+              }
+            }
+          }
+        },
+        {
+          "mapValue": {
+            "fields": {
+              "type": {
+                "stringValue": "paragraph"
+              },
+              "en": {
+                "stringValue": "Solution: Initial price of investment $V_0=\\text{Rs. }4,00,00,000$. Rate of depreciation $R=2.5\\%$. Time $T=3$ years. Price after 3 years $V_3 = V_0\\left(1-\\dfrac{R}{100}\\right)^T = 4,00,00,000\\left(1-\\dfrac{2.5}{100}\\right)^3 = 4,00,00,000\\left(\\dfrac{97.5}{100}\\right)^3 = \\text{Rs. }3,70,74,375$. The profit gained by the factory (from operations) after 3 years $=\\text{Rs. }75,00,000$. The total amount obtained from the factory $= \\text{Rs. }3,70,74,375+\\text{Rs. }75,00,000 = \\text{Rs. }4,45,74,375$. Total investment $=\\text{Rs. }4,00,00,000$. Thus, the profit while selling it after 3 years $= \\text{Rs. }4,45,74,375-\\text{Rs. }4,00,00,000 = \\text{Rs. }45,74,375$."
+              },
+              "ne": {
+                "stringValue": "हल: लगानीको प्रारम्भिक मूल्य $V_0=\\text{रु. }4,00,00,000$। ह्रास दर $R=2.5\\%$। समय $T=3$ वर्ष। ३ वर्षपछिको मूल्य $V_3 = V_0\\left(1-\\dfrac{R}{100}\\right)^T = 4,00,00,000\\left(1-\\dfrac{2.5}{100}\\right)^3 = 4,00,00,000\\left(\\dfrac{97.5}{100}\\right)^3 = \\text{रु. }3,70,74,375$। ३ वर्षमा कारखानाले (सञ्चालनबाट) कमाएको नाफा $=\\text{रु. }75,00,000$। कारखानाबाट प्राप्त कुल रकम $= \\text{रु. }3,70,74,375+\\text{रु. }75,00,000 = \\text{रु. }4,45,74,375$। कुल लगानी $=\\text{रु. }4,00,00,000$। त्यसैले, ३ वर्षपछि बेच्दाको नाफा $= \\text{रु. }4,45,74,375-\\text{रु. }4,00,00,000 = \\text{रु. }45,74,375$।"
+              }
+            }
+          }
+        },
+        {
+          "mapValue": {
+            "fields": {
+              "type": {
+                "stringValue": "paragraph"
+              },
+              "en": {
+                "stringValue": "When the price of a share of a finance company depreciates continuously for 2 years by 10% p.a. and it is sold for Rs. 25,920, then how many shares of Rs. 100 were sold? Find it."
+              },
+              "ne": {
+                "stringValue": "एउटा फाइनान्स कम्पनीको सेयरको मूल्य लगातार २ वर्ष वार्षिक $10\\%$ ले ह्रास भई रु. २५,९२० मा बेचिन्छ भने, रु. १०० का कति सेयर बेचिएका थिए? पत्ता लगाउनुहोस्।"
+              }
+            }
+          }
+        },
+        {
+          "mapValue": {
+            "fields": {
+              "type": {
+                "stringValue": "paragraph"
+              },
+              "en": {
+                "stringValue": "Solution: Present value of the share of the finance company $V_T=\\text{Rs. }25,920$. Depreciation rate $R=10\\%$. Time $T=2$ years. $V_T=V_0\\left(1-\\dfrac{R}{100}\\right)^T$: $25,920=V_0\\left(1-\\dfrac{10}{100}\\right)^2 = V_0\\left(\\dfrac{90}{100}\\right)^2 = V_0\\times\\dfrac{81}{100}$, so $V_0 = \\dfrac{25,920\\times100}{81} = \\text{Rs. }32,000$. Hence, the value of the share before 2 years $V_0=\\text{Rs. }32,000$. Two years ago, the price of a share was Rs. $100$, so the total number of shares $=\\dfrac{32,000}{100}=320$. Therefore, two years ago, the finance company sold $320$ shares of Rs. $100$."
+              },
+              "ne": {
+                "stringValue": "हल: फाइनान्स कम्पनीको सेयरको हालको मूल्य $V_T=\\text{रु. }25,920$। ह्रास दर $R=10\\%$। समय $T=2$ वर्ष। $V_T=V_0\\left(1-\\dfrac{R}{100}\\right)^T$: $25,920=V_0\\left(1-\\dfrac{10}{100}\\right)^2 = V_0\\left(\\dfrac{90}{100}\\right)^2 = V_0\\times\\dfrac{81}{100}$, त्यसैले $V_0 = \\dfrac{25,920\\times100}{81} = \\text{रु. }32,000$। त्यसैले, २ वर्षअघि सेयरको मूल्य $V_0=\\text{रु. }32,000$ थियो। २ वर्षअघि, एउटा सेयरको मूल्य रु. १०० थियो, त्यसैले कुल सेयर संख्या $=\\dfrac{32,000}{100}=320$। त्यसैले, २ वर्षअघि, फाइनान्स कम्पनीले रु. १०० का $320$ सेयर बेचेको थियो।"
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "questionSections": {
+    "arrayValue": {
+      "values": [
+        {
+          "mapValue": {
+            "fields": {
+              "section": {
+                "mapValue": {
+                  "fields": {
+                    "en": {
+                      "stringValue": "Exercise 3.1"
+                    },
+                    "ne": {
+                      "stringValue": "अभ्यास ३.१"
+                    }
+                  }
+                }
+              },
+              "items": {
+                "arrayValue": {
+                  "values": [
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.1-q1-a"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "Question 1\n\nIf the present population of a locality is $P$, the population after $T$ years is $P_T$ and yearly population growth rate is $R\\%$, write the formula to find $P_T$."
+                                },
+                                "ne": {
+                                  "stringValue": "प्रश्न १\n\nयदि कुनै स्थानको हालको जनसंख्या $P$, $T$ वर्षपछिको जनसंख्या $P_T$ र वार्षिक जनसंख्या वृद्धि दर $R\\%$ हो भने, $P_T$ पत्ता लगाउने सूत्र लेख्नुहोस्।"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "$P_T = P\\left(1+\\dfrac{R}{100}\\right)^T$."
+                                },
+                                "ne": {
+                                  "stringValue": "$P_T = P\\left(1+\\dfrac{R}{100}\\right)^T$।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.1-q1-b"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "If the number of tigers of Chitwan National Park in 2079 B.S. is $x$ and annual growth rate of tiger is $R\\%$, then what will be the number of tigers after $N$ years?"
+                                },
+                                "ne": {
+                                  "stringValue": "यदि चितवन राष्ट्रिय निकुञ्जमा २०७९ सालमा बाघको संख्या $x$ र बाघको वार्षिक वृद्धि दर $R\\%$ हो भने, $N$ वर्षपछि बाघको संख्या कति हुन्छ?"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "Number of tigers after $N$ years $= x\\left(1+\\dfrac{R}{100}\\right)^N$."
+                                },
+                                "ne": {
+                                  "stringValue": "$N$ वर्षपछि बाघको संख्या $= x\\left(1+\\dfrac{R}{100}\\right)^N$।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.1-q1-c"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "The growth rate of foreign employment from Nepal of the first year, second year and third year are respectively $R_1\\%$, $R_2\\%$ and $R_3\\%$. Write the formula to find the number of employees after 3 years."
+                                },
+                                "ne": {
+                                  "stringValue": "नेपालबाट विदेशी रोजगारीको पहिलो, दोस्रो र तेस्रो वर्षको वृद्धि दर क्रमशः $R_1\\%$, $R_2\\%$ र $R_3\\%$ छ। ३ वर्षपछि कामदारको संख्या पत्ता लगाउने सूत्र लेख्नुहोस्।"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "Number of employees after 3 years $= P\\left(1+\\dfrac{R_1}{100}\\right)\\left(1+\\dfrac{R_2}{100}\\right)\\left(1+\\dfrac{R_3}{100}\\right)$, where $P$ is the initial number of employees."
+                                },
+                                "ne": {
+                                  "stringValue": "३ वर्षपछि कामदारको संख्या $= P\\left(1+\\dfrac{R_1}{100}\\right)\\left(1+\\dfrac{R_2}{100}\\right)\\left(1+\\dfrac{R_3}{100}\\right)$, जहाँ $P$ प्रारम्भिक कामदार संख्या हो।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.1-q2-a"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "Question 2\n\nIf death rate is less than birth rate of a country, does the population of the country increase or decrease?"
+                                },
+                                "ne": {
+                                  "stringValue": "प्रश्न २\n\nयदि कुनै देशको मृत्युदर जन्मदरभन्दा कम छ भने, त्यो देशको जनसंख्या बढ्छ कि घट्छ?"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "If death rate is less than birth rate, more people are born than die, so the population of the country increases."
+                                },
+                                "ne": {
+                                  "stringValue": "यदि मृत्युदर जन्मदरभन्दा कम छ भने, मर्नेभन्दा जन्मनेको संख्या बढी हुन्छ, त्यसैले देशको जनसंख्या बढ्छ।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.1-q2-b"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "One year ago, the price of a sack of 25 kg rice was Rs. 1500. As the price has increased 10% p.a., how much does the sack of 25 kg rice cost now?"
+                                },
+                                "ne": {
+                                  "stringValue": "एक वर्षअघि २५ के.जी. चामलको एक बोराको मूल्य रु. १५०० थियो। मूल्य वार्षिक $10\\%$ ले बढेकाले, अहिले २५ के.जी. चामलको बोराको मूल्य कति हुन्छ?"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "Initial price $P=\\text{Rs. }1,500$, $R=10\\%$, $T=1$ year. $P_T = 1,500\\left(1+\\dfrac{10}{100}\\right)^1 = 1,500\\times1.10 = \\text{Rs. }1,650$."
+                                },
+                                "ne": {
+                                  "stringValue": "प्रारम्भिक मूल्य $P=\\text{रु. }1,500$, $R=10\\%$, $T=1$ वर्ष। $P_T = 1,500\\left(1+\\dfrac{10}{100}\\right)^1 = 1,500\\times1.10 = \\text{रु. }1,650$।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.1-q3-a"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "Question 3\n\nAccording to the census 2021, the population of a city was 5,18,452. If the growth rate was 4.5% p.a., what will be the population of the city after 3 years?"
+                                },
+                                "ne": {
+                                  "stringValue": "प्रश्न ३\n\nजनगणना २०२१ अनुसार, एउटा सहरको जनसंख्या ५,१८,४५२ थियो। यदि वृद्धि दर $4.5\\%$ वार्षिक थियो भने, ३ वर्षपछि सहरको जनसंख्या कति हुन्छ?"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "$P=5,18,452$, $R=4.5\\%$, $T=3$ years. $P_T = 5,18,452\\left(1+\\dfrac{4.5}{100}\\right)^3 = 5,18,452\\times(1.045)^3 \\approx 5,91,640$."
+                                },
+                                "ne": {
+                                  "stringValue": "$P=5,18,452$, $R=4.5\\%$, $T=3$ वर्ष। $P_T = 5,18,452\\left(1+\\dfrac{4.5}{100}\\right)^3 = 5,18,452\\times(1.045)^3 \\approx 5,91,640$।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.1-q3-b"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "A landlord made an agreement with a businessman to increase the rent 5% per annum. If the rent of a shutter is Rs. 10,000 now, what will be the rent after 3 years?"
+                                },
+                                "ne": {
+                                  "stringValue": "एउटा घरधनीले व्यापारीसँग भाडा वार्षिक $5\\%$ ले बढाउने सम्झौता गरे। यदि पसलको भाडा अहिले रु. १०,००० छ भने, ३ वर्षपछि भाडा कति हुन्छ?"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "Flag: taking the rate exactly as transcribed ($R=5\\%$) gives $P_T = 10,000(1.05)^3 = \\text{Rs. }11,576.25$, which does not match the textbook's own printed answer of Rs. $15,208.75$. That printed figure is reproduced exactly by using $R=15\\%$ instead: $P_T = 10,000(1.15)^3 = \\text{Rs. }15,208.75$ — so the rate was most likely $15\\%$ in the original, with the leading \"1\" lost in scanning. Using $R=15\\%$, $T=3$: $P_T = 10,000\\left(1+\\dfrac{15}{100}\\right)^3 = 10,000\\times1.520875 = \\text{Rs. }15,208.75$."
+                                },
+                                "ne": {
+                                  "stringValue": "फ्ल्याग: जस्तो सारिएको दर ($R=5\\%$) ज्यूँका त्यूँ लिँदा $P_T = 10,000(1.05)^3 = \\text{रु. }11,576.25$ आउँछ, जुन पाठ्यपुस्तकको आफ्नै प्रकाशित उत्तर रु. १५,२०८.७५ सँग मिल्दैन। त्यो छापिएको अंक $R=15\\%$ प्रयोग गर्दा ठ्याक्कै पुनरुत्पादन हुन्छ: $P_T = 10,000(1.15)^3 = \\text{रु. }15,208.75$ — त्यसैले मूल स्रोतमा दर सम्भवतः $15\\%$ थियो, स्क्यानमा अगाडिको \"१\" हराएको हुनुपर्छ। $R=15\\%$, $T=3$ प्रयोग गर्दा: $P_T = 10,000\\left(1+\\dfrac{15}{100}\\right)^3 = 10,000\\times1.520875 = \\text{रु. }15,208.75$।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.1-q3-c"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "The growth rate of a bacteria in curd is 10% per hour. If the number of bacteria at 6 a.m. is $4\\times10^{11}$, what will be the number of bacteria after 2 hours? Find."
+                                },
+                                "ne": {
+                                  "stringValue": "दहीमा ब्याक्टेरियाको वृद्धि दर प्रति घण्टा $10\\%$ हो। यदि बिहान ६ बजे ब्याक्टेरियाको संख्या $4\\times10^{11}$ छ भने, २ घण्टापछि ब्याक्टेरियाको संख्या कति हुन्छ? पत्ता लगाउनुहोस्।"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "$P=4\\times10^{11}$, $R=10\\%$/hour, $T=2$ hours. $P_T = 4\\times10^{11}\\left(1+\\dfrac{10}{100}\\right)^2 = 4\\times10^{11}\\times1.21 = 4.84\\times10^{11}$."
+                                },
+                                "ne": {
+                                  "stringValue": "$P=4\\times10^{11}$, $R=10\\%$/घण्टा, $T=2$ घण्टा। $P_T = 4\\times10^{11}\\left(1+\\dfrac{10}{100}\\right)^2 = 4\\times10^{11}\\times1.21 = 4.84\\times10^{11}$।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.1-q4-a"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "Question 4\n\nThe population of a rural municipality before 2 years was 28,500. If the population growth rate is 2% p.a., then by how much is the population increased in 2 years?"
+                                },
+                                "ne": {
+                                  "stringValue": "प्रश्न ४\n\nएउटा गाउँपालिकाको जनसंख्या २ वर्षअघि २८,५०० थियो। यदि जनसंख्या वृद्धि दर $2\\%$ वार्षिक हो भने, २ वर्षमा जनसंख्या कतिले बढेको छ?"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "$P=28,500$, $R=2\\%$, $T=2$ years. Increase $= P\\left[\\left(1+\\dfrac{R}{100}\\right)^T-1\\right] = 28,500\\left[(1.02)^2-1\\right] = 28,500\\times0.0404 \\approx 1,152$."
+                                },
+                                "ne": {
+                                  "stringValue": "$P=28,500$, $R=2\\%$, $T=2$ वर्ष। वृद्धि $= P\\left[\\left(1+\\dfrac{R}{100}\\right)^T-1\\right] = 28,500\\left[(1.02)^2-1\\right] = 28,500\\times0.0404 \\approx 1,152$।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.1-q4-b"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "Monthly fee of grade 10 of a school before 3 years was Rs. 6,500. If fees increase every year by 10% according to the rules and regulation of the school, then by how much has the fee increased in 3 years?"
+                                },
+                                "ne": {
+                                  "stringValue": "एउटा विद्यालयको कक्षा १० को मासिक शुल्क ३ वर्षअघि रु. ६,५०० थियो। यदि विद्यालयको नियमअनुसार शुल्क प्रत्येक वर्ष $10\\%$ ले बढ्छ भने, ३ वर्षमा शुल्क कतिले बढेको छ?"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "$P=\\text{Rs. }6,500$, $R=10\\%$, $T=3$ years. Increase $= 6,500\\left[(1.10)^3-1\\right] = 6,500\\times0.331 = \\text{Rs. }2,151.50$."
+                                },
+                                "ne": {
+                                  "stringValue": "$P=\\text{रु. }6,500$, $R=10\\%$, $T=3$ वर्ष। वृद्धि $= 6,500\\left[(1.10)^3-1\\right] = 6,500\\times0.331 = \\text{रु. }2,151.50$।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.1-q4-c"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "A land costs Rs. 6,00,000 at present. If the yearly increase rate of the price is 10%, then how much will increase in the price of the land in 2 years? Find."
+                                },
+                                "ne": {
+                                  "stringValue": "एउटा जग्गाको मूल्य अहिले रु. ६,००,००० छ। यदि मूल्यको वार्षिक वृद्धि दर $10\\%$ हो भने, २ वर्षमा जग्गाको मूल्य कति बढ्छ? पत्ता लगाउनुहोस्।"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "$P=\\text{Rs. }6,00,000$, $R=10\\%$, $T=2$ years. Increase $= 6,00,000\\left[(1.10)^2-1\\right] = 6,00,000\\times0.21 = \\text{Rs. }1,26,000$."
+                                },
+                                "ne": {
+                                  "stringValue": "$P=\\text{रु. }6,00,000$, $R=10\\%$, $T=2$ वर्ष। वृद्धि $= 6,00,000\\left[(1.10)^2-1\\right] = 6,00,000\\times0.21 = \\text{रु. }1,26,000$।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.1-q5-a"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "Question 5\n\nThe number of students studying in a university at present is 21,632. 2 years ago, the number of students studying in the university was 20,000. What was the yearly increment rate?"
+                                },
+                                "ne": {
+                                  "stringValue": "प्रश्न ५\n\nएउटा विश्वविद्यालयमा अहिले अध्ययनरत विद्यार्थीको संख्या २१,६३२ छ। २ वर्षअघि विश्वविद्यालयमा अध्ययनरत विद्यार्थीको संख्या २०,००० थियो। वार्षिक वृद्धि दर कति थियो?"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "$P=20,000$, $P_T=21,632$, $T=2$ years. $P_T=P\\left(1+\\dfrac{R}{100}\\right)^T$: $\\left(1+\\dfrac{R}{100}\\right)^2 = \\dfrac{21,632}{20,000}=1.0816$, so $1+\\dfrac{R}{100}=1.04$, giving $R=4\\%$."
+                                },
+                                "ne": {
+                                  "stringValue": "$P=20,000$, $P_T=21,632$, $T=2$ वर्ष। $P_T=P\\left(1+\\dfrac{R}{100}\\right)^T$: $\\left(1+\\dfrac{R}{100}\\right)^2 = \\dfrac{21,632}{20,000}=1.0816$, त्यसैले $1+\\dfrac{R}{100}=1.04$, जसबाट $R=4\\%$ आउँछ।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.1-q5-b"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "The population of a rural municipality at the end of 2018 A.D. was 40,000. If at the end of 2020 A.D., the population increased to 44,100, then find the yearly population growth rate."
+                                },
+                                "ne": {
+                                  "stringValue": "एउटा गाउँपालिकाको सन् २०१८ को अन्त्यको जनसंख्या ४०,००० थियो। यदि सन् २०२० को अन्त्यमा जनसंख्या ४४,१०० पुग्यो भने, वार्षिक जनसंख्या वृद्धि दर पत्ता लगाउनुहोस्।"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "$P=40,000$, $P_T=44,100$, $T=2$ years. $\\left(1+\\dfrac{R}{100}\\right)^2 = \\dfrac{44,100}{40,000}=1.1025$, so $1+\\dfrac{R}{100}=1.05$, giving $R=5\\%$."
+                                },
+                                "ne": {
+                                  "stringValue": "$P=40,000$, $P_T=44,100$, $T=2$ वर्ष। $\\left(1+\\dfrac{R}{100}\\right)^2 = \\dfrac{44,100}{40,000}=1.1025$, त्यसैले $1+\\dfrac{R}{100}=1.05$, जसबाट $R=5\\%$ आउँछ।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.1-q5-c"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "3 years ago, the price per liter of oil was Rs. 125. Now, the price has increased to Rs. 216 per liter, then what is the inflation rate?"
+                                },
+                                "ne": {
+                                  "stringValue": "३ वर्षअघि तेलको प्रति लिटर मूल्य रु. १२५ थियो। अहिले मूल्य बढेर प्रति लिटर रु. २१६ पुगेको छ, त्यसो भए मुद्रास्फीति दर कति हो?"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "$P=125$, $P_T=216$, $T=3$ years. $\\left(1+\\dfrac{R}{100}\\right)^3 = \\dfrac{216}{125}=1.728$, so $1+\\dfrac{R}{100}=1.2$ (since $1.2^3=1.728$), giving $R=20\\%$."
+                                },
+                                "ne": {
+                                  "stringValue": "$P=125$, $P_T=216$, $T=3$ वर्ष। $\\left(1+\\dfrac{R}{100}\\right)^3 = \\dfrac{216}{125}=1.728$, त्यसैले $1+\\dfrac{R}{100}=1.2$ (किनभने $1.2^3=1.728$), जसबाट $R=20\\%$ आउँछ।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.1-q6-a"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "Question 6\n\nThe population of a village is 13,310. Whilst the population growth rate of the village is 10% p.a., how many years ago was the population of the village 10,000?"
+                                },
+                                "ne": {
+                                  "stringValue": "प्रश्न ६\n\nएउटा गाउँको जनसंख्या १३,३१० छ। गाउँको जनसंख्या वृद्धि दर $10\\%$ वार्षिक छ भने, कति वर्षअघि गाउँको जनसंख्या १०,००० थियो?"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "$P_T=13,310$, $R=10\\%$, find $T$ such that $P=10,000$. $10,000(1.10)^T = 13,310$, so $(1.10)^T = 1.331 = (1.10)^3$, giving $T=3$ years ago."
+                                },
+                                "ne": {
+                                  "stringValue": "$P_T=13,310$, $R=10\\%$, $P=10,000$ हुने $T$ पत्ता लगाउनुहोस्। $10,000(1.10)^T = 13,310$, त्यसैले $(1.10)^T = 1.331 = (1.10)^3$, जसबाट $T=3$ वर्षअघि आउँछ।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.1-q6-b"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "At the beginning of Baisakh, the papaya plant was 4 meter high. If the growth rate of the plant is 4% per month, in how many months will the height of the plant be 4.3264 meter?"
+                                },
+                                "ne": {
+                                  "stringValue": "बैशाखको सुरुमा, मेवाको बिरुवा ४ मिटर अग्लो थियो। यदि बिरुवाको वृद्धि दर प्रति महिना $4\\%$ हो भने, कति महिनामा बिरुवाको उचाइ ४.३२६४ मिटर हुन्छ?"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "$P=4$, $R=4\\%$/month, $P_T=4.3264$. $4(1.04)^T=4.3264$, so $(1.04)^T=\\dfrac{4.3264}{4}=1.0816=(1.04)^2$, giving $T=2$ months."
+                                },
+                                "ne": {
+                                  "stringValue": "$P=4$, $R=4\\%$/महिना, $P_T=4.3264$। $4(1.04)^T=4.3264$, त्यसैले $(1.04)^T=\\dfrac{4.3264}{4}=1.0816=(1.04)^2$, जसबाट $T=2$ महिना आउँछ।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.1-q7-a"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "Question 7\n\nThe price of a plot of land is Rs. 15,97,200 per aana. If the rate of increase in the price is 10% p.a., what was the price of the land per ropani before 3 years? Find it. (1 ropani = 16 aana)"
+                                },
+                                "ne": {
+                                  "stringValue": "प्रश्न ७\n\nएउटा जग्गाको मूल्य प्रति आना रु. १५,९७,२०० छ। यदि मूल्य वृद्धि दर $10\\%$ वार्षिक हो भने, ३ वर्षअघि प्रति रोपनी जग्गाको मूल्य कति थियो? पत्ता लगाउनुहोस्। (१ रोपनी = १६ आना)"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "This is identical to Example 5 of this section: $P_T=15,97,200$, $R=10\\%$, $T=3$ years. $P=\\dfrac{15,97,200}{(1.10)^3}=\\dfrac{15,97,200}{1.331}=\\text{Rs. }12,00,000$ per aana, 3 years ago. Per ropani $= 16\\times12,00,000 = \\text{Rs. }1,92,00,000$."
+                                },
+                                "ne": {
+                                  "stringValue": "यो यस खण्डको उदाहरण ५ जस्तै हो: $P_T=15,97,200$, $R=10\\%$, $T=3$ वर्ष। $P=\\dfrac{15,97,200}{(1.10)^3}=\\dfrac{15,97,200}{1.331}=\\text{रु. }12,00,000$ प्रति आना, ३ वर्षअघि। प्रति रोपनी $= 16\\times12,00,000 = \\text{रु. }1,92,00,000$।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.1-q7-b"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "The price of a land is Rs. 2,66,200 per aana. If the rate of increase in price is 10% p.a., what was the price of the land per ropani before 3 years? Find it."
+                                },
+                                "ne": {
+                                  "stringValue": "एउटा जग्गाको मूल्य प्रति आना रु. २,६६,२०० छ। यदि मूल्य वृद्धि दर $10\\%$ वार्षिक हो भने, ३ वर्षअघि प्रति रोपनी जग्गाको मूल्य कति थियो? पत्ता लगाउनुहोस्।"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "$P_T=2,66,200$, $R=10\\%$, $T=3$ years. $P=\\dfrac{2,66,200}{(1.10)^3}=\\dfrac{2,66,200}{1.331}=\\text{Rs. }2,00,000$ per aana, 3 years ago. Per ropani $= 16\\times2,00,000 = \\text{Rs. }32,00,000$."
+                                },
+                                "ne": {
+                                  "stringValue": "$P_T=2,66,200$, $R=10\\%$, $T=3$ वर्ष। $P=\\dfrac{2,66,200}{(1.10)^3}=\\dfrac{2,66,200}{1.331}=\\text{रु. }2,00,000$ प्रति आना, ३ वर्षअघि। प्रति रोपनी $= 16\\times2,00,000 = \\text{रु. }32,00,000$।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.1-q8-a"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "Question 8\n\nWhen urine of a patient was tested in a laboratory at 6 a.m., it was found that the number of bacteria was $1\\times10^5$. After that, it was tested at 7 a.m., 8 a.m. and 9 a.m. and found that the increase rate per hour was 3%, 4% and 5% respectively. Find the total number of bacteria at 9 a.m."
+                                },
+                                "ne": {
+                                  "stringValue": "प्रश्न ८\n\nबिहान ६ बजे एक बिरामीको पिसाब प्रयोगशालामा परीक्षण गर्दा ब्याक्टेरियाको संख्या $1\\times10^5$ पाइयो। त्यसपछि, बिहान ७, ८ र ९ बजे परीक्षण गर्दा प्रति घण्टा वृद्धि दर क्रमशः $3\\%$, $4\\%$ र $5\\%$ पाइयो। बिहान ९ बजे ब्याक्टेरियाको कुल संख्या पत्ता लगाउनुहोस्।"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "$P=1\\times10^5$, $R_1=3\\%$, $R_2=4\\%$, $R_3=5\\%$. $P_3 = 1\\times10^5\\times1.03\\times1.04\\times1.05 = 1.12476\\times10^5 \\approx 1.1248\\times10^5$."
+                                },
+                                "ne": {
+                                  "stringValue": "$P=1\\times10^5$, $R_1=3\\%$, $R_2=4\\%$, $R_3=5\\%$। $P_3 = 1\\times10^5\\times1.03\\times1.04\\times1.05 = 1.12476\\times10^5 \\approx 1.1248\\times10^5$।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.1-q8-b"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "3 years ago, the population of a city was 1,50,000. In the following 3 years, the population increased by 2% in the first year, 4% in the second year and 5% in the third year. Find the present population of the city."
+                                },
+                                "ne": {
+                                  "stringValue": "३ वर्षअघि एउटा सहरको जनसंख्या १,५०,००० थियो। पछिल्ला ३ वर्षमा, जनसंख्या पहिलो वर्ष $2\\%$, दोस्रो वर्ष $4\\%$ र तेस्रो वर्ष $5\\%$ ले बढ्यो। सहरको हालको जनसंख्या पत्ता लगाउनुहोस्।"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "$P=1,50,000$, $R_1=2\\%$, $R_2=4\\%$, $R_3=5\\%$. $P_3 = 1,50,000\\times1.02\\times1.04\\times1.05 = 1,67,076$ (very close to the printed answer of $1,67,070$, the small difference being rounding in the source)."
+                                },
+                                "ne": {
+                                  "stringValue": "$P=1,50,000$, $R_1=2\\%$, $R_2=4\\%$, $R_3=5\\%$। $P_3 = 1,50,000\\times1.02\\times1.04\\times1.05 = 1,67,076$ (छापिएको उत्तर $1,67,070$ को धेरै नजिक, सानो फरक स्रोतको राउन्डिङका कारण हो)।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.1-q9-a"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "Question 9\n\nIn an insurance company established 3 years ago, 1000 agents were trained by all the branches throughout the country. Customers should be increased according as the market competition. So that, from the very beginning, a policy \"a group of every 5 agents should add 1 more agent every year\" was implemented and the number of agents has been increased. How many agents are there in the company now?"
+                                },
+                                "ne": {
+                                  "stringValue": "प्रश्न ९\n\n३ वर्षअघि स्थापना भएको एउटा बीमा कम्पनीमा, देशभरका सबै शाखाले १००० जना अभिकर्ता तालिम दिए। बजार प्रतिस्पर्धाअनुसार ग्राहक बढाउनुपर्ने भएकाले, सुरुदेखि नै \"हरेक ५ अभिकर्ताको समूहले प्रत्येक वर्ष १ थप अभिकर्ता थप्ने\" नीति लागू गरियो र अभिकर्ता संख्या बढ्दै गएको छ। अहिले कम्पनीमा कति अभिकर्ता छन्?"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "\"A group of every 5 agents adds 1 more every year\" means a growth rate of $\\dfrac{1}{5}\\times100\\%=20\\%$ per year, compounded. $P=1000$, $R=20\\%$, $T=3$ years. $P_T = 1000(1.20)^3 = 1000\\times1.728 = 1,728$."
+                                },
+                                "ne": {
+                                  "stringValue": "\"हरेक ५ अभिकर्ताको समूहले प्रत्येक वर्ष १ थप्ने\" भनेको वार्षिक $\\dfrac{1}{5}\\times100\\%=20\\%$ चक्रवृद्धि वृद्धि दर हो। $P=1000$, $R=20\\%$, $T=3$ वर्ष। $P_T = 1000(1.20)^3 = 1000\\times1.728 = 1,728$।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.1-q9-b"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "A financial institution established at the beginning of 2078 has 200 marketers. After the expansion of market of the institution, a policy of a group of every 5 marketers should add 1 more new marketer every year was implemented and the number of marketers has been increased. Find how many marketers will be there at the end of 2079?"
+                                },
+                                "ne": {
+                                  "stringValue": "२०७८ सालको सुरुमा स्थापना भएको एउटा वित्तीय संस्थामा २०० जना मार्केटर छन्। संस्थाको बजार विस्तारपछि, हरेक ५ मार्केटरको समूहले प्रत्येक वर्ष १ थप नयाँ मार्केटर थप्ने नीति लागू गरियो र मार्केटर संख्या बढ्दै गएको छ। २०७९ सालको अन्त्यमा कति मार्केटर हुन्छन् पत्ता लगाउनुहोस्।"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "$R=20\\%$ as in (a). $P=200$, $T=2$ years (start of 2078 to end of 2079). $P_T = 200(1.20)^2 = 200\\times1.44 = 288$."
+                                },
+                                "ne": {
+                                  "stringValue": "(क) जस्तै $R=20\\%$। $P=200$, $T=2$ वर्ष (२०७८ को सुरु देखि २०७९ को अन्त्य)। $P_T = 200(1.20)^2 = 200\\times1.44 = 288$।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.1-q10"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "The population of a rural municipality is increasing by 10% every year. At the end of 2 years, the population reached to 30,000. If 5,800 migrated to the place finally, find the initial population."
+                                },
+                                "ne": {
+                                  "stringValue": "एउटा गाउँपालिकाको जनसंख्या प्रत्येक वर्ष $10\\%$ ले बढ्दैछ। २ वर्षको अन्त्यमा, जनसंख्या ३०,००० पुग्यो। यदि अन्त्यमा ५,८०० जना त्यस ठाउँमा आई बसे भने, प्रारम्भिक जनसंख्या पत्ता लगाउनुहोस्।"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "Let the initial population $=P$. After 2 years of $10\\%$ growth, the population (before migration) $= P(1.10)^2 = 1.21P$. Adding the $5,800$ who migrated in gives the final population of $30,000$: $1.21P+5,800=30,000$, so $1.21P=24,200$, giving $P=\\dfrac{24,200}{1.21}=20,000$."
+                                },
+                                "ne": {
+                                  "stringValue": "मानौं प्रारम्भिक जनसंख्या $=P$। २ वर्षको $10\\%$ वृद्धिपछि, (उतारवास बाहेक) जनसंख्या $= P(1.10)^2 = 1.21P$। उतारवास भई आएका $5,800$ जना थप्दा अन्तिम जनसंख्या $30,000$ हुन्छ: $1.21P+5,800=30,000$, त्यसैले $1.21P=24,200$, जसबाट $P=\\dfrac{24,200}{1.21}=20,000$ आउँछ।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.1-q11"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "After continuous inflation of American dollar at the rate of 5% p.a., in two years it becomes $1 = Rs.120. Before 2 years, how much Nepalese currency was equal to $1?"
+                                },
+                                "ne": {
+                                  "stringValue": "अमेरिकी डलरको लगातार वार्षिक $5\\%$ मुद्रास्फीतिपछि, २ वर्षमा $1 = रु.१२० हुन्छ। २ वर्षअघि $1 बराबर कति नेपाली रुपैयाँ थियो?"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "$P_T=\\text{Rs. }120$, $R=5\\%$, $T=2$ years. $P = \\dfrac{P_T}{(1+R/100)^T} = \\dfrac{120}{(1.05)^2} = \\dfrac{120}{1.1025} \\approx \\text{Rs. }108.84$. So 2 years ago, \\$1 was equal to about Rs. $108.84$."
+                                },
+                                "ne": {
+                                  "stringValue": "$P_T=\\text{रु. }120$, $R=5\\%$, $T=2$ वर्ष। $P = \\dfrac{P_T}{(1+R/100)^T} = \\dfrac{120}{(1.05)^2} = \\dfrac{120}{1.1025} \\approx \\text{रु. }108.84$। त्यसैले २ वर्षअघि, \\$1 लगभग रु. १०८.८४ बराबर थियो।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.1-q12"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "The population of a village before 2 years was 31,250. The population growth rate is 6% p.a. One year ago, 625 migrated to other places. Find the number of present population of the village."
+                                },
+                                "ne": {
+                                  "stringValue": "एउटा गाउँको जनसंख्या २ वर्षअघि ३१,२५० थियो। जनसंख्या वृद्धि दर $6\\%$ वार्षिक हो। एक वर्षअघि, ६२५ जना अन्य ठाउँमा बसाइँ सरे। गाउँको हालको जनसंख्या पत्ता लगाउनुहोस्।"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "Population 2 years ago $P=31,250$, $R=6\\%$. After 1 year of growth: $31,250(1.06)=33,125$. One year ago, $625$ migrated out: $33,125-625=32,500$. Growing this for 1 more year to reach the present: $32,500(1.06)=34,450$. So the present population is $34,450$."
+                                },
+                                "ne": {
+                                  "stringValue": "२ वर्षअघिको जनसंख्या $P=31,250$, $R=6\\%$। १ वर्ष वृद्धिपछि: $31,250(1.06)=33,125$। एक वर्षअघि, $625$ जना बसाइँ सरे: $33,125-625=32,500$। हालको जनसंख्या पुग्न यसलाई अझ १ वर्ष बढाउँदा: $32,500(1.06)=34,450$। त्यसैले हालको जनसंख्या $34,450$ हो।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.1-q13"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "A district had 3,75,000 population before 3 years. If 1480 migrated to the village at the end of 2 years and 2,750 died due to natural disaster and yearly population growth rate is 2%, then find the number of present population of the district."
+                                },
+                                "ne": {
+                                  "stringValue": "एउटा जिल्लाको जनसंख्या ३ वर्षअघि ३,७५,००० थियो। यदि २ वर्षको अन्त्यमा १,४८० जना त्यस ठाउँमा आई बसे र प्राकृतिक प्रकोपले २,७५० जनाको मृत्यु भयो, र वार्षिक जनसंख्या वृद्धि दर $2\\%$ हो भने, जिल्लाको हालको जनसंख्या पत्ता लगाउनुहोस्।"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "Population 3 years ago $P=3,75,000$, $R=2\\%$. After 2 years of growth: $3,75,000(1.02)^2 = 3,90,150$. At the end of year 2, add migrants and subtract deaths: $3,90,150+1,480-2,750 = 3,88,880$. Growing this for the third year: $3,88,880(1.02) = 3,96,657.6 \\approx 3,96,658$. So the present population of the district is $3,96,658$."
+                                },
+                                "ne": {
+                                  "stringValue": "३ वर्षअघिको जनसंख्या $P=3,75,000$, $R=2\\%$। २ वर्ष वृद्धिपछि: $3,75,000(1.02)^2 = 3,90,150$। वर्ष २ को अन्त्यमा, आप्रवासी थप्दा र मृत्यु घटाउँदा: $3,90,150+1,480-2,750 = 3,88,880$। तेस्रो वर्षका लागि यसलाई बढाउँदा: $3,88,880(1.02) = 3,96,657.6 \\approx 3,96,658$। त्यसैले जिल्लाको हालको जनसंख्या $3,96,658$ हो।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.1-q14-a"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "At the beginning of 2075 B.S., the population of a metropolitan city was 5,00,000. At the end of 2077 B.S., the population of the city was 6,65,500.\n\nWhat was the population growth rate?"
+                                },
+                                "ne": {
+                                  "stringValue": "२०७५ सालको सुरुमा, एउटा महानगरपालिकाको जनसंख्या ५,००,००० थियो। २०७७ सालको अन्त्यमा, सहरको जनसंख्या ६,६५,५०० थियो।\n\nजनसंख्या वृद्धि दर कति थियो?"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "From beginning of 2075 to end of 2077 is $T=3$ years. $P=5,00,000$, $P_T=6,65,500$. $(1+R/100)^3 = \\dfrac{6,65,500}{5,00,000}=1.331=(1.10)^3$, so $R=10\\%$."
+                                },
+                                "ne": {
+                                  "stringValue": "२०७५ को सुरु देखि २०७७ को अन्त्यसम्म $T=3$ वर्ष हो। $P=5,00,000$, $P_T=6,65,500$। $(1+R/100)^3 = \\dfrac{6,65,500}{5,00,000}=1.331=(1.10)^3$, त्यसैले $R=10\\%$ आउँछ।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.1-q14-b"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "If the population increases in the same way, what will be the population of the city at the end of 2079?"
+                                },
+                                "ne": {
+                                  "stringValue": "यदि जनसंख्या उसैगरी बढ्छ भने, २०७९ सालको अन्त्यमा सहरको जनसंख्या कति हुन्छ?"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "From end of 2077 to end of 2079 is $2$ more years. $P=6,65,500$, $R=10\\%$, $T=2$. $P_T = 6,65,500(1.10)^2 = 6,65,500\\times1.21 = 8,05,255$."
+                                },
+                                "ne": {
+                                  "stringValue": "२०७७ को अन्त्य देखि २०७९ को अन्त्यसम्म थप $2$ वर्ष हो। $P=6,65,500$, $R=10\\%$, $T=2$। $P_T = 6,65,500(1.10)^2 = 6,65,500\\times1.21 = 8,05,255$।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "mapValue": {
+            "fields": {
+              "section": {
+                "mapValue": {
+                  "fields": {
+                    "en": {
+                      "stringValue": "Exercise 3.2"
+                    },
+                    "ne": {
+                      "stringValue": "अभ्यास ३.२"
+                    }
+                  }
+                }
+              },
+              "items": {
+                "arrayValue": {
+                  "values": [
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.2-q1-a"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "Question 1\n\nIf the initial price of a good is Rs. $P$ and the rate of depreciation is $R\\%$ p.a., then write the formula to find the price of the good after $T$ years."
+                                },
+                                "ne": {
+                                  "stringValue": "प्रश्न १\n\nयदि कुनै सामानको प्रारम्भिक मूल्य रु. $P$ र ह्रास दर $R\\%$ वार्षिक हो भने, $T$ वर्षपछि सामानको मूल्य पत्ता लगाउने सूत्र लेख्नुहोस्।"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "$V_T = P\\left(1-\\dfrac{R}{100}\\right)^T$."
+                                },
+                                "ne": {
+                                  "stringValue": "$V_T = P\\left(1-\\dfrac{R}{100}\\right)^T$।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.2-q1-b"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "What does '$R$' in $V_T = V_0\\left(1-\\dfrac{R}{100}\\right)^T$ represent?"
+                                },
+                                "ne": {
+                                  "stringValue": "$V_T = V_0\\left(1-\\dfrac{R}{100}\\right)^T$ मा '$R$' ले के जनाउँछ?"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "$R$ represents the yearly (or per-period) rate of depreciation — the percentage by which the good's value decreases each year."
+                                },
+                                "ne": {
+                                  "stringValue": "$R$ ले वार्षिक (वा प्रति-अवधि) ह्रास दर जनाउँछ — जुन प्रतिशतमा सामानको मूल्य हरेक वर्ष घट्छ।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.2-q2-a"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "Question 2\n\nIf Ram sold a watch which cost Rs. 5,000 after 1 year at 7% depreciation, then what will be the depreciated price?"
+                                },
+                                "ne": {
+                                  "stringValue": "प्रश्न २\n\nयदि रामले रु. ५,००० लागतको घडी १ वर्षपछि $7\\%$ ह्रासमा बेच्छन् भने, ह्रास भएको मूल्य कति हुन्छ?"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "$V_0=\\text{Rs. }5,000$, $R=7\\%$, $T=1$ year. The depreciated (lost) amount $= V_0\\times\\dfrac{R}{100} = 5,000\\times0.07 = \\text{Rs. }350$."
+                                },
+                                "ne": {
+                                  "stringValue": "$V_0=\\text{रु. }5,000$, $R=7\\%$, $T=1$ वर्ष। ह्रास भएको (गुमेको) रकम $= V_0\\times\\dfrac{R}{100} = 5,000\\times0.07 = \\text{रु. }350$।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.2-q2-b"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "A motorcycle is sold for Rs. 57,000 in 1 year after depreciating at the rate of 5% p.a. At what price was the motorcycle purchased for?"
+                                },
+                                "ne": {
+                                  "stringValue": "एउटा मोटरसाइकल वार्षिक $5\\%$ दरमा ह्रास भई १ वर्षपछि रु. ५७,००० मा बेचिन्छ। मोटरसाइकल कति मूल्यमा किनिएको थियो?"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "$V_T=\\text{Rs. }57,000$, $R=5\\%$, $T=1$ year. $V_T = V_0(1-0.05)$: $57,000 = V_0\\times0.95$, so $V_0 = \\dfrac{57,000}{0.95} = \\text{Rs. }60,000$."
+                                },
+                                "ne": {
+                                  "stringValue": "$V_T=\\text{रु. }57,000$, $R=5\\%$, $T=1$ वर्ष। $V_T = V_0(1-0.05)$: $57,000 = V_0\\times0.95$, त्यसैले $V_0 = \\dfrac{57,000}{0.95} = \\text{रु. }60,000$।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.2-q3-a"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "Question 3\n\nWhat will be the price of a cupboard of cost Rs. 16,800 after 2 years at the rate of 15% depreciation p.a.?"
+                                },
+                                "ne": {
+                                  "stringValue": "प्रश्न ३\n\nरु. १६,८०० लागतको एउटा दराजको मूल्य $15\\%$ वार्षिक ह्रास दरमा २ वर्षपछि कति हुन्छ?"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "$V_0=\\text{Rs. }16,800$, $R=15\\%$, $T=2$ years. $V_T = 16,800(1-0.15)^2 = 16,800\\times(0.85)^2 = 16,800\\times0.7225 = \\text{Rs. }12,138$."
+                                },
+                                "ne": {
+                                  "stringValue": "$V_0=\\text{रु. }16,800$, $R=15\\%$, $T=2$ वर्ष। $V_T = 16,800(1-0.15)^2 = 16,800\\times(0.85)^2 = 16,800\\times0.7225 = \\text{रु. }12,138$।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.2-q3-b"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "The present price of a motorcycle of efficiency 125 c.c. produced in India is Rs. 2,50,000. If its cost depreciates every year at the rate of 4% p.a., what will be the price of the motorcycle after using it for 3 years? Find it."
+                                },
+                                "ne": {
+                                  "stringValue": "भारतमा उत्पादित १२५ सी.सी. क्षमताको मोटरसाइकलको हालको मूल्य रु. २,५०,००० छ। यदि यसको मूल्य प्रत्येक वर्ष $4\\%$ वार्षिक दरमा ह्रास हुन्छ भने, ३ वर्ष प्रयोग गरेपछि मोटरसाइकलको मूल्य कति हुन्छ? पत्ता लगाउनुहोस्।"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "$V_0=\\text{Rs. }2,50,000$, $R=4\\%$, $T=3$ years. $V_T = 2,50,000(1-0.04)^3 = 2,50,000\\times(0.96)^3 = 2,50,000\\times0.884736 = \\text{Rs. }2,21,184$."
+                                },
+                                "ne": {
+                                  "stringValue": "$V_0=\\text{रु. }2,50,000$, $R=4\\%$, $T=3$ वर्ष। $V_T = 2,50,000(1-0.04)^3 = 2,50,000\\times(0.96)^3 = 2,50,000\\times0.884736 = \\text{रु. }2,21,184$।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.2-q4-a"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "Question 4\n\nSameer has bought a mobile phone for Rs. 30,000. Due to his household problem he has to sell it after using 2 years at 30% rate of depreciation. Find the depreciated amount."
+                                },
+                                "ne": {
+                                  "stringValue": "प्रश्न ४\n\nसमिरले रु. ३०,००० मा एउटा मोबाइल फोन किनेका छन्। घरायसी समस्याका कारण उनले $30\\%$ ह्रास दरमा २ वर्ष प्रयोग गरेपछि यसलाई बेच्नुपर्ने भएको छ। ह्रास भएको रकम पत्ता लगाउनुहोस्।"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "$V_0=\\text{Rs. }30,000$, $R=30\\%$, $T=2$ years. Depreciated amount $= V_0\\left[1-(1-0.30)^2\\right] = 30,000\\left[1-0.49\\right] = 30,000\\times0.51 = \\text{Rs. }15,300$."
+                                },
+                                "ne": {
+                                  "stringValue": "$V_0=\\text{रु. }30,000$, $R=30\\%$, $T=2$ वर्ष। ह्रास भएको रकम $= V_0\\left[1-(1-0.30)^2\\right] = 30,000\\left[1-0.49\\right] = 30,000\\times0.51 = \\text{रु. }15,300$।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.2-q4-b"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "As the laptop is convenient for online class, a mathematics teacher purchased a laptop for Rs. 96,000. It is depreciated at the rate of 15% every year. If he sells it after using it for 3 years, how much money is depreciated? Find it."
+                                },
+                                "ne": {
+                                  "stringValue": "अनलाइन कक्षाका लागि सुविधाजनक भएकाले, एक गणित शिक्षकले रु. ९६,००० मा एउटा ल्यापटप किने। यो प्रत्येक वर्ष $15\\%$ दरमा ह्रास हुन्छ। यदि उनले यसलाई ३ वर्ष प्रयोग गरेपछि बेच्छन् भने, कति रकम ह्रास हुन्छ? पत्ता लगाउनुहोस्।"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "$V_0=\\text{Rs. }96,000$, $R=15\\%$, $T=3$ years. Depreciated amount $= V_0\\left[1-(1-0.15)^3\\right] = 96,000\\left[1-0.614125\\right] = 96,000\\times0.385875 = \\text{Rs. }37,044$."
+                                },
+                                "ne": {
+                                  "stringValue": "$V_0=\\text{रु. }96,000$, $R=15\\%$, $T=3$ वर्ष। ह्रास भएको रकम $= V_0\\left[1-(1-0.15)^3\\right] = 96,000\\left[1-0.614125\\right] = 96,000\\times0.385875 = \\text{रु. }37,044$।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.2-q5-a"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "Question 5\n\n3 years ago, a plot of land of 4 ropani in hilly region was purchased for Rs. 12,50,000. It can be sold now for Rs. 1,60,000 per ropani. By what percent per annum is the price of land depreciated? Calculate it."
+                                },
+                                "ne": {
+                                  "stringValue": "प्रश्न ५\n\n३ वर्षअघि, पहाडी क्षेत्रको ४ रोपनी जग्गा रु. १२,५०,००० मा किनिएको थियो। अहिले यो प्रति रोपनी रु. १,६०,००० मा बेच्न सकिन्छ। जग्गाको मूल्य वार्षिक कति प्रतिशतले ह्रास भएको छ? गणना गर्नुहोस्।"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "Price per ropani 3 years ago $= \\dfrac{12,50,000}{4} = \\text{Rs. }3,12,500$. Present price per ropani $= \\text{Rs. }1,60,000$. $V_T=V_0(1-R/100)^T$: $\\left(1-\\dfrac{R}{100}\\right)^3 = \\dfrac{1,60,000}{3,12,500} = 0.512 = (0.8)^3$, so $1-\\dfrac{R}{100}=0.8$, giving $R=20\\%$ p.a."
+                                },
+                                "ne": {
+                                  "stringValue": "प्रति रोपनी ३ वर्षअघिको मूल्य $= \\dfrac{12,50,000}{4} = \\text{रु. }3,12,500$। हालको प्रति रोपनी मूल्य $= \\text{रु. }1,60,000$। $V_T=V_0(1-R/100)^T$: $\\left(1-\\dfrac{R}{100}\\right)^3 = \\dfrac{1,60,000}{3,12,500} = 0.512 = (0.8)^3$, त्यसैले $1-\\dfrac{R}{100}=0.8$, जसबाट $R=20\\%$ वार्षिक आउँछ।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.2-q5-b"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "A man bought a watch for Rs. 5,000 and he sold it after using it for 3 years for Rs. 625 only. Find the annual rate of depreciation."
+                                },
+                                "ne": {
+                                  "stringValue": "एक व्यक्तिले रु. ५,००० मा घडी किने र ३ वर्ष प्रयोग गरेपछि जम्मा रु. ६२५ मा बेचे। वार्षिक ह्रास दर पत्ता लगाउनुहोस्।"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "$V_0=\\text{Rs. }5,000$, $V_T=\\text{Rs. }625$, $T=3$ years. $\\left(1-\\dfrac{R}{100}\\right)^3 = \\dfrac{625}{5,000}=0.125=(0.5)^3$, so $1-\\dfrac{R}{100}=0.5$, giving $R=50\\%$ p.a."
+                                },
+                                "ne": {
+                                  "stringValue": "$V_0=\\text{रु. }5,000$, $V_T=\\text{रु. }625$, $T=3$ वर्ष। $\\left(1-\\dfrac{R}{100}\\right)^3 = \\dfrac{625}{5,000}=0.125=(0.5)^3$, त्यसैले $1-\\dfrac{R}{100}=0.5$, जसबाट $R=50\\%$ वार्षिक आउँछ।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.2-q6-a"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "Question 6\n\nA press machine was purchased for Rs. 4,00,000 before some years and it is depreciated to Rs. 1,96,000 by reducing the price every year by 30%. How many years ago was the machine purchased?"
+                                },
+                                "ne": {
+                                  "stringValue": "प्रश्न ६\n\nकेही वर्षअघि रु. ४,००,००० मा एउटा प्रेस मेसिन किनिएको थियो र प्रत्येक वर्ष मूल्य $30\\%$ ले घटाउँदा यो रु. १,९६,००० मा ह्रास भएको छ। मेसिन कति वर्षअघि किनिएको थियो?"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "$V_0=\\text{Rs. }4,00,000$, $R=30\\%$, $V_T=\\text{Rs. }1,96,000$. $(1-0.30)^T = \\dfrac{1,96,000}{4,00,000}=0.49=(0.7)^2$, so $T=2$ years ago."
+                                },
+                                "ne": {
+                                  "stringValue": "$V_0=\\text{रु. }4,00,000$, $R=30\\%$, $V_T=\\text{रु. }1,96,000$। $(1-0.30)^T = \\dfrac{1,96,000}{4,00,000}=0.49=(0.7)^2$, त्यसैले $T=2$ वर्षअघि आउँछ।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.2-q6-b"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "A car costs Rs. 8,00,000. If its price reduces every year by 10%, in how many years will its price be Rs. 5,83,200?"
+                                },
+                                "ne": {
+                                  "stringValue": "एउटा कारको मूल्य रु. ८,००,००० छ। यदि यसको मूल्य प्रत्येक वर्ष $10\\%$ ले घट्छ भने, कति वर्षमा यसको मूल्य रु. ५,८३,२०० हुन्छ?"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "$V_0=\\text{Rs. }8,00,000$, $R=10\\%$, $V_T=\\text{Rs. }5,83,200$. $(0.9)^T = \\dfrac{5,83,200}{8,00,000}=0.729=(0.9)^3$, so $T=3$ years."
+                                },
+                                "ne": {
+                                  "stringValue": "$V_0=\\text{रु. }8,00,000$, $R=10\\%$, $V_T=\\text{रु. }5,83,200$। $(0.9)^T = \\dfrac{5,83,200}{8,00,000}=0.729=(0.9)^3$, त्यसैले $T=3$ वर्ष आउँछ।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.2-q7-a"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "Question 7\n\nAfter continuous devaluation of the American dollar in 2 years by 5% p.a., American dollar $1 = Rs.125 now, how much Nepali rupees was equal to $1 before 2 years? Find it."
+                                },
+                                "ne": {
+                                  "stringValue": "प्रश्न ७\n\nअमेरिकी डलरको लगातार वार्षिक $5\\%$ अवमूल्यनपछि, अहिले $1 = रु.१२५ छ, २ वर्षअघि $1 बराबर कति नेपाली रुपैयाँ थियो? पत्ता लगाउनुहोस्।"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "$V_T=\\text{Rs. }125$, $R=5\\%$, $T=2$ years. $V_0 = \\dfrac{V_T}{(1-0.05)^2} = \\dfrac{125}{(0.95)^2} = \\dfrac{125}{0.9025} \\approx \\text{Rs. }138.50$."
+                                },
+                                "ne": {
+                                  "stringValue": "$V_T=\\text{रु. }125$, $R=5\\%$, $T=2$ वर्ष। $V_0 = \\dfrac{V_T}{(1-0.05)^2} = \\dfrac{125}{(0.95)^2} = \\dfrac{125}{0.9025} \\approx \\text{रु. }138.50$।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.2-q7-b"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "3 years ago, a small group of youths returned back from foreign employment and started a cow farm investing Rs. 2,80,000. Due to political instability of state, if the price of the farm depreciates by 5% p.a. then how much does the farm cost now?"
+                                },
+                                "ne": {
+                                  "stringValue": "३ वर्षअघि, विदेशी रोजगारीबाट फर्केका युवाहरूको एउटा सानो समूहले रु. २,८०,००० लगानी गरी गाईफार्म सुरु गरे। राज्यको राजनीतिक अस्थिरताका कारण, यदि फार्मको मूल्य वार्षिक $5\\%$ ले ह्रास हुन्छ भने, फार्मको हालको मूल्य कति हुन्छ?"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "$V_0=\\text{Rs. }2,80,000$, $R=5\\%$, $T=3$ years. $V_T = 2,80,000(1-0.05)^3 = 2,80,000\\times(0.95)^3 = 2,80,000\\times0.857375 = \\text{Rs. }2,40,065$."
+                                },
+                                "ne": {
+                                  "stringValue": "$V_0=\\text{रु. }2,80,000$, $R=5\\%$, $T=3$ वर्ष। $V_T = 2,80,000(1-0.05)^3 = 2,80,000\\times(0.95)^3 = 2,80,000\\times0.857375 = \\text{रु. }2,40,065$।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.2-q8-a"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "Question 8\n\nA photocopy machine costs Rs. 5,00,000 now. If the machine depreciates by 15% in the first year and similarly depreciates by 10% and 5% in the second and third year, then what will be the price of the machine in 3 years?"
+                                },
+                                "ne": {
+                                  "stringValue": "प्रश्न ८\n\nएउटा फोटोकपी मेसिनको मूल्य अहिले रु. ५,००,००० छ। यदि मेसिन पहिलो वर्ष $15\\%$ ले र त्यसैगरी दोस्रो र तेस्रो वर्ष क्रमशः $10\\%$ र $5\\%$ ले ह्रास हुन्छ भने, ३ वर्षमा मेसिनको मूल्य कति हुन्छ?"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "$V_0=\\text{Rs. }5,00,000$, $R_1=15\\%$, $R_2=10\\%$, $R_3=5\\%$. $V_3 = 5,00,000(1-0.15)(1-0.10)(1-0.05) = 5,00,000\\times0.85\\times0.90\\times0.95 = \\text{Rs. }3,63,375$."
+                                },
+                                "ne": {
+                                  "stringValue": "$V_0=\\text{रु. }5,00,000$, $R_1=15\\%$, $R_2=10\\%$, $R_3=5\\%$। $V_3 = 5,00,000(1-0.15)(1-0.10)(1-0.05) = 5,00,000\\times0.85\\times0.90\\times0.95 = \\text{रु. }3,63,375$।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.2-q8-b"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "A lamination machine is sold for Rs. 24,168 after depreciating it by 4% and 5% in the first and second year respectively. Find what the price of the machine was before 2 years."
+                                },
+                                "ne": {
+                                  "stringValue": "पहिलो र दोस्रो वर्षमा क्रमशः $4\\%$ र $5\\%$ ले ह्रास भएपछि एउटा ल्यामिनेसन मेसिन रु. २४,१६८ मा बेचिन्छ। २ वर्षअघि मेसिनको मूल्य कति थियो पत्ता लगाउनुहोस्।"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "$V_T=\\text{Rs. }24,168$, $R_1=4\\%$, $R_2=5\\%$. $V_0(1-0.04)(1-0.05) = 24,168$: $V_0\\times0.96\\times0.95 = 24,168$, so $V_0 = \\dfrac{24,168}{0.912} = \\text{Rs. }26,500$."
+                                },
+                                "ne": {
+                                  "stringValue": "$V_T=\\text{रु. }24,168$, $R_1=4\\%$, $R_2=5\\%$। $V_0(1-0.04)(1-0.05) = 24,168$: $V_0\\times0.96\\times0.95 = 24,168$, त्यसैले $V_0 = \\dfrac{24,168}{0.912} = \\text{रु. }26,500$।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.2-q9"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "An entrepreneur purchased a heavy truck by investing Rs. 48,00,000. He earned Rs. 6,80,000 in 2 years. If it is depreciated by 10% every year and sold in 2 years, then find his loss or profit."
+                                },
+                                "ne": {
+                                  "stringValue": "एक उद्यमीले रु. ४८,००,००० लगानी गरी एउटा गह्रुँगो ट्रक किने। उनले २ वर्षमा रु. ६,८०,००० कमाए। यदि यो प्रत्येक वर्ष $10\\%$ ले ह्रास हुन्छ र २ वर्षमा बेचिन्छ भने, उनको नोक्सान वा नाफा पत्ता लगाउनुहोस्।"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "$V_0=\\text{Rs. }48,00,000$, $R=10\\%$, $T=2$ years. Depreciated (resale) value $= 48,00,000(1-0.10)^2 = 48,00,000\\times0.81 = \\text{Rs. }38,88,000$. Total amount recovered $=$ resale value $+$ earnings $= 38,88,000+6,80,000 = \\text{Rs. }45,68,000$. Compared to the original investment of Rs. $48,00,000$: $45,68,000-48,00,000 = -\\text{Rs. }2,32,000$, i.e. a loss of Rs. $2,32,000$."
+                                },
+                                "ne": {
+                                  "stringValue": "$V_0=\\text{रु. }48,00,000$, $R=10\\%$, $T=2$ वर्ष। ह्रास भएको (पुनर्बिक्री) मूल्य $= 48,00,000(1-0.10)^2 = 48,00,000\\times0.81 = \\text{रु. }38,88,000$। प्राप्त कुल रकम $=$ पुनर्बिक्री मूल्य $+$ आम्दानी $= 38,88,000+6,80,000 = \\text{रु. }45,68,000$। सुरुको लगानी रु. ४८,००,००० सँग तुलना गर्दा: $45,68,000-48,00,000 = -\\text{रु. }2,32,000$, अर्थात् रु. २,३२,००० को नोक्सान।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.2-q10"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "A bus owner bought a bus for Rs. 16,00,000 and conducted it in the Kathmandu-Baglung route for 3 years. He earned Rs. 5,10,000 only. If the value depreciates every year by 5% and he sells it in 3 years, then find his loss or profit."
+                                },
+                                "ne": {
+                                  "stringValue": "एउटा बस धनीले रु. १६,००,००० मा बस किने र काठमाडौं-बागलुङ रुटमा ३ वर्ष संचालन गरे। उनले जम्मा रु. ५,१०,००० कमाए। यदि मूल्य प्रत्येक वर्ष $5\\%$ ले ह्रास हुन्छ र उनले ३ वर्षमा बेच्छन् भने, उनको नोक्सान वा नाफा पत्ता लगाउनुहोस्।"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "$V_0=\\text{Rs. }16,00,000$, $R=5\\%$, $T=3$ years. Resale value $= 16,00,000(1-0.05)^3 = 16,00,000\\times0.857375 = \\text{Rs. }13,71,800$. Total amount recovered $=$ resale value $+$ earnings $= 13,71,800+5,10,000 = \\text{Rs. }18,81,800$. Profit $= 18,81,800-16,00,000 = \\text{Rs. }2,81,800$."
+                                },
+                                "ne": {
+                                  "stringValue": "$V_0=\\text{रु. }16,00,000$, $R=5\\%$, $T=3$ वर्ष। पुनर्बिक्री मूल्य $= 16,00,000(1-0.05)^3 = 16,00,000\\times0.857375 = \\text{रु. }13,71,800$। प्राप्त कुल रकम $=$ पुनर्बिक्री मूल्य $+$ आम्दानी $= 13,71,800+5,10,000 = \\text{रु. }18,81,800$। नाफा $= 18,81,800-16,00,000 = \\text{रु. }2,81,800$।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.2-q11"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "The price of a finance company listed in Nepal share market is falling down its price by 10% in 2 years. Your neighbour having the shares of the finance company sold his shares for Rs. 28,350. How many shares were sold by the company before 2 years at the rate of Rs. 100 per share?"
+                                },
+                                "ne": {
+                                  "stringValue": "नेपाल शेयर बजारमा सूचीकृत एउटा फाइनान्स कम्पनीको मूल्य २ वर्षमा $10\\%$ ले घट्दैछ। सो फाइनान्स कम्पनीको सेयर भएका तपाईंका छिमेकीले आफ्ना सेयर रु. २८,३५० मा बेचे। कम्पनीले २ वर्षअघि प्रति सेयर रु. १०० का दरमा कति सेयर बेचेको थियो?"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "Note: \"falling by 10% in 2 years\" is read as a compounding annual rate of $R=10\\%$ p.a. (this reading reproduces the textbook's published answer). $V_T=\\text{Rs. }28,350$, $R=10\\%$, $T=2$ years. $V_0 = \\dfrac{V_T}{(1-0.10)^2} = \\dfrac{28,350}{0.81} = \\text{Rs. }35,000$. Since shares were Rs. $100$ each 2 years ago, number of shares $= \\dfrac{35,000}{100}=350$."
+                                },
+                                "ne": {
+                                  "stringValue": "टिप्पणी: \"२ वर्षमा $10\\%$ ले घट्दैछ\" लाई वार्षिक चक्रवृद्धि दर $R=10\\%$ वार्षिक मानी बुझिएको छ (यसले पाठ्यपुस्तकको प्रकाशित उत्तर पुनरुत्पादन गर्छ)। $V_T=\\text{रु. }28,350$, $R=10\\%$, $T=2$ वर्ष। $V_0 = \\dfrac{V_T}{(1-0.10)^2} = \\dfrac{28,350}{0.81} = \\text{रु. }35,000$। २ वर्षअघि प्रति सेयर रु. १०० भएकोले, सेयर संख्या $= \\dfrac{35,000}{100}=350$।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.2-q12-a"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "The price of the share of a hydropower company is reducing by 10% p.a. If Sashi sells all his shares now and has the present value Rs. 7,10,775, then\n\nWhat was the price of his shares before 2 years?"
+                                },
+                                "ne": {
+                                  "stringValue": "एउटा जलविद्युत् कम्पनीको सेयरको मूल्य वार्षिक $10\\%$ ले घट्दैछ। यदि साशीले अहिले आफ्ना सबै सेयर बेच्छन् र हालको मूल्य रु. ७,१०,७७५ छ भने,\n\nउनका सेयरको मूल्य २ वर्षअघि कति थियो?"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "$V_T=\\text{Rs. }7,10,775$, $R=10\\%$, $T=2$ years. $V_0 = \\dfrac{V_T}{(1-0.10)^2} = \\dfrac{7,10,775}{0.81} = \\text{Rs. }8,77,500$."
+                                },
+                                "ne": {
+                                  "stringValue": "$V_T=\\text{रु. }7,10,775$, $R=10\\%$, $T=2$ वर्ष। $V_0 = \\dfrac{V_T}{(1-0.10)^2} = \\dfrac{7,10,775}{0.81} = \\text{रु. }8,77,500$।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.2-q12-b"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "He purchased the shares at the rate of Rs. 100 per share in IPO, how many shares did he buy before 2 years?"
+                                },
+                                "ne": {
+                                  "stringValue": "उनले IPO मा प्रति सेयर रु. १०० का दरमा सेयर किनेका थिए, उनले २ वर्षअघि कति सेयर किनेका थिए?"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "Number of shares $= \\dfrac{8,77,500}{100} = 8,775$."
+                                },
+                                "ne": {
+                                  "stringValue": "सेयर संख्या $= \\dfrac{8,77,500}{100} = 8,775$।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.2-q13-a"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "In certain rate of annual depreciation, the price of a good will be Rs. 10,240 and Rs. 8,192 in 2 years and 3 years respectively. Then,\n\nFind the rate of depreciation."
+                                },
+                                "ne": {
+                                  "stringValue": "कुनै निश्चित वार्षिक ह्रास दरमा, कुनै सामानको मूल्य २ वर्ष र ३ वर्षमा क्रमशः रु. १०,२४० र रु. ८,१९२ हुन्छ। त्यसो भए,\n\nह्रास दर पत्ता लगाउनुहोस्।"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "Let $V_0(1-R/100)^2=10,240$ ...(i) and $V_0(1-R/100)^3=8,192$ ...(ii). Dividing (ii) by (i): $1-\\dfrac{R}{100}=\\dfrac{8,192}{10,240}=0.8$, giving $R=20\\%$."
+                                },
+                                "ne": {
+                                  "stringValue": "मानौं $V_0(1-R/100)^2=10,240$ ...(i) र $V_0(1-R/100)^3=8,192$ ...(ii)। (ii) लाई (i) ले भाग गर्दा: $1-\\dfrac{R}{100}=\\dfrac{8,192}{10,240}=0.8$, जसबाट $R=20\\%$ आउँछ।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.2-q13-b"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "What was the initial price of the good? Find it."
+                                },
+                                "ne": {
+                                  "stringValue": "सामानको प्रारम्भिक मूल्य कति थियो? पत्ता लगाउनुहोस्।"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "From (i): $V_0 = \\dfrac{10,240}{(0.8)^2} = \\dfrac{10,240}{0.64} = \\text{Rs. }16,000$."
+                                },
+                                "ne": {
+                                  "stringValue": "(i) बाट: $V_0 = \\dfrac{10,240}{(0.8)^2} = \\dfrac{10,240}{0.64} = \\text{रु. }16,000$।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.2-q14-a"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "In a certain rate of yearly depreciation, the price of an article will be Rs. 5,41,500 and Rs. 5,14,425 in 2 and 3 years respectively. Then\n\nWhat is the rate of depreciation?"
+                                },
+                                "ne": {
+                                  "stringValue": "कुनै निश्चित वार्षिक ह्रास दरमा, कुनै सामानको मूल्य २ र ३ वर्षमा क्रमशः रु. ५,४१,५०० र रु. ५,१४,४२५ हुन्छ। त्यसो भए\n\nह्रास दर कति हो?"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "$V_0(1-R/100)^2=5,41,500$ ...(i); $V_0(1-R/100)^3=5,14,425$ ...(ii). Dividing (ii) by (i): $1-\\dfrac{R}{100}=\\dfrac{5,14,425}{5,41,500}=0.95$, giving $R=5\\%$."
+                                },
+                                "ne": {
+                                  "stringValue": "$V_0(1-R/100)^2=5,41,500$ ...(i); $V_0(1-R/100)^3=5,14,425$ ...(ii)। (ii) लाई (i) ले भाग गर्दा: $1-\\dfrac{R}{100}=\\dfrac{5,14,425}{5,41,500}=0.95$, जसबाट $R=5\\%$ आउँछ।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapValue": {
+                        "fields": {
+                          "id": {
+                            "stringValue": "ex3.2-q14-b"
+                          },
+                          "source": {
+                            "stringValue": "textbook"
+                          },
+                          "question": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "What was the initial price of the article? Find it."
+                                },
+                                "ne": {
+                                  "stringValue": "सामानको प्रारम्भिक मूल्य कति थियो? पत्ता लगाउनुहोस्।"
+                                }
+                              }
+                            }
+                          },
+                          "solution": {
+                            "mapValue": {
+                              "fields": {
+                                "en": {
+                                  "stringValue": "From (i): $V_0 = \\dfrac{5,41,500}{(0.95)^2} = \\dfrac{5,41,500}{0.9025} = \\text{Rs. }6,00,000$."
+                                },
+                                "ne": {
+                                  "stringValue": "(i) बाट: $V_0 = \\dfrac{5,41,500}{(0.95)^2} = \\dfrac{5,41,500}{0.9025} = \\text{रु. }6,00,000$।"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

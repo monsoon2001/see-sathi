@@ -1,3 +1,5 @@
+import fs from "node:fs";
+import path from "node:path";
 import { FIRESTORE_REST_BASE, FIREBASE_API_KEY } from "@/lib/firebase/config";
 
 /**
@@ -711,10 +713,39 @@ export async function getChapterDoc(
   opts?: { nepali?: boolean; social?: boolean },
 ): Promise<FsChapterDoc | null> {
   try {
+    const local = readLocalChapterFile(docId);
+    if (local) return parseChapterDoc({ fields: local }, opts);
     const res = await fetch(docUrl(docId), { cache: "no-store" });
     if (!res.ok) return null;
     const json = (await res.json()) as Record<string, unknown>;
     return parseChapterDoc(json, opts);
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Some MySQL-seeded chapter docs are shipped as static JSON inside the repo
+ * (`science-questions/<folder>/see-math-chN-{en|ne}.json`, written by the
+ * matching `scripts/seed-math-chN.mjs`). When present, they are served
+ * locally in the exact Firestore wire shape, so no remote fetch happens.
+ */
+function readLocalChapterFile(docId: string): Record<string, FNode> | null {
+  try {
+    const base = path.join(process.cwd(), "science-questions");
+    const candidates = [path.join(base, docId, `${docId}.json`)];
+    const match = docId.match(/^see-math-ch(\d+)-(en|ne)$/);
+    if (match) {
+      candidates.unshift(path.join(base, `see-math-ch${match[1]}`, `${docId}.json`));
+      candidates.unshift(path.join(base, `see-math-ch${match[1]}`, `see-math-ch${match[1]}-en.json`));
+    }
+    for (const file of candidates) {
+      if (!fs.existsSync(file)) continue;
+      const parsed = JSON.parse(fs.readFileSync(file, "utf8")) as unknown;
+      if (!parsed || typeof parsed !== "object" || !("blocks" in (parsed as object))) return null;
+      return parsed as Record<string, FNode>;
+    }
+    return null;
   } catch {
     return null;
   }

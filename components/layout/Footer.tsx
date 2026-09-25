@@ -23,7 +23,7 @@ const columns = [
       { label: "SEE Grading Guide", href: "/grading-guide" },
       { label: "Syllabus Breakdown", href: "/subjects" },
       { label: "Topper Answer Sets", href: "/saved" },
-      { label: "Model Exam Simulator", href: "/subjects" },
+      { label: "Mock Test Simulator", href: "/exam-simulator" },
     ],
   },
   {

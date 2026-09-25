@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import { ArrowRight, BookOpen, FileText, Gift, Lock, ShieldCheck, Timer } from "lucide-react";
 import { useFirebaseUser } from "@/lib/firebase/client";
@@ -10,12 +10,22 @@ export function PastPaperAccessGate({ paperId, children }: { paperId: string; ch
   const { user, loading } = useFirebaseUser();
   const pathname = usePathname();
   const nextParam = pathname ? `?next=${encodeURIComponent(pathname)}` : "";
+  const [authTimedOut, setAuthTimedOut] = useState(false);
 
   useEffect(() => {
     if (!loading && !user) window.scrollTo({ top: 0, behavior: "auto" });
   }, [loading, user]);
 
-  if (loading) {
+  // If Firebase auth has not resolved within a short window (slow or blocked
+  // network), stop waiting so the reader is never stuck on the spinner. The
+  // gate falls through to the sign-in prompt below, and if the user state
+  // resolves afterwards the paper opens automatically.
+  useEffect(() => {
+    const t = window.setTimeout(() => setAuthTimedOut(true), 2000);
+    return () => window.clearTimeout(t);
+  }, []);
+
+  if (loading && !authTimedOut) {
     return (
       <div className="flex min-h-[50vh] items-center justify-center">
         <div className="flex flex-col items-center gap-4">

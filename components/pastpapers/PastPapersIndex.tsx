@@ -13,6 +13,7 @@ import {
   ListChecks,
   MapPin,
   RotateCcw,
+  Sparkles,
   Timer,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -91,13 +92,26 @@ function FilterSelect({
 export function PastPapersIndex({
   papers,
   subjectOptions,
+  eyebrow = "Solved papers & answer keys",
+  heading = "Past Papers",
+  description = "Real SEE question papers digitised with step-by-step bilingual answer keys — every question solved in both English and नेपाली.",
+  ctaLabel = "Open paper",
+  hrefPrefix = "/past-papers",
+  showTypeFilter = false,
 }: {
   papers: PastPaper[];
   subjectOptions: SubjectOption[];
+  eyebrow?: string;
+  heading?: string;
+  description?: string;
+  ctaLabel?: string;
+  hrefPrefix?: string;
+  showTypeFilter?: boolean;
 }) {
   const [subject, setSubject] = useState("all");
   const [year, setYear] = useState("all");
   const [province, setProvince] = useState("all");
+  const [type, setType] = useState("all");
 
   const filtered = useMemo(() => {
     return papers.filter((p) => {
@@ -105,16 +119,21 @@ export function PastPapersIndex({
       if (subject !== "all" && q.subjectId !== subject) return false;
       if (year !== "all" && paperYear(q.examYear) !== Number(year)) return false;
       if (province !== "all" && q.province !== province) return false;
+      if (type !== "all" && (q.kind ?? "past") !== type) return false;
       return true;
     });
-  }, [papers, subject, year, province]);
+  }, [papers, subject, year, province, type]);
 
-  const hasFilter = subject !== "all" || year !== "all" || province !== "all";
+  const hasFilter = subject !== "all" || year !== "all" || province !== "all" || type !== "all";
   const reset = () => {
     setSubject("all");
     setYear("all");
     setProvince("all");
+    setType("all");
   };
+
+  const pastCount = papers.filter((p) => (p.question.kind ?? "past") === "past").length;
+  const modelCount = papers.length - pastCount;
 
   const yearCount = (y: number) => papers.filter((p) => paperYear(p.question.examYear) === y).length;
   const subjectCount = (id: string) => papers.filter((p) => p.question.subjectId === id).length;
@@ -125,13 +144,10 @@ export function PastPapersIndex({
       <div className="mx-auto max-w-5xl px-4 pt-10 lg:px-8">
         <div className="inline-flex items-center gap-2 rounded-full bg-tertiary-fixed/40 px-4 py-1.5 text-tertiary">
           <FileText className="h-4 w-4" aria-hidden="true" />
-          <span className="font-label-caps text-label-caps uppercase tracking-wider">Solved papers & answer keys</span>
+          <span className="font-label-caps text-label-caps uppercase tracking-wider">{eyebrow}</span>
         </div>
-        <h1 className="mt-4 font-display-hero text-display-hero tracking-tight text-on-surface">Past Papers</h1>
-        <p className="mt-3 max-w-2xl font-body-lg text-body-lg text-on-surface-variant">
-          Real SEE question papers digitised with step-by-step bilingual answer keys — every question solved in both
-          English and नेपाली.
-        </p>
+        <h1 className="mt-4 font-display-hero text-display-hero tracking-tight text-on-surface">{heading}</h1>
+        <p className="mt-3 max-w-2xl font-body-lg text-body-lg text-on-surface-variant">{description}</p>
       </div>
 
       <div className="mx-auto max-w-5xl px-4 pt-8 lg:px-8">
@@ -161,6 +177,18 @@ export function PastPapersIndex({
             onChange={setProvince}
             options={NEPAL_PROVINCES.map((p) => ({ value: p, label: `${p} (${provinceCount(p)})` }))}
           />
+          {showTypeFilter && (
+            <FilterSelect
+              label="Type"
+              icon={<Sparkles className="h-4 w-4" />}
+              value={type}
+              onChange={setType}
+              options={[
+                { value: "past", label: `SEE Past Papers (${pastCount})` },
+                { value: "model", label: `Model Papers (${modelCount})` },
+              ]}
+            />
+          )}
           {hasFilter && (
             <button
               type="button"
@@ -190,19 +218,44 @@ export function PastPapersIndex({
 
             {filtered.length === 0 ? (
               <div className="mt-4 flex flex-col items-center gap-3 rounded-2xl border border-dashed border-surface-container bg-surface-container-lowest/60 px-6 py-14 text-center">
-                <Filter className="h-10 w-10 text-outline-variant" aria-hidden="true" />
-                <h2 className="font-headline-sm text-headline-sm tracking-tight text-on-surface">No papers match these filters.</h2>
-                <p className="max-w-md font-body-md text-body-md text-on-surface-variant">
-                  Try a different subject, year or province — or clear the filters to see everything.
-                </p>
-                <button
-                  type="button"
-                  onClick={reset}
-                  className="mt-2 inline-flex items-center gap-2 rounded-full bg-primary-container px-6 py-2 font-title text-title text-on-primary shadow-[0_4px_14px_rgba(75,79,242,0.28)] transition-all hover:-translate-y-0.5"
-                >
-                  <RotateCcw className="h-4 w-4" aria-hidden="true" />
-                  Clear filters
-                </button>
+                {showTypeFilter && type === "model" && modelCount === 0 ? (
+                  <>
+                    <Sparkles className="h-10 w-10 text-outline-variant" aria-hidden="true" />
+                    <h2 className="font-headline-sm text-headline-sm tracking-tight text-on-surface">
+                      Model question papers are on the way.
+                    </h2>
+                    <p className="max-w-md font-body-md text-body-md text-on-surface-variant">
+                      Our team is preparing SEE-style model papers for every subject. As soon as they&apos;re published
+                      they will appear here — ready to sit as timed mock tests.
+                    </p>
+                    <button
+                      type="button"
+                      onClick={reset}
+                      className="mt-2 inline-flex items-center gap-2 rounded-full bg-surface-container px-6 py-2 font-title text-title text-on-surface transition-colors hover:bg-surface-container-high"
+                    >
+                      <RotateCcw className="h-4 w-4" aria-hidden="true" />
+                      Show all papers
+                    </button>
+                  </>
+                ) : (
+                  <>
+                    <Filter className="h-10 w-10 text-outline-variant" aria-hidden="true" />
+                    <h2 className="font-headline-sm text-headline-sm tracking-tight text-on-surface">
+                      No papers match these filters.
+                    </h2>
+                    <p className="max-w-md font-body-md text-body-md text-on-surface-variant">
+                      Try a different subject, year or province — or clear the filters to see everything.
+                    </p>
+                    <button
+                      type="button"
+                      onClick={reset}
+                      className="mt-2 inline-flex items-center gap-2 rounded-full bg-primary-container px-6 py-2 font-title text-title text-on-primary shadow-[0_4px_14px_rgba(75,79,242,0.28)] transition-all hover:-translate-y-0.5"
+                    >
+                      <RotateCcw className="h-4 w-4" aria-hidden="true" />
+                      Clear filters
+                    </button>
+                  </>
+                )}
               </div>
             ) : (
               <div className="mt-4 grid grid-cols-1 gap-5 md:grid-cols-2">
@@ -214,12 +267,20 @@ export function PastPapersIndex({
                   return (
                     <Link
                       key={paper.folderId}
-                      href={`/past-papers/${paper.folderId}`}
+                      href={`${hrefPrefix}/${paper.folderId}`}
                       className="group flex flex-col rounded-DEFAULT border border-surface-container bg-surface-container-lowest p-5 shadow-[0_1px_3px_rgba(0,0,0,0.03)] transition-all duration-200 hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-[0_10px_30px_rgba(75,79,242,0.12)]"
                     >
                       <div className="flex items-start justify-between gap-3">
-                        <span className="inline-flex items-center gap-2 rounded-full px-3 py-1 font-label-caps text-label-caps uppercase tracking-wider text-white" style={{ backgroundColor: color }}>
-                          {subjectOpt?.name ?? q.subjectId}
+                        <span className="inline-flex flex-wrap items-center gap-2">
+                          <span className="inline-flex items-center gap-2 rounded-full px-3 py-1 font-label-caps text-label-caps uppercase tracking-wider text-white" style={{ backgroundColor: color }}>
+                            {subjectOpt?.name ?? q.subjectId}
+                          </span>
+                          {(q.kind ?? "past") === "model" && (
+                            <span className="inline-flex items-center gap-1 rounded-full bg-tertiary-fixed px-3 py-1 font-label-caps text-label-caps uppercase tracking-wider text-on-tertiary-fixed">
+                              <Sparkles className="h-3 w-3" aria-hidden="true" />
+                              Model
+                            </span>
+                          )}
                         </span>
                         <span className="inline-flex items-center gap-1 rounded-full bg-surface-container px-3 py-1 font-mono text-[11px] text-on-surface-variant">
                           <CalendarDays className="h-3 w-3" aria-hidden="true" />
@@ -279,7 +340,7 @@ export function PastPapersIndex({
                       </div>
 
                       <span className={cn("mt-5 inline-flex items-center gap-1 border-t border-surface-container pt-4 font-title text-title text-primary", "transition-transform duration-200 group-hover:gap-2")}>
-                        Open paper <ArrowRight className="h-4 w-4" aria-hidden="true" />
+                        {ctaLabel} <ArrowRight className="h-4 w-4" aria-hidden="true" />
                       </span>
                     </Link>
                   );

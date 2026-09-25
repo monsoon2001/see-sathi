@@ -106,6 +106,8 @@ export interface PastPaperDoc {
   paperCode?: string;
   fullMarks?: number;
   timeAllowed?: string;
+  /** "past" = real SEE board paper, "model" = SEE Sathi model/mock paper. */
+  kind?: "past" | "model";
   docType: "questionPaper" | "answerKey";
   linkedQuestionPaperId?: string;
   titleEn: string;
@@ -262,6 +264,7 @@ function normalizeLegacy(doc: LegacyAny, isAnswer: boolean): PastPaperDoc {
     paperCode: doc.paperCode ? String(doc.paperCode) : undefined,
     fullMarks: typeof doc.fullMarks === "number" ? doc.fullMarks : undefined,
     timeAllowed: doc.timeAllowed ? String(doc.timeAllowed) : undefined,
+    kind: doc.kind === "model" ? "model" : "past",
     docType: isAnswer ? "answerKey" : "questionPaper",
     linkedQuestionPaperId: isAnswer ? String(doc.linkedQuestionPaperId ?? chapterId) : undefined,
     titleEn: String(doc.title ?? ""),
@@ -289,12 +292,17 @@ export function getPastPaper(folderId: string): PastPaper | null {
   const question = readJson<LegacyAny>(path.join(dir, questionFile));
   if (!question) return null;
   const answer = answerFile ? readJson<LegacyAny>(path.join(dir, answerFile)) : null;
-  const questionDoc = isLegacyDoc(question) ? normalizeLegacy(question, false) : (question as unknown as PastPaperDoc);
-  const answerDoc = answer
-    ? isLegacyDoc(answer)
-      ? normalizeLegacy(answer, true)
-      : (answer as unknown as PastPaperDoc)
-    : null;
+  const toDoc = (doc: unknown): PastPaperDoc => {
+    const d = isLegacyDoc(doc as LegacyAny) ? normalizeLegacy(doc as LegacyAny, false) : (doc as PastPaperDoc);
+    return { ...d, kind: (d as PastPaperDoc).kind === "model" ? "model" : "past" };
+  };
+  const toAnswer = (doc: unknown): PastPaperDoc | null => {
+    if (doc == null) return null;
+    const d = isLegacyDoc(doc as LegacyAny) ? normalizeLegacy(doc as LegacyAny, true) : (doc as PastPaperDoc);
+    return { ...d, kind: (d as PastPaperDoc).kind === "model" ? "model" : "past" };
+  };
+  const questionDoc = toDoc(question);
+  const answerDoc = toAnswer(answer);
   return {
     folderId,
     question: rewriteImageUrls(questionDoc, folderId),

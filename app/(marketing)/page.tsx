@@ -13,26 +13,20 @@ import {
   PieChart,
   ScanSearch,
   Sigma,
-  Star,
   Zap,
 } from "lucide-react";
 import { SubjectIcon } from "@/components/brand/SubjectIcon";
 import { getSubjects } from "@/lib/data/subjects";
 import type { Subject } from "@/lib/types";
 
-const avatars = [
-  "https://lh3.googleusercontent.com/aida-public/AB6AXuCK9zlr_9NUp4lsINFJ1MJwGQzyK5GQc5nGQQWx83o3DoDLVsb7BCTjVW9WBZY5AJKSH5Vm5IwLXL1epJoY-8fhETE1sfeEQ0RqJUgcJ-h1pDtp2JtrshPKOkodMy8C8ChmX5KweQH6fQTgc1So5kL1pV3eIYpcm61Glfv3nLLVpXAwqGqKOt7aeYbLzCxgLMHY34TYEzCKKF6zxDtmxNEFrxWBIXfCgrzKgZUfrZAWFn31dwBk5UPX",
-  "https://lh3.googleusercontent.com/aida-public/AB6AXuA-XptItoMVw3NwA_LM_gEYY23QloQfIpoiPYOe7mHQ0vb11xLgLbpZnXLxuQfx2--dcpC7lgufO4XqHr_Vb6pReF6eNYBbzxOlbk20FpIp-vsj0aECyh8bu69FFyEmeXsw42bQxstAM_xSTSldtahZXqiRS5ACAlDpRwYSLXaJfIMDpCWXHX2ZHLfhlX9lcfWuZRqo2kMUjyD6XOQT7x_0IL5CYO_cH3Db666aM0PY4NUSO2K3g0KW",
-  "https://lh3.googleusercontent.com/aida-public/AB6AXuBhioSgTneVZj7Yu0Np50EWYGBOjqJjtLWwHrM__86csOU99XfvmNKifcRizJryQRRTsHqCGBmlmT8mbsFsJByLB0PrYRcjCoVpBw83j1VjG8HL6XnHstxnozJ6uohXRsiwDtL4BDb4TaQzU06TKZFGCNmMhKppXl_8ky5JHW59RLPqNEBz6_M7LVAlnidc46X4jAwqYuXwA5YWj6DwmpEQyTu4ShK2NcDiiPT33z_YBUdQqWOYOPCE",
-];
-
 const regions = [
-  { name: "Kathmandu", count: "6,420 Active Students", width: "85%", dark: false },
-  { name: "Kaski (Pokhara)", count: "4,110 Active Students", width: "74%", dark: false },
-  { name: "Morang (Biratnagar)", count: "3,890 Active Students", width: "68%", dark: false },
-  { name: "Rupandehi (Butwal)", count: "3,200 Active Students", width: "62%", dark: false },
-  { name: "Chitwan", count: "2,940 Active Students", width: "58%", dark: false },
-  { name: "Rest of Nepal", count: "3,500+ Active Students", width: "90%", dark: true },
+  { name: "Bagmati", count: "2081 Paper + Solutions", width: "85%", dark: false },
+  { name: "Gandaki", count: "2081 Paper + Solutions", width: "74%", dark: false },
+  { name: "Koshi", count: "2081 Science + Maths", width: "68%", dark: false },
+  { name: "Lumbini", count: "2081 Paper + Solutions", width: "62%", dark: false },
+  { name: "Madhesh", count: "2081 Paper + Solutions", width: "58%", dark: false },
+  { name: "Sudurpaschim", count: "2081 Paper + Solutions", width: "52%", dark: false },
+  { name: "Karnali", count: "2081 Paper + Solutions", width: "50%", dark: true },
 ];
 
 const stats = [
@@ -140,23 +134,10 @@ export default async function HomePage() {
 
               {/* Social Proof & Trust Strip */}
               <div className="flex flex-wrap items-center gap-4 pb-1 pt-1 text-[#454556]">
-                <div className="flex -space-x-2">
-                  {avatars.map((src, i) => (
-                    // eslint-disable-next-line @next/next/no-img-element
-                    <img key={i} src={src} alt="" className="h-8 w-8 rounded-full object-cover ring-2 ring-white" />
-                  ))}
-                  <div className="flex h-8 w-8 items-center justify-center rounded-full bg-[#e1e0ff] font-sans text-[10px] font-bold text-[#04006d] ring-2 ring-white">
-                    +24k
-                  </div>
-                </div>
-                <div className="flex items-center gap-1">
-                  <div className="flex text-amber-500">
-                    {Array.from({ length: 5 }).map((_, i) => (
-                      <Star key={i} className="h-4 w-4 fill-current" />
-                    ))}
-                  </div>
+                <div className="flex items-center gap-2">
+                  <BadgeCheck className="h-[18px] w-[18px] text-[#005b34]" />
                   <span className="font-body text-[13px] font-medium text-[#181a2b]">
-                    Trusted by 24,000+ Class 10 students across Nepal
+                    SEE 2081 (2025) papers for all 7 provinces — 100% free for Nepalese students
                   </span>
                 </div>
               </div>
@@ -466,7 +447,7 @@ export default async function HomePage() {
             Your next chapter is waiting.
           </h2>
           <p className="max-w-xl font-body text-[16px] leading-[26px] text-[#c6c4d8]">
-            Join students from Kathmandu, Pokhara, Biratnagar, and across Nepal preparing confidently for SEE 2026.
+            Study notes, solved past papers, and step-by-step solutions for every Class 10 subject — free across all 7 provinces.
           </p>
           <div className="pt-1">
             <a

@@ -180,12 +180,17 @@ export async function seedMathChapter(cfg) {
 
   console.log(`${cfg.label}: ${blocks.length} blocks, ${questionCount} solved questions`);
 
+  const fields = docFields(cfg, blocks, sections);
+  if (cfg.outFile && !process.env.DRY_RUN) {
+    fs.writeFileSync(path.join(REPO, cfg.outFile), JSON.stringify(fields, null, 2));
+    console.log(`  ✓ local ${cfg.outFile}`);
+  }
+
   if (process.env.DRY_RUN) {
     console.log("DRY_RUN: nothing written.");
     return { blocks, sections, questionCount };
   }
 
-  const fields = docFields(cfg, blocks, sections);
   for (const docId of cfg.docIds) {
     await patchDoc(docId, fields);
     console.log(`  ✓ ${docId}`);

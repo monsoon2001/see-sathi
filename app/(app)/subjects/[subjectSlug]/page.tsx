@@ -158,10 +158,10 @@ export default async function SubjectDetailPage({ params }: { params: { subjectS
               </h4>
               <p className="max-w-2xl font-body-md text-body-md text-primary-fixed">
                 {subject.slug === "science"
-                  ? "Complete full mock examination set following the official 75-mark theory grid: VSA (9m), SA (28m), LA (24m), HA (12m) with real-time timer & step-by-step marking rubric."
+                  ? "Complete full mock test set following the official 75-mark theory grid: VSA (9m), SA (28m), LA (24m), HA (12m) with real-time timer & step-by-step marking rubric."
                   : subject.slug === "computer-science"
-                    ? "Complete full mock examination set following the official 50-mark grid: MCQ (10m: 10 × 1), Short (20m: 10 × 2), Long (20m: 5 × 4) with real-time timer & step-by-step marking rubric."
-                    : "Complete full mock examination set following the official 100-mark grid: Group A (10m), Group B (34m), Group C (40m), Group D (16m) with real-time timer & step-by-step marking rubric."}
+                    ? "Complete full mock test set following the official 50-mark grid: MCQ (10m: 10 × 1), Short (20m: 10 × 2), Long (20m: 5 × 4) with real-time timer & step-by-step marking rubric."
+                    : "Complete full mock test set following the official 100-mark grid: Group A (10m), Group B (34m), Group C (40m), Group D (16m) with real-time timer & step-by-step marking rubric."}
               </p>
             </div>
             <div className="z-10 flex shrink-0 flex-wrap items-center gap-4 pt-4 sm:pl-2 sm:pt-0">
