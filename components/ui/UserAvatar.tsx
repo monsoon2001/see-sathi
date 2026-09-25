@@ -74,7 +74,7 @@ function InitialsAvatar({ name }: { name?: string | null }) {
   const [primary, secondary] = INITIAL_PALETTE[initialsColor(name)];
   return (
     <div className="flex h-full w-full items-center justify-center rounded-full" style={{ background: `linear-gradient(135deg, ${primary}, ${secondary})` }}>
-      <span className="font-bold text-on-primary" style={{ fontSize: "min(42%, 20px)", lineHeight: 1 }}>
+      <span className="font-bold text-on-primary" style={{ fontSize: "calc(100cqw * 0.36)", lineHeight: 1 }}>
         {initials(name)}
       </span>
     </div>
@@ -100,7 +100,7 @@ export function UserAvatar({ src, name, gender, className }: UserAvatarProps) {
   const showPhoto = Boolean(src) && usePhoto;
 
   return (
-    <div className={cn("relative overflow-hidden rounded-full bg-surface-container-high", className)} style={{ aspectRatio: "1 / 1" }}>
+    <div className={cn("relative overflow-hidden rounded-full bg-surface-container-high", className)} style={{ aspectRatio: "1 / 1", containerType: "inline-size" }}>
       {showPhoto ? (
         <img
           src={src as string}

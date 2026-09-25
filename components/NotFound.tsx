@@ -97,7 +97,7 @@ export function NotFoundContent() {
 
           <TextbookIllustration />
 
-          <h1 className="mb-2 max-w-xl font-display-hero font-extrabold tracking-tight text-on-surface lg:text-display-hero">
+          <h1 className="mb-2 max-w-xl text-hero-mobile font-extrabold tracking-tight text-on-surface lg:text-display-hero">
             Looks like this chapter wandered off.
           </h1>
           <p className="mx-auto mb-6 max-w-xl font-body-lg text-body-lg leading-relaxed text-on-surface-variant">

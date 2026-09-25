@@ -3,9 +3,9 @@ import { cn } from "@/lib/utils";
 
 export function Logo({ className, wordmark = "official" }: { className?: string; wordmark?: "official" | "modern" }) {
   return (
-    <Link href="/" className={cn("flex items-center gap-2 shrink-0", className)} aria-label="SEE Sathi — Home">
+    <Link href="/" className={cn("flex min-w-0 items-center gap-2", className)} aria-label="SEE Sathi — Home">
       {wordmark === "official" ? (
-        <svg viewBox="0 0 320 80" className="h-[52px] w-auto object-contain" fill="none" aria-hidden="true">
+        <svg viewBox="8 6 230 56" className="h-9 w-auto object-contain sm:h-[46px]" fill="none" aria-hidden="true">
           <g transform="translate(10, 14)">
             <rect x="0" y="8" width="32" height="38" rx="16" fill="#4B4FF2" />
             <circle cx="16" cy="18" r="6" fill="#FFFFFF" opacity="0.9" />
@@ -42,7 +42,7 @@ export function Logo({ className, wordmark = "official" }: { className?: string;
           </g>
         </svg>
       ) : (
-        <svg viewBox="0 0 280 64" className="h-[48px] w-auto object-contain" fill="none" aria-hidden="true">
+        <svg viewBox="0 0 200 50" className="h-9 w-auto object-contain sm:h-[38px]" fill="none" aria-hidden="true">
           <g transform="translate(4, 8)">
             <rect x="0" y="4" width="22" height="40" rx="11" fill="#4B4FF2" />
             <circle cx="11" cy="14" r="4.5" fill="#FFFFFF" />

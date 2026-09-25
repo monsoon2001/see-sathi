@@ -102,7 +102,7 @@ export default async function SubjectDetailPage({ params }: { params: { subjectS
               <div className="mb-1 rounded-md bg-primary-container/10 px-2 py-0.5 text-label-caps uppercase tracking-wider text-primary">
                 {typeLabel[subject.type]} · CODE: {subject.code}
               </div>
-              <h1 className={cn("text-display-hero font-extrabold tracking-tight text-on-surface", isNepali && "font-devanagari")}>
+              <h1 className={cn("text-hero-mobile font-extrabold tracking-tight text-on-surface sm:text-display-hero", isNepali && "font-devanagari")}>
                 {subject.name}
               </h1>
               <div className="mt-2 mb-2 h-1.5 w-24 rounded-full bg-primary-container shadow-[0_2px_8px_rgba(75,79,242,0.35)]" />
@@ -111,7 +111,9 @@ export default async function SubjectDetailPage({ params }: { params: { subjectS
               </p>
             </div>
 
+            <div className="lg:col-span-4">
             <SubjectReadinessCard chapters={chapters} />
+          </div>
           </div>
 
           <div className="grid grid-cols-2 gap-2 pt-1 sm:grid-cols-4">

@@ -115,7 +115,7 @@ function InstructionsScreen({ paper, onStart }: { paper: PastPaper; onStart: () 
           <ShieldCheck className="h-4 w-4" aria-hidden="true" />
           <span className="font-label-caps text-label-caps uppercase tracking-wider">Final instructions — read before you begin</span>
         </div>
-        <h1 className="mt-4 font-display-hero text-display-hero tracking-tight text-on-surface">Mock Test Setup</h1>
+        <h1 className="mt-4 text-hero-mobile sm:text-display-hero tracking-tight text-on-surface">Mock Test Setup</h1>
         <p className="mt-3 max-w-2xl font-body-lg text-body-lg text-on-surface-variant">
           You are about to sit a timed, exam-style attempt of this paper. It works exactly like the real SEE hall —
           question paper first, answers hidden, clock ticking.

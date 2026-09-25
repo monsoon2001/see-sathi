@@ -71,7 +71,7 @@ function ChapterCard({ subjectSlug, chapter }: { subjectSlug: string; chapter: C
               )}
             </div>
             <p className="line-clamp-1 font-body-md text-body-md text-on-surface-variant">{chapter.description}</p>
-            <div className="flex items-center gap-4 pt-1 font-body-sm text-body-sm text-on-surface-variant">
+            <div className="flex flex-wrap items-center gap-x-4 gap-y-1 pt-1 font-body-sm text-body-sm text-on-surface-variant">
               <span className={cn("flex items-center gap-1", status.className)}>
                 <StatusIcon className="h-[15px] w-[15px]" aria-hidden="true" />
                 {status.label}

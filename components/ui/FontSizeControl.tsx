@@ -25,7 +25,7 @@ export function useFontSize(initial: FontSize = 17): [FontSize, (s: FontSize) =>
 export function FontSizeControl({ value, onChange }: FontSizeControlProps) {
   return (
     <div
-      className="inline-flex items-center gap-0.5 rounded-full bg-surface-container p-1"
+      className="inline-flex shrink-0 items-center gap-0.5 rounded-full bg-surface-container p-1"
       role="group"
       aria-label="Content font size"
     >

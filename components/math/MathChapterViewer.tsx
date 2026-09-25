@@ -176,7 +176,7 @@ export function MathChapterViewer({ chapter, chapterId }: { chapter: MathChapter
 
   return (
     <div className="pb-24">
-      <div className="sticky top-20 z-40">
+      <div className="sticky top-16 z-40 sm:top-20">
         <ScrollProgressBar />
         <div className="border-b border-surface-container bg-background/90 backdrop-blur">
           <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-3 px-4 py-3 lg:px-8">
@@ -220,7 +220,7 @@ export function MathChapterViewer({ chapter, chapterId }: { chapter: MathChapter
           </span>
         </div>
 
-        <h1 className="mb-2 font-display-hero text-display-hero tracking-tight text-on-surface">{title}</h1>
+        <h1 className="mb-2 text-hero-mobile sm:text-display-hero tracking-tight text-on-surface">{title}</h1>
         <p className={cn("mb-8 font-headline-sm text-headline-sm text-outline", langFont(lang))}>
           {lang === "ne" ? notes.title.en : notes.title.ne}
         </p>

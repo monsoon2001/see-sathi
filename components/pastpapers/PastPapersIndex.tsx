@@ -146,7 +146,7 @@ export function PastPapersIndex({
           <FileText className="h-4 w-4" aria-hidden="true" />
           <span className="font-label-caps text-label-caps uppercase tracking-wider">{eyebrow}</span>
         </div>
-        <h1 className="mt-4 font-display-hero text-display-hero tracking-tight text-on-surface">{heading}</h1>
+        <h1 className="mt-4 text-hero-mobile sm:text-display-hero tracking-tight text-on-surface">{heading}</h1>
         <p className="mt-3 max-w-2xl font-body-lg text-body-lg text-on-surface-variant">{description}</p>
       </div>
 
@@ -288,7 +288,7 @@ export function PastPapersIndex({
                         </span>
                       </div>
 
-                      <h2 className="mt-4 font-headline-md text-headline-md leading-snug tracking-tight text-on-surface transition-colors group-hover:text-primary">
+                      <h2 className="mt-4 line-clamp-2 font-headline-md text-headline-md leading-snug tracking-tight text-on-surface transition-colors group-hover:text-primary">
                         {q.titleEn}
                       </h2>
                       <p className="mt-1 line-clamp-2 font-body-md text-outline">{q.titleNe}</p>

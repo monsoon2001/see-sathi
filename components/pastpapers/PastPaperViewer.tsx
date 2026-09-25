@@ -349,7 +349,7 @@ export function PastPaperViewer({
   return (
     <ReaderShell>
       <div className="pb-24">
-      <div className="sticky top-20 z-40">
+      <div className="sticky top-16 z-40 sm:top-20">
         <ScrollProgressBar />
         <div className="border-b border-surface-container bg-background/90 backdrop-blur">
           <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-3 px-4 py-3 lg:px-8">
@@ -375,12 +375,12 @@ export function PastPaperViewer({
               </span>
             </nav>
 
-            <div className="flex flex-wrap items-center gap-2">
+            <div className="no-scrollbar flex items-center gap-2 overflow-x-auto py-0.5">
               {running && (
                 <span
                   title="Time remaining"
                   className={cn(
-                    "inline-flex items-center gap-1.5 rounded-full px-4 py-2 font-mono text-title font-bold tabular-nums",
+                    "inline-flex shrink-0 items-center gap-1.5 rounded-full px-4 py-2 font-mono text-title font-bold tabular-nums",
                     remainingSecs < 600
                       ? "animate-pulse bg-error-container/70 text-on-error-container"
                       : "bg-primary-fixed/40 text-primary dark:bg-primary-fixed/25 dark:text-primary-fixed",
@@ -394,7 +394,7 @@ export function PastPaperViewer({
                 <button
                   type="button"
                   onClick={() => setConfirmAction("finish")}
-                  className="inline-flex items-center gap-1.5 rounded-full bg-primary-container px-4 py-2 font-title text-title font-semibold text-on-primary shadow-[0_4px_14px_rgba(75,79,242,0.3)] transition-all hover:-translate-y-0.5 hover:shadow-[0_6px_18px_rgba(75,79,242,0.4)]"
+                  className="inline-flex shrink-0 items-center gap-1.5 rounded-full bg-primary-container px-4 py-2 font-title text-title font-semibold text-on-primary shadow-[0_4px_14px_rgba(75,79,242,0.3)] transition-all hover:-translate-y-0.5 hover:shadow-[0_6px_18px_rgba(75,79,242,0.4)]"
                 >
                   <CheckCircle2 className="h-4 w-4" aria-hidden="true" />
                   Finish Mock Test
@@ -404,14 +404,14 @@ export function PastPaperViewer({
                 <button
                   type="button"
                   onClick={() => setConfirmAction("cancel")}
-                  className="inline-flex items-center gap-1.5 rounded-full bg-error-container px-4 py-2 font-title text-title font-semibold text-on-error-container transition-colors hover:opacity-90"
+                  className="inline-flex shrink-0 items-center gap-1.5 rounded-full bg-error-container px-4 py-2 font-title text-title font-semibold text-on-error-container transition-colors hover:opacity-90"
                 >
                   <CircleStop className="h-4 w-4" aria-hidden="true" />
                   Cancel Mock Test
                 </button>
               )}
               <ReaderThemeToggle />
-              <div className="inline-flex items-center gap-1 rounded-full bg-surface-container p-1">
+              <div className="inline-flex shrink-0 items-center gap-1 rounded-full bg-surface-container p-1">
                 {(["questions", "answers"] as const).map((m) => {
                   const disabled = m === "answers" && (!hasAnswers || answersLocked);
                   return (
@@ -461,7 +461,7 @@ export function PastPaperViewer({
           </span>
         </div>
 
-        <h1 className="mb-2 font-display-hero text-display-hero tracking-tight text-on-surface">{title}</h1>
+        <h1 className="mb-2 text-hero-mobile sm:text-display-hero tracking-tight text-on-surface">{title}</h1>
         <p className={cn("mb-1 font-headline-sm text-headline-sm text-outline", langFont(lang))}>
           {lang === "ne" ? q.titleNe : q.titleEn}
         </p>

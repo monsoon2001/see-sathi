@@ -66,7 +66,7 @@ export function ConfirmDialog({
     >
       <div className="absolute inset-0 bg-ink/50 backdrop-blur-sm" onClick={onClose ?? onCancel} aria-hidden="true" />
 
-      <div className="relative w-full max-w-md overflow-hidden rounded-3xl border border-surface-container bg-surface-container-lowest p-6 shadow-[0_24px_64px_rgba(0,0,0,0.35)] dark:border-surface-container-high dark:bg-surface-container-lowest dark:shadow-[0_24px_64px_rgba(0,0,0,0.6)]">
+      <div className="relative max-h-[85vh] w-full max-w-md overflow-y-auto rounded-3xl border border-surface-container bg-surface-container-lowest p-4 shadow-[0_24px_64px_rgba(0,0,0,0.35)] dark:border-surface-container-high dark:bg-surface-container-lowest dark:shadow-[0_24px_64px_rgba(0,0,0,0.6)] sm:p-6">
         <div className={cn("pointer-events-none absolute -right-12 -top-12 h-32 w-32 rounded-full blur-2xl", toneClasses.glow)} aria-hidden="true" />
         <button
           type="button"
@@ -77,7 +77,7 @@ export function ConfirmDialog({
           <X className="h-[18px] w-[18px]" aria-hidden="true" />
         </button>
 
-        <div className={cn("relative mb-4 flex h-14 w-14 items-center justify-center rounded-2xl shadow-sm", toneClasses.icon)}>
+        <div className={cn("relative mb-4 flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl shadow-sm sm:h-14 sm:w-14", toneClasses.icon)}>
           {confirmIcon}
         </div>
         <h3 id="cfm-title" className="relative font-headline-md text-headline-md tracking-tight text-on-surface">

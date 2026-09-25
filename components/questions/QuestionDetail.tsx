@@ -451,7 +451,7 @@ export function QuestionDetail({
         </div>
 
         <div className="flex flex-col items-center justify-between gap-4 border-t border-surface-container pt-2 sm:flex-row">
-          <div className="flex w-full items-center justify-between gap-2 sm:w-auto sm:justify-start">
+          <div className="flex w-full flex-wrap items-center justify-between gap-2 sm:w-auto sm:justify-start">
             <Link
               href={prev ? `/subjects/${subject.slug}/${chapter.slug}/questions/${prev.id}` : `/subjects/${subject.slug}/${chapter.slug}/questions`}
               className="inline-flex items-center gap-1 rounded-full bg-surface-container px-4 py-2 text-title text-on-surface shadow-sm transition-colors hover:bg-surface-container-high"
@@ -466,7 +466,7 @@ export function QuestionDetail({
               <ArrowRight className="h-[18px] w-[18px]" aria-hidden="true" />
             </Link>
           </div>
-          <div className="flex w-full items-center justify-end gap-1 sm:w-auto">
+          <div className="flex w-full flex-wrap items-center justify-end gap-1 sm:w-auto">
             <button
               type="button"
               onClick={() => setBookmarked((v) => !v)}

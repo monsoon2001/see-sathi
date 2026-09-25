@@ -67,7 +67,7 @@ export function QuestionBoard({
   return (
     <ReaderShell>
       <ScrollProgressBar />
-      <div className="relative mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="relative mx-auto w-full max-w-7xl overflow-hidden px-4 sm:px-6 lg:px-8">
       <div className="pointer-events-none absolute left-1/3 top-12 -z-10 h-96 w-96 rounded-full bg-primary-fixed-dim/20 blur-3xl" />
       <div className="pointer-events-none absolute right-10 top-44 -z-10 h-80 w-80 rounded-full bg-secondary-fixed/20 blur-3xl" />
 

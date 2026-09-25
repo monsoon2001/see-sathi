@@ -21,7 +21,7 @@ export function InfoPage({
           <span className="inline-flex items-center gap-1 rounded-full bg-primary-fixed px-3 py-1 font-label-caps text-label-caps uppercase tracking-wider text-primary">
             {eyebrow}
           </span>
-          <h1 className="mt-3 font-display-hero text-display-hero tracking-tight text-on-surface">{title}</h1>
+          <h1 className="mt-3 text-hero-mobile sm:text-display-hero tracking-tight text-on-surface">{title}</h1>
           {subtitle && <p className="mt-3 max-w-3xl font-body-lg text-body-lg leading-relaxed text-on-surface-variant">{subtitle}</p>}
         </div>
       </section>
@@ -54,9 +54,9 @@ export function InfoSection({
 }) {
   return (
     <section>
-      <div className="flex items-center gap-2.5">
+      <div className="flex items-start gap-2.5">
         {Icon && (
-          <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-primary-fixed text-primary">
+          <span className="mt-0.5 flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-primary-fixed text-primary">
             <Icon className="h-[18px] w-[18px]" aria-hidden="true" />
           </span>
         )}

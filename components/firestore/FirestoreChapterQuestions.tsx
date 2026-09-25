@@ -48,7 +48,7 @@ export function FirestoreChapterQuestions({
             <FileQuestion className="h-4 w-4" aria-hidden="true" />
             <span className="font-label-caps text-label-caps uppercase tracking-wider">Live library unavailable</span>
           </div>
-          <h1 className="mt-6 font-display-hero text-display-hero tracking-tight text-on-surface">Couldn’t reach the question bank.</h1>
+          <h1 className="mt-6 text-hero-mobile sm:text-display-hero tracking-tight text-on-surface">Couldn’t reach the question bank.</h1>
           <p className="mx-auto mt-3 max-w-md font-body-lg text-body-lg text-on-surface-variant">
             The solved questions for this chapter couldn&apos;t load. Check your connection and try again in a moment.
           </p>
@@ -69,11 +69,11 @@ export function FirestoreChapterQuestions({
   return (
     <ReaderShell>
       <div className="pb-24">
-      <div className="sticky top-20 z-40">
+      <div className="sticky top-16 z-40 sm:top-20">
         <ScrollProgressBar />
         <div className="border-b border-surface-container bg-background/90 backdrop-blur">
         <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-3 px-4 py-3 lg:px-8">
-          <nav aria-label="Breadcrumb" className="flex items-center gap-1.5 text-on-surface-variant">
+          <nav aria-label="Breadcrumb" className="flex flex-wrap items-center gap-1.5 text-on-surface-variant">
             <Link
               href={`/subjects/${subject.slug}/${chapter.slug}`}
               className="flex items-center gap-1 rounded-full bg-surface-container-lowest px-4 py-1.5 font-title text-body-sm text-on-surface shadow-sm transition-colors hover:text-primary"
@@ -107,7 +107,7 @@ export function FirestoreChapterQuestions({
           </span>
         </div>
 
-        <h1 className="mb-3 font-display-hero text-display-hero tracking-tight text-on-surface">{title}</h1>
+        <h1 className="mb-3 text-hero-mobile sm:text-display-hero tracking-tight text-on-surface">{title}</h1>
         <p className={cn("mb-8 max-w-2xl font-body-lg text-body-lg text-on-surface-variant", langFont(lang))}>
           {lang === "en"
             ? `Every question in this chapter, answered and explained — step-by-step solutions drawn live from the chapter library across ${sections.length} question ${sections.length === 1 ? "section" : "sections"}.`

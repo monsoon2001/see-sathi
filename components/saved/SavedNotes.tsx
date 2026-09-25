@@ -36,7 +36,7 @@ export function SavedNotes() {
   }
 
   return (
-    <div className="relative mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div className="relative mx-auto w-full max-w-7xl overflow-hidden px-4 sm:px-6 lg:px-8">
       <div className="pointer-events-none absolute left-1/4 top-10 -z-10 h-96 w-96 rounded-full bg-primary/5 blur-3xl" />
       <div className="pointer-events-none absolute right-10 top-48 -z-10 h-80 w-80 rounded-full bg-secondary-container/5 blur-3xl" />
 
@@ -50,7 +50,7 @@ export function SavedNotes() {
         <div className="flex flex-col justify-between gap-6 lg:flex-row lg:items-end">
           <div className="max-w-3xl space-y-2">
             <div className="flex flex-wrap items-center gap-4">
-              <h1 className="text-display-hero tracking-tight text-on-surface sm:text-display-hero">Saved Notes</h1>
+              <h1 className="text-hero-mobile tracking-tight text-on-surface sm:text-display-hero">Saved Notes</h1>
               <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-primary-container text-on-primary shadow-[0_4px_16px_rgba(75,79,242,0.32)]">
                 <Bookmark className="h-[26px] w-[26px]" fill="currentColor" aria-hidden="true" />
               </div>

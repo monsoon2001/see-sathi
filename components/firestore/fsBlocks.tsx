@@ -88,18 +88,19 @@ export function MathInline({ text, lang }: { text: string; lang: Lang }) {
         });
         if (part.kind === "display") {
           return (
-            <span
-              key={i}
-              className="my-2 block overflow-x-auto py-1 text-center"
-              // eslint-disable-next-line react/no-danger
-              dangerouslySetInnerHTML={{ __html: html }}
-            />
+            <span key={i} className="my-2 block overflow-x-auto overscroll-x-contain py-1">
+              <span
+                className="mx-auto block w-max min-w-full text-center"
+                // eslint-disable-next-line react/no-danger
+                dangerouslySetInnerHTML={{ __html: html }}
+              />
+            </span>
           );
         }
         return (
           <span
             key={i}
-            className="mx-0.5 inline-block align-middle"
+            className="mx-0.5 inline-block max-w-full overflow-x-auto align-middle"
             // eslint-disable-next-line react/no-danger
             dangerouslySetInnerHTML={{ __html: html }}
           />
@@ -111,7 +112,7 @@ export function MathInline({ text, lang }: { text: string; lang: Lang }) {
 
 export function LangToggle({ lang, onChange }: { lang: Lang; onChange: (l: Lang) => void }) {
   return (
-    <div className="inline-flex items-center gap-1 rounded-full bg-surface-container p-1">
+    <div className="inline-flex shrink-0 items-center gap-1 rounded-full bg-surface-container p-1">
       {(
         [
           { key: "en", label: "English" },
@@ -123,7 +124,7 @@ export function LangToggle({ lang, onChange }: { lang: Lang; onChange: (l: Lang)
           type="button"
           onClick={() => onChange(o.key)}
           className={cn(
-            "rounded-full px-4 py-1.5 font-title text-body-sm transition-all",
+            "shrink-0 whitespace-nowrap rounded-full px-3 py-1.5 font-title text-body-sm transition-all sm:px-4",
             lang === o.key ? "bg-surface-container-lowest text-on-surface shadow-sm" : "font-medium text-on-surface-variant hover:text-on-surface",
           )}
         >
@@ -142,7 +143,7 @@ export function BilingualTable({ table, lang }: { table: FsTable; lang: Lang }) 
           <thead>
             <tr className="bg-surface-container-high">
               {table.headers.map((h, i) => (
-                <th key={i} className={cn("px-5 py-4 font-title text-title text-on-surface", langFont(lang))}>
+                <th key={i} className={cn("whitespace-nowrap px-3 py-2.5 font-title text-title text-on-surface sm:px-5 sm:py-4", langFont(lang))}>
                   {pickText(h, lang)}
                 </th>
               ))}
@@ -153,7 +154,7 @@ export function BilingualTable({ table, lang }: { table: FsTable; lang: Lang }) 
           {table.rows.map((row, ri) => (
             <tr key={ri} className="border-t border-surface-container">
               {row.map((cell, ci) => (
-                <td key={ci} className={cn("px-5 py-4 align-top text-[0.88em] leading-[1.41em] text-on-surface-variant", langFont(lang))}>
+                <td key={ci} className={cn("px-3 py-2.5 align-top text-[0.88em] leading-[1.41em] text-on-surface-variant sm:px-5 sm:py-4", langFont(lang))}>
                   {pickText(cell, lang)}
                 </td>
               ))}
@@ -189,7 +190,7 @@ export function ImageBox({ src, alt }: { src: string; alt?: string }) {
   return (
     <>
       <figure className="my-4 overflow-hidden rounded-2xl border border-surface-container bg-surface-container-low">
-        <button type="button" onClick={() => setOpen(true)} className="relative block w-full h-[34rem] cursor-zoom-in" aria-label="Open image viewer">
+        <button type="button" onClick={() => setOpen(true)} className="relative block aspect-[4/3] w-full cursor-zoom-in sm:aspect-[16/10]" aria-label="Open image viewer">
           <Image
             src={src}
             alt={alt || "Illustration"}

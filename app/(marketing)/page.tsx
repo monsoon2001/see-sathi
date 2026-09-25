@@ -148,8 +148,8 @@ export default async function HomePage() {
               {/* Main Mockup Container */}
               <div className="relative w-full rounded-[2rem] bg-[#ffffff] p-4 shadow-[0_2px_8px_rgba(24,26,43,0.04),0_20px_48px_rgba(24,26,43,0.08)] transition-transform duration-300 hover:-translate-y-1 sm:p-6">
                 {/* Header bar of the study module */}
-                <div className="flex items-center justify-between gap-2 pb-2">
-                  <div className="flex items-center gap-1">
+                <div className="flex flex-col items-start gap-2 pb-2 sm:flex-row sm:items-center sm:justify-between">
+                  <div className="flex flex-wrap items-center gap-1">
                     <span className="rounded-full bg-[#e1e0ff] px-2 py-0.5 font-sans text-[11px] font-bold uppercase tracking-[0.08em] text-[#04006d]">
                       C. Mathematics
                     </span>
@@ -167,7 +167,7 @@ export default async function HomePage() {
 
                 {/* Chapter Title & Progress */}
                 <div className="space-y-1 pt-1">
-                  <div className="flex items-baseline justify-between">
+                  <div className="flex flex-wrap items-baseline justify-between gap-1">
                     <h3 className="font-display text-[20px] font-semibold tracking-tight text-[#181a2b]">Set Theory (Sets)</h3>
                     <span className="font-sans text-[11px] font-bold uppercase tracking-[0.08em] text-[#4b4ff2]">72% Completed</span>
                   </div>
@@ -178,7 +178,7 @@ export default async function HomePage() {
 
                 {/* Solved Question Preview Box */}
                 <div className="mt-4 space-y-2 rounded-[1rem] bg-[#f4f2ff] p-4">
-                  <div className="flex items-center justify-between">
+                  <div className="flex flex-wrap items-center justify-between gap-1">
                     <span className="font-sans text-[11px] font-bold uppercase tracking-[0.08em] text-[#454556]">SEE MODEL Q.NO. 1</span>
                     <span className="rounded bg-[#edecff] px-1 py-0.5 font-sans text-[10px] font-bold uppercase tracking-[0.08em] text-[#181a2b]">
                       Weightage 4 Marks
@@ -203,9 +203,9 @@ export default async function HomePage() {
                 </div>
 
                 {/* Micro Quick-actions inside card */}
-                <div className="mt-4 flex items-center justify-between font-body text-sm text-[#454556]">
-                  <span className="flex items-center gap-1">
-                    <CheckCircle2 className="h-4 w-4 text-[#005b34]" />
+                <div className="mt-4 flex flex-col items-start gap-2 font-body text-sm text-[#454556] sm:flex-row sm:items-center sm:justify-between">
+                  <span className="flex min-w-0 items-center gap-1">
+                    <CheckCircle2 className="h-4 w-4 shrink-0 text-[#005b34]" />
                     Topper Solution Attached
                   </span>
                   <span className="inline-flex items-center gap-0.5 text-[16px] font-semibold text-[#2f30da]">
@@ -215,9 +215,9 @@ export default async function HomePage() {
               </div>
 
               {/* Floating Formula Chip */}
-              <div className="absolute -bottom-4 -right-2 z-20 flex items-center gap-1 rounded-full bg-[#2d2f41] px-4 py-1 text-[#f1efff] shadow-[0_10px_25px_rgba(0,0,0,0.18)] sm:-right-4">
-                <Sigma className="h-4 w-4 text-[#7cfbb1]" />
-                <span className="font-mono text-[11px] font-semibold tracking-tight text-[#f1efff]">n(A∪B) = n(A) + n(B) − n(A∩B)</span>
+              <div className="absolute -bottom-4 right-0 z-20 flex max-w-[calc(100vw-2.5rem)] items-center gap-1 rounded-full bg-[#2d2f41] px-4 py-1 text-[#f1efff] shadow-[0_10px_25px_rgba(0,0,0,0.18)] sm:-right-4">
+                <Sigma className="h-4 w-4 shrink-0 text-[#7cfbb1]" />
+                <span className="truncate font-mono text-[11px] font-semibold tracking-tight text-[#f1efff]">n(A∪B) = n(A) + n(B) − n(A∩B)</span>
               </div>
             </div>
           </div>
@@ -227,7 +227,7 @@ export default async function HomePage() {
       {/* ── STATS BAR ───────────────────────────────────────────────────── */}
       <section className="w-full bg-[#0E1020] py-10 text-[#f1efff]">
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
-          <div className="grid grid-cols-2 gap-6 lg:grid-cols-4 lg:gap-10">
+          <div className="grid grid-cols-1 gap-6 min-[400px]:grid-cols-2 sm:gap-6 lg:grid-cols-4 lg:gap-10">
             {stats.map((s) => (
               <div key={s.title} className="flex flex-col gap-1">
                 <div className="flex items-baseline gap-1">
@@ -264,9 +264,9 @@ export default async function HomePage() {
               </div>
               <h3 className="mb-1 font-display text-[20px] font-semibold tracking-tight text-[#181a2b]">{f.title}</h3>
               <p className="flex-grow font-body text-[14px] leading-[22px] text-[#454556]">{f.body}</p>
-              <div className="mt-4 flex items-center gap-1 rounded-[1rem] bg-[#f4f2ff]/50 p-1">
-                <f.chipIcon className={`h-[18px] w-[18px] ${f.chipColor}`} />
-                <span className="font-sans text-[11px] font-bold uppercase tracking-[0.08em] text-[#454556]">{f.chip}</span>
+              <div className="mt-4 flex flex-wrap items-center gap-1 rounded-[1rem] bg-[#f4f2ff]/50 p-1">
+                <f.chipIcon className={`h-[18px] w-[18px] shrink-0 ${f.chipColor}`} />
+                <span className="min-w-0 font-sans text-[10px] font-bold uppercase leading-4 tracking-[0.08em] text-[#454556] xl:text-[11px]">{f.chip}</span>
               </div>
             </div>
           ))}
@@ -341,20 +341,20 @@ export default async function HomePage() {
           {/* Right Column: Live Chapter Mockup */}
           <div className="lg:col-span-7">
             <div className="space-y-5 rounded-[2rem] bg-[#ffffff] p-5 shadow-[0_4px_24px_rgba(24,26,43,0.06)] sm:p-7">
-              <div className="flex items-center justify-between">
-                <div className="flex items-center gap-1">
-                  <span className="h-3 w-3 rounded-full bg-[#ffdad6]" />
-                  <span className="h-3 w-3 rounded-full bg-[#ffdad3]" />
-                  <span className="h-3 w-3 rounded-full bg-[#7cfbb1]" />
+              <div className="flex flex-col items-start gap-2 sm:flex-row sm:items-center sm:justify-between">
+                <div className="flex min-w-0 flex-wrap items-center gap-1">
+                  <span className="h-3 w-3 shrink-0 rounded-full bg-[#ffdad6]" />
+                  <span className="h-3 w-3 shrink-0 rounded-full bg-[#ffdad3]" />
+                  <span className="h-3 w-3 shrink-0 rounded-full bg-[#7cfbb1]" />
                   <span className="ml-2 font-mono text-[12px] font-semibold text-[#454556]">Science · Unit 06</span>
                 </div>
-                <span className="rounded-full bg-[#edecff] px-2 py-0.5 font-sans text-[11px] font-bold uppercase tracking-[0.08em] text-[#181a2b]">
+                <span className="inline-flex items-center rounded-full bg-[#edecff] px-2 py-0.5 font-sans text-[11px] font-bold uppercase tracking-[0.08em] text-[#181a2b]">
                   Curriculum 2081/82
                 </span>
               </div>
 
               <div className="space-y-1.5">
-                <span className="font-sans text-[11px] font-bold uppercase tracking-[0.08em] text-[#005b34]">PHYSICS · ELECTRICITY &amp; MAGNETISM</span>
+                <span className="font-sans text-[10px] font-bold uppercase leading-4 tracking-[0.08em] text-[#005b34] sm:text-[11px]">PHYSICS · ELECTRICITY &amp; MAGNETISM</span>
                 <h3 className="font-display text-[24px] font-bold tracking-[-0.02em] text-[#181a2b]">Ohm&apos;s Law &amp; Circuit Calculations</h3>
                 <p className="font-body text-[14px] leading-[22px] text-[#454556]">
                   &ldquo;The electric current passing through a conductor is directly proportional to the potential difference across its ends, provided physical conditions remain constant.&rdquo;
@@ -362,23 +362,23 @@ export default async function HomePage() {
               </div>
 
               <div className="flex flex-col items-start justify-between gap-2 rounded-[1rem] bg-[#7cfbb1]/30 p-4 sm:flex-row sm:items-center">
-                <div className="flex items-center gap-4">
-                  <div className="font-mono text-[28px] font-extrabold tracking-wider text-[#005b34]">V = I × R</div>
-                  <div className="space-y-0.5 text-[12px] font-mono text-[#454556]">
+                <div className="flex w-full min-w-0 flex-col items-start gap-2 sm:w-auto sm:flex-row sm:items-center sm:gap-4">
+                  <div className="min-w-0 break-words font-mono text-[20px] font-extrabold tracking-wider text-[#005b34] sm:text-[24px] lg:text-[28px]">V = I × R</div>
+                  <div className="space-y-0.5 text-[11px] font-mono text-[#454556] sm:text-[12px]">
                     <div>V = Potential Difference (Volts, V)</div>
                     <div>I = Electric Current (Amperes, A)</div>
                     <div>R = Electrical Resistance (Ohms, Ω)</div>
                   </div>
                 </div>
-                <button className="shrink-0 rounded-full bg-[#ffffff] px-2 py-1 font-sans text-[11px] font-bold uppercase tracking-[0.08em] text-[#005b34] shadow-sm transition-colors hover:bg-[#fbf8ff]">
+                <button className="w-full shrink-0 rounded-full bg-[#ffffff] px-2 py-1 font-sans text-[11px] font-bold uppercase tracking-[0.08em] text-[#005b34] shadow-sm transition-colors hover:bg-[#fbf8ff] sm:w-auto">
                   Copy Formula
                 </button>
               </div>
 
               <div className="space-y-1 rounded-[1rem] bg-[#f4f2ff] p-4">
-                <div className="flex items-center justify-between">
+                <div className="flex flex-col items-start gap-1.5 sm:flex-row sm:items-center sm:justify-between">
                   <span className="font-sans text-[11px] font-bold uppercase tracking-[0.08em] text-[#181a2b]">SEE 2079 Question (3 Marks)</span>
-                  <span className="rounded-full bg-[#ffffff] px-1 py-0.5 font-sans text-[10px] font-bold uppercase tracking-[0.08em] text-[#005b34]">
+                  <span className="rounded-full bg-[#ffffff] px-2 py-0.5 font-sans text-[10px] font-bold uppercase tracking-[0.08em] text-[#005b34] sm:text-[11px]">
                     Step-by-step CDC solution
                   </span>
                 </div>
@@ -397,7 +397,7 @@ export default async function HomePage() {
 
       {/* ── STUDENT COMMUNITY MOSAIC ────────────────────────────────────── */}
       <section className="mx-auto max-w-7xl px-4 pb-10 lg:px-8">
-        <div className="rounded-[3rem] bg-[#ffffff] p-6 shadow-sm lg:p-10">
+        <div className="rounded-[2rem] bg-[#ffffff] p-6 shadow-sm lg:rounded-[3rem] lg:p-10">
           <div className="grid grid-cols-1 items-center gap-6 lg:grid-cols-12">
             <div className="space-y-2 lg:col-span-5">
               <span className="font-sans text-[11px] font-bold uppercase tracking-[0.08em] text-[#b5250c]">Nepal-Wide Community</span>
@@ -414,7 +414,7 @@ export default async function HomePage() {
               </div>
             </div>
 
-            <div className="grid grid-cols-2 items-stretch gap-2 sm:grid-cols-3 lg:col-span-7 lg:gap-3">
+            <div className="grid grid-cols-1 items-stretch gap-2 min-[380px]:grid-cols-2 sm:grid-cols-3 lg:col-span-7 lg:gap-3">
               {regions.map((r) => (
                 <div key={r.name} className="flex flex-col gap-1.5 rounded-[1rem] bg-[#f4f2ff] p-3">
                   <span className="truncate font-display text-[15px] font-semibold leading-tight text-[#181a2b]" title={r.name}>
@@ -509,11 +509,14 @@ function SubjectCardDesign({ subject }: { subject: Subject }) {
 
   return (
     <div className="group flex flex-col rounded-[2rem] bg-[#ffffff] p-6 shadow-sm transition-all duration-200 hover:shadow-md">
-      <div className="mb-4 flex items-center justify-between">
-        <span className="rounded-full px-2 py-0.5 font-sans text-[11px] font-bold uppercase tracking-[0.08em]" style={{ backgroundColor: pill.bg, color: pill.text }}>
+      <div className="mb-4 flex flex-wrap items-center justify-between gap-x-2 gap-y-1">
+        <span
+          className="whitespace-nowrap rounded-full px-2 py-0.5 font-sans text-[10px] font-bold uppercase tracking-[0.08em] sm:text-[11px]"
+          style={{ backgroundColor: pill.bg, color: pill.text }}
+        >
           {typeLabel}
         </span>
-        <span className="font-sans text-[11px] font-bold uppercase tracking-[0.08em] text-[#454556]">{meta.sub}</span>
+        <span className="font-sans text-[10px] font-bold uppercase tracking-[0.08em] text-[#454556] sm:text-[11px]">{meta.sub}</span>
       </div>
 
       <div className="mb-2 flex items-center gap-2">

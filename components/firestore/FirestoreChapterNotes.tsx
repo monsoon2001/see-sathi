@@ -65,7 +65,7 @@ export function FirestoreChapterNotes({
             <BookOpen className="h-4 w-4" aria-hidden="true" />
             <span className="font-label-caps text-label-caps uppercase tracking-wider">Live library unavailable</span>
           </div>
-          <h1 className="mt-6 font-display-hero text-display-hero tracking-tight text-on-surface">Couldn’t reach the chapter data.</h1>
+          <h1 className="mt-6 text-hero-mobile sm:text-display-hero tracking-tight text-on-surface">Couldn’t reach the chapter data.</h1>
           <p className="mx-auto mt-3 max-w-md font-body-lg text-body-lg text-on-surface-variant">
             We couldn’t load the notes for this chapter. Check your connection and try again in a moment.
           </p>
@@ -86,11 +86,11 @@ export function FirestoreChapterNotes({
   return (
     <ReaderShell>
       <div className="pb-24">
-      <div className="sticky top-20 z-40">
+      <div className="sticky top-16 z-40 sm:top-20">
         <ScrollProgressBar />
         <div className="border-b border-surface-container bg-background/90 backdrop-blur">
           <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-3 px-4 py-3 lg:px-8">
-            <nav aria-label="Breadcrumb" className="flex items-center gap-1.5 text-on-surface-variant">
+            <nav aria-label="Breadcrumb" className="flex flex-wrap items-center gap-1.5 text-on-surface-variant">
               <Link
                 href={`/subjects/${subject.slug}/${chapter.slug}`}
                 className="flex items-center gap-1 rounded-full bg-surface-container-lowest px-4 py-1.5 font-title text-body-sm text-on-surface shadow-sm transition-colors hover:text-primary"
@@ -102,7 +102,7 @@ export function FirestoreChapterNotes({
                 {lang === "ne" ? `${subject.name} · एकाइ ${doc.number}` : `${subject.name} · Unit ${doc.number}`}
               </span>
             </nav>
-            <div className="flex items-center gap-2">
+            <div className="flex flex-wrap items-center gap-2">
               <SaveNoteButton subject={subject} chapter={chapter} />
               <ReaderThemeToggle />
               <FontSizeControl value={fontSize} onChange={setFontSize} />
@@ -125,7 +125,7 @@ export function FirestoreChapterNotes({
           </span>
         </div>
 
-        <h1 className="mb-3 font-display-hero text-display-hero tracking-tight text-on-surface">{title}</h1>
+        <h1 className="mb-3 text-hero-mobile sm:text-display-hero tracking-tight text-on-surface">{title}</h1>
         <div className="mb-1 flex flex-wrap items-center gap-2 font-body-md text-body-md text-on-surface-variant">
           <span className="inline-flex items-center gap-1.5 rounded-full bg-tertiary-fixed/40 px-2.5 py-1 text-tertiary">
             <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-tertiary" aria-hidden="true" />

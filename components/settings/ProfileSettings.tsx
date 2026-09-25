@@ -182,7 +182,7 @@ export function ProfileSettings() {
             <School className="text-[15px]" aria-hidden="true" />
             <span className="font-label-caps text-label-caps">Academic Identity Hub</span>
           </div>
-          <h1 className="font-display-hero text-display-hero tracking-tight text-on-surface">Student Profile &amp; Preferences</h1>
+          <h1 className="text-hero-mobile sm:text-display-hero tracking-tight text-on-surface">Student Profile &amp; Preferences</h1>
           <p className="max-w-xl font-body-md text-body-md text-on-surface-variant">
             Manage your SEE 2082/2083 candidacy profile, tactile typography scales, and offline revision bundles.
           </p>

@@ -51,7 +51,7 @@ export function ChapterProgressToggle({ chapterId, compact }: { chapterId: strin
             title={opt.label}
             onClick={() => setStatus(chapterId, opt.status)}
             className={cn(
-              "inline-flex flex-1 items-center justify-center gap-1 rounded-full px-3 py-1.5 font-title text-body-sm transition-all",
+              "inline-flex min-w-0 flex-1 items-center justify-center gap-1 whitespace-nowrap rounded-full px-3 py-1.5 font-title text-body-sm transition-all",
               active ? ACTIVE_CLASS[opt.status] : "text-on-surface-variant hover:text-on-surface",
             )}
           >

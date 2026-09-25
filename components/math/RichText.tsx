@@ -55,18 +55,19 @@ export function RichText({ text, lang }: { text: string; lang: Lang }) {
         }
         if (part.kind === "display") {
           return (
-            <span
-              key={i}
-              className="my-2 block overflow-x-auto py-1 text-center"
-              // eslint-disable-next-line react/no-danger
-              dangerouslySetInnerHTML={{ __html: renderMath(part.value, true) }}
-            />
+            <span key={i} className="my-2 block overflow-x-auto overscroll-x-contain py-1">
+              <span
+                className="mx-auto block w-max min-w-full text-center"
+                // eslint-disable-next-line react/no-danger
+                dangerouslySetInnerHTML={{ __html: renderMath(part.value, true) }}
+              />
+            </span>
           );
         }
         return (
           <span
             key={i}
-            className="mx-0.5 inline-block align-middle"
+            className="mx-0.5 inline-block max-w-full overflow-x-auto align-middle"
             // eslint-disable-next-line react/no-danger
             dangerouslySetInnerHTML={{ __html: renderMath(part.value, false) }}
           />

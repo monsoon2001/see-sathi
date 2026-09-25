@@ -230,16 +230,16 @@ export function SubjectsDirectory({ subjects }: { subjects: Subject[] }) {
   ];
 
   return (
-    <div className="relative mx-auto w-full max-w-7xl px-4 pb-10 lg:px-8">
+    <div className="relative mx-auto w-full max-w-7xl overflow-hidden px-4 pb-10 lg:px-8">
       <div className="pointer-events-none absolute -top-16 left-1/4 -z-10 h-96 w-96 rounded-full bg-primary-fixed/30 blur-3xl" />
       <div className="pointer-events-none absolute right-10 top-48 -z-10 h-80 w-80 rounded-full bg-secondary-fixed/20 blur-3xl" />
 
       <header className="max-w-4xl pb-4 pt-6">
-        <div className="mb-2 inline-flex items-center gap-1 rounded-full bg-primary-fixed px-4 py-1 text-label-caps uppercase tracking-wider text-primary shadow-sm">
-          <span className="h-2 w-2 animate-pulse rounded-full bg-primary" />
+        <div className="mb-2 inline-flex w-fit max-w-full items-center gap-1 rounded-full bg-primary-fixed px-3 py-1 text-[10px] uppercase leading-4 tracking-wider text-primary shadow-sm sm:px-4 sm:text-label-caps">
+          <span className="h-2 w-2 shrink-0 animate-pulse rounded-full bg-primary" />
           Explore Curriculum · CDC Nepal 2081/2082
         </div>
-        <h1 className="mb-2 text-display-hero tracking-tight text-on-surface">Subjects</h1>
+        <h1 className="mb-2 text-hero-mobile tracking-tight text-on-surface sm:text-display-hero">Subjects</h1>
         <p className="max-w-3xl font-body-lg text-body-lg leading-relaxed text-on-surface-variant">
           Pick a subject and start studying, chapter by chapter. Formatted for high retention, step-by-step model answers, and official SEE mark distribution.
         </p>

@@ -129,13 +129,24 @@
 
   body {
     @apply bg-background font-body text-on-surface antialiased;
+    /* Clip (not hidden — hidden would break position:sticky) any content that
+       would otherwise push the page to pan horizontally, e.g. unbreakable
+       inline math or an oversized mockup on a narrow phone. */
+    overflow-x: clip;
   }
 
   ::selection {
     @apply bg-primary-fixed text-on-primary-fixed;
   }
 
-  ::-webkit-scrollbar {
+  /* Hide only the *window* scrollbar for a clean chrome look. Inner
+     overflow-x-auto regions (math, tables, code) keep their scrollbar so
+     users can discover scrollable content — the old unscoped rule made
+     every scroller invisible on Chrome/Safari. */
+  html {
+    scrollbar-width: none;
+  }
+  html::-webkit-scrollbar {
     display: none;
   }
 
